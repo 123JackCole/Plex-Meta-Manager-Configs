@@ -1,0 +1,30 @@
+[2022-07-07 11:16:49,178] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-07 11:16:49,178] [util.py:216]               [INFO]     |                              Jack's Whole AniList Collection in Anime                              |
+[2022-07-07 11:16:49,179] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-07-07 11:16:49,179] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-07-07 11:16:49,179] [util.py:216]               [INFO]     |============================ Validating Jack's Whole AniList Attributes ============================|
+[2022-07-07 11:16:49,179] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-07-07 11:16:49,180] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-07 11:16:49,180] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-07 11:16:49,180] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-07-07 11:16:49,180] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-07 11:16:49,180] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-07-07 11:16:49,180] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-07 11:16:49,181] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-07 11:16:49,181] [builder.py:474]            [DEBUG]    | Value: ++++++_zZzZEverything                                                                       |
+[2022-07-07 11:16:49,181] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-07 11:16:49,181] [builder.py:473]            [DEBUG]    | Validating Method: anilist_userlist                                                                |
+[2022-07-07 11:16:49,181] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'h0tsh0t'), ('list_name', 'all'), ('sort_by', 'title'), ('limit', 1000)]) |
+[2022-07-07 11:16:49,182] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-07-07 11:16:49,182] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-07-07 11:16:49,183] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-07-07 11:16:49,183] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 557, in __init__                 |
+[2022-07-07 11:16:49,183] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: {method_final} attribute not supported")                     |
+[2022-07-07 11:16:49,183] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: anilist_userlist attribute not supported                    |
+[2022-07-07 11:16:49,183] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-07-07 11:16:49,183] [util.py:159]               [ERROR]    | Collection Error: anilist_userlist attribute not supported                                         |
+[2022-07-07 11:16:49,183] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-07-07 11:16:49,184] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-07 11:16:49,184] [util.py:216]               [INFO]     |                              Finished Jack's Whole AniList Collection                              |
+[2022-07-07 11:16:49,184] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-07-07 11:16:49,184] [util.py:220]               [INFO]     |====================================================================================================|

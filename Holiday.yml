@@ -1,0 +1,167 @@
+templates:
+    Holiday:
+        file_poster: <<poster>>
+        sort_title: 00000a_<<collection_name>>
+        collection_order: release
+        visible_library: true
+        visible_home: true   
+        visible_shared: true
+        delete_not_scheduled: true
+        run_again: true
+        radarr_add_existing: true
+        radarr_add_missing: true
+collections:
+
+###########################
+#  Holliday Collections   #
+###########################
+
+  Ring In The New Year:
+    template: {name: Holiday, poster: ./config/posters/paintings/romance.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/new-years
+      - https://trakt.tv/users/galacticboy/lists/nye-sync
+    # imdb_list:
+    summary: Movies that are fun to watch to help bring in the new year.
+    schedule: range(11/26-01/02)
+  Celebrating Black Cinema:
+    template: {name: Holiday, poster: ./config/posters/paintings/essential_black.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/essential-black-movies
+      - https://trakt.tv/users/dprice34/lists/solidarity-black-cinema
+      - https://trakt.tv/users/zauskush/lists/black-films
+    # imdb_list:
+    summary: Movies about or by the people of the African Diaspora.
+    schedule: range(02/01-03/01)
+  Love Is In The Air:
+    template: {name: Holiday, poster: ./config/posters/paintings/romance.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/valentines-day
+      - https://trakt.tv/users/movistapp/lists/the-30-best-romantic-comedies-of-all-time
+      - https://trakt.tv/users/galacticboy/lists/imdb-top-200-romance-movies-1970
+    # imdb_list:
+    summary: A mix of Romance movies and just movies that are fun to watch around Valentines Day.
+    schedule: range(02/07-02/15)
+  Celebrating St Patricks:
+    template: {name: Holiday, poster: ./config/posters/paintings/st_patrick_day.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/essential-irish-movies
+    # imdb_list:
+    summary: A mix of Irish themed movies and just movies that are fun to watch around St Patricks Day. 
+    schedule: range(03/01-03/18)
+  Celebrating Easter:
+    template: {name: Holiday, poster: ./config/posters/paintings/easter_2.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/easter-movies
+    # imdb_list:
+    summary:  A mix of Easter themed movies and just movies that are fun to watch around Easter.
+    schedule: range(03/20-04/26)
+  Celebrating Mom:
+    template: {name: Holiday, poster: ./config/posters/paintings/mothers_day.jpg}
+    # trakt_list:
+      # - 
+    imdb_list:
+      - https://www.imdb.com/list/ls072551197/
+    summary: A mix of Motherhood themed movies and just movies that are fun to watch around Mothers Day. 
+    schedule: range(05/01-05/17)
+  Celebrating Memorial Day:
+    template: {name: Holiday, poster: ./config/posters/paintings/memorial_day_2.jpg}
+    #imdb_list:
+    #  -
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/movies-about-vets
+    summary:
+    schedule: range(05/18-05/31)
+    sync_mode: sync
+  Celebrating Fathers Day:
+    template: {name: Holiday, poster: ./config/posters/paintings/fathers_day.jpg}
+    imdb_list:
+      - https://www.imdb.com/list/ls071879454/
+    # trakt_list:
+    summary: A mix of Fatherhood themed movies and just movies that are fun to watch around Fathers Day.
+    schedule: range(06/10-06/22)
+  Best Blockbusters:
+    template: {name: Holiday, poster: ./config/posters/paintings/summers_blockbuster.jpg}
+    # trakt_list:
+      # - 
+    imdb_list: 
+      - https://www.imdb.com/list/ls043647621/
+    summary: Summer Blockbusters since the 70s.
+    schedule: range(06/25-07/15)
+  Celebrating Korean Cinema:
+    template: {name: Holiday, poster: ./config/posters/paintings/korean_cinema.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/top-korean-movies
+    # imdb_list:
+    summary: The top rated Korean movies according to IMDb and Letterboxd.
+    schedule: range(07/16-07/21)
+  Celebrating Japanese Cinema:
+    template: {name: Holiday, poster: ./config/posters/paintings/japanese.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/top-100-japanese-films-excluding-anime
+    # imdb_list:
+    summary: The top rated Japanese movies, Anime excluded, according to IMDb and Letterboxd.
+    schedule: range(07/22-07/29)
+  Celebrating Italian Cinema:
+    template: {name: Holiday, poster: ./config/posters/paintings/italian.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/top-100-italian-films
+    # imdb_list:
+    summary: The top rated Italian movies according to IMDb and Letterboxd.
+    schedule: range(07/30-08/05)
+  Celebrating French Cinema:
+    template: {name: Holiday, poster: ./config/posters/paintings/french.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/top-100-french-films
+    # imdb_list:
+    summary: The top rated French movies according to IMDb and Letterboxd.
+    schedule: range(08/06-08/12)
+  Best Coming of Age Movies:
+    template: {name: Holiday, poster: ./config/posters/paintings/coming_of_age.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/coming-of-age
+    # imdb_list:
+    summary: A mix of coming of age movies.
+    schedule: range(08/13-08/31)
+  Spooky Season Approaches:
+    template: {name: Holiday, poster: ./config/posters/paintings/halloween.jpg}
+    trakt_list:
+      - https://trakt.tv/users/kairbear08/lists/halloween
+      - https://trakt.tv/users/mybicycle/lists/halloween
+      - https://trakt.tv/users/jayinftl/lists/halloween
+      - https://trakt.tv/users/roswellgeek/lists/halloween
+      - https://trakt.tv/users/outspoken/lists/halloween-with-kids
+      - https://trakt.tv/users/dechevigny/lists/kids-halloween
+      - https://trakt.tv/users/jaytatro11/lists/kids-halloween-favorites?display=movie
+      - https://trakt.tv/users/philrivers/lists/dreadit-s-top-100-horror-films-2018-edition-r-horror
+      - https://trakt.tv/users/galacticboy/lists/horror-in-past-90-days
+      - https://trakt.tv/users/lish408/lists/rotten-tomatoes-best-horror-movies-of-all-time
+      - https://trakt.tv/users/ld667/lists/best-horror-movies-of-all-time
+      - https://trakt.tv/users/w1nt3r/lists/time-out-s-100-best-horror-films
+      - https://trakt.tv/users/movistapp/lists/horror
+      - https://trakt.tv/users/ttaggart/lists/horror-movies-to-watch
+      - https://trakt.tv/users/h0tsh0t/lists/jack-s-horror
+    summary: A mix of Halloween themed movies and just movies that are fun to watch around Halloween.
+    sync_mode: append
+    schedule: range(09/20-11/01)
+  Turkey Day Movies:
+    template: {name: Holiday, poster: ./config/posters/paintings/thanksgiving.jpg}
+    trakt_list:
+      - https://trakt.tv/users/galacticboy/lists/thanksgiving-movies
+      - https://trakt.tv/users/galacticboy/lists/tday-sync
+    # imdb_list:
+    summary: A mix of movies revolving around Thanksgiving or families in general.
+    schedule: range(11/02-11/30)
+    # radarr_tag: metathanksgiving
+  Its the Most Wonderful Time of the Year:
+    template: {name: Holiday, poster: ./config/posters/paintings/christmas.jpg}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/galacticboy/lists/xmas-sync
+    imdb_list:
+      - https://www.imdb.com/list/ls025976544/
+      - https://www.imdb.com/list/ls003863000/
+      - https://www.imdb.com/list/ls027454200/
+      - https://www.imdb.com/list/ls097998599/
+    summary: Christmas film is a genre that revolves around the plot involving Christmas.
+    schedule: range(11/30-12/26)

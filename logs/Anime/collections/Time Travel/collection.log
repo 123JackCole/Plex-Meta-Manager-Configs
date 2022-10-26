@@ -1,0 +1,172 @@
+[2022-07-13 01:17:23,655] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-13 01:17:23,656] [util.py:216]               [INFO]     |                                  Time Travel Collection in Anime                                   |
+[2022-07-13 01:17:23,656] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-07-13 01:17:23,656] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-07-13 01:17:23,657] [util.py:216]               [INFO]     |================================ Validating Time Travel Attributes =================================|
+[2022-07-13 01:17:23,657] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,657] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-13 01:17:23,657] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 78), ('poster', None)])                          |
+[2022-07-13 01:17:23,658] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,658] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-13 01:17:23,658] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-13 01:17:23,658] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,659] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-13 01:17:23,659] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-07-13 01:17:23,659] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,659] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-07-13 01:17:23,660] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 78, 'limit': 999}                                                              |
+[2022-07-13 01:17:23,660] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,660] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-13 01:17:23,660] [builder.py:474]            [DEBUG]    | Value: +++_Time Travel                                                                             |
+[2022-07-13 01:17:23,661] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,661] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-07-13 01:17:23,662] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-07-13 01:17:23,697] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-07-13 01:17:23,697] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-07-13 01:17:23,698] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-07-13 01:17:23,698] [util.py:216]               [INFO]     |================================== Running Time Travel Collection ==================================|
+[2022-07-13 01:17:23,698] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-07-13 01:17:23,699] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-13 01:17:23,699] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:23,699] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 78, 'limit': 999}                                                 |
+[2022-07-13 01:17:23,699] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:23,700] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 78                                                                |
+[2022-07-13 01:17:55,532] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:55,533] [mal.py:240]                [DEBUG]    | 113 MyAnimeList IDs Found: [9253, 31240, 31043, 38691, 42249, 39587, 40852, 30484, 32729, 2236, 249, 42203, 40750, 46095, 10863, 7785, 37497, 11933, 40904, 6811, 32188, 8246, 44074, 15335, 41946, 34321, 34102, 33012, 36936, 34136, 38735, 41911, 48549, 6974, 450, 452, 451, 39569, 21845, 449, 21437, 50612, 38814, 3359, 24135, 40602, 13261, 36517, 5597, 34209, 6951, 10308, 563, 4886, 48505, 35815, 49413, 24469, 12321, 36309, 247, 610, 49200, 14373, 29, 6712, 37618, 49241, 33341, 49590, 43693, 2392, 1187, 29855, 49550, 15719, 1022, 2281, 31521, 622, 648, 3727, 6219, 10690, 1906, 50105, 3019, 2973, 31201, 2666, 33087, 1345, 2674, 49847, 49652, 3115, 12727, 647, 3227, 31105, 1904, 7254, 1905, 5250, 1907, 9837, 12881, 30145, 28151, 51037, 40425, 51677, 44740] |
+[2022-07-13 01:17:55,542] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10863                                        |
+[2022-07-13 01:17:55,542] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32188                                        |
+[2022-07-13 01:17:55,544] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12431                                     |
+[2022-07-13 01:17:55,545] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17053                                     |
+[2022-07-13 01:17:55,548] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13475                                     |
+[2022-07-13 01:17:55,548] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35815                                        |
+[2022-07-13 01:17:55,549] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16531                                     |
+[2022-07-13 01:17:55,549] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49200                                        |
+[2022-07-13 01:17:55,549] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9259                                      |
+[2022-07-13 01:17:55,550] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49241                                        |
+[2022-07-13 01:17:55,550] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29855                                        |
+[2022-07-13 01:17:55,551] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49550                                        |
+[2022-07-13 01:17:55,551] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 15719                                        |
+[2022-07-13 01:17:55,551] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31521                                        |
+[2022-07-13 01:17:55,552] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8928                                      |
+[2022-07-13 01:17:55,553] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50105                                        |
+[2022-07-13 01:17:55,555] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11353                                     |
+[2022-07-13 01:17:55,555] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33087                                        |
+[2022-07-13 01:17:55,838] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16986                                     |
+[2022-07-13 01:17:55,838] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49652                                        |
+[2022-07-13 01:17:55,843] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12727                                        |
+[2022-07-13 01:17:55,843] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15658                                     |
+[2022-07-13 01:17:55,843] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1905                                         |
+[2022-07-13 01:17:55,844] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1907                                         |
+[2022-07-13 01:17:55,844] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4234                                      |
+[2022-07-13 01:17:55,844] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12881                                        |
+[2022-07-13 01:17:55,845] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30145                                        |
+[2022-07-13 01:17:55,845] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28151                                        |
+[2022-07-13 01:17:55,845] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17195                                     |
+[2022-07-13 01:17:55,845] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15104                                     |
+[2022-07-13 01:17:55,846] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51677                                        |
+[2022-07-13 01:17:55,846] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:55,847] [builder.py:1283]           [DEBUG]    | 82 IDs Found: [(244061, 'tvdb'), (305089, 'tvdb'), (303071, 'tvdb'), (355774, 'tvdb'), (393478, 'tvdb'), (305089, 'tvdb'), (355774, 'tvdb'), (339268, 'tvdb'), (307868, 'tvdb'), (14069, 'tmdb'), (71361, 'tvdb'), (305089, 'tvdb'), (388575, 'tvdb'), (397774, 'tvdb'), (140751, 'tvdb'), (351751, 'tvdb'), (259643, 'tvdb'), (388643, 'tvdb'), (71361, 'tvdb'), (50723, 'tmdb'), (402033, 'tvdb'), (245917, 'tmdb'), (388644, 'tvdb'), (428142, 'tmdb'), (320169, 'tvdb'), (346799, 'tvdb'), (475215, 'tmdb'), (356032, 'tvdb'), (384485, 'tvdb'), (171701, 'tvdb'), (22537, 'tmdb'), (42360, 'tmdb'), (34295, 'tmdb'), (615165, 'tmdb'), (284211, 'tvdb'), (34297, 'tmdb'), (276777, 'tvdb'), (355774, 'tvdb'), (359836, 'tvdb'), (81808, 'tvdb'), (281946, 'tvdb'), (356032, 'tvdb'), (146401, 'tvdb'), (88391, 'tvdb'), (355576, 'tvdb'), (72013, 'tmdb'), (246971, 'tvdb'), (80407, 'tvdb'), (71361, 'tvdb'), (384485, 'tvdb'), (276777, 'tvdb'), (255382, 'tvdb'), (341439, 'tvdb'), (79882, 'tvdb'), (75077, 'tvdb'), (79712, 'tvdb'), (88391, 'tvdb'), (358828, 'tvdb'), (313702, 'tvdb'), (408631, 'tvdb'), (391008, 'tvdb'), (70841, 'tmdb'), (80407, 'tvdb'), (81169, 'tvdb'), (250606, 'tvdb'), (199541, 'tvdb'), (107521, 'tvdb'), (64789, 'tmdb'), (126710, 'tmdb'), (233715, 'tmdb'), (80863, 'tmdb'), (284755, 'tmdb'), (142527, 'tmdb'), (27250, 'tmdb'), (162069, 'tmdb'), (112157, 'tmdb'), (79882, 'tvdb'), (79882, 'tvdb'), (79882, 'tvdb'), (79882, 'tvdb'), (331727, 'tvdb'), (391427, 'tmdb')] |
+[2022-07-13 01:17:55,847] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:17:55,862] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:55,862] [util.py:216]               [INFO]     |================================= Adding to Time Travel Collection =================================|
+[2022-07-13 01:17:55,863] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:55,863] [builder.py:1709]           [INFO]     | 1/1 | Time Travel Collection | = | Vivy: Fluorite Eye's Song                                       |
+[2022-07-13 01:17:55,863] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:55,864] [builder.py:1735]           [INFO]     | 1 Show Processed                                                                                   |
+[2022-07-13 01:17:55,864] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:55,864] [util.py:216]               [INFO]     |============================= Missing Movies from Library: Time Travel =============================|
+[2022-07-13 01:17:55,864] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:55,866] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | The Girl Who Leapt Through Time (2006) (TMDb: 14069)                  |
+[2022-07-13 01:17:55,866] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Naruto Shippuden the Movie: The Lost Tower (2010) (TMDb: 50723)       |
+[2022-07-13 01:17:55,868] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Gintama: The Movie: The Final Chapter: Be Forever Yorozuya (2013) (TMDb: 245917) |
+[2022-07-13 01:17:55,868] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Fate/Grand Order: First Order (2016) (TMDb: 428142)                   |
+[2022-07-13 01:17:55,870] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Mirai (2018) (TMDb: 475215)                                           |
+[2022-07-13 01:17:55,871] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Inuyasha the Movie 2: The Castle Beyond the Looking Glass (2002) (TMDb: 22537) |
+[2022-07-13 01:17:55,871] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Inuyasha the Movie: Affections Touching Across Time (2001) (TMDb: 42360) |
+[2022-07-13 01:17:55,873] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Inuyasha the Movie 3: Swords of an Honorable Ruler (2003) (TMDb: 34295) |
+[2022-07-13 01:17:55,874] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Her Blue Sky (2019) (TMDb: 615165)                                    |
+[2022-07-13 01:17:55,875] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Inuyasha the Movie 4: Fire on the Mystic Island (2004) (TMDb: 34297)  |
+[2022-07-13 01:17:55,876] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Yu-Gi-Oh!: Bonds Beyond Time (2010) (TMDb: 72013)                     |
+[2022-07-13 01:17:56,058] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Doraemon: Nobita's Dinosaur (2006) (TMDb: 70841)                      |
+[2022-07-13 01:17:56,646] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Doraemon: Nobita's Dinosaur (1980) (TMDb: 64789)                      |
+[2022-07-13 01:17:56,824] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Magic Tree House (2012) (TMDb: 126710)                                |
+[2022-07-13 01:17:56,825] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | In a Distant Time (2006) (TMDb: 233715)                               |
+[2022-07-13 01:17:56,825] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Lupin the Third: The Elusiveness of the Fog (2007) (TMDb: 80863)      |
+[2022-07-13 01:17:57,125] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Fire Tripper (1985) (TMDb: 284755)                                    |
+[2022-07-13 01:17:57,309] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Doraemon: Nobita and the Birth of Japan (1989) (TMDb: 142527)         |
+[2022-07-13 01:17:57,310] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Psychic Wars (1991) (TMDb: 27250)                                     |
+[2022-07-13 01:17:57,574] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Doraemon: Nobita's Diary on the Creation of the World (1995) (TMDb: 162069) |
+[2022-07-13 01:17:58,022] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | Space-Time Traveler - Time Stranger (1986) (TMDb: 112157)             |
+[2022-07-13 01:17:58,187] [builder.py:1943]           [INFO]     | Time Travel Collection | ? | The Dreams of Jinsha (2010) (TMDb: 391427)                            |
+[2022-07-13 01:17:58,187] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:58,188] [builder.py:1948]           [INFO]     | 22 Movies Missing                                                                                  |
+[2022-07-13 01:17:58,981] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:58,981] [util.py:216]               [INFO]     |============================= Missing Shows from Library: Time Travel ==============================|
+[2022-07-13 01:17:58,982] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-07-13 01:17:59,573] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Steins;Gate (TVDB: 244061)                                            |
+[2022-07-13 01:18:00,284] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Re: ZERO, Starting Life in Another World (TVDB: 305089)               |
+[2022-07-13 01:18:01,093] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Erased (TVDB: 303071)                                                 |
+[2022-07-13 01:18:01,801] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Dr. Stone (TVDB: 355774)                                              |
+[2022-07-13 01:18:02,680] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Tokyo Revengers (TVDB: 393478)                                        |
+[2022-07-13 01:18:03,143] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Steins;Gate 0 (TVDB: 339268)                                          |
+[2022-07-13 01:18:03,731] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Orange (TVDB: 307868)                                                 |
+[2022-07-13 01:18:04,518] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | InuYasha (TVDB: 71361)                                                |
+[2022-07-13 01:18:05,187] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Redo of Healer (TVDB: 388575)                                         |
+[2022-07-13 01:18:05,605] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | The Tatami Galaxy (TVDB: 140751)                                      |
+[2022-07-13 01:18:06,031] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | IRODUKU: The World in Colors (TVDB: 351751)                           |
+[2022-07-13 01:18:06,455] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Oda Nobuna's Ambition (TVDB: 259643)                                  |
+[2022-07-13 01:18:06,886] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Remake Our Life! (TVDB: 388643)                                       |
+[2022-07-13 01:18:07,623] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Link Click (TVDB: 402033)                                             |
+[2022-07-13 01:18:08,058] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | World's End Harem (TVDB: 388644)                                      |
+[2022-07-13 01:18:08,513] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Sagrada Reset (TVDB: 320169)                                          |
+[2022-07-13 01:18:09,470] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | ISLAND (TVDB: 346799)                                                 |
+[2022-07-13 01:18:09,826] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | 7Seeds (TVDB: 356032)                                                 |
+[2022-07-13 01:18:10,374] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Yashahime: Princess Half-Demon (TVDB: 384485)                         |
+[2022-07-13 01:18:10,840] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Occult Academy (TVDB: 171701)                                         |
+[2022-07-13 01:18:11,288] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | In Search of the Lost Future (TVDB: 284211)                           |
+[2022-07-13 01:18:11,666] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Buddy Complex (TVDB: 276777)                                          |
+[2022-07-13 01:18:12,134] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Nobunaga teacher's young bride (TVDB: 359836)                         |
+[2022-07-13 01:18:12,524] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Amatsuki (TVDB: 81808)                                                |
+[2022-07-13 01:18:13,212] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Nobunaga Concerto (TVDB: 281946)                                      |
+[2022-07-13 01:18:13,815] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Inazuma Eleven (TVDB: 146401)                                         |
+[2022-07-13 01:18:14,173] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Natsu no Arashi! (TVDB: 88391)                                        |
+[2022-07-13 01:18:14,790] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Meiji Tokyo Renka (TVDB: 355576)                                      |
+[2022-07-13 01:18:15,183] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Battle Girls - Time Paradox (TVDB: 246971)                            |
+[2022-07-13 01:18:15,563] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | DNA² (TVDB: 80407)                                                    |
+[2022-07-13 01:18:15,953] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Thermae Romae (TVDB: 255382)                                          |
+[2022-07-13 01:18:16,307] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Butlers: Chitose Momotose Monogatari (TVDB: 341439)                   |
+[2022-07-13 01:18:17,020] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Haruka: Beyond the Stream of Time – A Tale of the Eight Guardians (TVDB: 79882) |
+[2022-07-13 01:18:17,736] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Popotan (TVDB: 75077)                                                 |
+[2022-07-13 01:18:18,156] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Zipang (TVDB: 79712)                                                  |
+[2022-07-13 01:18:18,540] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Adorable Food Goddess (TVDB: 358828)                                  |
+[2022-07-13 01:18:18,917] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Time Travel Girl (TVDB: 313702)                                       |
+[2022-07-13 01:18:19,383] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Tatami Time Machine Blues (TVDB: 408631)                              |
+[2022-07-13 01:18:19,731] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Thermae Romae Novae (TVDB: 391008)                                    |
+[2022-07-13 01:18:20,204] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Generator Gawl (TVDB: 81169)                                          |
+[2022-07-13 01:18:20,619] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Flint the Time Detective (TVDB: 250606)                               |
+[2022-07-13 01:18:20,986] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Sandglass of Summer Colors (TVDB: 199541)                             |
+[2022-07-13 01:18:21,411] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | Hani Hani: Operation Sanctuary (TVDB: 107521)                         |
+[2022-07-13 01:18:21,762] [builder.py:1982]           [INFO]     | Time Travel Collection | ? | God Mazinger (TVDB: 331727)                                           |
+[2022-07-13 01:18:21,763] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-07-13 01:18:21,763] [builder.py:1987]           [INFO]     | 44 Shows Missing                                                                                   |
+[2022-07-13 01:18:22,483] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,483] [util.py:216]               [INFO]     |============================ Updating Details of Time Travel Collection ============================|
+[2022-07-13 01:18:22,483] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,484] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-07-13 01:18:22,484] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-07-13 01:18:22,516] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,516] [util.py:216]               [INFO]     |===================== Updating Details of the Items in Time Travel Collection ======================|
+[2022-07-13 01:18:22,516] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,632] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,632] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-07-13 01:18:22,633] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-07-13 01:18:22,633] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-07-13 01:18:22,633] [sonarr.py:71]              [DEBUG]    | (397774, "D:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")                             |
+[2022-07-13 01:18:22,852] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,853] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (397774, "D:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")         |
+[2022-07-13 01:18:22,853] [sonarr.py:171]             [INFO]     | 1 Series already exist in Sonarr                                                                   |
+[2022-07-13 01:18:22,854] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-07-13 01:18:22,854] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-13 01:18:22,854] [util.py:216]               [INFO]     |                                  Finished Time Travel Collection                                   |
+[2022-07-13 01:18:22,855] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:59                                    |
+[2022-07-13 01:18:22,855] [util.py:220]               [INFO]     |====================================================================================================|

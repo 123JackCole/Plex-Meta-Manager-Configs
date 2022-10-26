@@ -1,0 +1,27 @@
+[2022-01-16 15:04:37,885] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 15:04:37,885] [util.py:216]               [INFO]     |                                   Christmas Collection in Movies                                   |
+[2022-01-16 15:04:37,886] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-01-16 15:04:37,886] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-01-16 15:04:37,887] [util.py:216]               [INFO]     |================================= Validating Christmas Attributes ==================================|
+[2022-01-16 15:04:37,887] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-01-16 15:04:37,887] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-01-16 15:04:37,888] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Holiday'), ('poster', 'https://theposterdb.com/api/assets/111696')]) |
+[2022-01-16 15:04:37,888] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-01-16 15:04:37,888] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-01-16 15:04:37,889] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-01-16 15:04:37,889] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 15:04:37,889] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-01-16 15:04:37,890] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/movistapp/lists/christmas-movies', 'https://trakt.tv/users/2borno2b/lists/christmas-movies-extravanganza', 'https://trakt.tv/users/pualani78/lists/christmas-2020', 'https://trakt.tv/users/veninjak/lists/complete-christmas-2021-copy'] |
+[2022-01-16 15:04:37,890] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-01-16 15:04:37,891] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection |
+[2022-01-16 15:04:37,891] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-01-16 15:04:37,891] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 483, in __init__         |
+[2022-01-16 15:04:37,891] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: {method_final} requires Trakt to be configured")             |
+[2022-01-16 15:04:37,891] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: trakt_list requires Trakt to be configured                  |
+[2022-01-16 15:04:37,892] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-01-16 15:04:37,892] [util.py:159]               [ERROR]    | Collection Error: trakt_list requires Trakt to be configured                                       |
+[2022-01-16 15:04:37,892] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-01-16 15:04:37,892] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 15:04:37,893] [util.py:216]               [INFO]     |                                   Finished Christmas Collection                                    |
+[2022-01-16 15:04:37,893] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-01-16 15:04:37,893] [util.py:220]               [INFO]     |====================================================================================================|

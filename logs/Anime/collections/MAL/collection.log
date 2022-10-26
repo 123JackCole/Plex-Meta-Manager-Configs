@@ -1,0 +1,23 @@
+[2022-06-25 01:00:04,803] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-06-25 01:00:04,803] [util.py:216]               [INFO]     |                                      MAL Collection in Anime                                       |
+[2022-06-25 01:00:04,803] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-06-25 01:00:04,804] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-06-25 01:00:04,804] [util.py:216]               [INFO]     |==================================== Validating MAL Attributes =====================================|
+[2022-06-25 01:00:04,804] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-06-25 01:00:04,805] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-06-25 01:00:04,805] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', "Jack's List"), ('collection_name', None), ('poster', None), ('username', 'JCH0tsh0t')]) |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 267, in __init__                 |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    |     new_attributes = self.metadata.apply_template(self.name, self.data, self.data[methods["template"]]) |
+[2022-06-25 01:00:04,820] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\meta.py", line 92, in apply_template               |
+[2022-06-25 01:00:04,821] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.data_type} Error: template {variables['name']} not found")                |
+[2022-06-25 01:00:04,821] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: template Jack's List not found                              |
+[2022-06-25 01:00:04,821] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-06-25 01:00:04,821] [util.py:159]               [ERROR]    | Collection Error: template Jack's List not found                                                   |
+[2022-06-25 01:00:04,821] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-06-25 01:00:04,822] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-06-25 01:00:04,822] [util.py:216]               [INFO]     |                                      Finished MAL Collection                                       |
+[2022-06-25 01:00:04,822] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-06-25 01:00:04,822] [util.py:220]               [INFO]     |====================================================================================================|

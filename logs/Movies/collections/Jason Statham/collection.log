@@ -1,0 +1,38 @@
+[2022-01-16 14:55:10,187] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:10,188] [util.py:216]               [INFO]     |                                 Jason Statham Collection in Movies                                 |
+[2022-01-16 14:55:10,188] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:10,188] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:10,189] [util.py:216]               [INFO]     |=============================== Validating Jason Statham Attributes ================================|
+[2022-01-16 14:55:10,189] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:10,190] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-01-16 14:55:10,190] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'people'), ('person', 976)])                                          |
+[2022-01-16 14:55:10,190] [builder.py:367]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:10,191] [builder.py:368]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-01-16 14:55:10,191] [builder.py:372]            [DEBUG]    | Value: 976                                                                                         |
+[2022-01-16 14:55:10,325] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:10,325] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-01-16 14:55:10,325] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-01-16 14:55:10,326] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:10,326] [builder.py:473]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-01-16 14:55:10,326] [builder.py:474]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-01-16 14:55:10,362] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-01-16 14:55:10,362] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection |
+[2022-01-16 14:55:10,362] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-01-16 14:55:10,363] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 543, in __init__         |
+[2022-01-16 14:55:10,363] [util.py:162]               [DEBUG]    |     self._plex(method_name, method_data)                                                           |
+[2022-01-16 14:55:10,363] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 1075, in _plex           |
+[2022-01-16 14:55:10,363] [util.py:162]               [DEBUG]    |     self.builders.append(("plex_search", self.build_filter("plex_search", {"any": {method_name: method_data}}))) |
+[2022-01-16 14:55:10,364] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 1582, in build_filter    |
+[2022-01-16 14:55:10,364] [util.py:162]               [DEBUG]    |     built_filter, filter_text = _filter(base_dict, is_all=base_all)                                |
+[2022-01-16 14:55:10,364] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 1532, in _filter         |
+[2022-01-16 14:55:10,364] [util.py:162]               [DEBUG]    |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, pairs=True)  |
+[2022-01-16 14:55:10,365] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 1648, in validate_attribute |
+[2022-01-16 14:55:10,365] [util.py:162]               [DEBUG]    |     raise Failed(error)                                                                            |
+[2022-01-16 14:55:10,365] [util.py:162]               [DEBUG]    | modules.util.Failed: Plex Error: actor: Jason Statham not found                                    |
+[2022-01-16 14:55:10,365] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:10,365] [util.py:159]               [ERROR]    | Plex Error: actor: Jason Statham not found                                                         |
+[2022-01-16 14:55:10,366] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:10,366] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:10,367] [util.py:216]               [INFO]     |                                 Finished Jason Statham Collection                                  |
+[2022-01-16 14:55:10,367] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-01-16 14:55:10,367] [util.py:220]               [INFO]     |====================================================================================================|

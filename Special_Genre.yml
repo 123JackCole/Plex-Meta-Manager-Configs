@@ -1,0 +1,66 @@
+templates:
+  Special Genre:
+    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+    sort_title: 00000b__<<collection_name>>
+    collection_order: release
+    visible_library: true
+    visible_home: true
+    visible_shared: true
+    sync_mode: sync
+collections:
+
+#####################################
+#      Special Genre Collections    #
+#####################################
+
+  Trending Movies:
+    sort_title: 00000b_2
+    collection_order: custom
+    trakt_trending: 150
+    summary: A collection of movies trending across the internet
+    url_poster: https://i.imgur.com/LFJnVzC.jpg
+    limit: 100
+  Latest releases:
+    template: {name: Special Genre}
+    sort_title: 00000b_3
+    trakt_list: 
+      - https://trakt.tv/users/garycrawfordgc/lists/latest-releases
+      - https://trakt.tv/users/giladg/lists/latest-releases
+    summary: "Latest releases"
+    url_poster: https://i.imgur.com/D62EdJd.jpg
+    limit: 100
+  Popular Movies:
+    sort_title: 00000b_4
+    smart_label: random
+    trakt_watched_weekly: 150
+    summary: A collection of the most watched movies over the past week.
+    url_poster: https://i.imgur.com/WhHiFPX.jpg
+  Best Picture Winners:
+    template: {name: Special Genre}
+    imdb_list: https://www.imdb.com/list/ls062667125/
+    summary: A collection of all Oscar winners.
+    sort_title: 00000b_5
+    url_poster: https://theposterdb.com/api/assets/40996
+  Best Picture Nominees:
+    template: {name: Special Genre}
+    imdb_list: https://www.imdb.com/list/ls009487211/
+    summary: A collection of all Oscar nominees.
+    sort_title: 00000b_6
+    url_poster: https://theposterdb.com/api/assets/40996
+  Jack Recommends:
+    template: {name: Special Genre}
+    trakt_list:
+      - https://trakt.tv/users/h0tsh0t/lists/jack-recommends
+    summary: A collection of movies Jack thinks you should give a shot.
+    sort_title: 00000b_7
+    visible_shared: true
+  Stephanie's Asian Flix:
+    template: {name: Special Genre}
+    trakt_list:
+      - https://trakt.tv/users/despoinap/lists/my-asian-movies-collection
+      - https://trakt.tv/users/hypo88/lists/asian-movies
+      - https://trakt.tv/users/nocturnalbunny/lists/asian-movies
+      - https://trakt.tv/users/matthewssa/lists/asian-movies
+      - https://trakt.tv/users/sgtcrapper/lists/asian-movies
+    summary: A collection of movies made in Asia or starring Asian Actors.
+    sort_title: 00000b_7

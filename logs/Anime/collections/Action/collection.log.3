@@ -1,0 +1,106 @@
+[2022-10-20 02:10:27,655] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 02:10:27,655] [util.py:216]               [INFO]     |                                     Action Collection in Anime                                     |
+[2022-10-20 02:10:27,656] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-20 02:10:27,656] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-20 02:10:27,656] [util.py:216]               [INFO]     |=================================== Validating Action Attributes ===================================|
+[2022-10-20 02:10:27,657] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,657] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-20 02:10:27,659] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 1), ('poster', 'https://theposterdb.com/api/assets/213642')]) |
+[2022-10-20 02:10:27,663] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,664] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-20 02:10:27,664] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-20 02:10:27,664] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,665] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-20 02:10:27,665] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-20 02:10:27,665] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,665] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-10-20 02:10:27,666] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 1, 'limit': 999}                                                               |
+[2022-10-20 02:10:27,666] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,666] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-20 02:10:27,667] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213642                                                   |
+[2022-10-20 02:10:27,667] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,667] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-20 02:10:27,668] [builder.py:474]            [DEBUG]    | Value: +++_Action                                                                                  |
+[2022-10-20 02:10:27,668] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 02:10:27,668] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-10-20 02:10:27,668] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-20 02:17:17,747] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 02:17:17,748] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request |
+[2022-10-20 02:17:17,748] [util.py:162]               [DEBUG]    |     six.raise_from(e, None)                                                                        |
+[2022-10-20 02:17:17,748] [util.py:162]               [DEBUG]    |   File "<string>", line 3, in raise_from                                                           |
+[2022-10-20 02:17:17,748] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request |
+[2022-10-20 02:17:17,749] [util.py:162]               [DEBUG]    |     httplib_response = conn.getresponse()                                                          |
+[2022-10-20 02:17:17,749] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse |
+[2022-10-20 02:17:17,749] [util.py:162]               [DEBUG]    |     response.begin()                                                                               |
+[2022-10-20 02:17:17,749] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin |
+[2022-10-20 02:17:17,749] [util.py:162]               [DEBUG]    |     version, status, reason = self._read_status()                                                  |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")                                       |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    |     return self._sock.recv_into(b)                                                                 |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    | socket.timeout: timed out                                                                          |
+[2022-10-20 02:17:17,750] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
+[2022-10-20 02:17:17,751] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |     raise six.reraise(type(error), error, _stacktrace)                                             |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
+[2022-10-20 02:17:17,752] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)                                |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    |     raise ReadTimeoutError(                                                                        |
+[2022-10-20 02:17:17,753] [util.py:162]               [DEBUG]    | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
+[2022-10-20 02:17:17,754] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 02:17:17,754] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-20 02:17:17,754] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 02:17:17,754] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 02:17:17,755] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-10-20 02:17:17,755] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-10-20 02:17:17,755] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 600, in __init__                 |
+[2022-10-20 02:17:17,755] [util.py:162]               [DEBUG]    |     self.obj = self.library.get_playlist(self.name) if self.playlist else self.library.get_collection(self.name) |
+[2022-10-20 02:17:17,755] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 679, in get_collection              |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |     cols = self.search(title=str(data), libtype="collection")                                      |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 49, in wrapped_f |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |     return Retrying(*dargs, **dkw).call(f, *args, **kw)                                            |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 212, in call |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |     raise attempt.get()                                                                            |
+[2022-10-20 02:17:17,756] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 247, in get  |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |     six.reraise(self.value[0], self.value[1], self.value[2])                                       |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\six.py", line 719, in reraise   |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 200, in call |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)                                  |
+[2022-10-20 02:17:17,757] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 432, in search                      |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |     return self.Plex.search(title=title, sort=sort, maxresults=maxresults, libtype=libtype, **kwargs) |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1355, in search |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |     return self._search(key, maxresults, container_start, container_size, **kwargs)                |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1367, in _search |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |     subresults = self.fetchItems(key, container_start=container_start,                             |
+[2022-10-20 02:17:17,758] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 395, in fetchItems |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |     data = self._server.query(ekey, params=url_kw)                                                 |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\server.py", line 659, in query |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |     response = method(url, headers=headers, timeout=timeout, **kwargs)                             |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 542, in get |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |     return self.request('GET', url, **kwargs)                                                      |
+[2022-10-20 02:17:17,759] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 532, in send |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    |     raise ReadTimeout(e, request=request)                                                          |
+[2022-10-20 02:17:17,760] [util.py:162]               [DEBUG]    | requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
+[2022-10-20 02:17:17,761] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 02:17:17,761] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
+[2022-10-20 02:17:17,761] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-20 02:17:17,761] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 02:17:17,762] [util.py:216]               [INFO]     |                                     Finished Action Collection                                     |
+[2022-10-20 02:17:17,762] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:06:50                                    |
+[2022-10-20 02:17:17,762] [util.py:220]               [INFO]     |====================================================================================================|

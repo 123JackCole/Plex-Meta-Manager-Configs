@@ -1,0 +1,135 @@
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  Movies:
+    metadata_path:
+      - file: config/Movie.yml
+      - file: config/Genre.yml
+      - file: config/Special_Genre.yml
+      - file: config/Studio.yml
+      - file: config/Holiday.yml
+      - file: config/Metadata.yml
+      - file: config/Overlays.yml
+  Anime:
+    sonarr:
+      url: http://localhost:7875/
+      token: eb913f4f4cfd403dbf5067c2e1c12bc1
+      add_missing: false
+      add_existing: true
+      root_folder_path: F:\Anime
+      monitor: existing
+      quality_profile: Anime
+      language_profile: English
+      series_type: anime
+      season_folder: true
+      tag:
+      search: false
+      cutoff_search: false
+      sonarr_path:
+      plex_path:
+    metadata_path:
+      - file: config/Anime.yml
+  TV Shows:
+    metadata_path:
+      - file: config/TV_Shows.yml
+      - file: config/Overlays.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: false
+  asset_depth: 1
+  create_asset_folders: false
+  dimensional_asset_rename: true
+  download_url_assets: false
+  show_missing_season_assets: false
+  sync_mode: append
+  minimum_items: 1
+  default_collection_order: release
+  delete_below_minimum: true
+  delete_not_scheduled: false
+  run_again_delay: 0
+  missing_only_released: false
+  only_filter_missing: false
+  show_unmanaged: true
+  show_filtered: false
+  show_options: false
+  missing_path: config/missing
+  show_missing: true
+  show_missing_assets: false
+  save_missing: true
+  tvdb_language: eng
+  ignore_ids:
+  ignore_imdb_ids:
+  playlist_sync_to_user: all
+  verify_ssl: true
+webhooks:                                       # Can be individually specified per library as well
+  error:
+  run_start:
+  run_end:
+  changes:
+plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
+  url: http://127.0.0.1:32400/
+  token: EDX-i8fPXfzHrcwqZqFL
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:                                           # REQUIRED for the script to run
+  apikey: 8ff4ad7d4f277659c4157fa8155908d4
+  language: en
+tautulli:                                       # Can be individually specified per library as well
+  url: http://192.168.1.12:8181
+  apikey:
+omdb:
+  apikey:
+notifiarr:
+  apikey:
+anidb:                                          # Not required for AniDB builders unless you want mature content
+  username: jch0tsh0t
+  password: Y?u?doth1s?a
+radarr:                                         # Can be individually specified per library as well
+  url: http://localhost:7879/
+  token: 00669bbeb71744dfb9a52d155da44ce9
+  add_missing: false
+  add_existing: false
+  root_folder_path: F:\Movies (4k)
+  monitor: false
+  availability: announced
+  quality_profile: Ultra-HD
+  tag:
+  search: false
+  radarr_path:
+  plex_path:
+sonarr:                                         # Can be individually specified per library as well
+  url: http://localhost:7874/
+  token: be3098c94cff4f4da73f58889800c3a4
+  add_missing: false
+  add_existing: false
+  root_folder_path: E:\Shows (4k)
+  monitor: false
+  quality_profile: Ultra-HD
+  language_profile: English
+  series_type: standard
+  season_folder: true
+  tag:
+  search: false
+  cutoff_search: false
+  sonarr_path:
+  plex_path:
+trakt:
+  client_id: 5e1fe656be1f74118e41c538e5109636288834c33f94619f4afea758f558c694
+  client_secret: b3294f9ae3b6a7c956da89b438b743f3b8cc8ee8d924ff7015b4ecbcc2f48286
+  authorization:
+    access_token: 3a53e0aa687250168c524105663739c4dc9a3149a8edf6ee82f15b78abc1dc08
+    token_type: Bearer
+    expires_in: 7889238
+    refresh_token: 948ff5bf110b92b35871d90ce1a1c8d8cd3ae7000c678e9fc90500d82efaec31
+    scope: public
+    created_at: 1659859211
+mal:
+  client_id: d4d717e752a9600f204b4c524895b1f2
+  client_secret: f3143c5ffb6004f3ccb442ef691c4e3f32781892a30c23a4f11b191e02d65862
+  authorization:
+    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVjZDdkN2NkZmEwMmFkZGM1YTk4Yzg5NTE5ZmU0NjA4MTBiYTBjZmQzNjljYzJmOTQ1ZjFjNTVlYmRhZTUyZTE0MjVjM2Q5ZjJiODFlZWY1In0.eyJhdWQiOiJkNGQ3MTdlNzUyYTk2MDBmMjA0YjRjNTI0ODk1YjFmMiIsImp0aSI6ImVjZDdkN2NkZmEwMmFkZGM1YTk4Yzg5NTE5ZmU0NjA4MTBiYTBjZmQzNjljYzJmOTQ1ZjFjNTVlYmRhZTUyZTE0MjVjM2Q5ZjJiODFlZWY1IiwiaWF0IjoxNjY0OTU2ODA0LCJuYmYiOjE2NjQ5NTY4MDQsImV4cCI6MTY2NzYzNTIwMywic3ViIjoiNDc1MjI4NiIsInNjb3BlcyI6W119.gjP4wYJV5aEBN3Sj9egb5SJD2TOgHE_4ypPtXIYk_NZgiF1EoBiK2rt44crl-fip7x77pbn-hQjMwi6kgSpReUbMz9BZccjhK_VnRt2VoDtM_G4R4xQchISQCBWGe0UER9Tghkh_yCXbpM884JdBA6qOlYAhzK6rg_1qcWggrdAICA9U08bsPB-0RrmJ512-VPhnvKa1OMYRZf4XSGT1fT0KNFNspzige5UfDkM9nrhRPy2MW_Cde7RsDp32BHaesYcZpUxNg7DBMMMTsJQrLUNyvXfLh1In5OlWkh9DIcoI6dYpkdgzeRhFqXAFdf5KePYe_pGnrYD8AqNmKrhj8A
+    token_type: Bearer
+    expires_in: 2678399
+    refresh_token: def50200546baee17ebdd0a7f033dd83729659c7988d6fb64e53d8c2a8eb4d831f14e0eb24cd9bca0e884662e7d742244d01533017d097e06bc155572c18eb8d485354a46736f7a7208a8e06e737ae74654df996a6555c9ec80bb1922bdbfd5a5cfba60e134ea230535c5fca747e3862bfaf36a396048c43a4c96210bbe0b81c32dd0cd8da88f51f8976aac63017d7f2d32f987a764897cb837050a0b81b56761b1bf58f7293b7d7913c5fa53c20eff281564629396d76353cab18c41158cf23e57d4f481658b27201c90b98e16898a12b68bbcbfcec243e820a0bf5825e1dcbee26032e7d4c7de9ba15458a620760c49c7675bca3ec9912d8dc10c8a6994a78aa570b0c2e3d8c7490f68bb09d7d683ec1cd02ae6a8f0e53eb39f0586ce234998887f7a935b638e81c67b840bcc01c55bc9430397c4fc6b2942109f0835080d4caaff7b427049b1edc78710ace37910945480893ed7687e90fb0c77dd15ddf8dd38e872a7ada9387a315140faec90790945eb3b28147c3a4fd52a3ade51017c4f41efb4c4e2f2d32

@@ -1,0 +1,116 @@
+[2022-10-20 05:21:08,592] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 05:21:08,592] [util.py:216]               [INFO]     |                                     Josei Collection in Anime                                      |
+[2022-10-20 05:21:08,593] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-20 05:21:08,593] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-20 05:21:08,593] [util.py:216]               [INFO]     |=================================== Validating Josei Attributes ====================================|
+[2022-10-20 05:21:08,593] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,594] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-20 05:21:08,594] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 43), ('poster', 'https://theposterdb.com/api/assets/240858')]) |
+[2022-10-20 05:21:08,594] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,594] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-20 05:21:08,595] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-20 05:21:08,595] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,595] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-20 05:21:08,595] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-20 05:21:08,595] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,596] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-10-20 05:21:08,596] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 43, 'limit': 999}                                                              |
+[2022-10-20 05:21:08,596] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,596] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-20 05:21:08,596] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240858                                                   |
+[2022-10-20 05:21:08,596] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,597] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-20 05:21:08,597] [builder.py:474]            [DEBUG]    | Value: +++_Josei                                                                                   |
+[2022-10-20 05:21:08,597] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 05:21:08,597] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-10-20 05:21:08,597] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-20 05:22:10,897] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 05:22:10,898] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 174, in _new_conn |
+[2022-10-20 05:22:10,898] [util.py:162]               [DEBUG]    |     conn = connection.create_connection(                                                           |
+[2022-10-20 05:22:10,898] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\connection.py", line 95, in create_connection |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    |     raise err                                                                                      |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\connection.py", line 85, in create_connection |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    |     sock.connect(sa)                                                                               |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    | ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,899] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-20 05:22:10,900] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,900] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 05:22:10,900] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
+[2022-10-20 05:22:10,900] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
+[2022-10-20 05:22:10,900] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 398, in _make_request |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |     conn.request(method, url, **httplib_request_kw)                                                |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 239, in request |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |     super(HTTPConnection, self).request(method, url, body=body, headers=headers)                   |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1285, in request |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |     self._send_request(method, url, body, headers, encode_chunked)                                 |
+[2022-10-20 05:22:10,901] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1331, in _send_request |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |     self.endheaders(body, encode_chunked=encode_chunked)                                           |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1280, in endheaders |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |     self._send_output(message_body, encode_chunked=encode_chunked)                                 |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1040, in _send_output |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |     self.send(msg)                                                                                 |
+[2022-10-20 05:22:10,902] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 980, in send |
+[2022-10-20 05:22:10,903] [util.py:162]               [DEBUG]    |     self.connect()                                                                                 |
+[2022-10-20 05:22:10,903] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 205, in connect |
+[2022-10-20 05:22:10,903] [util.py:162]               [DEBUG]    |     conn = self._new_conn()                                                                        |
+[2022-10-20 05:22:10,903] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 186, in _new_conn |
+[2022-10-20 05:22:10,903] [util.py:162]               [DEBUG]    |     raise NewConnectionError(                                                                      |
+[2022-10-20 05:22:10,904] [util.py:162]               [DEBUG]    | urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000020C7AE6C0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it |
+[2022-10-20 05:22:10,904] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,904] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-20 05:22:10,904] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,904] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 05:22:10,905] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
+[2022-10-20 05:22:10,905] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
+[2022-10-20 05:22:10,905] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
+[2022-10-20 05:22:10,905] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
+[2022-10-20 05:22:10,905] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 592, in increment |
+[2022-10-20 05:22:10,906] [util.py:162]               [DEBUG]    |     raise MaxRetryError(_pool, url, error or ResponseError(cause))                                 |
+[2022-10-20 05:22:10,906] [util.py:162]               [DEBUG]    | urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=32400): Max retries exceeded with url: /library/sections/3/all?includeGuids=1&title=Josei&type=18&X-Plex-Container-Start=0&X-Plex-Container-Size=100 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C7AE6C0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')) |
+[2022-10-20 05:22:10,906] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,906] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-20 05:22:10,906] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 600, in __init__                 |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    |     self.obj = self.library.get_playlist(self.name) if self.playlist else self.library.get_collection(self.name) |
+[2022-10-20 05:22:10,907] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 679, in get_collection              |
+[2022-10-20 05:22:10,908] [util.py:162]               [DEBUG]    |     cols = self.search(title=str(data), libtype="collection")                                      |
+[2022-10-20 05:22:10,908] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 49, in wrapped_f |
+[2022-10-20 05:22:10,908] [util.py:162]               [DEBUG]    |     return Retrying(*dargs, **dkw).call(f, *args, **kw)                                            |
+[2022-10-20 05:22:10,908] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 212, in call |
+[2022-10-20 05:22:10,908] [util.py:162]               [DEBUG]    |     raise attempt.get()                                                                            |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 247, in get  |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |     six.reraise(self.value[0], self.value[1], self.value[2])                                       |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\six.py", line 719, in reraise   |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 200, in call |
+[2022-10-20 05:22:10,909] [util.py:162]               [DEBUG]    |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)                                  |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 432, in search                      |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |     return self.Plex.search(title=title, sort=sort, maxresults=maxresults, libtype=libtype, **kwargs) |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1355, in search |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |     return self._search(key, maxresults, container_start, container_size, **kwargs)                |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1367, in _search |
+[2022-10-20 05:22:10,910] [util.py:162]               [DEBUG]    |     subresults = self.fetchItems(key, container_start=container_start,                             |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 395, in fetchItems |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |     data = self._server.query(ekey, params=url_kw)                                                 |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\server.py", line 659, in query |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |     response = method(url, headers=headers, timeout=timeout, **kwargs)                             |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 542, in get |
+[2022-10-20 05:22:10,911] [util.py:162]               [DEBUG]    |     return self.request('GET', url, **kwargs)                                                      |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 519, in send |
+[2022-10-20 05:22:10,912] [util.py:162]               [DEBUG]    |     raise ConnectionError(e, request=request)                                                      |
+[2022-10-20 05:22:10,913] [util.py:162]               [DEBUG]    | requests.exceptions.ConnectionError: HTTPConnectionPool(host='127.0.0.1', port=32400): Max retries exceeded with url: /library/sections/3/all?includeGuids=1&title=Josei&type=18&X-Plex-Container-Start=0&X-Plex-Container-Size=100 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C7AE6C0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')) |
+[2022-10-20 05:22:10,913] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 05:22:10,913] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: HTTPConnectionPool(host='127.0.0.1', port=32400): Max retries exceeded with url: /library/sections/3/all?includeGuids=1&title=Josei&type=18&X-Plex-Container-Start=0&X-Plex-Container-Size=100 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020C7AE6C0A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')) |
+[2022-10-20 05:22:10,913] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-20 05:22:10,914] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 05:22:10,914] [util.py:216]               [INFO]     |                                     Finished Josei Collection                                      |
+[2022-10-20 05:22:10,914] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:01:02                                    |
+[2022-10-20 05:22:10,914] [util.py:220]               [INFO]     |====================================================================================================|

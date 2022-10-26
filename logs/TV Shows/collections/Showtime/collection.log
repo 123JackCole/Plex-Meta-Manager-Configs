@@ -1,0 +1,253 @@
+[2022-10-25 02:08:46,675] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-25 02:08:46,675] [util.py:216]               [INFO]     |                                  Showtime Collection in TV Shows                                   |
+[2022-10-25 02:08:46,675] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-25 02:08:46,676] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-25 02:08:46,676] [util.py:216]               [INFO]     |================================== Validating Showtime Attributes ==================================|
+[2022-10-25 02:08:46,676] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,677] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-25 02:08:46,677] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 67), ('poster', 'https://theposterdb.com/api/assets/138092')]) |
+[2022-10-25 02:08:46,677] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,677] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-25 02:08:46,678] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-25 02:08:46,678] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,678] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-25 02:08:46,679] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-25 02:08:46,679] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,679] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-10-25 02:08:46,679] [builder.py:474]            [DEBUG]    | Value: 67                                                                                          |
+[2022-10-25 02:08:46,803] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,804] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-25 02:08:46,804] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/138092                                                   |
+[2022-10-25 02:08:46,804] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,804] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-25 02:08:46,805] [builder.py:474]            [DEBUG]    | Value: +2_Showtime                                                                                 |
+[2022-10-25 02:08:46,808] [plex.py:685]               [DEBUG]    | Looking for: Showtime                                                                              |
+[2022-10-25 02:08:46,808] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-25 02:08:46,808] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-25 02:08:46,809] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-25 02:08:46,809] [util.py:216]               [INFO]     |=================================== Running Showtime Collection ====================================|
+[2022-10-25 02:08:46,809] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-25 02:08:46,809] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-25 02:08:46,810] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:46,810] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 67                                                                          |
+[2022-10-25 02:08:46,810] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-25 02:08:48,199] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (67) Showtime (204 Shows)                                                 |
+[2022-10-25 02:08:48,200] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:48,200] [builder.py:1283]           [DEBUG]    | 204 IDs Found: [(34307, 'tmdb_show'), (4629, 'tmdb_show'), (1405, 'tmdb_show'), (1920, 'tmdb_show'), (62852, 'tmdb_show'), (1407, 'tmdb_show'), (1423, 'tmdb_show'), (117488, 'tmdb_show'), (118663, 'tmdb_show'), (131927, 'tmdb_show'), (1215, 'tmdb_show'), (2942, 'tmdb_show'), (86430, 'tmdb_show'), (186, 'tmdb_show'), (3475, 'tmdb_show'), (127585, 'tmdb_show'), (2902, 'tmdb_show'), (58937, 'tmdb_show'), (89630, 'tmdb_show'), (61463, 'tmdb_show'), (33025, 'tmdb_show'), (54671, 'tmdb_show'), (136735, 'tmdb_show'), (83685, 'tmdb_show'), (3470, 'tmdb_show'), (79618, 'tmdb_show'), (66389, 'tmdb_show'), (73925, 'tmdb_show'), (72071, 'tmdb_show'), (84970, 'tmdb_show'), (12832, 'tmdb_show'), (18053, 'tmdb_show'), (21561, 'tmdb_show'), (1082, 'tmdb_show'), (10047, 'tmdb_show'), (2566, 'tmdb_show'), (65339, 'tmdb_show'), (71733, 'tmdb_show'), (72787, 'tmdb_show'), (39702, 'tmdb_show'), (80230, 'tmdb_show'), (14315, 'tmdb_show'), (243, 'tmdb_show'), (32406, 'tmdb_show'), (66620, 'tmdb_show'), (31841, 'tmdb_show'), (72039, 'tmdb_show'), (7097, 'tmdb_show'), (75804, 'tmdb_show'), (6623, 'tmdb_show'), (126301, 'tmdb_show'), (80703, 'tmdb_show'), (68319, 'tmdb_show'), (37581, 'tmdb_show'), (184, 'tmdb_show'), (2204, 'tmdb_show'), (14653, 'tmdb_show'), (2302, 'tmdb_show'), (80443, 'tmdb_show'), (2409, 'tmdb_show'), (99070, 'tmdb_show'), (80750, 'tmdb_show'), (80730, 'tmdb_show'), (210077, 'tmdb_show'), (38953, 'tmdb_show'), (73924, 'tmdb_show'), (91814, 'tmdb_show'), (3173, 'tmdb_show'), (61541, 'tmdb_show'), (4715, 'tmdb_show'), (4603, 'tmdb_show'), (87523, 'tmdb_show'), (4981, 'tmdb_show'), (65748, 'tmdb_show'), (111500, 'tmdb_show'), (91746, 'tmdb_show'), (104954, 'tmdb_show'), (74906, 'tmdb_show'), (33054, 'tmdb_show'), (122804, 'tmdb_show'), (12856, 'tmdb_show'), (64607, 'tmdb_show'), (6460, 'tmdb_show'), (11183, 'tmdb_show'), (1898, 'tmdb_show'), (100662, 'tmdb_show'), (66094, 'tmdb_show'), (3119, 'tmdb_show'), (195815, 'tmdb_show'), (1445, 'tmdb_show'), (21031, 'tmdb_show'), (71550, 'tmdb_show'), (57391, 'tmdb_show'), (91820, 'tmdb_show'), (4073, 'tmdb_show'), (24311, 'tmdb_show'), (12635, 'tmdb_show'), (9861, 'tmdb_show'), (127642, 'tmdb_show'), (46679, 'tmdb_show'), (23656, 'tmdb_show'), (59397, 'tmdb_show'), (46353, 'tmdb_show'), (33961, 'tmdb_show'), (14120, 'tmdb_show'), (29998, 'tmdb_show'), (123198, 'tmdb_show'), (11134, 'tmdb_show'), (9841, 'tmdb_show'), (2805, 'tmdb_show'), (39916, 'tmdb_show'), (73767, 'tmdb_show'), (10639, 'tmdb_show'), (73473, 'tmdb_show'), (20473, 'tmdb_show'), (5218, 'tmdb_show'), (109332, 'tmdb_show'), (42022, 'tmdb_show'), (8000, 'tmdb_show'), (70134, 'tmdb_show'), (2501, 'tmdb_show'), (38168, 'tmdb_show'), (16172, 'tmdb_show'), (13673, 'tmdb_show'), (76230, 'tmdb_show'), (79202, 'tmdb_show'), (34234, 'tmdb_show'), (85999, 'tmdb_show'), (204672, 'tmdb_show'), (3300, 'tmdb_show'), (118570, 'tmdb_show'), (15424, 'tmdb_show'), (24149, 'tmdb_show'), (23344, 'tmdb_show'), (23131, 'tmdb_show'), (687, 'tmdb_show'), (19797, 'tmdb_show'), (61204, 'tmdb_show'), (46502, 'tmdb_show'), (25942, 'tmdb_show'), (136011, 'tmdb_show'), (83170, 'tmdb_show'), (91821, 'tmdb_show'), (103050, 'tmdb_show'), (114655, 'tmdb_show'), (89954, 'tmdb_show'), (67735, 'tmdb_show'), (62903, 'tmdb_show'), (110334, 'tmdb_show'), (36518, 'tmdb_show'), (1851, 'tmdb_show'), (21294, 'tmdb_show'), (153742, 'tmdb_show'), (10657, 'tmdb_show'), (5912, 'tmdb_show'), (71900, 'tmdb_show'), (52684, 'tmdb_show'), (94028, 'tmdb_show'), (81442, 'tmdb_show'), (28216, 'tmdb_show'), (131300, 'tmdb_show'), (30867, 'tmdb_show'), (39813, 'tmdb_show'), (155819, 'tmdb_show'), (55725, 'tmdb_show'), (39744, 'tmdb_show'), (157312, 'tmdb_show'), (15481, 'tmdb_show'), (75502, 'tmdb_show'), (24593, 'tmdb_show'), (93446, 'tmdb_show'), (6970, 'tmdb_show'), (98562, 'tmdb_show'), (37401, 'tmdb_show'), (46969, 'tmdb_show'), (28083, 'tmdb_show'), (131163, 'tmdb_show'), (99054, 'tmdb_show'), (73462, 'tmdb_show'), (59087, 'tmdb_show'), (55627, 'tmdb_show'), (47310, 'tmdb_show'), (44719, 'tmdb_show'), (38497, 'tmdb_show'), (37411, 'tmdb_show'), (36343, 'tmdb_show'), (36096, 'tmdb_show'), (35619, 'tmdb_show'), (33724, 'tmdb_show'), (32879, 'tmdb_show'), (31113, 'tmdb_show'), (31030, 'tmdb_show'), (30554, 'tmdb_show'), (30330, 'tmdb_show'), (29550, 'tmdb_show'), (27663, 'tmdb_show'), (26727, 'tmdb_show'), (25792, 'tmdb_show'), (25386, 'tmdb_show'), (25250, 'tmdb_show'), (25053, 'tmdb_show'), (23085, 'tmdb_show'), (15880, 'tmdb_show'), (5879, 'tmdb_show')] |
+[2022-10-25 02:08:48,200] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-10-25 02:08:48,350] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 100662                                                |
+[2022-10-25 02:08:48,466] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 3119                                                  |
+[2022-10-25 02:08:48,591] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46679                                                 |
+[2022-10-25 02:08:48,710] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 123198                                                |
+[2022-10-25 02:08:48,959] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23131                                                 |
+[2022-10-25 02:08:49,089] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46502                                                 |
+[2022-10-25 02:08:49,211] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114655                                                |
+[2022-10-25 02:08:49,337] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155819                                                |
+[2022-10-25 02:08:49,459] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 55725                                                 |
+[2022-10-25 02:08:49,586] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15481                                                 |
+[2022-10-25 02:08:49,701] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 6970                                                  |
+[2022-10-25 02:08:49,814] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37401                                                 |
+[2022-10-25 02:08:49,929] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46969                                                 |
+[2022-10-25 02:08:50,046] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 28083                                                 |
+[2022-10-25 02:08:50,160] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131163                                                |
+[2022-10-25 02:08:50,283] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 99054                                                 |
+[2022-10-25 02:08:50,406] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 73462                                                 |
+[2022-10-25 02:08:50,521] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 59087                                                 |
+[2022-10-25 02:08:50,637] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 55627                                                 |
+[2022-10-25 02:08:50,746] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 44719                                                 |
+[2022-10-25 02:08:50,862] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 38497                                                 |
+[2022-10-25 02:08:50,967] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37411                                                 |
+[2022-10-25 02:08:51,081] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 36343                                                 |
+[2022-10-25 02:08:51,197] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 36096                                                 |
+[2022-10-25 02:08:51,325] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35619                                                 |
+[2022-10-25 02:08:51,452] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 33724                                                 |
+[2022-10-25 02:08:51,576] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31030                                                 |
+[2022-10-25 02:08:51,692] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 30554                                                 |
+[2022-10-25 02:08:51,809] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 30330                                                 |
+[2022-10-25 02:08:51,913] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29550                                                 |
+[2022-10-25 02:08:52,025] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 27663                                                 |
+[2022-10-25 02:08:52,149] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 26727                                                 |
+[2022-10-25 02:08:52,402] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 25386                                                 |
+[2022-10-25 02:08:52,531] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 25250                                                 |
+[2022-10-25 02:08:52,649] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23085                                                 |
+[2022-10-25 02:08:52,768] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15880                                                 |
+[2022-10-25 02:08:52,875] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 5879                                                  |
+[2022-10-25 02:08:52,876] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-10-25 02:08:52,876] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Showtime Collection                                              |
+[2022-10-25 02:08:52,876] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-10-25 02:08:52,876] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Showtime ===============================|
+[2022-10-25 02:08:52,877] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-10-25 02:08:53,529] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Shameless (US) (TVDB: 161511)                                            |
+[2022-10-25 02:08:54,366] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Stargate SG-1 (TVDB: 72449)                                              |
+[2022-10-25 02:08:55,087] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dexter (TVDB: 79349)                                                     |
+[2022-10-25 02:08:55,600] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Twin Peaks (TVDB: 70533)                                                 |
+[2022-10-25 02:08:56,101] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Billions (TVDB: 279536)                                                  |
+[2022-10-25 02:08:56,817] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Homeland (TVDB: 247897)                                                  |
+[2022-10-25 02:08:57,330] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Ray Donovan (TVDB: 259866)                                               |
+[2022-10-25 02:08:57,583] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Yellowjackets (TVDB: 399731)                                             |
+[2022-10-25 02:08:57,809] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Man Who Fell to Earth (TVDB: 414721)                                 |
+[2022-10-25 02:08:58,049] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dexter: New Blood (TVDB: 412366)                                         |
+[2022-10-25 02:08:58,544] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Californication (TVDB: 80349)                                            |
+[2022-10-25 02:08:58,936] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Tudors (TVDB: 79925)                                                 |
+[2022-10-25 02:08:59,229] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Your Honor (US) (TVDB: 359579)                                           |
+[2022-10-25 02:08:59,837] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Weeds (TVDB: 74845)                                                      |
+[2022-10-25 02:09:00,236] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The L Word (TVDB: 72477)                                                 |
+[2022-10-25 02:09:00,501] [builder.py:1982]           [INFO]     | Showtime Collection | ? | American Gigolo (TVDB: 404938)                                           |
+[2022-10-25 02:09:01,026] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Queer as Folk (US) (TVDB: 75367)                                         |
+[2022-10-25 02:09:01,360] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Masters of Sex (TVDB: 261557)                                            |
+[2022-10-25 02:09:01,670] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The L Word: Generation Q (TVDB: 364477)                                  |
+[2022-10-25 02:09:02,026] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Affair (TVDB: 270439)                                                |
+[2022-10-25 02:09:02,328] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Borgias (TVDB: 187881)                                               |
+[2022-10-25 02:09:02,690] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Penny Dreadful (TVDB: 265766)                                            |
+[2022-10-25 02:09:02,936] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Let the Right One In (TVDB: 355532)                                      |
+[2022-10-25 02:09:03,195] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Penny Dreadful: City of Angels (TVDB: 360892)                            |
+[2022-10-25 02:09:03,425] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Masters of Horror (TVDB: 79066)                                          |
+[2022-10-25 02:09:03,706] [builder.py:1982]           [INFO]     | Showtime Collection | ? | City on a Hill (TVDB: 356672)                                            |
+[2022-10-25 02:09:03,937] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Submission (TVDB: 311108)                                                |
+[2022-10-25 02:09:04,244] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Kidding (TVDB: 348841)                                                   |
+[2022-10-25 02:09:04,582] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Chi (TVDB: 336602)                                                   |
+[2022-10-25 02:09:04,949] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Desus & Mero (2019) (TVDB: 356163)                                       |
+[2022-10-25 02:09:05,153] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Hunger (TVDB: 76238)                                                 |
+[2022-10-25 02:09:05,626] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Nurse Jackie (TVDB: 95731)                                               |
+[2022-10-25 02:09:05,980] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Outer Limits (1995) (TVDB: 72224)                                    |
+[2022-10-25 02:09:06,258] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Red Shoe Diaries (TVDB: 76949)                                           |
+[2022-10-25 02:09:06,692] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Inside The NFL (TVDB: 72075)                                             |
+[2022-10-25 02:09:07,044] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dead Like Me (TVDB: 72129)                                               |
+[2022-10-25 02:09:07,400] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Circus (TVDB: 304498)                                                |
+[2022-10-25 02:09:07,644] [builder.py:1982]           [INFO]     | Showtime Collection | ? | SMILF (TVDB: 332898)                                                     |
+[2022-10-25 02:09:07,951] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Patrick Melrose (TVDB: 338946)                                           |
+[2022-10-25 02:09:08,290] [builder.py:1982]           [INFO]     | Showtime Collection | ? | House of Lies (TVDB: 247909)                                             |
+[2022-10-25 02:09:08,718] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Black Monday (TVDB: 349338)                                              |
+[2022-10-25 02:09:09,076] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Secret Diary of a Call Girl (TVDB: 80621)                                |
+[2022-10-25 02:09:09,559] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Penn & Teller: Bullshit! (TVDB: 72301)                                   |
+[2022-10-25 02:09:09,909] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Big C (TVDB: 161501)                                                 |
+[2022-10-25 02:09:10,201] [builder.py:1982]           [INFO]     | Showtime Collection | ? | I'm Dying Up Here (TVDB: 322434)                                         |
+[2022-10-25 02:09:10,611] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Episodes (TVDB: 123581)                                                  |
+[2022-10-25 02:09:10,836] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Escape at Dannemora (TVDB: 349738)                                       |
+[2022-10-25 02:09:11,129] [builder.py:1982]           [INFO]     | Showtime Collection | ? | United States of Tara (TVDB: 83463)                                      |
+[2022-10-25 02:09:11,402] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Our Cartoon President (TVDB: 339467)                                     |
+[2022-10-25 02:09:11,957] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Big Brother After Dark (TVDB: 81491)                                     |
+[2022-10-25 02:09:12,181] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Super Pumped (TVDB: 403415)                                              |
+[2022-10-25 02:09:12,399] [builder.py:1982]           [INFO]     | Showtime Collection | ? | On Becoming a God in Central Florida (TVDB: 349638)                      |
+[2022-10-25 02:09:12,682] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Desus & Mero (TVDB: 317301)                                              |
+[2022-10-25 02:09:12,894] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Beach Heat: Miami (TVDB: 252741)                                         |
+[2022-10-25 02:09:13,178] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Jeremiah (TVDB: 78820)                                                   |
+[2022-10-25 02:09:13,434] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Brotherhood (TVDB: 79356)                                                |
+[2022-10-25 02:09:13,724] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Paper Chase (TVDB: 73769)                                            |
+[2022-10-25 02:09:13,977] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Huff (TVDB: 74663)                                                       |
+[2022-10-25 02:09:14,214] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Loudest Voice (TVDB: 358970)                                         |
+[2022-10-25 02:09:14,504] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Sleeper Cell (TVDB: 74843)                                               |
+[2022-10-25 02:09:14,731] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The First Lady (2022) (TVDB: 389612)                                     |
+[2022-10-25 02:09:14,961] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Moonbase 8 (TVDB: 366383)                                                |
+[2022-10-25 02:09:15,202] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Who Is America? (TVDB: 350028)                                           |
+[2022-10-25 02:09:15,381] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Lincoln Project (TVDB: 424725)                                       |
+[2022-10-25 02:09:15,657] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Gigolos (TVDB: 245941)                                                   |
+[2022-10-25 02:09:15,893] [builder.py:1982]           [INFO]     | Showtime Collection | ? | White Famous (TVDB: 333010)                                              |
+[2022-10-25 02:09:16,132] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Work in Progress (TVDB: 367632)                                          |
+[2022-10-25 02:09:16,356] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Chris Isaak Show (TVDB: 72944)                                       |
+[2022-10-25 02:09:16,654] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Web Therapy (2011) (TVDB: 250078)                                        |
+[2022-10-25 02:09:16,892] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Cape Wrath (Meadowlands) (TVDB: 80223)                                   |
+[2022-10-25 02:09:17,211] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Faerie Tale Theatre (TVDB: 75391)                                        |
+[2022-10-25 02:09:17,478] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Good Lord Bird (TVDB: 367633)                                        |
+[2022-10-25 02:09:17,691] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Fallen Angels (TVDB: 72927)                                              |
+[2022-10-25 02:09:18,001] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Roadies (TVDB: 307368)                                                   |
+[2022-10-25 02:09:18,265] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Flatbush Misdemeanors (TVDB: 390125)                                     |
+[2022-10-25 02:09:18,531] [builder.py:1982]           [INFO]     | Showtime Collection | ? | American Rust (TVDB: 367660)                                             |
+[2022-10-25 02:09:18,737] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Comey Rule (TVDB: 384097)                                            |
+[2022-10-25 02:09:18,962] [builder.py:1982]           [INFO]     | Showtime Collection | ? | History of the Eagles (TVDB: 274224)                                     |
+[2022-10-25 02:09:19,236] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Real L Word (TVDB: 171241)                                           |
+[2022-10-25 02:09:19,483] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Ziwe (TVDB: 400803)                                                      |
+[2022-10-25 02:09:19,708] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Beggars and Choosers (TVDB: 78373)                                       |
+[2022-10-25 02:09:19,945] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dark Net (TVDB: 303598)                                                  |
+[2022-10-25 02:09:20,380] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Busy World of Richard Scarry (TVDB: 74992)                           |
+[2022-10-25 02:09:20,651] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Poltergeist: The Legacy (TVDB: 77952)                                    |
+[2022-10-25 02:09:20,852] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Odyssey 5 (TVDB: 70694)                                                  |
+[2022-10-25 02:09:21,134] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dice (2016) (TVDB: 306859)                                               |
+[2022-10-25 02:09:21,380] [builder.py:1982]           [INFO]     | Showtime Collection | ? | I Love That for You (TVDB: 406308)                                       |
+[2022-10-25 02:09:21,572] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Lady Chatterley's Stories (TVDB: 70968)                                  |
+[2022-10-25 02:09:21,802] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dead Man's Gun (TVDB: 73600)                                             |
+[2022-10-25 02:09:22,001] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Putin Interviews (TVDB: 327978)                                      |
+[2022-10-25 02:09:22,209] [builder.py:1982]           [INFO]     | Showtime Collection | ? | HAPPYish (TVDB: 277431)                                                  |
+[2022-10-25 02:09:22,470] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Couples Therapy (2019) (TVDB: 367813)                                    |
+[2022-10-25 02:09:22,699] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Linc's (TVDB: 70962)                                                     |
+[2022-10-25 02:09:22,895] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Street Time (TVDB: 83154)                                                |
+[2022-10-25 02:09:23,186] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Brothers (TVDB: 71477)                                                   |
+[2022-10-25 02:09:23,440] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Barbershop (TVDB: 74828)                                                 |
+[2022-10-25 02:09:23,640] [builder.py:1982]           [INFO]     | Showtime Collection | ? | UFO (2021) (TVDB: 405061)                                                |
+[2022-10-25 02:09:23,878] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Sherman Oaks (TVDB: 76357)                                               |
+[2022-10-25 02:09:24,098] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Inside Comedy (TVDB: 255569)                                             |
+[2022-10-25 02:09:24,329] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Untold History of the United States (TVDB: 263532)                   |
+[2022-10-25 02:09:24,548] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Body Language (2008) (TVDB: 253966)                                      |
+[2022-10-25 02:09:24,726] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Out of Order (TVDB: 71508)                                               |
+[2022-10-25 02:09:24,946] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Fast Track (TVDB: 70972)                                                 |
+[2022-10-25 02:09:25,188] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Family Business (TVDB: 78819)                                            |
+[2022-10-25 02:09:25,458] [builder.py:1982]           [INFO]     | Showtime Collection | ? | It's Garry Shandling's Show (TVDB: 71275)                                |
+[2022-10-25 02:09:25,830] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Soul Food (TVDB: 81878)                                                  |
+[2022-10-25 02:09:26,046] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Green Room with Paul Provenza (TVDB: 163611)                         |
+[2022-10-25 02:09:26,247] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Active Shooter: America Under Fire (TVDB: 334632)                        |
+[2022-10-25 02:09:26,497] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Resurrection Blvd. (TVDB: 72717)                                         |
+[2022-10-25 02:09:26,723] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Naked SNCTM (TVDB: 333274)                                               |
+[2022-10-25 02:09:26,785] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 12519                               |
+[2022-10-25 02:09:26,984] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Kama Sutra (TVDB: 70451)                                                 |
+[2022-10-25 02:09:27,229] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Comedy Store (TVDB: 384494)                                          |
+[2022-10-25 02:09:27,468] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Dave's Old Porn (TVDB: 252798)                                           |
+[2022-10-25 02:09:27,669] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Going to California (TVDB: 194531)                                       |
+[2022-10-25 02:09:27,963] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Guerrilla (TVDB: 322433)                                                 |
+[2022-10-25 02:09:28,155] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Fat Actress (TVDB: 74813)                                                |
+[2022-10-25 02:09:28,411] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Cloudstreet (TVDB: 248563)                                               |
+[2022-10-25 02:09:28,604] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Chris Cross (TVDB: 77557)                                                |
+[2022-10-25 02:09:28,817] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Hoop Life (TVDB: 76145)                                              |
+[2022-10-25 02:09:29,040] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Fourth Estate (TVDB: 347162)                                         |
+[2022-10-25 02:09:29,241] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Just Another Immigrant (TVDB: 347028)                                    |
+[2022-10-25 02:09:29,457] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Look (TVDB: 87821)                                                       |
+[2022-10-25 02:09:29,654] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Wu-Tang Clan: Of Mics and Men (TVDB: 358700)                             |
+[2022-10-25 02:09:29,855] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Supreme Team (TVDB: 422152)                                              |
+[2022-10-25 02:09:30,087] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Rude Awakening (TVDB: 72473)                                             |
+[2022-10-25 02:09:30,289] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Supervillain: The Making of Tekashi 6ix9ine (TVDB: 396215)               |
+[2022-10-25 02:09:30,551] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Tracey Ullman's State of the Union (TVDB: 81646)                         |
+[2022-10-25 02:09:30,758] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Hot Springs Hotel (TVDB: 256576)                                         |
+[2022-10-25 02:09:30,946] [builder.py:1982]           [INFO]     | Showtime Collection | ? | I Can't Believe I'm Still Single (TVDB: 100911)                          |
+[2022-10-25 02:09:31,159] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Queer Duck (TVDB: 267629)                                                |
+[2022-10-25 02:09:31,381] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Free for All (TVDB: 79597)                                               |
+[2022-10-25 02:09:31,600] [builder.py:1982]           [INFO]     | Showtime Collection | ? | 7 Deadly Sins (TVDB: 282547)                                             |
+[2022-10-25 02:09:31,775] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Chromiumblue.com (TVDB: 72872)                                           |
+[2022-10-25 02:09:31,994] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Buried (TVDB: 408674)                                                    |
+[2022-10-25 02:09:32,217] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Enemies: The President, Justice & The FBI (TVDB: 353953)                 |
+[2022-10-25 02:09:32,413] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Murder in the Bayou (TVDB: 367630)                                       |
+[2022-10-25 02:09:32,608] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Outcry (TVDB: 383603)                                                    |
+[2022-10-25 02:09:32,821] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Shangri-La (2019) (TVDB: 364956)                                         |
+[2022-10-25 02:09:33,078] [builder.py:1982]           [INFO]     | Showtime Collection | ? | A Season With (TVDB: 299392)                                             |
+[2022-10-25 02:09:33,273] [builder.py:1982]           [INFO]     | Showtime Collection | ? | 3AM (TVDB: 296083)                                                       |
+[2022-10-25 02:09:33,491] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Reagans (TVDB: 384493)                                               |
+[2022-10-25 02:09:33,685] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Deeper Throat (TVDB: 145631)                                             |
+[2022-10-25 02:09:33,863] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Underground (TVDB: 79428)                                            |
+[2022-10-25 02:09:34,049] [builder.py:1982]           [INFO]     | Showtime Collection | ? | My Life as a Dog (TVDB: 76970)                                           |
+[2022-10-25 02:09:34,231] [builder.py:1982]           [INFO]     | Showtime Collection | ? | We Need to Talk About Cosby (TVDB: 413655)                               |
+[2022-10-25 02:09:34,412] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Leap Years (TVDB: 76854)                                                 |
+[2022-10-25 02:09:34,665] [builder.py:1982]           [INFO]     | Showtime Collection | ? | This American Life (TVDB: 79928)                                         |
+[2022-10-25 02:09:34,960] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Quest for the Stanley Cup (TVDB: 311789)                                 |
+[2022-10-25 02:09:35,165] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Years of Living Dangerously (TVDB: 274880)                               |
+[2022-10-25 02:09:35,374] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Ripley (TVDB: 372727)                                                    |
+[2022-10-25 02:09:35,576] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Shut Up and Dribble (TVDB: 354542)                                       |
+[2022-10-25 02:09:35,750] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Washingtoon (TVDB: 70671)                                                |
+[2022-10-25 02:09:35,946] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Gossip (2021) (TVDB: 408536)                                             |
+[2022-10-25 02:09:36,142] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Full Color Football: The History of the American Football League (TVDB: 122201) |
+[2022-10-25 02:09:36,395] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Franchise (TVDB: 249594)                                             |
+[2022-10-25 02:09:36,605] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Live Nude Comedy (TVDB: 186211)                                          |
+[2022-10-25 02:09:36,813] [builder.py:1982]           [INFO]     | Showtime Collection | ? | everything’s gonna be all white (TVDB: 415560)                           |
+[2022-10-25 02:09:37,009] [builder.py:1982]           [INFO]     | Showtime Collection | ? | The Trade (TVDB: 338850)                                                 |
+[2022-10-25 02:09:37,218] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Love Street (TVDB: 70803)                                                |
+[2022-10-25 02:09:37,418] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Action (2019) (TVDB: 361190)                                             |
+[2022-10-25 02:09:37,591] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Love Fraud (TVDB: 376355)                                                |
+[2022-10-25 02:09:37,823] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Shelley Duvall's Bedtime Stories (TVDB: 152801)                          |
+[2022-10-25 02:09:38,033] [builder.py:1982]           [INFO]     | Showtime Collection | ? | La La Land (TVDB: 137751)                                                |
+[2022-10-25 02:09:38,218] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Lock 'N Load (TVDB: 106591)                                              |
+[2022-10-25 02:09:38,416] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Kurt Vonnegut's Monkey House (TVDB: 76749)                               |
+[2022-10-25 02:09:38,610] [builder.py:1982]           [INFO]     | Showtime Collection | ? | Sexual Healing (TVDB: 132801)                                            |
+[2022-10-25 02:09:38,610] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-10-25 02:09:38,611] [builder.py:1987]           [INFO]     | 166 Shows Missing                                                                                  |
+[2022-10-25 02:09:39,038] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-25 02:09:39,038] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-25 02:09:39,039] [util.py:216]               [INFO]     |                                    Finished Showtime Collection                                    |
+[2022-10-25 02:09:39,039] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:52                                    |
+[2022-10-25 02:09:39,039] [util.py:220]               [INFO]     |====================================================================================================|

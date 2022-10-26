@@ -1,0 +1,245 @@
+[2022-03-18 08:06:37,543] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-03-18 08:06:37,544] [util.py:216]               [INFO]     |                                  Halloween. Collection in Movies                                   |
+[2022-03-18 08:06:37,545] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-03-18 08:06:37,546] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-03-18 08:06:37,547] [util.py:216]               [INFO]     |================================= Validating Halloween. Attributes =================================|
+[2022-03-18 08:06:37,547] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:37,548] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-03-18 08:06:37,548] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Other Genre'), ('poster', 'https://theposterdb.com/api/assets/108357')]) |
+[2022-03-18 08:06:37,548] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:37,549] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-03-18 08:06:37,549] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-03-18 08:06:37,549] [builder.py:389]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:37,550] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-03-18 08:06:37,550] [builder.py:395]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-03-18 08:06:37,551] [builder.py:400]            [WARNING]  | Collection Error: smart_label attribute: alpha is invalid defaulting to random                     |
+[2022-03-18 08:06:37,551] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:37,552] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-03-18 08:06:37,553] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/kairbear08/lists/halloween', 'https://trakt.tv/users/mybicycle/lists/halloween', 'https://trakt.tv/users/jayinftl/lists/halloween', 'https://trakt.tv/users/roswellgeek/lists/halloween'] |
+[2022-03-18 08:06:38,128] [trakt.py:214]              [ERROR]    | Trakt Error: List https://trakt.tv/users/roswellgeek/lists/halloween not found                     |
+[2022-03-18 08:06:38,129] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,129] [builder.py:473]            [DEBUG]    | Validating Method: name_mapping                                                                    |
+[2022-03-18 08:06:38,130] [builder.py:474]            [DEBUG]    | Value: Halloween (Season)                                                                          |
+[2022-03-18 08:06:38,130] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,131] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-03-18 08:06:38,131] [builder.py:474]            [DEBUG]    | Value: Halloween film is a genre that revolves around the plot involving Halloween.                |
+[2022-03-18 08:06:38,132] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,132] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-03-18 08:06:38,132] [builder.py:474]            [DEBUG]    | Value: +3_Halloween.                                                                               |
+[2022-03-18 08:06:38,132] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,133] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-03-18 08:06:38,133] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/108357                                                   |
+[2022-03-18 08:06:38,137] [plex.py:685]               [DEBUG]    | Looking for: Halloween.                                                                            |
+[2022-03-18 08:06:38,138] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,139] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-03-18 08:06:38,142] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,142] [util.py:216]               [INFO]     |================================== Running Halloween. Collection ===================================|
+[2022-03-18 08:06:38,143] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,144] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-03-18 08:06:38,144] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,145] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/kairbear08/lists/halloween                             |
+[2022-03-18 08:06:38,145] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,145] [trakt.py:231]              [INFO]     | Processing Trakt List: https://trakt.tv/users/kairbear08/lists/halloween                           |
+[2022-03-18 08:06:38,260] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,260] [builder.py:1283]           [DEBUG]    | 38 IDs Found: [(67699, 'tmdb'), (10439, 'tmdb'), (27850, 'tmdb'), (34560, 'tmdb'), (34204, 'tmdb'), (34205, 'tmdb'), (8913, 'tmdb'), (9479, 'tmdb'), (22970, 'tmdb'), (620, 'tmdb'), (609, 'tmdb'), (2668, 'tmdb'), (6435, 'tmdb'), (4011, 'tmdb'), (75, 'tmdb'), (17994, 'tmdb'), (40252, 'tmdb'), (40251, 'tmdb'), (24054, 'tmdb'), (13465, 'tmdb'), (13353, 'tmdb'), (252984, 'tvdb'), (9100, 'tmdb'), (46282, 'tmdb'), (3073, 'tmdb'), (2907, 'tmdb'), (2758, 'tmdb'), (46284, 'tmdb'), (32685, 'tmdb'), (52207, 'tmdb'), (61380, 'tmdb'), (13509, 'tmdb'), (301567, 'tvdb'), (11932, 'tmdb'), (10585, 'tmdb'), (11186, 'tmdb'), (11187, 'tmdb'), (362105, 'tmdb')] |
+[2022-03-18 08:06:38,261] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,320] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,321] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/mybicycle/lists/halloween                              |
+[2022-03-18 08:06:38,321] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,322] [trakt.py:231]              [INFO]     | Processing Trakt List: https://trakt.tv/users/mybicycle/lists/halloween                            |
+[2022-03-18 08:06:38,441] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,441] [builder.py:1283]           [DEBUG]    | 43 IDs Found: [(22970, 'tmdb'), (924, 'tmdb'), (16871, 'tmdb'), (109428, 'tmdb'), (8643, 'tmdb'), (620, 'tmdb'), (2082, 'tmdb'), (609, 'tmdb'), (2668, 'tmdb'), (72190, 'tmdb'), (19908, 'tmdb'), (10439, 'tmdb'), (9479, 'tmdb'), (74, 'tmdb'), (109414, 'tmdb'), (107985, 'tmdb'), (561, 'tmdb'), (77174, 'tmdb'), (76492, 'tmdb'), (6435, 'tmdb'), (9871, 'tmdb'), (10361, 'tmdb'), (12583, 'tmdb'), (46838, 'tmdb'), (158015, 'tmdb'), (82654, 'tmdb'), (747, 'tmdb'), (564, 'tmdb'), (162, 'tmdb'), ('315178_1_4', 'tvdb_episode'), (364, 'tmdb'), (517116, 'tmdb'), (489064, 'tmdb'), (948, 'tmdb'), (582913, 'tmdb'), (36647, 'tmdb'), (10873, 'tmdb'), (628, 'tmdb'), (4011, 'tmdb'), (3933, 'tmdb'), (75, 'tmdb'), (2907, 'tmdb'), (65086, 'tmdb')] |
+[2022-03-18 08:06:38,442] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,588] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,588] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/jayinftl/lists/halloween                               |
+[2022-03-18 08:06:38,589] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:38,589] [trakt.py:231]              [INFO]     | Processing Trakt List: https://trakt.tv/users/jayinftl/lists/halloween                             |
+[2022-03-18 08:06:38,735] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:38,736] [builder.py:1283]           [DEBUG]    | 114 IDs Found: [(74109, 'tvdb'), (4232, 'tmdb'), (4233, 'tmdb'), (4234, 'tmdb'), (10768, 'tmdb'), (9552, 'tmdb'), (11587, 'tmdb'), (11026, 'tmdb'), (377796, 'tmdb'), (4488, 'tmdb'), (9728, 'tmdb'), (9725, 'tmdb'), (9730, 'tmdb'), (11075, 'tmdb'), (1933, 'tmdb'), (11133, 'tmdb'), (10065, 'tmdb'), (11449, 'tmdb'), (16235, 'tmdb'), (121573, 'tmdb'), (410537, 'tmdb'), (348, 'tmdb'), (8077, 'tmdb'), (679, 'tmdb'), (790, 'tmdb'), (1091, 'tmdb'), (60935, 'tmdb'), (30497, 'tmdb'), (10331, 'tmdb'), (287903, 'tmdb'), (814, 'tmdb'), (11824, 'tmdb'), (805, 'tmdb'), (545334, 'tmdb'), (1547, 'tmdb'), (17898, 'tmdb'), (16281, 'tmdb'), (16288, 'tmdb'), (11298, 'tmdb'), (15762, 'tmdb'), (9542, 'tmdb'), (11654, 'tmdb'), (10206, 'tmdb'), (58151, 'tmdb'), (3036, 'tmdb'), (259693, 'tmdb'), (2199, 'tmdb'), (34312, 'tmdb'), (565, 'tmdb'), (3933, 'tmdb'), (70553, 'tmdb'), (288250, 'tmdb'), (41595, 'tmdb'), (76492, 'tmdb'), (159824, 'tmdb'), (255406, 'tmdb'), (764, 'tmdb'), (121248, 'tmdb'), (765, 'tmdb'), (931, 'tmdb'), (23202, 'tmdb'), (22970, 'tmdb'), (381170, 'tmdb'), (335524, 'tmdb'), (9100, 'tmdb'), (337652, 'tmdb'), (18801, 'tmdb'), (270303, 'tmdb'), (335525, 'tmdb'), (766, 'tmdb'), (620, 'tmdb'), (2978, 'tmdb'), (335796, 'tmdb'), (8337, 'tmdb'), (6069, 'tmdb'), (10925, 'tmdb'), (779, 'tmdb'), (20701, 'tmdb'), (78132, 'tvdb'), (36685, 'tmdb'), (609, 'tmdb'), (694, 'tmdb'), (274, 'tmdb'), (6114, 'tmdb'), (8769, 'tmdb'), (9374, 'tmdb'), (628, 'tmdb'), (229, 'tmdb'), (138, 'tmdb'), (3035, 'tmdb'), (24106, 'tmdb'), (9479, 'tmdb'), (2758, 'tmdb'), (2907, 'tmdb'), (77137, 'tvdb'), (77313, 'tvdb'), (3073, 'tmdb'), (46282, 'tmdb'), (46284, 'tmdb'), (61380, 'tmdb'), (10439, 'tmdb'), (13353, 'tmdb'), (2668, 'tmdb'), (67699, 'tmdb'), (10576, 'tmdb'), (73614, 'tvdb'), (571, 'tmdb'), (923, 'tmdb'), (521, 'tmdb'), (40387, 'tmdb'), (11549, 'tmdb'), (653, 'tmdb'), (6404, 'tmdb'), (30346, 'tmdb')] |
+[2022-03-18 08:06:38,736] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-03-18 08:06:39,346] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:39,346] [util.py:216]               [INFO]     |================================= Adding to Halloween. Collection ==================================|
+[2022-03-18 08:06:39,347] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:39,355] [builder.py:1709]           [INFO]     |  1/25 | Halloween. Collection | + | The Nightmare Before Christmas (1993)                          |
+[2022-03-18 08:06:39,487] [builder.py:1709]           [INFO]     |  2/25 | Halloween. Collection | + | The Cabin in the Woods (2012)                                  |
+[2022-03-18 08:06:39,539] [builder.py:1709]           [INFO]     |  3/25 | Halloween. Collection | + | Shaun of the Dead (2004)                                       |
+[2022-03-18 08:06:39,603] [builder.py:1709]           [INFO]     |  4/25 | Halloween. Collection | + | The Mummy (1999)                                               |
+[2022-03-18 08:06:39,656] [builder.py:1709]           [INFO]     |  5/25 | Halloween. Collection | + | Halloween (1978)                                               |
+[2022-03-18 08:06:39,710] [builder.py:1709]           [INFO]     |  6/25 | Halloween. Collection | + | Scream (1996)                                                  |
+[2022-03-18 08:06:39,787] [builder.py:1709]           [INFO]     |  7/25 | Halloween. Collection | + | Alien (1979)                                                   |
+[2022-03-18 08:06:39,841] [builder.py:1709]           [INFO]     |  8/25 | Halloween. Collection | + | Alien 3 (1992)                                                 |
+[2022-03-18 08:06:40,021] [builder.py:1709]           [INFO]     |  9/25 | Halloween. Collection | + | Aliens (1986)                                                  |
+[2022-03-18 08:06:40,217] [builder.py:1709]           [INFO]     | 10/25 | Halloween. Collection | + | The Fog (1980)                                                 |
+[2022-03-18 08:06:40,272] [builder.py:1709]           [INFO]     | 11/25 | Halloween. Collection | + | The Thing (1982)                                               |
+[2022-03-18 08:06:40,325] [builder.py:1709]           [INFO]     | 12/25 | Halloween. Collection | + | The Texas Chain Saw Massacre (1974)                            |
+[2022-03-18 08:06:40,377] [builder.py:1709]           [INFO]     | 13/25 | Halloween. Collection | + | Night of the Living Dead (1968)                                |
+[2022-03-18 08:06:40,540] [builder.py:1709]           [INFO]     | 14/25 | Halloween. Collection | + | Rosemary's Baby (1968)                                         |
+[2022-03-18 08:06:40,694] [builder.py:1709]           [INFO]     | 15/25 | Halloween. Collection | + | The Conjuring 2 (2016)                                         |
+[2022-03-18 08:06:40,922] [builder.py:1709]           [INFO]     | 16/25 | Halloween. Collection | + | Trick 'r Treat (2008)                                          |
+[2022-03-18 08:06:41,081] [builder.py:1709]           [INFO]     | 17/25 | Halloween. Collection | + | It Follows (2014)                                              |
+[2022-03-18 08:06:41,216] [builder.py:1709]           [INFO]     | 18/25 | Halloween. Collection | + | Vampyr (1932)                                                  |
+[2022-03-18 08:06:41,361] [builder.py:1709]           [INFO]     | 19/25 | Halloween. Collection | + | The Shining (1980)                                             |
+[2022-03-18 08:06:41,412] [builder.py:1709]           [INFO]     | 20/25 | Halloween. Collection | + | The Silence of the Lambs (1991)                                |
+[2022-03-18 08:06:41,465] [builder.py:1709]           [INFO]     | 21/25 | Halloween. Collection | + | The Bride of Frankenstein (1935)                               |
+[2022-03-18 08:06:41,624] [builder.py:1709]           [INFO]     | 22/25 | Halloween. Collection | + | Frankenstein (1931)                                            |
+[2022-03-18 08:06:41,683] [builder.py:1709]           [INFO]     | 23/25 | Halloween. Collection | + | The Birds (1963)                                               |
+[2022-03-18 08:06:41,735] [builder.py:1709]           [INFO]     | 24/25 | Halloween. Collection | + | Dawn of the Dead (1978)                                        |
+[2022-03-18 08:06:41,786] [builder.py:1709]           [INFO]     | 25/25 | Halloween. Collection | + | Nosferatu (1922)                                               |
+[2022-03-18 08:06:41,920] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:41,921] [builder.py:1735]           [INFO]     | 25 Movies Processed                                                                                |
+[2022-03-18 08:06:41,921] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:41,922] [util.py:216]               [INFO]     |============================= Missing Movies from Library: Halloween. ==============================|
+[2022-03-18 08:06:41,922] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-03-18 08:06:42,217] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Trick or Treat (1952) (TMDb: 67699)                                    |
+[2022-03-18 08:06:42,649] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Hocus Pocus (1993) (TMDb: 10439)                                       |
+[2022-03-18 08:06:42,928] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloweentown (1998) (TMDb: 27850)                                     |
+[2022-03-18 08:06:43,202] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloweentown High (2004) (TMDb: 34560)                                |
+[2022-03-18 08:06:43,446] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Return to Halloweentown (2006) (TMDb: 34204)                           |
+[2022-03-18 08:06:43,711] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloweentown II: Kalabar's Revenge (2001) (TMDb: 34205)               |
+[2022-03-18 08:06:43,995] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Pet Sematary (1989) (TMDb: 8913)                                       |
+[2022-03-18 08:06:44,294] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ghostbusters (1984) (TMDb: 620)                                        |
+[2022-03-18 08:06:44,538] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Poltergeist (1982) (TMDb: 609)                                         |
+[2022-03-18 08:06:44,816] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Sleepy Hollow (1999) (TMDb: 2668)                                      |
+[2022-03-18 08:06:45,200] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Practical Magic (1998) (TMDb: 6435)                                    |
+[2022-03-18 08:06:45,467] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Beetlejuice (1988) (TMDb: 4011)                                        |
+[2022-03-18 08:06:45,728] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Mars Attacks! (1996) (TMDb: 75)                                        |
+[2022-03-18 08:06:45,966] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Witchboard (1986) (TMDb: 17994)                                        |
+[2022-03-18 08:06:46,214] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Witchboard III: The Possession (1995) (TMDb: 40252)                    |
+[2022-03-18 08:06:46,502] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Witchboard 2: The Devil's Doorway (1993) (TMDb: 40251)                 |
+[2022-03-18 08:06:46,764] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Worst Witch (1986) (TMDb: 24054)                                   |
+[2022-03-18 08:06:47,051] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Adventures of Ichabod and Mr. Toad (1949) (TMDb: 13465)            |
+[2022-03-18 08:06:47,360] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | It's the Great Pumpkin, Charlie Brown (1966) (TMDb: 13353)             |
+[2022-03-18 08:06:47,631] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Craft (1996) (TMDb: 9100)                                          |
+[2022-03-18 08:06:47,874] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | A Disney Halloween (1983) (TMDb: 46282)                                |
+[2022-03-18 08:06:48,153] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Bud Abbott and Lou Costello Meet Frankenstein (1948) (TMDb: 3073)      |
+[2022-03-18 08:06:48,533] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Addams Family (1991) (TMDb: 2907)                                  |
+[2022-03-18 08:06:48,887] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Addams Family Values (1993) (TMDb: 2758)                               |
+[2022-03-18 08:06:49,130] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Disney's Halloween Treat (1982) (TMDb: 46284)                          |
+[2022-03-18 08:06:49,454] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ernest Scared Stupid (1991) (TMDb: 32685)                              |
+[2022-03-18 08:06:49,784] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloween Is Grinch Night (1977) (TMDb: 52207)                         |
+[2022-03-18 08:06:50,036] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Haunted History of Halloween (1997) (TMDb: 61380)                  |
+[2022-03-18 08:06:50,356] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Monster Squad (1987) (TMDb: 13509)                                 |
+[2022-03-18 08:06:50,617] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Bride of Chucky (1998) (TMDb: 11932)                                   |
+[2022-03-18 08:06:50,905] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Child's Play (1988) (TMDb: 10585)                                      |
+[2022-03-18 08:06:51,193] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Child's Play 2 (1990) (TMDb: 11186)                                    |
+[2022-03-18 08:06:51,458] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Child's Play 3 (1991) (TMDb: 11187)                                    |
+[2022-03-18 08:06:51,821] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | R.L. Stine's Monsterville: The Cabinet of Souls (2015) (TMDb: 362105)  |
+[2022-03-18 08:06:52,079] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Dawn of the Dead (2004) (TMDb: 924)                                    |
+[2022-03-18 08:06:52,393] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Drag Me to Hell (2009) (TMDb: 16871)                                   |
+[2022-03-18 08:06:52,662] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Evil Dead (2013) (TMDb: 109428)                                        |
+[2022-03-18 08:06:52,938] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Exorcism of Emily Rose (2005) (TMDb: 8643)                         |
+[2022-03-18 08:06:53,294] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloween (2007) (TMDb: 2082)                                          |
+[2022-03-18 08:06:53,626] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | World War Z (2013) (TMDb: 72190)                                       |
+[2022-03-18 08:06:53,944] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Zombieland (2009) (TMDb: 19908)                                        |
+[2022-03-18 08:06:54,366] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | War of the Worlds (2005) (TMDb: 74)                                    |
+[2022-03-18 08:06:54,647] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | This Is the End (2013) (TMDb: 109414)                                  |
+[2022-03-18 08:06:54,924] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The World's End (2013) (TMDb: 107985)                                  |
+[2022-03-18 08:06:55,232] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Constantine (2005) (TMDb: 561)                                         |
+[2022-03-18 08:06:55,527] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | ParaNorman (2012) (TMDb: 77174)                                        |
+[2022-03-18 08:06:55,872] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Hotel Transylvania (2012) (TMDb: 76492)                                |
+[2022-03-18 08:06:56,187] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ginger Snaps (2000) (TMDb: 9871)                                       |
+[2022-03-18 08:06:56,466] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ginger Snaps 2: Unleashed (2004) (TMDb: 10361)                         |
+[2022-03-18 08:06:56,728] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ginger Snaps Back: The Beginning (2004) (TMDb: 12583)                  |
+[2022-03-18 08:06:57,029] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Tucker and Dale vs. Evil (2010) (TMDb: 46838)                          |
+[2022-03-18 08:06:57,301] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Purge (2013) (TMDb: 158015)                                        |
+[2022-03-18 08:06:57,559] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Warm Bodies (2013) (TMDb: 82654)                                       |
+[2022-03-18 08:06:57,562] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Edward Scissorhands (1990) (TMDb: 162)                                 |
+[2022-03-18 08:06:57,566] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Batman Returns (1992) (TMDb: 364)                                      |
+[2022-03-18 08:06:57,821] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Haunt (2019) (TMDb: 517116)                                            |
+[2022-03-18 08:06:58,113] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | 3 from Hell (2019) (TMDb: 489064)                                      |
+[2022-03-18 08:06:58,386] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Room (2019) (TMDb: 582913)                                         |
+[2022-03-18 08:06:58,649] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Blade (1998) (TMDb: 36647)                                             |
+[2022-03-18 08:06:58,961] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Shadow of the Vampire (2000) (TMDb: 10873)                             |
+[2022-03-18 08:06:58,963] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Interview with the Vampire (1994) (TMDb: 628)                          |
+[2022-03-18 08:06:58,967] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Corpse Bride (2005) (TMDb: 3933)                                       |
+[2022-03-18 08:06:59,244] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Woman in Black (2012) (TMDb: 65086)                                |
+[2022-03-18 08:06:59,516] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Scream 2 (1997) (TMDb: 4233)                                           |
+[2022-03-18 08:06:59,787] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Scream 3 (2000) (TMDb: 4234)                                           |
+[2022-03-18 08:07:00,055] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Omen III: The Final Conflict (1981) (TMDb: 10768)                      |
+[2022-03-18 08:07:00,318] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Exorcist (1973) (TMDb: 9552)                                       |
+[2022-03-18 08:07:00,586] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Exorcist III (1990) (TMDb: 11587)                                  |
+[2022-03-18 08:07:00,877] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Exorcist: The Beginning (2004) (TMDb: 11026)                           |
+[2022-03-18 08:07:01,137] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Smølferne - Halloween (2013) (TMDb: 377796)                            |
+[2022-03-18 08:07:01,382] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Friday the 13th (1980) (TMDb: 4488)                                    |
+[2022-03-18 08:07:01,646] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Friday the 13th Part III (1982) (TMDb: 9728)                           |
+[2022-03-18 08:07:01,914] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Friday the 13th Part 2 (1981) (TMDb: 9725)                             |
+[2022-03-18 08:07:02,272] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Friday the 13th: The Final Chapter (1984) (TMDb: 9730)                 |
+[2022-03-18 08:07:02,519] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Audition (1999) (TMDb: 11075)                                          |
+[2022-03-18 08:07:02,840] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Others (2001) (TMDb: 1933)                                         |
+[2022-03-18 08:07:03,101] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Poltergeist II: The Other Side (1986) (TMDb: 11133)                    |
+[2022-03-18 08:07:03,389] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Amityville Horror (2005) (TMDb: 10065)                             |
+[2022-03-18 08:07:03,653] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Amityville Horror (1979) (TMDb: 11449)                             |
+[2022-03-18 08:07:03,912] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Amityville II: The Possession (1982) (TMDb: 16235)                     |
+[2022-03-18 08:07:04,193] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | My Amityville Horror (2013) (TMDb: 121573)                             |
+[2022-03-18 08:07:04,534] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Amityville Terror (2016) (TMDb: 410537)                            |
+[2022-03-18 08:07:04,936] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Thing (2011) (TMDb: 60935)                                         |
+[2022-03-18 08:07:05,189] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Krampus (2015) (TMDb: 287903)                                          |
+[2022-03-18 08:07:05,488] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | An American Werewolf in London (1981) (TMDb: 814)                      |
+[2022-03-18 08:07:05,796] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Teen Wolf (1985) (TMDb: 11824)                                         |
+[2022-03-18 08:07:06,070] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 545334: The resource you requested could not be found.      |
+[2022-03-18 08:07:06,325] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Lost Boys (1987) (TMDb: 1547)                                      |
+[2022-03-18 08:07:06,600] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Silver Bullet (1985) (TMDb: 17898)                                     |
+[2022-03-18 08:07:06,865] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Creepshow (1982) (TMDb: 16281)                                         |
+[2022-03-18 08:07:07,121] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Creepshow 2 (1987) (TMDb: 16288)                                       |
+[2022-03-18 08:07:07,376] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Howling (1981) (TMDb: 11298)                                       |
+[2022-03-18 08:07:07,621] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Night of the Creeps (1986) (TMDb: 15762)                               |
+[2022-03-18 08:07:07,876] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Hitcher (1986) (TMDb: 9542)                                        |
+[2022-03-18 08:07:08,151] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Hunger (1983) (TMDb: 11654)                                        |
+[2022-03-18 08:07:08,455] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Buffy the Vampire Slayer (1992) (TMDb: 10206)                          |
+[2022-03-18 08:07:08,706] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Fright Night (2011) (TMDb: 58151)                                      |
+[2022-03-18 08:07:08,987] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Mary Shelley's Frankenstein (1994) (TMDb: 3036)                        |
+[2022-03-18 08:07:09,314] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | My Mom's a Werewolf (1989) (TMDb: 2199)                                |
+[2022-03-18 08:07:09,576] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Sleepaway Camp III: Teenage Wasteland (1989) (TMDb: 34312)             |
+[2022-03-18 08:07:09,857] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Ring (2002) (TMDb: 565)                                            |
+[2022-03-18 08:07:10,112] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Sleepaway Camp IV: The Survivor (1992) (TMDb: 70553)                   |
+[2022-03-18 08:07:10,371] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Sinister (2011) (TMDb: 288250)                                         |
+[2022-03-18 08:07:10,651] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Witch Hunt (1994) (TMDb: 41595)                                        |
+[2022-03-18 08:07:10,907] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Hotel Transylvania 2 (2015) (TMDb: 159824)                             |
+[2022-03-18 08:07:11,167] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Omen Legacy (2001) (TMDb: 255406)                                  |
+[2022-03-18 08:07:11,480] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Evil Dead (1981) (TMDb: 764)                                       |
+[2022-03-18 08:07:11,731] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Halloween: The Inside Story (2010) (TMDb: 121248)                      |
+[2022-03-18 08:07:12,013] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Evil Dead II (1987) (TMDb: 765)                                        |
+[2022-03-18 08:07:12,284] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Don't Look Now (1973) (TMDb: 931)                                      |
+[2022-03-18 08:07:12,539] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | American Conjuring (2016) (TMDb: 381170)                               |
+[2022-03-18 08:07:12,781] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 335524: The resource you requested could not be found.      |
+[2022-03-18 08:07:13,071] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 337652: The resource you requested could not be found.      |
+[2022-03-18 08:07:13,407] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Haunted (1995) (TMDb: 18801)                                           |
+[2022-03-18 08:07:13,644] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 335525: The resource you requested could not be found.      |
+[2022-03-18 08:07:13,943] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Army of Darkness (1992) (TMDb: 766)                                    |
+[2022-03-18 08:07:14,200] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ghostbusters II (1989) (TMDb: 2978)                                    |
+[2022-03-18 08:07:14,501] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Ouija: Origin of Evil (2016) (TMDb: 335796)                            |
+[2022-03-18 08:07:14,768] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | They Live (1988) (TMDb: 8337)                                          |
+[2022-03-18 08:07:15,134] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Witches of Eastwick (1987) (TMDb: 6069)                            |
+[2022-03-18 08:07:15,433] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Return of the Living Dead (1985) (TMDb: 10925)                     |
+[2022-03-18 08:07:15,735] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Tales from the Darkside: The Movie (1990) (TMDb: 20701)                |
+[2022-03-18 08:07:15,994] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Rocky Horror Picture Show (1975) (TMDb: 36685)                     |
+[2022-03-18 08:07:15,997] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Bram Stoker's Dracula (1992) (TMDb: 6114)                              |
+[2022-03-18 08:07:16,290] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Christine (1983) (TMDb: 8769)                                          |
+[2022-03-18 08:07:16,577] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Death Becomes Her (1992) (TMDb: 9374)                                  |
+[2022-03-18 08:07:16,838] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Dracula (1931) (TMDb: 138)                                             |
+[2022-03-18 08:07:17,109] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Black Cat (1934) (TMDb: 24106)                                     |
+[2022-03-18 08:07:17,421] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Psycho II (1983) (TMDb: 10576)                                         |
+[2022-03-18 08:07:17,665] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Dial M for Murder (1954) (TMDb: 521)                                   |
+[2022-03-18 08:07:17,904] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Night Watch (1973) (TMDb: 40387)                                       |
+[2022-03-18 08:07:18,200] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Invasion of the Body Snatchers (1956) (TMDb: 11549)                    |
+[2022-03-18 08:07:18,482] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | Nosferatu the Vampyre (1979) (TMDb: 6404)                              |
+[2022-03-18 08:07:18,715] [builder.py:1943]           [INFO]     | Halloween. Collection | ? | The Body Snatcher (1945) (TMDb: 30346)                                 |
+[2022-03-18 08:07:18,716] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-03-18 08:07:18,717] [builder.py:1948]           [INFO]     | 130 Movies Missing                                                                                 |
+[2022-03-18 08:07:18,771] [plex.py:615]               [DEBUG]    | Smart Collection Test: ?type=1&sort=random&label=47953                                             |
+[2022-03-18 08:07:18,872] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-03-18 08:07:18,872] [util.py:216]               [INFO]     |============================ Updating Details of Halloween. Collection =============================|
+[2022-03-18 08:07:18,874] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-03-18 08:07:18,874] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-03-18 08:07:18,876] [builder.py:2193]           [INFO]     | Detail: sort_title updated Collection Sort Title to +3_Halloween.                                  |
+[2022-03-18 08:07:18,876] [builder.py:2235]           [DEBUG]    | {'summary.value': 'Halloween film is a genre that revolves around the plot involving Halloween.', 'summary.locked': 1, 'titleSort.value': '+3_Halloween.', 'titleSort.locked': 1} |
+[2022-03-18 08:07:18,889] [builder.py:2237]           [INFO]     | Details: have been updated                                                                         |
+[2022-03-18 08:07:18,890] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-03-18 08:07:18,890] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/108357                               |
+[2022-03-18 08:07:18,891] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-03-18 08:07:19,792] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/108357               |
+[2022-03-18 08:07:20,006] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-03-18 08:07:20,007] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-03-18 08:07:20,008] [util.py:216]               [INFO]     |                                   Finished Halloween. Collection                                   |
+[2022-03-18 08:07:20,009] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:42                                    |
+[2022-03-18 08:07:20,009] [util.py:220]               [INFO]     |====================================================================================================|

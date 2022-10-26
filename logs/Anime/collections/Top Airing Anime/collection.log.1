@@ -1,0 +1,104 @@
+[2022-10-24 01:23:28,254] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:23:28,255] [util.py:216]               [INFO]     |                                Top Airing Anime Collection in Anime                                |
+[2022-10-24 01:23:28,255] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-24 01:23:28,255] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-24 01:23:28,256] [util.py:216]               [INFO]     |============================== Validating Top Airing Anime Attributes ==============================|
+[2022-10-24 01:23:28,256] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:28,256] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-24 01:23:28,256] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-24 01:23:28,257] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:28,257] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-24 01:23:28,257] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-10-24 01:23:28,257] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:28,258] [builder.py:473]            [DEBUG]    | Validating Method: anilist_search                                                                  |
+[2022-10-24 01:23:28,258] [builder.py:474]            [DEBUG]    | Value: ordereddict([('year', None), ('format', 'tv'), ('status', 'airing'), ('limit', 10)])        |
+[2022-10-24 01:23:28,258] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2022 as default                   |
+[2022-10-24 01:23:29,958] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search sort_by attribute not found using score as default              |
+[2022-10-24 01:23:29,959] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:29,959] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-24 01:23:29,960] [builder.py:474]            [DEBUG]    | Value: +++++++++_Top_Airing                                                                        |
+[2022-10-24 01:23:29,960] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:29,960] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-10-24 01:23:29,960] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-24 01:23:29,961] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:29,961] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-10-24 01:23:29,961] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-24 01:23:29,973] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-24 01:23:29,974] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-24 01:23:29,979] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-24 01:23:29,979] [util.py:216]               [INFO]     |=============================== Running Top Airing Anime Collection ================================|
+[2022-10-24 01:23:29,980] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-24 01:23:29,980] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-24 01:23:29,980] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:29,981] [builder.py:1276]           [DEBUG]    | Builder: anilist_search: {'year': 2022, 'format': ['tv'], 'status': ['airing'], 'sort_by': 'score', 'limit': 10} |
+[2022-10-24 01:23:29,981] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:29,981] [util.py:162]               [DEBUG]    | Processing AniList Search:                                                                         |
+[2022-10-24 01:23:29,981] [util.py:162]               [DEBUG]    | 	Sort By Average Score                                                                             |
+[2022-10-24 01:23:29,982] [util.py:162]               [DEBUG]    | 	Limit to 10 Anime                                                                                 |
+[2022-10-24 01:23:29,982] [util.py:162]               [DEBUG]    | 	Year is 2022                                                                                      |
+[2022-10-24 01:23:29,982] [util.py:162]               [DEBUG]    | 	Format is ['tv']                                                                                  |
+[2022-10-24 01:23:29,982] [util.py:162]               [DEBUG]    | 	Status is ['airing']                                                                              |
+[2022-10-24 01:23:29,983] [anilist.py:149]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: SCORE_DESC, type: ANIME, seasonYear: 2022, format_in: [TV], status_in: [RELEASING]){id}}} |
+[2022-10-24 01:23:30,781] [anilist.py:269]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:30,781] [anilist.py:270]            [DEBUG]    | 10 AniList IDs Found: [116674, 127230, 142838, 140439, 130003, 142343, 137822, 139630, 139092, 135806] |
+[2022-10-24 01:23:30,781] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16063                                     |
+[2022-10-24 01:23:30,782] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16519                                     |
+[2022-10-24 01:23:30,782] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:30,782] [builder.py:1283]           [DEBUG]    | 8 IDs Found: [(74796, 'tvdb'), (397934, 'tvdb'), (102592, 'ratingKey'), (307375, 'tvdb'), (338455, 'tvdb'), (305074, 'tvdb'), (369144, 'tvdb'), (102426, 'ratingKey')] |
+[2022-10-24 01:23:30,783] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:30,820] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:30,820] [util.py:216]               [INFO]     |============================== Adding to Top Airing Anime Collection ===============================|
+[2022-10-24 01:23:30,820] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:30,820] [builder.py:1709]           [INFO]     | 1/5 | Top Airing Anime Collection | = | Spy x Family (2022)                                        |
+[2022-10-24 01:23:30,821] [builder.py:1709]           [INFO]     | 2/5 | Top Airing Anime Collection | = | Mob Psycho 100                                             |
+[2022-10-24 01:23:30,821] [builder.py:1709]           [INFO]     | 3/5 | Top Airing Anime Collection | = | Golden Kamuy                                               |
+[2022-10-24 01:23:30,821] [builder.py:1709]           [INFO]     | 4/5 | Top Airing Anime Collection | = | Boku no Hero Academia                                      |
+[2022-10-24 01:23:30,822] [builder.py:1709]           [INFO]     | 5/5 | Top Airing Anime Collection | = | Isekai Ojisan                                              |
+[2022-10-24 01:23:30,822] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:30,822] [builder.py:1735]           [INFO]     | 5 Shows Processed                                                                                  |
+[2022-10-24 01:23:30,822] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:30,823] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Top Airing Anime ===========================|
+[2022-10-24 01:23:30,823] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:31,489] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Bleach (TVDB: 74796)                                             |
+[2022-10-24 01:23:31,703] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Chainsaw Man (TVDB: 397934)                                      |
+[2022-10-24 01:23:31,960] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Welcome to Demon School! Iruma-kun (TVDB: 369144)                |
+[2022-10-24 01:23:31,961] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:31,961] [builder.py:1987]           [INFO]     | 3 Shows Missing                                                                                    |
+[2022-10-24 01:23:31,971] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-10-24 01:23:31,971] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-10-24 01:23:31,971] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:31,971] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [74796, 397934, 369144]                                                               |
+[2022-10-24 01:23:32,213] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-10-24 01:23:32,213] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 74796                                                                          |
+[2022-10-24 01:23:32,214] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 397934                                                                         |
+[2022-10-24 01:23:32,214] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 369144                                                                         |
+[2022-10-24 01:23:32,214] [sonarr.py:171]             [INFO]     | 3 Series already exist in Sonarr                                                                   |
+[2022-10-24 01:23:32,218] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:32,218] [util.py:216]               [INFO]     |========================= Updating Details of Top Airing Anime Collection ==========================|
+[2022-10-24 01:23:32,219] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:32,219] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-10-24 01:23:32,220] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-10-24 01:23:32,227] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:32,227] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Top Airing Anime Collection ===================|
+[2022-10-24 01:23:32,228] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-10-24 01:23:33,161] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-10-24 01:23:33,162] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-10-24 01:23:33,162] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-10-24 01:23:33,162] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-10-24 01:23:33,163] [sonarr.py:71]              [DEBUG]    | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                                           |
+[2022-10-24 01:23:33,163] [sonarr.py:71]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
+[2022-10-24 01:23:33,163] [sonarr.py:71]              [DEBUG]    | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                                           |
+[2022-10-24 01:23:33,163] [sonarr.py:71]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2022-10-24 01:23:33,164] [sonarr.py:71]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2022-10-24 01:23:33,395] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-10-24 01:23:33,396] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                       |
+[2022-10-24 01:23:33,396] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
+[2022-10-24 01:23:33,396] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                       |
+[2022-10-24 01:23:33,396] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2022-10-24 01:23:33,397] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2022-10-24 01:23:33,397] [sonarr.py:171]             [INFO]     | 5 Series already exist in Sonarr                                                                   |
+[2022-10-24 01:23:33,398] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-24 01:23:33,398] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:23:33,398] [util.py:216]               [INFO]     |                                Finished Top Airing Anime Collection                                |
+[2022-10-24 01:23:33,398] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-10-24 01:23:33,399] [util.py:220]               [INFO]     |====================================================================================================|

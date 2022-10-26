@@ -1,0 +1,322 @@
+[2022-10-24 01:22:39,294] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:22:39,295] [util.py:216]               [INFO]     |                              Jack's Plan to Watch Collection in Anime                              |
+[2022-10-24 01:22:39,295] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-24 01:22:39,295] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,295] [util.py:216]               [INFO]     |============================ Validating Jack's Plan to Watch Attributes ============================|
+[2022-10-24 01:22:39,296] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,296] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-24 01:22:39,296] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-24 01:22:39,296] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,297] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-24 01:22:39,297] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-10-24 01:22:39,297] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,297] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-24 01:22:39,298] [builder.py:474]            [DEBUG]    | Value: ++++++_Plan_to_Watch                                                                        |
+[2022-10-24 01:22:39,298] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,298] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
+[2022-10-24 01:22:39,298] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'plan_to_watch'), ('sort_by', 'title'), ('limit', 1000)]) |
+[2022-10-24 01:22:39,299] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,299] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-10-24 01:22:39,299] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-24 01:22:39,299] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,299] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-10-24 01:22:39,300] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-10-24 01:22:39,338] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,339] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-24 01:22:39,339] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,339] [util.py:216]               [INFO]     |============================= Running Jack's Plan to Watch Collection ==============================|
+[2022-10-24 01:22:39,340] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,340] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-24 01:22:39,340] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,341] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'plan_to_watch', 'sort_by': 'anime_title', 'limit': 1000} |
+[2022-10-24 01:22:39,341] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,341] [mal.py:235]                [INFO]     | Processing MyAnimeList Userlist: 1000 Anime from JCH0tsh0t's Plan to Watch list sorted by Title    |
+[2022-10-24 01:22:39,505] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,505] [mal.py:240]                [DEBUG]    | 138 MyAnimeList IDs Found: [35180, 38101, 47, 8676, 9989, 11111, 24833, 30654, 9919, 477, 962, 3297, 22789, 34572, 889, 41468, 10800, 14741, 39175, 34382, 4181, 48702, 11843, 2025, 35849, 41461, 28223, 38691, 40852, 37347, 40454, 47164, 39792, 38671, 40956, 6702, 33050, 10087, 40417, 42938, 820, 15335, 9969, 15417, 34096, 28977, 39533, 37349, 27631, 268, 36028, 245, 10793, 31859, 263, 23269, 44042, 42897, 12189, 249, 14719, 37991, 5680, 7791, 43608, 40591, 40221, 40839, 42963, 51213, 22535, 31758, 28851, 11887, 48926, 50631, 16782, 49776, 17265, 1887, 9756, 4087, 48483, 2581, 17074, 19, 23755, 34591, 10165, 40729, 20507, 21, 2966, 5341, 29803, 35073, 37675, 48895, 31181, 35247, 32951, 45, 38329, 49413, 13125, 47162, 33095, 40586, 48849, 45653, 49357, 30484, 39597, 32093, 47163, 38793, 41488, 41353, 40730, 38480, 6213, 16049, 38481, 4654, 8937, 36432, 41389, 48580, 49114, 33352, 14813, 39547, 23847, 37779, 39617, 35507, 51096, 32995] |
+[2022-10-24 01:22:39,506] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14642                                     |
+[2022-10-24 01:22:39,508] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33050                                        |
+[2022-10-24 01:22:39,508] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15971                                     |
+[2022-10-24 01:22:39,509] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31758                                        |
+[2022-10-24 01:22:39,510] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16531                                     |
+[2022-10-24 01:22:39,511] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,511] [builder.py:1283]           [DEBUG]    | 133 IDs Found: [(306269, 'tvdb'), (355966, 'tvdb'), (149, 'tmdb'), (172921, 'tvdb'), (247958, 'tvdb'), (105428, 'ratingKey'), (283947, 'tvdb'), (283947, 'tvdb'), (248035, 'tvdb'), (79839, 'tvdb'), (79839, 'tvdb'), (79839, 'tvdb'), (281270, 'tvdb'), (331753, 'tvdb'), (79604, 'tvdb'), (103700, 'ratingKey'), (251982, 'tvdb'), (261862, 'tvdb'), (337120, 'tvdb'), (80644, 'tvdb'), (102386, 'ratingKey'), (103689, 'ratingKey'), (80042, 'tvdb'), (337017, 'tvdb'), (264663, 'tvdb'), (289177, 'tvdb'), (355774, 'tvdb'), (355774, 'tvdb'), (289882, 'tvdb'), (289882, 'tvdb'), (289882, 'tvdb'), (370769, 'tvdb'), (355480, 'tvdb'), (355480, 'tvdb'), (114801, 'tvdb'), (275798, 'tvdb'), (357488, 'tvdb'), (357488, 'tvdb'), (81618, 'tvdb'), (245917, 'tmdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (103412, 'ratingKey'), (103637, 'ratingKey'), (295224, 'tvdb'), (72408, 'tvdb'), (111531, 'ratingKey'), (79071, 'tvdb'), (252471, 'tvdb'), (303868, 'tvdb'), (79685, 'tvdb'), (269872, 'tvdb'), (111596, 'ratingKey'), (103611, 'ratingKey'), (71361, 'tvdb'), (262954, 'tvdb'), (262954, 'tvdb'), (87501, 'tvdb'), (87501, 'tvdb'), (354198, 'tvdb'), (354198, 'tvdb'), (104727, 'ratingKey'), (380654, 'tvdb'), (380654, 'tvdb'), (102399, 'ratingKey'), (279831, 'tvdb'), (378064, 'tmdb'), (259647, 'tvdb'), (402412, 'tvdb'), (402412, 'tvdb'), (198375, 'tmdb'), (409723, 'tvdb'), (272128, 'tvdb'), (80177, 'tvdb'), (219181, 'tvdb'), (83475, 'tvdb'), (111686, 'ratingKey'), (80675, 'tvdb'), (102261, 'tvdb'), (74599, 'tvdb'), (284131, 'tvdb'), (82788, 'tvdb'), (240291, 'tvdb'), (341437, 'tvdb'), (275610, 'tvdb'), (81797, 'tvdb'), (105515, 'ratingKey'), (81178, 'tvdb'), (294002, 'tvdb'), (294002, 'tvdb'), (294002, 'tvdb'), (294002, 'tvdb'), (102261, 'tvdb'), (102261, 'tvdb'), (318950, 'tvdb'), (70863, 'tvdb'), (572154, 'tmdb'), (107811, 'ratingKey'), (402640, 'tvdb'), (304316, 'tvdb'), (389377, 'tvdb'), (103542, 'ratingKey'), (402337, 'tvdb'), (111570, 'ratingKey'), (339268, 'tvdb'), (259640, 'tvdb'), (105589, 'ratingKey'), (102410, 'ratingKey'), (352408, 'tvdb'), (385374, 'tvdb'), (378556, 'tvdb'), (388672, 'tvdb'), (360438, 'tvdb'), (114921, 'tvdb'), (114921, 'tvdb'), (114921, 'tvdb'), (83322, 'tvdb'), (83322, 'tvdb'), (83322, 'tvdb'), (103462, 'ratingKey'), (400133, 'tvdb'), (400133, 'tvdb'), (102459, 'ratingKey'), (267435, 'tvdb'), (267435, 'tvdb'), (267435, 'tvdb'), (348002, 'tvdb'), (348002, 'tvdb'), (329822, 'tvdb'), (329822, 'tvdb'), (104630, 'ratingKey')] |
+[2022-10-24 01:22:39,512] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:39,877] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,877] [util.py:216]               [INFO]     |============================ Adding to Jack's Plan to Watch Collection =============================|
+[2022-10-24 01:22:39,878] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,878] [builder.py:1709]           [INFO]     |  1/40 | Jack's Plan to Watch Collection | = | Sangatsu no Lion                                     |
+[2022-10-24 01:22:39,878] [builder.py:1709]           [INFO]     |  2/40 | Jack's Plan to Watch Collection | = | Go-Toubun no Hanayome                                |
+[2022-10-24 01:22:39,879] [builder.py:1709]           [INFO]     |  3/40 | Jack's Plan to Watch Collection | = | Another                                              |
+[2022-10-24 01:22:39,879] [builder.py:1709]           [INFO]     |  4/40 | Jack's Plan to Watch Collection | = | Burn the Witch                                       |
+[2022-10-24 01:22:39,879] [builder.py:1709]           [INFO]     |  5/40 | Jack's Plan to Watch Collection | = | Dance Dance Danseur                                  |
+[2022-10-24 01:22:39,879] [builder.py:1709]           [INFO]     |  6/40 | Jack's Plan to Watch Collection | = | Danshi Koukousei no Nichijou                         |
+[2022-10-24 01:22:39,880] [builder.py:1709]           [INFO]     |  7/40 | Jack's Plan to Watch Collection | = | Date a Live                                          |
+[2022-10-24 01:22:39,881] [builder.py:1709]           [INFO]     |  8/40 | Jack's Plan to Watch Collection | = | Dr. Stone                                            |
+[2022-10-24 01:22:39,881] [builder.py:1709]           [INFO]     |  9/40 | Jack's Plan to Watch Collection | = | Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth |
+[2022-10-24 01:22:39,881] [builder.py:1709]           [INFO]     | 10/40 | Jack's Plan to Watch Collection | = | Given                                                |
+[2022-10-24 01:22:39,882] [builder.py:1709]           [INFO]     | 11/40 | Jack's Plan to Watch Collection | = | Goblin Slayer                                        |
+[2022-10-24 01:22:39,882] [builder.py:1709]           [INFO]     | 12/40 | Jack's Plan to Watch Collection | = | Golden Kamuy                                         |
+[2022-10-24 01:22:39,882] [builder.py:1709]           [INFO]     | 13/40 | Jack's Plan to Watch Collection | = | Hajime no Ippo: The Fighting!                        |
+[2022-10-24 01:22:39,882] [builder.py:1709]           [INFO]     | 14/40 | Jack's Plan to Watch Collection | = | Horimiya                                             |
+[2022-10-24 01:22:39,883] [builder.py:1709]           [INFO]     | 15/40 | Jack's Plan to Watch Collection | = | Hyouka                                               |
+[2022-10-24 01:22:39,883] [builder.py:1709]           [INFO]     | 16/40 | Jack's Plan to Watch Collection | = | K-On!                                                |
+[2022-10-24 01:22:39,883] [builder.py:1709]           [INFO]     | 17/40 | Jack's Plan to Watch Collection | = | Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunousen |
+[2022-10-24 01:22:39,884] [builder.py:1709]           [INFO]     | 18/40 | Jack's Plan to Watch Collection | = | Kami no Tou                                          |
+[2022-10-24 01:22:39,884] [builder.py:1709]           [INFO]     | 19/40 | Jack's Plan to Watch Collection | = | Kanojo, Okarishimasu                                 |
+[2022-10-24 01:22:39,885] [builder.py:1709]           [INFO]     | 20/40 | Jack's Plan to Watch Collection | = | Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai o Tsukisusumu |
+[2022-10-24 01:22:39,885] [builder.py:1709]           [INFO]     | 21/40 | Jack's Plan to Watch Collection | = | Komi-san wa, Komyushou Desu.                         |
+[2022-10-24 01:22:39,885] [builder.py:1709]           [INFO]     | 22/40 | Jack's Plan to Watch Collection | = | Mieruko-chan                                         |
+[2022-10-24 01:22:39,886] [builder.py:1709]           [INFO]     | 23/40 | Jack's Plan to Watch Collection | = | Bakemonogatari                                       |
+[2022-10-24 01:22:39,886] [builder.py:1709]           [INFO]     | 24/40 | Jack's Plan to Watch Collection | = | Ookami to Koushinryou                                |
+[2022-10-24 01:22:39,886] [builder.py:1709]           [INFO]     | 25/40 | Jack's Plan to Watch Collection | = | Overlord                                             |
+[2022-10-24 01:22:39,887] [builder.py:1709]           [INFO]     | 26/40 | Jack's Plan to Watch Collection | = | Shinsekai yori                                       |
+[2022-10-24 01:22:39,887] [builder.py:1709]           [INFO]     | 27/40 | Jack's Plan to Watch Collection | = | Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita |
+[2022-10-24 01:22:39,887] [builder.py:1709]           [INFO]     | 28/40 | Jack's Plan to Watch Collection | = | Sonny Boy                                            |
+[2022-10-24 01:22:39,888] [builder.py:1709]           [INFO]     | 29/40 | Jack's Plan to Watch Collection | = | Soredemo Ayumu wa Yosetekuru                         |
+[2022-10-24 01:22:39,888] [builder.py:1709]           [INFO]     | 30/40 | Jack's Plan to Watch Collection | = | Star Wars: Visions                                   |
+[2022-10-24 01:22:39,888] [builder.py:1709]           [INFO]     | 31/40 | Jack's Plan to Watch Collection | = | Tanaka-kun wa Itsumo Kedaruge                        |
+[2022-10-24 01:22:39,889] [builder.py:1709]           [INFO]     | 32/40 | Jack's Plan to Watch Collection | = | Tensei Kenja no Isekai Life: Daini no Shokugyou o Ete, Sekai Saikyou ni Narimashita |
+[2022-10-24 01:22:39,889] [builder.py:1709]           [INFO]     | 33/40 | Jack's Plan to Watch Collection | = | Tensei Shitara Slime Datta Ken                       |
+[2022-10-24 01:22:39,889] [builder.py:1709]           [INFO]     | 34/40 | Jack's Plan to Watch Collection | = | The God of High School                               |
+[2022-10-24 01:22:39,890] [builder.py:1709]           [INFO]     | 35/40 | Jack's Plan to Watch Collection | = | Tonikaku Kawaii                                      |
+[2022-10-24 01:22:39,890] [builder.py:1709]           [INFO]     | 36/40 | Jack's Plan to Watch Collection | = | Vanitas no Karte                                     |
+[2022-10-24 01:22:39,891] [builder.py:1709]           [INFO]     | 37/40 | Jack's Plan to Watch Collection | = | Violet Evergarden                                    |
+[2022-10-24 01:22:39,891] [builder.py:1709]           [INFO]     | 38/40 | Jack's Plan to Watch Collection | = | Yakusoku no Neverland                                |
+[2022-10-24 01:22:39,891] [builder.py:1709]           [INFO]     | 39/40 | Jack's Plan to Watch Collection | = | Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e      |
+[2022-10-24 01:22:39,892] [builder.py:1709]           [INFO]     | 40/40 | Jack's Plan to Watch Collection | = | Yuuri!!! on Ice                                      |
+[2022-10-24 01:22:39,892] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,892] [builder.py:1735]           [INFO]     | 40 Shows Processed                                                                                 |
+[2022-10-24 01:22:39,892] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:39,893] [util.py:216]               [INFO]     |======================== Missing Movies from Library: Jack's Plan to Watch =========================|
+[2022-10-24 01:22:39,893] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:40,091] [builder.py:1943]           [INFO]     | Jack's Plan to Watch Collection | ? | Akira (1988) (TMDb: 149)                                     |
+[2022-10-24 01:22:40,246] [builder.py:1943]           [INFO]     | Jack's Plan to Watch Collection | ? | Gintama: The Movie: The Final Chapter: Be Forever Yorozuya (2013) (TMDb: 245917) |
+[2022-10-24 01:22:40,435] [builder.py:1943]           [INFO]     | Jack's Plan to Watch Collection | ? | A Silent Voice: The Movie (2016) (TMDb: 378064)              |
+[2022-10-24 01:22:40,594] [builder.py:1943]           [INFO]     | Jack's Plan to Watch Collection | ? | The Garden of Words (2013) (TMDb: 198375)                    |
+[2022-10-24 01:22:40,764] [builder.py:1943]           [INFO]     | Jack's Plan to Watch Collection | ? | Rascal Does Not Dream of a Dreaming Girl (2019) (TMDb: 572154) |
+[2022-10-24 01:22:40,765] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:40,765] [builder.py:1948]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-10-24 01:22:40,768] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:40,768] [util.py:216]               [INFO]     |========================= Missing Shows from Library: Jack's Plan to Watch =========================|
+[2022-10-24 01:22:40,768] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:40,813] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Amagami SS (TVDB: 172921)                                    |
+[2022-10-24 01:22:40,860] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Anohana: The Flower We Saw That Day (TVDB: 247958)           |
+[2022-10-24 01:22:40,929] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Assassination Classroom (TVDB: 283947)                       |
+[2022-10-24 01:22:40,973] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Blue Exorcist (TVDB: 248035)                                 |
+[2022-10-24 01:22:41,013] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Aria (TVDB: 79839)                                           |
+[2022-10-24 01:22:41,052] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Barakamon (TVDB: 281270)                                     |
+[2022-10-24 01:22:41,097] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Black Clover (TVDB: 331753)                                  |
+[2022-10-24 01:22:41,147] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Black Lagoon (TVDB: 79604)                                   |
+[2022-10-24 01:22:41,191] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Chihayafuru (TVDB: 251982)                                   |
+[2022-10-24 01:22:41,236] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Love, Chunibyo & Other Delusions! (TVDB: 261862)             |
+[2022-10-24 01:22:41,281] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Citrus (TVDB: 337120)                                        |
+[2022-10-24 01:22:41,321] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Clannad (TVDB: 80644)                                        |
+[2022-10-24 01:22:41,360] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Darker Than Black (TVDB: 80042)                              |
+[2022-10-24 01:22:41,405] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | DARLING in the FRANXX (TVDB: 337017)                         |
+[2022-10-24 01:22:41,458] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Death Parade (TVDB: 289177)                                  |
+[2022-10-24 01:22:41,502] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Keep Your Hands Off Eizouken! (TVDB: 370769)                 |
+[2022-10-24 01:22:41,550] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Fire Force (TVDB: 355480)                                    |
+[2022-10-24 01:22:41,593] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Fairy Tail (TVDB: 114801)                                    |
+[2022-10-24 01:22:41,633] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Fate/Zero (TVDB: 275798)                                     |
+[2022-10-24 01:22:41,672] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Fruits Basket (2019) (TVDB: 357488)                          |
+[2022-10-24 01:22:41,716] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Legend of the Galactic Heroes (TVDB: 81618)                  |
+[2022-10-24 01:22:41,761] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Gintama (TVDB: 79895)                                        |
+[2022-10-24 01:22:41,803] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | God Eater (TVDB: 295224)                                     |
+[2022-10-24 01:22:41,846] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Golden Boy (TVDB: 72408)                                     |
+[2022-10-24 01:22:41,899] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Great Teacher Onizuka (TVDB: 79071)                          |
+[2022-10-24 01:22:41,940] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Guilty Crown (TVDB: 252471)                                  |
+[2022-10-24 01:22:41,983] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Grimgar of Fantasy and Ash (TVDB: 303868)                    |
+[2022-10-24 01:22:42,024] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Kinmoza! (TVDB: 269872)                                      |
+[2022-10-24 01:22:42,070] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | InuYasha (TVDB: 71361)                                       |
+[2022-10-24 01:22:42,116] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | JoJo's Bizarre Adventure (2012) (TVDB: 262954)               |
+[2022-10-24 01:22:42,160] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Parasyte -the maxim- (TVDB: 279831)                          |
+[2022-10-24 01:22:42,200] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Kokoro Connect (TVDB: 259647)                                |
+[2022-10-24 01:22:42,239] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | The Yakuza's Guide to Babysitting (TVDB: 409723)             |
+[2022-10-24 01:22:42,281] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Log Horizon (TVDB: 272128)                                   |
+[2022-10-24 01:22:42,320] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Lucky Star (TVDB: 80177)                                     |
+[2022-10-24 01:22:42,363] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Puella Magi Madoka Magica (TVDB: 219181)                     |
+[2022-10-24 01:22:42,401] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Michiko & Hatchin (TVDB: 83475)                              |
+[2022-10-24 01:22:42,448] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Mobile Suit Gundam 00 (TVDB: 80675)                          |
+[2022-10-24 01:22:42,489] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Monster (TVDB: 74599)                                        |
+[2022-10-24 01:22:42,567] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | The Seven Deadly Sins (TVDB: 284131)                         |
+[2022-10-24 01:22:42,614] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Natsume's Book of Friends (TVDB: 82788)                      |
+[2022-10-24 01:22:42,665] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Nichijou: My Ordinary Life (TVDB: 240291)                    |
+[2022-10-24 01:22:42,708] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Megalobox (TVDB: 341437)                                     |
+[2022-10-24 01:22:42,753] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Noragami (TVDB: 275610)                                      |
+[2022-10-24 01:22:42,798] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | One Piece (TVDB: 81797)                                      |
+[2022-10-24 01:22:42,840] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Akashic Records of Bastard Magic Instructor (TVDB: 318950)   |
+[2022-10-24 01:22:42,878] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Rurouni Kenshin (TVDB: 70863)                                |
+[2022-10-24 01:22:42,920] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | The Executioner and Her Way of Life (TVDB: 402640)           |
+[2022-10-24 01:22:42,957] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Showa Genroku Rakugo Shinju (TVDB: 304316)                   |
+[2022-10-24 01:22:43,031] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Steins;Gate 0 (TVDB: 339268)                                 |
+[2022-10-24 01:22:43,077] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Sword Art Online (TVDB: 259640)                              |
+[2022-10-24 01:22:43,119] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | The Slime Diaries: That Time I Got Reincarnated as a Slime (TVDB: 385374) |
+[2022-10-24 01:22:43,160] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | Heaven Official's Blessing (TVDB: 388672)                    |
+[2022-10-24 01:22:43,198] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | A Certain Scientific Accelerator (TVDB: 360438)              |
+[2022-10-24 01:22:43,241] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | A Certain Scientific Railgun (TVDB: 114921)                  |
+[2022-10-24 01:22:43,283] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | A Certain Magical Index (TVDB: 83322)                        |
+[2022-10-24 01:22:43,341] [builder.py:1982]           [INFO]     | Jack's Plan to Watch Collection | ? | My Teen Romantic Comedy SNAFU (TVDB: 267435)                 |
+[2022-10-24 01:22:43,341] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,341] [builder.py:1987]           [INFO]     | 57 Shows Missing                                                                                   |
+[2022-10-24 01:22:43,346] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,347] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-10-24 01:22:43,347] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:43,347] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [172921, 247958, 283947, 248035, 79839, 281270, 331753, 79604, 251982, 261862, 337120, 80644, 80042, 337017, 289177, 370769, 355480, 114801, 275798, 357488, 81618, 79895, 295224, 72408, 79071, 252471, 303868, 269872, 71361, 262954, 279831, 259647, 409723, 272128, 80177, 219181, 83475, 80675, 74599, 284131, 82788, 240291, 341437, 275610, 81797, 318950, 70863, 402640, 304316, 339268, 259640, 385374, 388672, 360438, 114921, 83322, 267435] |
+[2022-10-24 01:22:43,601] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,601] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 172921                                                                         |
+[2022-10-24 01:22:43,602] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 247958                                                                         |
+[2022-10-24 01:22:43,602] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 283947                                                                         |
+[2022-10-24 01:22:43,602] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 248035                                                                         |
+[2022-10-24 01:22:43,602] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 79839                                                                          |
+[2022-10-24 01:22:43,603] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 281270                                                                         |
+[2022-10-24 01:22:43,603] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 331753                                                                         |
+[2022-10-24 01:22:43,603] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 79604                                                                          |
+[2022-10-24 01:22:43,603] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 251982                                                                         |
+[2022-10-24 01:22:43,604] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 261862                                                                         |
+[2022-10-24 01:22:43,604] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 337120                                                                         |
+[2022-10-24 01:22:43,604] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 80644                                                                          |
+[2022-10-24 01:22:43,604] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 80042                                                                          |
+[2022-10-24 01:22:43,605] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 337017                                                                         |
+[2022-10-24 01:22:43,605] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 289177                                                                         |
+[2022-10-24 01:22:43,605] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 370769                                                                         |
+[2022-10-24 01:22:43,605] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 355480                                                                         |
+[2022-10-24 01:22:43,606] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 114801                                                                         |
+[2022-10-24 01:22:43,606] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 275798                                                                         |
+[2022-10-24 01:22:43,606] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 357488                                                                         |
+[2022-10-24 01:22:43,607] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 81618                                                                          |
+[2022-10-24 01:22:43,607] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 79895                                                                          |
+[2022-10-24 01:22:43,607] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 295224                                                                         |
+[2022-10-24 01:22:43,607] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 72408                                                                          |
+[2022-10-24 01:22:43,608] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 79071                                                                          |
+[2022-10-24 01:22:43,608] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 252471                                                                         |
+[2022-10-24 01:22:43,608] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 303868                                                                         |
+[2022-10-24 01:22:43,609] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 269872                                                                         |
+[2022-10-24 01:22:43,609] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 71361                                                                          |
+[2022-10-24 01:22:43,609] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 262954                                                                         |
+[2022-10-24 01:22:43,609] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 279831                                                                         |
+[2022-10-24 01:22:43,610] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 259647                                                                         |
+[2022-10-24 01:22:43,610] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 409723                                                                         |
+[2022-10-24 01:22:43,610] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 272128                                                                         |
+[2022-10-24 01:22:43,610] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 80177                                                                          |
+[2022-10-24 01:22:43,611] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 219181                                                                         |
+[2022-10-24 01:22:43,611] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 83475                                                                          |
+[2022-10-24 01:22:43,611] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 80675                                                                          |
+[2022-10-24 01:22:43,611] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 74599                                                                          |
+[2022-10-24 01:22:43,612] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 284131                                                                         |
+[2022-10-24 01:22:43,612] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 82788                                                                          |
+[2022-10-24 01:22:43,612] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 240291                                                                         |
+[2022-10-24 01:22:43,612] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 341437                                                                         |
+[2022-10-24 01:22:43,612] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 275610                                                                         |
+[2022-10-24 01:22:43,613] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 81797                                                                          |
+[2022-10-24 01:22:43,613] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 318950                                                                         |
+[2022-10-24 01:22:43,613] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 70863                                                                          |
+[2022-10-24 01:22:43,614] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 402640                                                                         |
+[2022-10-24 01:22:43,614] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 304316                                                                         |
+[2022-10-24 01:22:43,614] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 339268                                                                         |
+[2022-10-24 01:22:43,614] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 259640                                                                         |
+[2022-10-24 01:22:43,615] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 385374                                                                         |
+[2022-10-24 01:22:43,615] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 388672                                                                         |
+[2022-10-24 01:22:43,618] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 360438                                                                         |
+[2022-10-24 01:22:43,618] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 114921                                                                         |
+[2022-10-24 01:22:43,618] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 83322                                                                          |
+[2022-10-24 01:22:43,618] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 267435                                                                         |
+[2022-10-24 01:22:43,619] [sonarr.py:171]             [INFO]     | 57 Series already exist in Sonarr                                                                  |
+[2022-10-24 01:22:43,624] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,625] [util.py:216]               [INFO]     |======================= Updating Details of Jack's Plan to Watch Collection ========================|
+[2022-10-24 01:22:43,625] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,626] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-10-24 01:22:43,626] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-10-24 01:22:43,662] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:43,663] [util.py:216]               [INFO]     |================= Updating Details of the Items in Jack's Plan to Watch Collection =================|
+[2022-10-24 01:22:43,663] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-10-24 01:22:51,214] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-10-24 01:22:51,214] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-10-24 01:22:51,215] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-10-24 01:22:51,215] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-10-24 01:22:51,215] [sonarr.py:71]              [DEBUG]    | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')                             |
+[2022-10-24 01:22:51,216] [sonarr.py:71]              [DEBUG]    | (355966, 'F:\\Anime\\Quintessential Quintuplets, The (2019) [tvdb-355966]')                        |
+[2022-10-24 01:22:51,216] [sonarr.py:71]              [DEBUG]    | (254349, 'F:\\Anime\\Another (2012) [tvdb-254349]')                                                |
+[2022-10-24 01:22:51,216] [sonarr.py:71]              [DEBUG]    | (389459, 'F:\\Anime\\Burn the Witch (2020) [tvdb-389459]')                                         |
+[2022-10-24 01:22:51,216] [sonarr.py:71]              [DEBUG]    | (402125, 'F:\\Anime\\Dance Dance Danseur (2022) [tvdb-402125]')                                    |
+[2022-10-24 01:22:51,216] [sonarr.py:71]              [DEBUG]    | (254661, 'F:\\Anime\\Daily Lives of High School Boys (2012) [tvdb-254661]')                        |
+[2022-10-24 01:22:51,217] [sonarr.py:71]              [DEBUG]    | (264663, 'F:\\Anime\\Date A Live (2013) [tvdb-264663]')                                            |
+[2022-10-24 01:22:51,217] [sonarr.py:71]              [DEBUG]    | (355774, 'F:\\Anime\\Dr. Stone (2019) [tvdb-355774]')                                              |
+[2022-10-24 01:22:51,217] [sonarr.py:71]              [DEBUG]    | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]')      |
+[2022-10-24 01:22:51,218] [sonarr.py:71]              [DEBUG]    | (361218, 'F:\\Anime\\Given (2019) [tvdb-361218]')                                                  |
+[2022-10-24 01:22:51,218] [sonarr.py:71]              [DEBUG]    | (350166, 'F:\\Anime\\Goblin Slayer (2018) [tvdb-350166]')                                          |
+[2022-10-24 01:22:51,218] [sonarr.py:71]              [DEBUG]    | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                                           |
+[2022-10-24 01:22:51,218] [sonarr.py:71]              [DEBUG]    | (79685, 'F:\\Anime\\Hajime no Ippo (2000) [tvdb-79685]')                                           |
+[2022-10-24 01:22:51,219] [sonarr.py:71]              [DEBUG]    | (388593, 'F:\\Anime\\Horimiya (2021) [tvdb-388593]')                                               |
+[2022-10-24 01:22:51,219] [sonarr.py:71]              [DEBUG]    | (257764, 'F:\\Anime\\Hyouka (2012) [tvdb-257764]')                                                 |
+[2022-10-24 01:22:51,219] [sonarr.py:71]              [DEBUG]    | (87501, 'F:\\Anime\\K-ON! (2009) [tvdb-87501]')                                                    |
+[2022-10-24 01:22:51,219] [sonarr.py:71]              [DEBUG]    | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')                              |
+[2022-10-24 01:22:51,220] [sonarr.py:71]              [DEBUG]    | (376729, 'F:\\Anime\\Tower of God (2020) [tvdb-376729]')                                           |
+[2022-10-24 01:22:51,220] [sonarr.py:71]              [DEBUG]    | (380654, 'F:\\Anime\\Rent-a-Girlfriend (2020) [tvdb-380654]')                                      |
+[2022-10-24 01:22:51,220] [sonarr.py:71]              [DEBUG]    | (417658, 'F:\\Anime\\Vermeil in Gold (2022) [tvdb-417658]')                                        |
+[2022-10-24 01:22:51,220] [sonarr.py:71]              [DEBUG]    | (402412, "F:\\Anime\\Komi Can't Communicate (2021) [tvdb-402412]")                                 |
+[2022-10-24 01:22:51,221] [sonarr.py:71]              [DEBUG]    | (399121, 'F:\\Anime\\Mieruko-chan (2021) [tvdb-399121]')                                           |
+[2022-10-24 01:22:51,221] [sonarr.py:71]              [DEBUG]    | (102261, 'F:\\Anime\\Monogatari (2009) [tvdb-102261]')                                             |
+[2022-10-24 01:22:51,221] [sonarr.py:71]              [DEBUG]    | (81178, 'F:\\Anime\\Spice and Wolf (2008) [tvdb-81178]')                                           |
+[2022-10-24 01:22:51,221] [sonarr.py:71]              [DEBUG]    | (294002, 'F:\\Anime\\Overlord (2015) [tvdb-294002]')                                               |
+[2022-10-24 01:22:51,222] [sonarr.py:71]              [DEBUG]    | (262838, 'F:\\Anime\\From the New World (2012) [tvdb-262838]')                                     |
+[2022-10-24 01:22:51,222] [sonarr.py:71]              [DEBUG]    | (389377, "F:\\Anime\\I've Been Killing Slimes for 300 Years and Maxed Out My Level (2021) [tvdb-389377]") |
+[2022-10-24 01:22:51,222] [sonarr.py:71]              [DEBUG]    | (401948, 'F:\\Anime\\Sonny Boy (2021) [tvdb-401948]')                                              |
+[2022-10-24 01:22:51,222] [sonarr.py:71]              [DEBUG]    | (402337, 'F:\\Anime\\When Will Ayumu Make His Move! (2022) [tvdb-402337]')                         |
+[2022-10-24 01:22:51,222] [sonarr.py:71]              [DEBUG]    | (393190, 'F:\\Anime\\Star Wars - Visions (2021) [tvdb-393190]')                                    |
+[2022-10-24 01:22:51,223] [sonarr.py:71]              [DEBUG]    | (305104, 'F:\\Anime\\Tanaka-kun Is Always Listless (2016) [tvdb-305104]')                          |
+[2022-10-24 01:22:51,223] [sonarr.py:71]              [DEBUG]    | (402637, 'F:\\Anime\\My Isekai Life (2022) [tvdb-402637]')                                         |
+[2022-10-24 01:22:51,223] [sonarr.py:71]              [DEBUG]    | (352408, 'F:\\Anime\\That Time I Got Reincarnated as a Slime (2018) [tvdb-352408]')                |
+[2022-10-24 01:22:51,223] [sonarr.py:71]              [DEBUG]    | (378556, 'F:\\Anime\\God of High School, The (2020) [tvdb-378556]')                                |
+[2022-10-24 01:22:51,224] [sonarr.py:71]              [DEBUG]    | (385077, 'F:\\Anime\\TONIKAWA - Over the Moon for You (2020) [tvdb-385077]')                       |
+[2022-10-24 01:22:51,224] [sonarr.py:71]              [DEBUG]    | (400133, 'F:\\Anime\\Case Study of Vanitas, The (2021) [tvdb-400133]')                             |
+[2022-10-24 01:22:51,224] [sonarr.py:71]              [DEBUG]    | (330139, 'F:\\Anime\\Violet Evergarden (2018) [tvdb-330139]')                                      |
+[2022-10-24 01:22:51,224] [sonarr.py:71]              [DEBUG]    | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')                                |
+[2022-10-24 01:22:51,224] [sonarr.py:71]              [DEBUG]    | (329822, 'F:\\Anime\\Classroom of the Elite (2017) [tvdb-329822]')                                 |
+[2022-10-24 01:22:51,225] [sonarr.py:71]              [DEBUG]    | (317004, 'F:\\Anime\\Yuri!!! on Ice (2016) [tvdb-317004]')                                         |
+[2022-10-24 01:22:51,476] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-10-24 01:22:51,477] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')         |
+[2022-10-24 01:22:51,477] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (355966, 'F:\\Anime\\Quintessential Quintuplets, The (2019) [tvdb-355966]')    |
+[2022-10-24 01:22:51,477] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (254349, 'F:\\Anime\\Another (2012) [tvdb-254349]')                            |
+[2022-10-24 01:22:51,477] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (389459, 'F:\\Anime\\Burn the Witch (2020) [tvdb-389459]')                     |
+[2022-10-24 01:22:51,478] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402125, 'F:\\Anime\\Dance Dance Danseur (2022) [tvdb-402125]')                |
+[2022-10-24 01:22:51,478] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (254661, 'F:\\Anime\\Daily Lives of High School Boys (2012) [tvdb-254661]')    |
+[2022-10-24 01:22:51,478] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (264663, 'F:\\Anime\\Date A Live (2013) [tvdb-264663]')                        |
+[2022-10-24 01:22:51,478] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (355774, 'F:\\Anime\\Dr. Stone (2019) [tvdb-355774]')                          |
+[2022-10-24 01:22:51,479] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]') |
+[2022-10-24 01:22:51,479] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (361218, 'F:\\Anime\\Given (2019) [tvdb-361218]')                              |
+[2022-10-24 01:22:51,479] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (350166, 'F:\\Anime\\Goblin Slayer (2018) [tvdb-350166]')                      |
+[2022-10-24 01:22:51,479] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                       |
+[2022-10-24 01:22:51,480] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (79685, 'F:\\Anime\\Hajime no Ippo (2000) [tvdb-79685]')                       |
+[2022-10-24 01:22:51,480] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (388593, 'F:\\Anime\\Horimiya (2021) [tvdb-388593]')                           |
+[2022-10-24 01:22:51,480] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (257764, 'F:\\Anime\\Hyouka (2012) [tvdb-257764]')                             |
+[2022-10-24 01:22:51,480] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (87501, 'F:\\Anime\\K-ON! (2009) [tvdb-87501]')                                |
+[2022-10-24 01:22:51,481] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')          |
+[2022-10-24 01:22:51,482] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (376729, 'F:\\Anime\\Tower of God (2020) [tvdb-376729]')                       |
+[2022-10-24 01:22:51,482] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (380654, 'F:\\Anime\\Rent-a-Girlfriend (2020) [tvdb-380654]')                  |
+[2022-10-24 01:22:51,483] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (417658, 'F:\\Anime\\Vermeil in Gold (2022) [tvdb-417658]')                    |
+[2022-10-24 01:22:51,483] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402412, "F:\\Anime\\Komi Can't Communicate (2021) [tvdb-402412]")             |
+[2022-10-24 01:22:51,483] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (399121, 'F:\\Anime\\Mieruko-chan (2021) [tvdb-399121]')                       |
+[2022-10-24 01:22:51,483] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (102261, 'F:\\Anime\\Monogatari (2009) [tvdb-102261]')                         |
+[2022-10-24 01:22:51,484] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (81178, 'F:\\Anime\\Spice and Wolf (2008) [tvdb-81178]')                       |
+[2022-10-24 01:22:51,484] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (294002, 'F:\\Anime\\Overlord (2015) [tvdb-294002]')                           |
+[2022-10-24 01:22:51,484] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (262838, 'F:\\Anime\\From the New World (2012) [tvdb-262838]')                 |
+[2022-10-24 01:22:51,484] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (389377, "F:\\Anime\\I've Been Killing Slimes for 300 Years and Maxed Out My Level (2021) [tvdb-389377]") |
+[2022-10-24 01:22:51,485] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (401948, 'F:\\Anime\\Sonny Boy (2021) [tvdb-401948]')                          |
+[2022-10-24 01:22:51,485] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402337, 'F:\\Anime\\When Will Ayumu Make His Move! (2022) [tvdb-402337]')     |
+[2022-10-24 01:22:51,485] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (393190, 'F:\\Anime\\Star Wars - Visions (2021) [tvdb-393190]')                |
+[2022-10-24 01:22:51,485] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (305104, 'F:\\Anime\\Tanaka-kun Is Always Listless (2016) [tvdb-305104]')      |
+[2022-10-24 01:22:51,486] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402637, 'F:\\Anime\\My Isekai Life (2022) [tvdb-402637]')                     |
+[2022-10-24 01:22:51,486] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (352408, 'F:\\Anime\\That Time I Got Reincarnated as a Slime (2018) [tvdb-352408]') |
+[2022-10-24 01:22:51,486] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (378556, 'F:\\Anime\\God of High School, The (2020) [tvdb-378556]')            |
+[2022-10-24 01:22:51,486] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (385077, 'F:\\Anime\\TONIKAWA - Over the Moon for You (2020) [tvdb-385077]')   |
+[2022-10-24 01:22:51,487] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (400133, 'F:\\Anime\\Case Study of Vanitas, The (2021) [tvdb-400133]')         |
+[2022-10-24 01:22:51,487] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (330139, 'F:\\Anime\\Violet Evergarden (2018) [tvdb-330139]')                  |
+[2022-10-24 01:22:51,487] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')            |
+[2022-10-24 01:22:51,487] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (329822, 'F:\\Anime\\Classroom of the Elite (2017) [tvdb-329822]')             |
+[2022-10-24 01:22:51,488] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (317004, 'F:\\Anime\\Yuri!!! on Ice (2016) [tvdb-317004]')                     |
+[2022-10-24 01:22:51,488] [sonarr.py:171]             [INFO]     | 40 Series already exist in Sonarr                                                                  |
+[2022-10-24 01:22:51,489] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-24 01:22:51,489] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:22:51,489] [util.py:216]               [INFO]     |                              Finished Jack's Plan to Watch Collection                              |
+[2022-10-24 01:22:51,490] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:12                                    |
+[2022-10-24 01:22:51,490] [util.py:220]               [INFO]     |====================================================================================================|

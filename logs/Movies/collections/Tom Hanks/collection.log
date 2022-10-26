@@ -1,0 +1,65 @@
+[2022-01-16 14:55:47,352] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:47,353] [util.py:216]               [INFO]     |                                   Tom Hanks Collection in Movies                                   |
+[2022-01-16 14:55:47,353] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:47,353] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,354] [util.py:216]               [INFO]     |================================= Validating Tom Hanks Attributes ==================================|
+[2022-01-16 14:55:47,354] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,355] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-01-16 14:55:47,355] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'people'), ('person', 31)])                                           |
+[2022-01-16 14:55:47,355] [builder.py:367]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,355] [builder.py:368]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-01-16 14:55:47,356] [builder.py:372]            [DEBUG]    | Value: 31                                                                                          |
+[2022-01-16 14:55:47,489] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,490] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-01-16 14:55:47,490] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-01-16 14:55:47,491] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,491] [builder.py:473]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-01-16 14:55:47,491] [builder.py:474]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-01-16 14:55:47,525] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,526] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-01-16 14:55:47,526] [builder.py:474]            [DEBUG]    | Value: ++_Tom Hanks                                                                                |
+[2022-01-16 14:55:47,530] [plex.py:685]               [DEBUG]    | Looking for: Tom Hanks                                                                             |
+[2022-01-16 14:55:47,531] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,531] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-01-16 14:55:47,532] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,533] [util.py:216]               [INFO]     |=================================== Running Tom Hanks Collection ===================================|
+[2022-01-16 14:55:47,533] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,533] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-01-16 14:55:47,534] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,534] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match any of the following:\n    Actor is Tom Hanks', '?type=1&sort=titleSort&push=1&actor=21212&pop=1') |
+[2022-01-16 14:55:47,534] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,535] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-01-16 14:55:47,535] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-01-16 14:55:47,535] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-01-16 14:55:47,536] [util.py:161]               [INFO]     |   Match any of the following:                                                                      |
+[2022-01-16 14:55:47,536] [util.py:161]               [INFO]     |     Actor is Tom Hanks                                                                             |
+[2022-01-16 14:55:47,555] [plex.py:746]               [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,556] [plex.py:747]               [DEBUG]    | 4 Keys Found: [(31807, 'ratingKey'), (31809, 'ratingKey'), (31814, 'ratingKey'), (31832, 'ratingKey')] |
+[2022-01-16 14:55:47,556] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,556] [builder.py:1283]           [DEBUG]    | 4 IDs Found: [(31807, 'ratingKey'), (31809, 'ratingKey'), (31814, 'ratingKey'), (31832, 'ratingKey')] |
+[2022-01-16 14:55:47,557] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:55:47,684] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,685] [util.py:216]               [INFO]     |================================== Adding to Tom Hanks Collection ==================================|
+[2022-01-16 14:55:47,685] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:47,686] [builder.py:1709]           [INFO]     | 1/4 | Tom Hanks Collection | + | Toy Story (1995)                                                  |
+[2022-01-16 14:55:47,819] [builder.py:1709]           [INFO]     | 2/4 | Tom Hanks Collection | + | Toy Story 2 (1999)                                                |
+[2022-01-16 14:55:47,994] [builder.py:1709]           [INFO]     | 3/4 | Tom Hanks Collection | + | Toy Story 3 (2010)                                                |
+[2022-01-16 14:55:48,172] [builder.py:1709]           [INFO]     | 4/4 | Tom Hanks Collection | + | Toy Story 4 (2019)                                                |
+[2022-01-16 14:55:48,361] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:48,362] [builder.py:1735]           [INFO]     | 4 Movies Processed                                                                                 |
+[2022-01-16 14:55:48,367] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:48,368] [util.py:216]               [INFO]     |============================= Updating Details of Tom Hanks Collection =============================|
+[2022-01-16 14:55:48,369] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-01-16 14:55:48,369] [builder.py:2156]           [INFO]     | Detail: tmdb_person updated Collection Summary                                                     |
+[2022-01-16 14:55:48,369] [builder.py:2193]           [INFO]     | Detail: sort_title updated Collection Sort Title to ++_Tom Hanks                                   |
+[2022-01-16 14:55:48,370] [builder.py:2235]           [DEBUG]    | {'summary.value': "Thomas Jeffrey Hanks (born July 9, 1956) is an American actor and filmmaker. Known for both his comedic and dramatic roles, Hanks is one of the most popular and recognizable film stars worldwide, and is widely regarded as an American cultural icon.\n\nHanks made his breakthrough with leading roles in the comedies Splash (1984) and Big (1988). He won two consecutive Academy Awards for Best Actor for starring as a gay lawyer suffering from AIDS in Philadelphia (1993) and a young man with below-average IQ in Forrest Gump (1994). Hanks collaborated with film director Steven Spielberg on five films: Saving Private Ryan (1998), Catch Me If You Can (2002), The Terminal (2004), Bridge of Spies (2015), and The Post (2017), as well as the 2001 miniseries Band of Brothers, which launched him as a director, producer, and screenwriter.\n\nHanks' other notable films include the romantic comedies Sleepless in Seattle (1993) and You've Got Mail (1998); the dramas Apollo 13 (1995), The Green Mile (1999), Cast Away (2000), Road to Perdition (2002), and Cloud Atlas (2012); and the biographical dramas Saving Mr. Banks (2013), Captain Phillips (2013), Sully (2016), and A Beautiful Day in the Neighborhood (2019). He has also appeared as the title character in the Robert Langdon film series, and has voiced Sheriff Woody in the Toy Story film series.\n\nDescription above from the Wikipedia article Tom Hanks, licensed under CC-BY-SA, full list of contributors on Wikipedia.", 'summary.locked': 1, 'titleSort.value': '++_Tom Hanks', 'titleSort.locked': 1} |
+[2022-01-16 14:55:48,386] [builder.py:2237]           [INFO]     | Details: have been updated                                                                         |
+[2022-01-16 14:55:48,387] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-01-16 14:55:48,387] [builder.py:2260]           [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg    |
+[2022-01-16 14:55:48,387] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-01-16 14:55:48,413] [library.py:145]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg |
+[2022-01-16 14:55:48,553] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-01-16 14:55:48,554] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:55:48,555] [util.py:216]               [INFO]     |                                   Finished Tom Hanks Collection                                    |
+[2022-01-16 14:55:48,555] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-01-16 14:55:48,555] [util.py:220]               [INFO]     |====================================================================================================|

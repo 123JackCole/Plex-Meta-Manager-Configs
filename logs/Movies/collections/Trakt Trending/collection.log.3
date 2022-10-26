@@ -1,0 +1,27 @@
+[2022-01-25 01:20:28,406] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-25 01:20:28,407] [util.py:216]               [INFO]     |                                Trakt Trending Collection in Movies                                 |
+[2022-01-25 01:20:28,408] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-01-25 01:20:28,408] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-01-25 01:20:28,409] [util.py:216]               [INFO]     |=============================== Validating Trakt Trending Attributes ===============================|
+[2022-01-25 01:20:28,409] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-01-25 01:20:28,409] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-01-25 01:20:28,410] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Special Genre')])                                                    |
+[2022-01-25 01:20:28,410] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-01-25 01:20:28,410] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-01-25 01:20:28,411] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-01-25 01:20:28,411] [builder.py:389]            [DEBUG]    |                                                                                                    |
+[2022-01-25 01:20:28,411] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2022-01-25 01:20:28,412] [builder.py:395]            [DEBUG]    | Value: year.desc                                                                                   |
+[2022-01-25 01:20:28,412] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-01-25 01:20:28,413] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection |
+[2022-01-25 01:20:28,413] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-01-25 01:20:28,413] [util.py:162]               [DEBUG]    |   File "E:\Plex Media Manager\Plex-Meta-Manager\modules\builder.py", line 452, in __init__         |
+[2022-01-25 01:20:28,413] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: collection_order does not work with Smart Collections")      |
+[2022-01-25 01:20:28,414] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: collection_order does not work with Smart Collections       |
+[2022-01-25 01:20:28,414] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-01-25 01:20:28,414] [util.py:159]               [ERROR]    | Collection Error: collection_order does not work with Smart Collections                            |
+[2022-01-25 01:20:28,415] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-01-25 01:20:28,415] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-25 01:20:28,415] [util.py:216]               [INFO]     |                                 Finished Trakt Trending Collection                                 |
+[2022-01-25 01:20:28,416] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-01-25 01:20:28,416] [util.py:220]               [INFO]     |====================================================================================================|

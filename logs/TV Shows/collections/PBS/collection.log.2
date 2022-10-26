@@ -1,0 +1,696 @@
+[2022-10-23 02:48:44,851] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-23 02:48:44,851] [util.py:216]               [INFO]     |                                     PBS Collection in TV Shows                                     |
+[2022-10-23 02:48:44,851] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-23 02:48:44,852] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-23 02:48:44,852] [util.py:216]               [INFO]     |==================================== Validating PBS Attributes =====================================|
+[2022-10-23 02:48:44,852] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:44,853] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-23 02:48:44,853] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 14), ('poster', 'https://theposterdb.com/api/assets/204458')]) |
+[2022-10-23 02:48:44,853] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:44,853] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-23 02:48:44,854] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-23 02:48:44,854] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:44,854] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-23 02:48:44,854] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-23 02:48:44,855] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:44,855] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-10-23 02:48:44,855] [builder.py:474]            [DEBUG]    | Value: 14                                                                                          |
+[2022-10-23 02:48:45,007] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:45,007] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-23 02:48:45,008] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/204458                                                   |
+[2022-10-23 02:48:45,008] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:45,008] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-23 02:48:45,008] [builder.py:474]            [DEBUG]    | Value: +2_PBS                                                                                      |
+[2022-10-23 02:48:45,076] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-23 02:48:45,076] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-23 02:48:45,080] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-23 02:48:45,080] [util.py:216]               [INFO]     |====================================== Running PBS Collection ======================================|
+[2022-10-23 02:48:45,080] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-23 02:48:45,080] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-23 02:48:45,081] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:45,081] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 14                                                                          |
+[2022-10-23 02:48:45,081] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-23 02:48:49,323] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (14) PBS (638 Shows)                                                      |
+[2022-10-23 02:48:49,324] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:49,324] [builder.py:1283]           [DEBUG]    | 638 IDs Found: [(1655, 'tmdb_show'), (502, 'tmdb_show'), (58287, 'tmdb_show'), (33907, 'tmdb_show'), (44264, 'tmdb_show'), (656, 'tmdb_show'), (9890, 'tmdb_show'), (3562, 'tmdb_show'), (2153, 'tmdb_show'), (14951, 'tmdb_show'), (4887, 'tmdb_show'), (30778, 'tmdb_show'), (10472, 'tmdb_show'), (35094, 'tmdb_show'), (2394, 'tmdb_show'), (39793, 'tmdb_show'), (15, 'tmdb_show'), (1181, 'tmdb_show'), (67419, 'tmdb_show'), (92875, 'tmdb_show'), (18940, 'tmdb_show'), (14976, 'tmdb_show'), (40050, 'tmdb_show'), (14511, 'tmdb_show'), (23545, 'tmdb_show'), (7263, 'tmdb_show'), (4384, 'tmdb_show'), (130766, 'tmdb_show'), (10029, 'tmdb_show'), (1430, 'tmdb_show'), (15069, 'tmdb_show'), (4366, 'tmdb_show'), (14766, 'tmdb_show'), (4591, 'tmdb_show'), (73549, 'tmdb_show'), (11203, 'tmdb_show'), (211185, 'tmdb_show'), (46643, 'tmdb_show'), (46434, 'tmdb_show'), (3483, 'tmdb_show'), (7744, 'tmdb_show'), (15030, 'tmdb_show'), (61697, 'tmdb_show'), (10382, 'tmdb_show'), (14955, 'tmdb_show'), (43221, 'tmdb_show'), (33347, 'tmdb_show'), (42518, 'tmdb_show'), (13605, 'tmdb_show'), (85, 'tmdb_show'), (62694, 'tmdb_show'), (5467, 'tmdb_show'), (9693, 'tmdb_show'), (204422, 'tmdb_show'), (3131, 'tmdb_show'), (47801, 'tmdb_show'), (4434, 'tmdb_show'), (19215, 'tmdb_show'), (14298, 'tmdb_show'), (35037, 'tmdb_show'), (2922, 'tmdb_show'), (4302, 'tmdb_show'), (61567, 'tmdb_show'), (3746, 'tmdb_show'), (73910, 'tmdb_show'), (125027, 'tmdb_show'), (13710, 'tmdb_show'), (33739, 'tmdb_show'), (4422, 'tmdb_show'), (31750, 'tmdb_show'), (63508, 'tmdb_show'), (39983, 'tmdb_show'), (93645, 'tmdb_show'), (11110, 'tmdb_show'), (4063, 'tmdb_show'), (90214, 'tmdb_show'), (16202, 'tmdb_show'), (62970, 'tmdb_show'), (82768, 'tmdb_show'), (9970, 'tmdb_show'), (128907, 'tmdb_show'), (64011, 'tmdb_show'), (65646, 'tmdb_show'), (28624, 'tmdb_show'), (20861, 'tmdb_show'), (15178, 'tmdb_show'), (31708, 'tmdb_show'), (31752, 'tmdb_show'), (965, 'tmdb_show'), (53713, 'tmdb_show'), (10086, 'tmdb_show'), (10048, 'tmdb_show'), (68853, 'tmdb_show'), (22023, 'tmdb_show'), (25646, 'tmdb_show'), (63397, 'tmdb_show'), (15072, 'tmdb_show'), (204165, 'tmdb_show'), (13399, 'tmdb_show'), (7296, 'tmdb_show'), (67617, 'tmdb_show'), (77074, 'tmdb_show'), (21470, 'tmdb_show'), (10282, 'tmdb_show'), (57747, 'tmdb_show'), (10532, 'tmdb_show'), (33024, 'tmdb_show'), (919, 'tmdb_show'), (86558, 'tmdb_show'), (26338, 'tmdb_show'), (45343, 'tmdb_show'), (13336, 'tmdb_show'), (60289, 'tmdb_show'), (56629, 'tmdb_show'), (111592, 'tmdb_show'), (91589, 'tmdb_show'), (4528, 'tmdb_show'), (21199, 'tmdb_show'), (33985, 'tmdb_show'), (79180, 'tmdb_show'), (5496, 'tmdb_show'), (61745, 'tmdb_show'), (11869, 'tmdb_show'), (8642, 'tmdb_show'), (103458, 'tmdb_show'), (15063, 'tmdb_show'), (95801, 'tmdb_show'), (10278, 'tmdb_show'), (10335, 'tmdb_show'), (19005, 'tmdb_show'), (61657, 'tmdb_show'), (43441, 'tmdb_show'), (22859, 'tmdb_show'), (2127, 'tmdb_show'), (21444, 'tmdb_show'), (77141, 'tmdb_show'), (6883, 'tmdb_show'), (14844, 'tmdb_show'), (138272, 'tmdb_show'), (63173, 'tmdb_show'), (30715, 'tmdb_show'), (102233, 'tmdb_show'), (7563, 'tmdb_show'), (77248, 'tmdb_show'), (77379, 'tmdb_show'), (71755, 'tmdb_show'), (29492, 'tmdb_show'), (7881, 'tmdb_show'), (32537, 'tmdb_show'), (32237, 'tmdb_show'), (44391, 'tmdb_show'), (125933, 'tmdb_show'), (43397, 'tmdb_show'), (20252, 'tmdb_show'), (66497, 'tmdb_show'), (91463, 'tmdb_show'), (156138, 'tmdb_show'), (35260, 'tmdb_show'), (24745, 'tmdb_show'), (933, 'tmdb_show'), (39459, 'tmdb_show'), (66151, 'tmdb_show'), (95153, 'tmdb_show'), (81328, 'tmdb_show'), (4091, 'tmdb_show'), (24734, 'tmdb_show'), (10513, 'tmdb_show'), (29123, 'tmdb_show'), (15050, 'tmdb_show'), (86227, 'tmdb_show'), (117219, 'tmdb_show'), (115978, 'tmdb_show'), (74811, 'tmdb_show'), (84628, 'tmdb_show'), (4779, 'tmdb_show'), (11990, 'tmdb_show'), (77132, 'tmdb_show'), (70283, 'tmdb_show'), (4061, 'tmdb_show'), (203799, 'tmdb_show'), (42595, 'tmdb_show'), (70027, 'tmdb_show'), (9190, 'tmdb_show'), (22261, 'tmdb_show'), (205034, 'tmdb_show'), (209862, 'tmdb_show'), (16880, 'tmdb_show'), (34136, 'tmdb_show'), (79503, 'tmdb_show'), (8827, 'tmdb_show'), (83744, 'tmdb_show'), (72465, 'tmdb_show'), (29770, 'tmdb_show'), (55423, 'tmdb_show'), (19590, 'tmdb_show'), (29996, 'tmdb_show'), (123186, 'tmdb_show'), (211728, 'tmdb_show'), (153301, 'tmdb_show'), (136597, 'tmdb_show'), (133063, 'tmdb_show'), (127435, 'tmdb_show'), (112300, 'tmdb_show'), (111539, 'tmdb_show'), (103686, 'tmdb_show'), (94338, 'tmdb_show'), (91568, 'tmdb_show'), (79771, 'tmdb_show'), (77989, 'tmdb_show'), (75704, 'tmdb_show'), (72722, 'tmdb_show'), (72612, 'tmdb_show'), (69578, 'tmdb_show'), (68672, 'tmdb_show'), (64053, 'tmdb_show'), (60820, 'tmdb_show'), (50187, 'tmdb_show'), (43659, 'tmdb_show'), (43175, 'tmdb_show'), (40173, 'tmdb_show'), (35911, 'tmdb_show'), (31056, 'tmdb_show'), (19067, 'tmdb_show'), (18889, 'tmdb_show'), (13686, 'tmdb_show'), (10741, 'tmdb_show'), (10478, 'tmdb_show'), (9989, 'tmdb_show'), (9567, 'tmdb_show'), (1226, 'tmdb_show'), (157459, 'tmdb_show'), (49075, 'tmdb_show'), (115702, 'tmdb_show'), (463, 'tmdb_show'), (13591, 'tmdb_show'), (5575, 'tmdb_show'), (126993, 'tmdb_show'), (34929, 'tmdb_show'), (62089, 'tmdb_show'), (22867, 'tmdb_show'), (133008, 'tmdb_show'), (80715, 'tmdb_show'), (93979, 'tmdb_show'), (4593, 'tmdb_show'), (210024, 'tmdb_show'), (203012, 'tmdb_show'), (158921, 'tmdb_show'), (19193, 'tmdb_show'), (65546, 'tmdb_show'), (76934, 'tmdb_show'), (72182, 'tmdb_show'), (62074, 'tmdb_show'), (56850, 'tmdb_show'), (76519, 'tmdb_show'), (61896, 'tmdb_show'), (77179, 'tmdb_show'), (201857, 'tmdb_show'), (11730, 'tmdb_show'), (9146, 'tmdb_show'), (18862, 'tmdb_show'), (23714, 'tmdb_show'), (71808, 'tmdb_show'), (95008, 'tmdb_show'), (75005, 'tmdb_show'), (18982, 'tmdb_show'), (11087, 'tmdb_show'), (17540, 'tmdb_show'), (80131, 'tmdb_show'), (66731, 'tmdb_show'), (23380, 'tmdb_show'), (68692, 'tmdb_show'), (21023, 'tmdb_show'), (135856, 'tmdb_show'), (77144, 'tmdb_show'), (27917, 'tmdb_show'), (17894, 'tmdb_show'), (79178, 'tmdb_show'), (30000, 'tmdb_show'), (47735, 'tmdb_show'), (20947, 'tmdb_show'), (14438, 'tmdb_show'), (5741, 'tmdb_show'), (19585, 'tmdb_show'), (3864, 'tmdb_show'), (203691, 'tmdb_show'), (152443, 'tmdb_show'), (85238, 'tmdb_show'), (203013, 'tmdb_show'), (83013, 'tmdb_show'), (12376, 'tmdb_show'), (2130, 'tmdb_show'), (203816, 'tmdb_show'), (60646, 'tmdb_show'), (33136, 'tmdb_show'), (18184, 'tmdb_show'), (45199, 'tmdb_show'), (12774, 'tmdb_show'), (134959, 'tmdb_show'), (76881, 'tmdb_show'), (14679, 'tmdb_show'), (155073, 'tmdb_show'), (124704, 'tmdb_show'), (117018, 'tmdb_show'), (29711, 'tmdb_show'), (77440, 'tmdb_show'), (15546, 'tmdb_show'), (14400, 'tmdb_show'), (6191, 'tmdb_show'), (64469, 'tmdb_show'), (20684, 'tmdb_show'), (98237, 'tmdb_show'), (75828, 'tmdb_show'), (55472, 'tmdb_show'), (115876, 'tmdb_show'), (20720, 'tmdb_show'), (20713, 'tmdb_show'), (136645, 'tmdb_show'), (95312, 'tmdb_show'), (63392, 'tmdb_show'), (116282, 'tmdb_show'), (101150, 'tmdb_show'), (108828, 'tmdb_show'), (14919, 'tmdb_show'), (45595, 'tmdb_show'), (203934, 'tmdb_show'), (43652, 'tmdb_show'), (6014, 'tmdb_show'), (44340, 'tmdb_show'), (4323, 'tmdb_show'), (101701, 'tmdb_show'), (45521, 'tmdb_show'), (10631, 'tmdb_show'), (9807, 'tmdb_show'), (21111, 'tmdb_show'), (70456, 'tmdb_show'), (3028, 'tmdb_show'), (204330, 'tmdb_show'), (126117, 'tmdb_show'), (65690, 'tmdb_show'), (17698, 'tmdb_show'), (13102, 'tmdb_show'), (105126, 'tmdb_show'), (17693, 'tmdb_show'), (12079, 'tmdb_show'), (20476, 'tmdb_show'), (62310, 'tmdb_show'), (135203, 'tmdb_show'), (128049, 'tmdb_show'), (79177, 'tmdb_show'), (158541, 'tmdb_show'), (102960, 'tmdb_show'), (22485, 'tmdb_show'), (78663, 'tmdb_show'), (28265, 'tmdb_show'), (57180, 'tmdb_show'), (49117, 'tmdb_show'), (36003, 'tmdb_show'), (62094, 'tmdb_show'), (133691, 'tmdb_show'), (12299, 'tmdb_show'), (137897, 'tmdb_show'), (64373, 'tmdb_show'), (43089, 'tmdb_show'), (130689, 'tmdb_show'), (77075, 'tmdb_show'), (82793, 'tmdb_show'), (208165, 'tmdb_show'), (38624, 'tmdb_show'), (21612, 'tmdb_show'), (138172, 'tmdb_show'), (87034, 'tmdb_show'), (57412, 'tmdb_show'), (133199, 'tmdb_show'), (43572, 'tmdb_show'), (17501, 'tmdb_show'), (62042, 'tmdb_show'), (43093, 'tmdb_show'), (204355, 'tmdb_show'), (201858, 'tmdb_show'), (131821, 'tmdb_show'), (112276, 'tmdb_show'), (14996, 'tmdb_show'), (105197, 'tmdb_show'), (127458, 'tmdb_show'), (97655, 'tmdb_show'), (210412, 'tmdb_show'), (208243, 'tmdb_show'), (208156, 'tmdb_show'), (206984, 'tmdb_show'), (205703, 'tmdb_show'), (204546, 'tmdb_show'), (204414, 'tmdb_show'), (203626, 'tmdb_show'), (203500, 'tmdb_show'), (202911, 'tmdb_show'), (202684, 'tmdb_show'), (201568, 'tmdb_show'), (201560, 'tmdb_show'), (201556, 'tmdb_show'), (201552, 'tmdb_show'), (201125, 'tmdb_show'), (198144, 'tmdb_show'), (197325, 'tmdb_show'), (195837, 'tmdb_show'), (195601, 'tmdb_show'), (157461, 'tmdb_show'), (156393, 'tmdb_show'), (156306, 'tmdb_show'), (156049, 'tmdb_show'), (155597, 'tmdb_show'), (155075, 'tmdb_show'), (154324, 'tmdb_show'), (139156, 'tmdb_show'), (138164, 'tmdb_show'), (134850, 'tmdb_show'), (134321, 'tmdb_show'), (133870, 'tmdb_show'), (133232, 'tmdb_show'), (133142, 'tmdb_show'), (129169, 'tmdb_show'), (128746, 'tmdb_show'), (125958, 'tmdb_show'), (125205, 'tmdb_show'), (124750, 'tmdb_show'), (124735, 'tmdb_show'), (120639, 'tmdb_show'), (119380, 'tmdb_show'), (119342, 'tmdb_show'), (118367, 'tmdb_show'), (117340, 'tmdb_show'), (117328, 'tmdb_show'), (117326, 'tmdb_show'), (117290, 'tmdb_show'), (115701, 'tmdb_show'), (113348, 'tmdb_show'), (111373, 'tmdb_show'), (110920, 'tmdb_show'), (110522, 'tmdb_show'), (108162, 'tmdb_show'), (107336, 'tmdb_show'), (106721, 'tmdb_show'), (106512, 'tmdb_show'), (100890, 'tmdb_show'), (100406, 'tmdb_show'), (96524, 'tmdb_show'), (95773, 'tmdb_show'), (95584, 'tmdb_show'), (94402, 'tmdb_show'), (91049, 'tmdb_show'), (88327, 'tmdb_show'), (85954, 'tmdb_show'), (85938, 'tmdb_show'), (85068, 'tmdb_show'), (83384, 'tmdb_show'), (82241, 'tmdb_show'), (79729, 'tmdb_show'), (79179, 'tmdb_show'), (78919, 'tmdb_show'), (77273, 'tmdb_show'), (77127, 'tmdb_show'), (77126, 'tmdb_show'), (77057, 'tmdb_show'), (76771, 'tmdb_show'), (76154, 'tmdb_show'), (75873, 'tmdb_show'), (75830, 'tmdb_show'), (75829, 'tmdb_show'), (73603, 'tmdb_show'), (73496, 'tmdb_show'), (72772, 'tmdb_show'), (71271, 'tmdb_show'), (70736, 'tmdb_show'), (69719, 'tmdb_show'), (68317, 'tmdb_show'), (67851, 'tmdb_show'), (66403, 'tmdb_show'), (64934, 'tmdb_show'), (64121, 'tmdb_show'), (63168, 'tmdb_show'), (61948, 'tmdb_show'), (61763, 'tmdb_show'), (61257, 'tmdb_show'), (60275, 'tmdb_show'), (60273, 'tmdb_show'), (57602, 'tmdb_show'), (57350, 'tmdb_show'), (57140, 'tmdb_show'), (56894, 'tmdb_show'), (55354, 'tmdb_show'), (52129, 'tmdb_show'), (52068, 'tmdb_show'), (49960, 'tmdb_show'), (49596, 'tmdb_show'), (49338, 'tmdb_show'), (48586, 'tmdb_show'), (47675, 'tmdb_show'), (47531, 'tmdb_show'), (47298, 'tmdb_show'), (46887, 'tmdb_show'), (45741, 'tmdb_show'), (45740, 'tmdb_show'), (45597, 'tmdb_show'), (45596, 'tmdb_show'), (45593, 'tmdb_show'), (45567, 'tmdb_show'), (45496, 'tmdb_show'), (45396, 'tmdb_show'), (45334, 'tmdb_show'), (45201, 'tmdb_show'), (45200, 'tmdb_show'), (44445, 'tmdb_show'), (44332, 'tmdb_show'), (44174, 'tmdb_show'), (43675, 'tmdb_show'), (43666, 'tmdb_show'), (43664, 'tmdb_show'), (43656, 'tmdb_show'), (43647, 'tmdb_show'), (43616, 'tmdb_show'), (43612, 'tmdb_show'), (42160, 'tmdb_show'), (41766, 'tmdb_show'), (41675, 'tmdb_show'), (41671, 'tmdb_show'), (41665, 'tmdb_show'), (41616, 'tmdb_show'), (41546, 'tmdb_show'), (41412, 'tmdb_show'), (41340, 'tmdb_show'), (40511, 'tmdb_show'), (38968, 'tmdb_show'), (38403, 'tmdb_show'), (37800, 'tmdb_show'), (37596, 'tmdb_show'), (36258, 'tmdb_show'), (36013, 'tmdb_show'), (34455, 'tmdb_show'), (33232, 'tmdb_show'), (32514, 'tmdb_show'), (32383, 'tmdb_show'), (32162, 'tmdb_show'), (32134, 'tmdb_show'), (31452, 'tmdb_show'), (31320, 'tmdb_show'), (31079, 'tmdb_show'), (31001, 'tmdb_show'), (30698, 'tmdb_show'), (30135, 'tmdb_show'), (29907, 'tmdb_show'), (28972, 'tmdb_show'), (28692, 'tmdb_show'), (28323, 'tmdb_show'), (27317, 'tmdb_show'), (27300, 'tmdb_show'), (27123, 'tmdb_show'), (27071, 'tmdb_show'), (26819, 'tmdb_show'), (26722, 'tmdb_show'), (26308, 'tmdb_show'), (26050, 'tmdb_show'), (25289, 'tmdb_show'), (24821, 'tmdb_show'), (23759, 'tmdb_show'), (22173, 'tmdb_show'), (21972, 'tmdb_show'), (21466, 'tmdb_show'), (21380, 'tmdb_show'), (21358, 'tmdb_show'), (21352, 'tmdb_show'), (21342, 'tmdb_show'), (21335, 'tmdb_show'), (20890, 'tmdb_show'), (20765, 'tmdb_show'), (19984, 'tmdb_show'), (19703, 'tmdb_show'), (19676, 'tmdb_show'), (19537, 'tmdb_show'), (19181, 'tmdb_show'), (19174, 'tmdb_show'), (19073, 'tmdb_show'), (19022, 'tmdb_show'), (18980, 'tmdb_show'), (18963, 'tmdb_show'), (18941, 'tmdb_show'), (18915, 'tmdb_show'), (18814, 'tmdb_show'), (18583, 'tmdb_show'), (18079, 'tmdb_show'), (17989, 'tmdb_show'), (17983, 'tmdb_show'), (16429, 'tmdb_show'), (16376, 'tmdb_show'), (16313, 'tmdb_show'), (15864, 'tmdb_show'), (15560, 'tmdb_show'), (15261, 'tmdb_show'), (15084, 'tmdb_show'), (15035, 'tmdb_show'), (15019, 'tmdb_show'), (15001, 'tmdb_show'), (14993, 'tmdb_show'), (14896, 'tmdb_show'), (14886, 'tmdb_show'), (14437, 'tmdb_show'), (14134, 'tmdb_show'), (13835, 'tmdb_show'), (13519, 'tmdb_show'), (13424, 'tmdb_show'), (12805, 'tmdb_show'), (12398, 'tmdb_show'), (12092, 'tmdb_show'), (11915, 'tmdb_show'), (11234, 'tmdb_show'), (10904, 'tmdb_show'), (10796, 'tmdb_show'), (10357, 'tmdb_show'), (10256, 'tmdb_show'), (10105, 'tmdb_show'), (9572, 'tmdb_show'), (8850, 'tmdb_show'), (8818, 'tmdb_show'), (8661, 'tmdb_show'), (8653, 'tmdb_show'), (7488, 'tmdb_show'), (7314, 'tmdb_show'), (7071, 'tmdb_show'), (6639, 'tmdb_show'), (6061, 'tmdb_show'), (5880, 'tmdb_show'), (5869, 'tmdb_show'), (4908, 'tmdb_show'), (4072, 'tmdb_show'), (3987, 'tmdb_show'), (3911, 'tmdb_show'), (3749, 'tmdb_show'), (3583, 'tmdb_show'), (2858, 'tmdb_show'), (1290, 'tmdb_show')] |
+[2022-10-23 02:48:49,325] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-10-23 02:48:49,602] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15178                                                 |
+[2022-10-23 02:48:49,970] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 91589                                                 |
+[2022-10-23 02:48:50,077] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21199                                                 |
+[2022-10-23 02:48:50,186] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79180                                                 |
+[2022-10-23 02:48:50,290] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 5496                                                  |
+[2022-10-23 02:48:50,405] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77141                                                 |
+[2022-10-23 02:48:50,518] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138272                                                |
+[2022-10-23 02:48:50,641] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77379                                                 |
+[2022-10-23 02:48:50,750] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 71755                                                 |
+[2022-10-23 02:48:50,987] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35260                                                 |
+[2022-10-23 02:48:51,204] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117219                                                |
+[2022-10-23 02:48:51,331] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 84628                                                 |
+[2022-10-23 02:48:51,438] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 11990                                                 |
+[2022-10-23 02:48:51,574] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77132                                                 |
+[2022-10-23 02:48:51,912] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42595                                                 |
+[2022-10-23 02:48:52,011] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 70027                                                 |
+[2022-10-23 02:48:52,128] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205034                                                |
+[2022-10-23 02:48:52,233] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 16880                                                 |
+[2022-10-23 02:48:52,328] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29996                                                 |
+[2022-10-23 02:48:52,442] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 133063                                                |
+[2022-10-23 02:48:52,669] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75704                                                 |
+[2022-10-23 02:48:52,802] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 60820                                                 |
+[2022-10-23 02:48:52,918] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19067                                                 |
+[2022-10-23 02:48:53,022] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 9989                                                  |
+[2022-10-23 02:48:53,119] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 1226                                                  |
+[2022-10-23 02:48:53,223] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 115702                                                |
+[2022-10-23 02:48:53,338] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 34929                                                 |
+[2022-10-23 02:48:53,454] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 133008                                                |
+[2022-10-23 02:48:53,558] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93979                                                 |
+[2022-10-23 02:48:53,659] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210024                                                |
+[2022-10-23 02:48:53,769] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77179                                                 |
+[2022-10-23 02:48:53,876] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75005                                                 |
+[2022-10-23 02:48:53,979] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 11087                                                 |
+[2022-10-23 02:48:54,087] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23380                                                 |
+[2022-10-23 02:48:54,199] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 135856                                                |
+[2022-10-23 02:48:54,299] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77144                                                 |
+[2022-10-23 02:48:54,405] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79178                                                 |
+[2022-10-23 02:48:54,512] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 47735                                                 |
+[2022-10-23 02:48:54,913] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203816                                                |
+[2022-10-23 02:48:55,172] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 134959                                                |
+[2022-10-23 02:48:55,391] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 124704                                                |
+[2022-10-23 02:48:55,502] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77440                                                 |
+[2022-10-23 02:48:55,626] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 64469                                                 |
+[2022-10-23 02:48:55,728] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75828                                                 |
+[2022-10-23 02:48:55,844] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 55472                                                 |
+[2022-10-23 02:48:55,956] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 115876                                                |
+[2022-10-23 02:48:56,057] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 63392                                                 |
+[2022-10-23 02:48:56,164] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116282                                                |
+[2022-10-23 02:48:56,166] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45595                                                 |
+[2022-10-23 02:48:56,272] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203934                                                |
+[2022-10-23 02:48:56,383] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 6014                                                  |
+[2022-10-23 02:48:56,495] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 44340                                                 |
+[2022-10-23 02:48:56,604] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101701                                                |
+[2022-10-23 02:48:56,729] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45521                                                 |
+[2022-10-23 02:48:56,827] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 10631                                                 |
+[2022-10-23 02:48:56,934] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 9807                                                  |
+[2022-10-23 02:48:57,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204330                                                |
+[2022-10-23 02:48:57,265] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 17698                                                 |
+[2022-10-23 02:48:57,369] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 17693                                                 |
+[2022-10-23 02:48:57,596] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 28265                                                 |
+[2022-10-23 02:48:57,731] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 57180                                                 |
+[2022-10-23 02:48:57,841] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 36003                                                 |
+[2022-10-23 02:48:57,939] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 133691                                                |
+[2022-10-23 02:48:58,042] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 137897                                                |
+[2022-10-23 02:48:58,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 64373                                                 |
+[2022-10-23 02:48:58,284] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43089                                                 |
+[2022-10-23 02:48:58,385] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77075                                                 |
+[2022-10-23 02:48:58,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208165                                                |
+[2022-10-23 02:48:58,632] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 87034                                                 |
+[2022-10-23 02:48:58,740] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 17501                                                 |
+[2022-10-23 02:48:58,841] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131821                                                |
+[2022-10-23 02:48:58,942] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112276                                                |
+[2022-10-23 02:48:59,049] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 127458                                                |
+[2022-10-23 02:48:59,158] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210412                                                |
+[2022-10-23 02:48:59,265] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208156                                                |
+[2022-10-23 02:48:59,370] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206984                                                |
+[2022-10-23 02:48:59,472] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204414                                                |
+[2022-10-23 02:48:59,585] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203500                                                |
+[2022-10-23 02:48:59,691] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202684                                                |
+[2022-10-23 02:48:59,810] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201568                                                |
+[2022-10-23 02:48:59,928] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201560                                                |
+[2022-10-23 02:49:00,028] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201125                                                |
+[2022-10-23 02:49:00,135] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195837                                                |
+[2022-10-23 02:49:00,259] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195601                                                |
+[2022-10-23 02:49:00,365] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157461                                                |
+[2022-10-23 02:49:00,577] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138164                                                |
+[2022-10-23 02:49:00,688] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 134850                                                |
+[2022-10-23 02:49:00,793] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 134321                                                |
+[2022-10-23 02:49:00,899] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 133142                                                |
+[2022-10-23 02:49:01,105] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 125205                                                |
+[2022-10-23 02:49:01,234] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 124735                                                |
+[2022-10-23 02:49:01,342] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 120639                                                |
+[2022-10-23 02:49:01,447] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119380                                                |
+[2022-10-23 02:49:01,588] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117340                                                |
+[2022-10-23 02:49:01,696] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117328                                                |
+[2022-10-23 02:49:01,802] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117326                                                |
+[2022-10-23 02:49:01,909] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117290                                                |
+[2022-10-23 02:49:02,006] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 115701                                                |
+[2022-10-23 02:49:02,107] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 111373                                                |
+[2022-10-23 02:49:02,108] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 110920                                                |
+[2022-10-23 02:49:02,208] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 108162                                                |
+[2022-10-23 02:49:02,323] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 106721                                                |
+[2022-10-23 02:49:02,424] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 106512                                                |
+[2022-10-23 02:49:02,553] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 100890                                                |
+[2022-10-23 02:49:02,677] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 100406                                                |
+[2022-10-23 02:49:02,780] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96524                                                 |
+[2022-10-23 02:49:02,906] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 95773                                                 |
+[2022-10-23 02:49:03,007] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 94402                                                 |
+[2022-10-23 02:49:03,114] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 85954                                                 |
+[2022-10-23 02:49:03,216] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 85938                                                 |
+[2022-10-23 02:49:03,443] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79729                                                 |
+[2022-10-23 02:49:03,546] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79179                                                 |
+[2022-10-23 02:49:03,646] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77273                                                 |
+[2022-10-23 02:49:03,752] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77127                                                 |
+[2022-10-23 02:49:03,866] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77126                                                 |
+[2022-10-23 02:49:03,982] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75873                                                 |
+[2022-10-23 02:49:04,143] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75830                                                 |
+[2022-10-23 02:49:04,253] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 75829                                                 |
+[2022-10-23 02:49:04,367] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72772                                                 |
+[2022-10-23 02:49:04,593] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 67851                                                 |
+[2022-10-23 02:49:04,695] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 66403                                                 |
+[2022-10-23 02:49:04,811] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 64934                                                 |
+[2022-10-23 02:49:04,930] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 64121                                                 |
+[2022-10-23 02:49:05,045] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 61763                                                 |
+[2022-10-23 02:49:05,146] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 61257                                                 |
+[2022-10-23 02:49:05,251] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 60273                                                 |
+[2022-10-23 02:49:05,374] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 57350                                                 |
+[2022-10-23 02:49:05,487] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 57140                                                 |
+[2022-10-23 02:49:05,612] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 56894                                                 |
+[2022-10-23 02:49:05,708] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 55354                                                 |
+[2022-10-23 02:49:05,805] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 52068                                                 |
+[2022-10-23 02:49:05,929] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 49960                                                 |
+[2022-10-23 02:49:06,034] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 49596                                                 |
+[2022-10-23 02:49:06,144] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 48586                                                 |
+[2022-10-23 02:49:06,242] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 47531                                                 |
+[2022-10-23 02:49:06,355] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 47298                                                 |
+[2022-10-23 02:49:06,454] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46887                                                 |
+[2022-10-23 02:49:06,559] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45741                                                 |
+[2022-10-23 02:49:06,663] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45740                                                 |
+[2022-10-23 02:49:06,764] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45597                                                 |
+[2022-10-23 02:49:06,876] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45596                                                 |
+[2022-10-23 02:49:06,986] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45593                                                 |
+[2022-10-23 02:49:07,084] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45567                                                 |
+[2022-10-23 02:49:07,195] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45334                                                 |
+[2022-10-23 02:49:07,297] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45201                                                 |
+[2022-10-23 02:49:07,397] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 45200                                                 |
+[2022-10-23 02:49:07,510] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43675                                                 |
+[2022-10-23 02:49:07,613] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43666                                                 |
+[2022-10-23 02:49:07,736] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43664                                                 |
+[2022-10-23 02:49:07,852] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43656                                                 |
+[2022-10-23 02:49:07,955] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43647                                                 |
+[2022-10-23 02:49:08,055] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43612                                                 |
+[2022-10-23 02:49:08,169] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41675                                                 |
+[2022-10-23 02:49:08,270] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41665                                                 |
+[2022-10-23 02:49:08,387] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41616                                                 |
+[2022-10-23 02:49:08,497] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41546                                                 |
+[2022-10-23 02:49:08,605] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41412                                                 |
+[2022-10-23 02:49:08,710] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 41340                                                 |
+[2022-10-23 02:49:08,813] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 40511                                                 |
+[2022-10-23 02:49:08,910] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 38403                                                 |
+[2022-10-23 02:49:09,024] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37800                                                 |
+[2022-10-23 02:49:09,120] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37596                                                 |
+[2022-10-23 02:49:09,227] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 34455                                                 |
+[2022-10-23 02:49:09,324] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 33232                                                 |
+[2022-10-23 02:49:09,424] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 32383                                                 |
+[2022-10-23 02:49:09,523] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31320                                                 |
+[2022-10-23 02:49:09,620] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31079                                                 |
+[2022-10-23 02:49:09,720] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31001                                                 |
+[2022-10-23 02:49:09,829] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 30698                                                 |
+[2022-10-23 02:49:10,039] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29907                                                 |
+[2022-10-23 02:49:10,151] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 28692                                                 |
+[2022-10-23 02:49:10,246] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 28323                                                 |
+[2022-10-23 02:49:10,847] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 26050                                                 |
+[2022-10-23 02:49:10,953] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 24821                                                 |
+[2022-10-23 02:49:11,065] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 22173                                                 |
+[2022-10-23 02:49:11,172] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21466                                                 |
+[2022-10-23 02:49:11,278] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21358                                                 |
+[2022-10-23 02:49:11,382] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21352                                                 |
+[2022-10-23 02:49:11,493] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21342                                                 |
+[2022-10-23 02:49:11,590] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 20765                                                 |
+[2022-10-23 02:49:11,700] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19984                                                 |
+[2022-10-23 02:49:11,801] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19703                                                 |
+[2022-10-23 02:49:11,907] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19537                                                 |
+[2022-10-23 02:49:12,010] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19181                                                 |
+[2022-10-23 02:49:12,112] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19174                                                 |
+[2022-10-23 02:49:12,216] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19073                                                 |
+[2022-10-23 02:49:12,318] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19022                                                 |
+[2022-10-23 02:49:12,565] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18963                                                 |
+[2022-10-23 02:49:12,674] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18941                                                 |
+[2022-10-23 02:49:12,879] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18583                                                 |
+[2022-10-23 02:49:12,994] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18079                                                 |
+[2022-10-23 02:49:13,090] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 17989                                                 |
+[2022-10-23 02:49:13,191] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 17983                                                 |
+[2022-10-23 02:49:13,291] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 16429                                                 |
+[2022-10-23 02:49:13,399] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 16376                                                 |
+[2022-10-23 02:49:13,504] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15864                                                 |
+[2022-10-23 02:49:13,641] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15560                                                 |
+[2022-10-23 02:49:13,743] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15261                                                 |
+[2022-10-23 02:49:13,855] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15019                                                 |
+[2022-10-23 02:49:13,955] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14886                                                 |
+[2022-10-23 02:49:14,061] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14134                                                 |
+[2022-10-23 02:49:14,163] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 11915                                                 |
+[2022-10-23 02:49:14,272] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 10904                                                 |
+[2022-10-23 02:49:14,381] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 10796                                                 |
+[2022-10-23 02:49:14,487] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 10256                                                 |
+[2022-10-23 02:49:14,701] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8850                                                  |
+[2022-10-23 02:49:14,803] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8818                                                  |
+[2022-10-23 02:49:14,906] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8661                                                  |
+[2022-10-23 02:49:15,116] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 7488                                                  |
+[2022-10-23 02:49:15,218] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 7314                                                  |
+[2022-10-23 02:49:15,321] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 6639                                                  |
+[2022-10-23 02:49:15,421] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 6061                                                  |
+[2022-10-23 02:49:15,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 5869                                                  |
+[2022-10-23 02:49:15,622] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4072                                                  |
+[2022-10-23 02:49:15,752] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 3911                                                  |
+[2022-10-23 02:49:15,857] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 3749                                                  |
+[2022-10-23 02:49:15,962] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 3583                                                  |
+[2022-10-23 02:49:16,059] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 2858                                                  |
+[2022-10-23 02:49:16,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 1290                                                  |
+[2022-10-23 02:49:16,155] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-10-23 02:49:16,155] [util.py:216]               [INFO]     |===================================== Adding to PBS Collection =====================================|
+[2022-10-23 02:49:16,155] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-10-23 02:49:16,156] [builder.py:1709]           [INFO]     | 1/1 | PBS Collection | = | Downton Abbey                                                           |
+[2022-10-23 02:49:16,156] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-10-23 02:49:16,156] [builder.py:1735]           [INFO]     | 1 Show Processed                                                                                   |
+[2022-10-23 02:49:16,157] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-10-23 02:49:16,157] [util.py:216]               [INFO]     |================================= Missing Shows from Library: PBS ==================================|
+[2022-10-23 02:49:16,157] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-10-23 02:49:16,930] [builder.py:1982]           [INFO]     | PBS Collection | ? | PBS NewsHour (TVDB: 81388)                                                    |
+[2022-10-23 02:49:18,369] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sesame Street (TVDB: 78419)                                                   |
+[2022-10-23 02:49:18,854] [builder.py:1982]           [INFO]     | PBS Collection | ? | PBS News Weekend (TVDB: 273048)                                               |
+[2022-10-23 02:49:19,167] [builder.py:1982]           [INFO]     | PBS Collection | ? | Endeavour (TVDB: 254834)                                                      |
+[2022-10-23 02:49:19,821] [builder.py:1982]           [INFO]     | PBS Collection | ? | Curious George (TVDB: 79429)                                                  |
+[2022-10-23 02:49:20,550] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Dick Cavett Show (TVDB: 250936)                                           |
+[2022-10-23 02:49:22,043] [builder.py:1982]           [INFO]     | PBS Collection | ? | NOVA (TVDB: 76119)                                                            |
+[2022-10-23 02:49:22,941] [builder.py:1982]           [INFO]     | PBS Collection | ? | Arthur (TVDB: 74678)                                                          |
+[2022-10-23 02:49:23,736] [builder.py:1982]           [INFO]     | PBS Collection | ? | Nature (TVDB: 81157)                                                          |
+[2022-10-23 02:49:24,268] [builder.py:1982]           [INFO]     | PBS Collection | ? | Barney and Friends (TVDB: 72180)                                              |
+[2022-10-23 02:49:24,697] [builder.py:1982]           [INFO]     | PBS Collection | ? | Dinosaur Train (TVDB: 116291)                                                 |
+[2022-10-23 02:49:25,594] [builder.py:1982]           [INFO]     | PBS Collection | ? | Austin City Limits (TVDB: 71649)                                              |
+[2022-10-23 02:49:25,981] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wild Kratts (TVDB: 216851)                                                    |
+[2022-10-23 02:49:26,925] [builder.py:1982]           [INFO]     | PBS Collection | ? | This Old House (TVDB: 77444)                                                  |
+[2022-10-23 02:49:27,365] [builder.py:1982]           [INFO]     | PBS Collection | ? | Call the Midwife (TVDB: 255192)                                               |
+[2022-10-23 02:49:28,153] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mister Rogers' Neighborhood (TVDB: 77750)                                     |
+[2022-10-23 02:49:28,842] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Experience (TVDB: 71638)                                             |
+[2022-10-23 02:49:29,191] [builder.py:1982]           [INFO]     | PBS Collection | ? | Victoria (TVDB: 302205)                                                       |
+[2022-10-23 02:49:29,421] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sanditon (TVDB: 363794)                                                       |
+[2022-10-23 02:49:29,868] [builder.py:1982]           [INFO]     | PBS Collection | ? | Cook's Country (TVDB: 86521)                                                  |
+[2022-10-23 02:49:30,498] [builder.py:1982]           [INFO]     | PBS Collection | ? | Independent Lens (TVDB: 84082)                                                |
+[2022-10-23 02:49:31,004] [builder.py:1982]           [INFO]     | PBS Collection | ? | Daniel Tiger's Neighborhood (TVDB: 261511)                                    |
+[2022-10-23 02:49:31,317] [builder.py:1982]           [INFO]     | PBS Collection | ? | WordGirl (TVDB: 83660)                                                        |
+[2022-10-23 02:49:32,178] [builder.py:1982]           [INFO]     | PBS Collection | ? | Ask This Old House (TVDB: 74326)                                              |
+[2022-10-23 02:49:32,423] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wallander (UK) (TVDB: 83925)                                                  |
+[2022-10-23 02:49:33,311] [builder.py:1982]           [INFO]     | PBS Collection | ? | Frontline (TVDB: 80646)                                                       |
+[2022-10-23 02:49:33,519] [builder.py:1982]           [INFO]     | PBS Collection | ? | Magpie Murders (TVDB: 410479)                                                 |
+[2022-10-23 02:49:34,377] [builder.py:1982]           [INFO]     | PBS Collection | ? | Great Performances (TVDB: 76548)                                              |
+[2022-10-23 02:49:34,584] [builder.py:1982]           [INFO]     | PBS Collection | ? | Cosmos (TVDB: 74995)                                                          |
+[2022-10-23 02:49:35,254] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Masters (TVDB: 81727)                                                |
+[2022-10-23 02:49:35,622] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Electric Company (TVDB: 73666)                                            |
+[2022-10-23 02:49:35,925] [builder.py:1982]           [INFO]     | PBS Collection | ? | Super WHY! (TVDB: 81164)                                                      |
+[2022-10-23 02:49:36,540] [builder.py:1982]           [INFO]     | PBS Collection | ? | America's Test Kitchen (TVDB: 80297)                                          |
+[2022-10-23 02:49:36,820] [builder.py:1982]           [INFO]     | PBS Collection | ? | Odd Squad (TVDB: 288449)                                                      |
+[2022-10-23 02:49:37,040] [builder.py:1982]           [INFO]     | PBS Collection | ? | Doctor Zhivago (TVDB: 139641)                                                 |
+[2022-10-23 02:49:37,218] [builder.py:1982]           [INFO]     | PBS Collection | ? | Rosie's Rules (TVDB: 425455)                                                  |
+[2022-10-23 02:49:37,477] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mr Selfridge (TVDB: 261633)                                                   |
+[2022-10-23 02:49:37,697] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Vietnam War (2017) (TVDB: 333595)                                         |
+[2022-10-23 02:49:37,989] [builder.py:1982]           [INFO]     | PBS Collection | ? | Bill Nye: The Science Guy (TVDB: 78494)                                       |
+[2022-10-23 02:49:38,215] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sid the Science Kid (TVDB: 82931)                                             |
+[2022-10-23 02:49:38,682] [builder.py:1982]           [INFO]     | PBS Collection | ? | Secrets of the Dead (TVDB: 73986)                                             |
+[2022-10-23 02:49:38,917] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wolf Hall (TVDB: 281977)                                                      |
+[2022-10-23 02:49:39,574] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Joy of Painting (TVDB: 79167)                                             |
+[2022-10-23 02:49:40,275] [builder.py:1982]           [INFO]     | PBS Collection | ? | P.O.V. (TVDB: 102241)                                                         |
+[2022-10-23 02:49:40,663] [builder.py:1982]           [INFO]     | PBS Collection | ? | Finding Your Roots with Henry Louis Gates, Jr. (TVDB: 257587)                 |
+[2022-10-23 02:49:40,898] [builder.py:1982]           [INFO]     | PBS Collection | ? | Angelina Ballerina: The Next Steps (TVDB: 128601)                             |
+[2022-10-23 02:49:41,076] [builder.py:1982]           [INFO]     | PBS Collection | ? | Great Expectations (2011) (TVDB: 254143)                                      |
+[2022-10-23 02:49:41,283] [builder.py:1982]           [INFO]     | PBS Collection | ? | Jakers! The Adventures of Piggley Winks (TVDB: 82131)                         |
+[2022-10-23 02:49:41,546] [builder.py:1982]           [INFO]     | PBS Collection | ? | Postcards from Buster (TVDB: 72830)                                           |
+[2022-10-23 02:49:41,853] [builder.py:1982]           [INFO]     | PBS Collection | ? | Peg + Cat (TVDB: 273993)                                                      |
+[2022-10-23 02:49:42,361] [builder.py:1982]           [INFO]     | PBS Collection | ? | MotorWeek (TVDB: 239601)                                                      |
+[2022-10-23 02:49:42,576] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Civil War (TVDB: 78973)                                                   |
+[2022-10-23 02:49:42,628] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 421460                              |
+[2022-10-23 02:49:42,912] [builder.py:1982]           [INFO]     | PBS Collection | ? | 3-2-1 Contact (TVDB: 73584)                                                   |
+[2022-10-23 02:49:43,167] [builder.py:1982]           [INFO]     | PBS Collection | ? | Last Tango in Halifax (TVDB: 264185)                                          |
+[2022-10-23 02:49:43,380] [builder.py:1982]           [INFO]     | PBS Collection | ? | Adventures from the Book of Virtues (TVDB: 76598)                             |
+[2022-10-23 02:49:43,598] [builder.py:1982]           [INFO]     | PBS Collection | ? | Baseball (TVDB: 81381)                                                        |
+[2022-10-23 02:49:43,855] [builder.py:1982]           [INFO]     | PBS Collection | ? | WordWorld (TVDB: 81312)                                                       |
+[2022-10-23 02:49:44,043] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Blues (TVDB: 82364)                                                       |
+[2022-10-23 02:49:44,452] [builder.py:1982]           [INFO]     | PBS Collection | ? | Soundstage (TVDB: 83641)                                                      |
+[2022-10-23 02:49:44,839] [builder.py:1982]           [INFO]     | PBS Collection | ? | Between the Lions (TVDB: 74776)                                               |
+[2022-10-23 02:49:45,038] [builder.py:1982]           [INFO]     | PBS Collection | ? | Breathless (TVDB: 273986)                                                     |
+[2022-10-23 02:49:45,213] [builder.py:1982]           [INFO]     | PBS Collection | ? | Maya & Miguel (TVDB: 73370)                                                   |
+[2022-10-23 02:49:45,404] [builder.py:1982]           [INFO]     | PBS Collection | ? | Spy in the Wild (TVDB: 322505)                                                |
+[2022-10-23 02:49:45,607] [builder.py:1982]           [INFO]     | PBS Collection | ? | Human: The World Within (TVDB: 402219)                                        |
+[2022-10-23 02:49:45,782] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Virgin Queen (TVDB: 84614)                                                |
+[2022-10-23 02:49:46,425] [builder.py:1982]           [INFO]     | PBS Collection | ? | Antiques Roadshow (US) (TVDB: 75117)                                          |
+[2022-10-23 02:49:46,655] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Big Comfy Couch (TVDB: 70805)                                             |
+[2022-10-23 02:49:46,837] [builder.py:1982]           [INFO]     | PBS Collection | ? | The War (TVDB: 80620)                                                         |
+[2022-10-23 02:49:47,081] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mercy Street (TVDB: 299033)                                                   |
+[2022-10-23 02:49:47,276] [builder.py:1982]           [INFO]     | PBS Collection | ? | Prohibition (TVDB: 251965)                                                    |
+[2022-10-23 02:49:47,545] [builder.py:1982]           [INFO]     | PBS Collection | ? | Christopher Kimball’s Milk Street Television (TVDB: 334523)                   |
+[2022-10-23 02:49:47,769] [builder.py:1982]           [INFO]     | PBS Collection | ? | Liberty's Kids (TVDB: 77619)                                                  |
+[2022-10-23 02:49:48,043] [builder.py:1982]           [INFO]     | PBS Collection | ? | Square One TV (TVDB: 78309)                                                   |
+[2022-10-23 02:49:48,279] [builder.py:1982]           [INFO]     | PBS Collection | ? | Beecham House (TVDB: 359506)                                                  |
+[2022-10-23 02:49:48,517] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Electric Company (2009) (TVDB: 112181)                                    |
+[2022-10-23 02:49:49,195] [builder.py:1982]           [INFO]     | PBS Collection | ? | Rick Steves' Europe (TVDB: 74691)                                             |
+[2022-10-23 02:49:49,371] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Dictator's Playbook (TVDB: 357889)                                        |
+[2022-10-23 02:49:49,561] [builder.py:1982]           [INFO]     | PBS Collection | ? | Franny's Feet (TVDB: 128951)                                                  |
+[2022-10-23 02:49:49,756] [builder.py:1982]           [INFO]     | PBS Collection | ? | Muhammad Ali (TVDB: 403212)                                                   |
+[2022-10-23 02:49:49,966] [builder.py:1982]           [INFO]     | PBS Collection | ? | Professor T. (TVDB: 300677)                                                   |
+[2022-10-23 02:49:50,153] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Roosevelts: An Intimate History (TVDB: 282249)                            |
+[2022-10-23 02:49:50,413] [builder.py:1982]           [INFO]     | PBS Collection | ? | Angelina Ballerina (TVDB: 83466)                                              |
+[2022-10-23 02:49:50,621] [builder.py:1982]           [INFO]     | PBS Collection | ? | Jazz (TVDB: 80679)                                                            |
+[2022-10-23 02:49:50,824] [builder.py:1982]           [INFO]     | PBS Collection | ? | The National Parks: America's Best Idea (TVDB: 116171)                        |
+[2022-10-23 02:49:51,018] [builder.py:1982]           [INFO]     | PBS Collection | ? | Monty Python: Almost The Truth (The Lawyer's Cut) (TVDB: 118861)              |
+[2022-10-23 02:49:51,287] [builder.py:1982]           [INFO]     | PBS Collection | ? | Where in the World is Carmen Sandiego? (TVDB: 72207)                          |
+[2022-10-23 02:49:51,558] [builder.py:1982]           [INFO]     | PBS Collection | ? | Martha Stewart's Cooking School (TVDB: 263216)                                |
+[2022-10-23 02:49:52,047] [builder.py:1982]           [INFO]     | PBS Collection | ? | The New Yankee Workshop (TVDB: 72938)                                         |
+[2022-10-23 02:49:52,517] [builder.py:1982]           [INFO]     | PBS Collection | ? | Reading Rainbow (TVDB: 77547)                                                 |
+[2022-10-23 02:49:52,694] [builder.py:1982]           [INFO]     | PBS Collection | ? | Six Wives with Lucy Worsley (TVDB: 320612)                                    |
+[2022-10-23 02:49:52,867] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wish Kids (TVDB: 77289)                                                       |
+[2022-10-23 02:49:53,075] [builder.py:1982]           [INFO]     | PBS Collection | ? | Anna Karenina (2000) (TVDB: 219261)                                           |
+[2022-10-23 02:49:53,334] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Mind of a Chef (TVDB: 263160)                                             |
+[2022-10-23 02:49:53,969] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Woodwright's Shop (TVDB: 93871)                                           |
+[2022-10-23 02:49:54,234] [builder.py:1982]           [INFO]     | PBS Collection | ? | The U.S. and the Holocaust (TVDB: 421197)                                     |
+[2022-10-23 02:49:54,440] [builder.py:1982]           [INFO]     | PBS Collection | ? | Timothy Goes to School (TVDB: 77188)                                          |
+[2022-10-23 02:49:54,643] [builder.py:1982]           [INFO]     | PBS Collection | ? | Carrier (TVDB: 81913)                                                         |
+[2022-10-23 02:49:54,840] [builder.py:1982]           [INFO]     | PBS Collection | ? | Blank on Blank (TVDB: 283916)                                                 |
+[2022-10-23 02:49:55,011] [builder.py:1982]           [INFO]     | PBS Collection | ? | Frank Lloyd Wright (TVDB: 209131)                                             |
+[2022-10-23 02:49:55,198] [builder.py:1982]           [INFO]     | PBS Collection | ? | Summer's Lease (TVDB: 115351)                                                 |
+[2022-10-23 02:49:55,534] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Playhouse (TVDB: 146861)                                             |
+[2022-10-23 02:49:55,720] [builder.py:1982]           [INFO]     | PBS Collection | ? | Shakespeare Uncovered (TVDB: 260091)                                          |
+[2022-10-23 02:49:55,938] [builder.py:1982]           [INFO]     | PBS Collection | ? | Kidsongs (TVDB: 71364)                                                        |
+[2022-10-23 02:49:56,317] [builder.py:1982]           [INFO]     | PBS Collection | ? | Zoom (TVDB: 78367)                                                            |
+[2022-10-23 02:49:57,879] [builder.py:1982]           [INFO]     | PBS Collection | ? | Charlie Rose (TVDB: 81410)                                                    |
+[2022-10-23 02:49:58,101] [builder.py:1982]           [INFO]     | PBS Collection | ? | Country Music (TVDB: 359180)                                                  |
+[2022-10-23 02:49:58,348] [builder.py:1982]           [INFO]     | PBS Collection | ? | Tavis Smiley (TVDB: 73799)                                                    |
+[2022-10-23 02:49:58,517] [builder.py:1982]           [INFO]     | PBS Collection | ? | Thomas Jefferson (TVDB: 84784)                                                |
+[2022-10-23 02:49:58,723] [builder.py:1982]           [INFO]     | PBS Collection | ? | Auto B. Good (TVDB: 81677)                                                    |
+[2022-10-23 02:49:58,962] [builder.py:1982]           [INFO]     | PBS Collection | ? | Superheroes: A Never-Ending Battle (TVDB: 273623)                             |
+[2022-10-23 02:49:59,165] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Dust Bowl (TVDB: 264098)                                                  |
+[2022-10-23 02:49:59,355] [builder.py:1982]           [INFO]     | PBS Collection | ? | Hemingway (TVDB: 394111)                                                      |
+[2022-10-23 02:49:59,744] [builder.py:1982]           [INFO]     | PBS Collection | ? | Newton's Apple (TVDB: 71848)                                                  |
+[2022-10-23 02:49:59,933] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lord Mountbatten: The Last Viceroy (TVDB: 180521)                             |
+[2022-10-23 02:50:00,116] [builder.py:1982]           [INFO]     | PBS Collection | ? | Rock N' Roll Stories (TVDB: 289761)                                           |
+[2022-10-23 02:50:00,297] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Open Mind (TVDB: 401455)                                                  |
+[2022-10-23 02:50:00,655] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mexico - One Plate at a Time (TVDB: 80477)                                    |
+[2022-10-23 02:50:00,844] [builder.py:1982]           [INFO]     | PBS Collection | ? | Asian Americans (TVDB: 367567)                                                |
+[2022-10-23 02:50:01,285] [builder.py:1982]           [INFO]     | PBS Collection | ? | Hometime (TVDB: 82287)                                                        |
+[2022-10-23 02:50:01,448] [builder.py:1982]           [INFO]     | PBS Collection | ? | College Behind Bars (TVDB: 369560)                                            |
+[2022-10-23 02:50:01,885] [builder.py:1982]           [INFO]     | PBS Collection | ? | Live from Lincoln Center (TVDB: 195211)                                       |
+[2022-10-23 02:50:02,060] [builder.py:1982]           [INFO]     | PBS Collection | ? | Vegetable Soup (TVDB: 75146)                                                  |
+[2022-10-23 02:50:02,259] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Adams Chronicles (TVDB: 76175)                                            |
+[2022-10-23 02:50:02,631] [builder.py:1982]           [INFO]     | PBS Collection | ? | Bluegrass Underground (TVDB: 261269)                                          |
+[2022-10-23 02:50:02,800] [builder.py:1982]           [INFO]     | PBS Collection | ? | Nostromo (TVDB: 277467)                                                       |
+[2022-10-23 02:50:02,985] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Family (TVDB: 231141)                                                |
+[2022-10-23 02:50:03,207] [builder.py:1982]           [INFO]     | PBS Collection | ? | Que Pasa, USA? (TVDB: 74758)                                                  |
+[2022-10-23 02:50:03,389] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Elegant Universe (TVDB: 78985)                                            |
+[2022-10-23 02:50:03,545] [builder.py:1982]           [INFO]     | PBS Collection | ? | BBC World News America (TVDB: 283660)                                         |
+[2022-10-23 02:50:03,739] [builder.py:1982]           [INFO]     | PBS Collection | ? | Oliver's Travels (TVDB: 155791)                                               |
+[2022-10-23 02:50:03,957] [builder.py:1982]           [INFO]     | PBS Collection | ? | First Peoples (TVDB: 293528)                                                  |
+[2022-10-23 02:50:04,157] [builder.py:1982]           [INFO]     | PBS Collection | ? | The West (TVDB: 80105)                                                        |
+[2022-10-23 02:50:04,343] [builder.py:1982]           [INFO]     | PBS Collection | ? | H₂O: The Molecule That Made Us (TVDB: 380647)                                 |
+[2022-10-23 02:50:04,513] [builder.py:1982]           [INFO]     | PBS Collection | ? | Click & Clack's As The Wrench Turns (TVDB: 199031)                            |
+[2022-10-23 02:50:04,703] [builder.py:1982]           [INFO]     | PBS Collection | ? | Animals with Cameras (TVDB: 372187)                                           |
+[2022-10-23 02:50:04,919] [builder.py:1982]           [INFO]     | PBS Collection | ? | Great Performances at the Met (2007) (TVDB: 405677)                           |
+[2022-10-23 02:50:05,149] [builder.py:1982]           [INFO]     | PBS Collection | ? | Spain: On The Road Again (TVDB: 84181)                                        |
+[2022-10-23 02:50:05,398] [builder.py:1982]           [INFO]     | PBS Collection | ? | Need To Know (TVDB: 166581)                                                   |
+[2022-10-23 02:50:05,949] [builder.py:1982]           [INFO]     | PBS Collection | ? | Oregon Field Guide (TVDB: 126181)                                             |
+[2022-10-23 02:50:06,207] [builder.py:1982]           [INFO]     | PBS Collection | ? | Great Cars: The Television Series (TVDB: 351086)                              |
+[2022-10-23 02:50:06,381] [builder.py:1982]           [INFO]     | PBS Collection | ? | Extra Life: A Short History of Living Longer (TVDB: 399489)                   |
+[2022-10-23 02:50:06,545] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lewis and Clark: The Journey of the Corps of Discovery (TVDB: 92251)          |
+[2022-10-23 02:50:06,710] [builder.py:1982]           [INFO]     | PBS Collection | ? | Behind the Scenes (TVDB: 261414)                                              |
+[2022-10-23 02:50:06,896] [builder.py:1982]           [INFO]     | PBS Collection | ? | Genius by Stephen Hawking (TVDB: 309662)                                      |
+[2022-10-23 02:50:07,086] [builder.py:1982]           [INFO]     | PBS Collection | ? | Chasing the Moon (TVDB: 366918)                                               |
+[2022-10-23 02:50:07,296] [builder.py:1982]           [INFO]     | PBS Collection | ? | Benjamin Franklin (2022) (TVDB: 415024)                                       |
+[2022-10-23 02:50:07,635] [builder.py:1982]           [INFO]     | PBS Collection | ? | art21 (TVDB: 84504)                                                           |
+[2022-10-23 02:50:07,801] [builder.py:1982]           [INFO]     | PBS Collection | ? | Kratts' Creatures (TVDB: 71102)                                               |
+[2022-10-23 02:50:08,162] [builder.py:1982]           [INFO]     | PBS Collection | ? | Martha Bakes (TVDB: 270411)                                                   |
+[2022-10-23 02:50:08,396] [builder.py:1982]           [INFO]     | PBS Collection | ? | David Holt's State of Music (TVDB: 309883)                                    |
+[2022-10-23 02:50:08,814] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wisconsin Foodie (TVDB: 279433)                                               |
+[2022-10-23 02:50:08,974] [builder.py:1982]           [INFO]     | PBS Collection | ? | Outback (TVDB: 350991)                                                        |
+[2022-10-23 02:50:09,154] [builder.py:1982]           [INFO]     | PBS Collection | ? | Where in Time is Carmen Sandiego? (TVDB: 76624)                               |
+[2022-10-23 02:50:09,341] [builder.py:1982]           [INFO]     | PBS Collection | ? | Math Wise (TVDB: 73644)                                                       |
+[2022-10-23 02:50:09,587] [builder.py:1982]           [INFO]     | PBS Collection | ? | Meeting of Minds (TVDB: 78311)                                                |
+[2022-10-23 02:50:09,745] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Steven Banks Show (TVDB: 71405)                                           |
+[2022-10-23 02:50:09,971] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Voyage of the Mimi (TVDB: 73643)                                          |
+[2022-10-23 02:50:10,155] [builder.py:1982]           [INFO]     | PBS Collection | ? | Walt Disney (TVDB: 320989)                                                    |
+[2022-10-23 02:50:10,325] [builder.py:1982]           [INFO]     | PBS Collection | ? | World Class Trains (TVDB: 85454)                                              |
+[2022-10-23 02:50:10,488] [builder.py:1982]           [INFO]     | PBS Collection | ? | Soundbreaking (TVDB: 309491)                                                  |
+[2022-10-23 02:50:11,550] [builder.py:1982]           [INFO]     | PBS Collection | ? | Hallmark Hall Of Fame (TVDB: 76447)                                           |
+[2022-10-23 02:50:11,743] [builder.py:1982]           [INFO]     | PBS Collection | ? | Africa's Great Civilizations (TVDB: 324455)                                   |
+[2022-10-23 02:50:11,945] [builder.py:1982]           [INFO]     | PBS Collection | ? | Joseph Campbell and the Power of Myth (TVDB: 79505)                           |
+[2022-10-23 02:50:12,102] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Anthems (TVDB: 421107)                                               |
+[2022-10-23 02:50:12,264] [builder.py:1982]           [INFO]     | PBS Collection | ? | Liberty! The American Revolution (TVDB: 81495)                                |
+[2022-10-23 02:50:12,443] [builder.py:1982]           [INFO]     | PBS Collection | ? | Russia's War: Blood Upon The Snow (TVDB: 78999)                               |
+[2022-10-23 02:50:12,634] [builder.py:1982]           [INFO]     | PBS Collection | ? | Cooking with Nick Stellino (TVDB: 297085)                                     |
+[2022-10-23 02:50:12,804] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Jewish Americans (TVDB: 97361)                                            |
+[2022-10-23 02:50:12,986] [builder.py:1982]           [INFO]     | PBS Collection | ? | Royal Wedding Watch (2018) (TVDB: 410511)                                     |
+[2022-10-23 02:50:13,512] [builder.py:1982]           [INFO]     | PBS Collection | ? | Marty Stouffer's Wild America (TVDB: 89871)                                   |
+[2022-10-23 02:50:13,686] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sinking Cities (TVDB: 354989)                                                 |
+[2022-10-23 02:50:13,881] [builder.py:1982]           [INFO]     | PBS Collection | ? | Great Yellowstone Thaw (TVDB: 330449)                                         |
+[2022-10-23 02:50:14,188] [builder.py:1982]           [INFO]     | PBS Collection | ? | Pioneers of Television (TVDB: 198531)                                         |
+[2022-10-23 02:50:14,438] [builder.py:1982]           [INFO]     | PBS Collection | ? | Infinity Hall Live (TVDB: 261086)                                             |
+[2022-10-23 02:50:14,652] [builder.py:1982]           [INFO]     | PBS Collection | ? | New York: A Documentary Film (TVDB: 82457)                                    |
+[2022-10-23 02:50:14,833] [builder.py:1982]           [INFO]     | PBS Collection | ? | Greta Thunberg: A Year to Change the World (TVDB: 400987)                     |
+[2022-10-23 02:50:15,023] [builder.py:1982]           [INFO]     | PBS Collection | ? | America From The Ground Up (TVDB: 289136)                                     |
+[2022-10-23 02:50:15,194] [builder.py:1982]           [INFO]     | PBS Collection | ? | Roadfood (TVDB: 412309)                                                       |
+[2022-10-23 02:50:15,380] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Veteran (TVDB: 411308)                                               |
+[2022-10-23 02:50:15,541] [builder.py:1982]           [INFO]     | PBS Collection | ? | Philly D.A. (TVDB: 399292)                                                    |
+[2022-10-23 02:50:15,703] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Age of Nature (TVDB: 388660)                                              |
+[2022-10-23 02:50:15,854] [builder.py:1982]           [INFO]     | PBS Collection | ? | This Far By Faith (TVDB: 374432)                                              |
+[2022-10-23 02:50:16,020] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Search for Solutions (TVDB: 382462)                                       |
+[2022-10-23 02:50:16,206] [builder.py:1982]           [INFO]     | PBS Collection | ? | Retro Report on PBS (TVDB: 370524)                                            |
+[2022-10-23 02:50:16,366] [builder.py:1982]           [INFO]     | PBS Collection | ? | Unser Universum (TVDB: 379125)                                                |
+[2022-10-23 02:50:16,549] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Great American Read (TVDB: 347565)                                        |
+[2022-10-23 02:50:16,711] [builder.py:1982]           [INFO]     | PBS Collection | ? | Refuge (TVDB: 344303)                                                         |
+[2022-10-23 02:50:16,863] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wild Alaska Live (TVDB: 332599)                                               |
+[2022-10-23 02:50:17,036] [builder.py:1982]           [INFO]     | PBS Collection | ? | Photo Ark (TVDB: 330480)                                                      |
+[2022-10-23 02:50:17,270] [builder.py:1982]           [INFO]     | PBS Collection | ? | Futurestates (TVDB: 291891)                                                   |
+[2022-10-23 02:50:17,474] [builder.py:1982]           [INFO]     | PBS Collection | ? | Beyond the Cosmos (TVDB: 257422)                                              |
+[2022-10-23 02:50:17,634] [builder.py:1982]           [INFO]     | PBS Collection | ? | I'll Have What Phil's Having (TVDB: 301399)                                   |
+[2022-10-23 02:50:17,803] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Spoils of Poynton (TVDB: 176271)                                          |
+[2022-10-23 02:50:18,017] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Cinema (TVDB: 76643)                                                 |
+[2022-10-23 02:50:18,067] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 96381                               |
+[2022-10-23 02:50:18,292] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mathnet (TVDB: 73839)                                                         |
+[2022-10-23 02:50:18,480] [builder.py:1982]           [INFO]     | PBS Collection | ? | This Emotional Life (TVDB: 134781)                                            |
+[2022-10-23 02:50:18,645] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wonderworks (TVDB: 261177)                                                    |
+[2022-10-23 02:50:18,702] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 209041                              |
+[2022-10-23 02:50:18,916] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Mechanical Universe (TVDB: 83782)                                         |
+[2022-10-23 02:50:19,139] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Letter People (TVDB: 73106)                                               |
+[2022-10-23 02:50:19,452] [builder.py:1982]           [INFO]     | PBS Collection | ? | Washington Week (TVDB: 316836)                                                |
+[2022-10-23 02:50:19,925] [builder.py:1982]           [INFO]     | PBS Collection | ? | Closer to Truth (TVDB: 75006)                                                 |
+[2022-10-23 02:50:20,095] [builder.py:1982]           [INFO]     | PBS Collection | ? | Chernobyl: The New Evidence (TVDB: 417138)                                    |
+[2022-10-23 02:50:20,284] [builder.py:1982]           [INFO]     | PBS Collection | ? | Benjamin Franklin (TVDB: 108501)                                              |
+[2022-10-23 02:50:20,462] [builder.py:1982]           [INFO]     | PBS Collection | ? | Texas Ranch House (TVDB: 82565)                                               |
+[2022-10-23 02:50:20,834] [builder.py:1982]           [INFO]     | PBS Collection | ? | Scientific American Frontiers (TVDB: 74273)                                   |
+[2022-10-23 02:50:20,989] [builder.py:1982]           [INFO]     | PBS Collection | ? | Up & Coming (TVDB: 71151)                                                     |
+[2022-10-23 02:50:21,325] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Daytripper (TVDB: 256279)                                                 |
+[2022-10-23 02:50:21,489] [builder.py:1982]           [INFO]     | PBS Collection | ? | Earth: A New Wild (TVDB: 286615)                                              |
+[2022-10-23 02:50:21,666] [builder.py:1982]           [INFO]     | PBS Collection | ? | In the Footsteps of Alexander the Great (TVDB: 71105)                         |
+[2022-10-23 02:50:22,069] [builder.py:1982]           [INFO]     | PBS Collection | ? | Firing Line with Margaret Hoover (TVDB: 353066)                               |
+[2022-10-23 02:50:22,484] [builder.py:1982]           [INFO]     | PBS Collection | ? | The French Chef (TVDB: 71713)                                                 |
+[2022-10-23 02:50:22,652] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Great American Recipe (TVDB: 420622)                                      |
+[2022-10-23 02:50:22,828] [builder.py:1982]           [INFO]     | PBS Collection | ? | Expedition With Steve Backshall: Unpacked (TVDB: 400945)                      |
+[2022-10-23 02:50:23,009] [builder.py:1982]           [INFO]     | PBS Collection | ? | Islam: Empire of faith (TVDB: 319646)                                         |
+[2022-10-23 02:50:23,173] [builder.py:1982]           [INFO]     | PBS Collection | ? | Gorongosa Park: Rebirth of Paradise (TVDB: 301854)                            |
+[2022-10-23 02:50:23,348] [builder.py:1982]           [INFO]     | PBS Collection | ? | Impossible Builds (TVDB: 342515)                                              |
+[2022-10-23 02:50:23,513] [builder.py:1982]           [INFO]     | PBS Collection | ? | Big Pacific (TVDB: 329836)                                                    |
+[2022-10-23 02:50:23,789] [builder.py:1982]           [INFO]     | PBS Collection | ? | Transatlantic Sessions (TVDB: 235671)                                         |
+[2022-10-23 02:50:23,970] [builder.py:1982]           [INFO]     | PBS Collection | ? | God In America: How Religious Liberty Shaped America (TVDB: 197401)           |
+[2022-10-23 02:50:24,144] [builder.py:1982]           [INFO]     | PBS Collection | ? | Jackie Robinson (TVDB: 310180)                                                |
+[2022-10-23 02:50:24,311] [builder.py:1982]           [INFO]     | PBS Collection | ? | How We Got to Now (TVDB: 282551)                                              |
+[2022-10-23 02:50:24,503] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lucy Worsley Investigates (TVDB: 420050)                                      |
+[2022-10-23 02:50:24,817] [builder.py:1982]           [INFO]     | PBS Collection | ? | Tracks Ahead (TVDB: 197021)                                                   |
+[2022-10-23 02:50:25,080] [builder.py:1982]           [INFO]     | PBS Collection | ? | Eyes on the Prize (TVDB: 84630)                                               |
+[2022-10-23 02:50:25,409] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Aviators (TVDB: 232191)                                                   |
+[2022-10-23 02:50:25,567] [builder.py:1982]           [INFO]     | PBS Collection | ? | Dragons, Wagons & Wax (TVDB: 73954)                                           |
+[2022-10-23 02:50:25,775] [builder.py:1982]           [INFO]     | PBS Collection | ? | A Craftsman's Legacy (TVDB: 292075)                                           |
+[2022-10-23 02:50:26,012] [builder.py:1982]           [INFO]     | PBS Collection | ? | Monstrum (TVDB: 363839)                                                       |
+[2022-10-23 02:50:26,201] [builder.py:1982]           [INFO]     | PBS Collection | ? | Africans in America: America's Journey Through Slavery (TVDB: 278749)         |
+[2022-10-23 02:50:26,379] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lomax: The Hound of Music (TVDB: 408935)                                      |
+[2022-10-23 02:50:26,546] [builder.py:1982]           [INFO]     | PBS Collection | ? | Breaking Big (TVDB: 349132)                                                   |
+[2022-10-23 02:50:26,754] [builder.py:1982]           [INFO]     | PBS Collection | ? | SciTech Now (TVDB: 287919)                                                    |
+[2022-10-23 02:50:26,937] [builder.py:1982]           [INFO]     | PBS Collection | ? | Black America Since MLK: And Still I Rise (TVDB: 319700)                      |
+[2022-10-23 02:50:27,116] [builder.py:1982]           [INFO]     | PBS Collection | ? | Baking with Julia (TVDB: 203351)                                              |
+[2022-10-23 02:50:27,283] [builder.py:1982]           [INFO]     | PBS Collection | ? | Adventures with Kanga Roddy (TVDB: 78183)                                     |
+[2022-10-23 02:50:27,455] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mythos (TVDB: 85103)                                                          |
+[2022-10-23 02:50:27,619] [builder.py:1982]           [INFO]     | PBS Collection | ? | Regency House Party (TVDB: 75311)                                             |
+[2022-10-23 02:50:27,793] [builder.py:1982]           [INFO]     | PBS Collection | ? | Spaceflight (TVDB: 254709)                                                    |
+[2022-10-23 02:50:27,956] [builder.py:1982]           [INFO]     | PBS Collection | ? | Powerhouse (TVDB: 74865)                                                      |
+[2022-10-23 02:50:28,109] [builder.py:1982]           [INFO]     | PBS Collection | ? | Freedom: A History of Us (TVDB: 280985)                                       |
+[2022-10-23 02:50:28,301] [builder.py:1982]           [INFO]     | PBS Collection | ? | Nerds 2.0.1 (TVDB: 80985)                                                     |
+[2022-10-23 02:50:28,565] [builder.py:1982]           [INFO]     | PBS Collection | ? | NOVA scienceNOW (TVDB: 81526)                                                 |
+[2022-10-23 02:50:28,727] [builder.py:1982]           [INFO]     | PBS Collection | ? | Planet California (TVDB: 421022)                                              |
+[2022-10-23 02:50:29,087] [builder.py:1982]           [INFO]     | PBS Collection | ? | Articulate (TVDB: 330703)                                                     |
+[2022-10-23 02:50:29,266] [builder.py:1982]           [INFO]     | PBS Collection | ? | Ancient Invisible Cities (TVDB: 352477)                                       |
+[2022-10-23 02:50:29,443] [builder.py:1982]           [INFO]     | PBS Collection | ? | Hiding in Plain Sight: Youth Mental Illness (TVDB: 420623)                    |
+[2022-10-23 02:50:29,639] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Mystery of Matter: Search for the Elements (TVDB: 299721)                 |
+[2022-10-23 02:50:29,851] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Eyes of Nye (TVDB: 79398)                                                 |
+[2022-10-23 02:50:30,037] [builder.py:1982]           [INFO]     | PBS Collection | ? | Monty Python's Personal Best (TVDB: 279855)                                   |
+[2022-10-23 02:50:30,219] [builder.py:1982]           [INFO]     | PBS Collection | ? | Free to Choose (TVDB: 80929)                                                  |
+[2022-10-23 02:50:30,405] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Unknown War (TVDB: 249282)                                                |
+[2022-10-23 02:50:30,562] [builder.py:1982]           [INFO]     | PBS Collection | ? | Appalachia: a History of Mountains and People (TVDB: 164491)                  |
+[2022-10-23 02:50:30,758] [builder.py:1982]           [INFO]     | PBS Collection | ? | Demonstrations in Physics (TVDB: 74012)                                       |
+[2022-10-23 02:50:31,022] [builder.py:1982]           [INFO]     | PBS Collection | ? | NOW (TVDB: 80941)                                                             |
+[2022-10-23 02:50:31,071] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 270383                              |
+[2022-10-23 02:50:31,406] [builder.py:1982]           [INFO]     | PBS Collection | ? | History Detectives (TVDB: 74267)                                              |
+[2022-10-23 02:50:31,635] [builder.py:1982]           [INFO]     | PBS Collection | ? | Tell Me More With Kelly Corrigan (TVDB: 410490)                               |
+[2022-10-23 02:50:31,990] [builder.py:1982]           [INFO]     | PBS Collection | ? | Colorado Experience (TVDB: 305121)                                            |
+[2022-10-23 02:50:32,187] [builder.py:1982]           [INFO]     | PBS Collection | ? | Trying Times (TVDB: 70569)                                                    |
+[2022-10-23 02:50:32,390] [builder.py:1982]           [INFO]     | PBS Collection | ? | Zula Patrol (TVDB: 79378)                                                     |
+[2022-10-23 02:50:32,612] [builder.py:1982]           [INFO]     | PBS Collection | ? | Design Squad (TVDB: 251960)                                                   |
+[2022-10-23 02:50:32,804] [builder.py:1982]           [INFO]     | PBS Collection | ? | French in Action (TVDB: 260354)                                               |
+[2022-10-23 02:50:32,979] [builder.py:1982]           [INFO]     | PBS Collection | ? | Slavery and the Making of America (TVDB: 84979)                               |
+[2022-10-23 02:50:33,157] [builder.py:1982]           [INFO]     | PBS Collection | ? | No Passport Required (TVDB: 349841)                                           |
+[2022-10-23 02:50:33,314] [builder.py:1982]           [INFO]     | PBS Collection | ? | Rainbow Quest (TVDB: 146071)                                                  |
+[2022-10-23 02:50:33,507] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mary Lou's Flip Flop Shop (TVDB: 74387)                                       |
+[2022-10-23 02:50:33,685] [builder.py:1982]           [INFO]     | PBS Collection | ? | Animal Odd Couples (TVDB: 275404)                                             |
+[2022-10-23 02:50:33,884] [builder.py:1982]           [INFO]     | PBS Collection | ? | Chicago Tours with Geoffrey Baer (TVDB: 314216)                               |
+[2022-10-23 02:50:34,055] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sacred Wonders (TVDB: 367669)                                                 |
+[2022-10-23 02:50:34,237] [builder.py:1982]           [INFO]     | PBS Collection | ? | When Whales Walked: Journeys in Deep Time (TVDB: 378800)                      |
+[2022-10-23 02:50:34,378] [builder.py:1982]           [INFO]     | PBS Collection | ? | To the Contrary (TVDB: 330675)                                                |
+[2022-10-23 02:50:34,558] [builder.py:1982]           [INFO]     | PBS Collection | ? | America Revealed (TVDB: 256484)                                               |
+[2022-10-23 02:50:34,814] [builder.py:1982]           [INFO]     | PBS Collection | ? | Dragonfly TV (TVDB: 97401)                                                    |
+[2022-10-23 02:50:35,000] [builder.py:1982]           [INFO]     | PBS Collection | ? | Made in Spain (TVDB: 100331)                                                  |
+[2022-10-23 02:50:35,192] [builder.py:1982]           [INFO]     | PBS Collection | ? | Guns, Germs and Steel (TVDB: 81936)                                           |
+[2022-10-23 02:50:35,354] [builder.py:1982]           [INFO]     | PBS Collection | ? | Ramona (TVDB: 77707)                                                          |
+[2022-10-23 02:50:35,554] [builder.py:1982]           [INFO]     | PBS Collection | ? | Outside Beyond the Lens (TVDB: 370922)                                        |
+[2022-10-23 02:50:35,813] [builder.py:1982]           [INFO]     | PBS Collection | ? | AHA! A House for Arts (TVDB: 308065)                                          |
+[2022-10-23 02:50:36,003] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Charlie Horse Music Pizza (TVDB: 77192)                                   |
+[2022-10-23 02:50:36,196] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lucy Worsley's Royal Myths & Secrets (TVDB: 384127)                           |
+[2022-10-23 02:50:36,370] [builder.py:1982]           [INFO]     | PBS Collection | ? | Frontier House (TVDB: 79558)                                                  |
+[2022-10-23 02:50:36,571] [builder.py:1982]           [INFO]     | PBS Collection | ? | Strange Days On Planet Earth (TVDB: 82246)                                    |
+[2022-10-23 02:50:36,784] [builder.py:1982]           [INFO]     | PBS Collection | ? | Space Racers (TVDB: 282447)                                                   |
+[2022-10-23 02:50:36,972] [builder.py:1982]           [INFO]     | PBS Collection | ? | La Frontera with Pati Jinich (TVDB: 410816)                                   |
+[2022-10-23 02:50:37,146] [builder.py:1982]           [INFO]     | PBS Collection | ? | Mysteries of Mental Illness (TVDB: 404535)                                    |
+[2022-10-23 02:50:37,356] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Medici: Godfathers of the Renaissance (TVDB: 92731)                       |
+[2022-10-23 02:50:37,757] [builder.py:1982]           [INFO]     | PBS Collection | ? | America ReFramed (TVDB: 296803)                                               |
+[2022-10-23 02:50:37,943] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Gene: An Intimate History (TVDB: 379797)                                  |
+[2022-10-23 02:50:38,109] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Righteous Apples (TVDB: 71650)                                            |
+[2022-10-23 02:50:38,306] [builder.py:1982]           [INFO]     | PBS Collection | ? | BBQ with Franklin (TVDB: 296598)                                              |
+[2022-10-23 02:50:38,484] [builder.py:1982]           [INFO]     | PBS Collection | ? | Middletown (TVDB: 367348)                                                     |
+[2022-10-23 02:50:38,754] [builder.py:1982]           [INFO]     | PBS Collection | ? | A Chef's Life (TVDB: 271032)                                                  |
+[2022-10-23 02:50:38,975] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sessions at West 54th (TVDB: 77035)                                           |
+[2022-10-23 02:50:39,145] [builder.py:1982]           [INFO]     | PBS Collection | ? | In Their Own Words (2015) (TVDB: 298933)                                      |
+[2022-10-23 02:50:39,320] [builder.py:1982]           [INFO]     | PBS Collection | ? | Native America (TVDB: 349801)                                                 |
+[2022-10-23 02:50:39,497] [builder.py:1982]           [INFO]     | PBS Collection | ? | Justice: What's the Right Thing to Do? (TVDB: 150281)                         |
+[2022-10-23 02:50:39,821] [builder.py:1982]           [INFO]     | PBS Collection | ? | Craft in America (TVDB: 203321)                                               |
+[2022-10-23 02:50:40,001] [builder.py:1982]           [INFO]     | PBS Collection | ? | Downing of a Flag (TVDB: 407724)                                              |
+[2022-10-23 02:50:40,184] [builder.py:1982]           [INFO]     | PBS Collection | ? | Secrets of the Manor House (TVDB: 272257)                                     |
+[2022-10-23 02:50:40,408] [builder.py:1982]           [INFO]     | PBS Collection | ? | Future of Work (TVDB: 409470)                                                 |
+[2022-10-23 02:50:40,597] [builder.py:1982]           [INFO]     | PBS Collection | ? | 3-2-1 Classroom Contact (TVDB: 73585)                                         |
+[2022-10-23 02:50:40,764] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Perilous Fight: America's World War II in Color (TVDB: 277782)            |
+[2022-10-23 02:50:40,936] [builder.py:1982]           [INFO]     | PBS Collection | ? | Julia and Jacques: Cooking at Home (TVDB: 74029)                              |
+[2022-10-23 02:50:41,123] [builder.py:1982]           [INFO]     | PBS Collection | ? | America Outdoors with Baratunde Thurston (TVDB: 421523)                       |
+[2022-10-23 02:50:41,296] [builder.py:1982]           [INFO]     | PBS Collection | ? | Colombia: Wild and Free (TVDB: 420079)                                        |
+[2022-10-23 02:50:41,571] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wide Angle (TVDB: 108031)                                                     |
+[2022-10-23 02:50:41,989] [builder.py:1982]           [INFO]     | PBS Collection | ? | Variety Studio: Actors on Actors (TVDB: 317778)                               |
+[2022-10-23 02:50:42,157] [builder.py:1982]           [INFO]     | PBS Collection | ? | Classic Woodworking (TVDB: 364991)                                            |
+[2022-10-23 02:50:42,560] [builder.py:1982]           [INFO]     | PBS Collection | ? | Changing Seas (TVDB: 365698)                                                  |
+[2022-10-23 02:50:42,719] [builder.py:1982]           [INFO]     | PBS Collection | ? | Tom Jones (2022) (TVDB: 409781)                                               |
+[2022-10-23 02:50:42,876] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Great Muslim American Road Trip (TVDB: 421522)                            |
+[2022-10-23 02:50:43,028] [builder.py:1982]           [INFO]     | PBS Collection | ? | Cooking in Concert (TVDB: 328992)                                             |
+[2022-10-23 02:50:43,197] [builder.py:1982]           [INFO]     | PBS Collection | ? | History With David Rubenstein (TVDB: 420611)                                  |
+[2022-10-23 02:50:43,396] [builder.py:1982]           [INFO]     | PBS Collection | ? | Beyond the Elements (2021) (TVDB: 405893)                                     |
+[2022-10-23 02:50:43,566] [builder.py:1982]           [INFO]     | PBS Collection | ? | NOVA Wonders (TVDB: 346741)                                                   |
+[2022-10-23 02:50:43,752] [builder.py:1982]           [INFO]     | PBS Collection | ? | Antiques Roadshow Recut (2020) (TVDB: 408668)                                 |
+[2022-10-23 02:50:43,933] [builder.py:1982]           [INFO]     | PBS Collection | ? | Chamber Music Society Returns (TVDB: 418877)                                  |
+[2022-10-23 02:50:44,132] [builder.py:1982]           [INFO]     | PBS Collection | ? | Blue Sky Metropolis (TVDB: 367899)                                            |
+[2022-10-23 02:50:44,307] [builder.py:1982]           [INFO]     | PBS Collection | ? | Australia's First 4 Billion Years (TVDB: 269772)                              |
+[2022-10-23 02:50:44,517] [builder.py:1982]           [INFO]     | PBS Collection | ? | Citizen Hearst: An American Experience Special (2021) (TVDB: 410861)          |
+[2022-10-23 02:50:44,685] [builder.py:1982]           [INFO]     | PBS Collection | ? | Stars on Stage from Westport Country Playhouse (2022) (TVDB: 414654)          |
+[2022-10-23 02:50:44,871] [builder.py:1982]           [INFO]     | PBS Collection | ? | Beyond The Canvas (TVDB: 399776)                                              |
+[2022-10-23 02:50:45,087] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Tank: Weapon of the 20th Century (TVDB: 406162)                           |
+[2022-10-23 02:50:45,256] [builder.py:1982]           [INFO]     | PBS Collection | ? | NOVA Universe Revealed (2021) (TVDB: 411966)                                  |
+[2022-10-23 02:50:45,311] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 5382135                             |
+[2022-10-23 02:50:45,489] [builder.py:1982]           [INFO]     | PBS Collection | ? | Africa (TVDB: 178671)                                                         |
+[2022-10-23 02:50:45,718] [builder.py:1982]           [INFO]     | PBS Collection | ? | How She Rolls (TVDB: 403406)                                                  |
+[2022-10-23 02:50:45,911] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Latino Experience (TVDB: 405569)                                          |
+[2022-10-23 02:50:46,100] [builder.py:1982]           [INFO]     | PBS Collection | ? | Life at the Waterhole (TVDB: 402289)                                          |
+[2022-10-23 02:50:46,264] [builder.py:1982]           [INFO]     | PBS Collection | ? | Inside The Met (TVDB: 403302)                                                 |
+[2022-10-23 02:50:46,441] [builder.py:1982]           [INFO]     | PBS Collection | ? | Music at the Museum (2021) (TVDB: 414690)                                     |
+[2022-10-23 02:50:46,620] [builder.py:1982]           [INFO]     | PBS Collection | ? | Europe's New Wild (TVDB: 396266)                                              |
+[2022-10-23 02:50:46,793] [builder.py:1982]           [INFO]     | PBS Collection | ? | Secrets of Royal Travel (TVDB: 391964)                                        |
+[2022-10-23 02:50:46,967] [builder.py:1982]           [INFO]     | PBS Collection | ? | Hacking Your Mind (TVDB: 388641)                                              |
+[2022-10-23 02:50:47,153] [builder.py:1982]           [INFO]     | PBS Collection | ? | Power Trip: The Story of Energy (TVDB: 381292)                                |
+[2022-10-23 02:50:47,209] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 368933                              |
+[2022-10-23 02:50:47,406] [builder.py:1982]           [INFO]     | PBS Collection | ? | Breakthrough: The Ideas That Changed the World (TVDB: 362718)                 |
+[2022-10-23 02:50:47,561] [builder.py:1982]           [INFO]     | PBS Collection | ? | Reconstruction: America After the Civil War (TVDB: 362030)                    |
+[2022-10-23 02:50:47,814] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lidia Celebrates America (TVDB: 289611)                                       |
+[2022-10-23 02:50:47,982] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Roots Music (TVDB: 260815)                                           |
+[2022-10-23 02:50:48,206] [builder.py:1982]           [INFO]     | PBS Collection | ? | Samantha Brown's Places to Love (TVDB: 338855)                                |
+[2022-10-23 02:50:48,391] [builder.py:1982]           [INFO]     | PBS Collection | ? | First Civilizations (TVDB: 346394)                                            |
+[2022-10-23 02:50:48,572] [builder.py:1982]           [INFO]     | PBS Collection | ? | I Remember Harlem (TVDB: 342710)                                              |
+[2022-10-23 02:50:48,742] [builder.py:1982]           [INFO]     | PBS Collection | ? | #MeToo, Now What? (TVDB: 341338)                                              |
+[2022-10-23 02:50:48,946] [builder.py:1982]           [INFO]     | PBS Collection | ? | We'll Meet Again (2018) (TVDB: 341805)                                        |
+[2022-10-23 02:50:49,115] [builder.py:1982]           [INFO]     | PBS Collection | ? | Third Rail with OZY (TVDB: 334823)                                            |
+[2022-10-23 02:50:49,307] [builder.py:1982]           [INFO]     | PBS Collection | ? | School Inc. (TVDB: 333889)                                                    |
+[2022-10-23 02:50:49,471] [builder.py:1982]           [INFO]     | PBS Collection | ? | Big Blue Live (TVDB: 298573)                                                  |
+[2022-10-23 02:50:49,629] [builder.py:1982]           [INFO]     | PBS Collection | ? | Dead Reckoning: War, Crime, and Justice (TVDB: 326201)                        |
+[2022-10-23 02:50:49,839] [builder.py:1982]           [INFO]     | PBS Collection | ? | Travels to the Edge with Art Wolfe (TVDB: 81175)                              |
+[2022-10-23 02:50:50,234] [builder.py:1982]           [INFO]     | PBS Collection | ? | Texas Parks and Wildlife (TVDB: 274872)                                       |
+[2022-10-23 02:50:50,434] [builder.py:1982]           [INFO]     | PBS Collection | ? | Why Poverty? (TVDB: 264443)                                                   |
+[2022-10-23 02:50:50,599] [builder.py:1982]           [INFO]     | PBS Collection | ? | Jacques Pepin: Fast Food My Way (TVDB: 94491)                                 |
+[2022-10-23 02:50:50,791] [builder.py:1982]           [INFO]     | PBS Collection | ? | Food Forward (TVDB: 286360)                                                   |
+[2022-10-23 02:50:51,140] [builder.py:1982]           [INFO]     | PBS Collection | ? | Pati's Mexican Table (TVDB: 270213)                                           |
+[2022-10-23 02:50:51,463] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sara's Weeknight Meals (TVDB: 280263)                                         |
+[2022-10-23 02:50:51,628] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Jacques Cousteau Odyssey (TVDB: 79893)                                    |
+[2022-10-23 02:50:51,824] [builder.py:1982]           [INFO]     | PBS Collection | ? | American Visions (TVDB: 260249)                                               |
+[2022-10-23 02:50:52,137] [builder.py:1982]           [INFO]     | PBS Collection | ? | In Performance at the White House (TVDB: 246511)                              |
+[2022-10-23 02:50:52,330] [builder.py:1982]           [INFO]     | PBS Collection | ? | Landscapes Through Time with David Dunlop (TVDB: 110061)                      |
+[2022-10-23 02:50:52,498] [builder.py:1982]           [INFO]     | PBS Collection | ? | A Science Odyssey (TVDB: 84757)                                               |
+[2022-10-23 02:50:52,671] [builder.py:1982]           [INFO]     | PBS Collection | ? | Caprial and John's Kitchen (TVDB: 74294)                                      |
+[2022-10-23 02:50:52,851] [builder.py:1982]           [INFO]     | PBS Collection | ? | Broadway: The American Musical (TVDB: 119351)                                 |
+[2022-10-23 02:50:53,059] [builder.py:1982]           [INFO]     | PBS Collection | ? | Adventures With Purpose (TVDB: 248787)                                        |
+[2022-10-23 02:50:53,229] [builder.py:1982]           [INFO]     | PBS Collection | ? | America in Primetime (TVDB: 253250)                                           |
+[2022-10-23 02:50:53,444] [builder.py:1982]           [INFO]     | PBS Collection | ? | Kimchi Chronicles (TVDB: 249934)                                              |
+[2022-10-23 02:50:53,729] [builder.py:1982]           [INFO]     | PBS Collection | ? | Garden Smart (TVDB: 260810)                                                   |
+[2022-10-23 02:50:53,897] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wild Animal Baby Explorers (TVDB: 256532)                                     |
+[2022-10-23 02:50:54,078] [builder.py:1982]           [INFO]     | PBS Collection | ? | The American Frontier (TVDB: 73840)                                           |
+[2022-10-23 02:50:54,260] [builder.py:1982]           [INFO]     | PBS Collection | ? | Lost Treasures Of The Ancient World (TVDB: 109501)                            |
+[2022-10-23 02:50:54,430] [builder.py:1982]           [INFO]     | PBS Collection | ? | Race: The Power of An Illusion (TVDB: 108041)                                 |
+[2022-10-23 02:50:54,622] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Greeks (TVDB: 313523)                                                     |
+[2022-10-23 02:50:54,803] [builder.py:1982]           [INFO]     | PBS Collection | ? | Faces of America (TVDB: 141941)                                               |
+[2022-10-23 02:50:54,965] [builder.py:1982]           [INFO]     | PBS Collection | ? | Gourmet's Adventures With Ruth (TVDB: 248231)                                 |
+[2022-10-23 02:50:55,158] [builder.py:1982]           [INFO]     | PBS Collection | ? | The American President (TVDB: 209391)                                         |
+[2022-10-23 02:50:55,306] [builder.py:1982]           [INFO]     | PBS Collection | ? | The West of the Imagination (TVDB: 254626)                                    |
+[2022-10-23 02:50:55,452] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Art Maker (TVDB: 74016)                                                   |
+[2022-10-23 02:50:55,618] [builder.py:1982]           [INFO]     | PBS Collection | ? | Manor House (TVDB: 72507)                                                     |
+[2022-10-23 02:50:55,794] [builder.py:1982]           [INFO]     | PBS Collection | ? | In Search of Ancient Ireland (TVDB: 71104)                                    |
+[2022-10-23 02:50:55,949] [builder.py:1982]           [INFO]     | PBS Collection | ? | Science Investigators (TVDB: 279129)                                          |
+[2022-10-23 02:50:56,136] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wish*a*roo Park (TVDB: 75022)                                                 |
+[2022-10-23 02:50:56,333] [builder.py:1982]           [INFO]     | PBS Collection | ? | Make 'Em Laugh: The Funny Business of America (TVDB: 85681)                   |
+[2022-10-23 02:50:56,471] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Kinetic Karnival of Jearl Walker (TVDB: 73851)                            |
+[2022-10-23 02:50:56,639] [builder.py:1982]           [INFO]     | PBS Collection | ? | On Common Ground (TVDB: 70637)                                                |
+[2022-10-23 02:50:56,857] [builder.py:1982]           [INFO]     | PBS Collection | ? | Travels in Europe with Rick Steves (TVDB: 74690)                              |
+[2022-10-23 02:50:57,019] [builder.py:1982]           [INFO]     | PBS Collection | ? | Walking the Bible (TVDB: 81171)                                               |
+[2022-10-23 02:50:57,178] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Story of English (TVDB: 152071)                                           |
+[2022-10-23 02:50:57,354] [builder.py:1982]           [INFO]     | PBS Collection | ? | Vietnam: A Television History (TVDB: 79301)                                   |
+[2022-10-23 02:50:57,628] [builder.py:1982]           [INFO]     | PBS Collection | ? | The Living Edens (TVDB: 82356)                                                |
+[2022-10-23 02:50:57,816] [builder.py:1982]           [INFO]     | PBS Collection | ? | America at a Crossroads (TVDB: 84877)                                         |
+[2022-10-23 02:50:57,981] [builder.py:1982]           [INFO]     | PBS Collection | ? | Building Big (TVDB: 97341)                                                    |
+[2022-10-23 02:50:58,135] [builder.py:1982]           [INFO]     | PBS Collection | ? | I'll Make Me a World (TVDB: 255538)                                           |
+[2022-10-23 02:50:58,324] [builder.py:1982]           [INFO]     | PBS Collection | ? | Time Team America (TVDB: 104691)                                              |
+[2022-10-23 02:50:58,531] [builder.py:1982]           [INFO]     | PBS Collection | ? | America's Ballroom Challenge (TVDB: 80866)                                    |
+[2022-10-23 02:50:58,707] [builder.py:1982]           [INFO]     | PBS Collection | ? | In the Life (TVDB: 122501)                                                    |
+[2022-10-23 02:50:58,881] [builder.py:1982]           [INFO]     | PBS Collection | ? | In Julia's Kitchen with Master Chefs (TVDB: 301289)                           |
+[2022-10-23 02:50:59,027] [builder.py:1982]           [INFO]     | PBS Collection | ? | Storylords (TVDB: 110051)                                                     |
+[2022-10-23 02:50:59,210] [builder.py:1982]           [INFO]     | PBS Collection | ? | Betsy's Kindergarten Adventures (TVDB: 260311)                                |
+[2022-10-23 02:50:59,350] [builder.py:1982]           [INFO]     | PBS Collection | ? | Gather 'Round (TVDB: 73942)                                                   |
+[2022-10-23 02:50:59,574] [builder.py:1982]           [INFO]     | PBS Collection | ? | Wired Science (TVDB: 80708)                                                   |
+[2022-10-23 02:50:59,732] [builder.py:1982]           [INFO]     | PBS Collection | ? | Learn to Read (TVDB: 74020)                                                   |
+[2022-10-23 02:50:59,903] [builder.py:1982]           [INFO]     | PBS Collection | ? | NerdTV (TVDB: 79012)                                                          |
+[2022-10-23 02:51:00,087] [builder.py:1982]           [INFO]     | PBS Collection | ? | Tomes & Talismans (TVDB: 257737)                                              |
+[2022-10-23 02:51:00,247] [builder.py:1982]           [INFO]     | PBS Collection | ? | High Feather (TVDB: 75988)                                                    |
+[2022-10-23 02:51:00,429] [builder.py:1982]           [INFO]     | PBS Collection | ? | An American Family (TVDB: 245121)                                             |
+[2022-10-23 02:51:00,597] [builder.py:1982]           [INFO]     | PBS Collection | ? | The World of Chemistry (TVDB: 75704)                                          |
+[2022-10-23 02:51:00,752] [builder.py:1982]           [INFO]     | PBS Collection | ? | War and Peace in the Nuclear Age (TVDB: 254694)                               |
+[2022-10-23 02:51:00,963] [builder.py:1982]           [INFO]     | PBS Collection | ? | Bill Moyers Journal (TVDB: 80942)                                             |
+[2022-10-23 02:51:01,012] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 260594                              |
+[2022-10-23 02:51:01,085] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 265643                              |
+[2022-10-23 02:51:01,292] [builder.py:1982]           [INFO]     | PBS Collection | ? | The War That Made America (TVDB: 121021)                                      |
+[2022-10-23 02:51:01,482] [builder.py:1982]           [INFO]     | PBS Collection | ? | Earth Revealed (TVDB: 74662)                                                  |
+[2022-10-23 02:51:01,629] [builder.py:1982]           [INFO]     | PBS Collection | ? | Deep jungle (TVDB: 119541)                                                    |
+[2022-10-23 02:51:01,831] [builder.py:1982]           [INFO]     | PBS Collection | ? | Inside/Out (TVDB: 77005)                                                      |
+[2022-10-23 02:51:02,104] [builder.py:1982]           [INFO]     | PBS Collection | ? | Sneak Previews (TVDB: 311447)                                                 |
+[2022-10-23 02:51:02,105] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-10-23 02:51:02,105] [builder.py:1987]           [INFO]     | 410 Shows Missing                                                                                  |
+[2022-10-23 02:51:02,993] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-10-23 02:51:02,994] [util.py:216]               [INFO]     |================================ Updating Details of PBS Collection ================================|
+[2022-10-23 02:51:02,994] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-10-23 02:51:02,995] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-10-23 02:51:02,995] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/204458                               |
+[2022-10-23 02:51:02,995] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-10-23 02:51:02,996] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-10-23 02:51:03,060] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-23 02:51:03,061] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-23 02:51:03,061] [util.py:216]               [INFO]     |                                      Finished PBS Collection                                       |
+[2022-10-23 02:51:03,062] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:02:18                                    |
+[2022-10-23 02:51:03,062] [util.py:220]               [INFO]     |====================================================================================================|

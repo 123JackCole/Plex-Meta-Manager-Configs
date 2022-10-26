@@ -1,0 +1,336 @@
+[2022-06-02 14:54:20,689] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-06-02 14:54:20,689] [util.py:216]               [INFO]     |                                  Harem Anime Collection in Anime                                   |
+[2022-06-02 14:54:20,690] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-06-02 14:54:20,690] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-06-02 14:54:20,690] [util.py:216]               [INFO]     |================================ Validating Harem Anime Attributes =================================|
+[2022-06-02 14:54:20,691] [builder.py:255]            [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,691] [builder.py:256]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-06-02 14:54:20,691] [builder.py:259]            [DEBUG]    | Value: Harem                                                                                       |
+[2022-06-02 14:54:20,691] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,692] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-06-02 14:54:20,692] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-06-02 14:54:20,692] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,692] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-06-02 14:54:20,692] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-06-02 14:54:20,693] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,693] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-06-02 14:54:20,693] [builder.py:474]            [DEBUG]    | Value: ordereddict([('genre_id', 35)])                                                             |
+[2022-06-02 14:54:20,693] [builder.py:689]            [WARNING]  | Collection Warning: mal_genre limit attribute not found using 0 as default                         |
+[2022-06-02 14:54:20,693] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,694] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-06-02 14:54:20,694] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/SO5UxO2.png                                                             |
+[2022-06-02 14:54:20,697] [plex.py:685]               [DEBUG]    | Looking for: Harem                                                                                 |
+[2022-06-02 14:54:20,698] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-06-02 14:54:20,698] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-06-02 14:54:20,698] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-06-02 14:54:20,699] [util.py:216]               [INFO]     |================================== Running Harem Anime Collection ==================================|
+[2022-06-02 14:54:20,699] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-06-02 14:54:20,699] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-06-02 14:54:20,700] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:20,700] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 35, 'limit': 0}                                                   |
+[2022-06-02 14:54:20,700] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:20,700] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 35                                                                |
+[2022-06-02 14:54:32,709] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:32,710] [mal.py:240]                [DEBUG]    | 374 MyAnimeList IDs Found: [11617, 18897, 15583, 15451, 38101, 25157, 1195, 33487, 24703, 28677, 30307, 2993, 27787, 37210, 2476, 23233, 30544, 18277, 9041, 8841, 23277, 3455, 8525, 19163, 39783, 36882, 17729, 7593, 25397, 14749, 14967, 7088, 40750, 1840, 35203, 10110, 8861, 5958, 34281, 34497, 15225, 3712, 31737, 38483, 4214, 25159, 19221, 38186, 4063, 29095, 10080, 18247, 10790, 12293, 30363, 30749, 8676, 13663, 22877, 31338, 36633, 32262, 19369, 41623, 30727, 24455, 16706, 9181, 9367, 5042, 41899, 41710, 24133, 22663, 14199, 43969, 10213, 4975, 8407, 39326, 40507, 79, 9936, 36726, 31845, 44203, 21863, 40004, 25099, 189, 6512, 35712, 28979, 3503, 6324, 8424, 5277, 43007, 2026, 33836, 6201, 7148, 13367, 23309, 4999, 13357, 41946, 6166, 5909, 5781, 17641, 24655, 19685, 33286, 8277, 22865, 41461, 37446, 10079, 5667, 49930, 40436, 33581, 11235, 18001, 24227, 36885, 10397, 24873, 4744, 41812, 48675, 63, 15565, 241, 157, 7590, 15117, 28285, 19151, 10209, 17827, 9790, 50461, 13851, 32215, 29317, 10794, 29027, 4720, 48548, 3229, 35338, 4192, 248, 37823, 37449, 53, 7858, 15437, 32698, 37377, 1722, 37986, 2494, 193, 15377, 3299, 32553, 12783, 5764, 31711, 1546, 10611, 487, 9587, 196, 39799, 9922, 36688, 37719, 31380, 21653, 32323, 30365, 38814, 62, 696, 40485, 591, 20939, 10464, 5734, 850, 39819, 40083, 394, 20045, 11209, 9117, 1836, 36950, 14653, 50306, 24475, 9355, 886, 7411, 6165, 6489, 9618, 15609, 16982, 35000, 24695, 5772, 5521, 1555, 9958, 42519, 1067, 1570, 538, 576, 51498, 34447, 291, 3247, 1581, 44524, 33242, 6979, 40239, 403, 4188, 573, 36848, 18039, 1133, 3627, 788, 10196, 318, 204, 9347, 540, 13221, 260, 981, 1817, 472, 40486, 31797, 50916, 5762, 24451, 836, 36720, 649, 49316, 15963, 15537, 275, 25689, 14991, 2155, 471, 41915, 25667, 541, 1619, 624, 10933, 41848, 7396, 992, 28961, 16656, 668, 5216, 39480, 346, 1146, 682, 261, 50348, 50392, 1231, 7468, 39397, 10106, 10547, 48755, 23153, 39800, 35512, 19631, 3948, 259, 1191, 1147, 14049, 6709, 10590, 4399, 36121, 1097, 10488, 1692, 13757, 797, 2730, 262, 685, 6690, 35029, 40658, 38037, 2217, 6041, 1232, 31118, 648, 51632, 14379, 2784, 31861, 10792, 1720, 4508, 808, 9353, 4342, 50220, 510, 31518, 24851, 1821, 2609, 3642, 1874, 993, 51473, 7179, 24745, 14661, 2441, 30770, 9005, 2308, 40097, 40835, 1964, 3157, 4011, 7579, 661, 4827, 3977, 2442, 2139, 3558, 51212, 2610, 692, 7691, 6227, 4340, 9967, 5647, 12881, 17823, 51224, 51193] |
+[2022-06-02 14:54:32,719] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13357                                        |
+[2022-06-02 14:54:32,721] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10209                                        |
+[2022-06-02 14:54:32,722] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13851                                        |
+[2022-06-02 14:54:32,722] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29317                                        |
+[2022-06-02 14:54:32,722] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16165                                     |
+[2022-06-02 14:54:32,723] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35338                                        |
+[2022-06-02 14:54:32,724] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5764                                         |
+[2022-06-02 14:54:32,725] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31711                                        |
+[2022-06-02 14:54:32,726] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37719                                        |
+[2022-06-02 14:54:32,726] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31380                                        |
+[2022-06-02 14:54:33,116] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15126                                     |
+[2022-06-02 14:54:33,117] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40083                                        |
+[2022-06-02 14:54:33,117] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 20045                                        |
+[2022-06-02 14:54:33,118] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 11209                                        |
+[2022-06-02 14:54:33,118] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9117                                         |
+[2022-06-02 14:54:33,118] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16962                                     |
+[2022-06-02 14:54:33,118] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24475                                        |
+[2022-06-02 14:54:33,119] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9355                                         |
+[2022-06-02 14:54:33,119] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7411                                         |
+[2022-06-02 14:54:33,119] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6489                                         |
+[2022-06-02 14:54:33,119] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 15609                                        |
+[2022-06-02 14:54:33,120] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24695                                        |
+[2022-06-02 14:54:33,120] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5772                                         |
+[2022-06-02 14:54:33,120] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16111                                     |
+[2022-06-02 14:54:33,121] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17294                                     |
+[2022-06-02 14:54:33,121] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34447                                        |
+[2022-06-02 14:54:33,121] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3247                                         |
+[2022-06-02 14:54:33,121] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15918                                     |
+[2022-06-02 14:54:33,122] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33242                                        |
+[2022-06-02 14:54:33,122] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40239                                        |
+[2022-06-02 14:54:33,122] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9353                                      |
+[2022-06-02 14:54:33,122] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8171                                      |
+[2022-06-02 14:54:33,123] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13221                                        |
+[2022-06-02 14:54:33,123] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1817                                         |
+[2022-06-02 14:54:33,123] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15130                                     |
+[2022-06-02 14:54:33,123] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31797                                        |
+[2022-06-02 14:54:33,123] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50916                                        |
+[2022-06-02 14:54:33,124] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5762                                         |
+[2022-06-02 14:54:33,124] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36720                                        |
+[2022-06-02 14:54:33,124] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16412                                     |
+[2022-06-02 14:54:33,125] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 15537                                        |
+[2022-06-02 14:54:33,125] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14991                                        |
+[2022-06-02 14:54:33,125] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15453                                     |
+[2022-06-02 14:54:33,126] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 25667                                        |
+[2022-06-02 14:54:33,126] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41848                                        |
+[2022-06-02 14:54:33,126] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7396                                         |
+[2022-06-02 14:54:33,126] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28961                                        |
+[2022-06-02 14:54:33,127] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9346                                      |
+[2022-06-02 14:54:33,127] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39480                                        |
+[2022-06-02 14:54:33,127] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16973                                     |
+[2022-06-02 14:54:33,127] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16982                                     |
+[2022-06-02 14:54:33,128] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7468                                         |
+[2022-06-02 14:54:33,130] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39397                                        |
+[2022-06-02 14:54:33,130] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10106                                        |
+[2022-06-02 14:54:33,130] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48755                                        |
+[2022-06-02 14:54:33,130] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39800                                        |
+[2022-06-02 14:54:33,131] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35512                                        |
+[2022-06-02 14:54:33,131] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 19631                                        |
+[2022-06-02 14:54:33,131] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3948                                         |
+[2022-06-02 14:54:33,131] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1147                                         |
+[2022-06-02 14:54:33,132] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14049                                        |
+[2022-06-02 14:54:33,132] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6709                                         |
+[2022-06-02 14:54:33,132] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10590                                        |
+[2022-06-02 14:54:33,132] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4399                                         |
+[2022-06-02 14:54:33,132] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36121                                        |
+[2022-06-02 14:54:33,133] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10488                                        |
+[2022-06-02 14:54:33,133] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13757                                        |
+[2022-06-02 14:54:33,134] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6690                                         |
+[2022-06-02 14:54:33,135] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35029                                        |
+[2022-06-02 14:54:33,135] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40658                                        |
+[2022-06-02 14:54:33,135] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38037                                        |
+[2022-06-02 14:54:33,135] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2217                                         |
+[2022-06-02 14:54:33,136] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6041                                         |
+[2022-06-02 14:54:33,136] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31118                                        |
+[2022-06-02 14:54:33,136] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17317                                     |
+[2022-06-02 14:54:33,136] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14379                                        |
+[2022-06-02 14:54:33,137] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2784                                         |
+[2022-06-02 14:54:33,137] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10792                                        |
+[2022-06-02 14:54:33,137] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4508                                         |
+[2022-06-02 14:54:33,137] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4342                                         |
+[2022-06-02 14:54:33,138] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16936                                     |
+[2022-06-02 14:54:33,138] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31518                                        |
+[2022-06-02 14:54:33,138] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24851                                        |
+[2022-06-02 14:54:33,138] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1821                                         |
+[2022-06-02 14:54:33,139] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5579                                      |
+[2022-06-02 14:54:33,139] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1874                                         |
+[2022-06-02 14:54:33,139] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 993                                          |
+[2022-06-02 14:54:33,139] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51473                                        |
+[2022-06-02 14:54:33,140] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7179                                         |
+[2022-06-02 14:54:33,140] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24745                                        |
+[2022-06-02 14:54:33,140] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14661                                        |
+[2022-06-02 14:54:33,140] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2441                                         |
+[2022-06-02 14:54:33,141] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30770                                        |
+[2022-06-02 14:54:33,141] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15007                                     |
+[2022-06-02 14:54:33,141] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40835                                        |
+[2022-06-02 14:54:33,141] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4011                                         |
+[2022-06-02 14:54:33,142] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7579                                         |
+[2022-06-02 14:54:33,142] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4827                                         |
+[2022-06-02 14:54:33,142] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3977                                         |
+[2022-06-02 14:54:33,142] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2442                                         |
+[2022-06-02 14:54:33,143] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2139                                         |
+[2022-06-02 14:54:33,143] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3558                                         |
+[2022-06-02 14:54:33,143] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17244                                     |
+[2022-06-02 14:54:33,146] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2610                                         |
+[2022-06-02 14:54:33,146] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 692                                          |
+[2022-06-02 14:54:33,146] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6227                                         |
+[2022-06-02 14:54:33,147] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4340                                         |
+[2022-06-02 14:54:33,147] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9967                                         |
+[2022-06-02 14:54:33,147] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1969                                      |
+[2022-06-02 14:54:33,147] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12881                                        |
+[2022-06-02 14:54:33,148] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 17823                                        |
+[2022-06-02 14:54:33,149] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51224                                        |
+[2022-06-02 14:54:33,149] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51193                                        |
+[2022-06-02 14:54:33,149] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:33,149] [builder.py:1283]           [DEBUG]    | 261 IDs Found: [(254653, 'tvdb'), (275670, 'tvdb'), (264663, 'tvdb'), (254653, 'tvdb'), (355966, 'tvdb'), (283935, 'tvdb'), (79719, 'tvdb'), (318860, 'tvdb'), (254653, 'tvdb'), (289744, 'tvdb'), (293119, 'tvdb'), (81184, 'tvdb'), (275670, 'tvdb'), (347425, 'tvdb'), (80478, 'tvdb'), (284719, 'tvdb'), (293996, 'tvdb'), (272129, 'tvdb'), (219131, 'tvdb'), (220571, 'tvdb'), (281275, 'tvdb'), (81831, 'tvdb'), (195711, 'tvdb'), (264663, 'tvdb'), (355966, 'tvdb'), (357019, 'tvdb'), (281949, 'tvdb'), (84768, 'tvdb'), (283963, 'tvdb'), (264052, 'tvdb'), (251908, 'tvdb'), (140071, 'tvdb'), (388575, 'tvdb'), (79719, 'tvdb'), (329992, 'tvdb'), (249866, 'tvdb'), (195231, 'tvdb'), (118101, 'tvdb'), (254653, 'tvdb'), (336404, 'tvdb'), (264047, 'tvdb'), (79719, 'tvdb'), (293996, 'tvdb'), (368862, 'tvdb'), (81184, 'tvdb'), (283937, 'tvdb'), (272314, 'tvdb'), (359095, 'tvdb'), (82807, 'tvdb'), (281949, 'tvdb'), (195711, 'tvdb'), (219131, 'tvdb'), (220571, 'tvdb'), (259646, 'tvdb'), (284719, 'tvdb'), (299502, 'tvdb'), (172921, 'tvdb'), (81831, 'tvdb'), (279984, 'tvdb'), (299501, 'tvdb'), (264663, 'tvdb'), (321697, 'tvdb'), (273008, 'tvdb'), (347425, 'tvdb'), (281275, 'tvdb'), (284132, 'tvdb'), (195711, 'tvdb'), (81831, 'tvdb'), (219701, 'tvdb'), (84768, 'tvdb'), (388006, 'tvdb'), (389422, 'tvdb'), (299511, 'tvdb'), (286855, 'tvdb'), (262092, 'tvdb'), (395486, 'tvdb'), (252343, 'tvdb'), (83358, 'tvdb'), (118101, 'tvdb'), (361749, 'tvdb'), (357019, 'tvdb'), (82213, 'tvdb'), (252474, 'tvdb'), (344980, 'tvdb'), (307112, 'tvdb'), (398544, 'tvdb'), (278976, 'tvdb'), (359095, 'tvdb'), (284073, 'tvdb'), (70861, 'tvdb'), (115971, 'tvdb'), (334706, 'tvdb'), (81831, 'tvdb'), (81830, 'tvdb'), (133821, 'tvdb'), (194541, 'tvdb'), (82807, 'tvdb'), (396052, 'tvdb'), (80554, 'tvdb'), (319454, 'tvdb'), (105131, 'tvdb'), (131471, 'tvdb'), (259645, 'tvdb'), (279985, 'tvdb'), (84573, 'tvdb'), (388644, 'tvdb'), (173301, 'tvdb'), (116001, 'tvdb'), (104741, 'tvdb'), (264663, 'tvdb'), (331061, 'tmdb'), (278330, 'tvdb'), (272129, 'tvdb'), (186911, 'tvdb'), (279528, 'tvdb'), (264663, 'tvdb'), (347294, 'tvdb'), (248012, 'tvdb'), (81831, 'tvdb'), (389422, 'tvdb'), (379923, 'tvdb'), (428292, 'tmdb'), (172921, 'tvdb'), (219701, 'tvdb'), (275670, 'tvdb'), (281275, 'tvdb'), (252477, 'tvdb'), (288103, 'tvdb'), (83315, 'tvdb'), (400642, 'tvdb'), (400585, 'tvdb'), (79236, 'tvdb'), (252474, 'tvdb'), (78856, 'tvdb'), (75869, 'tvdb'), (145231, 'tvdb'), (195711, 'tvdb'), (283935, 'tvdb'), (272045, 'tvdb'), (283931, 'tvdb'), (95170, 'tmdb'), (412826, 'tvdb'), (254653, 'tvdb'), (219131, 'tvdb'), (284719, 'tvdb'), (84553, 'tvdb'), (81479, 'tvdb'), (80554, 'tvdb'), (80759, 'tvdb'), (352683, 'tvdb'), (272129, 'tvdb'), (79267, 'tvdb'), (118101, 'tvdb'), (220571, 'tvdb'), (293119, 'tvdb'), (318860, 'tvdb'), (82076, 'tvdb'), (570269, 'tmdb'), (82167, 'tvdb'), (75003, 'tvdb'), (186911, 'tvdb'), (81732, 'tvdb'), (275670, 'tvdb'), (246464, 'tmdb'), (305488, 'tvdb'), (249867, 'tvdb'), (78856, 'tvdb'), (216611, 'tvdb'), (72977, 'tvdb'), (366706, 'tvdb'), (247968, 'tvdb'), (284719, 'tvdb'), (219131, 'tvdb'), (307812, 'tvdb'), (284719, 'tvdb'), (359836, 'tvdb'), (84187, 'tvdb'), (79620, 'tvdb'), (80075, 'tvdb'), (272314, 'tvdb'), (116001, 'tvdb'), (88891, 'tvdb'), (85458, 'tvdb'), (359095, 'tvdb'), (79267, 'tvdb'), (83880, 'tvdb'), (344980, 'tvdb'), (80554, 'tvdb'), (80075, 'tvdb'), (84553, 'tvdb'), (173301, 'tvdb'), (80554, 'tvdb'), (81831, 'tvdb'), (80554, 'tvdb'), (81367, 'tvdb'), (80554, 'tvdb'), (81105, 'tvdb'), (130391, 'tvdb'), (80583, 'tvdb'), (82313, 'tvdb'), (84187, 'tvdb'), (82720, 'tvdb'), (173261, 'tvdb'), (80654, 'tvdb'), (305488, 'tvdb'), (81694, 'tvdb'), (307812, 'tvdb'), (79064, 'tvdb'), (84371, 'tvdb'), (79711, 'tvdb'), (72470, 'tvdb'), (82829, 'tvdb'), (196231, 'tvdb'), (80009, 'tvdb'), (74544, 'tvdb'), (80759, 'tvdb'), (81766, 'tvdb'), (278330, 'tvdb'), (117871, 'tvdb'), (75873, 'tvdb'), (116001, 'tvdb'), (85065, 'tvdb'), (186911, 'tvdb'), (84464, 'tvdb'), (81768, 'tvdb'), (80009, 'tvdb'), (305488, 'tvdb'), (83635, 'tvdb'), (249867, 'tvdb'), (79996, 'tvdb'), (97091, 'tvdb'), (84187, 'tvdb'), (134461, 'tvdb'), (80009, 'tvdb'), (180111, 'tvdb'), (74544, 'tvdb'), (81694, 'tvdb'), (247968, 'tvdb'), (80554, 'tvdb'), (74544, 'tvdb'), (81694, 'tvdb'), (80056, 'tvdb'), (189741, 'tvdb'), (80654, 'tvdb'), (162041, 'tvdb'), (74544, 'tvdb'), (81766, 'tvdb'), (82586, 'tvdb'), (107521, 'tvdb'), (80009, 'tvdb'), (81768, 'tvdb'), (72445, 'tvdb'), (84371, 'tvdb'), (199581, 'tvdb'), (199571, 'tvdb'), (81768, 'tvdb'), (80056, 'tvdb'), (84527, 'tvdb'), (112651, 'tvdb'), (80049, 'tvdb'), (81367, 'tvdb')] |
+[2022-06-02 14:54:33,150] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-06-02 14:54:33,154] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-06-02 14:54:33,154] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Harem Anime Collection                                           |
+[2022-06-02 14:54:33,154] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:33,155] [util.py:216]               [INFO]     |================================ Missing Movies from Library: Harem ================================|
+[2022-06-02 14:54:33,155] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:34,327] [builder.py:1943]           [INFO]     | Harem Collection | ? | Date A Live: Mayuri Judgment (2015) (TMDb: 331061)                          |
+[2022-06-02 14:54:34,328] [builder.py:1943]           [INFO]     | Harem Collection | ? | Trinity Seven: Eternity Library & Alchemic Girl (2017) (TMDb: 428292)       |
+[2022-06-02 14:54:34,329] [builder.py:1943]           [INFO]     | Harem Collection | ? | Heaven's Lost Property the Movie: The Angeloid of Clockwork (2011) (TMDb: 95170) |
+[2022-06-02 14:54:34,330] [builder.py:1943]           [INFO]     | Harem Collection | ? | Trinity Seven 2: Heaven's Library & Crimson Lord (2019) (TMDb: 570269)      |
+[2022-06-02 14:54:34,330] [builder.py:1943]           [INFO]     | Harem Collection | ? | Heaven's Lost Property Final – The Movie: Eternally My Master (2014) (TMDb: 246464) |
+[2022-06-02 14:54:34,331] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:34,331] [builder.py:1948]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-06-02 14:54:34,371] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:34,371] [util.py:216]               [INFO]     |================================ Missing Shows from Library: Harem =================================|
+[2022-06-02 14:54:34,371] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-06-02 14:54:35,271] [builder.py:1982]           [INFO]     | Harem Collection | ? | High School D×D (TVDB: 254653)                                              |
+[2022-06-02 14:54:35,644] [builder.py:1982]           [INFO]     | Harem Collection | ? | Nisekoi (TVDB: 275670)                                                      |
+[2022-06-02 14:54:36,124] [builder.py:1982]           [INFO]     | Harem Collection | ? | Date A Live (TVDB: 264663)                                                  |
+[2022-06-02 14:54:36,587] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Quintessential Quintuplets (TVDB: 355966)                               |
+[2022-06-02 14:54:36,951] [builder.py:1982]           [INFO]     | Harem Collection | ? | Trinity Seven (TVDB: 283935)                                                |
+[2022-06-02 14:54:37,362] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Familiar of Zero (TVDB: 79719)                                          |
+[2022-06-02 14:54:37,695] [builder.py:1982]           [INFO]     | Harem Collection | ? | Masamune-kun's Revenge (TVDB: 318860)                                       |
+[2022-06-02 14:54:38,330] [builder.py:1982]           [INFO]     | Harem Collection | ? | Yamada-kun and the Seven Witches (2015) (TVDB: 289744)                      |
+[2022-06-02 14:54:39,013] [builder.py:1982]           [INFO]     | Harem Collection | ? | Monster Musume: Everyday Life with Monster Girls (TVDB: 293119)             |
+[2022-06-02 14:54:39,422] [builder.py:1982]           [INFO]     | Harem Collection | ? | Rosario + Vampire (TVDB: 81184)                                             |
+[2022-06-02 14:54:39,863] [builder.py:1982]           [INFO]     | Harem Collection | ? | How Not to Summon a Demon Lord (TVDB: 347425)                               |
+[2022-06-02 14:54:40,178] [builder.py:1982]           [INFO]     | Harem Collection | ? | School Days (TVDB: 80478)                                                   |
+[2022-06-02 14:54:40,603] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Testament of Sister New Devil (TVDB: 284719)                            |
+[2022-06-02 14:54:40,973] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Asterisk War: The Academy City on the Water (TVDB: 293996)              |
+[2022-06-02 14:54:41,424] [builder.py:1982]           [INFO]     | Harem Collection | ? | Strike the Blood (TVDB: 272129)                                             |
+[2022-06-02 14:54:41,781] [builder.py:1982]           [INFO]     | Harem Collection | ? | IS: Infinite Stratos (TVDB: 219131)                                         |
+[2022-06-02 14:54:42,107] [builder.py:1982]           [INFO]     | Harem Collection | ? | Is This A Zombie? (TVDB: 220571)                                            |
+[2022-06-02 14:54:42,730] [builder.py:1982]           [INFO]     | Harem Collection | ? | Saekano: How to Raise a Boring Girlfriend (TVDB: 281275)                    |
+[2022-06-02 14:54:43,451] [builder.py:1982]           [INFO]     | Harem Collection | ? | To LOVE-Ru (TVDB: 81831)                                                    |
+[2022-06-02 14:54:43,747] [builder.py:1982]           [INFO]     | Harem Collection | ? | The World God Only Knows (TVDB: 195711)                                     |
+[2022-06-02 14:54:44,295] [builder.py:1982]           [INFO]     | Harem Collection | ? | Arifureta: From Commonplace to World's Strongest (TVDB: 357019)             |
+[2022-06-02 14:54:44,935] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Fruit of Grisaia (TVDB: 281949)                                         |
+[2022-06-02 14:54:45,273] [builder.py:1982]           [INFO]     | Harem Collection | ? | KissXsis (TVDB: 84768)                                                      |
+[2022-06-02 14:54:45,917] [builder.py:1982]           [INFO]     | Harem Collection | ? | Absolute Duo (TVDB: 283963)                                                 |
+[2022-06-02 14:54:47,386] [builder.py:1982]           [INFO]     | Harem Collection | ? | OreShura (TVDB: 264052)                                                     |
+[2022-06-02 14:54:47,751] [builder.py:1982]           [INFO]     | Harem Collection | ? | Haganai: I Don't Have Many Friends (TVDB: 251908)                           |
+[2022-06-02 14:54:48,140] [builder.py:1982]           [INFO]     | Harem Collection | ? | Demon King Daimao (TVDB: 140071)                                            |
+[2022-06-02 14:54:48,513] [builder.py:1982]           [INFO]     | Harem Collection | ? | Redo of Healer (TVDB: 388575)                                               |
+[2022-06-02 14:54:48,825] [builder.py:1982]           [INFO]     | Harem Collection | ? | In Another World with My Smartphone (TVDB: 329992)                          |
+[2022-06-02 14:54:49,105] [builder.py:1982]           [INFO]     | Harem Collection | ? | Mayo Chiki! (TVDB: 249866)                                                  |
+[2022-06-02 14:54:49,812] [builder.py:1982]           [INFO]     | Harem Collection | ? | Yosuga no Sora (TVDB: 195231)                                               |
+[2022-06-02 14:54:50,193] [builder.py:1982]           [INFO]     | Harem Collection | ? | Heaven's Lost Property (TVDB: 118101)                                       |
+[2022-06-02 14:54:50,499] [builder.py:1982]           [INFO]     | Harem Collection | ? | Death March to the Parallel World Rhapsody (TVDB: 336404)                   |
+[2022-06-02 14:54:51,181] [builder.py:1982]           [INFO]     | Harem Collection | ? | The "Hentai" Prince and the Stony Cat. (TVDB: 264047)                       |
+[2022-06-02 14:54:51,552] [builder.py:1982]           [INFO]     | Harem Collection | ? | ORESUKI: Are you the only one who loves me? (TVDB: 368862)                  |
+[2022-06-02 14:54:52,570] [builder.py:1982]           [INFO]     | Harem Collection | ? | When Supernatural Battles Became Commonplace (TVDB: 283937)                 |
+[2022-06-02 14:54:52,874] [builder.py:1982]           [INFO]     | Harem Collection | ? | My Mental Choices Are Completely Interfering With My School Romantic Comedy (TVDB: 272314) |
+[2022-06-02 14:54:53,326] [builder.py:1982]           [INFO]     | Harem Collection | ? | We Never Learn: BOKUBEN (TVDB: 359095)                                      |
+[2022-06-02 14:54:54,028] [builder.py:1982]           [INFO]     | Harem Collection | ? | Sekirei (TVDB: 82807)                                                       |
+[2022-06-02 14:54:55,045] [builder.py:1982]           [INFO]     | Harem Collection | ? | Campione! (TVDB: 259646)                                                    |
+[2022-06-02 14:54:55,453] [builder.py:1982]           [INFO]     | Harem Collection | ? | Undefeated Bahamut Chronicle (TVDB: 299502)                                 |
+[2022-06-02 14:54:55,855] [builder.py:1982]           [INFO]     | Harem Collection | ? | Amagami SS (TVDB: 172921)                                                   |
+[2022-06-02 14:54:56,453] [builder.py:1982]           [INFO]     | Harem Collection | ? | Blade Dance of the Elementalers (TVDB: 279984)                              |
+[2022-06-02 14:54:57,046] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hundred (TVDB: 299501)                                                      |
+[2022-06-02 14:54:57,366] [builder.py:1982]           [INFO]     | Harem Collection | ? | Love Tyrant (TVDB: 321697)                                                  |
+[2022-06-02 14:54:57,686] [builder.py:1982]           [INFO]     | Harem Collection | ? | Outbreak Company (TVDB: 273008)                                             |
+[2022-06-02 14:54:58,741] [builder.py:1982]           [INFO]     | Harem Collection | ? | Lord Marksman and Vanadis (TVDB: 284132)                                    |
+[2022-06-02 14:54:59,105] [builder.py:1982]           [INFO]     | Harem Collection | ? | Freezing (TVDB: 219701)                                                     |
+[2022-06-02 14:54:59,518] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Hidden Dungeon Only I Can Enter (TVDB: 388006)                          |
+[2022-06-02 14:54:59,966] [builder.py:1982]           [INFO]     | Harem Collection | ? | How a Realist Hero Rebuilt the Kingdom (TVDB: 389422)                       |
+[2022-06-02 14:55:00,325] [builder.py:1982]           [INFO]     | Harem Collection | ? | Anti-Magic Academy: The 35th Test Platoon (TVDB: 299511)                    |
+[2022-06-02 14:55:00,674] [builder.py:1982]           [INFO]     | Harem Collection | ? | World Break: Aria of Curse for a Holy Swordsman (TVDB: 286855)              |
+[2022-06-02 14:55:00,984] [builder.py:1982]           [INFO]     | Harem Collection | ? | OniAi (TVDB: 262092)                                                        |
+[2022-06-02 14:55:01,319] [builder.py:1982]           [INFO]     | Harem Collection | ? | Girlfriend, Girlfriend (TVDB: 395486)                                       |
+[2022-06-02 14:55:01,599] [builder.py:1982]           [INFO]     | Harem Collection | ? | Majikoi Oh! Samurai Girls! (TVDB: 252343)                                   |
+[2022-06-02 14:55:02,015] [builder.py:1982]           [INFO]     | Harem Collection | ? | ChäoS;Head (TVDB: 83358)                                                    |
+[2022-06-02 14:55:02,644] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hensuki: Are you willing to fall in love with a pervert, as long as she's a cutie? (TVDB: 361749) |
+[2022-06-02 14:55:02,977] [builder.py:1982]           [INFO]     | Harem Collection | ? | Shuffle (TVDB: 82213)                                                       |
+[2022-06-02 14:55:03,427] [builder.py:1982]           [INFO]     | Harem Collection | ? | Maken-Ki! Battling Venus (TVDB: 252474)                                     |
+[2022-06-02 14:55:03,840] [builder.py:1982]           [INFO]     | Harem Collection | ? | Yuuna and the Haunted Hot Springs (TVDB: 344980)                            |
+[2022-06-02 14:55:04,236] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hybrid x Heart Magias Academy Ataraxia (TVDB: 307112)                       |
+[2022-06-02 14:55:04,596] [builder.py:1982]           [INFO]     | Harem Collection | ? | Seirei Gensouki: Spirit Chronicles (TVDB: 398544)                           |
+[2022-06-02 14:55:04,922] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Comic Artist and His Assistants (TVDB: 278976)                          |
+[2022-06-02 14:55:05,904] [builder.py:1982]           [INFO]     | Harem Collection | ? | Shomin Sample (TVDB: 284073)                                                |
+[2022-06-02 14:55:06,510] [builder.py:1982]           [INFO]     | Harem Collection | ? | Love Hina (TVDB: 70861)                                                     |
+[2022-06-02 14:55:07,127] [builder.py:1982]           [INFO]     | Harem Collection | ? | Nyan Koi! (TVDB: 115971)                                                    |
+[2022-06-02 14:55:07,540] [builder.py:1982]           [INFO]     | Harem Collection | ? | My Girlfriend is Shobitch (TVDB: 334706)                                    |
+[2022-06-02 14:55:07,887] [builder.py:1982]           [INFO]     | Harem Collection | ? | Kanokon (TVDB: 81830)                                                       |
+[2022-06-02 14:55:08,206] [builder.py:1982]           [INFO]     | Harem Collection | ? | Omamori Himari (TVDB: 133821)                                               |
+[2022-06-02 14:55:08,983] [builder.py:1982]           [INFO]     | Harem Collection | ? | MM! (TVDB: 194541)                                                          |
+[2022-06-02 14:55:09,655] [builder.py:1982]           [INFO]     | Harem Collection | ? | Osamake: Romcom Where the Childhood Friend Won't Lose (TVDB: 396052)        |
+[2022-06-02 14:55:10,185] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hayate the Combat Butler (TVDB: 80554)                                      |
+[2022-06-02 14:55:11,065] [builder.py:1982]           [INFO]     | Harem Collection | ? | Seiren (TVDB: 319454)                                                       |
+[2022-06-02 14:55:11,369] [builder.py:1982]           [INFO]     | Harem Collection | ? | Princess Lover! (TVDB: 105131)                                              |
+[2022-06-02 14:55:11,640] [builder.py:1982]           [INFO]     | Harem Collection | ? | Ladies Versus Butlers! (TVDB: 131471)                                       |
+[2022-06-02 14:55:11,917] [builder.py:1982]           [INFO]     | Harem Collection | ? | NAKAIMO My Little Sister Is Among Them! (TVDB: 259645)                      |
+[2022-06-02 14:55:12,525] [builder.py:1982]           [INFO]     | Harem Collection | ? | Rail Wars! (TVDB: 279985)                                                   |
+[2022-06-02 14:55:12,853] [builder.py:1982]           [INFO]     | Harem Collection | ? | Samurai Harem (TVDB: 84573)                                                 |
+[2022-06-02 14:55:13,192] [builder.py:1982]           [INFO]     | Harem Collection | ? | World's End Harem (TVDB: 388644)                                            |
+[2022-06-02 14:55:13,531] [builder.py:1982]           [INFO]     | Harem Collection | ? | Cat Planet Cuties (TVDB: 173301)                                            |
+[2022-06-02 14:55:13,833] [builder.py:1982]           [INFO]     | Harem Collection | ? | Student Council's Discretion (TVDB: 116001)                                 |
+[2022-06-02 14:55:14,189] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tenchi Muyo! War on Geminar (TVDB: 104741)                                  |
+[2022-06-02 14:55:14,886] [builder.py:1982]           [INFO]     | Harem Collection | ? | If Her Flag Breaks (TVDB: 278330)                                           |
+[2022-06-02 14:55:16,260] [builder.py:1982]           [INFO]     | Harem Collection | ? | Samurai Girls (TVDB: 186911)                                                |
+[2022-06-02 14:55:16,637] [builder.py:1982]           [INFO]     | Harem Collection | ? | Invaders of the Rokujouma!? (TVDB: 279528)                                  |
+[2022-06-02 14:55:17,286] [builder.py:1982]           [INFO]     | Harem Collection | ? | The Master of Ragnarok & Blesser of Einherjar (TVDB: 347294)                |
+[2022-06-02 14:55:17,666] [builder.py:1982]           [INFO]     | Harem Collection | ? | A Bridge to the Starry Skies (TVDB: 248012)                                 |
+[2022-06-02 14:55:18,018] [builder.py:1982]           [INFO]     | Harem Collection | ? | Peter Grill and the Philosopher's Time (TVDB: 379923)                       |
+[2022-06-02 14:55:18,596] [builder.py:1982]           [INFO]     | Harem Collection | ? | Mashiroiro Symphony: The Color Of Lovers (TVDB: 252477)                     |
+[2022-06-02 14:55:20,144] [builder.py:1982]           [INFO]     | Harem Collection | ? | Unlimited Fafnir (TVDB: 288103)                                             |
+[2022-06-02 14:55:20,511] [builder.py:1982]           [INFO]     | Harem Collection | ? | Akane-Iro ni Somaru Saka (TVDB: 83315)                                      |
+[2022-06-02 14:55:20,880] [builder.py:1982]           [INFO]     | Harem Collection | ? | Mother of the Goddess' Dormitory (TVDB: 400642)                             |
+[2022-06-02 14:55:21,539] [builder.py:1982]           [INFO]     | Harem Collection | ? | A Couple of Cuckoos (TVDB: 400585)                                          |
+[2022-06-02 14:55:21,924] [builder.py:1982]           [INFO]     | Harem Collection | ? | DearS (TVDB: 79236)                                                         |
+[2022-06-02 14:55:22,217] [builder.py:1982]           [INFO]     | Harem Collection | ? | Girls Bravo (TVDB: 78856)                                                   |
+[2022-06-02 14:55:22,542] [builder.py:1982]           [INFO]     | Harem Collection | ? | Negima! (TVDB: 75869)                                                       |
+[2022-06-02 14:55:22,826] [builder.py:1982]           [INFO]     | Harem Collection | ? | Stray Cats Overrun! (TVDB: 145231)                                          |
+[2022-06-02 14:55:23,172] [builder.py:1982]           [INFO]     | Harem Collection | ? | Walkure Romanze (TVDB: 272045)                                              |
+[2022-06-02 14:55:23,776] [builder.py:1982]           [INFO]     | Harem Collection | ? | A Good Librarian Like a Good Shepherd (TVDB: 283931)                        |
+[2022-06-02 14:55:24,455] [builder.py:1982]           [INFO]     | Harem Collection | ? | Trapped in a Dating Sim: The World of Otome Games Is Tough for Mobs (TVDB: 412826) |
+[2022-06-02 14:55:24,754] [builder.py:1982]           [INFO]     | Harem Collection | ? | White Album (TVDB: 84553)                                                   |
+[2022-06-02 14:55:25,074] [builder.py:1982]           [INFO]     | Harem Collection | ? | They Are My Noble Masters (TVDB: 81479)                                     |
+[2022-06-02 14:55:25,394] [builder.py:1982]           [INFO]     | Harem Collection | ? | Strawberry 100% (TVDB: 80759)                                               |
+[2022-06-02 14:55:25,679] [builder.py:1982]           [INFO]     | Harem Collection | ? | Conception (TVDB: 352683)                                                   |
+[2022-06-02 14:55:26,045] [builder.py:1982]           [INFO]     | Harem Collection | ? | Ai Yori Aoshi (TVDB: 79267)                                                 |
+[2022-06-02 14:55:26,634] [builder.py:1982]           [INFO]     | Harem Collection | ? | Nagasarete Airantou (TVDB: 82076)                                           |
+[2022-06-02 14:55:27,010] [builder.py:1982]           [INFO]     | Harem Collection | ? | Good Luck! Ninomiya-kun (TVDB: 82167)                                       |
+[2022-06-02 14:55:28,003] [builder.py:1982]           [INFO]     | Harem Collection | ? | Maburaho (TVDB: 75003)                                                      |
+[2022-06-02 14:55:28,322] [builder.py:1982]           [INFO]     | Harem Collection | ? | H2O - Footprints in the Sand (TVDB: 81732)                                  |
+[2022-06-02 14:55:28,994] [builder.py:1982]           [INFO]     | Harem Collection | ? | Negima!? Magister Negi Magi (TVDB: 305488)                                  |
+[2022-06-02 14:55:29,310] [builder.py:1982]           [INFO]     | Harem Collection | ? | R-15 (TVDB: 249867)                                                         |
+[2022-06-02 14:55:29,985] [builder.py:1982]           [INFO]     | Harem Collection | ? | Because I Don't Like My Brother At All--!! (TVDB: 216611)                   |
+[2022-06-02 14:55:33,031] [builder.py:1982]           [INFO]     | Harem Collection | ? | Please Twins! (TVDB: 72977)                                                 |
+[2022-06-02 14:55:39,697] [builder.py:1982]           [INFO]     | Harem Collection | ? | Val x Love (TVDB: 366706)                                                   |
+[2022-06-02 14:55:40,012] [builder.py:1982]           [INFO]     | Harem Collection | ? | We Without Wings (TVDB: 247968)                                             |
+[2022-06-02 14:55:40,364] [builder.py:1982]           [INFO]     | Harem Collection | ? | Cupid's Chocolates (TVDB: 307812)                                           |
+[2022-06-02 14:55:40,793] [builder.py:1982]           [INFO]     | Harem Collection | ? | Nobunaga teacher's young bride (TVDB: 359836)                               |
+[2022-06-02 14:55:41,132] [builder.py:1982]           [INFO]     | Harem Collection | ? | Da Capo (TVDB: 84187)                                                       |
+[2022-06-02 14:55:41,551] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tenchi Muyo! Tenchi Universe (TVDB: 79620)                                  |
+[2022-06-02 14:55:41,950] [builder.py:1982]           [INFO]     | Harem Collection | ? | Ah! My Buddha (TVDB: 80075)                                                 |
+[2022-06-02 14:55:42,288] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tayutama: Kiss on My Deity (TVDB: 88891)                                    |
+[2022-06-02 14:55:42,657] [builder.py:1982]           [INFO]     | Harem Collection | ? | Gakuen Heaven (TVDB: 85458)                                                 |
+[2022-06-02 14:55:42,921] [builder.py:1982]           [INFO]     | Harem Collection | ? | Shuffle! Memories (TVDB: 83880)                                             |
+[2022-06-02 14:55:43,201] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tokimeki Memorial (TVDB: 81367)                                             |
+[2022-06-02 14:55:43,485] [builder.py:1982]           [INFO]     | Harem Collection | ? | Kishin Houkou Demonbane (TVDB: 81105)                                       |
+[2022-06-02 14:55:43,754] [builder.py:1982]           [INFO]     | Harem Collection | ? | Happiness! (TVDB: 130391)                                                   |
+[2022-06-02 14:55:45,031] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tenchi in Tokyo (TVDB: 80583)                                               |
+[2022-06-02 14:55:45,589] [builder.py:1982]           [INFO]     | Harem Collection | ? | Magikano (TVDB: 82313)                                                      |
+[2022-06-02 14:55:46,248] [builder.py:1982]           [INFO]     | Harem Collection | ? | Gift ~Eternal Rainbow~ (TVDB: 82720)                                        |
+[2022-06-02 14:55:46,544] [builder.py:1982]           [INFO]     | Harem Collection | ? | Blessing of the Campanella (TVDB: 173261)                                   |
+[2022-06-02 14:55:46,804] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hanaukyo Maid Team (TVDB: 80654)                                            |
+[2022-06-02 14:55:47,174] [builder.py:1982]           [INFO]     | Harem Collection | ? | Saber Marionette J (TVDB: 81694)                                            |
+[2022-06-02 14:55:48,083] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tenchi Muyo! GXP (TVDB: 79064)                                              |
+[2022-06-02 14:55:48,402] [builder.py:1982]           [INFO]     | Harem Collection | ? | Da Capo II (TVDB: 84371)                                                    |
+[2022-06-02 14:55:48,988] [builder.py:1982]           [INFO]     | Harem Collection | ? | Eiken (TVDB: 79711)                                                         |
+[2022-06-02 14:55:49,683] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hand Maid May (TVDB: 72470)                                                 |
+[2022-06-02 14:55:50,032] [builder.py:1982]           [INFO]     | Harem Collection | ? | Yumeria (TVDB: 82829)                                                       |
+[2022-06-02 14:55:50,326] [builder.py:1982]           [INFO]     | Harem Collection | ? | Fortune Arterial: Akai Yakusoku (TVDB: 196231)                              |
+[2022-06-02 14:55:51,041] [builder.py:1982]           [INFO]     | Harem Collection | ? | Tenchi Muyo! Ryo-Ohki (TVDB: 80009)                                         |
+[2022-06-02 14:55:51,682] [builder.py:1982]           [INFO]     | Harem Collection | ? | Happy Lesson (TVDB: 74544)                                                  |
+[2022-06-02 14:55:52,348] [builder.py:1982]           [INFO]     | Harem Collection | ? | To Heart (TVDB: 81766)                                                      |
+[2022-06-02 14:55:53,259] [builder.py:1982]           [INFO]     | Harem Collection | ? | Sister Princess (TVDB: 117871)                                              |
+[2022-06-02 14:55:53,561] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hanaukyo Maid Team: La Verite (TVDB: 75873)                                 |
+[2022-06-02 14:55:53,891] [builder.py:1982]           [INFO]     | Harem Collection | ? | Love Love? (TVDB: 85065)                                                    |
+[2022-06-02 14:55:54,179] [builder.py:1982]           [INFO]     | Harem Collection | ? | Kono Aozora ni Yakusoku wo (TVDB: 84464)                                    |
+[2022-06-02 14:55:54,550] [builder.py:1982]           [INFO]     | Harem Collection | ? | To Heart 2 (TVDB: 81768)                                                    |
+[2022-06-02 14:55:55,258] [builder.py:1982]           [INFO]     | Harem Collection | ? | Mouse (TVDB: 83635)                                                         |
+[2022-06-02 14:55:55,566] [builder.py:1982]           [INFO]     | Harem Collection | ? | Dual! Parallel Trouble Adventures (TVDB: 79996)                             |
+[2022-06-02 14:55:55,940] [builder.py:1982]           [INFO]     | Harem Collection | ? | Koi Koi Seven (TVDB: 97091)                                                 |
+[2022-06-02 14:55:56,287] [builder.py:1982]           [INFO]     | Harem Collection | ? | W~Wish (TVDB: 134461)                                                       |
+[2022-06-02 14:55:57,665] [builder.py:1982]           [INFO]     | Harem Collection | ? | Angel Tales (TVDB: 180111)                                                  |
+[2022-06-02 14:55:57,988] [builder.py:1982]           [INFO]     | Harem Collection | ? | Lime-Colored History of War (TVDB: 80056)                                   |
+[2022-06-02 14:55:58,307] [builder.py:1982]           [INFO]     | Harem Collection | ? | _Summer (TVDB: 189741)                                                      |
+[2022-06-02 14:55:58,604] [builder.py:1982]           [INFO]     | Harem Collection | ? | 1+2=Paradise (TVDB: 162041)                                                 |
+[2022-06-02 14:55:58,924] [builder.py:1982]           [INFO]     | Harem Collection | ? | Saber Marionette R (TVDB: 82586)                                            |
+[2022-06-02 14:55:59,244] [builder.py:1982]           [INFO]     | Harem Collection | ? | Hani Hani: Operation Sanctuary (TVDB: 107521)                               |
+[2022-06-02 14:55:59,568] [builder.py:1982]           [INFO]     | Harem Collection | ? | Sorcerer Hunters (TVDB: 72445)                                              |
+[2022-06-02 14:55:59,876] [builder.py:1982]           [INFO]     | Harem Collection | ? | Kakyuusei 2: The Girls in Our Eyes (TVDB: 199581)                           |
+[2022-06-02 14:56:00,253] [builder.py:1982]           [INFO]     | Harem Collection | ? | Kakyuusei (TVDB: 199571)                                                    |
+[2022-06-02 14:56:00,679] [builder.py:1982]           [INFO]     | Harem Collection | ? | Sakura Wars (OVA) (TVDB: 84527)                                             |
+[2022-06-02 14:56:02,095] [builder.py:1982]           [INFO]     | Harem Collection | ? | Guardian Hearts (TVDB: 112651)                                              |
+[2022-06-02 14:56:02,235] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 80049                               |
+[2022-06-02 14:56:02,235] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-06-02 14:56:02,236] [builder.py:1987]           [INFO]     | 161 Shows Missing                                                                                  |
+[2022-06-02 14:56:02,289] [plex_meta_manager.py:843]  [INFO]     |                                                                                                    |
+[2022-06-02 14:56:02,289] [util.py:216]               [INFO]     |========================================== No Items Found ==========================================|
+[2022-06-02 14:56:02,290] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-06-02 14:56:02,290] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-06-02 14:56:02,290] [util.py:216]               [INFO]     |                                  Finished Harem Anime Collection                                   |
+[2022-06-02 14:56:02,290] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:01:41                                    |
+[2022-06-02 14:56:02,291] [util.py:220]               [INFO]     |====================================================================================================|

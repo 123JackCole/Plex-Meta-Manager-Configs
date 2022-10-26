@@ -1,0 +1,130 @@
+[2022-08-19 01:22:53,613] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-08-19 01:22:53,614] [util.py:216]               [INFO]     |                                Seasonal Summer Collection in Anime                                 |
+[2022-08-19 01:22:53,614] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-08-19 01:22:53,615] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,615] [util.py:216]               [INFO]     |============================== Validating Seasonal Summer Attributes ===============================|
+[2022-08-19 01:22:53,615] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,616] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-08-19 01:22:53,616] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-08-19 01:22:53,616] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,616] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-08-19 01:22:53,617] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-08-19 01:22:53,617] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,617] [builder.py:473]            [DEBUG]    | Validating Method: mal_season                                                                      |
+[2022-08-19 01:22:53,618] [builder.py:474]            [DEBUG]    | Value: ordereddict([('season', 'summer'), ('limit', 20)])                                          |
+[2022-08-19 01:22:53,618] [builder.py:689]            [WARNING]  | Collection Warning: mal_season sort_by attribute not found using members as default                |
+[2022-08-19 01:22:53,618] [builder.py:689]            [WARNING]  | Collection Warning: mal_season year attribute not found using 2022 as default                      |
+[2022-08-19 01:22:53,619] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,619] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-08-19 01:22:53,619] [builder.py:474]            [DEBUG]    | Value: +++++++_Summer                                                                              |
+[2022-08-19 01:22:53,619] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,620] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-08-19 01:22:53,620] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-08-19 01:22:53,620] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,621] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-08-19 01:22:53,621] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-08-19 01:22:53,641] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,641] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-08-19 01:22:53,642] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,642] [util.py:216]               [INFO]     |================================ Running Seasonal Summer Collection ================================|
+[2022-08-19 01:22:53,643] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,643] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-08-19 01:22:53,643] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,644] [builder.py:1276]           [DEBUG]    | Builder: mal_season: {'season': 'summer', 'sort_by': 'anime_num_list_users', 'year': 2022, 'limit': 20} |
+[2022-08-19 01:22:53,644] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,644] [mal.py:229]                [INFO]     | Processing MyAnimeList Season: 20 Anime from Summer 2022 sorted by Members                         |
+[2022-08-19 01:22:53,838] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,838] [mal.py:240]                [DEBUG]    | 20 MyAnimeList IDs Found: [21, 34566, 48413, 235, 48895, 42963, 50346, 51096, 47194, 41084, 47164, 48675, 49470, 49220, 51213, 44524, 50612, 51417, 49052, 47163] |
+[2022-08-19 01:22:53,839] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,839] [builder.py:1283]           [DEBUG]    | 20 IDs Found: [(81797, 'tvdb'), (321285, 'tvdb'), (267441, 'tvdb'), (72454, 'tvdb'), (294002, 'tvdb'), (380654, 'tvdb'), (102436, 'ratingKey'), (329822, 'tvdb'), (102575, 'ratingKey'), (326109, 'tvdb'), (289882, 'tvdb'), (400585, 'tvdb'), (415240, 'tvdb'), (102426, 'ratingKey'), (102399, 'ratingKey'), (104099, 'ratingKey'), (355774, 'tvdb'), (102404, 'ratingKey'), (103425, 'ratingKey'), (102410, 'ratingKey')] |
+[2022-08-19 01:22:53,839] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:53,945] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,946] [util.py:216]               [INFO]     |=============================== Adding to Seasonal Summer Collection ===============================|
+[2022-08-19 01:22:53,946] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,946] [builder.py:1709]           [INFO]     |  1/15 | Seasonal Summer Collection | = | Hataraku Maou-sama!                                       |
+[2022-08-19 01:22:53,947] [builder.py:1709]           [INFO]     |  2/15 | Seasonal Summer Collection | = | Overlord                                                  |
+[2022-08-19 01:22:53,947] [builder.py:1709]           [INFO]     |  3/15 | Seasonal Summer Collection | = | Kanojo, Okarishimasu                                      |
+[2022-08-19 01:22:53,947] [builder.py:1709]           [INFO]     |  4/15 | Seasonal Summer Collection | = | Yofukashi no Uta                                          |
+[2022-08-19 01:22:53,948] [builder.py:1709]           [INFO]     |  5/15 | Seasonal Summer Collection | = | Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e           |
+[2022-08-19 01:22:53,948] [builder.py:1709]           [INFO]     |  6/15 | Seasonal Summer Collection | = | Summer Time Render                                        |
+[2022-08-19 01:22:53,948] [builder.py:1709]           [INFO]     |  7/15 | Seasonal Summer Collection | = | Made in Abyss                                             |
+[2022-08-19 01:22:53,949] [builder.py:1709]           [INFO]     |  8/15 | Seasonal Summer Collection | = | Mamahaha no Tsurego ga Motokano Datta                     |
+[2022-08-19 01:22:53,949] [builder.py:1709]           [INFO]     |  9/15 | Seasonal Summer Collection | = | Isekai Ojisan                                             |
+[2022-08-19 01:22:53,949] [builder.py:1709]           [INFO]     | 10/15 | Seasonal Summer Collection | = | Kinsou no Vermeil: Gakeppuchi Majutsushi wa Saikyou no Yakusai to Mahou Sekai o Tsukisusumu |
+[2022-08-19 01:22:53,949] [builder.py:1709]           [INFO]     | 11/15 | Seasonal Summer Collection | = | Isekai Meikyuu de Harem o                                 |
+[2022-08-19 01:22:53,950] [builder.py:1709]           [INFO]     | 12/15 | Seasonal Summer Collection | = | Dr. Stone                                                 |
+[2022-08-19 01:22:53,950] [builder.py:1709]           [INFO]     | 13/15 | Seasonal Summer Collection | = | Engage Kiss                                               |
+[2022-08-19 01:22:53,951] [builder.py:1709]           [INFO]     | 14/15 | Seasonal Summer Collection | = | Ao Ashi                                                   |
+[2022-08-19 01:22:53,951] [builder.py:1709]           [INFO]     | 15/15 | Seasonal Summer Collection | = | Tensei Kenja no Isekai Life: Daini no Shokugyou o Ete, Sekai Saikyou ni Narimashita |
+[2022-08-19 01:22:53,951] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,952] [builder.py:1735]           [INFO]     | 15 Shows Processed                                                                                 |
+[2022-08-19 01:22:53,952] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:53,952] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Seasonal Summer ============================|
+[2022-08-19 01:22:53,953] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:55,262] [builder.py:1982]           [INFO]     | Seasonal Summer Collection | ? | One Piece (TVDB: 81797)                                           |
+[2022-08-19 01:22:55,783] [builder.py:1982]           [INFO]     | Seasonal Summer Collection | ? | Boruto: Naruto Next Generations (TVDB: 321285)                    |
+[2022-08-19 01:22:57,239] [builder.py:1982]           [INFO]     | Seasonal Summer Collection | ? | Detective Conan (TVDB: 72454)                                     |
+[2022-08-19 01:22:57,578] [builder.py:1982]           [INFO]     | Seasonal Summer Collection | ? | Is It Wrong to Try to Pick Up Girls in a Dungeon? (TVDB: 289882)  |
+[2022-08-19 01:22:57,842] [builder.py:1982]           [INFO]     | Seasonal Summer Collection | ? | A Couple of Cuckoos (TVDB: 400585)                                |
+[2022-08-19 01:22:57,843] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:57,843] [builder.py:1987]           [INFO]     | 5 Shows Missing                                                                                    |
+[2022-08-19 01:22:57,859] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-08-19 01:22:57,859] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-08-19 01:22:57,860] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-08-19 01:22:57,860] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [81797, 321285, 72454, 289882, 400585]                                                |
+[2022-08-19 01:22:58,103] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-08-19 01:22:58,103] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 81797                                                                          |
+[2022-08-19 01:22:58,104] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 321285                                                                         |
+[2022-08-19 01:22:58,104] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 72454                                                                          |
+[2022-08-19 01:22:58,104] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 289882                                                                         |
+[2022-08-19 01:22:58,105] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 400585                                                                         |
+[2022-08-19 01:22:58,105] [sonarr.py:171]             [INFO]     | 5 Series already exist in Sonarr                                                                   |
+[2022-08-19 01:22:58,109] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:58,110] [util.py:216]               [INFO]     |========================== Updating Details of Seasonal Summer Collection ==========================|
+[2022-08-19 01:22:58,110] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:58,111] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-08-19 01:22:58,111] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-08-19 01:22:58,129] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-08-19 01:22:58,130] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Seasonal Summer Collection ====================|
+[2022-08-19 01:22:58,130] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-08-19 01:23:00,498] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-08-19 01:23:00,498] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-08-19 01:23:00,499] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-08-19 01:23:00,499] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-08-19 01:23:00,499] [sonarr.py:71]              [DEBUG]    | (415240, "F:\\Anime\\My Stepmom's Daughter Is My Ex (2022) [tvdb-415240]")                         |
+[2022-08-19 01:23:00,499] [sonarr.py:71]              [DEBUG]    | (407840, 'F:\\Anime\\Aoashi (2022) [tvdb-407840]')                                                 |
+[2022-08-19 01:23:00,500] [sonarr.py:71]              [DEBUG]    | (418265, 'F:\\Anime\\Engage Kiss (2022) [tvdb-418265]')                                            |
+[2022-08-19 01:23:00,500] [sonarr.py:71]              [DEBUG]    | (380654, 'F:\\Anime\\Rent-a-Girlfriend (2020) [tvdb-380654]')                                      |
+[2022-08-19 01:23:00,500] [sonarr.py:71]              [DEBUG]    | (417658, 'F:\\Anime\\Vermeil in Gold (2022) [tvdb-417658]')                                        |
+[2022-08-19 01:23:00,500] [sonarr.py:71]              [DEBUG]    | (267441, 'F:\\Anime\\Devil Is a Part-Timer!, The (2013) [tvdb-267441]')                            |
+[2022-08-19 01:23:00,501] [sonarr.py:71]              [DEBUG]    | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')                                  |
+[2022-08-19 01:23:00,501] [sonarr.py:71]              [DEBUG]    | (393301, 'F:\\Anime\\Harem in the Labyrinth of Another World (2022) [tvdb-393301]')                |
+[2022-08-19 01:23:00,501] [sonarr.py:71]              [DEBUG]    | (294002, 'F:\\Anime\\Overlord (2015) [tvdb-294002]')                                               |
+[2022-08-19 01:23:00,502] [sonarr.py:71]              [DEBUG]    | (412374, 'F:\\Anime\\Call of the Night (2022) [tvdb-412374]')                                      |
+[2022-08-19 01:23:00,502] [sonarr.py:71]              [DEBUG]    | (329822, 'F:\\Anime\\Classroom of the Elite (2017) [tvdb-329822]')                                 |
+[2022-08-19 01:23:00,502] [sonarr.py:71]              [DEBUG]    | (326109, 'F:\\Anime\\Made in Abyss (2017) [tvdb-326109]')                                          |
+[2022-08-19 01:23:00,502] [sonarr.py:71]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2022-08-19 01:23:00,502] [sonarr.py:71]              [DEBUG]    | (355774, 'F:\\Anime\\Dr. Stone (2019) [tvdb-355774]')                                              |
+[2022-08-19 01:23:00,503] [sonarr.py:71]              [DEBUG]    | (402637, 'F:\\Anime\\My Isekai Life (2022) [tvdb-402637]')                                         |
+[2022-08-19 01:23:00,735] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-08-19 01:23:00,735] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (415240, "F:\\Anime\\My Stepmom's Daughter Is My Ex (2022) [tvdb-415240]")     |
+[2022-08-19 01:23:00,735] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407840, 'F:\\Anime\\Aoashi (2022) [tvdb-407840]')                             |
+[2022-08-19 01:23:00,735] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (418265, 'F:\\Anime\\Engage Kiss (2022) [tvdb-418265]')                        |
+[2022-08-19 01:23:00,736] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (380654, 'F:\\Anime\\Rent-a-Girlfriend (2020) [tvdb-380654]')                  |
+[2022-08-19 01:23:00,736] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (417658, 'F:\\Anime\\Vermeil in Gold (2022) [tvdb-417658]')                    |
+[2022-08-19 01:23:00,736] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (267441, 'F:\\Anime\\Devil Is a Part-Timer!, The (2013) [tvdb-267441]')        |
+[2022-08-19 01:23:00,737] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')              |
+[2022-08-19 01:23:00,737] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (393301, 'F:\\Anime\\Harem in the Labyrinth of Another World (2022) [tvdb-393301]') |
+[2022-08-19 01:23:00,737] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (294002, 'F:\\Anime\\Overlord (2015) [tvdb-294002]')                           |
+[2022-08-19 01:23:00,737] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (412374, 'F:\\Anime\\Call of the Night (2022) [tvdb-412374]')                  |
+[2022-08-19 01:23:00,738] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (329822, 'F:\\Anime\\Classroom of the Elite (2017) [tvdb-329822]')             |
+[2022-08-19 01:23:00,738] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (326109, 'F:\\Anime\\Made in Abyss (2017) [tvdb-326109]')                      |
+[2022-08-19 01:23:00,738] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2022-08-19 01:23:00,739] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (355774, 'F:\\Anime\\Dr. Stone (2019) [tvdb-355774]')                          |
+[2022-08-19 01:23:00,739] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402637, 'F:\\Anime\\My Isekai Life (2022) [tvdb-402637]')                     |
+[2022-08-19 01:23:00,739] [sonarr.py:171]             [INFO]     | 15 Series already exist in Sonarr                                                                  |
+[2022-08-19 01:23:00,740] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-08-19 01:23:00,740] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-08-19 01:23:00,741] [util.py:216]               [INFO]     |                                Finished Seasonal Summer Collection                                 |
+[2022-08-19 01:23:00,741] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:07                                    |
+[2022-08-19 01:23:00,741] [util.py:220]               [INFO]     |====================================================================================================|

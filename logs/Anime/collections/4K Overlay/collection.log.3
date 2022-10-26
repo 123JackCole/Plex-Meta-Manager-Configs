@@ -1,0 +1,32 @@
+[2022-07-06 17:10:58,089] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-06 17:10:58,089] [util.py:216]               [INFO]     |                                   4K Overlay Collection in Anime                                   |
+[2022-07-06 17:10:58,090] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-07-06 17:10:58,090] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-07-06 17:10:58,091] [util.py:216]               [INFO]     |================================= Validating 4K Overlay Attributes =================================|
+[2022-07-06 17:10:58,091] [builder.py:323]            [DEBUG]    |                                                                                                    |
+[2022-07-06 17:10:58,091] [builder.py:324]            [DEBUG]    | Validating Method: build_collection                                                                |
+[2022-07-06 17:10:58,092] [builder.py:325]            [DEBUG]    | Value: False                                                                                       |
+[2022-07-06 17:10:58,092] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-06 17:10:58,092] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-07-06 17:10:58,093] [builder.py:474]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution', '4K'), ('hdr', False)]))])                 |
+[2022-07-06 17:10:58,109] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-07-06 17:10:58,109] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-07-06 17:10:58,109] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-07-06 17:10:58,110] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 543, in __init__                 |
+[2022-07-06 17:10:58,110] [util.py:162]               [DEBUG]    |     self._plex(method_name, method_data)                                                           |
+[2022-07-06 17:10:58,110] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1064, in _plex                   |
+[2022-07-06 17:10:58,110] [util.py:162]               [DEBUG]    |     new_dictionary = self.build_filter("plex_search", dict_data, type_override=type_override)      |
+[2022-07-06 17:10:58,111] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1582, in build_filter            |
+[2022-07-06 17:10:58,111] [util.py:162]               [DEBUG]    |     built_filter, filter_text = _filter(base_dict, is_all=base_all)                                |
+[2022-07-06 17:10:58,111] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1532, in _filter                 |
+[2022-07-06 17:10:58,111] [util.py:162]               [DEBUG]    |     validation = self.validate_attribute(attr, modifier, final_attr, _data, validate, pairs=True)  |
+[2022-07-06 17:10:58,112] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1648, in validate_attribute      |
+[2022-07-06 17:10:58,112] [util.py:162]               [DEBUG]    |     raise Failed(error)                                                                            |
+[2022-07-06 17:10:58,112] [util.py:162]               [DEBUG]    | modules.util.Failed: Plex Error: resolution: 4K not found                                          |
+[2022-07-06 17:10:58,112] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-07-06 17:10:58,113] [util.py:159]               [ERROR]    | Plex Error: resolution: 4K not found                                                               |
+[2022-07-06 17:10:58,113] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-07-06 17:10:58,113] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-06 17:10:58,114] [util.py:216]               [INFO]     |                                   Finished 4K Overlay Collection                                   |
+[2022-07-06 17:10:58,114] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-07-06 17:10:58,114] [util.py:220]               [INFO]     |====================================================================================================|

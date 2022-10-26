@@ -1,0 +1,63 @@
+[2022-01-16 14:54:37,311] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:54:37,312] [util.py:216]               [INFO]     |                                 Bruce Willis Collection in Movies                                  |
+[2022-01-16 14:54:37,312] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-01-16 14:54:37,312] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,313] [util.py:216]               [INFO]     |================================ Validating Bruce Willis Attributes ================================|
+[2022-01-16 14:54:37,313] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,313] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-01-16 14:54:37,314] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'people'), ('person', 62)])                                           |
+[2022-01-16 14:54:37,314] [builder.py:367]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,314] [builder.py:368]            [DEBUG]    | Validating Method: tmdb_person                                                                     |
+[2022-01-16 14:54:37,315] [builder.py:372]            [DEBUG]    | Value: 62                                                                                          |
+[2022-01-16 14:54:37,450] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,451] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-01-16 14:54:37,451] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-01-16 14:54:37,451] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,452] [builder.py:473]            [DEBUG]    | Validating Method: actor                                                                           |
+[2022-01-16 14:54:37,452] [builder.py:474]            [DEBUG]    | Value: tmdb                                                                                        |
+[2022-01-16 14:54:37,486] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,486] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-01-16 14:54:37,487] [builder.py:474]            [DEBUG]    | Value: ++_Bruce Willis                                                                             |
+[2022-01-16 14:54:37,491] [plex.py:685]               [DEBUG]    | Looking for: Bruce Willis                                                                          |
+[2022-01-16 14:54:37,491] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,492] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-01-16 14:54:37,492] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,493] [util.py:216]               [INFO]     |================================= Running Bruce Willis Collection ==================================|
+[2022-01-16 14:54:37,493] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,494] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-01-16 14:54:37,494] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,494] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match any of the following:\n    Actor is Bruce Willis', '?type=1&sort=titleSort&push=1&actor=23530&pop=1') |
+[2022-01-16 14:54:37,495] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,495] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-01-16 14:54:37,495] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-01-16 14:54:37,496] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-01-16 14:54:37,496] [util.py:161]               [INFO]     |   Match any of the following:                                                                      |
+[2022-01-16 14:54:37,496] [util.py:161]               [INFO]     |     Actor is Bruce Willis                                                                          |
+[2022-01-16 14:54:37,508] [plex.py:746]               [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,508] [plex.py:747]               [DEBUG]    | 2 Keys Found: [(32213, 'ratingKey'), (32416, 'ratingKey')]                                         |
+[2022-01-16 14:54:37,509] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,509] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(32213, 'ratingKey'), (32416, 'ratingKey')]                                          |
+[2022-01-16 14:54:37,509] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-01-16 14:54:37,951] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,952] [util.py:216]               [INFO]     |================================ Adding to Bruce Willis Collection =================================|
+[2022-01-16 14:54:37,952] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:37,952] [builder.py:1709]           [INFO]     | 1/2 | Bruce Willis Collection | + | Moonrise Kingdom (2012)                                        |
+[2022-01-16 14:54:38,418] [builder.py:1709]           [INFO]     | 2/2 | Bruce Willis Collection | + | Pulp Fiction (1994)                                            |
+[2022-01-16 14:54:38,559] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:38,560] [builder.py:1735]           [INFO]     | 2 Movies Processed                                                                                 |
+[2022-01-16 14:54:38,564] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:38,565] [util.py:216]               [INFO]     |=========================== Updating Details of Bruce Willis Collection ============================|
+[2022-01-16 14:54:38,565] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-01-16 14:54:38,566] [builder.py:2156]           [INFO]     | Detail: tmdb_person updated Collection Summary                                                     |
+[2022-01-16 14:54:38,566] [builder.py:2193]           [INFO]     | Detail: sort_title updated Collection Sort Title to ++_Bruce Willis                                |
+[2022-01-16 14:54:38,566] [builder.py:2235]           [DEBUG]    | {'summary.value': "Walter Bruce Willis (born March 19, 1955) is an American actor. His career began on the off-Broadway stage in the 1970s. He achieved fame with a leading role on the comedy-drama series Moonlighting (1985–1989) and has since appeared in over 70 films, gaining widespread recognition as an action hero after his portrayal of John McClane in the Die Hard franchise (1988–2013) and other subsequent roles.\n\nWillis's other credits include The Last Boy Scout (1991), Pulp Fiction (1994), 12 Monkeys (1995), Last Man Standing (1996), The Fifth Element (1997), Armageddon (1998), The Sixth Sense (1999), Hart's War (2002), Tears of the Sun (2003), Hostage (2005), Lucky Number Slevin (2006), Surrogates (2009), Moonrise Kingdom (2012), Rock the Kasbah (2015) and Motherless Brooklyn (2019).\n\nAs a singer, Willis released his debut album The Return of Bruno in 1987, followed by two more albums in 1989 and 2001. He made his Broadway debut in the stage adaptation of Misery in 2015. Willis has received numerous accolades during his career, including a Golden Globe, two Primetime Emmy Awards, and two People's Choice Awards. He received a star on the Hollywood Walk of Fame in 2006.\n\nDescription above from the Wikipedia article Bruce Willis, licensed under CC-BY-SA, full list of contributors on Wikipedia.", 'summary.locked': 1, 'titleSort.value': '++_Bruce Willis', 'titleSort.locked': 1} |
+[2022-01-16 14:54:38,580] [builder.py:2237]           [INFO]     | Details: have been updated                                                                         |
+[2022-01-16 14:54:38,581] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-01-16 14:54:38,581] [builder.py:2260]           [DEBUG]    | Method: tmdb_person Poster: https://image.tmdb.org/t/p/original/caX3KtMU42EP3VLRFFBwqIIrch5.jpg    |
+[2022-01-16 14:54:38,581] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-01-16 14:54:38,656] [library.py:145]            [INFO]     | Detail: tmdb_person updated poster to [URL] https://image.tmdb.org/t/p/original/caX3KtMU42EP3VLRFFBwqIIrch5.jpg |
+[2022-01-16 14:54:38,809] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-01-16 14:54:38,810] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-01-16 14:54:38,810] [util.py:216]               [INFO]     |                                  Finished Bruce Willis Collection                                  |
+[2022-01-16 14:54:38,811] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-01-16 14:54:38,811] [util.py:220]               [INFO]     |====================================================================================================|

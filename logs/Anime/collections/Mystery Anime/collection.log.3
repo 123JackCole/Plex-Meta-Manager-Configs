@@ -1,0 +1,704 @@
+[2022-05-31 04:20:07,895] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-05-31 04:20:07,895] [util.py:216]               [INFO]     |                                 Mystery Anime Collection in Anime                                  |
+[2022-05-31 04:20:07,896] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-05-31 04:20:07,896] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-05-31 04:20:07,896] [util.py:216]               [INFO]     |=============================== Validating Mystery Anime Attributes ================================|
+[2022-05-31 04:20:07,897] [builder.py:255]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,897] [builder.py:256]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-05-31 04:20:07,897] [builder.py:259]            [DEBUG]    | Value: Mystery                                                                                     |
+[2022-05-31 04:20:07,897] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,898] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-31 04:20:07,898] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-31 04:20:07,898] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,898] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-31 04:20:07,899] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-05-31 04:20:07,899] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,899] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-05-31 04:20:07,899] [builder.py:474]            [DEBUG]    | Value: ordereddict([('genre_id', 7)])                                                              |
+[2022-05-31 04:20:07,900] [builder.py:689]            [WARNING]  | Collection Warning: mal_genre limit attribute not found using 0 as default                         |
+[2022-05-31 04:20:07,900] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,900] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-31 04:20:07,900] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/coTt7oP.png                                                             |
+[2022-05-31 04:20:07,912] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-05-31 04:20:07,912] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-05-31 04:20:07,913] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-05-31 04:20:07,913] [util.py:216]               [INFO]     |================================= Running Mystery Anime Collection =================================|
+[2022-05-31 04:20:07,913] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-05-31 04:20:07,914] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-31 04:20:07,914] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:20:07,914] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 7, 'limit': 0}                                                    |
+[2022-05-31 04:20:07,914] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-05-31 04:20:07,915] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 7                                                                 |
+[2022-05-31 04:22:33,179] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-05-31 04:22:33,180] [mal.py:240]                [DEBUG]    | 755 MyAnimeList IDs Found: [31043, 37779, 11111, 6746, 5081, 34933, 12189, 31478, 34599, 4898, 23283, 2025, 19, 16592, 849, 20787, 2251, 40221, 457, 934, 13125, 32867, 14467, 28677, 11597, 37086, 339, 17074, 28497, 790, 7311, 3457, 14075, 7724, 31580, 40052, 5630, 8425, 38003, 4382, 38656, 1943, 23199, 1889, 31181, 39463, 24765, 5530, 31758, 10161, 31757, 21855, 7785, 35557, 6573, 2593, 28025, 47790, 39017, 12445, 27831, 22145, 323, 41120, 150, 35247, 27833, 15037, 4752, 11981, 37984, 228, 10490, 36862, 40911, 32189, 21431, 235, 32827, 46102, 40908, 202, 40046, 46471, 35838, 861, 33028, 10163, 20689, 10721, 2246, 15085, 4975, 21939, 33253, 39198, 29758, 21557, 387, 43690, 10588, 7338, 2924, 24701, 41006, 48849, 10568, 239, 21561, 32268, 3782, 23317, 4282, 36027, 34944, 1571, 801, 9941, 3783, 16009, 37451, 32438, 34712, 4896, 16035, 30187, 4280, 36999, 13367, 37208, 5205, 440, 35240, 43325, 32962, 3652, 11701, 5204, 48, 31812, 13469, 13599, 1281, 3901, 36548, 34103, 47194, 6372, 23421, 4789, 28621, 169, 721, 1594, 41084, 33337, 10798, 33071, 35889, 5177, 8915, 36124, 6637, 2596, 2164, 34102, 3701, 38959, 149, 3091, 37525, 7662, 21329, 31630, 30485, 33191, 369, 132, 28957, 38735, 969, 37447, 28619, 165, 34350, 33377, 16890, 6954, 7, 198, 14807, 272, 9981, 1430, 40359, 41392, 6974, 3713, 15109, 33263, 37515, 1566, 34152, 1412, 37514, 24687, 48488, 37522, 40752, 567, 30895, 37981, 38450, 7588, 31147, 24075, 10491, 50330, 37994, 38161, 14189, 2899, 7079, 1365, 1470, 6610, 953, 586, 10083, 38409, 4918, 16700, 6408, 779, 6864, 2985, 27947, 30191, 208, 793, 37952, 326, 781, 4938, 2369, 37964, 4879, 40230, 43229, 37458, 780, 1364, 44204, 1363, 1013, 23133, 10604, 38936, 34966, 5460, 40602, 35248, 142, 1367, 6467, 40075, 32915, 1506, 341, 2030, 50204, 6948, 31552, 40784, 37487, 1366, 12753, 1505, 48820, 34368, 47616, 6624, 13587, 22763, 916, 32015, 9963, 30868, 4447, 7768, 1601, 2171, 43767, 173, 12117, 13093, 252, 35857, 21419, 2449, 6163, 44387, 27969, 10713, 335, 37807, 11531, 32005, 45556, 1520, 2683, 50653, 14735, 37490, 279, 15651, 28479, 32313, 38536, 3673, 6927, 407, 15933, 299, 6115, 30524, 35815, 1096, 1425, 455, 2562, 1243, 2161, 12017, 38628, 18429, 497, 20423, 998, 34036, 34430, 6172, 2076, 37438, 3574, 40082, 13863, 35798, 30869, 876, 620, 39582, 30870, 12015, 38770, 38331, 1483, 1471, 36796, 39948, 1143, 34753, 49733, 35315, 12879, 1441, 7304, 222, 365, 1473, 6438, 28929, 308, 1369, 1472, 621, 3859, 49361, 2043, 14267, 32682, 1935, 1043, 49040, 3614, 942, 11341, 2618, 2237, 10469, 11375, 7598, 8609, 22817, 37175, 2514, 282, 38410, 2512, 50339, 37023, 10504, 41595, 1346, 6980, 41194, 1368, 10090, 39764, 2513, 49590, 39610, 2931, 36625, 1082, 31221, 1136, 364, 2515, 30825, 2597, 1844, 33969, 1145, 1085, 41877, 6783, 24909, 5348, 595, 6198, 10703, 1435, 26359, 21867, 6231, 1246, 31593, 40154, 2204, 8331, 50593, 13839, 1972, 1416, 1419, 1901, 17267, 9782, 31227, 1109, 37516, 1879, 48624, 1432, 35737, 1418, 1156, 7305, 2965, 41140, 37272, 10531, 1494, 37563, 7471, 1910, 2281, 13837, 30290, 27629, 39972, 49915, 4320, 23115, 33309, 2267, 1433, 13843, 9785, 7303, 1417, 1439, 8278, 1474, 36485, 1477, 2983, 1415, 2017, 41224, 244, 1475, 1437, 1252, 1438, 1981, 4003, 10923, 33820, 301, 7265, 6736, 1476, 34197, 2016, 1431, 24169, 1422, 48649, 1434, 49320, 1424, 36424, 50668, 999, 1421, 1414, 41659, 51252, 1420, 42883, 28673, 28869, 1423, 1429, 14647, 3019, 40156, 38720, 5578, 1427, 10766, 47413, 39382, 1880, 2967, 40995, 1428, 5019, 5918, 1548, 49138, 12433, 9786, 31670, 32946, 50094, 35231, 2018, 15783, 30291, 3024, 41919, 35776, 1456, 39905, 38742, 2704, 48481, 41141, 31486, 34974, 33490, 40578, 29437, 5288, 6069, 36722, 1973, 1664, 2077, 1611, 30537, 39066, 4756, 2057, 994, 3254, 1742, 1984, 2781, 33145, 188, 42057, 30818, 31923, 1966, 39736, 42178, 32830, 50098, 3245, 51296, 37365, 13955, 33149, 36762, 3309, 5157, 25077, 2972, 50919, 33308, 44067, 9846, 38788, 48455, 4202, 2055, 41029, 51585, 36827, 3743, 33146, 2003, 33150, 2901, 22055, 33508, 9154, 7112, 15819, 9509, 33152, 2690, 32376, 10104, 38918, 3313, 12481, 30178, 47537, 39332, 38540, 12483, 15347, 5926, 21701, 3396, 11799, 11685, 3435, 8162, 42295, 40340, 2538, 37938, 42476, 48917, 4819, 9882, 33761, 37643, 22053, 25267, 12485, 40348, 50010, 33151, 38577, 38923, 38461, 40732, 6674, 4917, 16247, 3778, 51116, 36644, 4941, 10755, 37737, 17403, 3294, 4332, 20441, 40994, 10481, 13299, 10194, 21255, 45518, 3813, 11093, 33693, 5088, 35656, 7939, 25253, 21037, 41564, 38688, 12139, 51494, 29837, 50462, 12259, 22439, 15211, 42296, 30066, 16393, 38690, 37928, 6091, 35404, 20581, 50429, 37152, 21447, 39720, 9371, 28955, 10965, 50586, 18819, 50240, 50629, 5468, 7459, 39335, 25983, 33717, 28263, 31599, 48866, 19991, 44588, 44213, 17487, 39766, 36969, 48486, 19705, 40142, 23801, 28019, 44570, 29275, 41776, 41778, 41777, 39435, 40863, 43774, 51238, 48342, 48784, 49611, 43297, 48301, 50799, 43888, 45068] |
+[2022-05-31 04:22:33,188] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4382                                         |
+[2022-05-31 04:22:33,189] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31758                                        |
+[2022-05-31 04:22:33,189] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31757                                        |
+[2022-05-31 04:22:33,189] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2593                                         |
+[2022-05-31 04:22:33,190] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 11981                                        |
+[2022-05-31 04:22:33,191] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7338                                         |
+[2022-05-31 04:22:33,192] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3782                                         |
+[2022-05-31 04:22:33,192] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4282                                         |
+[2022-05-31 04:22:33,192] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3783                                         |
+[2022-05-31 04:22:33,192] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4280                                         |
+[2022-05-31 04:22:33,193] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5205                                         |
+[2022-05-31 04:22:33,193] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5204                                         |
+[2022-05-31 04:22:33,194] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3901                                         |
+[2022-05-31 04:22:33,194] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15359                                     |
+[2022-05-31 04:22:33,197] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6954                                         |
+[2022-05-31 04:22:33,198] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37515                                        |
+[2022-05-31 04:22:33,199] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12436                                     |
+[2022-05-31 04:22:33,199] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37514                                        |
+[2022-05-31 04:22:33,199] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24687                                        |
+[2022-05-31 04:22:33,199] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 567                                          |
+[2022-05-31 04:22:33,200] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14428                                     |
+[2022-05-31 04:22:33,200] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16965                                     |
+[2022-05-31 04:22:33,201] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14189                                        |
+[2022-05-31 04:22:33,201] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2899                                         |
+[2022-05-31 04:22:33,202] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10083                                        |
+[2022-05-31 04:22:33,202] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14288                                     |
+[2022-05-31 04:22:33,203] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30191                                        |
+[2022-05-31 04:22:33,205] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14172                                     |
+[2022-05-31 04:22:33,206] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10604                                        |
+[2022-05-31 04:22:33,208] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32915                                        |
+[2022-05-31 04:22:33,208] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6948                                         |
+[2022-05-31 04:22:33,208] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31552                                        |
+[2022-05-31 04:22:33,209] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15381                                     |
+[2022-05-31 04:22:33,210] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 47616                                        |
+[2022-05-31 04:22:33,210] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6624                                         |
+[2022-05-31 04:22:33,211] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13587                                        |
+[2022-05-31 04:22:33,212] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32015                                        |
+[2022-05-31 04:22:33,212] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30868                                        |
+[2022-05-31 04:22:33,215] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6163                                         |
+[2022-05-31 04:22:33,215] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10713                                        |
+[2022-05-31 04:22:33,216] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37807                                        |
+[2022-05-31 04:22:33,217] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15961                                     |
+[2022-05-31 04:22:33,217] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1520                                         |
+[2022-05-31 04:22:33,217] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17076                                     |
+[2022-05-31 04:22:33,218] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15599                                     |
+[2022-05-31 04:22:33,219] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9476                                      |
+[2022-05-31 04:22:33,219] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35815                                        |
+[2022-05-31 04:22:33,220] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12017                                        |
+[2022-05-31 04:22:33,220] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14472                                     |
+[2022-05-31 04:22:33,221] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 20423                                        |
+[2022-05-31 04:22:33,221] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12644                                     |
+[2022-05-31 04:22:33,223] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30869                                        |
+[2022-05-31 04:22:33,223] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30870                                        |
+[2022-05-31 04:22:33,223] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12015                                        |
+[2022-05-31 04:22:33,224] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36796                                        |
+[2022-05-31 04:22:33,224] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1143                                         |
+[2022-05-31 04:22:33,224] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34753                                        |
+[2022-05-31 04:22:33,225] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16600                                     |
+[2022-05-31 04:22:33,225] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7304                                         |
+[2022-05-31 04:22:33,227] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2043                                         |
+[2022-05-31 04:22:33,227] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1935                                         |
+[2022-05-31 04:22:33,227] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2237                                         |
+[2022-05-31 04:22:33,228] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10469                                        |
+[2022-05-31 04:22:33,229] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13766                                     |
+[2022-05-31 04:22:33,229] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38410                                        |
+[2022-05-31 04:22:33,229] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16967                                     |
+[2022-05-31 04:22:33,229] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10504                                        |
+[2022-05-31 04:22:33,230] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13713                                     |
+[2022-05-31 04:22:33,230] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41194                                        |
+[2022-05-31 04:22:33,230] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10090                                        |
+[2022-05-31 04:22:33,230] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14886                                     |
+[2022-05-31 04:22:33,231] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14799                                     |
+[2022-05-31 04:22:33,231] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36625                                        |
+[2022-05-31 04:22:33,231] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30825                                        |
+[2022-05-31 04:22:33,231] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13351                                     |
+[2022-05-31 04:22:33,232] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15540                                     |
+[2022-05-31 04:22:33,232] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6783                                         |
+[2022-05-31 04:22:33,232] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 26359                                        |
+[2022-05-31 04:22:33,233] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31593                                        |
+[2022-05-31 04:22:33,233] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15021                                     |
+[2022-05-31 04:22:33,234] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17040                                     |
+[2022-05-31 04:22:33,235] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1109                                         |
+[2022-05-31 04:22:33,236] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16180                                     |
+[2022-05-31 04:22:33,237] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13225                                     |
+[2022-05-31 04:22:33,237] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7305                                         |
+[2022-05-31 04:22:33,237] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41140                                        |
+[2022-05-31 04:22:33,238] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37272                                        |
+[2022-05-31 04:22:33,239] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13954                                     |
+[2022-05-31 04:22:33,239] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7471                                         |
+[2022-05-31 04:22:33,239] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1910                                         |
+[2022-05-31 04:22:33,239] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11727                                     |
+[2022-05-31 04:22:33,240] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39972                                        |
+[2022-05-31 04:22:33,240] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49915                                        |
+[2022-05-31 04:22:33,240] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 23115                                        |
+[2022-05-31 04:22:33,241] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12967                                     |
+[2022-05-31 04:22:33,242] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9105                                      |
+[2022-05-31 04:22:33,243] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7303                                         |
+[2022-05-31 04:22:33,243] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1417                                         |
+[2022-05-31 04:22:33,244] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8750                                      |
+[2022-05-31 04:22:33,244] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36485                                        |
+[2022-05-31 04:22:33,246] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15966                                     |
+[2022-05-31 04:22:33,248] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4003                                         |
+[2022-05-31 04:22:33,248] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7265                                         |
+[2022-05-31 04:22:33,248] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6736                                         |
+[2022-05-31 04:22:33,249] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12455                                     |
+[2022-05-31 04:22:33,249] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10976                                     |
+[2022-05-31 04:22:33,250] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16186                                     |
+[2022-05-31 04:22:33,251] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17009                                     |
+[2022-05-31 04:22:33,251] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36424                                        |
+[2022-05-31 04:22:33,252] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17080                                     |
+[2022-05-31 04:22:33,252] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15497                                     |
+[2022-05-31 04:22:33,253] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17256                                     |
+[2022-05-31 04:22:33,253] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11561                                     |
+[2022-05-31 04:22:33,253] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1423                                         |
+[2022-05-31 04:22:33,254] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40156                                        |
+[2022-05-31 04:22:33,255] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14501                                     |
+[2022-05-31 04:22:33,255] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5578                                         |
+[2022-05-31 04:22:33,255] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15999                                     |
+[2022-05-31 04:22:33,256] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1428                                         |
+[2022-05-31 04:22:33,256] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3496                                      |
+[2022-05-31 04:22:33,256] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49138                                        |
+[2022-05-31 04:22:33,257] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10741                                     |
+[2022-05-31 04:22:33,258] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13396                                     |
+[2022-05-31 04:22:33,258] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50094                                        |
+[2022-05-31 04:22:33,258] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1406                                      |
+[2022-05-31 04:22:33,259] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11728                                     |
+[2022-05-31 04:22:33,259] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41919                                        |
+[2022-05-31 04:22:33,260] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35776                                        |
+[2022-05-31 04:22:33,260] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14938                                     |
+[2022-05-31 04:22:33,260] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15514                                     |
+[2022-05-31 04:22:33,260] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16192                                     |
+[2022-05-31 04:22:33,261] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41141                                        |
+[2022-05-31 04:22:33,261] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11527                                     |
+[2022-05-31 04:22:33,261] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12898                                     |
+[2022-05-31 04:22:33,261] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29437                                        |
+[2022-05-31 04:22:33,262] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5288                                         |
+[2022-05-31 04:22:33,262] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2235                                      |
+[2022-05-31 04:22:33,262] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13596                                     |
+[2022-05-31 04:22:33,263] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2797                                      |
+[2022-05-31 04:22:33,263] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2618                                      |
+[2022-05-31 04:22:33,263] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11744                                     |
+[2022-05-31 04:22:33,263] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39066                                        |
+[2022-05-31 04:22:33,263] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4351                                      |
+[2022-05-31 04:22:33,568] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3254                                         |
+[2022-05-31 04:22:33,570] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12537                                     |
+[2022-05-31 04:22:33,570] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 188                                          |
+[2022-05-31 04:22:33,571] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15570                                     |
+[2022-05-31 04:22:33,571] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31923                                        |
+[2022-05-31 04:22:33,571] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14959                                     |
+[2022-05-31 04:22:33,571] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16269                                     |
+[2022-05-31 04:22:33,572] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50098                                        |
+[2022-05-31 04:22:33,572] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51296                                        |
+[2022-05-31 04:22:33,572] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13836                                     |
+[2022-05-31 04:22:33,573] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13955                                        |
+[2022-05-31 04:22:33,573] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33149                                        |
+[2022-05-31 04:22:33,573] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13801                                     |
+[2022-05-31 04:22:33,573] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3309                                         |
+[2022-05-31 04:22:33,574] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50919                                        |
+[2022-05-31 04:22:33,574] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12130                                     |
+[2022-05-31 04:22:33,575] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15967                                     |
+[2022-05-31 04:22:33,575] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8094                                      |
+[2022-05-31 04:22:33,575] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38788                                        |
+[2022-05-31 04:22:33,575] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4202                                         |
+[2022-05-31 04:22:33,576] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15353                                     |
+[2022-05-31 04:22:33,576] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17310                                     |
+[2022-05-31 04:22:33,577] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13591                                     |
+[2022-05-31 04:22:33,577] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4393                                      |
+[2022-05-31 04:22:33,577] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33146                                        |
+[2022-05-31 04:22:33,577] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2795                                      |
+[2022-05-31 04:22:33,578] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33150                                        |
+[2022-05-31 04:22:33,578] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 22055                                        |
+[2022-05-31 04:22:33,579] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13352                                     |
+[2022-05-31 04:22:33,579] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7068                                      |
+[2022-05-31 04:22:33,579] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7235                                      |
+[2022-05-31 04:22:33,579] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33152                                        |
+[2022-05-31 04:22:33,580] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32376                                        |
+[2022-05-31 04:22:33,580] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10104                                        |
+[2022-05-31 04:22:33,581] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15466                                     |
+[2022-05-31 04:22:33,581] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8016                                      |
+[2022-05-31 04:22:33,581] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30178                                        |
+[2022-05-31 04:22:33,581] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16046                                     |
+[2022-05-31 04:22:33,582] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39332                                        |
+[2022-05-31 04:22:33,583] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8017                                      |
+[2022-05-31 04:22:33,584] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 15347                                        |
+[2022-05-31 04:22:33,584] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2648                                      |
+[2022-05-31 04:22:33,584] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 21701                                        |
+[2022-05-31 04:22:33,584] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3396                                         |
+[2022-05-31 04:22:33,585] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2578                                      |
+[2022-05-31 04:22:33,585] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5173                                      |
+[2022-05-31 04:22:33,585] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15608                                     |
+[2022-05-31 04:22:33,586] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40340                                        |
+[2022-05-31 04:22:33,586] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 605                                       |
+[2022-05-31 04:22:33,586] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16330                                     |
+[2022-05-31 04:22:33,587] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16301                                     |
+[2022-05-31 04:22:33,587] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16311                                     |
+[2022-05-31 04:22:33,587] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4819                                         |
+[2022-05-31 04:22:33,587] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6027                                      |
+[2022-05-31 04:22:33,587] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33761                                        |
+[2022-05-31 04:22:33,588] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13802                                     |
+[2022-05-31 04:22:33,588] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8927                                      |
+[2022-05-31 04:22:33,588] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 25267                                        |
+[2022-05-31 04:22:33,589] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8018                                      |
+[2022-05-31 04:22:33,589] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40348                                        |
+[2022-05-31 04:22:33,589] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16841                                     |
+[2022-05-31 04:22:33,589] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33151                                        |
+[2022-05-31 04:22:33,589] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14455                                     |
+[2022-05-31 04:22:33,590] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38923                                        |
+[2022-05-31 04:22:33,590] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15195                                     |
+[2022-05-31 04:22:33,590] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16636                                     |
+[2022-05-31 04:22:33,591] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6674                                         |
+[2022-05-31 04:22:33,591] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5742                                      |
+[2022-05-31 04:22:33,591] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4864                                      |
+[2022-05-31 04:22:33,591] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4034                                      |
+[2022-05-31 04:22:33,592] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17219                                     |
+[2022-05-31 04:22:33,592] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13722                                     |
+[2022-05-31 04:22:33,592] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8488                                      |
+[2022-05-31 04:22:33,592] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3178                                      |
+[2022-05-31 04:22:33,593] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13627                                     |
+[2022-05-31 04:22:33,593] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3179                                      |
+[2022-05-31 04:22:33,593] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 20441                                        |
+[2022-05-31 04:22:33,593] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40994                                        |
+[2022-05-31 04:22:33,593] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2755                                      |
+[2022-05-31 04:22:33,594] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7695                                      |
+[2022-05-31 04:22:33,594] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8441                                      |
+[2022-05-31 04:22:33,594] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10513                                     |
+[2022-05-31 04:22:33,594] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 45518                                        |
+[2022-05-31 04:22:33,595] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4005                                      |
+[2022-05-31 04:22:33,595] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6602                                      |
+[2022-05-31 04:22:33,595] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33693                                        |
+[2022-05-31 04:22:33,595] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4686                                      |
+[2022-05-31 04:22:33,595] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35656                                        |
+[2022-05-31 04:22:33,596] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7939                                         |
+[2022-05-31 04:22:33,596] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11231                                     |
+[2022-05-31 04:22:33,596] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11299                                     |
+[2022-05-31 04:22:33,596] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41564                                        |
+[2022-05-31 04:22:33,596] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14287                                     |
+[2022-05-31 04:22:33,597] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2874                                      |
+[2022-05-31 04:22:33,597] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51494                                        |
+[2022-05-31 04:22:33,597] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29837                                        |
+[2022-05-31 04:22:33,599] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16760                                     |
+[2022-05-31 04:22:33,600] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7533                                      |
+[2022-05-31 04:22:33,600] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7175                                      |
+[2022-05-31 04:22:33,600] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9352                                      |
+[2022-05-31 04:22:33,600] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15424                                     |
+[2022-05-31 04:22:33,601] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30066                                        |
+[2022-05-31 04:22:33,601] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7333                                      |
+[2022-05-31 04:22:33,601] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14855                                     |
+[2022-05-31 04:22:33,601] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13653                                     |
+[2022-05-31 04:22:33,602] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4482                                      |
+[2022-05-31 04:22:33,602] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12871                                     |
+[2022-05-31 04:22:33,602] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11232                                     |
+[2022-05-31 04:22:33,603] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50429                                        |
+[2022-05-31 04:22:33,603] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13820                                     |
+[2022-05-31 04:22:33,603] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10294                                     |
+[2022-05-31 04:22:33,603] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13654                                     |
+[2022-05-31 04:22:33,604] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7943                                      |
+[2022-05-31 04:22:33,604] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11359                                     |
+[2022-05-31 04:22:33,604] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2348                                      |
+[2022-05-31 04:22:33,604] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17034                                     |
+[2022-05-31 04:22:33,605] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3084                                      |
+[2022-05-31 04:22:33,605] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50240                                        |
+[2022-05-31 04:22:33,605] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17032                                     |
+[2022-05-31 04:22:33,606] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5497                                      |
+[2022-05-31 04:22:33,606] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13204                                     |
+[2022-05-31 04:22:33,606] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39335                                        |
+[2022-05-31 04:22:33,607] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8458                                      |
+[2022-05-31 04:22:33,607] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33717                                        |
+[2022-05-31 04:22:33,607] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28263                                        |
+[2022-05-31 04:22:33,607] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11587                                     |
+[2022-05-31 04:22:33,608] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48866                                        |
+[2022-05-31 04:22:33,608] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5170                                      |
+[2022-05-31 04:22:33,608] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44588                                        |
+[2022-05-31 04:22:33,608] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44213                                        |
+[2022-05-31 04:22:33,609] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3979                                      |
+[2022-05-31 04:22:33,609] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39766                                        |
+[2022-05-31 04:22:33,609] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36969                                        |
+[2022-05-31 04:22:33,609] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 19705                                        |
+[2022-05-31 04:22:33,610] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40142                                        |
+[2022-05-31 04:22:33,610] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2417                                      |
+[2022-05-31 04:22:33,610] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28019                                        |
+[2022-05-31 04:22:33,610] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14869                                     |
+[2022-05-31 04:22:33,611] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29275                                        |
+[2022-05-31 04:22:33,611] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41776                                        |
+[2022-05-31 04:22:33,611] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15429                                     |
+[2022-05-31 04:22:33,611] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15084                                     |
+[2022-05-31 04:22:33,612] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14712                                     |
+[2022-05-31 04:22:33,612] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15310                                     |
+[2022-05-31 04:22:33,612] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 43774                                        |
+[2022-05-31 04:22:33,612] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51238                                        |
+[2022-05-31 04:22:33,613] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48342                                        |
+[2022-05-31 04:22:33,615] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48784                                        |
+[2022-05-31 04:22:33,615] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49611                                        |
+[2022-05-31 04:22:33,615] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 43297                                        |
+[2022-05-31 04:22:33,616] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48301                                        |
+[2022-05-31 04:22:33,616] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50799                                        |
+[2022-05-31 04:22:33,616] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 43888                                        |
+[2022-05-31 04:22:33,616] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 45068                                        |
+[2022-05-31 04:22:33,617] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:22:33,617] [builder.py:1283]           [DEBUG]    | 456 IDs Found: [(303071, 'tvdb'), (348002, 'tvdb'), (254349, 'tvdb'), (133341, 'tvdb'), (102261, 'tvdb'), (327572, 'tvdb'), (257764, 'tvdb'), (305075, 'tvdb'), (326109, 'tvdb'), (83996, 'tvdb'), (279986, 'tvdb'), (80042, 'tvdb'), (74599, 'tvdb'), (270058, 'tvdb'), (79414, 'tvdb'), (276890, 'tvdb'), (80421, 'tvdb'), (376729, 'tvdb'), (79214, 'tvdb'), (79682, 'tvdb'), (262838, 'tvdb'), (305075, 'tvdb'), (261249, 'tvdb'), (289744, 'tvdb'), (102261, 'tvdb'), (327572, 'tvdb'), (78814, 'tvdb'), (102261, 'tvdb'), (295243, 'tvdb'), (79228, 'tvdb'), (36865, 'tmdb'), (81816, 'tvdb'), (262109, 'tvdb'), (172941, 'tvdb'), (300835, 'tvdb'), (376144, 'tvdb'), (88721, 'tvdb'), (218191, 'tvdb'), (305075, 'tvdb'), (355220, 'tvdb'), (4977, 'tmdb'), (133341, 'tvdb'), (79682, 'tvdb'), (102261, 'tvdb'), (374198, 'tvdb'), (283946, 'tvdb'), (87861, 'tvdb'), (250030, 'tvdb'), (102261, 'tvdb'), (140751, 'tvdb'), (331787, 'tvdb'), (80042, 'tvdb'), (102261, 'tvdb'), (398193, 'tvdb'), (368565, 'tvdb'), (257852, 'tvdb'), (133341, 'tvdb'), (83996, 'tvdb'), (75092, 'tvdb'), (376211, 'tvdb'), (78960, 'tvdb'), (102261, 'tvdb'), (133341, 'tvdb'), (271988, 'tvdb'), (81816, 'tvdb'), (377902, 'tvdb'), (79106, 'tvdb'), (249864, 'tvdb'), (573730, 'tmdb'), (385542, 'tvdb'), (270058, 'tvdb'), (279396, 'tvdb'), (72454, 'tvdb'), (339353, 'tvdb'), (397208, 'tvdb'), (390382, 'tvdb'), (79060, 'tvdb'), (370377, 'tvdb'), (397197, 'tvdb'), (332983, 'tvdb'), (79283, 'tvdb'), (314361, 'tvdb'), (239951, 'tvdb'), (275634, 'tvdb'), (250084, 'tvdb'), (80470, 'tvdb'), (264532, 'tvdb'), (83358, 'tvdb'), (79214, 'tvdb'), (300835, 'tvdb'), (361456, 'tvdb'), (311537, 'tvdb'), (242828, 'tmdb'), (79105, 'tvdb'), (391006, 'tvdb'), (252232, 'tvdb'), (80904, 'tvdb'), (79214, 'tvdb'), (385002, 'tvdb'), (401948, 'tvdb'), (249876, 'tvdb'), (79178, 'tvdb'), (276896, 'tvdb'), (102261, 'tvdb'), (83996, 'tvdb'), (332981, 'tvdb'), (305075, 'tvdb'), (79527, 'tvdb'), (73749, 'tvdb'), (246381, 'tvdb'), (270068, 'tvdb'), (355624, 'tvdb'), (305099, 'tvdb'), (332159, 'tvdb'), (101981, 'tvdb'), (267438, 'tvdb'), (299509, 'tvdb'), (102261, 'tvdb'), (259645, 'tvdb'), (341295, 'tvdb'), (79449, 'tvdb'), (328827, 'tvdb'), (385542, 'tvdb'), (316332, 'tvdb'), (79682, 'tvdb'), (254349, 'tvdb'), (79099, 'tvdb'), (432131, 'tmdb'), (257764, 'tvdb'), (259849, 'tvdb'), (82234, 'tvdb'), (336480, 'tvdb'), (314361, 'tvdb'), (407306, 'tvdb'), (35435, 'tmdb'), (275634, 'tvdb'), (80904, 'tvdb'), (296072, 'tvdb'), (74522, 'tvdb'), (76045, 'tvdb'), (79106, 'tvdb'), (319983, 'tvdb'), (252472, 'tvdb'), (305075, 'tvdb'), (337617, 'tvdb'), (105361, 'tvdb'), (249868, 'tvdb'), (335237, 'tvdb'), (44734, 'tmdb'), (80733, 'tvdb'), (81037, 'tvdb'), (320169, 'tvdb'), (81991, 'tvdb'), (357492, 'tvdb'), (79031, 'tvdb'), (79283, 'tvdb'), (369143, 'tvdb'), (193841, 'tvdb'), (79214, 'tvdb'), (305077, 'tvdb'), (320459, 'tvdb'), (262954, 'tvdb'), (71742, 'tvdb'), (79056, 'tvdb'), (312966, 'tmdb'), (356032, 'tvdb'), (76023, 'tvdb'), (351743, 'tvdb'), (295894, 'tvdb'), (72720, 'tvdb'), (324709, 'tvdb'), (315093, 'tvdb'), (270066, 'tvdb'), (78936, 'tvdb'), (78972, 'tvdb'), (212156, 'tmdb'), (78947, 'tvdb'), (252423, 'tvdb'), (15371, 'tmdb'), (381769, 'tvdb'), (388381, 'tvdb'), (171701, 'tvdb'), (79106, 'tvdb'), (264525, 'tvdb'), (319357, 'tvdb'), (18874, 'tmdb'), (71863, 'tvdb'), (385002, 'tvdb'), (369140, 'tvdb'), (399147, 'tvdb'), (303729, 'tvdb'), (585077, 'tmdb'), (156821, 'tvdb'), (299491, 'tvdb'), (282040, 'tvdb'), (79682, 'tvdb'), (339353, 'tvdb'), (355219, 'tvdb'), (133451, 'tvdb'), (26662, 'tmdb'), (72877, 'tvdb'), (50388, 'tmdb'), (79931, 'tvdb'), (79202, 'tvdb'), (79283, 'tvdb'), (79682, 'tvdb'), (60669, 'tmdb'), (21422, 'tmdb'), (79283, 'tvdb'), (81829, 'tvdb'), (71863, 'tvdb'), (82319, 'tvdb'), (38567, 'tmdb'), (360154, 'tvdb'), (82970, 'tvdb'), (28808, 'tmdb'), (76023, 'tvdb'), (80677, 'tvdb'), (83474, 'tvdb'), (373276, 'tvdb'), (389696, 'tvdb'), (348601, 'tvdb'), (21452, 'tmdb'), (32022, 'tmdb'), (368565, 'tvdb'), (20677, 'tmdb'), (79470, 'tvdb'), (279829, 'tvdb'), (357492, 'tvdb'), (79106, 'tvdb'), (28764, 'tmdb'), (356032, 'tvdb'), (327010, 'tvdb'), (72832, 'tvdb'), (39203, 'tmdb'), (97375, 'tmdb'), (384017, 'tvdb'), (39205, 'tmdb'), (79059, 'tvdb'), (81096, 'tvdb'), (411770, 'tvdb'), (347467, 'tvdb'), (39202, 'tmdb'), (252423, 'tvdb'), (39204, 'tmdb'), (219181, 'tvdb'), (329823, 'tvdb'), (82099, 'tvdb'), (79774, 'tvdb'), (77617, 'tmdb'), (39207, 'tmdb'), (197261, 'tvdb'), (79975, 'tvdb'), (39206, 'tmdb'), (402003, 'tvdb'), (81052, 'tvdb'), (72454, 'tvdb'), (257571, 'tvdb'), (75001, 'tvdb'), (71863, 'tvdb'), (257512, 'tmdb'), (18839, 'tmdb'), (407852, 'tvdb'), (311054, 'tmdb'), (84536, 'tvdb'), (115264, 'tmdb'), (374856, 'tmdb'), (80014, 'tvdb'), (228805, 'tmdb'), (305077, 'tvdb'), (74957, 'tvdb'), (252423, 'tvdb'), (316873, 'tmdb'), (299491, 'tvdb'), (84632, 'tvdb'), (88721, 'tvdb'), (230211, 'tvdb'), (79099, 'tvdb'), (46033, 'tmdb'), (300106, 'tvdb'), (14572, 'tmdb'), (71863, 'tvdb'), (79136, 'tvdb'), (81145, 'tvdb'), (79484, 'tvdb'), (80386, 'tvdb'), (239529, 'tmdb'), (81627, 'tvdb'), (76695, 'tvdb'), (438058, 'tmdb'), (41066, 'tmdb'), (79460, 'tvdb'), (349993, 'tvdb'), (134401, 'tvdb'), (614587, 'tmdb'), (259863, 'tvdb'), (493006, 'tmdb'), (75534, 'tvdb'), (120151, 'tvdb'), (372238, 'tvdb'), (566555, 'tmdb'), (361439, 'tvdb'), (71767, 'tvdb'), (72877, 'tvdb'), (347467, 'tvdb'), (320459, 'tvdb'), (249868, 'tvdb'), (79446, 'tvdb'), (30620, 'tmdb'), (72877, 'tvdb'), (72454, 'tvdb'), (291723, 'tvdb'), (79592, 'tvdb'), (72454, 'tvdb'), (72877, 'tvdb'), (82070, 'tvdb'), (81984, 'tvdb'), (357492, 'tvdb'), (252232, 'tvdb'), (300106, 'tvdb'), (84749, 'tvdb'), (71863, 'tvdb'), (83766, 'tvdb'), (83619, 'tvdb'), (197261, 'tvdb'), (219581, 'tvdb'), (128253, 'tmdb'), (56362, 'tmdb'), (72454, 'tvdb'), (79460, 'tvdb'), (72454, 'tvdb'), (80596, 'tvdb'), (72454, 'tvdb'), (343054, 'tvdb'), (79223, 'tvdb'), (125561, 'tvdb'), (72454, 'tvdb'), (72454, 'tvdb'), (408631, 'tvdb'), (81631, 'tvdb'), (81113, 'tvdb'), (301631, 'tvdb'), (71654, 'tvdb'), (173111, 'tvdb'), (72454, 'tvdb'), (72454, 'tvdb'), (91081, 'tvdb'), (74462, 'tvdb'), (80466, 'tvdb'), (283930, 'tvdb'), (72454, 'tvdb'), (70865, 'tvdb'), (72454, 'tvdb'), (72454, 'tvdb'), (30143, 'tmdb'), (546822, 'tmdb'), (72454, 'tvdb'), (82075, 'tvdb'), (79457, 'tvdb'), (72454, 'tvdb'), (72454, 'tvdb'), (73082, 'tvdb'), (31050, 'tmdb'), (31049, 'tmdb'), (28214, 'tmdb'), (197261, 'tvdb'), (111608, 'tmdb'), (79460, 'tvdb'), (540141, 'tmdb'), (181851, 'tvdb'), (50482, 'tmdb'), (71863, 'tvdb'), (87481, 'tvdb'), (145011, 'tvdb'), (72454, 'tvdb'), (51576, 'tmdb'), (250606, 'tvdb'), (72454, 'tvdb'), (197261, 'tvdb'), (26546, 'tmdb'), (79975, 'tvdb'), (32873, 'tmdb'), (72454, 'tvdb'), (31599, 'tmdb'), (38954, 'tmdb'), (38952, 'tmdb'), (73792, 'tmdb'), (31051, 'tmdb'), (120151, 'tvdb'), (92391, 'tvdb'), (189068, 'tmdb'), (31595, 'tmdb'), (121139, 'tmdb'), (76190, 'tmdb'), (87031, 'tvdb'), (197261, 'tvdb'), (317391, 'tvdb'), (82873, 'tvdb'), (189071, 'tmdb'), (120151, 'tvdb'), (31594, 'tmdb'), (31053, 'tmdb'), (45378, 'tmdb'), (80868, 'tmdb'), (76695, 'tvdb'), (80861, 'tmdb'), (39954, 'tmdb'), (80857, 'tmdb'), (389235, 'tvdb'), (283930, 'tvdb'), (80866, 'tmdb'), (197261, 'tvdb'), (80863, 'tmdb'), (33176, 'tmdb'), (72454, 'tvdb'), (358331, 'tvdb'), (181851, 'tvdb'), (84368, 'tvdb'), (358890, 'tvdb'), (59719, 'tmdb'), (85146, 'tvdb'), (72454, 'tvdb'), (283930, 'tvdb'), (329823, 'tvdb'), (251432, 'tmdb'), (250920, 'tvdb'), (83406, 'tvdb'), (85428, 'tvdb'), (283930, 'tvdb'), (71863, 'tvdb'), (82961, 'tvdb'), (79460, 'tvdb'), (253493, 'tvdb'), (81896, 'tvdb'), (85796, 'tmdb'), (89791, 'tvdb'), (72877, 'tvdb'), (250974, 'tvdb'), (319996, 'tvdb'), (79460, 'tvdb'), (183171, 'tvdb'), (279555, 'tvdb'), (69840, 'tmdb'), (339076, 'tvdb'), (174712, 'tmdb'), (68537, 'tmdb'), (79460, 'tvdb'), (79460, 'tvdb'), (148923, 'tmdb'), (219541, 'tvdb'), (197261, 'tvdb'), (400139, 'tmdb'), (219581, 'tvdb'), (262007, 'tvdb'), (174131, 'tvdb'), (358138, 'tvdb')] |
+[2022-05-31 04:22:33,617] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:22:33,670] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:33,671] [util.py:216]               [INFO]     |=================================== Adding to Mystery Collection ===================================|
+[2022-05-31 04:22:33,671] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:33,671] [builder.py:1709]           [INFO]     | 1/1 | Mystery Collection | = | Mushi-Shi                                                           |
+[2022-05-31 04:22:33,672] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:33,672] [builder.py:1735]           [INFO]     | 1 Show Processed                                                                                   |
+[2022-05-31 04:22:33,672] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:33,672] [util.py:216]               [INFO]     |=============================== Missing Movies from Library: Mystery ===============================|
+[2022-05-31 04:22:33,673] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:33,675] [builder.py:1943]           [INFO]     | Mystery Collection | ? | The Disappearance of Haruhi Suzumiya (2010) (TMDb: 36865)                 |
+[2022-05-31 04:22:33,677] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Paprika (2006) (TMDb: 4977)                                               |
+[2022-05-31 04:22:33,678] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Made in Abyss: Dawn of the Deep Soul (2020) (TMDb: 573730)                |
+[2022-05-31 04:22:33,680] [builder.py:1943]           [INFO]     | Mystery Collection | ? | When Marnie Was There (2014) (TMDb: 242828)                               |
+[2022-05-31 04:22:33,680] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Black Butler: Book of the Atlantic (2017) (TMDb: 432131)                  |
+[2022-05-31 04:22:33,859] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Eden of the East Movie I: The King of Eden (2009) (TMDb: 35435)           |
+[2022-05-31 04:22:34,044] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Eden of the East Movie II: Paradise Lost (2010) (TMDb: 44734)             |
+[2022-05-31 04:22:34,045] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Mushi-Shi: The Next Chapter - Drops of Bells (2015) (TMDb: 312966)        |
+[2022-05-31 04:22:34,046] [builder.py:1943]           [INFO]     | Mystery Collection | ? | The Garden of Sinners: Future Gospel (2013) (TMDb: 212156)                |
+[2022-05-31 04:22:34,047] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Castle of Cagliostro (1979) (TMDb: 15371)            |
+[2022-05-31 04:22:34,055] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Ghost in the Shell: Stand Alone Complex - Solid State Society (2006) (TMDb: 18874) |
+[2022-05-31 04:22:34,056] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Children of the Sea (2019) (TMDb: 585077)                                 |
+[2022-05-31 04:22:34,057] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Phantom of Baker Street (2002) (TMDb: 26662)         |
+[2022-05-31 04:22:34,058] [builder.py:1943]           [INFO]     | Mystery Collection | ? | King of Thorn (2009) (TMDb: 50388)                                        |
+[2022-05-31 04:22:34,059] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Book Girl (2010) (TMDb: 60669)                                            |
+[2022-05-31 04:22:34,060] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Time Bombed Skyscraper (1997) (TMDb: 21422)          |
+[2022-05-31 04:22:34,060] [builder.py:1943]           [INFO]     | Mystery Collection | ? | xxxHOLiC The Movie: A Midsummer Night's Dream (2005) (TMDb: 38567)        |
+[2022-05-31 04:22:34,061] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Last Wizard of the Century (1999) (TMDb: 28808)      |
+[2022-05-31 04:22:34,062] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Fourteenth Target (1998) (TMDb: 21452)               |
+[2022-05-31 04:22:34,063] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Case Closed: Countdown to Heaven (2001) (TMDb: 32022)                     |
+[2022-05-31 04:22:34,063] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Captured in Her Eyes (2000) (TMDb: 20677)                |
+[2022-05-31 04:22:34,064] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Raven Chaser (2009) (TMDb: 28764)                    |
+[2022-05-31 04:22:34,065] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Magician of the Silver Sky (2004) (TMDb: 39203)          |
+[2022-05-31 04:22:34,065] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Lost Ship in the Sky (2010) (TMDb: 97375)            |
+[2022-05-31 04:22:34,066] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Private Eyes' Requiem (2006) (TMDb: 39205)           |
+[2022-05-31 04:22:34,067] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Crossroad in the Ancient Capital (2003) (TMDb: 39202)    |
+[2022-05-31 04:22:34,067] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Strategy Above the Depths (2005) (TMDb: 39204)           |
+[2022-05-31 04:22:34,068] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Quarter of Silence (2011) (TMDb: 77617)                  |
+[2022-05-31 04:22:34,069] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Full Score of Fear (2008) (TMDb: 39207)                  |
+[2022-05-31 04:22:34,069] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Jolly Roger in the Deep Azure (2007) (TMDb: 39206)       |
+[2022-05-31 04:22:34,070] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Dimensional Sniper (2014) (TMDb: 257512)                 |
+[2022-05-31 04:22:34,071] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Ghost in the Shell: Stand Alone Complex - The Laughing Man (2005) (TMDb: 18839) |
+[2022-05-31 04:22:34,072] [builder.py:1943]           [INFO]     | Mystery Collection | ? | The Case of Hana & Alice (2015) (TMDb: 311054)                            |
+[2022-05-31 04:22:34,073] [builder.py:1943]           [INFO]     | Mystery Collection | ? | UN-GO episode:0 INGA-RON (2011) (TMDb: 115264)                            |
+[2022-05-31 04:22:34,073] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Darkest Nightmare (2016) (TMDb: 374856)              |
+[2022-05-31 04:22:34,074] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Private Eye in the Distant Sea (2013) (TMDb: 228805)     |
+[2022-05-31 04:22:34,075] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Sunflowers of Inferno (2015) (TMDb: 316873)              |
+[2022-05-31 04:22:34,075] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third vs. Detective Conan (2009) (TMDb: 46033)                  |
+[2022-05-31 04:22:34,076] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Patlabor 2: The Movie (1993) (TMDb: 14572)                                |
+[2022-05-31 04:22:34,078] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third vs. Detective Conan: The Movie (2013) (TMDb: 239529)      |
+[2022-05-31 04:22:34,079] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Crimson Love Letter (2017) (TMDb: 438058)            |
+[2022-05-31 04:22:34,079] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Professor Layton and the Eternal Diva (2009) (TMDb: 41066)                |
+[2022-05-31 04:22:34,080] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin III: The First (2019) (TMDb: 614587)                                |
+[2022-05-31 04:22:34,081] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: Zero the Enforcer (2018) (TMDb: 493006)                  |
+[2022-05-31 04:22:34,082] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Detective Conan: The Fist of Blue Sapphire (2019) (TMDb: 566555)          |
+[2022-05-31 04:22:34,082] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Fake (1998) (TMDb: 30620)                                                 |
+[2022-05-31 04:22:34,083] [builder.py:1943]           [INFO]     | Mystery Collection | ? | .hack//Beyond the World (2012) (TMDb: 128253)                             |
+[2022-05-31 04:22:34,265] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Loups=Garous (2010) (TMDb: 56362)                                         |
+[2022-05-31 04:22:34,266] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Mystery of Mamo (1978) (TMDb: 30143)                 |
+[2022-05-31 04:22:34,266] [builder.py:1943]           [INFO]     | Mystery Collection | ? | The Disappearance of Conan Edogawa: The Worst Two Days in History (2014) (TMDb: 546822) |
+[2022-05-31 04:22:34,267] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Dead or Alive (1996) (TMDb: 31050)                       |
+[2022-05-31 04:22:34,268] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Farewell to Nostradamus (1995) (TMDb: 31049)             |
+[2022-05-31 04:22:34,268] [builder.py:1943]           [INFO]     | Mystery Collection | ? | They Were Eleven (1986) (TMDb: 28214)                                     |
+[2022-05-31 04:22:34,269] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Five Numbers! (2011) (TMDb: 111608)                                       |
+[2022-05-31 04:22:34,270] [builder.py:1943]           [INFO]     | Mystery Collection | ? | City Hunter: Shinjuku Private Eyes (2019) (TMDb: 540141)                  |
+[2022-05-31 04:22:34,271] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Fuma Conspiracy (1987) (TMDb: 50482)                 |
+[2022-05-31 04:22:34,271] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Darkside Blues (1994) (TMDb: 51576)                                       |
+[2022-05-31 04:22:34,272] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Green vs Red (2008) (TMDb: 26546)                        |
+[2022-05-31 04:22:34,273] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Legend of the Gold of Babylon (1985) (TMDb: 32873)   |
+[2022-05-31 04:22:34,273] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Island of Assassins (1997) (TMDb: 31599)                 |
+[2022-05-31 04:22:34,274] [builder.py:1943]           [INFO]     | Mystery Collection | ? | City Hunter: .357 Magnum (1989) (TMDb: 38954)                             |
+[2022-05-31 04:22:34,274] [builder.py:1943]           [INFO]     | Mystery Collection | ? | City Hunter Special: The Secret Service (1996) (TMDb: 38952)              |
+[2022-05-31 04:22:34,275] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Digital Devil Story - Megami Tensei (1987) (TMDb: 73792)                  |
+[2022-05-31 04:22:34,276] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Bye Bye, Lady Liberty (1989) (TMDb: 31051)               |
+[2022-05-31 04:22:34,276] [builder.py:1943]           [INFO]     | Mystery Collection | ? | City Hunter: Bay City Wars (1990) (TMDb: 189068)                          |
+[2022-05-31 04:22:34,277] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Tokyo Crisis (1998) (TMDb: 31595)                        |
+[2022-05-31 04:22:34,278] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Nadia: The Secret of Blue Water - The Motion Picture (1991) (TMDb: 121139) |
+[2022-05-31 04:22:34,278] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Voyage to Danger (1993) (TMDb: 76190)                    |
+[2022-05-31 04:22:34,279] [builder.py:1943]           [INFO]     | Mystery Collection | ? | City Hunter: Million Dollar Conspiracy (1990) (TMDb: 189071)              |
+[2022-05-31 04:22:34,279] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Columbus Files (1999) (TMDb: 31594)                  |
+[2022-05-31 04:22:34,280] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Missed by a Dollar (2000) (TMDb: 31053)                  |
+[2022-05-31 04:22:34,281] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Pursuit of Harimao's Treasure (1995) (TMDb: 45378)   |
+[2022-05-31 04:22:34,281] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Operation: Return the Treasure (2003) (TMDb: 80868)      |
+[2022-05-31 04:22:34,282] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Hemingway Papers (1990) (TMDb: 80861)                |
+[2022-05-31 04:22:34,283] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Angel Tactics (2005) (TMDb: 39954)                       |
+[2022-05-31 04:22:34,284] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: From Siberia with Love (1992) (TMDb: 80857)              |
+[2022-05-31 04:22:34,284] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Stolen Lupin (2004) (TMDb: 80866)                        |
+[2022-05-31 04:22:34,285] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: The Elusiveness of the Fog (2007) (TMDb: 80863)          |
+[2022-05-31 04:22:34,286] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Return of Pycal (2002) (TMDb: 33176)                     |
+[2022-05-31 04:22:34,286] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Sweet Lost Night (2008) (TMDb: 59719)                    |
+[2022-05-31 04:22:34,287] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Lupin the Third: Record of Observations of the East - Another Page (2012) (TMDb: 251432) |
+[2022-05-31 04:22:34,487] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Memory (1964) (TMDb: 85796)                                               |
+[2022-05-31 04:22:34,488] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Crystal Triangle: The Forbidden Revelation (1987) (TMDb: 69840)           |
+[2022-05-31 04:22:34,489] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Coo of The Far Seas (1993) (TMDb: 174712)                                 |
+[2022-05-31 04:22:34,489] [builder.py:1943]           [INFO]     | Mystery Collection | ? | KochiKame: The Movie (1999) (TMDb: 68537)                                 |
+[2022-05-31 04:22:34,490] [builder.py:1943]           [INFO]     | Mystery Collection | ? | Urban Square: In Pursuit of Amber (1986) (TMDb: 148923)                   |
+[2022-05-31 04:22:34,672] [builder.py:1943]           [INFO]     | Mystery Collection | ? | The Green Cat (1983) (TMDb: 400139)                                       |
+[2022-05-31 04:22:34,673] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:34,673] [builder.py:1948]           [INFO]     | 87 Movies Missing                                                                                  |
+[2022-05-31 04:22:35,472] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:35,472] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Mystery ================================|
+[2022-05-31 04:22:35,473] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-05-31 04:22:35,985] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Erased (TVDB: 303071)                                                     |
+[2022-05-31 04:22:36,520] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Promised Neverland (TVDB: 348002)                                     |
+[2022-05-31 04:22:37,007] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Another (TVDB: 254349)                                                    |
+[2022-05-31 04:22:37,567] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Durarara!! (TVDB: 133341)                                                 |
+[2022-05-31 04:22:38,237] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Monogatari (TVDB: 102261)                                                 |
+[2022-05-31 04:22:38,766] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kakegurui (TVDB: 327572)                                                  |
+[2022-05-31 04:22:39,253] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Hyouka (TVDB: 257764)                                                     |
+[2022-05-31 04:22:39,793] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Bungo Stray Dogs (TVDB: 305075)                                           |
+[2022-05-31 04:22:40,381] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Made in Abyss (TVDB: 326109)                                              |
+[2022-05-31 04:22:40,871] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Black Butler (TVDB: 83996)                                                |
+[2022-05-31 04:22:41,283] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Terror in Resonance (TVDB: 279986)                                        |
+[2022-05-31 04:22:41,765] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Darker Than Black (TVDB: 80042)                                           |
+[2022-05-31 04:22:42,300] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Monster (TVDB: 74599)                                                     |
+[2022-05-31 04:22:42,754] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Danganronpa: The Animation (TVDB: 270058)                                 |
+[2022-05-31 04:22:43,266] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Melancholy of Haruhi Suzumiya (TVDB: 79414)                           |
+[2022-05-31 04:22:43,651] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Black Bullet (TVDB: 276890)                                               |
+[2022-05-31 04:22:44,168] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Baccano! (TVDB: 80421)                                                    |
+[2022-05-31 04:22:44,596] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tower of God (TVDB: 376729)                                               |
+[2022-05-31 04:22:45,059] [builder.py:1982]           [INFO]     | Mystery Collection | ? | When They Cry - Higurashi (TVDB: 79682)                                   |
+[2022-05-31 04:22:45,533] [builder.py:1982]           [INFO]     | Mystery Collection | ? | From the New World (TVDB: 262838)                                         |
+[2022-05-31 04:22:45,978] [builder.py:1982]           [INFO]     | Mystery Collection | ? | K (TVDB: 261249)                                                          |
+[2022-05-31 04:22:46,360] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Yamada-kun and the Seven Witches (2015) (TVDB: 289744)                    |
+[2022-05-31 04:22:46,831] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Serial Experiments Lain (TVDB: 78814)                                     |
+[2022-05-31 04:22:47,276] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Rokka: Braves of the Six Flowers (TVDB: 295243)                           |
+[2022-05-31 04:22:47,680] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ergo Proxy (TVDB: 79228)                                                  |
+[2022-05-31 04:22:48,072] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Vampire Knight (TVDB: 81816)                                              |
+[2022-05-31 04:22:48,432] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Blast of Tempest (TVDB: 262109)                                           |
+[2022-05-31 04:22:48,939] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Shiki (TVDB: 172941)                                                      |
+[2022-05-31 04:22:49,376] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ajin (TVDB: 300835)                                                       |
+[2022-05-31 04:22:49,798] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Great Pretender (TVDB: 376144)                                            |
+[2022-05-31 04:22:50,242] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Eden of the East (TVDB: 88721)                                            |
+[2022-05-31 04:22:50,688] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Gosick (TVDB: 218191)                                                     |
+[2022-05-31 04:22:51,084] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Darwin's Game (TVDB: 355220)                                              |
+[2022-05-31 04:22:51,472] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Gleipnir (TVDB: 374198)                                                   |
+[2022-05-31 04:22:51,854] [builder.py:1982]           [INFO]     | Mystery Collection | ? | School-Live! (TVDB: 283946)                                               |
+[2022-05-31 04:22:52,255] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Pandora Hearts (TVDB: 87861)                                              |
+[2022-05-31 04:22:52,627] [builder.py:1982]           [INFO]     | Mystery Collection | ? | No. 6 (TVDB: 250030)                                                      |
+[2022-05-31 04:22:53,024] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Tatami Galaxy (TVDB: 140751)                                          |
+[2022-05-31 04:22:53,442] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Land of the Lustrous (TVDB: 331787)                                       |
+[2022-05-31 04:22:53,871] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat (TVDB: 398193) |
+[2022-05-31 04:22:54,364] [builder.py:1982]           [INFO]     | Mystery Collection | ? | In/Spectre (TVDB: 368565)                                                 |
+[2022-05-31 04:22:54,764] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Dusk Maiden of Amnesia (TVDB: 257852)                                     |
+[2022-05-31 04:22:55,174] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Paranoia Agent (TVDB: 75092)                                              |
+[2022-05-31 04:22:55,566] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Millionaire Detective – Balance: UNLIMITED (TVDB: 376211)             |
+[2022-05-31 04:22:55,999] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Blood+ (TVDB: 78960)                                                      |
+[2022-05-31 04:22:56,385] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Corpse Party: Tortured Souls (TVDB: 271988)                               |
+[2022-05-31 04:22:56,780] [builder.py:1982]           [INFO]     | Mystery Collection | ? | So I'm a Spider, So What? (TVDB: 377902)                                  |
+[2022-05-31 04:22:57,264] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Hell Girl (TVDB: 79106)                                                   |
+[2022-05-31 04:22:57,669] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Blood-C (TVDB: 249864)                                                    |
+[2022-05-31 04:22:58,111] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Moriarty the Patriot (TVDB: 385542)                                       |
+[2022-05-31 04:22:58,533] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Brynhildr in the Darkness (TVDB: 279396)                                  |
+[2022-05-31 04:23:00,165] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Detective Conan (TVDB: 72454)                                             |
+[2022-05-31 04:23:00,583] [builder.py:1982]           [INFO]     | Mystery Collection | ? | B: The Beginning (TVDB: 339353)                                           |
+[2022-05-31 04:23:01,135] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ODDTAXI (TVDB: 397208)                                                    |
+[2022-05-31 04:23:01,534] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kemono Jihen (TVDB: 390382)                                               |
+[2022-05-31 04:23:01,934] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Wolf's Rain (TVDB: 79060)                                                 |
+[2022-05-31 04:23:02,463] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ID: INVADED (TVDB: 370377)                                                |
+[2022-05-31 04:23:02,956] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Detective Is Already Dead (TVDB: 397197)                              |
+[2022-05-31 04:23:03,382] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Girls' Last Tour (TVDB: 332983)                                           |
+[2022-05-31 04:23:03,776] [builder.py:1982]           [INFO]     | Mystery Collection | ? | xxxHOLiC (TVDB: 79283)                                                    |
+[2022-05-31 04:23:04,233] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Danganronpa 3: The End of Hope's Peak Academy Side: Despair (TVDB: 314361) |
+[2022-05-31 04:23:04,734] [builder.py:1982]           [INFO]     | Mystery Collection | ? | [C] The Money of Soul and Possibility Control (TVDB: 239951)              |
+[2022-05-31 04:23:05,255] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Hamatora (TVDB: 275634)                                                   |
+[2022-05-31 04:23:05,828] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Penguindrum (TVDB: 250084)                                                |
+[2022-05-31 04:23:06,264] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mononoke (TVDB: 80470)                                                    |
+[2022-05-31 04:23:06,670] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Amnesia (2013) (TVDB: 264532)                                             |
+[2022-05-31 04:23:07,120] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ChäoS;Head (TVDB: 83358)                                                  |
+[2022-05-31 04:23:07,573] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Astra Lost in Space (TVDB: 361456)                                        |
+[2022-05-31 04:23:07,956] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Taboo Tattoo (TVDB: 311537)                                               |
+[2022-05-31 04:23:08,369] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Haibane Renmei (TVDB: 79105)                                              |
+[2022-05-31 04:23:08,827] [builder.py:1982]           [INFO]     | Mystery Collection | ? | High-Rise Invasion (TVDB: 391006)                                         |
+[2022-05-31 04:23:09,275] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Persona 4: The Animation (TVDB: 252232)                                   |
+[2022-05-31 04:23:09,844] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ef – a Tale of ... (TVDB: 80904)                                          |
+[2022-05-31 04:23:10,327] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Higurashi: When They Cry – GOU (TVDB: 385002)                             |
+[2022-05-31 04:23:10,834] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Sonny Boy (TVDB: 401948)                                                  |
+[2022-05-31 04:23:11,223] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Heaven's Memo Pad (TVDB: 249876)                                          |
+[2022-05-31 04:23:11,615] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Gankutsuou: The Count of Monte Cristo (TVDB: 79178)                       |
+[2022-05-31 04:23:11,998] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Nanana's Buried Treasure (TVDB: 276896)                                   |
+[2022-05-31 04:23:12,519] [builder.py:1982]           [INFO]     | Mystery Collection | ? | King's Game: The Animation (TVDB: 332981)                                 |
+[2022-05-31 04:23:12,923] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ghost Hunt (TVDB: 79527)                                                  |
+[2022-05-31 04:23:13,743] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ghost in the Shell: Stand Alone Complex (TVDB: 73749)                     |
+[2022-05-31 04:23:14,283] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tiger & Bunny (TVDB: 246381)                                              |
+[2022-05-31 04:23:14,657] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Sunday Without God (TVDB: 270068)                                         |
+[2022-05-31 04:23:15,049] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Boogiepop and Others (TVDB: 355624)                                       |
+[2022-05-31 04:23:15,457] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Lost Village (TVDB: 305099)                                           |
+[2022-05-31 04:23:15,858] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Children of the Whales (TVDB: 332159)                                     |
+[2022-05-31 04:23:16,244] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Umineko: When They Cry (TVDB: 101981)                                     |
+[2022-05-31 04:23:16,645] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Karneval (TVDB: 267438)                                                   |
+[2022-05-31 04:23:17,007] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Beautiful Bones -Sakurako's Investigation- (TVDB: 299509)                 |
+[2022-05-31 04:23:17,400] [builder.py:1982]           [INFO]     | Mystery Collection | ? | NAKAIMO My Little Sister Is Among Them! (TVDB: 259645)                    |
+[2022-05-31 04:23:17,874] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Founder of Diabolism (TVDB: 341295)                                   |
+[2022-05-31 04:23:18,345] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Revolutionary Girl Utena (TVDB: 79449)                                    |
+[2022-05-31 04:23:18,822] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Princess Principal (TVDB: 328827)                                         |
+[2022-05-31 04:23:19,225] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Occultic;Nine (TVDB: 316332)                                              |
+[2022-05-31 04:23:19,782] [builder.py:1982]           [INFO]     | Mystery Collection | ? | .hack (TVDB: 79099)                                                       |
+[2022-05-31 04:23:20,197] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Robotics;Notes (TVDB: 259849)                                             |
+[2022-05-31 04:23:20,638] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ghost Stories (TVDB: 82234)                                               |
+[2022-05-31 04:23:21,101] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kokkoku (TVDB: 336480)                                                    |
+[2022-05-31 04:23:21,563] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Summer Time Rendering (TVDB: 407306)                                      |
+[2022-05-31 04:23:21,934] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Perfect Insider (TVDB: 296072)                                        |
+[2022-05-31 04:23:22,326] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Lunar Legend Tsukihime (TVDB: 74522)                                      |
+[2022-05-31 04:23:22,766] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Princess Tutu (TVDB: 76045)                                               |
+[2022-05-31 04:23:23,179] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ACCA: 13-Territory Inspection Dept. (TVDB: 319983)                        |
+[2022-05-31 04:23:23,534] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Un-Go (TVDB: 252472)                                                      |
+[2022-05-31 04:23:23,902] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Hakata Tonkotsu Ramens (TVDB: 337617)                                     |
+[2022-05-31 04:23:24,253] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Electromagnetic Girlfriend (TVDB: 105361)                                 |
+[2022-05-31 04:23:24,739] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Mystic Archives of Dantalian (TVDB: 249868)                           |
+[2022-05-31 04:23:25,146] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Junji Ito Collection (TVDB: 335237)                                       |
+[2022-05-31 04:23:25,546] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ghost Hound (TVDB: 80733)                                                 |
+[2022-05-31 04:23:26,069] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Coil - A Circle of Children (TVDB: 81037)                                 |
+[2022-05-31 04:23:26,493] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Sagrada Reset (TVDB: 320169)                                              |
+[2022-05-31 04:23:26,963] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kaiba (TVDB: 81991)                                                       |
+[2022-05-31 04:23:27,409] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Lord El-Melloi II Case Files Rail Zeppelin Grace Note (TVDB: 357492)      |
+[2022-05-31 04:23:27,793] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Loveless (TVDB: 79031)                                                    |
+[2022-05-31 04:23:28,191] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Babylon (2019) (TVDB: 369143)                                             |
+[2022-05-31 04:23:28,581] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Psychic Detective Yakumo (TVDB: 193841)                                   |
+[2022-05-31 04:23:29,303] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ace Attorney (TVDB: 305077)                                               |
+[2022-05-31 04:23:29,900] [builder.py:1982]           [INFO]     | Mystery Collection | ? | ChäoS;Child (TVDB: 320459)                                                |
+[2022-05-31 04:23:30,520] [builder.py:1982]           [INFO]     | Mystery Collection | ? | JoJo's Bizarre Adventure (2012) (TVDB: 262954)                            |
+[2022-05-31 04:23:30,972] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Boogiepop Phantom (TVDB: 71742)                                           |
+[2022-05-31 04:23:31,420] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Getbackers (TVDB: 79056)                                                  |
+[2022-05-31 04:23:31,867] [builder.py:1982]           [INFO]     | Mystery Collection | ? | 7Seeds (TVDB: 356032)                                                     |
+[2022-05-31 04:23:32,367] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tsubasa: RESERVoir CHRoNiCLE (TVDB: 76023)                                |
+[2022-05-31 04:23:32,821] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Karakuri Circus (TVDB: 351743)                                            |
+[2022-05-31 04:23:33,255] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ranpo Kitan: Game of Laplace (TVDB: 295894)                               |
+[2022-05-31 04:23:33,674] [builder.py:1982]           [INFO]     | Mystery Collection | ? | RahXephon (TVDB: 72720)                                                   |
+[2022-05-31 04:23:34,116] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Alice & Zoroku (TVDB: 324709)                                             |
+[2022-05-31 04:23:34,571] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Trickster (TVDB: 315093)                                                  |
+[2022-05-31 04:23:34,965] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Devils and Realist (TVDB: 270066)                                         |
+[2022-05-31 04:23:35,411] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Witch Hunter Robin (TVDB: 78936)                                          |
+[2022-05-31 04:23:35,873] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Speed Grapher (TVDB: 78972)                                               |
+[2022-05-31 04:23:36,247] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Noir (TVDB: 78947)                                                        |
+[2022-05-31 04:23:36,670] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Phi-Brain ~ Puzzle of God (TVDB: 252423)                                  |
+[2022-05-31 04:23:37,144] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ikebukuro West Gate Park (2020) (TVDB: 381769)                            |
+[2022-05-31 04:23:37,583] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Otherside Picnic (TVDB: 388381)                                           |
+[2022-05-31 04:23:37,985] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Occult Academy (TVDB: 171701)                                             |
+[2022-05-31 04:23:38,358] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Cuticle Detective Inaba (TVDB: 264525)                                    |
+[2022-05-31 04:23:38,849] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kubikiri Cycle: Aoiro Savant to Zaregoto Tsukai (TVDB: 319357)            |
+[2022-05-31 04:23:39,773] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Lupin III (TVDB: 71863)                                                   |
+[2022-05-31 04:23:40,150] [builder.py:1982]           [INFO]     | Mystery Collection | ? | pet (TVDB: 369140)                                                        |
+[2022-05-31 04:23:40,531] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Pretty Boy Detective Club (TVDB: 399147)                                  |
+[2022-05-31 04:23:40,910] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Haruchika – Haruta & Chika (TVDB: 303729)                                 |
+[2022-05-31 04:23:41,269] [builder.py:1982]           [INFO]     | Mystery Collection | ? | House of Five Leaves (TVDB: 156821)                                       |
+[2022-05-31 04:23:41,686] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Concrete Revolutio: Superhuman Phantasmagoria (TVDB: 299491)              |
+[2022-05-31 04:23:42,083] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Persona 4: The Golden Animation (TVDB: 282040)                            |
+[2022-05-31 04:23:42,811] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Case File Nº221: Kabukicho (TVDB: 355219)                                 |
+[2022-05-31 04:23:43,189] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Okamikakushi ~ Masque of the Wolf (TVDB: 133451)                          |
+[2022-05-31 04:23:43,653] [builder.py:1982]           [INFO]     | Mystery Collection | ? | City Hunter (TVDB: 72877)                                                 |
+[2022-05-31 04:23:44,027] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Jyu-Oh-Sei (TVDB: 79931)                                                  |
+[2022-05-31 04:23:44,457] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ayakashi: Samurai Horror Tales (TVDB: 79202)                              |
+[2022-05-31 04:23:44,855] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Neuro - Supernatural Detective (TVDB: 81829)                              |
+[2022-05-31 04:23:45,302] [builder.py:1982]           [INFO]     | Mystery Collection | ? | R.O.D The TV (TVDB: 82319)                                                |
+[2022-05-31 04:23:45,706] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Afterlost (TVDB: 360154)                                                  |
+[2022-05-31 04:23:46,091] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Pet Shop of Horrors (TVDB: 82970)                                         |
+[2022-05-31 04:23:46,529] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Rental Magica (TVDB: 80677)                                               |
+[2022-05-31 04:23:46,940] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mouryou no Hako (TVDB: 83474)                                             |
+[2022-05-31 04:23:47,348] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Case Files of Jeweler Richard (TVDB: 373276)                          |
+[2022-05-31 04:23:47,779] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Godzilla Singular Point (TVDB: 389696)                                    |
+[2022-05-31 04:23:48,227] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Holmes of Kyoto (TVDB: 348601)                                            |
+[2022-05-31 04:23:48,624] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Le Chevalier D'Eon (TVDB: 79470)                                          |
+[2022-05-31 04:23:49,019] [builder.py:1982]           [INFO]     | Mystery Collection | ? | M3: The Dark Metal (TVDB: 279829)                                         |
+[2022-05-31 04:23:49,416] [builder.py:1982]           [INFO]     | Mystery Collection | ? | 18if (TVDB: 327010)                                                       |
+[2022-05-31 04:23:49,810] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Jeanne the Kamikaze Thief (TVDB: 72832)                                   |
+[2022-05-31 04:23:50,265] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mr Love: Queen's Choice (TVDB: 384017)                                    |
+[2022-05-31 04:23:50,695] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Spiral (TVDB: 79059)                                                      |
+[2022-05-31 04:23:51,105] [builder.py:1982]           [INFO]     | Mystery Collection | ? | El Cazador de la Bruja (TVDB: 81096)                                      |
+[2022-05-31 04:23:51,512] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tokyo 24th Ward (TVDB: 411770)                                            |
+[2022-05-31 04:23:51,985] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Muhyo & Roji's Bureau of Supernatural Investigation (TVDB: 347467)        |
+[2022-05-31 04:23:52,409] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Puella Magi Madoka Magica (TVDB: 219181)                                  |
+[2022-05-31 04:23:52,879] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Vatican Miracle Examiner (TVDB: 329823)                                   |
+[2022-05-31 04:23:53,332] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Garden of Sinners (TVDB: 82099)                                       |
+[2022-05-31 04:23:53,711] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tokko (TVDB: 79774)                                                       |
+[2022-05-31 04:23:54,139] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Detective Opera Milky Holmes (TVDB: 197261)                               |
+[2022-05-31 04:23:54,493] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Red Garden (TVDB: 79975)                                                  |
+[2022-05-31 04:23:54,879] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Night Head 2041 (TVDB: 402003)                                            |
+[2022-05-31 04:23:55,238] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tactics (TVDB: 81052)                                                     |
+[2022-05-31 04:23:55,630] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mysterious Girlfriend X (TVDB: 257571)                                    |
+[2022-05-31 04:23:55,994] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Madlax (TVDB: 75001)                                                      |
+[2022-05-31 04:23:56,378] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Night Beyond the Tricornered Window (TVDB: 407852)                    |
+[2022-05-31 04:23:56,772] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mythical Detective Loki Ragnarok (TVDB: 84536)                            |
+[2022-05-31 04:23:57,160] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tokyo Majin (TVDB: 80014)                                                 |
+[2022-05-31 04:23:57,511] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Requiem from the Darkness (TVDB: 74957)                                   |
+[2022-05-31 04:23:57,906] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Chiko, Heiress of the Phantom Thief (TVDB: 84632)                         |
+[2022-05-31 04:23:58,474] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Detective School Q (TVDB: 230211)                                         |
+[2022-05-31 04:23:58,853] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kagewani (TVDB: 300106)                                                   |
+[2022-05-31 04:23:59,321] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Fantastic Children (TVDB: 79136)                                          |
+[2022-05-31 04:23:59,714] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Shion no Ou (TVDB: 81145)                                                 |
+[2022-05-31 04:24:00,137] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Night Head Genesis (TVDB: 79484)                                          |
+[2022-05-31 04:24:00,509] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Skull Man (TVDB: 80386)                                               |
+[2022-05-31 04:24:00,884] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Darkness, the Hat, and the Travelers of the Books (TVDB: 81627)           |
+[2022-05-31 04:24:01,297] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Blue Seed (TVDB: 76695)                                                   |
+[2022-05-31 04:24:01,768] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The File of Young Kindaichi (TVDB: 79460)                                 |
+[2022-05-31 04:24:02,127] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ingress: The Animation (TVDB: 349993)                                     |
+[2022-05-31 04:24:02,511] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Switch (2008) (TVDB: 134401)                                              |
+[2022-05-31 04:24:02,957] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Anime Mirai (TVDB: 259863)                                                |
+[2022-05-31 04:24:03,357] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Street Fighter II: V (TVDB: 75534)                                        |
+[2022-05-31 04:24:03,739] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mermaid Forest (TVDB: 120151)                                             |
+[2022-05-31 04:24:04,268] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Woodpecker Detective's Office (TVDB: 372238)                              |
+[2022-05-31 04:24:04,671] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Stand My Heroes: Piece of Truth (TVDB: 361439)                            |
+[2022-05-31 04:24:05,060] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Master Keaton (TVDB: 71767)                                               |
+[2022-05-31 04:24:05,472] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mezzo DSA (TVDB: 79446)                                                   |
+[2022-05-31 04:24:05,831] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Vampire Holmes (TVDB: 291723)                                             |
+[2022-05-31 04:24:06,204] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Absolute Boy (TVDB: 79592)                                                |
+[2022-05-31 04:24:06,591] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Nightwalker: Midnight Detective (TVDB: 82070)                             |
+[2022-05-31 04:24:06,951] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Top Secret: The Revelation (TVDB: 81984)                                  |
+[2022-05-31 04:24:07,347] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tokyo Babylon (TVDB: 84749)                                               |
+[2022-05-31 04:24:07,756] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Ryoko's Case File (TVDB: 83766)                                           |
+[2022-05-31 04:24:07,908] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 83619                               |
+[2022-05-31 04:24:08,084] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 219581                              |
+[2022-05-31 04:24:08,510] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Angel Heart (TVDB: 80596)                                                 |
+[2022-05-31 04:24:08,924] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Layton Mystery Detective Agency: Kat's Mystery‑Solving Files (TVDB: 343054) |
+[2022-05-31 04:24:09,389] [builder.py:1982]           [INFO]     | Mystery Collection | ? | AD Police (TVDB: 79223)                                                   |
+[2022-05-31 04:24:09,734] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kaidan Resutoran (TVDB: 125561)                                           |
+[2022-05-31 04:24:10,096] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tatami Time Machine Blues (TVDB: 408631)                                  |
+[2022-05-31 04:24:10,451] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mokke (TVDB: 81631)                                                       |
+[2022-05-31 04:24:10,868] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Daphne in the Brilliant Blue (TVDB: 81113)                                |
+[2022-05-31 04:24:11,226] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Tantei Team KZ Jiken Note (TVDB: 301631)                                  |
+[2022-05-31 04:24:11,581] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Betterman (TVDB: 71654)                                                   |
+[2022-05-31 04:24:11,956] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Gallery Fake (TVDB: 173111)                                               |
+[2022-05-31 04:24:12,370] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Clamp School Detectives (TVDB: 91081)                                     |
+[2022-05-31 04:24:12,786] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Kaze No Yojimbo (TVDB: 74462)                                             |
+[2022-05-31 04:24:13,153] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Interlude (TVDB: 80466)                                                   |
+[2022-05-31 04:24:13,557] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mysterious Joker (TVDB: 283930)                                           |
+[2022-05-31 04:24:13,963] [builder.py:1982]           [INFO]     | Mystery Collection | ? | X (TVDB: 70865)                                                           |
+[2022-05-31 04:24:14,340] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Yugo the Negotiator (TVDB: 82075)                                         |
+[2022-05-31 04:24:14,715] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Karakuri Zoushi Ayatsuri Sakon (TVDB: 79457)                              |
+[2022-05-31 04:24:15,102] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Sherlock Hound (TVDB: 73082)                                              |
+[2022-05-31 04:24:15,545] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Goku Midnight Eye (TVDB: 181851)                                          |
+[2022-05-31 04:24:15,909] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Zaion: I Wish You Were Here (TVDB: 87481)                                 |
+[2022-05-31 04:24:16,352] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Fantastic Detective Labyrinth (TVDB: 145011)                              |
+[2022-05-31 04:24:16,946] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Flint the Time Detective (TVDB: 250606)                                   |
+[2022-05-31 04:24:17,351] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Agatha Christie's Great Detectives Poirot and Marple (TVDB: 92391)        |
+[2022-05-31 04:24:17,717] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Twilight Q (TVDB: 87031)                                                  |
+[2022-05-31 04:24:18,186] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Aooni the Blue Monster (TVDB: 317391)                                     |
+[2022-05-31 04:24:18,553] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Cinderella Boy (TVDB: 82873)                                              |
+[2022-05-31 04:24:18,954] [builder.py:1982]           [INFO]     | Mystery Collection | ? | That is the Bottleneck (TVDB: 389235)                                     |
+[2022-05-31 04:24:19,382] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Midnight Occult Civil Servants (TVDB: 358331)                             |
+[2022-05-31 04:24:19,750] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Saishuu Shiken Kujira (TVDB: 84368)                                       |
+[2022-05-31 04:24:20,133] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Hentatsu (TVDB: 358890)                                                   |
+[2022-05-31 04:24:20,595] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Queen Millennia (TVDB: 85146)                                             |
+[2022-05-31 04:24:20,996] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Princess Knight (TVDB: 250920)                                            |
+[2022-05-31 04:24:21,372] [builder.py:1982]           [INFO]     | Mystery Collection | ? | L/R: Licensed by Royalty (TVDB: 83406)                                    |
+[2022-05-31 04:24:21,744] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Steam Detectives (TVDB: 85428)                                            |
+[2022-05-31 04:24:22,185] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Babel II: Beyond Infinity (TVDB: 82961)                                   |
+[2022-05-31 04:24:22,341] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 253493                              |
+[2022-05-31 04:24:22,498] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 81896                               |
+[2022-05-31 04:24:22,840] [builder.py:1982]           [INFO]     | Mystery Collection | ? | St. Luminous Mission High School (TVDB: 89791)                            |
+[2022-05-31 04:24:23,216] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Dark Myth (TVDB: 250974)                                                  |
+[2022-05-31 04:24:23,573] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Chou Shounen Tanteidan Neo (TVDB: 319996)                                 |
+[2022-05-31 04:24:23,952] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Reign: The Conqueror (TVDB: 183171)                                       |
+[2022-05-31 04:24:24,394] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Bakumatsu Rock (TVDB: 279555)                                             |
+[2022-05-31 04:24:24,955] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Beyblade Burst (TVDB: 339076)                                             |
+[2022-05-31 04:24:25,338] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Montana Jones (TVDB: 219541)                                              |
+[2022-05-31 04:24:25,718] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Mechander Robo (TVDB: 262007)                                             |
+[2022-05-31 04:24:26,116] [builder.py:1982]           [INFO]     | Mystery Collection | ? | The Man Who Loves Justice, Moonlight Mask (TVDB: 174131)                  |
+[2022-05-31 04:24:26,552] [builder.py:1982]           [INFO]     | Mystery Collection | ? | Oshiri Tantei (TVDB: 358138)                                              |
+[2022-05-31 04:24:26,552] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-05-31 04:24:26,553] [builder.py:1987]           [INFO]     | 252 Shows Missing                                                                                  |
+[2022-05-31 04:24:27,363] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-05-31 04:24:27,363] [util.py:216]               [INFO]     |============================== Updating Details of Mystery Collection ==============================|
+[2022-05-31 04:24:27,364] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-05-31 04:24:27,370] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-05-31 04:24:27,370] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/coTt7oP.png                                         |
+[2022-05-31 04:24:27,370] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-05-31 04:24:27,371] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-05-31 04:24:27,375] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-05-31 04:24:27,375] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-05-31 04:24:27,375] [util.py:216]               [INFO]     |                                 Finished Mystery Anime Collection                                  |
+[2022-05-31 04:24:27,376] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:04:19                                    |
+[2022-05-31 04:24:27,376] [util.py:220]               [INFO]     |====================================================================================================|

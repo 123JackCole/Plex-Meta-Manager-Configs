@@ -1,0 +1,658 @@
+[2022-05-31 04:52:28,313] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-05-31 04:52:28,314] [util.py:216]               [INFO]     |                                  Parody Anime Collection in Anime                                  |
+[2022-05-31 04:52:28,314] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-05-31 04:52:28,314] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-05-31 04:52:28,315] [util.py:216]               [INFO]     |================================ Validating Parody Anime Attributes ================================|
+[2022-05-31 04:52:28,315] [builder.py:255]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,315] [builder.py:256]            [DEBUG]    | Validating Method: name                                                                            |
+[2022-05-31 04:52:28,316] [builder.py:259]            [DEBUG]    | Value: Parody                                                                                      |
+[2022-05-31 04:52:28,316] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,316] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-05-31 04:52:28,316] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-05-31 04:52:28,316] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,317] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-05-31 04:52:28,317] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-05-31 04:52:28,317] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,317] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-05-31 04:52:28,317] [builder.py:474]            [DEBUG]    | Value: ordereddict([('genre_id', 20)])                                                             |
+[2022-05-31 04:52:28,318] [builder.py:689]            [WARNING]  | Collection Warning: mal_genre limit attribute not found using 0 as default                         |
+[2022-05-31 04:52:28,318] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,318] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-05-31 04:52:28,318] [builder.py:474]            [DEBUG]    | Value: None                                                                                        |
+[2022-05-31 04:52:28,318] [builder.py:479]            [WARNING]  | Collection Warning: url_poster attribute is blank                                                  |
+[2022-05-31 04:52:28,322] [plex.py:685]               [DEBUG]    | Looking for: Parody                                                                                |
+[2022-05-31 04:52:28,322] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-05-31 04:52:28,323] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-05-31 04:52:28,323] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-05-31 04:52:28,323] [util.py:216]               [INFO]     |================================= Running Parody Anime Collection ==================================|
+[2022-05-31 04:52:28,324] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-05-31 04:52:28,324] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-05-31 04:52:28,324] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:28,324] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 20, 'limit': 0}                                                   |
+[2022-05-31 04:52:28,324] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:28,325] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 20                                                                |
+[2022-05-31 04:52:46,683] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:46,683] [mal.py:240]                [DEBUG]    | 678 MyAnimeList IDs Found: [30276, 30831, 34134, 32937, 918, 227, 38040, 28977, 9969, 32380, 38472, 8795, 11785, 19369, 2605, 34626, 2104, 31704, 31772, 15417, 34096, 7769, 5060, 31374, 13535, 2026, 15335, 39988, 35330, 5909, 10012, 36838, 18095, 35843, 15699, 240, 5030, 37491, 31174, 7472, 16157, 4182, 19365, 3228, 33010, 9136, 3229, 15751, 4192, 39705, 8479, 39486, 379, 6377, 5118, 49458, 32553, 35842, 12979, 306, 10491, 30782, 2508, 27727, 32366, 35427, 516, 10464, 15195, 12685, 6945, 41567, 9712, 4872, 9624, 490, 7337, 7902, 44087, 18523, 39652, 26023, 14653, 2951, 19391, 5955, 35067, 4163, 31918, 18465, 218, 1813, 15133, 6064, 569, 39921, 16982, 3328, 3956, 21899, 28607, 9735, 7044, 33392, 37338, 5521, 10249, 25313, 13677, 10739, 9958, 10643, 1066, 23619, 229, 32122, 941, 18713, 7596, 2390, 10191, 39477, 31417, 10431, 37103, 14073, 3221, 7375, 12611, 10497, 34742, 5065, 37596, 15963, 5005, 19165, 10519, 19799, 36833, 42391, 870, 1738, 12823, 43591, 10933, 17273, 10469, 19159, 9493, 31283, 9591, 3674, 34723, 7568, 615, 39605, 40298, 39480, 6609, 40031, 33712, 51304, 40323, 9865, 19261, 38201, 6946, 23153, 7041, 982, 31890, 50663, 19919, 37036, 32026, 6234, 4469, 14077, 3080, 36468, 8317, 35327, 21075, 8231, 2041, 36502, 5419, 1797, 2725, 33011, 1196, 36501, 35182, 34238, 8490, 5199, 15291, 2743, 31997, 1865, 1995, 6582, 10810, 31158, 35448, 19889, 24835, 3239, 1489, 1918, 1502, 12411, 37046, 29035, 1596, 5025, 13619, 32412, 2050, 9170, 2883, 12131, 4361, 32383, 37308, 921, 36569, 1798, 49627, 35730, 37663, 1837, 31233, 309, 14889, 37622, 39993, 38068, 21427, 35739, 1769, 33119, 23627, 920, 37034, 34013, 37736, 36196, 30531, 10177, 37265, 4962, 16508, 4908, 21851, 35631, 33208, 2322, 7882, 3295, 1743, 2302, 32467, 39011, 2067, 28835, 7591, 3112, 51305, 17705, 1558, 2303, 48627, 38864, 37586, 714, 1515, 31018, 28385, 2306, 40073, 686, 30912, 2305, 2692, 41283, 25999, 2304, 2733, 4939, 5501, 24763, 10324, 36521, 3620, 5549, 12991, 3136, 33883, 32572, 2550, 2510, 39482, 38291, 9861, 6792, 4150, 1405, 33457, 2465, 3418, 32543, 34239, 33975, 16602, 35510, 2234, 10954, 35328, 33434, 36761, 3474, 5715, 38433, 11717, 6318, 16415, 5343, 3743, 41052, 35329, 37842, 2840, 4578, 5554, 18391, 33508, 36890, 9098, 4034, 42220, 36520, 2529, 3619, 30143, 9087, 34613, 16183, 36135, 38981, 3473, 30954, 31647, 6331, 37706, 1503, 20385, 4775, 37562, 2058, 32316, 28811, 2466, 38056, 35018, 36714, 17707, 36955, 48409, 8215, 3100, 3735, 11281, 40459, 33225, 46735, 39020, 40124, 2280, 38837, 28813, 37933, 38110, 35219, 39339, 2080, 35501, 32158, 33846, 37934, 31494, 33228, 28815, 3573, 4737, 28401, 7915, 7259, 49119, 31984, 35652, 42657, 38087, 42482, 37818, 28809, 37285, 19279, 31410, 33226, 2731, 38632, 36298, 18109, 35859, 30840, 11087, 8189, 8968, 20999, 36715, 8314, 39046, 29822, 29823, 34765, 34519, 27621, 1851, 41634, 7864, 5956, 27677, 34762, 40131, 7162, 36588, 18197, 36774, 37668, 13693, 33779, 38112, 30489, 31517, 25253, 9794, 10820, 30851, 34764, 35745, 35070, 32956, 33193, 38175, 35302, 35433, 20075, 36030, 33195, 19479, 19121, 8176, 8316, 25749, 37249, 33986, 33545, 40888, 18199, 33791, 49120, 29821, 34763, 8196, 30013, 7175, 31699, 29820, 18815, 5477, 37559, 11695, 34456, 33196, 37369, 36018, 32259, 30122, 13431, 37843, 20581, 13207, 21433, 13433, 34844, 35704, 8357, 24259, 37143, 31667, 18241, 33258, 50503, 25061, 22821, 39464, 35632, 33547, 20705, 33551, 19535, 38722, 8356, 8355, 38705, 14067, 49370, 22631, 30470, 38365, 13435, 20125, 23855, 33194, 26013, 38627, 20873, 23829, 32892, 7419, 22635, 16526, 35612, 37666, 35143, 19501, 35648, 39697, 38363, 22633, 35142, 35297, 39356, 42697, 35140, 34336, 30753, 36712, 13499, 49771, 12181, 35345, 22755, 23607, 37664, 37665, 35475, 25987, 41404, 36132, 9562, 38025, 37931, 41096, 38683, 13503, 33662, 40425, 21277, 22953, 33570, 37054, 36619, 30752, 34845, 34843, 33533, 34354, 8959, 35141, 34847, 35453, 37115, 50419, 39611, 36261, 33571, 34373, 37024, 39762, 30754, 35002, 34353, 37385, 23609, 3575, 20603, 10850, 34371, 39038, 36874, 37667, 31116, 23613, 20199, 9869, 40342, 34369, 39839, 13507, 37678, 13501, 29271, 39032, 27561, 40142, 36905, 24041, 38622, 35590, 42211, 50141, 34372, 51097, 40832, 36543, 39711, 20453, 38451, 37241, 34918, 19583, 40393, 37326, 34356, 41951, 36550, 34370, 34919, 34700, 34355, 41118, 37337, 38310, 41054, 41609, 38623, 35452, 39028, 38398, 37168, 41117, 45626, 42111, 39034, 42698, 41156, 39546, 41116, 41111, 48930, 41113, 41112, 41184, 41119, 42852, 51531, 51156, 51123, 46727, 51901, 51803, 46384, 44576, 44558, 44557, 44577] |
+[2022-05-31 04:52:46,685] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31772                                        |
+[2022-05-31 04:52:46,685] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36838                                        |
+[2022-05-31 04:52:46,686] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35843                                        |
+[2022-05-31 04:52:46,686] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4182                                         |
+[2022-05-31 04:52:46,687] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9136                                         |
+[2022-05-31 04:52:46,687] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39705                                        |
+[2022-05-31 04:52:46,687] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14719                                     |
+[2022-05-31 04:52:46,687] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16446                                     |
+[2022-05-31 04:52:46,688] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6945                                         |
+[2022-05-31 04:52:46,688] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15481                                     |
+[2022-05-31 04:52:46,688] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7902                                         |
+[2022-05-31 04:52:46,688] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39652                                        |
+[2022-05-31 04:52:46,689] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2951                                         |
+[2022-05-31 04:52:46,689] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 19391                                        |
+[2022-05-31 04:52:46,689] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5955                                         |
+[2022-05-31 04:52:46,689] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31918                                        |
+[2022-05-31 04:52:46,690] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6064                                         |
+[2022-05-31 04:52:46,690] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39921                                        |
+[2022-05-31 04:52:46,690] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3956                                         |
+[2022-05-31 04:52:46,690] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9735                                         |
+[2022-05-31 04:52:46,691] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10249                                        |
+[2022-05-31 04:52:46,691] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13677                                        |
+[2022-05-31 04:52:46,691] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10739                                        |
+[2022-05-31 04:52:46,692] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10643                                        |
+[2022-05-31 04:52:46,692] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1066                                         |
+[2022-05-31 04:52:46,692] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 23619                                        |
+[2022-05-31 04:52:46,692] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32122                                        |
+[2022-05-31 04:52:46,693] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 18713                                        |
+[2022-05-31 04:52:46,693] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39477                                        |
+[2022-05-31 04:52:46,693] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10431                                        |
+[2022-05-31 04:52:46,693] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37103                                        |
+[2022-05-31 04:52:46,694] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3221                                         |
+[2022-05-31 04:52:46,694] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7375                                         |
+[2022-05-31 04:52:46,694] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10497                                        |
+[2022-05-31 04:52:46,694] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34742                                        |
+[2022-05-31 04:52:46,695] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5065                                         |
+[2022-05-31 04:52:46,695] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37596                                        |
+[2022-05-31 04:52:46,695] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8362                                      |
+[2022-05-31 04:52:46,696] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36833                                        |
+[2022-05-31 04:52:46,696] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12823                                        |
+[2022-05-31 04:52:46,696] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 17273                                        |
+[2022-05-31 04:52:46,696] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10469                                        |
+[2022-05-31 04:52:46,697] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31283                                        |
+[2022-05-31 04:52:46,697] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9591                                         |
+[2022-05-31 04:52:46,697] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3674                                         |
+[2022-05-31 04:52:46,697] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34723                                        |
+[2022-05-31 04:52:46,698] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7568                                         |
+[2022-05-31 04:52:46,698] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39605                                        |
+[2022-05-31 04:52:46,698] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40298                                        |
+[2022-05-31 04:52:46,701] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39480                                        |
+[2022-05-31 04:52:46,701] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15343                                     |
+[2022-05-31 04:52:46,701] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17264                                     |
+[2022-05-31 04:52:46,701] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40323                                        |
+[2022-05-31 04:52:46,702] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11249                                     |
+[2022-05-31 04:52:46,702] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14293                                     |
+[2022-05-31 04:52:46,702] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7041                                         |
+[2022-05-31 04:52:46,702] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17079                                     |
+[2022-05-31 04:52:46,703] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13706                                     |
+[2022-05-31 04:52:46,703] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32026                                        |
+[2022-05-31 04:52:46,703] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 6234                                         |
+[2022-05-31 04:52:46,703] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4469                                         |
+[2022-05-31 04:52:46,703] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14077                                        |
+[2022-05-31 04:52:46,704] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5315                                      |
+[2022-05-31 04:52:46,704] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36468                                        |
+[2022-05-31 04:52:46,704] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8317                                         |
+[2022-05-31 04:52:46,704] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35327                                        |
+[2022-05-31 04:52:46,705] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 21075                                        |
+[2022-05-31 04:52:46,705] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8231                                         |
+[2022-05-31 04:52:46,705] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36502                                        |
+[2022-05-31 04:52:46,705] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5419                                         |
+[2022-05-31 04:52:46,706] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36501                                        |
+[2022-05-31 04:52:46,706] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5199                                         |
+[2022-05-31 04:52:46,706] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 15291                                        |
+[2022-05-31 04:52:46,706] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2743                                         |
+[2022-05-31 04:52:46,707] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31997                                        |
+[2022-05-31 04:52:46,707] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 10810                                        |
+[2022-05-31 04:52:46,707] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31158                                        |
+[2022-05-31 04:52:46,707] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35448                                        |
+[2022-05-31 04:52:46,707] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 19889                                        |
+[2022-05-31 04:52:46,708] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3239                                         |
+[2022-05-31 04:52:46,708] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1489                                         |
+[2022-05-31 04:52:46,708] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12411                                        |
+[2022-05-31 04:52:46,709] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37046                                        |
+[2022-05-31 04:52:46,709] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1422                                      |
+[2022-05-31 04:52:46,709] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13619                                        |
+[2022-05-31 04:52:46,709] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32412                                        |
+[2022-05-31 04:52:46,709] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9170                                         |
+[2022-05-31 04:52:46,710] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2883                                         |
+[2022-05-31 04:52:46,710] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12131                                        |
+[2022-05-31 04:52:46,710] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4361                                         |
+[2022-05-31 04:52:46,710] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32383                                        |
+[2022-05-31 04:52:46,710] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37308                                        |
+[2022-05-31 04:52:46,711] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36569                                        |
+[2022-05-31 04:52:46,711] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49627                                        |
+[2022-05-31 04:52:46,711] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37663                                        |
+[2022-05-31 04:52:46,711] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12824                                     |
+[2022-05-31 04:52:46,712] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37622                                        |
+[2022-05-31 04:52:46,712] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39993                                        |
+[2022-05-31 04:52:46,712] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14478                                     |
+[2022-05-31 04:52:46,712] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13227                                     |
+[2022-05-31 04:52:46,713] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12078                                     |
+[2022-05-31 04:52:46,713] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 23627                                        |
+[2022-05-31 04:52:46,713] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 920                                          |
+[2022-05-31 04:52:46,713] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37034                                        |
+[2022-05-31 04:52:46,714] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14062                                     |
+[2022-05-31 04:52:46,716] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11174                                     |
+[2022-05-31 04:52:46,716] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37265                                        |
+[2022-05-31 04:52:46,716] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 16508                                        |
+[2022-05-31 04:52:46,716] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35631                                        |
+[2022-05-31 04:52:46,717] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33208                                        |
+[2022-05-31 04:52:46,717] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7882                                         |
+[2022-05-31 04:52:46,717] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32467                                        |
+[2022-05-31 04:52:46,717] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39011                                        |
+[2022-05-31 04:52:46,718] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17265                                     |
+[2022-05-31 04:52:46,718] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1558                                         |
+[2022-05-31 04:52:46,718] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48627                                        |
+[2022-05-31 04:52:46,719] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38864                                        |
+[2022-05-31 04:52:46,719] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13975                                     |
+[2022-05-31 04:52:46,719] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2857                                      |
+[2022-05-31 04:52:46,719] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11289                                     |
+[2022-05-31 04:52:46,720] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28385                                        |
+[2022-05-31 04:52:46,720] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 2306                                         |
+[2022-05-31 04:52:46,720] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15000                                     |
+[2022-05-31 04:52:46,720] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 686                                          |
+[2022-05-31 04:52:46,720] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30912                                        |
+[2022-05-31 04:52:46,721] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15480                                     |
+[2022-05-31 04:52:46,721] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4939                                         |
+[2022-05-31 04:52:46,721] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5501                                         |
+[2022-05-31 04:52:46,721] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24763                                        |
+[2022-05-31 04:52:46,722] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36521                                        |
+[2022-05-31 04:52:46,722] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3620                                         |
+[2022-05-31 04:52:46,722] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5214                                      |
+[2022-05-31 04:52:46,722] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12991                                        |
+[2022-05-31 04:52:46,723] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13748                                     |
+[2022-05-31 04:52:46,723] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11888                                     |
+[2022-05-31 04:52:46,724] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39482                                        |
+[2022-05-31 04:52:46,724] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38291                                        |
+[2022-05-31 04:52:46,724] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8063                                      |
+[2022-05-31 04:52:46,724] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3967                                      |
+[2022-05-31 04:52:46,725] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1405                                         |
+[2022-05-31 04:52:46,725] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33457                                        |
+[2022-05-31 04:52:46,725] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13354                                     |
+[2022-05-31 04:52:46,725] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12473                                     |
+[2022-05-31 04:52:46,726] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 16602                                        |
+[2022-05-31 04:52:46,726] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13155                                     |
+[2022-05-31 04:52:46,726] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8532                                      |
+[2022-05-31 04:52:46,726] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35328                                        |
+[2022-05-31 04:52:46,727] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36761                                        |
+[2022-05-31 04:52:46,727] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 5715                                         |
+[2022-05-31 04:52:46,728] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38433                                        |
+[2022-05-31 04:52:46,728] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6492                                      |
+[2022-05-31 04:52:46,728] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 16415                                        |
+[2022-05-31 04:52:46,728] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4393                                      |
+[2022-05-31 04:52:46,729] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41052                                        |
+[2022-05-31 04:52:46,729] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14007                                     |
+[2022-05-31 04:52:46,731] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37842                                        |
+[2022-05-31 04:52:46,731] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3138                                      |
+[2022-05-31 04:52:46,732] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10090                                     |
+[2022-05-31 04:52:46,732] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13352                                     |
+[2022-05-31 04:52:46,732] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36890                                        |
+[2022-05-31 04:52:46,733] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4034                                         |
+[2022-05-31 04:52:46,733] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42220                                        |
+[2022-05-31 04:52:46,733] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36520                                        |
+[2022-05-31 04:52:46,734] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30143                                        |
+[2022-05-31 04:52:46,734] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34613                                        |
+[2022-05-31 04:52:46,735] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9494                                      |
+[2022-05-31 04:52:46,735] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38981                                        |
+[2022-05-31 04:52:46,736] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11285                                     |
+[2022-05-31 04:52:46,736] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11608                                     |
+[2022-05-31 04:52:46,736] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37706                                        |
+[2022-05-31 04:52:46,736] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 1503                                         |
+[2022-05-31 04:52:46,737] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2904                                      |
+[2022-05-31 04:52:46,737] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 4775                                         |
+[2022-05-31 04:52:46,737] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13957                                     |
+[2022-05-31 04:52:46,737] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2718                                      |
+[2022-05-31 04:52:46,738] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32316                                        |
+[2022-05-31 04:52:46,738] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28811                                        |
+[2022-05-31 04:52:46,738] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38056                                        |
+[2022-05-31 04:52:46,738] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12935                                     |
+[2022-05-31 04:52:46,739] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36714                                        |
+[2022-05-31 04:52:46,739] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 17707                                        |
+[2022-05-31 04:52:46,739] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13661                                     |
+[2022-05-31 04:52:46,739] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48409                                        |
+[2022-05-31 04:52:46,740] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3559                                      |
+[2022-05-31 04:52:46,740] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 11281                                        |
+[2022-05-31 04:52:46,740] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40459                                        |
+[2022-05-31 04:52:46,741] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33225                                        |
+[2022-05-31 04:52:46,741] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 46735                                        |
+[2022-05-31 04:52:46,741] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39020                                        |
+[2022-05-31 04:52:46,741] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40124                                        |
+[2022-05-31 04:52:46,741] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14539                                     |
+[2022-05-31 04:52:46,742] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28813                                        |
+[2022-05-31 04:52:46,742] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37933                                        |
+[2022-05-31 04:52:46,742] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14250                                     |
+[2022-05-31 04:52:46,742] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13016                                     |
+[2022-05-31 04:52:46,743] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14697                                     |
+[2022-05-31 04:52:46,743] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35501                                        |
+[2022-05-31 04:52:46,743] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32158                                        |
+[2022-05-31 04:52:46,744] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33846                                        |
+[2022-05-31 04:52:46,744] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37934                                        |
+[2022-05-31 04:52:46,744] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31494                                        |
+[2022-05-31 04:52:46,744] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33228                                        |
+[2022-05-31 04:52:46,744] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28815                                        |
+[2022-05-31 04:52:46,745] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5595                                      |
+[2022-05-31 04:52:46,747] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4408                                      |
+[2022-05-31 04:52:46,747] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3533                                      |
+[2022-05-31 04:52:46,748] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16369                                     |
+[2022-05-31 04:52:46,748] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31984                                        |
+[2022-05-31 04:52:46,748] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13201                                     |
+[2022-05-31 04:52:46,748] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15759                                     |
+[2022-05-31 04:52:46,748] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38087                                        |
+[2022-05-31 04:52:46,749] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15639                                     |
+[2022-05-31 04:52:46,749] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37818                                        |
+[2022-05-31 04:52:46,749] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 28809                                        |
+[2022-05-31 04:52:46,749] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37285                                        |
+[2022-05-31 04:52:46,750] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9396                                      |
+[2022-05-31 04:52:46,750] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11486                                     |
+[2022-05-31 04:52:46,750] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33226                                        |
+[2022-05-31 04:52:46,750] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38632                                        |
+[2022-05-31 04:52:46,751] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36298                                        |
+[2022-05-31 04:52:46,751] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9793                                      |
+[2022-05-31 04:52:46,751] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35859                                        |
+[2022-05-31 04:52:46,751] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30840                                        |
+[2022-05-31 04:52:46,752] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8110                                      |
+[2022-05-31 04:52:46,752] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7216                                      |
+[2022-05-31 04:52:46,752] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11537                                     |
+[2022-05-31 04:52:46,752] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 20999                                        |
+[2022-05-31 04:52:46,753] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36715                                        |
+[2022-05-31 04:52:46,753] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8314                                         |
+[2022-05-31 04:52:46,753] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13144                                     |
+[2022-05-31 04:52:46,753] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12389                                     |
+[2022-05-31 04:52:46,754] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12392                                     |
+[2022-05-31 04:52:46,754] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34765                                        |
+[2022-05-31 04:52:46,754] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34519                                        |
+[2022-05-31 04:52:46,754] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 27621                                        |
+[2022-05-31 04:52:46,755] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41634                                        |
+[2022-05-31 04:52:46,755] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7864                                         |
+[2022-05-31 04:52:46,755] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 27677                                        |
+[2022-05-31 04:52:46,755] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34762                                        |
+[2022-05-31 04:52:46,756] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40131                                        |
+[2022-05-31 04:52:46,756] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 7162                                         |
+[2022-05-31 04:52:46,756] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36588                                        |
+[2022-05-31 04:52:46,756] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 18197                                        |
+[2022-05-31 04:52:46,757] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36774                                        |
+[2022-05-31 04:52:46,757] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37668                                        |
+[2022-05-31 04:52:46,757] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9082                                      |
+[2022-05-31 04:52:46,757] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33779                                        |
+[2022-05-31 04:52:46,757] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38112                                        |
+[2022-05-31 04:52:46,758] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30489                                        |
+[2022-05-31 04:52:46,758] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9821                                      |
+[2022-05-31 04:52:46,758] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11231                                     |
+[2022-05-31 04:52:46,759] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11264                                     |
+[2022-05-31 04:52:46,759] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34764                                        |
+[2022-05-31 04:52:46,759] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35745                                        |
+[2022-05-31 04:52:46,759] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12948                                     |
+[2022-05-31 04:52:46,760] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32956                                        |
+[2022-05-31 04:52:46,760] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33193                                        |
+[2022-05-31 04:52:46,760] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38175                                        |
+[2022-05-31 04:52:46,762] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13054                                     |
+[2022-05-31 04:52:46,762] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35433                                        |
+[2022-05-31 04:52:46,762] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7284                                      |
+[2022-05-31 04:52:46,763] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36030                                        |
+[2022-05-31 04:52:46,763] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13567                                     |
+[2022-05-31 04:52:46,763] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 19479                                        |
+[2022-05-31 04:52:46,763] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4949                                      |
+[2022-05-31 04:52:46,764] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8176                                         |
+[2022-05-31 04:52:46,764] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8316                                         |
+[2022-05-31 04:52:46,764] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 25749                                        |
+[2022-05-31 04:52:46,764] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37249                                        |
+[2022-05-31 04:52:46,764] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33986                                        |
+[2022-05-31 04:52:46,765] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33545                                        |
+[2022-05-31 04:52:46,765] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40888                                        |
+[2022-05-31 04:52:46,765] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 18199                                        |
+[2022-05-31 04:52:46,765] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33791                                        |
+[2022-05-31 04:52:46,766] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17247                                     |
+[2022-05-31 04:52:46,766] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12388                                     |
+[2022-05-31 04:52:46,766] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34763                                        |
+[2022-05-31 04:52:46,766] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 8196                                         |
+[2022-05-31 04:52:46,766] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11072                                     |
+[2022-05-31 04:52:46,767] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7010                                      |
+[2022-05-31 04:52:46,767] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11652                                     |
+[2022-05-31 04:52:46,767] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12393                                     |
+[2022-05-31 04:52:46,767] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 18815                                        |
+[2022-05-31 04:52:46,767] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1577                                      |
+[2022-05-31 04:52:46,768] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13953                                     |
+[2022-05-31 04:52:46,768] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4102                                      |
+[2022-05-31 04:52:46,768] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12572                                     |
+[2022-05-31 04:52:46,768] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33196                                        |
+[2022-05-31 04:52:46,769] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13837                                     |
+[2022-05-31 04:52:46,769] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13327                                     |
+[2022-05-31 04:52:46,769] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32259                                        |
+[2022-05-31 04:52:46,769] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8849                                      |
+[2022-05-31 04:52:46,769] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9049                                      |
+[2022-05-31 04:52:46,770] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37843                                        |
+[2022-05-31 04:52:46,770] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11232                                     |
+[2022-05-31 04:52:46,770] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8904                                      |
+[2022-05-31 04:52:46,771] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10242                                     |
+[2022-05-31 04:52:46,771] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9148                                      |
+[2022-05-31 04:52:46,771] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34844                                        |
+[2022-05-31 04:52:46,771] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35704                                        |
+[2022-05-31 04:52:46,771] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6958                                      |
+[2022-05-31 04:52:46,772] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10217                                     |
+[2022-05-31 04:52:46,772] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37143                                        |
+[2022-05-31 04:52:46,772] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 31667                                        |
+[2022-05-31 04:52:46,773] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9775                                      |
+[2022-05-31 04:52:46,773] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33258                                        |
+[2022-05-31 04:52:46,773] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50503                                        |
+[2022-05-31 04:52:46,773] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 25061                                        |
+[2022-05-31 04:52:46,774] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10586                                     |
+[2022-05-31 04:52:46,774] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39464                                        |
+[2022-05-31 04:52:46,774] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35632                                        |
+[2022-05-31 04:52:46,774] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33547                                        |
+[2022-05-31 04:52:46,775] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9958                                      |
+[2022-05-31 04:52:46,775] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33551                                        |
+[2022-05-31 04:52:46,775] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9918                                      |
+[2022-05-31 04:52:46,775] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38722                                        |
+[2022-05-31 04:52:46,775] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6638                                      |
+[2022-05-31 04:52:46,776] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6555                                      |
+[2022-05-31 04:52:46,778] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38705                                        |
+[2022-05-31 04:52:46,778] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 14067                                        |
+[2022-05-31 04:52:46,778] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16423                                     |
+[2022-05-31 04:52:46,779] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10057                                     |
+[2022-05-31 04:52:46,779] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13267                                     |
+[2022-05-31 04:52:46,779] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14407                                     |
+[2022-05-31 04:52:46,779] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13435                                        |
+[2022-05-31 04:52:46,780] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5520                                      |
+[2022-05-31 04:52:46,780] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33194                                        |
+[2022-05-31 04:52:46,780] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 26013                                        |
+[2022-05-31 04:52:46,780] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38627                                        |
+[2022-05-31 04:52:46,781] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10193                                     |
+[2022-05-31 04:52:46,781] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6059                                      |
+[2022-05-31 04:52:46,781] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13268                                     |
+[2022-05-31 04:52:46,781] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6029                                      |
+[2022-05-31 04:52:46,782] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 22635                                        |
+[2022-05-31 04:52:46,782] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6647                                      |
+[2022-05-31 04:52:46,782] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35612                                        |
+[2022-05-31 04:52:46,782] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37666                                        |
+[2022-05-31 04:52:46,783] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35143                                        |
+[2022-05-31 04:52:46,783] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15175                                     |
+[2022-05-31 04:52:46,783] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35648                                        |
+[2022-05-31 04:52:46,783] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39697                                        |
+[2022-05-31 04:52:46,784] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38363                                        |
+[2022-05-31 04:52:46,784] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 22633                                        |
+[2022-05-31 04:52:46,784] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35142                                        |
+[2022-05-31 04:52:46,784] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35297                                        |
+[2022-05-31 04:52:46,785] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14702                                     |
+[2022-05-31 04:52:46,785] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42697                                        |
+[2022-05-31 04:52:46,785] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13022                                     |
+[2022-05-31 04:52:46,785] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34336                                        |
+[2022-05-31 04:52:46,786] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30753                                        |
+[2022-05-31 04:52:46,786] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36712                                        |
+[2022-05-31 04:52:46,786] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10052                                     |
+[2022-05-31 04:52:46,786] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 49771                                        |
+[2022-05-31 04:52:46,787] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 12181                                        |
+[2022-05-31 04:52:46,787] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35345                                        |
+[2022-05-31 04:52:46,787] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10394                                     |
+[2022-05-31 04:52:46,787] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 5791                                      |
+[2022-05-31 04:52:46,788] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37664                                        |
+[2022-05-31 04:52:46,788] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37665                                        |
+[2022-05-31 04:52:46,788] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35475                                        |
+[2022-05-31 04:52:46,788] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10762                                     |
+[2022-05-31 04:52:46,789] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15430                                     |
+[2022-05-31 04:52:46,789] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36132                                        |
+[2022-05-31 04:52:46,789] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 7977                                      |
+[2022-05-31 04:52:46,789] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38025                                        |
+[2022-05-31 04:52:46,790] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37931                                        |
+[2022-05-31 04:52:46,790] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41096                                        |
+[2022-05-31 04:52:46,790] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38683                                        |
+[2022-05-31 04:52:46,790] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13503                                        |
+[2022-05-31 04:52:46,791] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12271                                     |
+[2022-05-31 04:52:46,791] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15104                                     |
+[2022-05-31 04:52:46,791] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10269                                     |
+[2022-05-31 04:52:46,791] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14885                                     |
+[2022-05-31 04:52:46,792] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33570                                        |
+[2022-05-31 04:52:46,793] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37054                                        |
+[2022-05-31 04:52:46,794] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13642                                     |
+[2022-05-31 04:52:46,794] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30752                                        |
+[2022-05-31 04:52:46,794] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34845                                        |
+[2022-05-31 04:52:46,794] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34843                                        |
+[2022-05-31 04:52:46,795] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33533                                        |
+[2022-05-31 04:52:46,795] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34354                                        |
+[2022-05-31 04:52:46,795] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14326                                     |
+[2022-05-31 04:52:46,795] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35141                                        |
+[2022-05-31 04:52:46,796] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34847                                        |
+[2022-05-31 04:52:46,796] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35453                                        |
+[2022-05-31 04:52:46,796] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37115                                        |
+[2022-05-31 04:52:46,796] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50419                                        |
+[2022-05-31 04:52:46,797] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39611                                        |
+[2022-05-31 04:52:46,797] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36261                                        |
+[2022-05-31 04:52:46,797] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 33571                                        |
+[2022-05-31 04:52:46,797] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34373                                        |
+[2022-05-31 04:52:46,798] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37024                                        |
+[2022-05-31 04:52:46,798] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39762                                        |
+[2022-05-31 04:52:46,798] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 30754                                        |
+[2022-05-31 04:52:46,798] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35002                                        |
+[2022-05-31 04:52:46,799] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34353                                        |
+[2022-05-31 04:52:46,799] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37385                                        |
+[2022-05-31 04:52:46,799] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8459                                      |
+[2022-05-31 04:52:46,799] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 3575                                         |
+[2022-05-31 04:52:46,800] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9013                                      |
+[2022-05-31 04:52:46,800] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 8389                                      |
+[2022-05-31 04:52:46,800] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34371                                        |
+[2022-05-31 04:52:46,800] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39038                                        |
+[2022-05-31 04:52:46,801] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36874                                        |
+[2022-05-31 04:52:46,801] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13021                                     |
+[2022-05-31 04:52:46,801] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 12532                                     |
+[2022-05-31 04:52:46,802] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 6519                                      |
+[2022-05-31 04:52:46,802] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 9869                                         |
+[2022-05-31 04:52:46,802] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40342                                        |
+[2022-05-31 04:52:46,803] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34369                                        |
+[2022-05-31 04:52:46,803] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39839                                        |
+[2022-05-31 04:52:46,803] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13507                                        |
+[2022-05-31 04:52:46,803] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37678                                        |
+[2022-05-31 04:52:46,804] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 13501                                        |
+[2022-05-31 04:52:46,804] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 29271                                        |
+[2022-05-31 04:52:46,804] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39032                                        |
+[2022-05-31 04:52:46,805] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40142                                        |
+[2022-05-31 04:52:46,805] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 13638                                     |
+[2022-05-31 04:52:46,805] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 24041                                        |
+[2022-05-31 04:52:46,806] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38622                                        |
+[2022-05-31 04:52:46,806] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35590                                        |
+[2022-05-31 04:52:46,806] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42211                                        |
+[2022-05-31 04:52:46,806] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 50141                                        |
+[2022-05-31 04:52:46,807] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34372                                        |
+[2022-05-31 04:52:46,807] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51097                                        |
+[2022-05-31 04:52:46,807] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40832                                        |
+[2022-05-31 04:52:46,809] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36543                                        |
+[2022-05-31 04:52:46,809] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39711                                        |
+[2022-05-31 04:52:46,810] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 9763                                      |
+[2022-05-31 04:52:46,810] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38451                                        |
+[2022-05-31 04:52:46,810] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37241                                        |
+[2022-05-31 04:52:46,810] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34918                                        |
+[2022-05-31 04:52:46,811] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 4061                                      |
+[2022-05-31 04:52:46,811] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 40393                                        |
+[2022-05-31 04:52:46,811] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37326                                        |
+[2022-05-31 04:52:46,811] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34356                                        |
+[2022-05-31 04:52:46,812] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41951                                        |
+[2022-05-31 04:52:46,812] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 36550                                        |
+[2022-05-31 04:52:46,812] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34370                                        |
+[2022-05-31 04:52:46,813] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34919                                        |
+[2022-05-31 04:52:46,813] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34700                                        |
+[2022-05-31 04:52:46,813] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 34355                                        |
+[2022-05-31 04:52:46,813] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41118                                        |
+[2022-05-31 04:52:46,814] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37337                                        |
+[2022-05-31 04:52:46,814] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38310                                        |
+[2022-05-31 04:52:46,814] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41054                                        |
+[2022-05-31 04:52:46,814] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41609                                        |
+[2022-05-31 04:52:46,815] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38623                                        |
+[2022-05-31 04:52:46,815] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 35452                                        |
+[2022-05-31 04:52:46,815] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39028                                        |
+[2022-05-31 04:52:46,815] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38398                                        |
+[2022-05-31 04:52:46,815] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 37168                                        |
+[2022-05-31 04:52:46,816] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41117                                        |
+[2022-05-31 04:52:46,816] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 45626                                        |
+[2022-05-31 04:52:46,816] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42111                                        |
+[2022-05-31 04:52:46,817] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39034                                        |
+[2022-05-31 04:52:46,817] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42698                                        |
+[2022-05-31 04:52:46,817] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41156                                        |
+[2022-05-31 04:52:46,817] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 39546                                        |
+[2022-05-31 04:52:46,818] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41116                                        |
+[2022-05-31 04:52:46,818] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41111                                        |
+[2022-05-31 04:52:46,818] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 48930                                        |
+[2022-05-31 04:52:46,818] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41113                                        |
+[2022-05-31 04:52:46,818] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41112                                        |
+[2022-05-31 04:52:46,819] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41184                                        |
+[2022-05-31 04:52:46,819] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 41119                                        |
+[2022-05-31 04:52:46,819] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 42852                                        |
+[2022-05-31 04:52:46,819] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51531                                        |
+[2022-05-31 04:52:46,820] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51156                                        |
+[2022-05-31 04:52:46,820] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51123                                        |
+[2022-05-31 04:52:46,820] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 46727                                        |
+[2022-05-31 04:52:46,820] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51901                                        |
+[2022-05-31 04:52:46,821] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 51803                                        |
+[2022-05-31 04:52:46,821] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 46384                                        |
+[2022-05-31 04:52:46,821] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44576                                        |
+[2022-05-31 04:52:46,821] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44558                                        |
+[2022-05-31 04:52:46,822] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44557                                        |
+[2022-05-31 04:52:46,822] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 44577                                        |
+[2022-05-31 04:52:46,822] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:46,822] [builder.py:1283]           [DEBUG]    | 196 IDs Found: [(293088, 'tvdb'), (303867, 'tvdb'), (293088, 'tvdb'), (303867, 'tvdb'), (79895, 'tvdb'), (78878, 'tvdb'), (532067, 'tmdb'), (79895, 'tvdb'), (79895, 'tvdb'), (303867, 'tvdb'), (357471, 'tvdb'), (188551, 'tvdb'), (257521, 'tvdb'), (273008, 'tvdb'), (80327, 'tvdb'), (303867, 'tvdb'), (80236, 'tvdb'), (293088, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (172781, 'tvdb'), (88161, 'tvdb'), (299882, 'tvdb'), (259644, 'tvdb'), (80554, 'tvdb'), (245917, 'tmdb'), (357471, 'tvdb'), (339278, 'tvdb'), (116001, 'tvdb'), (251047, 'tvdb'), (275579, 'tvdb'), (257521, 'tvdb'), (78919, 'tvdb'), (84591, 'tvdb'), (79895, 'tvdb'), (300989, 'tvdb'), (71172, 'tmdb'), (267705, 'tvdb'), (272131, 'tvdb'), (80327, 'tvdb'), (78878, 'tvdb'), (81479, 'tvdb'), (264050, 'tvdb'), (80554, 'tvdb'), (88161, 'tvdb'), (72462, 'tvdb'), (80327, 'tvdb'), (85438, 'tvdb'), (275670, 'tvdb'), (78878, 'tvdb'), (257837, 'tvdb'), (73616, 'tvdb'), (79682, 'tvdb'), (295897, 'tvdb'), (78919, 'tvdb'), (286853, 'tvdb'), (79895, 'tvdb'), (332987, 'tvdb'), (75414, 'tvdb'), (116001, 'tvdb'), (88161, 'tvdb'), (79525, 'tvdb'), (84591, 'tvdb'), (80327, 'tvdb'), (247854, 'tvdb'), (80818, 'tvdb'), (88161, 'tvdb'), (79895, 'tvdb'), (264050, 'tvdb'), (257521, 'tvdb'), (80554, 'tvdb'), (300989, 'tvdb'), (80236, 'tvdb'), (78919, 'tvdb'), (71313, 'tvdb'), (78919, 'tvdb'), (263445, 'tvdb'), (71279, 'tvdb'), (80554, 'tvdb'), (80478, 'tvdb'), (79895, 'tvdb'), (88161, 'tvdb'), (80327, 'tvdb'), (317830, 'tvdb'), (344200, 'tvdb'), (80554, 'tvdb'), (79895, 'tvdb'), (80554, 'tvdb'), (82856, 'tvdb'), (82721, 'tvdb'), (214891, 'tvdb'), (71014, 'tvdb'), (250326, 'tvdb'), (286853, 'tvdb'), (259656, 'tvdb'), (257557, 'tvdb'), (116001, 'tvdb'), (93281, 'tvdb'), (275798, 'tvdb'), (275573, 'tvdb'), (300989, 'tvdb'), (91911, 'tvdb'), (82628, 'tvdb'), (400245, 'tvdb'), (249867, 'tvdb'), (78919, 'tvdb'), (247921, 'tvdb'), (79109, 'tvdb'), (81774, 'tvdb'), (295897, 'tvdb'), (88161, 'tvdb'), (202751, 'tvdb'), (80554, 'tvdb'), (75510, 'tvdb'), (304477, 'tvdb'), (272310, 'tvdb'), (276844, 'tvdb'), (85070, 'tvdb'), (80009, 'tvdb'), (317665, 'tvdb'), (83807, 'tvdb'), (286853, 'tvdb'), (300989, 'tvdb'), (72241, 'tvdb'), (82179, 'tvdb'), (265533, 'tvdb'), (93281, 'tvdb'), (283136, 'tvdb'), (71283, 'tvdb'), (71283, 'tvdb'), (275573, 'tvdb'), (158861, 'tvdb'), (251636, 'tvdb'), (79109, 'tvdb'), (85070, 'tvdb'), (330088, 'tvdb'), (79193, 'tvdb'), (189011, 'tvdb'), (259656, 'tvdb'), (276347, 'tvdb'), (91391, 'tvdb'), (683236, 'tvdb'), (317665, 'tvdb'), (253182, 'tvdb'), (77586, 'tvdb'), (250886, 'tvdb'), (272310, 'tvdb'), (91481, 'tvdb'), (250266, 'tvdb'), (91391, 'tvdb'), (157211, 'tvdb'), (71313, 'tvdb'), (272310, 'tvdb'), (168561, 'tvdb'), (265533, 'tvdb'), (253182, 'tvdb'), (157211, 'tvdb'), (248423, 'tvdb'), (157211, 'tvdb'), (178281, 'tvdb'), (276347, 'tvdb'), (157211, 'tvdb'), (80789, 'tvdb'), (168561, 'tvdb'), (85007, 'tvdb'), (85791, 'tmdb'), (251582, 'tvdb'), (157211, 'tvdb'), (265301, 'tvdb'), (227901, 'tvdb'), (317865, 'tvdb'), (137331, 'tvdb'), (316838, 'tvdb'), (85799, 'tmdb'), (71014, 'tvdb'), (127221, 'tvdb'), (78777, 'tvdb'), (210061, 'tvdb'), (191507, 'tmdb'), (258961, 'tvdb'), (335039, 'tvdb'), (85803, 'tmdb'), (138691, 'tvdb'), (138691, 'tvdb'), (434559, 'tmdb'), (232511, 'tvdb'), (71160, 'tvdb'), (335050, 'tmdb'), (291567, 'tvdb'), (261269, 'tmdb'), (261758, 'tvdb'), (166871, 'tvdb'), (248423, 'tvdb'), (168561, 'tvdb'), (251582, 'tvdb'), (256944, 'tvdb')] |
+[2022-05-31 04:52:46,823] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-05-31 04:52:46,829] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-05-31 04:52:46,829] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Parody Anime Collection                                          |
+[2022-05-31 04:52:46,829] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:46,830] [util.py:216]               [INFO]     |=============================== Missing Movies from Library: Parody ================================|
+[2022-05-31 04:52:46,830] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:46,832] [builder.py:1943]           [INFO]     | Parody Collection | ? | KonoSuba: God's Blessing on this Wonderful World! Legend of Crimson (2019) (TMDb: 532067) |
+[2022-05-31 04:52:46,832] [builder.py:1943]           [INFO]     | Parody Collection | ? | Gintama: The Movie: The Final Chapter: Be Forever Yorozuya (2013) (TMDb: 245917) |
+[2022-05-31 04:52:46,833] [builder.py:1943]           [INFO]     | Parody Collection | ? | Gintama: The Movie (2010) (TMDb: 71172)                                    |
+[2022-05-31 04:52:46,833] [builder.py:1943]           [INFO]     | Parody Collection | ? | Broken Down Film (1985) (TMDb: 85791)                                      |
+[2022-05-31 04:52:47,109] [builder.py:1943]           [INFO]     | Parody Collection | ? | Push (1987) (TMDb: 85799)                                                  |
+[2022-05-31 04:52:47,110] [builder.py:1943]           [INFO]     | Parody Collection | ? | Princess Minerva (1995) (TMDb: 191507)                                     |
+[2022-05-31 04:52:47,351] [builder.py:1943]           [INFO]     | Parody Collection | ? | Genesis (1968) (TMDb: 85803)                                               |
+[2022-05-31 04:52:47,352] [builder.py:1943]           [INFO]     | Parody Collection | ? | Kamen Rider SD: Strange?! Kumo Otoko (1993) (TMDb: 434559)                 |
+[2022-05-31 04:52:47,352] [builder.py:1943]           [INFO]     | Parody Collection | ? | Magical Girl Club Quartet: Alien X from A Zone (1987) (TMDb: 335050)       |
+[2022-05-31 04:52:47,353] [builder.py:1943]           [INFO]     | Parody Collection | ? | Anthropo-Cynical Farce (1970) (TMDb: 261269)                               |
+[2022-05-31 04:52:47,353] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:47,353] [builder.py:1948]           [INFO]     | 10 Movies Missing                                                                                  |
+[2022-05-31 04:52:48,671] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:48,672] [util.py:216]               [INFO]     |================================ Missing Shows from Library: Parody ================================|
+[2022-05-31 04:52:48,672] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-05-31 04:52:49,441] [builder.py:1982]           [INFO]     | Parody Collection | ? | One-Punch Man (TVDB: 293088)                                               |
+[2022-05-31 04:52:49,808] [builder.py:1982]           [INFO]     | Parody Collection | ? | KONOSUBA - God's blessing on this wonderful world! (TVDB: 303867)          |
+[2022-05-31 04:52:50,480] [builder.py:1982]           [INFO]     | Parody Collection | ? | Gintama (TVDB: 79895)                                                      |
+[2022-05-31 04:52:50,948] [builder.py:1982]           [INFO]     | Parody Collection | ? | FLCL (TVDB: 78878)                                                         |
+[2022-05-31 04:52:51,256] [builder.py:1982]           [INFO]     | Parody Collection | ? | Isekai Quartet (TVDB: 357471)                                              |
+[2022-05-31 04:52:51,547] [builder.py:1982]           [INFO]     | Parody Collection | ? | Panty & Stocking with Garterbelt (TVDB: 188551)                            |
+[2022-05-31 04:52:51,864] [builder.py:1982]           [INFO]     | Parody Collection | ? | Nyaruko: Crawling with Love! (TVDB: 257521)                                |
+[2022-05-31 04:52:52,144] [builder.py:1982]           [INFO]     | Parody Collection | ? | Outbreak Company (TVDB: 273008)                                            |
+[2022-05-31 04:52:52,650] [builder.py:1982]           [INFO]     | Parody Collection | ? | Sayonara Zetsubou Sensei (TVDB: 80327)                                     |
+[2022-05-31 04:52:52,997] [builder.py:1982]           [INFO]     | Parody Collection | ? | My Bride is a Mermaid (TVDB: 80236)                                        |
+[2022-05-31 04:52:53,343] [builder.py:1982]           [INFO]     | Parody Collection | ? | Okami-san and Her Seven Companions (TVDB: 172781)                          |
+[2022-05-31 04:52:53,818] [builder.py:1982]           [INFO]     | Parody Collection | ? | Hetalia - Axis Powers (TVDB: 88161)                                        |
+[2022-05-31 04:52:54,777] [builder.py:1982]           [INFO]     | Parody Collection | ? | Attack on Titan: Junior High (TVDB: 299882)                                |
+[2022-05-31 04:52:55,357] [builder.py:1982]           [INFO]     | Parody Collection | ? | Good Luck Girl! (TVDB: 259644)                                             |
+[2022-05-31 04:52:55,757] [builder.py:1982]           [INFO]     | Parody Collection | ? | Hayate the Combat Butler (TVDB: 80554)                                     |
+[2022-05-31 04:52:56,125] [builder.py:1982]           [INFO]     | Parody Collection | ? | Pop Team Epic (TVDB: 339278)                                               |
+[2022-05-31 04:52:56,451] [builder.py:1982]           [INFO]     | Parody Collection | ? | Student Council's Discretion (TVDB: 116001)                                |
+[2022-05-31 04:52:56,974] [builder.py:1982]           [INFO]     | Parody Collection | ? | Carnival Phantasm (TVDB: 251047)                                           |
+[2022-05-31 04:52:57,532] [builder.py:1982]           [INFO]     | Parody Collection | ? | No-Rin (TVDB: 275579)                                                      |
+[2022-05-31 04:52:57,930] [builder.py:1982]           [INFO]     | Parody Collection | ? | Genshiken (TVDB: 78919)                                                    |
+[2022-05-31 04:52:58,288] [builder.py:1982]           [INFO]     | Parody Collection | ? | Maria Holic (TVDB: 84591)                                                  |
+[2022-05-31 04:52:58,632] [builder.py:1982]           [INFO]     | Parody Collection | ? | Mr. Osomatsu (TVDB: 300989)                                                |
+[2022-05-31 04:52:58,946] [builder.py:1982]           [INFO]     | Parody Collection | ? | Hyperdimension Neptunia (TVDB: 267705)                                     |
+[2022-05-31 04:52:59,197] [builder.py:1982]           [INFO]     | Parody Collection | ? | Samurai Flamenco (TVDB: 272131)                                            |
+[2022-05-31 04:52:59,476] [builder.py:1982]           [INFO]     | Parody Collection | ? | They Are My Noble Masters (TVDB: 81479)                                    |
+[2022-05-31 04:52:59,904] [builder.py:1982]           [INFO]     | Parody Collection | ? | Senyū. (TVDB: 264050)                                                      |
+[2022-05-31 04:53:00,224] [builder.py:1982]           [INFO]     | Parody Collection | ? | Excel Saga (TVDB: 72462)                                                   |
+[2022-05-31 04:53:00,584] [builder.py:1982]           [INFO]     | Parody Collection | ? | The Melancholy of Haruhi-chan Suzumiya (TVDB: 85438)                       |
+[2022-05-31 04:53:01,176] [builder.py:1982]           [INFO]     | Parody Collection | ? | Nisekoi (TVDB: 275670)                                                     |
+[2022-05-31 04:53:01,790] [builder.py:1982]           [INFO]     | Parody Collection | ? | Naruto Spin-Off: Rock Lee & His Ninja Pals (TVDB: 257837)                  |
+[2022-05-31 04:53:02,614] [builder.py:1982]           [INFO]     | Parody Collection | ? | Magical Shopping Arcade Abenobashi (TVDB: 73616)                           |
+[2022-05-31 04:53:03,143] [builder.py:1982]           [INFO]     | Parody Collection | ? | When They Cry - Higurashi (TVDB: 79682)                                    |
+[2022-05-31 04:53:03,485] [builder.py:1982]           [INFO]     | Parody Collection | ? | Bikini Warriors (TVDB: 295897)                                             |
+[2022-05-31 04:53:03,718] [builder.py:1982]           [INFO]     | Parody Collection | ? | Cute High Earth Defense Club LOVE! (TVDB: 286853)                          |
+[2022-05-31 04:53:03,992] [builder.py:1982]           [INFO]     | Parody Collection | ? | Anime-Gatari (TVDB: 332987)                                                |
+[2022-05-31 04:53:04,426] [builder.py:1982]           [INFO]     | Parody Collection | ? | Sgt. Frog (TVDB: 75414)                                                    |
+[2022-05-31 04:53:04,964] [builder.py:1982]           [INFO]     | Parody Collection | ? | Code Geass: Lelouch of the Rebellion (TVDB: 79525)                         |
+[2022-05-31 04:53:05,418] [builder.py:1982]           [INFO]     | Parody Collection | ? | A Thirty-Year Old's Health and Physical Education (TVDB: 247854)           |
+[2022-05-31 04:53:05,756] [builder.py:1982]           [INFO]     | Parody Collection | ? | Pani Poni Dash! (TVDB: 80818)                                              |
+[2022-05-31 04:53:06,086] [builder.py:1982]           [INFO]     | Parody Collection | ? | Martian Successor Nadesico (TVDB: 71313)                                   |
+[2022-05-31 04:53:06,443] [builder.py:1982]           [INFO]     | Parody Collection | ? | World War Blue (TVDB: 263445)                                              |
+[2022-05-31 04:53:06,923] [builder.py:1982]           [INFO]     | Parody Collection | ? | The Irresponsible Captain Tylor (TVDB: 71279)                              |
+[2022-05-31 04:53:07,931] [builder.py:1982]           [INFO]     | Parody Collection | ? | School Days (TVDB: 80478)                                                  |
+[2022-05-31 04:53:08,276] [builder.py:1982]           [INFO]     | Parody Collection | ? | Gakuen Handsome (TVDB: 317830)                                             |
+[2022-05-31 04:53:08,558] [builder.py:1982]           [INFO]     | Parody Collection | ? | Mr. TONEGAWA Middle Management Blues (TVDB: 344200)                        |
+[2022-05-31 04:53:08,849] [builder.py:1982]           [INFO]     | Parody Collection | ? | Ninja Nonsense (TVDB: 82856)                                               |
+[2022-05-31 04:53:09,410] [builder.py:1982]           [INFO]     | Parody Collection | ? | Magical Pokan (TVDB: 82721)                                                |
+[2022-05-31 04:53:09,683] [builder.py:1982]           [INFO]     | Parody Collection | ? | Haiyoru! Nyaruani: Remember My Mr. Lovecraft (TVDB: 214891)                |
+[2022-05-31 04:53:10,537] [builder.py:1982]           [INFO]     | Parody Collection | ? | Kirby: Right Back At Ya! (TVDB: 71014)                                     |
+[2022-05-31 04:53:10,895] [builder.py:1982]           [INFO]     | Parody Collection | ? | Katte ni Kaizou (TVDB: 250326)                                             |
+[2022-05-31 04:53:11,197] [builder.py:1982]           [INFO]     | Parody Collection | ? | Ebiten (TVDB: 259656)                                                      |
+[2022-05-31 04:53:11,449] [builder.py:1982]           [INFO]     | Parody Collection | ? | Sengoku Collection (TVDB: 257557)                                          |
+[2022-05-31 04:53:11,712] [builder.py:1982]           [INFO]     | Parody Collection | ? | Astro Fighter Sunred (TVDB: 93281)                                         |
+[2022-05-31 04:53:12,001] [builder.py:1982]           [INFO]     | Parody Collection | ? | Fate/Zero (TVDB: 275798)                                                   |
+[2022-05-31 04:53:12,216] [builder.py:1982]           [INFO]     | Parody Collection | ? | Robot Girls Z (TVDB: 275573)                                               |
+[2022-05-31 04:53:12,450] [builder.py:1982]           [INFO]     | Parody Collection | ? | Dragon Half (TVDB: 91911)                                                  |
+[2022-05-31 04:53:12,690] [builder.py:1982]           [INFO]     | Parody Collection | ? | Ramen Fighter Miki (TVDB: 82628)                                           |
+[2022-05-31 04:53:12,913] [builder.py:1982]           [INFO]     | Parody Collection | ? | Hetalia: World Stars (TVDB: 400245)                                        |
+[2022-05-31 04:53:13,194] [builder.py:1982]           [INFO]     | Parody Collection | ? | R-15 (TVDB: 249867)                                                        |
+[2022-05-31 04:53:13,413] [builder.py:1982]           [INFO]     | Parody Collection | ? | Ghastly Prince Enma Burning Up (TVDB: 247921)                              |
+[2022-05-31 04:53:13,679] [builder.py:1982]           [INFO]     | Parody Collection | ? | Nurse Witch Komugi (TVDB: 79109)                                           |
+[2022-05-31 04:53:13,885] [builder.py:1982]           [INFO]     | Parody Collection | ? | Pucca (TVDB: 81774)                                                        |
+[2022-05-31 04:53:14,086] [builder.py:1982]           [INFO]     | Parody Collection | ? | The Legend of Koizumi (TVDB: 202751)                                       |
+[2022-05-31 04:53:14,270] [builder.py:1982]           [INFO]     | Parody Collection | ? | Cosplay Complex (TVDB: 75510)                                              |
+[2022-05-31 04:53:14,817] [builder.py:1982]           [INFO]     | Parody Collection | ? | Nurse Witch Komugi R (TVDB: 304477)                                        |
+[2022-05-31 04:53:15,064] [builder.py:1982]           [INFO]     | Parody Collection | ? | Tesagure! Bukatsumono (TVDB: 272310)                                       |
+[2022-05-31 04:53:15,239] [builder.py:1982]           [INFO]     | Parody Collection | ? | Super Pig (TVDB: 276844)                                                   |
+[2022-05-31 04:53:15,443] [builder.py:1982]           [INFO]     | Parody Collection | ? | Animation Runner Kuromi (TVDB: 85070)                                      |
+[2022-05-31 04:53:15,790] [builder.py:1982]           [INFO]     | Parody Collection | ? | Tenchi Muyo! Ryo-Ohki (TVDB: 80009)                                        |
+[2022-05-31 04:53:16,071] [builder.py:1982]           [INFO]     | Parody Collection | ? | Kaiju Girls (TVDB: 317665)                                                 |
+[2022-05-31 04:53:16,314] [builder.py:1982]           [INFO]     | Parody Collection | ? | Good Day for Gag Manga (TVDB: 83807)                                       |
+[2022-05-31 04:53:16,799] [builder.py:1982]           [INFO]     | Parody Collection | ? | Digimon: Digital Monsters (TVDB: 72241)                                    |
+[2022-05-31 04:53:17,039] [builder.py:1982]           [INFO]     | Parody Collection | ? | Lunar Rabbit Weapon Mina (TVDB: 82179)                                     |
+[2022-05-31 04:53:17,241] [builder.py:1982]           [INFO]     | Parody Collection | ? | Papillon Rose (TVDB: 265533)                                               |
+[2022-05-31 04:53:17,460] [builder.py:1982]           [INFO]     | Parody Collection | ? | Mobile Suit Gundam-san (TVDB: 283136)                                      |
+[2022-05-31 04:53:17,762] [builder.py:1982]           [INFO]     | Parody Collection | ? | Magical Project S (TVDB: 71283)                                            |
+[2022-05-31 04:53:18,043] [builder.py:1982]           [INFO]     | Parody Collection | ? | Arcade Gamer Fubuki (TVDB: 158861)                                         |
+[2022-05-31 04:53:18,281] [builder.py:1982]           [INFO]     | Parody Collection | ? | Blazing Transfer Student (TVDB: 251636)                                    |
+[2022-05-31 04:53:18,544] [builder.py:1982]           [INFO]     | Parody Collection | ? | Irresponsible Galaxy Tylor (TVDB: 330088)                                  |
+[2022-05-31 04:53:18,812] [builder.py:1982]           [INFO]     | Parody Collection | ? | Dokkoida (TVDB: 79193)                                                     |
+[2022-05-31 04:53:19,033] [builder.py:1982]           [INFO]     | Parody Collection | ? | Zettai Seigi Love Pheromone (TVDB: 189011)                                 |
+[2022-05-31 04:53:19,256] [builder.py:1982]           [INFO]     | Parody Collection | ? | Everyone Gather! Falcom Academy (TVDB: 276347)                             |
+[2022-05-31 04:53:19,475] [builder.py:1982]           [INFO]     | Parody Collection | ? | Oh! Super Milk-Chan (TVDB: 91391)                                          |
+[2022-05-31 04:53:19,552] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 683236                              |
+[2022-05-31 04:53:19,831] [builder.py:1982]           [INFO]     | Parody Collection | ? | DD Fist of the North Star (TVDB: 253182)                                   |
+[2022-05-31 04:53:20,049] [builder.py:1982]           [INFO]     | Parody Collection | ? | Mon Colle Knights (TVDB: 77586)                                            |
+[2022-05-31 04:53:20,287] [builder.py:1982]           [INFO]     | Parody Collection | ? | Bihada Ichizoku (TVDB: 250886)                                             |
+[2022-05-31 04:53:20,549] [builder.py:1982]           [INFO]     | Parody Collection | ? | Giant Robo: The Day the Earth Stood Still (TVDB: 91481)                    |
+[2022-05-31 04:53:20,847] [builder.py:1982]           [INFO]     | Parody Collection | ? | Yatterman (TVDB: 250266)                                                   |
+[2022-05-31 04:53:21,139] [builder.py:1982]           [INFO]     | Parody Collection | ? | SD Gundam Force (TVDB: 157211)                                             |
+[2022-05-31 04:53:21,361] [builder.py:1982]           [INFO]     | Parody Collection | ? | Tono to Issho (TVDB: 168561)                                               |
+[2022-05-31 04:53:21,637] [builder.py:1982]           [INFO]     | Parody Collection | ? | Highschool! Kimengumi (TVDB: 248423)                                       |
+[2022-05-31 04:53:21,831] [builder.py:1982]           [INFO]     | Parody Collection | ? | Go Nagai World (TVDB: 178281)                                              |
+[2022-05-31 04:53:22,136] [builder.py:1982]           [INFO]     | Parody Collection | ? | Patlabor: The Mobile Police (TVDB: 80789)                                  |
+[2022-05-31 04:53:22,390] [builder.py:1982]           [INFO]     | Parody Collection | ? | The Story of Little Goddess Roly-Poly Pollon (TVDB: 85007)                 |
+[2022-05-31 04:53:22,640] [builder.py:1982]           [INFO]     | Parody Collection | ? | GoShogun (TVDB: 251582)                                                    |
+[2022-05-31 04:53:22,862] [builder.py:1982]           [INFO]     | Parody Collection | ? | Idol Defense Force Hummingbird (TVDB: 265301)                              |
+[2022-05-31 04:53:23,219] [builder.py:1982]           [INFO]     | Parody Collection | ? | Jungle King Taa-chan (TVDB: 227901)                                        |
+[2022-05-31 04:53:23,450] [builder.py:1982]           [INFO]     | Parody Collection | ? | 3rd Year Class D Glass Mask (TVDB: 317865)                                 |
+[2022-05-31 04:53:23,725] [builder.py:1982]           [INFO]     | Parody Collection | ? | Panda-Z: The Robonimation (TVDB: 137331)                                   |
+[2022-05-31 04:53:24,039] [builder.py:1982]           [INFO]     | Parody Collection | ? | Heybot! (TVDB: 316838)                                                     |
+[2022-05-31 04:53:24,431] [builder.py:1982]           [INFO]     | Parody Collection | ? | Mankatsu (TVDB: 127221)                                                    |
+[2022-05-31 04:53:24,769] [builder.py:1982]           [INFO]     | Parody Collection | ? | Record of Lodoss War (TVDB: 78777)                                         |
+[2022-05-31 04:53:25,070] [builder.py:1982]           [INFO]     | Parody Collection | ? | Time Bokan (TVDB: 210061)                                                  |
+[2022-05-31 04:53:25,328] [builder.py:1982]           [INFO]     | Parody Collection | ? | Nanako SOS (TVDB: 258961)                                                  |
+[2022-05-31 04:53:25,671] [builder.py:1982]           [INFO]     | Parody Collection | ? | Oretacha Youkai Ningen (TVDB: 335039)                                      |
+[2022-05-31 04:53:25,954] [builder.py:1982]           [INFO]     | Parody Collection | ? | Gall Force (TVDB: 138691)                                                  |
+[2022-05-31 04:53:26,242] [builder.py:1982]           [INFO]     | Parody Collection | ? | Shooting Star Machine Gakusaver (TVDB: 232511)                             |
+[2022-05-31 04:53:26,848] [builder.py:1982]           [INFO]     | Parody Collection | ? | Tokyo Pig (TVDB: 71160)                                                    |
+[2022-05-31 04:53:27,085] [builder.py:1982]           [INFO]     | Parody Collection | ? | Q Transformers (TVDB: 291567)                                              |
+[2022-05-31 04:53:27,305] [builder.py:1982]           [INFO]     | Parody Collection | ? | Z-Mind (TVDB: 261758)                                                      |
+[2022-05-31 04:53:27,616] [builder.py:1982]           [INFO]     | Parody Collection | ? | Lord of Lords Ryu Knight (TVDB: 166871)                                    |
+[2022-05-31 04:53:28,325] [builder.py:1982]           [INFO]     | Parody Collection | ? | Voogie's Angel (TVDB: 256944)                                              |
+[2022-05-31 04:53:28,326] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-05-31 04:53:28,326] [builder.py:1987]           [INFO]     | 112 Shows Missing                                                                                  |
+[2022-05-31 04:53:29,345] [plex_meta_manager.py:843]  [INFO]     |                                                                                                    |
+[2022-05-31 04:53:29,346] [util.py:216]               [INFO]     |========================================== No Items Found ==========================================|
+[2022-05-31 04:53:29,346] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-05-31 04:53:29,346] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-05-31 04:53:29,347] [util.py:216]               [INFO]     |                                  Finished Parody Anime Collection                                  |
+[2022-05-31 04:53:29,347] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:01:01                                    |
+[2022-05-31 04:53:29,347] [util.py:220]               [INFO]     |====================================================================================================|

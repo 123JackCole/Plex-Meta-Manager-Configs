@@ -1,0 +1,56 @@
+[2022-03-20 10:23:03,480] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-03-20 10:23:03,481] [util.py:216]               [INFO]     |                                      4K Collection in Movies                                       |
+[2022-03-20 10:23:03,483] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-03-20 10:23:03,483] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,487] [util.py:216]               [INFO]     |===================================== Validating 4K Attributes =====================================|
+[2022-03-20 10:23:03,488] [builder.py:323]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,488] [builder.py:324]            [DEBUG]    | Validating Method: build_collection                                                                |
+[2022-03-20 10:23:03,489] [builder.py:325]            [DEBUG]    | Value: False                                                                                       |
+[2022-03-20 10:23:03,489] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,489] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-03-20 10:23:03,501] [builder.py:474]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution', '4K'), ('hdr', False)]))])                 |
+[2022-03-20 10:23:03,507] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,507] [builder.py:473]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-03-20 10:23:03,508] [builder.py:474]            [DEBUG]    | Value: ordereddict([('filepath.not', 'DoVi')])                                                     |
+[2022-03-20 10:23:03,508] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,508] [builder.py:473]            [DEBUG]    | Validating Method: item_overlay                                                                    |
+[2022-03-20 10:23:03,509] [builder.py:474]            [DEBUG]    | Value: 4K                                                                                          |
+[2022-03-20 10:23:03,509] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,509] [builder.py:473]            [DEBUG]    | Validating Method: create_asset_folders                                                            |
+[2022-03-20 10:23:03,510] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
+[2022-03-20 10:23:03,510] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,510] [builder.py:473]            [DEBUG]    | Validating Method: revert_overlay                                                                  |
+[2022-03-20 10:23:03,510] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-03-20 10:23:03,511] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,511] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-03-20 10:23:03,511] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,513] [util.py:216]               [INFO]     |====================================== Running 4K Collection =======================================|
+[2022-03-20 10:23:03,513] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,513] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-03-20 10:23:03,514] [plex_meta_manager.py:777]  [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,514] [plex_meta_manager.py:779]  [INFO]     | Collection Filter filepath.not: ['DoVi']                                                           |
+[2022-03-20 10:23:03,514] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,514] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 4K\n    HDR is false', '?type=1&sort=titleSort&resolution=4k&and=1&hdr!=1') |
+[2022-03-20 10:23:03,515] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-03-20 10:23:03,516] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-03-20 10:23:03,517] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-03-20 10:23:03,518] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-03-20 10:23:03,518] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2022-03-20 10:23:03,518] [util.py:161]               [INFO]     |     Resolution is 4K                                                                               |
+[2022-03-20 10:23:03,519] [util.py:161]               [INFO]     |     HDR is false                                                                                   |
+[2022-03-20 10:23:03,648] [plex.py:746]               [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,649] [plex.py:747]               [DEBUG]    | 34 Keys Found: [(32335, 'ratingKey'), (33666, 'ratingKey'), (34045, 'ratingKey'), (33532, 'ratingKey'), (31856, 'ratingKey'), (35811, 'ratingKey'), (34598, 'ratingKey'), (36686, 'ratingKey'), (31862, 'ratingKey'), (33372, 'ratingKey'), (36440, 'ratingKey'), (35924, 'ratingKey'), (34389, 'ratingKey'), (35830, 'ratingKey'), (36752, 'ratingKey'), (31136, 'ratingKey'), (31861, 'ratingKey'), (31897, 'ratingKey'), (35005, 'ratingKey'), (31950, 'ratingKey'), (35429, 'ratingKey'), (32312, 'ratingKey'), (32645, 'ratingKey'), (31923, 'ratingKey'), (31865, 'ratingKey'), (31938, 'ratingKey'), (35880, 'ratingKey'), (36442, 'ratingKey'), (31807, 'ratingKey'), (31809, 'ratingKey'), (31814, 'ratingKey'), (31832, 'ratingKey'), (37052, 'ratingKey'), (31867, 'ratingKey')] |
+[2022-03-20 10:23:03,649] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:03,649] [builder.py:1283]           [DEBUG]    | 34 IDs Found: [(32335, 'ratingKey'), (33666, 'ratingKey'), (34045, 'ratingKey'), (33532, 'ratingKey'), (31856, 'ratingKey'), (35811, 'ratingKey'), (34598, 'ratingKey'), (36686, 'ratingKey'), (31862, 'ratingKey'), (33372, 'ratingKey'), (36440, 'ratingKey'), (35924, 'ratingKey'), (34389, 'ratingKey'), (35830, 'ratingKey'), (36752, 'ratingKey'), (31136, 'ratingKey'), (31861, 'ratingKey'), (31897, 'ratingKey'), (35005, 'ratingKey'), (31950, 'ratingKey'), (35429, 'ratingKey'), (32312, 'ratingKey'), (32645, 'ratingKey'), (31923, 'ratingKey'), (31865, 'ratingKey'), (31938, 'ratingKey'), (35880, 'ratingKey'), (36442, 'ratingKey'), (31807, 'ratingKey'), (31809, 'ratingKey'), (31814, 'ratingKey'), (31832, 'ratingKey'), (37052, 'ratingKey'), (31867, 'ratingKey')] |
+[2022-03-20 10:23:03,650] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-03-20 10:23:04,876] [builder.py:2015]           [INFO]     |                                                                                                    |
+[2022-03-20 10:23:04,876] [util.py:216]               [INFO]     |================================== Items Found for 4K Collection ===================================|
+[2022-03-20 10:23:04,877] [builder.py:2017]           [INFO]     |                                                                                                    |
+[2022-03-20 10:23:04,877] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-03-20 10:23:04,877] [util.py:216]               [INFO]     |========================== Updating Details of the Items in 4K Collection ==========================|
+[2022-03-20 10:23:04,878] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-03-20 10:23:05,030] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-03-20 10:23:05,030] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-03-20 10:23:05,031] [util.py:216]               [INFO]     |                                       Finished 4K Collection                                       |
+[2022-03-20 10:23:05,031] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-03-20 10:23:05,032] [util.py:220]               [INFO]     |====================================================================================================|

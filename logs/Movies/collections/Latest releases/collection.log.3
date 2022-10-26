@@ -1,0 +1,42 @@
+[2022-10-20 01:09:52,430] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 01:09:52,430] [util.py:216]               [INFO]     |                                Latest releases Collection in Movies                                |
+[2022-10-20 01:09:52,431] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-20 01:09:52,431] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-20 01:09:52,431] [util.py:216]               [INFO]     |============================== Validating Latest releases Attributes ===============================|
+[2022-10-20 01:09:52,431] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:52,432] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-20 01:09:52,432] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Special Genre')])                                                    |
+[2022-10-20 01:09:52,432] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:52,432] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-20 01:09:52,432] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-20 01:09:52,433] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:52,433] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-20 01:09:52,433] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-10-20 01:09:52,433] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:52,433] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-20 01:09:52,433] [builder.py:474]            [DEBUG]    | Value: 00000b_3                                                                                    |
+[2022-10-20 01:09:52,434] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:52,434] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-10-20 01:09:52,434] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/garycrawfordgc/lists/latest-releases', 'https://trakt.tv/users/giladg/lists/latest-releases'] |
+[2022-10-20 01:09:53,289] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:53,290] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-10-20 01:09:53,290] [builder.py:474]            [DEBUG]    | Value: Latest releases                                                                             |
+[2022-10-20 01:09:53,290] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:53,290] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-20 01:09:53,291] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/D62EdJd.jpg                                                             |
+[2022-10-20 01:09:53,291] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:53,291] [builder.py:473]            [DEBUG]    | Validating Method: limit                                                                           |
+[2022-10-20 01:09:53,291] [builder.py:474]            [DEBUG]    | Value: 100                                                                                         |
+[2022-10-20 01:09:53,291] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 557, in __init__                 |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: {method_final} attribute not supported")                     |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: limit attribute not supported                               |
+[2022-10-20 01:09:53,292] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-20 01:09:53,293] [util.py:159]               [ERROR]    | Collection Error: limit attribute not supported                                                    |
+[2022-10-20 01:09:53,293] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-20 01:09:53,293] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-20 01:09:53,294] [util.py:216]               [INFO]     |                                Finished Latest releases Collection                                 |
+[2022-10-20 01:09:53,294] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-10-20 01:09:53,294] [util.py:220]               [INFO]     |====================================================================================================|

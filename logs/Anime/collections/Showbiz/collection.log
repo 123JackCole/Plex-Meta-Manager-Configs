@@ -1,0 +1,81 @@
+[2022-07-13 01:08:17,977] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-13 01:08:17,977] [util.py:216]               [INFO]     |                                    Showbiz Collection in Anime                                     |
+[2022-07-13 01:08:17,978] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-07-13 01:08:17,978] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:17,978] [util.py:216]               [INFO]     |================================== Validating Showbiz Attributes ===================================|
+[2022-07-13 01:08:17,979] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,979] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-07-13 01:08:17,979] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 75), ('poster', None)])                          |
+[2022-07-13 01:08:17,980] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,980] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-07-13 01:08:17,980] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-07-13 01:08:17,980] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,980] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-07-13 01:08:17,981] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-07-13 01:08:17,981] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,981] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-07-13 01:08:17,981] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 75, 'limit': 999}                                                              |
+[2022-07-13 01:08:17,981] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,982] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-07-13 01:08:17,982] [builder.py:474]            [DEBUG]    | Value: +++_Showbiz                                                                                 |
+[2022-07-13 01:08:17,982] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,982] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-07-13 01:08:17,983] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-07-13 01:08:17,986] [plex.py:685]               [DEBUG]    | Looking for: Showbiz                                                                               |
+[2022-07-13 01:08:17,986] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-07-13 01:08:17,986] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-07-13 01:08:17,988] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:17,989] [util.py:216]               [INFO]     |==================================== Running Showbiz Collection ====================================|
+[2022-07-13 01:08:17,989] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:17,989] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-07-13 01:08:17,989] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:17,990] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 75, 'limit': 999}                                                 |
+[2022-07-13 01:08:17,990] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:17,990] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 75                                                                |
+[2022-07-13 01:08:20,698] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:20,698] [mal.py:240]                [DEBUG]    | 24 MyAnimeList IDs Found: [437, 4722, 40620, 1033, 40392, 710, 32607, 8876, 40513, 1486, 33299, 29163, 1974, 1516, 43735, 1021, 1070, 3421, 32202, 32993, 1115, 50285, 38854, 21749] |
+[2022-07-13 01:08:20,700] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32202                                        |
+[2022-07-13 01:08:20,701] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 32993                                        |
+[2022-07-13 01:08:20,701] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1388                                      |
+[2022-07-13 01:08:20,701] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16955                                     |
+[2022-07-13 01:08:20,701] [convert.py:100]            [ERROR]    | Convert Error: AniDB ID not found for MyAnimeList ID: 38854                                        |
+[2022-07-13 01:08:20,702] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2409                                      |
+[2022-07-13 01:08:20,702] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:20,702] [builder.py:1283]           [DEBUG]    | 18 IDs Found: [(10494, 'tmdb'), (83653, 'tvdb'), (401234, 'tvdb'), (33320, 'tmdb'), (369719, 'tvdb'), (80438, 'tvdb'), (314287, 'tvdb'), (206081, 'tvdb'), (371040, 'tvdb'), (79544, 'tvdb'), (314482, 'tvdb'), (295892, 'tvdb'), (179321, 'tvdb'), (103071, 'tvdb'), (411827, 'tvdb'), (120331, 'tvdb'), (199561, 'tvdb'), (79544, 'tvdb')] |
+[2022-07-13 01:08:20,703] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-07-13 01:08:20,703] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:20,703] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Showbiz Collection                                               |
+[2022-07-13 01:08:20,704] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:20,704] [util.py:216]               [INFO]     |=============================== Missing Movies from Library: Showbiz ===============================|
+[2022-07-13 01:08:20,704] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:20,705] [builder.py:1943]           [INFO]     | Showbiz Collection | ? | Perfect Blue (1997) (TMDb: 10494)                                         |
+[2022-07-13 01:08:20,706] [builder.py:1943]           [INFO]     | Showbiz Collection | ? | Millennium Actress (2001) (TMDb: 33320)                                   |
+[2022-07-13 01:08:20,707] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:20,707] [builder.py:1948]           [INFO]     | 2 Movies Missing                                                                                   |
+[2022-07-13 01:08:21,353] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:21,354] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Showbiz ================================|
+[2022-07-13 01:08:21,354] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:21,802] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Skip Beat! (TVDB: 83653)                                                  |
+[2022-07-13 01:08:23,003] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Life Lessons with Uramichi Oniisan (TVDB: 401234)                         |
+[2022-07-13 01:08:24,640] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Smile Down the Runway (TVDB: 369719)                                      |
+[2022-07-13 01:08:25,038] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Rec (TVDB: 80438)                                                         |
+[2022-07-13 01:08:25,432] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Girlish Number (TVDB: 314287)                                             |
+[2022-07-13 01:08:26,079] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Working with Voice! (TVDB: 206081)                                        |
+[2022-07-13 01:08:26,456] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Wave, Listen to Me! (TVDB: 371040)                                        |
+[2022-07-13 01:08:27,209] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Kodocha (TVDB: 79544)                                                     |
+[2022-07-13 01:08:27,660] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Magic★Kyun! Renaissance (TVDB: 314482)                                    |
+[2022-07-13 01:08:28,102] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Seiyu's Life! (TVDB: 295892)                                              |
+[2022-07-13 01:08:28,498] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Glass Mask (2005) (TVDB: 179321)                                          |
+[2022-07-13 01:08:29,011] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Kirarin Revolution (TVDB: 103071)                                         |
+[2022-07-13 01:08:29,607] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | CUE! (TVDB: 411827)                                                       |
+[2022-07-13 01:08:29,990] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Sensual Phrase (TVDB: 120331)                                             |
+[2022-07-13 01:08:30,367] [builder.py:1982]           [INFO]     | Showbiz Collection | ? | Love Get Chu (TVDB: 199561)                                               |
+[2022-07-13 01:08:30,367] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-07-13 01:08:30,368] [builder.py:1987]           [INFO]     | 15 Shows Missing                                                                                   |
+[2022-07-13 01:08:31,053] [plex_meta_manager.py:843]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:31,053] [util.py:216]               [INFO]     |========================================== No Items Found ==========================================|
+[2022-07-13 01:08:31,054] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-07-13 01:08:31,054] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-07-13 01:08:31,054] [util.py:216]               [INFO]     |                                    Finished Showbiz Collection                                     |
+[2022-07-13 01:08:31,055] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-07-13 01:08:31,055] [util.py:220]               [INFO]     |====================================================================================================|

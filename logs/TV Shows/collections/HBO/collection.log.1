@@ -1,0 +1,121 @@
+[2022-10-24 01:58:33,590] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:58:33,590] [util.py:216]               [INFO]     |                                     HBO Collection in TV Shows                                     |
+[2022-10-24 01:58:33,591] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-24 01:58:33,591] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-24 01:58:33,591] [util.py:216]               [INFO]     |==================================== Validating HBO Attributes =====================================|
+[2022-10-24 01:58:33,592] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:33,592] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-24 01:58:33,592] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '49, 2593, 3186, 3308'), ('poster', 'https://theposterdb.com/api/assets/168825')]) |
+[2022-10-24 01:58:33,592] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:33,593] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-24 01:58:33,593] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-24 01:58:33,593] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:33,593] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-24 01:58:33,593] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-24 01:58:33,594] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:33,594] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-10-24 01:58:33,594] [builder.py:474]            [DEBUG]    | Value: 49, 2593, 3186, 3308                                                                        |
+[2022-10-24 01:58:34,067] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:34,068] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-24 01:58:34,068] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/168825                                                   |
+[2022-10-24 01:58:34,068] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:34,068] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-24 01:58:34,069] [builder.py:474]            [DEBUG]    | Value: +2_HBO                                                                                      |
+[2022-10-24 01:58:34,162] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-24 01:58:34,163] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-24 01:58:34,163] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-24 01:58:34,163] [util.py:216]               [INFO]     |====================================== Running HBO Collection ======================================|
+[2022-10-24 01:58:34,164] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-24 01:58:34,164] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-24 01:58:34,164] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:34,164] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 49                                                                          |
+[2022-10-24 01:58:34,165] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-24 01:58:35,840] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-24 01:58:35,840] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
+[2022-10-24 01:58:35,841] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
+[2022-10-24 01:58:35,841] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request |
+[2022-10-24 01:58:35,841] [util.py:162]               [DEBUG]    |     six.raise_from(e, None)                                                                        |
+[2022-10-24 01:58:35,842] [util.py:162]               [DEBUG]    |   File "<string>", line 3, in raise_from                                                           |
+[2022-10-24 01:58:35,842] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request |
+[2022-10-24 01:58:35,842] [util.py:162]               [DEBUG]    |     httplib_response = conn.getresponse()                                                          |
+[2022-10-24 01:58:35,842] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse |
+[2022-10-24 01:58:35,843] [util.py:162]               [DEBUG]    |     response.begin()                                                                               |
+[2022-10-24 01:58:35,843] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin |
+[2022-10-24 01:58:35,843] [util.py:162]               [DEBUG]    |     version, status, reason = self._read_status()                                                  |
+[2022-10-24 01:58:35,843] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status |
+[2022-10-24 01:58:35,844] [util.py:162]               [DEBUG]    |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")                                       |
+[2022-10-24 01:58:35,844] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto |
+[2022-10-24 01:58:35,844] [util.py:162]               [DEBUG]    |     return self._sock.recv_into(b)                                                                 |
+[2022-10-24 01:58:35,844] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into  |
+[2022-10-24 01:58:35,845] [util.py:162]               [DEBUG]    |     return self.read(nbytes, buffer)                                                               |
+[2022-10-24 01:58:35,845] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read       |
+[2022-10-24 01:58:35,845] [util.py:162]               [DEBUG]    |     return self._sslobj.read(len, buffer)                                                          |
+[2022-10-24 01:58:35,845] [util.py:162]               [DEBUG]    | ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host |
+[2022-10-24 01:58:35,846] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:35,846] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-24 01:58:35,846] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:35,846] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-24 01:58:35,846] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
+[2022-10-24 01:58:35,847] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
+[2022-10-24 01:58:35,847] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
+[2022-10-24 01:58:35,847] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
+[2022-10-24 01:58:35,847] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment |
+[2022-10-24 01:58:35,848] [util.py:162]               [DEBUG]    |     raise six.reraise(type(error), error, _stacktrace)                                             |
+[2022-10-24 01:58:35,848] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise |
+[2022-10-24 01:58:35,848] [util.py:162]               [DEBUG]    |     raise value.with_traceback(tb)                                                                 |
+[2022-10-24 01:58:35,848] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
+[2022-10-24 01:58:35,848] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
+[2022-10-24 01:58:35,849] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request |
+[2022-10-24 01:58:35,849] [util.py:162]               [DEBUG]    |     six.raise_from(e, None)                                                                        |
+[2022-10-24 01:58:35,849] [util.py:162]               [DEBUG]    |   File "<string>", line 3, in raise_from                                                           |
+[2022-10-24 01:58:35,849] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request |
+[2022-10-24 01:58:35,850] [util.py:162]               [DEBUG]    |     httplib_response = conn.getresponse()                                                          |
+[2022-10-24 01:58:35,850] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse |
+[2022-10-24 01:58:35,850] [util.py:162]               [DEBUG]    |     response.begin()                                                                               |
+[2022-10-24 01:58:35,850] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin |
+[2022-10-24 01:58:35,851] [util.py:162]               [DEBUG]    |     version, status, reason = self._read_status()                                                  |
+[2022-10-24 01:58:35,851] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status |
+[2022-10-24 01:58:35,851] [util.py:162]               [DEBUG]    |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")                                       |
+[2022-10-24 01:58:35,851] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto |
+[2022-10-24 01:58:35,851] [util.py:162]               [DEBUG]    |     return self._sock.recv_into(b)                                                                 |
+[2022-10-24 01:58:35,852] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1241, in recv_into  |
+[2022-10-24 01:58:35,852] [util.py:162]               [DEBUG]    |     return self.read(nbytes, buffer)                                                               |
+[2022-10-24 01:58:35,852] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1099, in read       |
+[2022-10-24 01:58:35,852] [util.py:162]               [DEBUG]    |     return self._sslobj.read(len, buffer)                                                          |
+[2022-10-24 01:58:35,853] [util.py:162]               [DEBUG]    | urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
+[2022-10-24 01:58:35,853] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:35,853] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
+[2022-10-24 01:58:35,853] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:35,853] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-10-24 01:58:35,854] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-10-24 01:58:35,854] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-10-24 01:58:35,854] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-10-24 01:58:35,854] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-10-24 01:58:35,854] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1267, in gather_ids              |
+[2022-10-24 01:58:35,855] [util.py:162]               [DEBUG]    |     return self.config.TMDb.get_tmdb_ids(method, value, self.library.is_movie)                     |
+[2022-10-24 01:58:35,855] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\tmdb.py", line 278, in get_tmdb_ids                |
+[2022-10-24 01:58:35,855] [util.py:162]               [DEBUG]    |     ids, amount = self._discover(attrs, limit, is_movie)                                           |
+[2022-10-24 01:58:35,855] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\tmdb.py", line 225, in _discover                   |
+[2022-10-24 01:58:35,856] [util.py:162]               [DEBUG]    |     tmdb_items = self.Discover.discover_movies(attrs) if is_movie else self.Discover.discover_tv_shows(attrs) |
+[2022-10-24 01:58:35,856] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\objs\discover.py", line 27, in discover_tv_shows |
+[2022-10-24 01:58:35,856] [util.py:162]               [DEBUG]    |     return self._get_obj(self._call(self._urls["tv"], urlencode(params)))                          |
+[2022-10-24 01:58:35,856] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\tmdb.py", line 131, in _call |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |     req = self.cached_request(method, url, data)                                                   |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\tmdb.py", line 111, in cached_request |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |     return requests.request(method, url, data=data)                                                |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\api.py", line 61, in request |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |     return session.request(method=method, url=url, **kwargs)                                       |
+[2022-10-24 01:58:35,857] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
+[2022-10-24 01:58:35,858] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
+[2022-10-24 01:58:35,858] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
+[2022-10-24 01:58:35,858] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
+[2022-10-24 01:58:35,858] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 501, in send |
+[2022-10-24 01:58:35,859] [util.py:162]               [DEBUG]    |     raise ConnectionError(err, request=request)                                                    |
+[2022-10-24 01:58:35,859] [util.py:162]               [DEBUG]    | requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
+[2022-10-24 01:58:35,859] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-10-24 01:58:35,859] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
+[2022-10-24 01:58:35,860] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-24 01:58:35,860] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-24 01:58:35,860] [util.py:216]               [INFO]     |                                      Finished HBO Collection                                       |
+[2022-10-24 01:58:35,861] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-10-24 01:58:35,861] [util.py:220]               [INFO]     |====================================================================================================|
