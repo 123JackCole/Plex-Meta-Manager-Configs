@@ -1,55 +1,55 @@
-[2022-10-24 01:25:34,431] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-24 01:25:34,431] [util.py:216]               [INFO]     |                                    Military Collection in Anime                                    |
-[2022-10-24 01:25:34,431] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-24 01:25:34,432] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-24 01:25:34,432] [util.py:216]               [INFO]     |================================== Validating Military Attributes ==================================|
-[2022-10-24 01:25:34,433] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,433] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-24 01:25:34,434] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 38), ('poster', 'https://theposterdb.com/api/assets/240160')]) |
-[2022-10-24 01:25:34,434] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,434] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-24 01:25:34,434] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-24 01:25:34,435] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,435] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-24 01:25:34,435] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-24 01:25:34,435] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,436] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-10-24 01:25:34,436] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 38, 'limit': 999}                                                              |
-[2022-10-24 01:25:34,436] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,437] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-24 01:25:34,437] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240160                                                   |
-[2022-10-24 01:25:34,437] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,437] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-24 01:25:34,437] [builder.py:474]            [DEBUG]    | Value: +++_Military                                                                                |
-[2022-10-24 01:25:34,438] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,438] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-10-24 01:25:34,438] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-24 01:25:34,518] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-24 01:25:34,518] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-24 01:25:34,519] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-24 01:25:34,519] [util.py:216]               [INFO]     |=================================== Running Military Collection ====================================|
-[2022-10-24 01:25:34,519] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-24 01:25:34,519] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-24 01:25:34,520] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:34,520] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 38, 'limit': 999}                                                 |
-[2022-10-24 01:25:34,520] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-24 01:25:34,520] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 38                                                                |
-[2022-10-24 01:25:36,688] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-24 01:25:36,689] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-10-24 01:25:36,689] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-10-24 01:25:36,689] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-10-24 01:25:36,690] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-10-24 01:25:36,690] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-10-24 01:25:36,690] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-10-24 01:25:36,690] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-10-24 01:25:36,690] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-10-24 01:25:36,691] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-10-24 01:25:36,691] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-10-24 01:25:36,691] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 38                        |
-[2022-10-24 01:25:36,691] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-24 01:25:36,692] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 38                                             |
-[2022-10-24 01:25:36,692] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-24 01:25:36,692] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-24 01:25:36,693] [util.py:216]               [INFO]     |                                    Finished Military Collection                                    |
-[2022-10-24 01:25:36,693] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-10-24 01:25:36,693] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:30,022] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:30,023] [util.py:216]               [INFO]     |                                    Military Collection in Anime                                    |
+[2022-11-03 01:03:30,023] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:30,024] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:30,025] [util.py:216]               [INFO]     |================================== Validating Military Attributes ==================================|
+[2022-11-03 01:03:30,025] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,026] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-03 01:03:30,026] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 38), ('poster', 'https://theposterdb.com/api/assets/240160')]) |
+[2022-11-03 01:03:30,026] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,027] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-03 01:03:30,027] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-03 01:03:30,027] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,028] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-03 01:03:30,028] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-03 01:03:30,028] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,029] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-03 01:03:30,029] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 38, 'limit': 999}                                                              |
+[2022-11-03 01:03:30,029] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,030] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-03 01:03:30,030] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240160                                                   |
+[2022-11-03 01:03:30,030] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,031] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-03 01:03:30,031] [builder.py:474]            [DEBUG]    | Value: +++_Military                                                                                |
+[2022-11-03 01:03:30,031] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,031] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-03 01:03:30,032] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-03 01:03:30,095] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-03 01:03:30,095] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-03 01:03:30,096] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:30,096] [util.py:216]               [INFO]     |=================================== Running Military Collection ====================================|
+[2022-11-03 01:03:30,097] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:30,097] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-03 01:03:30,097] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:30,097] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 38, 'limit': 999}                                                 |
+[2022-11-03 01:03:30,098] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-03 01:03:30,098] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 38                                                                |
+[2022-11-03 01:03:32,275] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-03 01:03:32,275] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-03 01:03:32,276] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-03 01:03:32,276] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-03 01:03:32,276] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-03 01:03:32,276] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-03 01:03:32,276] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-03 01:03:32,277] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
+[2022-11-03 01:03:32,277] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-03 01:03:32,277] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
+[2022-11-03 01:03:32,277] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-03 01:03:32,277] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 38                        |
+[2022-11-03 01:03:32,278] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:32,278] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 38                                             |
+[2022-11-03 01:03:32,278] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:32,279] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:32,279] [util.py:216]               [INFO]     |                                    Finished Military Collection                                    |
+[2022-11-03 01:03:32,280] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-03 01:03:32,280] [util.py:220]               [INFO]     |====================================================================================================|

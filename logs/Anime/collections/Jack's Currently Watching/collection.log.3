@@ -1,106 +1,120 @@
-[2022-10-20 01:29:25,127] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-20 01:29:25,127] [util.py:216]               [INFO]     |                           Jack's Currently Watching Collection in Anime                            |
-[2022-10-20 01:29:25,127] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-20 01:29:25,128] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-20 01:29:25,128] [util.py:216]               [INFO]     |========================= Validating Jack's Currently Watching Attributes ==========================|
-[2022-10-20 01:29:25,128] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,129] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-20 01:29:25,129] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-20 01:29:25,129] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,129] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-20 01:29:25,129] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-10-20 01:29:25,130] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,130] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-20 01:29:25,130] [builder.py:474]            [DEBUG]    | Value: ++++++_Currently_Watching                                                                   |
-[2022-10-20 01:29:25,130] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,130] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
-[2022-10-20 01:29:25,131] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'watching'), ('sort_by', 'title'), ('limit', 1000)]) |
-[2022-10-20 01:29:25,131] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,131] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2022-10-20 01:29:25,131] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-20 01:29:25,131] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,132] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-10-20 01:29:25,132] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-20 01:29:25,132] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:29:25,132] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-10-20 01:29:25,132] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-20 01:36:15,227] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:36:15,228] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request |
-[2022-10-20 01:36:15,228] [util.py:162]               [DEBUG]    |     six.raise_from(e, None)                                                                        |
-[2022-10-20 01:36:15,228] [util.py:162]               [DEBUG]    |   File "<string>", line 3, in raise_from                                                           |
-[2022-10-20 01:36:15,229] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request |
-[2022-10-20 01:36:15,229] [util.py:162]               [DEBUG]    |     httplib_response = conn.getresponse()                                                          |
-[2022-10-20 01:36:15,229] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse |
-[2022-10-20 01:36:15,229] [util.py:162]               [DEBUG]    |     response.begin()                                                                               |
-[2022-10-20 01:36:15,230] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin |
-[2022-10-20 01:36:15,230] [util.py:162]               [DEBUG]    |     version, status, reason = self._read_status()                                                  |
-[2022-10-20 01:36:15,230] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status |
-[2022-10-20 01:36:15,230] [util.py:162]               [DEBUG]    |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")                                       |
-[2022-10-20 01:36:15,230] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    |     return self._sock.recv_into(b)                                                                 |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    | socket.timeout: timed out                                                                          |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:36:15,231] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:36:15,232] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
-[2022-10-20 01:36:15,232] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
-[2022-10-20 01:36:15,232] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
-[2022-10-20 01:36:15,232] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
-[2022-10-20 01:36:15,232] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |     raise six.reraise(type(error), error, _stacktrace)                                             |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
-[2022-10-20 01:36:15,233] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)                                |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    |     raise ReadTimeoutError(                                                                        |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:36:15,234] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 600, in __init__                 |
-[2022-10-20 01:36:15,235] [util.py:162]               [DEBUG]    |     self.obj = self.library.get_playlist(self.name) if self.playlist else self.library.get_collection(self.name) |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 679, in get_collection              |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |     cols = self.search(title=str(data), libtype="collection")                                      |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 49, in wrapped_f |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |     return Retrying(*dargs, **dkw).call(f, *args, **kw)                                            |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 212, in call |
-[2022-10-20 01:36:15,236] [util.py:162]               [DEBUG]    |     raise attempt.get()                                                                            |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 247, in get  |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |     six.reraise(self.value[0], self.value[1], self.value[2])                                       |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\six.py", line 719, in reraise   |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 200, in call |
-[2022-10-20 01:36:15,237] [util.py:162]               [DEBUG]    |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)                                  |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 432, in search                      |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |     return self.Plex.search(title=title, sort=sort, maxresults=maxresults, libtype=libtype, **kwargs) |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1355, in search |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |     return self._search(key, maxresults, container_start, container_size, **kwargs)                |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1367, in _search |
-[2022-10-20 01:36:15,238] [util.py:162]               [DEBUG]    |     subresults = self.fetchItems(key, container_start=container_start,                             |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 395, in fetchItems |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |     data = self._server.query(ekey, params=url_kw)                                                 |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\server.py", line 659, in query |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |     response = method(url, headers=headers, timeout=timeout, **kwargs)                             |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 542, in get |
-[2022-10-20 01:36:15,239] [util.py:162]               [DEBUG]    |     return self.request('GET', url, **kwargs)                                                      |
-[2022-10-20 01:36:15,240] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
-[2022-10-20 01:36:15,240] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
-[2022-10-20 01:36:15,240] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
-[2022-10-20 01:36:15,240] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
-[2022-10-20 01:36:15,240] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 532, in send |
-[2022-10-20 01:36:15,241] [util.py:162]               [DEBUG]    |     raise ReadTimeout(e, request=request)                                                          |
-[2022-10-20 01:36:15,241] [util.py:162]               [DEBUG]    | requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:36:15,241] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:36:15,241] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:36:15,242] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-20 01:36:15,243] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-20 01:36:15,243] [util.py:216]               [INFO]     |                           Finished Jack's Currently Watching Collection                            |
-[2022-10-20 01:36:15,243] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:06:50                                    |
-[2022-10-20 01:36:15,243] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-01 01:00:10,810] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-01 01:00:10,811] [util.py:216]               [INFO]     |                           Jack's Currently Watching Collection in Anime                            |
+[2022-11-01 01:00:10,811] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-01 01:00:10,811] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-01 01:00:10,812] [util.py:216]               [INFO]     |========================= Validating Jack's Currently Watching Attributes ==========================|
+[2022-11-01 01:00:10,812] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,812] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-01 01:00:10,813] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-01 01:00:10,813] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,813] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-01 01:00:10,813] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-01 01:00:10,814] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,814] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-01 01:00:10,814] [builder.py:474]            [DEBUG]    | Value: ++++++_Currently_Watching                                                                   |
+[2022-11-01 01:00:10,814] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,815] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
+[2022-11-01 01:00:10,815] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'watching'), ('sort_by', 'title'), ('limit', 1000)]) |
+[2022-11-01 01:00:10,815] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,815] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-11-01 01:00:10,815] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-01 01:00:10,816] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,816] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-01 01:00:10,816] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-01 01:00:10,817] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,817] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-11-01 01:00:10,817] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-01 01:00:10,835] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-01 01:00:10,836] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-01 01:00:10,836] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-01 01:00:10,836] [util.py:216]               [INFO]     |=========================== Running Jack's Currently Watching Collection ===========================|
+[2022-11-01 01:00:10,837] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-01 01:00:10,837] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-01 01:00:10,837] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:10,837] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'watching', 'sort_by': 'anime_title', 'limit': 1000} |
+[2022-11-01 01:00:10,838] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:10,838] [mal.py:235]                [INFO]     | Processing MyAnimeList Userlist: 1000 Anime from JCH0tsh0t's Currently Watching list sorted by Title |
+[2022-11-01 01:00:11,039] [mal.py:239]                [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:11,040] [mal.py:240]                [DEBUG]    | 16 MyAnimeList IDs Found: [31646, 49596, 47917, 49918, 44511, 48542, 38680, 49220, 48316, 37999, 50172, 44074, 50602, 47194, 49891, 50710] |
+[2022-11-01 01:00:11,040] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16519                                     |
+[2022-11-01 01:00:11,040] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:11,041] [builder.py:1283]           [DEBUG]    | 15 IDs Found: [(306269, 'tvdb'), (118742, 'ratingKey'), (305074, 'tvdb'), (118738, 'ratingKey'), (118748, 'ratingKey'), (357488, 'tvdb'), (102426, 'ratingKey'), (407520, 'tvdb'), (354198, 'tvdb'), (307375, 'tvdb'), (103906, 'ratingKey'), (102592, 'ratingKey'), (102575, 'ratingKey'), (118759, 'ratingKey'), (414096, 'tvdb')] |
+[2022-11-01 01:00:11,041] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:11,129] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,130] [util.py:216]               [INFO]     |========================== Adding to Jack's Currently Watching Collection ==========================|
+[2022-11-01 01:00:11,130] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,130] [builder.py:1709]           [INFO]     |  1/13 | Jack's Currently Watching Collection | = | Sangatsu no Lion                                |
+[2022-11-01 01:00:11,131] [builder.py:1709]           [INFO]     |  2/13 | Jack's Currently Watching Collection | = | Bocchi the Rock!                                |
+[2022-11-01 01:00:11,131] [builder.py:1709]           [INFO]     |  3/13 | Jack's Currently Watching Collection | = | Boku no Hero Academia                           |
+[2022-11-01 01:00:11,131] [builder.py:1709]           [INFO]     |  4/13 | Jack's Currently Watching Collection | = | Chainsaw Man                                    |
+[2022-11-01 01:00:11,132] [builder.py:1709]           [INFO]     |  5/13 | Jack's Currently Watching Collection | = | Do It Yourself!!                                |
+[2022-11-01 01:00:11,132] [builder.py:1709]           [INFO]     |  6/13 | Jack's Currently Watching Collection | = | Isekai Ojisan                                   |
+[2022-11-01 01:00:11,132] [builder.py:1709]           [INFO]     |  7/13 | Jack's Currently Watching Collection | = | Kage no Jitsuryokusha ni Naritakute!            |
+[2022-11-01 01:00:11,133] [builder.py:1709]           [INFO]     |  8/13 | Jack's Currently Watching Collection | = | Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunousen |
+[2022-11-01 01:00:11,133] [builder.py:1709]           [INFO]     |  9/13 | Jack's Currently Watching Collection | = | Mob Psycho 100                                  |
+[2022-11-01 01:00:11,133] [builder.py:1709]           [INFO]     | 10/13 | Jack's Currently Watching Collection | = | Shiguang Dailiren                               |
+[2022-11-01 01:00:11,134] [builder.py:1709]           [INFO]     | 11/13 | Jack's Currently Watching Collection | = | Spy x Family (2022)                             |
+[2022-11-01 01:00:11,134] [builder.py:1709]           [INFO]     | 12/13 | Jack's Currently Watching Collection | = | Summer Time Render                              |
+[2022-11-01 01:00:11,134] [builder.py:1709]           [INFO]     | 13/13 | Jack's Currently Watching Collection | = | Tensei Shitara Ken Deshita                      |
+[2022-11-01 01:00:11,135] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,135] [builder.py:1735]           [INFO]     | 13 Shows Processed                                                                                 |
+[2022-11-01 01:00:11,135] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,136] [util.py:216]               [INFO]     |====================== Missing Shows from Library: Jack's Currently Watching =======================|
+[2022-11-01 01:00:11,136] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,553] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Fruits Basket (2019) (TVDB: 357488)                     |
+[2022-11-01 01:00:11,875] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Urusei Yatsura (2022) (TVDB: 414096)                    |
+[2022-11-01 01:00:11,875] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,876] [builder.py:1987]           [INFO]     | 2 Shows Missing                                                                                    |
+[2022-11-01 01:00:11,878] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-11-01 01:00:11,878] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-01 01:00:11,879] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:11,879] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [357488, 414096]                                                                      |
+[2022-11-01 01:00:12,121] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-01 01:00:12,122] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 357488                                                                         |
+[2022-11-01 01:00:12,122] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 414096                                                                         |
+[2022-11-01 01:00:12,122] [sonarr.py:171]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
+[2022-11-01 01:00:12,127] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:12,127] [util.py:216]               [INFO]     |===================== Updating Details of Jack's Currently Watching Collection =====================|
+[2022-11-01 01:00:12,128] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:12,130] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-11-01 01:00:12,130] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-01 01:00:12,144] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:12,144] [util.py:216]               [INFO]     |============== Updating Details of the Items in Jack's Currently Watching Collection ===============|
+[2022-11-01 01:00:12,144] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-01 01:00:13,960] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-11-01 01:00:13,961] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-11-01 01:00:13,962] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-11-01 01:00:13,962] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-11-01 01:00:13,962] [sonarr.py:71]              [DEBUG]    | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')                             |
+[2022-11-01 01:00:13,963] [sonarr.py:71]              [DEBUG]    | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                                       |
+[2022-11-01 01:00:13,963] [sonarr.py:71]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2022-11-01 01:00:13,963] [sonarr.py:71]              [DEBUG]    | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                                           |
+[2022-11-01 01:00:13,963] [sonarr.py:71]              [DEBUG]    | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                                       |
+[2022-11-01 01:00:13,964] [sonarr.py:71]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2022-11-01 01:00:13,964] [sonarr.py:71]              [DEBUG]    | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')                                |
+[2022-11-01 01:00:13,964] [sonarr.py:71]              [DEBUG]    | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')                              |
+[2022-11-01 01:00:13,964] [sonarr.py:71]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
+[2022-11-01 01:00:13,965] [sonarr.py:71]              [DEBUG]    | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                                             |
+[2022-11-01 01:00:13,965] [sonarr.py:71]              [DEBUG]    | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                                           |
+[2022-11-01 01:00:13,965] [sonarr.py:71]              [DEBUG]    | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')                                  |
+[2022-11-01 01:00:13,965] [sonarr.py:71]              [DEBUG]    | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')                                |
+[2022-11-01 01:00:14,209] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-01 01:00:14,210] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')         |
+[2022-11-01 01:00:14,210] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                   |
+[2022-11-01 01:00:14,210] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2022-11-01 01:00:14,211] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                       |
+[2022-11-01 01:00:14,211] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                   |
+[2022-11-01 01:00:14,212] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2022-11-01 01:00:14,212] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')            |
+[2022-11-01 01:00:14,212] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')          |
+[2022-11-01 01:00:14,212] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
+[2022-11-01 01:00:14,213] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                         |
+[2022-11-01 01:00:14,213] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                       |
+[2022-11-01 01:00:14,213] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')              |
+[2022-11-01 01:00:14,214] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')            |
+[2022-11-01 01:00:14,214] [sonarr.py:171]             [INFO]     | 13 Series already exist in Sonarr                                                                  |
+[2022-11-01 01:00:14,215] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-01 01:00:14,216] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-01 01:00:14,216] [util.py:216]               [INFO]     |                           Finished Jack's Currently Watching Collection                            |
+[2022-11-01 01:00:14,216] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2022-11-01 01:00:14,217] [util.py:220]               [INFO]     |====================================================================================================|

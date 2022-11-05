@@ -1,13 +1,13 @@
 libraries:                                      # Library mappings must have a colon (:) placed after them
-  Movies:
-    metadata_path:
-      - file: config/Movie.yml
-      - file: config/Genre.yml
-      - file: config/Special_Genre.yml
-      - file: config/Studio.yml
-      - file: config/Holiday.yml
-      - file: config/Metadata.yml
-      - file: config/Overlays.yml
+  # Movies:
+  #   metadata_path:
+  #     - file: config/Movie.yml
+  #     - file: config/Genre.yml
+  #     - file: config/Special_Genre.yml
+  #     - file: config/Studio.yml
+  #     - file: config/Holiday.yml
+  #     - file: config/Metadata.yml
+  #     - file: config/Overlays.yml
   Anime:
     sonarr:
       url: http://localhost:7875/
@@ -15,7 +15,7 @@ libraries:                                      # Library mappings must have a c
       add_missing: false
       add_existing: true
       root_folder_path: F:\Anime
-      monitor: existing
+      monitor: all
       quality_profile: Anime
       language_profile: English
       series_type: anime
@@ -27,10 +27,6 @@ libraries:                                      # Library mappings must have a c
       plex_path:
     metadata_path:
       - file: config/Anime.yml
-  TV Shows:
-    metadata_path:
-      - file: config/TV_Shows.yml
-      - file: config/Overlays.yml
 settings:                                       # Can be individually specified per library as well
   cache: true
   cache_expiration: 60

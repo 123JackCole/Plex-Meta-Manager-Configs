@@ -1,55 +1,55 @@
-[2022-10-24 01:26:01,480] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-24 01:26:01,480] [util.py:216]               [INFO]     |                                     Space Collection in Anime                                      |
-[2022-10-24 01:26:01,481] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-24 01:26:01,481] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-24 01:26:01,481] [util.py:216]               [INFO]     |=================================== Validating Space Attributes ====================================|
-[2022-10-24 01:26:01,482] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,482] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-24 01:26:01,482] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 29), ('poster', 'https://theposterdb.com/api/assets/213661')]) |
-[2022-10-24 01:26:01,483] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,483] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-24 01:26:01,483] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-24 01:26:01,483] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,484] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-24 01:26:01,484] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-24 01:26:01,484] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,484] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-10-24 01:26:01,485] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 29, 'limit': 999}                                                              |
-[2022-10-24 01:26:01,485] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,485] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-24 01:26:01,485] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213661                                                   |
-[2022-10-24 01:26:01,485] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,486] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-24 01:26:01,486] [builder.py:474]            [DEBUG]    | Value: +++_Space                                                                                   |
-[2022-10-24 01:26:01,486] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,486] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-10-24 01:26:01,487] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-24 01:26:01,562] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-24 01:26:01,562] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-24 01:26:01,563] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-24 01:26:01,563] [util.py:216]               [INFO]     |===================================== Running Space Collection =====================================|
-[2022-10-24 01:26:01,563] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-24 01:26:01,564] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-24 01:26:01,564] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:01,564] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 29, 'limit': 999}                                                 |
-[2022-10-24 01:26:01,564] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-24 01:26:01,565] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 29                                                                |
-[2022-10-24 01:26:03,728] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-24 01:26:03,729] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-10-24 01:26:03,729] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-10-24 01:26:03,729] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-10-24 01:26:03,730] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-10-24 01:26:03,730] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-10-24 01:26:03,730] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-10-24 01:26:03,730] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-10-24 01:26:03,730] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-10-24 01:26:03,731] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-10-24 01:26:03,731] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-10-24 01:26:03,731] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 29                        |
-[2022-10-24 01:26:03,731] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-24 01:26:03,731] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 29                                             |
-[2022-10-24 01:26:03,732] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-24 01:26:03,732] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-24 01:26:03,733] [util.py:216]               [INFO]     |                                     Finished Space Collection                                      |
-[2022-10-24 01:26:03,733] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-10-24 01:26:03,733] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:57,067] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:57,068] [util.py:216]               [INFO]     |                                     Space Collection in Anime                                      |
+[2022-11-03 01:03:57,068] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:57,069] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:57,069] [util.py:216]               [INFO]     |=================================== Validating Space Attributes ====================================|
+[2022-11-03 01:03:57,070] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,070] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-03 01:03:57,070] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 29), ('poster', 'https://theposterdb.com/api/assets/213661')]) |
+[2022-11-03 01:03:57,070] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,071] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-03 01:03:57,071] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-03 01:03:57,071] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,071] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-03 01:03:57,072] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-03 01:03:57,072] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,072] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-03 01:03:57,072] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 29, 'limit': 999}                                                              |
+[2022-11-03 01:03:57,073] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,073] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-03 01:03:57,073] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213661                                                   |
+[2022-11-03 01:03:57,074] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,074] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-03 01:03:57,074] [builder.py:474]            [DEBUG]    | Value: +++_Space                                                                                   |
+[2022-11-03 01:03:57,074] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,075] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-03 01:03:57,075] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-03 01:03:57,147] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-03 01:03:57,148] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-03 01:03:57,149] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:57,149] [util.py:216]               [INFO]     |===================================== Running Space Collection =====================================|
+[2022-11-03 01:03:57,149] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:57,150] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-03 01:03:57,150] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:57,151] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 29, 'limit': 999}                                                 |
+[2022-11-03 01:03:57,151] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-03 01:03:57,151] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 29                                                                |
+[2022-11-03 01:03:59,337] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-03 01:03:59,338] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-03 01:03:59,338] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-03 01:03:59,338] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-03 01:03:59,339] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-03 01:03:59,339] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-03 01:03:59,339] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-03 01:03:59,339] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
+[2022-11-03 01:03:59,339] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-03 01:03:59,340] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
+[2022-11-03 01:03:59,340] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-03 01:03:59,340] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 29                        |
+[2022-11-03 01:03:59,340] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-03 01:03:59,340] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 29                                             |
+[2022-11-03 01:03:59,341] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-03 01:03:59,342] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-03 01:03:59,342] [util.py:216]               [INFO]     |                                     Finished Space Collection                                      |
+[2022-11-03 01:03:59,342] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-03 01:03:59,342] [util.py:220]               [INFO]     |====================================================================================================|

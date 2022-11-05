@@ -1,55 +1,55 @@
-[2022-10-23 01:41:42,833] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-23 01:41:42,833] [util.py:216]               [INFO]     |                                   Mythology Collection in Anime                                    |
-[2022-10-23 01:41:42,833] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-23 01:41:42,834] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-23 01:41:42,834] [util.py:216]               [INFO]     |================================= Validating Mythology Attributes ==================================|
-[2022-10-23 01:41:42,834] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,835] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-23 01:41:42,835] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 6), ('poster', 'https://theposterdb.com/api/assets/240161')]) |
-[2022-10-23 01:41:42,835] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,835] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-23 01:41:42,836] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-23 01:41:42,836] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,836] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-23 01:41:42,836] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-23 01:41:42,837] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,837] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-10-23 01:41:42,837] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 6, 'limit': 999}                                                               |
-[2022-10-23 01:41:42,837] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,838] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-23 01:41:42,838] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240161                                                   |
-[2022-10-23 01:41:42,838] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,838] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-23 01:41:42,839] [builder.py:474]            [DEBUG]    | Value: +++_Mythology                                                                               |
-[2022-10-23 01:41:42,839] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,839] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-10-23 01:41:42,840] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-23 01:41:42,908] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-23 01:41:42,909] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-23 01:41:42,909] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-23 01:41:42,909] [util.py:216]               [INFO]     |=================================== Running Mythology Collection ===================================|
-[2022-10-23 01:41:42,910] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-23 01:41:42,910] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-23 01:41:42,910] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:42,911] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 6, 'limit': 999}                                                  |
-[2022-10-23 01:41:42,911] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-23 01:41:42,911] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 6                                                                 |
-[2022-10-23 01:41:45,087] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-23 01:41:45,088] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-10-23 01:41:45,088] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-10-23 01:41:45,088] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-10-23 01:41:45,088] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-10-23 01:41:45,089] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-10-23 01:41:45,089] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-10-23 01:41:45,089] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-10-23 01:41:45,089] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-10-23 01:41:45,089] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-10-23 01:41:45,090] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-10-23 01:41:45,090] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 6                         |
-[2022-10-23 01:41:45,090] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-23 01:41:45,091] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 6                                              |
-[2022-10-23 01:41:45,091] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-23 01:41:45,091] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-23 01:41:45,092] [util.py:216]               [INFO]     |                                   Finished Mythology Collection                                    |
-[2022-10-23 01:41:45,092] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-10-23 01:41:45,092] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-02 01:03:31,686] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-02 01:03:31,686] [util.py:216]               [INFO]     |                                   Mythology Collection in Anime                                    |
+[2022-11-02 01:03:31,687] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-02 01:03:31,687] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-02 01:03:31,688] [util.py:216]               [INFO]     |================================= Validating Mythology Attributes ==================================|
+[2022-11-02 01:03:31,688] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,688] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-02 01:03:31,689] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 6), ('poster', 'https://theposterdb.com/api/assets/240161')]) |
+[2022-11-02 01:03:31,689] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,689] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-02 01:03:31,689] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-02 01:03:31,689] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,690] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-02 01:03:31,690] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-02 01:03:31,690] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,690] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-02 01:03:31,691] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 6, 'limit': 999}                                                               |
+[2022-11-02 01:03:31,691] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,691] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-02 01:03:31,691] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240161                                                   |
+[2022-11-02 01:03:31,692] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,692] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-02 01:03:31,692] [builder.py:474]            [DEBUG]    | Value: +++_Mythology                                                                               |
+[2022-11-02 01:03:31,692] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,693] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-02 01:03:31,693] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-02 01:03:31,752] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-02 01:03:31,753] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-02 01:03:31,754] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-02 01:03:31,754] [util.py:216]               [INFO]     |=================================== Running Mythology Collection ===================================|
+[2022-11-02 01:03:31,754] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-02 01:03:31,755] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-02 01:03:31,755] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:31,755] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 6, 'limit': 999}                                                  |
+[2022-11-02 01:03:31,756] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-02 01:03:31,756] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 6                                                                 |
+[2022-11-02 01:03:33,925] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-02 01:03:33,925] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-02 01:03:33,926] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-02 01:03:33,926] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-02 01:03:33,926] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-02 01:03:33,926] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-02 01:03:33,926] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-02 01:03:33,927] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
+[2022-11-02 01:03:33,927] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-02 01:03:33,927] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
+[2022-11-02 01:03:33,927] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-02 01:03:33,927] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 6                         |
+[2022-11-02 01:03:33,928] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-02 01:03:33,928] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 6                                              |
+[2022-11-02 01:03:33,928] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-02 01:03:33,929] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-02 01:03:33,929] [util.py:216]               [INFO]     |                                   Finished Mythology Collection                                    |
+[2022-11-02 01:03:33,930] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-02 01:03:33,930] [util.py:220]               [INFO]     |====================================================================================================|
