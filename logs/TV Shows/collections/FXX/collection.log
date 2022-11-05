@@ -1,65 +1,65 @@
-[2022-10-25 01:53:32,445] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-25 01:53:32,446] [util.py:216]               [INFO]     |                                     FXX Collection in TV Shows                                     |
-[2022-10-25 01:53:32,446] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-25 01:53:32,446] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,447] [util.py:216]               [INFO]     |==================================== Validating FXX Attributes =====================================|
-[2022-10-25 01:53:32,447] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,447] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-25 01:53:32,447] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 1035), ('poster', 'https://theposterdb.com/api/assets/113175')]) |
-[2022-10-25 01:53:32,448] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,448] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-25 01:53:32,448] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-25 01:53:32,448] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,449] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-25 01:53:32,449] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-25 01:53:32,449] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,449] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-10-25 01:53:32,449] [builder.py:474]            [DEBUG]    | Value: 1035                                                                                        |
-[2022-10-25 01:53:32,561] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,562] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-25 01:53:32,562] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/113175                                                   |
-[2022-10-25 01:53:32,562] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,563] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-25 01:53:32,563] [builder.py:474]            [DEBUG]    | Value: +2_FXX                                                                                      |
-[2022-10-25 01:53:32,566] [plex.py:685]               [DEBUG]    | Looking for: FXX                                                                                   |
-[2022-10-25 01:53:32,566] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,566] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-25 01:53:32,567] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,567] [util.py:216]               [INFO]     |====================================== Running FXX Collection ======================================|
-[2022-10-25 01:53:32,568] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,568] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-25 01:53:32,568] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,568] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 1035                                                                        |
-[2022-10-25 01:53:32,569] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,808] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (1035) FXX (16 Shows)                                                     |
-[2022-10-25 01:53:32,808] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,808] [builder.py:1283]           [DEBUG]    | 16 IDs Found: [(2710, 'tmdb_show'), (10283, 'tmdb_show'), (31497, 'tmdb_show'), (125392, 'tmdb_show'), (61118, 'tmdb_show'), (39525, 'tmdb_show'), (97084, 'tmdb_show'), (49008, 'tmdb_show'), (46405, 'tmdb_show'), (135715, 'tmdb_show'), (110682, 'tmdb_show'), (62744, 'tmdb_show'), (93035, 'tmdb_show'), (62861, 'tmdb_show'), (119305, 'tmdb_show'), (128576, 'tmdb_show')] |
-[2022-10-25 01:53:32,809] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-25 01:53:32,940] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,940] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for FXX Collection                                                   |
-[2022-10-25 01:53:32,941] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-10-25 01:53:32,941] [util.py:216]               [INFO]     |================================= Missing Shows from Library: FXX ==================================|
-[2022-10-25 01:53:32,941] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-10-25 01:53:33,706] [builder.py:1982]           [INFO]     | FXX Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                               |
-[2022-10-25 01:53:34,416] [builder.py:1982]           [INFO]     | FXX Collection | ? | Archer (2009) (TVDB: 110381)                                                  |
-[2022-10-25 01:53:34,768] [builder.py:1982]           [INFO]     | FXX Collection | ? | The League (TVDB: 114701)                                                     |
-[2022-10-25 01:53:34,976] [builder.py:1982]           [INFO]     | FXX Collection | ? | Little Demon (TVDB: 381028)                                                   |
-[2022-10-25 01:53:35,318] [builder.py:1982]           [INFO]     | FXX Collection | ? | You're the Worst (TVDB: 281776)                                               |
-[2022-10-25 01:53:35,635] [builder.py:1982]           [INFO]     | FXX Collection | ? | Wilfred (US) (TVDB: 239761)                                                   |
-[2022-10-25 01:53:35,874] [builder.py:1982]           [INFO]     | FXX Collection | ? | DAVE (TVDB: 354905)                                                           |
-[2022-10-25 01:53:36,130] [builder.py:1982]           [INFO]     | FXX Collection | ? | Axe Cop (TVDB: 268186)                                                        |
-[2022-10-25 01:53:36,362] [builder.py:1982]           [INFO]     | FXX Collection | ? | Legit (2013) (TVDB: 264450)                                                   |
-[2022-10-25 01:53:36,586] [builder.py:1982]           [INFO]     | FXX Collection | ? | Poorly Drawn Lines (TVDB: 410996)                                             |
-[2022-10-25 01:53:36,808] [builder.py:1982]           [INFO]     | FXX Collection | ? | Dicktown (TVDB: 384776)                                                       |
-[2022-10-25 01:53:37,002] [builder.py:1982]           [INFO]     | FXX Collection | ? | Major Lazer (TVDB: 293631)                                                    |
-[2022-10-25 01:53:37,294] [builder.py:1982]           [INFO]     | FXX Collection | ? | Cake (2019) (TVDB: 368941)                                                    |
-[2022-10-25 01:53:37,504] [builder.py:1982]           [INFO]     | FXX Collection | ? | Stone Quackers (TVDB: 290452)                                                 |
-[2022-10-25 01:53:37,708] [builder.py:1982]           [INFO]     | FXX Collection | ? | Oh Jerome, No (TVDB: 389613)                                                  |
-[2022-10-25 01:53:37,904] [builder.py:1982]           [INFO]     | FXX Collection | ? | Nine Films About Technology (TVDB: 404536)                                    |
-[2022-10-25 01:53:37,904] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-10-25 01:53:37,905] [builder.py:1987]           [INFO]     | 16 Shows Missing                                                                                   |
-[2022-10-25 01:53:38,194] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-25 01:53:38,194] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-25 01:53:38,194] [util.py:216]               [INFO]     |                                      Finished FXX Collection                                       |
-[2022-10-25 01:53:38,195] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
-[2022-10-25 01:53:38,195] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-28 01:39:17,593] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-28 01:39:17,593] [util.py:216]               [INFO]     |                                     FXX Collection in TV Shows                                     |
+[2022-10-28 01:39:17,593] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-10-28 01:39:17,594] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,594] [util.py:216]               [INFO]     |==================================== Validating FXX Attributes =====================================|
+[2022-10-28 01:39:17,594] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,595] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-10-28 01:39:17,595] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 1035), ('poster', 'https://theposterdb.com/api/assets/113175')]) |
+[2022-10-28 01:39:17,595] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,595] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-10-28 01:39:17,596] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-10-28 01:39:17,596] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,596] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-10-28 01:39:17,596] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-10-28 01:39:17,597] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,597] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-10-28 01:39:17,597] [builder.py:474]            [DEBUG]    | Value: 1035                                                                                        |
+[2022-10-28 01:39:17,711] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,711] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-10-28 01:39:17,712] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/113175                                                   |
+[2022-10-28 01:39:17,712] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,712] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-10-28 01:39:17,712] [builder.py:474]            [DEBUG]    | Value: +2_FXX                                                                                      |
+[2022-10-28 01:39:17,715] [plex.py:685]               [DEBUG]    | Looking for: FXX                                                                                   |
+[2022-10-28 01:39:17,715] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,716] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-10-28 01:39:17,717] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,717] [util.py:216]               [INFO]     |====================================== Running FXX Collection ======================================|
+[2022-10-28 01:39:17,717] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,717] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-10-28 01:39:17,718] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,718] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 1035                                                                        |
+[2022-10-28 01:39:17,718] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,956] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (1035) FXX (16 Shows)                                                     |
+[2022-10-28 01:39:17,956] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,957] [builder.py:1283]           [DEBUG]    | 16 IDs Found: [(2710, 'tmdb_show'), (10283, 'tmdb_show'), (31497, 'tmdb_show'), (61118, 'tmdb_show'), (39525, 'tmdb_show'), (125392, 'tmdb_show'), (97084, 'tmdb_show'), (49008, 'tmdb_show'), (46405, 'tmdb_show'), (135715, 'tmdb_show'), (110682, 'tmdb_show'), (93035, 'tmdb_show'), (119305, 'tmdb_show'), (62744, 'tmdb_show'), (128576, 'tmdb_show'), (62861, 'tmdb_show')] |
+[2022-10-28 01:39:17,957] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-10-28 01:39:17,963] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,964] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for FXX Collection                                                   |
+[2022-10-28 01:39:17,964] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-10-28 01:39:17,964] [util.py:216]               [INFO]     |================================= Missing Shows from Library: FXX ==================================|
+[2022-10-28 01:39:17,965] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-10-28 01:39:18,694] [builder.py:1982]           [INFO]     | FXX Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                               |
+[2022-10-28 01:39:19,326] [builder.py:1982]           [INFO]     | FXX Collection | ? | Archer (2009) (TVDB: 110381)                                                  |
+[2022-10-28 01:39:19,653] [builder.py:1982]           [INFO]     | FXX Collection | ? | The League (TVDB: 114701)                                                     |
+[2022-10-28 01:39:20,023] [builder.py:1982]           [INFO]     | FXX Collection | ? | You're the Worst (TVDB: 281776)                                               |
+[2022-10-28 01:39:20,329] [builder.py:1982]           [INFO]     | FXX Collection | ? | Wilfred (US) (TVDB: 239761)                                                   |
+[2022-10-28 01:39:20,527] [builder.py:1982]           [INFO]     | FXX Collection | ? | Little Demon (TVDB: 381028)                                                   |
+[2022-10-28 01:39:20,759] [builder.py:1982]           [INFO]     | FXX Collection | ? | DAVE (TVDB: 354905)                                                           |
+[2022-10-28 01:39:21,002] [builder.py:1982]           [INFO]     | FXX Collection | ? | Axe Cop (TVDB: 268186)                                                        |
+[2022-10-28 01:39:21,214] [builder.py:1982]           [INFO]     | FXX Collection | ? | Legit (2013) (TVDB: 264450)                                                   |
+[2022-10-28 01:39:21,394] [builder.py:1982]           [INFO]     | FXX Collection | ? | Poorly Drawn Lines (TVDB: 410996)                                             |
+[2022-10-28 01:39:21,636] [builder.py:1982]           [INFO]     | FXX Collection | ? | Dicktown (TVDB: 384776)                                                       |
+[2022-10-28 01:39:21,891] [builder.py:1982]           [INFO]     | FXX Collection | ? | Cake (2019) (TVDB: 368941)                                                    |
+[2022-10-28 01:39:22,085] [builder.py:1982]           [INFO]     | FXX Collection | ? | Oh Jerome, No (TVDB: 389613)                                                  |
+[2022-10-28 01:39:22,257] [builder.py:1982]           [INFO]     | FXX Collection | ? | Major Lazer (TVDB: 293631)                                                    |
+[2022-10-28 01:39:22,431] [builder.py:1982]           [INFO]     | FXX Collection | ? | Nine Films About Technology (TVDB: 404536)                                    |
+[2022-10-28 01:39:22,601] [builder.py:1982]           [INFO]     | FXX Collection | ? | Stone Quackers (TVDB: 290452)                                                 |
+[2022-10-28 01:39:22,602] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-10-28 01:39:22,602] [builder.py:1987]           [INFO]     | 16 Shows Missing                                                                                   |
+[2022-10-28 01:39:22,743] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-10-28 01:39:22,743] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-10-28 01:39:22,744] [util.py:216]               [INFO]     |                                      Finished FXX Collection                                       |
+[2022-10-28 01:39:22,744] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-10-28 01:39:22,744] [util.py:220]               [INFO]     |====================================================================================================|

@@ -1,105 +1,119 @@
-[2022-10-20 01:49:55,473] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-20 01:49:55,473] [util.py:216]               [INFO]     |                                Top Airing Anime Collection in Anime                                |
-[2022-10-20 01:49:55,473] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-20 01:49:55,474] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-20 01:49:55,474] [util.py:216]               [INFO]     |============================== Validating Top Airing Anime Attributes ==============================|
-[2022-10-20 01:49:55,475] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:55,475] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-20 01:49:55,475] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-20 01:49:55,475] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:55,475] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-20 01:49:55,476] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-10-20 01:49:55,476] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:55,476] [builder.py:473]            [DEBUG]    | Validating Method: anilist_search                                                                  |
-[2022-10-20 01:49:55,476] [builder.py:474]            [DEBUG]    | Value: ordereddict([('year', None), ('format', 'tv'), ('status', 'airing'), ('limit', 10)])        |
-[2022-10-20 01:49:55,477] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2022 as default                   |
-[2022-10-20 01:49:57,237] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search sort_by attribute not found using score as default              |
-[2022-10-20 01:49:57,238] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:57,238] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-20 01:49:57,238] [builder.py:474]            [DEBUG]    | Value: +++++++++_Top_Airing                                                                        |
-[2022-10-20 01:49:57,239] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:57,239] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-10-20 01:49:57,239] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-20 01:49:57,239] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-20 01:49:57,239] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-10-20 01:49:57,240] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-20 01:56:47,354] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:56:47,362] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 449, in _make_request |
-[2022-10-20 01:56:47,362] [util.py:162]               [DEBUG]    |     six.raise_from(e, None)                                                                        |
-[2022-10-20 01:56:47,362] [util.py:162]               [DEBUG]    |   File "<string>", line 3, in raise_from                                                           |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 444, in _make_request |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |     httplib_response = conn.getresponse()                                                          |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |     response.begin()                                                                               |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin |
-[2022-10-20 01:56:47,363] [util.py:162]               [DEBUG]    |     version, status, reason = self._read_status()                                                  |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    |     line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")                                       |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    |     return self._sock.recv_into(b)                                                                 |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    | socket.timeout: timed out                                                                          |
-[2022-10-20 01:56:47,364] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
-[2022-10-20 01:56:47,365] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
-[2022-10-20 01:56:47,366] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
-[2022-10-20 01:56:47,366] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment |
-[2022-10-20 01:56:47,366] [util.py:162]               [DEBUG]    |     raise six.reraise(type(error), error, _stacktrace)                                             |
-[2022-10-20 01:56:47,366] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\packages\six.py", line 770, in reraise |
-[2022-10-20 01:56:47,366] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 451, in _make_request |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |     self._raise_timeout(err=e, url=url, timeout_value=read_timeout)                                |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 340, in _raise_timeout |
-[2022-10-20 01:56:47,367] [util.py:162]               [DEBUG]    |     raise ReadTimeoutError(                                                                        |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    | urllib3.exceptions.ReadTimeoutError: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-20 01:56:47,368] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 600, in __init__                 |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |     self.obj = self.library.get_playlist(self.name) if self.playlist else self.library.get_collection(self.name) |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 679, in get_collection              |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |     cols = self.search(title=str(data), libtype="collection")                                      |
-[2022-10-20 01:56:47,369] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 49, in wrapped_f |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |     return Retrying(*dargs, **dkw).call(f, *args, **kw)                                            |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 212, in call |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |     raise attempt.get()                                                                            |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 247, in get  |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |     six.reraise(self.value[0], self.value[1], self.value[2])                                       |
-[2022-10-20 01:56:47,370] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\six.py", line 719, in reraise   |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |     raise value                                                                                    |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\retrying.py", line 200, in call |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |     attempt = Attempt(fn(*args, **kwargs), attempt_number, False)                                  |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 432, in search                      |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |     return self.Plex.search(title=title, sort=sort, maxresults=maxresults, libtype=libtype, **kwargs) |
-[2022-10-20 01:56:47,371] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1355, in search |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |     return self._search(key, maxresults, container_start, container_size, **kwargs)                |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 1367, in _search |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |     subresults = self.fetchItems(key, container_start=container_start,                             |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\library.py", line 395, in fetchItems |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |     data = self._server.query(ekey, params=url_kw)                                                 |
-[2022-10-20 01:56:47,372] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\plexapi\server.py", line 659, in query |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |     response = method(url, headers=headers, timeout=timeout, **kwargs)                             |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 542, in get |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |     return self.request('GET', url, **kwargs)                                                      |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
-[2022-10-20 01:56:47,373] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
-[2022-10-20 01:56:47,374] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
-[2022-10-20 01:56:47,374] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 532, in send |
-[2022-10-20 01:56:47,374] [util.py:162]               [DEBUG]    |     raise ReadTimeout(e, request=request)                                                          |
-[2022-10-20 01:56:47,374] [util.py:162]               [DEBUG]    | requests.exceptions.ReadTimeout: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:56:47,374] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-20 01:56:47,374] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: HTTPConnectionPool(host='127.0.0.1', port=32400): Read timed out. (read timeout=60) |
-[2022-10-20 01:56:47,375] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-20 01:56:47,375] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-20 01:56:47,375] [util.py:216]               [INFO]     |                                Finished Top Airing Anime Collection                                |
-[2022-10-20 01:56:47,376] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:06:51                                    |
-[2022-10-20 01:56:47,376] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-01 01:01:26,838] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-01 01:01:26,840] [util.py:216]               [INFO]     |                                Top Airing Anime Collection in Anime                                |
+[2022-11-01 01:01:26,841] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-01 01:01:26,841] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-01 01:01:26,842] [util.py:216]               [INFO]     |============================== Validating Top Airing Anime Attributes ==============================|
+[2022-11-01 01:01:26,842] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:26,842] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-01 01:01:26,842] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-01 01:01:26,843] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:26,843] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-01 01:01:26,843] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-01 01:01:26,843] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:26,844] [builder.py:473]            [DEBUG]    | Validating Method: anilist_search                                                                  |
+[2022-11-01 01:01:26,844] [builder.py:474]            [DEBUG]    | Value: ordereddict([('year', None), ('format', 'tv'), ('status', 'airing'), ('limit', 15)])        |
+[2022-11-01 01:01:26,844] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2022 as default                   |
+[2022-11-01 01:01:28,558] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search sort_by attribute not found using score as default              |
+[2022-11-01 01:01:28,559] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:28,560] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-01 01:01:28,560] [builder.py:474]            [DEBUG]    | Value: +++++++++_Top_Airing                                                                        |
+[2022-11-01 01:01:28,560] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:28,560] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-01 01:01:28,561] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-01 01:01:28,561] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:28,561] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-11-01 01:01:28,561] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-01 01:01:28,577] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-01 01:01:28,578] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-01 01:01:28,584] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-01 01:01:28,584] [util.py:216]               [INFO]     |=============================== Running Top Airing Anime Collection ================================|
+[2022-11-01 01:01:28,584] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-01 01:01:28,585] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-01 01:01:28,585] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:28,585] [builder.py:1276]           [DEBUG]    | Builder: anilist_search: {'year': 2022, 'format': ['tv'], 'status': ['airing'], 'sort_by': 'score', 'limit': 15} |
+[2022-11-01 01:01:28,585] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:28,586] [util.py:162]               [DEBUG]    | Processing AniList Search:                                                                         |
+[2022-11-01 01:01:28,586] [util.py:162]               [DEBUG]    | 	Sort By Average Score                                                                             |
+[2022-11-01 01:01:28,586] [util.py:162]               [DEBUG]    | 	Limit to 15 Anime                                                                                 |
+[2022-11-01 01:01:28,586] [util.py:162]               [DEBUG]    | 	Year is 2022                                                                                      |
+[2022-11-01 01:01:28,587] [util.py:162]               [DEBUG]    | 	Format is ['tv']                                                                                  |
+[2022-11-01 01:01:28,587] [util.py:162]               [DEBUG]    | 	Status is ['airing']                                                                              |
+[2022-11-01 01:01:28,587] [anilist.py:149]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: SCORE_DESC, type: ANIME, seasonYear: 2022, format_in: [TV], status_in: [RELEASING]){id}}} |
+[2022-11-01 01:01:29,410] [anilist.py:269]            [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:29,411] [anilist.py:270]            [DEBUG]    | 15 AniList IDs Found: [116674, 127230, 142838, 140439, 130003, 142343, 139630, 139092, 137822, 138565, 135806, 139274, 130298, 140660, 131516] |
+[2022-11-01 01:01:29,411] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16519                                     |
+[2022-11-01 01:01:29,411] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16931                                     |
+[2022-11-01 01:01:29,412] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:29,413] [builder.py:1283]           [DEBUG]    | 13 IDs Found: [(74796, 'tvdb'), (118738, 'ratingKey'), (102592, 'ratingKey'), (307375, 'tvdb'), (118742, 'ratingKey'), (338455, 'tvdb'), (305074, 'tvdb'), (369144, 'tvdb'), (375271, 'tvdb'), (102426, 'ratingKey'), (418364, 'tvdb'), (407520, 'tvdb'), (118748, 'ratingKey')] |
+[2022-11-01 01:01:29,413] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:29,481] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:29,481] [util.py:216]               [INFO]     |============================== Adding to Top Airing Anime Collection ===============================|
+[2022-11-01 01:01:29,482] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:29,482] [builder.py:1709]           [INFO]     |  1/10 | Top Airing Anime Collection | = | Chainsaw Man                                             |
+[2022-11-01 01:01:29,482] [builder.py:1709]           [INFO]     |  2/10 | Top Airing Anime Collection | = | Spy x Family (2022)                                      |
+[2022-11-01 01:01:29,483] [builder.py:1709]           [INFO]     |  3/10 | Top Airing Anime Collection | = | Mob Psycho 100                                           |
+[2022-11-01 01:01:29,483] [builder.py:1709]           [INFO]     |  4/10 | Top Airing Anime Collection | = | Bocchi the Rock!                                         |
+[2022-11-01 01:01:29,483] [builder.py:1709]           [INFO]     |  5/10 | Top Airing Anime Collection | = | Golden Kamuy                                             |
+[2022-11-01 01:01:29,484] [builder.py:1709]           [INFO]     |  6/10 | Top Airing Anime Collection | = | Boku no Hero Academia                                    |
+[2022-11-01 01:01:29,484] [builder.py:1709]           [INFO]     |  7/10 | Top Airing Anime Collection | = | Fumetsu no Anata e                                       |
+[2022-11-01 01:01:29,484] [builder.py:1709]           [INFO]     |  8/10 | Top Airing Anime Collection | = | Isekai Ojisan                                            |
+[2022-11-01 01:01:29,485] [builder.py:1709]           [INFO]     |  9/10 | Top Airing Anime Collection | = | Kage no Jitsuryokusha ni Naritakute!                     |
+[2022-11-01 01:01:29,485] [builder.py:1709]           [INFO]     | 10/10 | Top Airing Anime Collection | = | Do It Yourself!!                                         |
+[2022-11-01 01:01:29,486] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:29,486] [builder.py:1735]           [INFO]     | 10 Shows Processed                                                                                 |
+[2022-11-01 01:01:29,486] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:29,487] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Top Airing Anime ===========================|
+[2022-11-01 01:01:29,487] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:30,222] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Bleach (TVDB: 74796)                                             |
+[2022-11-01 01:01:30,534] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Welcome to Demon School! Iruma-kun (TVDB: 369144)                |
+[2022-11-01 01:01:30,836] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | Mobile Suit Gundam: The Witch From Mercury (TVDB: 418364)        |
+[2022-11-01 01:01:30,836] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:30,837] [builder.py:1987]           [INFO]     | 3 Shows Missing                                                                                    |
+[2022-11-01 01:01:30,847] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-11-01 01:01:30,847] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-01 01:01:30,848] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:30,848] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [74796, 369144, 418364]                                                               |
+[2022-11-01 01:01:31,091] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-01 01:01:31,092] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 74796                                                                          |
+[2022-11-01 01:01:31,092] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 369144                                                                         |
+[2022-11-01 01:01:31,093] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 418364                                                                         |
+[2022-11-01 01:01:31,093] [sonarr.py:171]             [INFO]     | 3 Series already exist in Sonarr                                                                   |
+[2022-11-01 01:01:31,097] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:31,098] [util.py:216]               [INFO]     |========================= Updating Details of Top Airing Anime Collection ==========================|
+[2022-11-01 01:01:31,098] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:31,099] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-11-01 01:01:31,099] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-01 01:01:31,110] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:31,111] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Top Airing Anime Collection ===================|
+[2022-11-01 01:01:31,111] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-01 01:01:32,513] [sonarr.py:66]              [INFO]     |                                                                                                    |
+[2022-11-01 01:01:32,514] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-11-01 01:01:32,515] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
+[2022-11-01 01:01:32,515] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-11-01 01:01:32,515] [sonarr.py:71]              [DEBUG]    | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                                           |
+[2022-11-01 01:01:32,515] [sonarr.py:71]              [DEBUG]    | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                                           |
+[2022-11-01 01:01:32,516] [sonarr.py:71]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
+[2022-11-01 01:01:32,516] [sonarr.py:71]              [DEBUG]    | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                                       |
+[2022-11-01 01:01:32,516] [sonarr.py:71]              [DEBUG]    | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                                           |
+[2022-11-01 01:01:32,516] [sonarr.py:71]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2022-11-01 01:01:32,517] [sonarr.py:71]              [DEBUG]    | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                                       |
+[2022-11-01 01:01:32,517] [sonarr.py:71]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2022-11-01 01:01:32,517] [sonarr.py:71]              [DEBUG]    | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')                                |
+[2022-11-01 01:01:32,517] [sonarr.py:71]              [DEBUG]    | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                                       |
+[2022-11-01 01:01:32,755] [sonarr.py:162]             [INFO]     |                                                                                                    |
+[2022-11-01 01:01:32,756] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                       |
+[2022-11-01 01:01:32,756] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                       |
+[2022-11-01 01:01:32,757] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
+[2022-11-01 01:01:32,757] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                   |
+[2022-11-01 01:01:32,757] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (338455, 'F:\\Anime\\Golden Kamuy (2018) [tvdb-338455]')                       |
+[2022-11-01 01:01:32,757] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2022-11-01 01:01:32,758] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                   |
+[2022-11-01 01:01:32,758] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2022-11-01 01:01:32,758] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')            |
+[2022-11-01 01:01:32,759] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                   |
+[2022-11-01 01:01:32,759] [sonarr.py:171]             [INFO]     | 10 Series already exist in Sonarr                                                                  |
+[2022-11-01 01:01:32,760] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-01 01:01:32,761] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-01 01:01:32,762] [util.py:216]               [INFO]     |                                Finished Top Airing Anime Collection                                |
+[2022-11-01 01:01:32,762] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-01 01:01:32,762] [util.py:220]               [INFO]     |====================================================================================================|
