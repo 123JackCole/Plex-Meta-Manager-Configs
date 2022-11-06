@@ -1,56 +1,56 @@
-[2022-11-04 01:03:39,870] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:39,870] [util.py:216]               [INFO]     |                                      Pets Collection in Anime                                      |
-[2022-11-04 01:03:39,870] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:39,871] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:39,871] [util.py:216]               [INFO]     |==================================== Validating Pets Attributes ====================================|
-[2022-11-04 01:03:39,871] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,872] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-04 01:03:39,872] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 71), ('poster', 'https://theposterdb.com/api/assets/240869')]) |
-[2022-11-04 01:03:39,872] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,872] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-04 01:03:39,873] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-04 01:03:39,873] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,873] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-04 01:03:39,873] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-04 01:03:39,874] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,874] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-04 01:03:39,874] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 71, 'limit': 999}                                                              |
-[2022-11-04 01:03:39,874] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,874] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-04 01:03:39,875] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240869                                                   |
-[2022-11-04 01:03:39,875] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,875] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-04 01:03:39,875] [builder.py:474]            [DEBUG]    | Value: +++_Pets                                                                                    |
-[2022-11-04 01:03:39,876] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,876] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-04 01:03:39,876] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-04 01:03:39,879] [plex.py:685]               [DEBUG]    | Looking for: Pets                                                                                  |
-[2022-11-04 01:03:39,879] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-04 01:03:39,880] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-04 01:03:39,880] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:39,880] [util.py:216]               [INFO]     |===================================== Running Pets Collection ======================================|
-[2022-11-04 01:03:39,881] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:39,881] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-04 01:03:39,881] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:39,881] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 71, 'limit': 999}                                                 |
-[2022-11-04 01:03:39,882] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-04 01:03:39,882] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 71                                                                |
-[2022-11-04 01:03:42,055] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-04 01:03:42,055] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-04 01:03:42,056] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-04 01:03:42,056] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-04 01:03:42,056] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-04 01:03:42,057] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-04 01:03:42,057] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-04 01:03:42,057] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-11-04 01:03:42,057] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-04 01:03:42,058] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-11-04 01:03:42,058] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-04 01:03:42,058] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 71                        |
-[2022-11-04 01:03:42,058] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:42,059] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 71                                             |
-[2022-11-04 01:03:42,059] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:42,060] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:42,060] [util.py:216]               [INFO]     |                                      Finished Pets Collection                                      |
-[2022-11-04 01:03:42,061] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-04 01:03:42,061] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:45,487] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:45,487] [util.py:216]               [INFO]     |                                      Pets Collection in Anime                                      |
+[2022-11-05 01:03:45,488] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:45,488] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:45,488] [util.py:216]               [INFO]     |==================================== Validating Pets Attributes ====================================|
+[2022-11-05 01:03:45,489] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,489] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 01:03:45,489] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 71), ('poster', 'https://theposterdb.com/api/assets/240869')]) |
+[2022-11-05 01:03:45,489] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,490] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 01:03:45,490] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 01:03:45,490] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,490] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 01:03:45,491] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-05 01:03:45,491] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,491] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-05 01:03:45,491] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 71, 'limit': 999}                                                              |
+[2022-11-05 01:03:45,491] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,492] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 01:03:45,492] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240869                                                   |
+[2022-11-05 01:03:45,492] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,492] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 01:03:45,493] [builder.py:474]            [DEBUG]    | Value: +++_Pets                                                                                    |
+[2022-11-05 01:03:45,493] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,493] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-05 01:03:45,493] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 01:03:45,497] [plex.py:685]               [DEBUG]    | Looking for: Pets                                                                                  |
+[2022-11-05 01:03:45,497] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 01:03:45,497] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 01:03:45,498] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:45,498] [util.py:216]               [INFO]     |===================================== Running Pets Collection ======================================|
+[2022-11-05 01:03:45,498] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:45,499] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 01:03:45,499] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:45,499] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 71, 'limit': 999}                                                 |
+[2022-11-05 01:03:45,500] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 01:03:45,500] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 71                                                                |
+[2022-11-05 01:03:47,667] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-05 01:03:47,667] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-05 01:03:47,668] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-05 01:03:47,668] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-05 01:03:47,668] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-05 01:03:47,668] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-05 01:03:47,668] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-05 01:03:47,669] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
+[2022-11-05 01:03:47,669] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-05 01:03:47,669] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
+[2022-11-05 01:03:47,669] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-05 01:03:47,669] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 71                        |
+[2022-11-05 01:03:47,670] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:47,670] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 71                                             |
+[2022-11-05 01:03:47,670] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:47,671] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:47,671] [util.py:216]               [INFO]     |                                      Finished Pets Collection                                      |
+[2022-11-05 01:03:47,671] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-05 01:03:47,671] [util.py:220]               [INFO]     |====================================================================================================|

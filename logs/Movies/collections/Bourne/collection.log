@@ -1,65 +1,32 @@
-[2022-10-28 01:00:16,249] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:00:16,250] [util.py:216]               [INFO]     |                                    Bourne Collection in Movies                                     |
-[2022-10-28 01:00:16,250] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-28 01:00:16,251] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,251] [util.py:216]               [INFO]     |=================================== Validating Bourne Attributes ===================================|
-[2022-10-28 01:00:16,251] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,252] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-28 01:00:16,252] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 31562), ('summary', 31562), ('poster', 'https://theposterdb.com/api/assets/19519')]) |
-[2022-10-28 01:00:16,252] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,252] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-28 01:00:16,253] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-28 01:00:16,253] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,253] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-28 01:00:16,253] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-10-28 01:00:16,253] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,254] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-28 01:00:16,254] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/19519                                                    |
-[2022-10-28 01:00:16,254] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,254] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
-[2022-10-28 01:00:16,254] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
-[2022-10-28 01:00:16,395] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,396] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
-[2022-10-28 01:00:16,396] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
-[2022-10-28 01:00:16,396] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,396] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-28 01:00:16,397] [builder.py:474]            [DEBUG]    | Value: 00000f_Bourne                                                                               |
-[2022-10-28 01:00:16,397] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,397] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-10-28 01:00:16,397] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-10-28 01:00:16,539] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,539] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-28 01:00:16,541] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,541] [util.py:216]               [INFO]     |==================================== Running Bourne Collection =====================================|
-[2022-10-28 01:00:16,542] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,542] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-28 01:00:16,542] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,543] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 31562                                                                    |
-[2022-10-28 01:00:16,543] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,543] [tmdb.py:321]               [INFO]     | Processing TMDb Collection: (31562) The Bourne Collection (5 Items)                                |
-[2022-10-28 01:00:16,544] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,544] [builder.py:1283]           [DEBUG]    | 5 IDs Found: [(2501, 'tmdb'), (2502, 'tmdb'), (2503, 'tmdb'), (49040, 'tmdb'), (324668, 'tmdb')]   |
-[2022-10-28 01:00:16,544] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:00:16,672] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,672] [util.py:216]               [INFO]     |=================================== Adding to Bourne Collection ====================================|
-[2022-10-28 01:00:16,673] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,673] [builder.py:1709]           [INFO]     | 1/5 | Bourne Collection | = | The Bourne Identity (2002)                                           |
-[2022-10-28 01:00:16,673] [builder.py:1709]           [INFO]     | 2/5 | Bourne Collection | = | The Bourne Supremacy (2004)                                          |
-[2022-10-28 01:00:16,674] [builder.py:1709]           [INFO]     | 3/5 | Bourne Collection | = | The Bourne Ultimatum (2007)                                          |
-[2022-10-28 01:00:16,674] [builder.py:1709]           [INFO]     | 4/5 | Bourne Collection | = | The Bourne Legacy (2012)                                             |
-[2022-10-28 01:00:16,675] [builder.py:1709]           [INFO]     | 5/5 | Bourne Collection | = | Jason Bourne (2016)                                                  |
-[2022-10-28 01:00:16,675] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,675] [builder.py:1735]           [INFO]     | 5 Movies Processed                                                                                 |
-[2022-10-28 01:00:16,679] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,679] [util.py:216]               [INFO]     |============================== Updating Details of Bourne Collection ===============================|
-[2022-10-28 01:00:16,680] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,680] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
-[2022-10-28 01:00:16,681] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-10-28 01:00:16,681] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/19519                                |
-[2022-10-28 01:00:16,681] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-10-28 01:00:16,682] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-10-28 01:00:16,822] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-28 01:00:16,823] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:00:16,823] [util.py:216]               [INFO]     |                                     Finished Bourne Collection                                     |
-[2022-10-28 01:00:16,823] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-10-28 01:00:16,824] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,203] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,204] [util.py:216]               [INFO]     |                                    Bourne Collection in Movies                                     |
+[2022-11-05 19:24:56,204] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,205] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:56,206] [util.py:216]               [INFO]     |=================================== Validating Bourne Attributes ===================================|
+[2022-11-05 19:24:56,206] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,207] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:56,207] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 31562), ('summary', 31562), ('poster', 'https://theposterdb.com/api/assets/19519')]) |
+[2022-11-05 19:24:56,207] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,207] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:56,208] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:56,208] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,208] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:56,208] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:56,209] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,209] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:56,209] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/19519                                                    |
+[2022-11-05 19:24:56,209] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,209] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:56,210] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
+[2022-11-05 19:24:56,355] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,356] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:56,356] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
+[2022-11-05 19:24:56,357] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,357] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:56,357] [builder.py:474]            [DEBUG]    | Value: 00000f_Bourne                                                                               |
+[2022-11-05 19:24:56,357] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,358] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:56,358] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:56,498] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,498] [util.py:216]               [INFO]     |                                     Exiting Plex Meta Manager                                      |
+[2022-11-05 19:24:56,499] [util.py:220]               [INFO]     |====================================================================================================|

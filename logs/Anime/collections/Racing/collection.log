@@ -1,56 +1,56 @@
-[2022-11-04 01:03:44,343] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:44,343] [util.py:216]               [INFO]     |                                     Racing Collection in Anime                                     |
-[2022-11-04 01:03:44,344] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:44,344] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:44,344] [util.py:216]               [INFO]     |=================================== Validating Racing Attributes ===================================|
-[2022-11-04 01:03:44,345] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,345] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-04 01:03:44,345] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 3), ('poster', 'https://theposterdb.com/api/assets/240213')]) |
-[2022-11-04 01:03:44,345] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,346] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-04 01:03:44,346] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-04 01:03:44,346] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,346] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-04 01:03:44,347] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-04 01:03:44,347] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,347] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-04 01:03:44,347] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 3, 'limit': 999}                                                               |
-[2022-11-04 01:03:44,347] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,348] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-04 01:03:44,348] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240213                                                   |
-[2022-11-04 01:03:44,348] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,348] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-04 01:03:44,348] [builder.py:474]            [DEBUG]    | Value: +++_Racing                                                                                  |
-[2022-11-04 01:03:44,349] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,349] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-04 01:03:44,349] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-04 01:03:44,373] [plex.py:685]               [DEBUG]    | Looking for: Racing                                                                                |
-[2022-11-04 01:03:44,373] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-04 01:03:44,374] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-04 01:03:44,374] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:44,375] [util.py:216]               [INFO]     |==================================== Running Racing Collection =====================================|
-[2022-11-04 01:03:44,375] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:44,375] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-04 01:03:44,376] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:44,376] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 3, 'limit': 999}                                                  |
-[2022-11-04 01:03:44,376] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-04 01:03:44,376] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 3                                                                 |
-[2022-11-04 01:03:46,554] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-04 01:03:46,554] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-04 01:03:46,554] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-04 01:03:46,555] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-04 01:03:46,555] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-04 01:03:46,555] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-04 01:03:46,555] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-04 01:03:46,556] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-11-04 01:03:46,556] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-04 01:03:46,556] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-11-04 01:03:46,556] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-04 01:03:46,557] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 3                         |
-[2022-11-04 01:03:46,557] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-04 01:03:46,557] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 3                                              |
-[2022-11-04 01:03:46,557] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-04 01:03:46,558] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-04 01:03:46,558] [util.py:216]               [INFO]     |                                     Finished Racing Collection                                     |
-[2022-11-04 01:03:46,558] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-04 01:03:46,559] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:49,954] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:49,954] [util.py:216]               [INFO]     |                                     Racing Collection in Anime                                     |
+[2022-11-05 01:03:49,955] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:49,955] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:49,955] [util.py:216]               [INFO]     |=================================== Validating Racing Attributes ===================================|
+[2022-11-05 01:03:49,956] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,956] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 01:03:49,956] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 3), ('poster', 'https://theposterdb.com/api/assets/240213')]) |
+[2022-11-05 01:03:49,956] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,957] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 01:03:49,957] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 01:03:49,957] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,957] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 01:03:49,958] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-05 01:03:49,958] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,958] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-05 01:03:49,958] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 3, 'limit': 999}                                                               |
+[2022-11-05 01:03:49,958] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,959] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 01:03:49,959] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240213                                                   |
+[2022-11-05 01:03:49,959] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,959] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 01:03:49,960] [builder.py:474]            [DEBUG]    | Value: +++_Racing                                                                                  |
+[2022-11-05 01:03:49,960] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,960] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-05 01:03:49,960] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 01:03:49,964] [plex.py:685]               [DEBUG]    | Looking for: Racing                                                                                |
+[2022-11-05 01:03:49,964] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 01:03:49,965] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 01:03:49,965] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:49,965] [util.py:216]               [INFO]     |==================================== Running Racing Collection =====================================|
+[2022-11-05 01:03:49,966] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:49,966] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 01:03:49,966] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:49,967] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 3, 'limit': 999}                                                  |
+[2022-11-05 01:03:49,967] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 01:03:49,967] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 3                                                                 |
+[2022-11-05 01:03:52,134] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-05 01:03:52,134] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-05 01:03:52,134] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-05 01:03:52,135] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-05 01:03:52,135] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-05 01:03:52,135] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-05 01:03:52,135] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-05 01:03:52,136] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
+[2022-11-05 01:03:52,136] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-05 01:03:52,136] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
+[2022-11-05 01:03:52,136] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-05 01:03:52,136] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 3                         |
+[2022-11-05 01:03:52,137] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-05 01:03:52,137] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 3                                              |
+[2022-11-05 01:03:52,137] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 01:03:52,138] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 01:03:52,138] [util.py:216]               [INFO]     |                                     Finished Racing Collection                                     |
+[2022-11-05 01:03:52,139] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-05 01:03:52,139] [util.py:220]               [INFO]     |====================================================================================================|
