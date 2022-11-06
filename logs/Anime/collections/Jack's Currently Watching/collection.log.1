@@ -1,120 +1,145 @@
-[2022-11-03 01:00:11,850] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-03 01:00:11,850] [util.py:216]               [INFO]     |                           Jack's Currently Watching Collection in Anime                            |
-[2022-11-03 01:00:11,851] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-03 01:00:11,851] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-03 01:00:11,852] [util.py:216]               [INFO]     |========================= Validating Jack's Currently Watching Attributes ==========================|
-[2022-11-03 01:00:11,852] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,852] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-03 01:00:11,852] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-03 01:00:11,853] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,853] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-03 01:00:11,853] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-11-03 01:00:11,853] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,854] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-03 01:00:11,854] [builder.py:474]            [DEBUG]    | Value: ++++++_Currently_Watching                                                                   |
-[2022-11-03 01:00:11,854] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,854] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
-[2022-11-03 01:00:11,855] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'watching'), ('sort_by', 'title'), ('limit', 1000)]) |
-[2022-11-03 01:00:11,855] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,855] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2022-11-03 01:00:11,855] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-03 01:00:11,855] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,856] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-03 01:00:11,856] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-03 01:00:11,856] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,857] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-11-03 01:00:11,857] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-03 01:00:11,875] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-03 01:00:11,875] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-03 01:00:11,876] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-03 01:00:11,876] [util.py:216]               [INFO]     |=========================== Running Jack's Currently Watching Collection ===========================|
-[2022-11-03 01:00:11,877] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-03 01:00:11,877] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-03 01:00:11,877] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:11,878] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'watching', 'sort_by': 'anime_title', 'limit': 1000} |
-[2022-11-03 01:00:11,878] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:11,878] [mal.py:235]                [INFO]     | Processing MyAnimeList Userlist: 1000 Anime from JCH0tsh0t's Currently Watching list sorted by Title |
-[2022-11-03 01:00:12,007] [mal.py:239]                [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:12,007] [mal.py:240]                [DEBUG]    | 16 MyAnimeList IDs Found: [31646, 49596, 47917, 49918, 44511, 48542, 38680, 49220, 48316, 37999, 50172, 44074, 50602, 47194, 49891, 50710] |
-[2022-11-03 01:00:12,007] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16519                                     |
-[2022-11-03 01:00:12,008] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:12,008] [builder.py:1283]           [DEBUG]    | 15 IDs Found: [(306269, 'tvdb'), (118742, 'ratingKey'), (305074, 'tvdb'), (118738, 'ratingKey'), (118748, 'ratingKey'), (357488, 'tvdb'), (102426, 'ratingKey'), (407520, 'tvdb'), (354198, 'tvdb'), (307375, 'tvdb'), (103906, 'ratingKey'), (102592, 'ratingKey'), (102575, 'ratingKey'), (118759, 'ratingKey'), (414096, 'tvdb')] |
-[2022-11-03 01:00:12,008] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:12,097] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,097] [util.py:216]               [INFO]     |========================== Adding to Jack's Currently Watching Collection ==========================|
-[2022-11-03 01:00:12,097] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,098] [builder.py:1709]           [INFO]     |  1/13 | Jack's Currently Watching Collection | = | Sangatsu no Lion                                |
-[2022-11-03 01:00:12,098] [builder.py:1709]           [INFO]     |  2/13 | Jack's Currently Watching Collection | = | Bocchi the Rock!                                |
-[2022-11-03 01:00:12,098] [builder.py:1709]           [INFO]     |  3/13 | Jack's Currently Watching Collection | = | Boku no Hero Academia                           |
-[2022-11-03 01:00:12,099] [builder.py:1709]           [INFO]     |  4/13 | Jack's Currently Watching Collection | = | Chainsaw Man                                    |
-[2022-11-03 01:00:12,099] [builder.py:1709]           [INFO]     |  5/13 | Jack's Currently Watching Collection | = | Do It Yourself!!                                |
-[2022-11-03 01:00:12,099] [builder.py:1709]           [INFO]     |  6/13 | Jack's Currently Watching Collection | = | Isekai Ojisan                                   |
-[2022-11-03 01:00:12,100] [builder.py:1709]           [INFO]     |  7/13 | Jack's Currently Watching Collection | = | Kage no Jitsuryokusha ni Naritakute!            |
-[2022-11-03 01:00:12,100] [builder.py:1709]           [INFO]     |  8/13 | Jack's Currently Watching Collection | = | Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunousen |
-[2022-11-03 01:00:12,101] [builder.py:1709]           [INFO]     |  9/13 | Jack's Currently Watching Collection | = | Mob Psycho 100                                  |
-[2022-11-03 01:00:12,101] [builder.py:1709]           [INFO]     | 10/13 | Jack's Currently Watching Collection | = | Shiguang Dailiren                               |
-[2022-11-03 01:00:12,101] [builder.py:1709]           [INFO]     | 11/13 | Jack's Currently Watching Collection | = | Spy x Family (2022)                             |
-[2022-11-03 01:00:12,102] [builder.py:1709]           [INFO]     | 12/13 | Jack's Currently Watching Collection | = | Summer Time Render                              |
-[2022-11-03 01:00:12,102] [builder.py:1709]           [INFO]     | 13/13 | Jack's Currently Watching Collection | = | Tensei Shitara Ken Deshita                      |
-[2022-11-03 01:00:12,102] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,103] [builder.py:1735]           [INFO]     | 13 Shows Processed                                                                                 |
-[2022-11-03 01:00:12,103] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,103] [util.py:216]               [INFO]     |====================== Missing Shows from Library: Jack's Currently Watching =======================|
-[2022-11-03 01:00:12,103] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,441] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Fruits Basket (2019) (TVDB: 357488)                     |
-[2022-11-03 01:00:12,782] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Urusei Yatsura (2022) (TVDB: 414096)                    |
-[2022-11-03 01:00:12,783] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,783] [builder.py:1987]           [INFO]     | 2 Shows Missing                                                                                    |
-[2022-11-03 01:00:12,785] [sonarr.py:66]              [INFO]     |                                                                                                    |
-[2022-11-03 01:00:12,786] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2022-11-03 01:00:12,786] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:12,786] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [357488, 414096]                                                                      |
-[2022-11-03 01:00:13,029] [sonarr.py:162]             [INFO]     |                                                                                                    |
-[2022-11-03 01:00:13,029] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 357488                                                                         |
-[2022-11-03 01:00:13,030] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 414096                                                                         |
-[2022-11-03 01:00:13,030] [sonarr.py:171]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
-[2022-11-03 01:00:13,035] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:13,035] [util.py:216]               [INFO]     |===================== Updating Details of Jack's Currently Watching Collection =====================|
-[2022-11-03 01:00:13,035] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:13,038] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
-[2022-11-03 01:00:13,038] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-03 01:00:13,051] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:13,052] [util.py:216]               [INFO]     |============== Updating Details of the Items in Jack's Currently Watching Collection ===============|
-[2022-11-03 01:00:13,052] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-11-03 01:00:14,883] [sonarr.py:66]              [INFO]     |                                                                                                    |
-[2022-11-03 01:00:14,884] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2022-11-03 01:00:14,884] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
-[2022-11-03 01:00:14,885] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2022-11-03 01:00:14,885] [sonarr.py:71]              [DEBUG]    | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')                             |
-[2022-11-03 01:00:14,885] [sonarr.py:71]              [DEBUG]    | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                                       |
-[2022-11-03 01:00:14,885] [sonarr.py:71]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
-[2022-11-03 01:00:14,886] [sonarr.py:71]              [DEBUG]    | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                                           |
-[2022-11-03 01:00:14,886] [sonarr.py:71]              [DEBUG]    | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                                       |
-[2022-11-03 01:00:14,886] [sonarr.py:71]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
-[2022-11-03 01:00:14,886] [sonarr.py:71]              [DEBUG]    | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')                                |
-[2022-11-03 01:00:14,887] [sonarr.py:71]              [DEBUG]    | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')                              |
-[2022-11-03 01:00:14,887] [sonarr.py:71]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
-[2022-11-03 01:00:14,887] [sonarr.py:71]              [DEBUG]    | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                                             |
-[2022-11-03 01:00:14,887] [sonarr.py:71]              [DEBUG]    | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                                           |
-[2022-11-03 01:00:14,887] [sonarr.py:71]              [DEBUG]    | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')                                  |
-[2022-11-03 01:00:14,888] [sonarr.py:71]              [DEBUG]    | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')                                |
-[2022-11-03 01:00:15,139] [sonarr.py:162]             [INFO]     |                                                                                                    |
-[2022-11-03 01:00:15,139] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')         |
-[2022-11-03 01:00:15,140] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                   |
-[2022-11-03 01:00:15,140] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
-[2022-11-03 01:00:15,140] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                       |
-[2022-11-03 01:00:15,140] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                   |
-[2022-11-03 01:00:15,141] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
-[2022-11-03 01:00:15,141] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')            |
-[2022-11-03 01:00:15,141] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')          |
-[2022-11-03 01:00:15,142] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
-[2022-11-03 01:00:15,142] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                         |
-[2022-11-03 01:00:15,142] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                       |
-[2022-11-03 01:00:15,143] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')              |
-[2022-11-03 01:00:15,143] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')            |
-[2022-11-03 01:00:15,143] [sonarr.py:171]             [INFO]     | 13 Series already exist in Sonarr                                                                  |
-[2022-11-03 01:00:15,144] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-03 01:00:15,145] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-03 01:00:15,146] [util.py:216]               [INFO]     |                           Finished Jack's Currently Watching Collection                            |
-[2022-11-03 01:00:15,147] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:03                                    |
-[2022-11-03 01:00:15,147] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:46:12,602] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:46:12,602] [util.py:216]               [INFO]     |                           Jack's Currently Watching Collection in Anime                            |
+[2022-11-05 19:46:12,602] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:46:12,603] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,603] [util.py:216]               [INFO]     |========================= Validating Jack's Currently Watching Attributes ==========================|
+[2022-11-05 19:46:12,604] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,604] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:46:12,604] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:46:12,604] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,604] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:46:12,605] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-05 19:46:12,605] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,605] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:46:12,605] [builder.py:474]            [DEBUG]    | Value: ++++++_Currently_Watching                                                                   |
+[2022-11-05 19:46:12,605] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,606] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
+[2022-11-05 19:46:12,606] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'watching'), ('sort_by', 'title'), ('limit', 1000)]) |
+[2022-11-05 19:46:12,606] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,606] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-11-05 19:46:12,607] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:46:12,607] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,607] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-05 19:46:12,607] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:46:12,608] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,608] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-11-05 19:46:12,608] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:46:12,630] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,631] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:46:12,631] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,631] [util.py:216]               [INFO]     |=========================== Running Jack's Currently Watching Collection ===========================|
+[2022-11-05 19:46:12,632] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,632] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:46:12,632] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,632] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'watching', 'sort_by': 'anime_title', 'limit': 1000} |
+[2022-11-05 19:46:12,633] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,633] [mal.py:237]                [INFO]     | Processing MyAnimeList Userlist: 1000 Anime from JCH0tsh0t's Currently Watching list sorted by Title |
+[2022-11-05 19:46:12,787] [mal.py:241]                [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,788] [mal.py:242]                [DEBUG]    | 25 MyAnimeList IDs Found: [31646, 50248, 49596, 47917, 49918, 44511, 48542, 28121, 38680, 48413, 49220, 48316, 37999, 41084, 49470, 50172, 19815, 40834, 48414, 44074, 50602, 47194, 49891, 50710, 50175] |
+[2022-11-05 19:46:12,788] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16519                                     |
+[2022-11-05 19:46:12,788] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,788] [builder.py:1283]           [DEBUG]    | 24 IDs Found: [(306269, 'tvdb'), (411914, 'tvdb'), (118742, 'ratingKey'), (305074, 'tvdb'), (118738, 'ratingKey'), (118748, 'ratingKey'), (289882, 'tvdb'), (357488, 'tvdb'), (267441, 'tvdb'), (102426, 'ratingKey'), (407520, 'tvdb'), (354198, 'tvdb'), (326109, 'tvdb'), (415240, 'tvdb'), (307375, 'tvdb'), (102693, 'ratingKey'), (104893, 'ratingKey'), (103746, 'ratingKey'), (103906, 'ratingKey'), (102592, 'ratingKey'), (102575, 'ratingKey'), (118759, 'ratingKey'), (414096, 'tvdb'), (411625, 'tvdb')] |
+[2022-11-05 19:46:12,789] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:12,913] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,914] [util.py:216]               [INFO]     |========================== Adding to Jack's Currently Watching Collection ==========================|
+[2022-11-05 19:46:12,914] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:12,914] [builder.py:1709]           [INFO]     |  1/20 | Jack's Currently Watching Collection | = | Sangatsu no Lion                                |
+[2022-11-05 19:46:12,915] [builder.py:1709]           [INFO]     |  2/20 | Jack's Currently Watching Collection | = | Bocchi the Rock!                                |
+[2022-11-05 19:46:12,915] [builder.py:1709]           [INFO]     |  3/20 | Jack's Currently Watching Collection | = | Boku no Hero Academia                           |
+[2022-11-05 19:46:12,915] [builder.py:1709]           [INFO]     |  4/20 | Jack's Currently Watching Collection | = | Chainsaw Man                                    |
+[2022-11-05 19:46:12,915] [builder.py:1709]           [INFO]     |  5/20 | Jack's Currently Watching Collection | = | Do It Yourself!!                                |
+[2022-11-05 19:46:12,916] [builder.py:1709]           [INFO]     |  6/20 | Jack's Currently Watching Collection | = | Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth |
+[2022-11-05 19:46:12,916] [builder.py:1709]           [INFO]     |  7/20 | Jack's Currently Watching Collection | + | Hataraku Maou-sama!                             |
+[2022-11-05 19:46:12,977] [builder.py:1709]           [INFO]     |  8/20 | Jack's Currently Watching Collection | = | Isekai Ojisan                                   |
+[2022-11-05 19:46:12,977] [builder.py:1709]           [INFO]     |  9/20 | Jack's Currently Watching Collection | = | Kage no Jitsuryokusha ni Naritakute!            |
+[2022-11-05 19:46:12,978] [builder.py:1709]           [INFO]     | 10/20 | Jack's Currently Watching Collection | = | Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunousen |
+[2022-11-05 19:46:12,978] [builder.py:1709]           [INFO]     | 11/20 | Jack's Currently Watching Collection | + | Made in Abyss                                   |
+[2022-11-05 19:46:13,029] [builder.py:1709]           [INFO]     | 12/20 | Jack's Currently Watching Collection | = | Mamahaha no Tsurego ga Motokano Datta           |
+[2022-11-05 19:46:13,030] [builder.py:1709]           [INFO]     | 13/20 | Jack's Currently Watching Collection | = | Mob Psycho 100                                  |
+[2022-11-05 19:46:13,030] [builder.py:1709]           [INFO]     | 14/20 | Jack's Currently Watching Collection | = | No Game No Life                                 |
+[2022-11-05 19:46:13,031] [builder.py:1709]           [INFO]     | 15/20 | Jack's Currently Watching Collection | = | Ousama Ranking                                  |
+[2022-11-05 19:46:13,031] [builder.py:1709]           [INFO]     | 16/20 | Jack's Currently Watching Collection | = | Sabikui Bisco                                   |
+[2022-11-05 19:46:13,031] [builder.py:1709]           [INFO]     | 17/20 | Jack's Currently Watching Collection | = | Shiguang Dailiren                               |
+[2022-11-05 19:46:13,032] [builder.py:1709]           [INFO]     | 18/20 | Jack's Currently Watching Collection | = | Spy x Family (2022)                             |
+[2022-11-05 19:46:13,032] [builder.py:1709]           [INFO]     | 19/20 | Jack's Currently Watching Collection | = | Summer Time Render                              |
+[2022-11-05 19:46:13,032] [builder.py:1709]           [INFO]     | 20/20 | Jack's Currently Watching Collection | = | Tensei Shitara Ken Deshita                      |
+[2022-11-05 19:46:13,033] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:13,033] [builder.py:1735]           [INFO]     | 20 Shows Processed                                                                                 |
+[2022-11-05 19:46:13,033] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:13,033] [util.py:216]               [INFO]     |====================== Missing Shows from Library: Jack's Currently Watching =======================|
+[2022-11-05 19:46:13,034] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:13,274] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Birdie Wing -Golf Girls' Story- (TVDB: 411914)          |
+[2022-11-05 19:46:13,599] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Fruits Basket (2019) (TVDB: 357488)                     |
+[2022-11-05 19:46:13,876] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | Urusei Yatsura (2022) (TVDB: 414096)                    |
+[2022-11-05 19:46:14,096] [builder.py:1982]           [INFO]     | Jack's Currently Watching Collection | ? | I'm Quitting Heroing (TVDB: 411625)                     |
+[2022-11-05 19:46:14,096] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,097] [builder.py:1987]           [INFO]     | 4 Shows Missing                                                                                    |
+[2022-11-05 19:46:14,099] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,099] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-05 19:46:14,099] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:14,099] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [411914, 357488, 414096, 411625]                                                      |
+[2022-11-05 19:46:14,333] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,333] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 411914                                                                         |
+[2022-11-05 19:46:14,333] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 357488                                                                         |
+[2022-11-05 19:46:14,334] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 414096                                                                         |
+[2022-11-05 19:46:14,334] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 411625                                                                         |
+[2022-11-05 19:46:14,334] [sonarr.py:174]             [INFO]     | 4 Series already exist in Sonarr                                                                   |
+[2022-11-05 19:46:14,339] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,339] [util.py:216]               [INFO]     |===================== Updating Details of Jack's Currently Watching Collection =====================|
+[2022-11-05 19:46:14,339] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,341] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-11-05 19:46:14,342] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:46:14,362] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:14,363] [util.py:216]               [INFO]     |============== Updating Details of the Items in Jack's Currently Watching Collection ===============|
+[2022-11-05 19:46:14,363] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-05 19:46:17,193] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-05 19:46:17,194] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-11-05 19:46:17,194] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-05 19:46:17,194] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-11-05 19:46:17,195] [sonarr.py:74]              [DEBUG]    | (267441, 'F:\\Anime\\Devil Is a Part-Timer!, The (2013) [tvdb-267441]')                            |
+[2022-11-05 19:46:17,195] [sonarr.py:74]              [DEBUG]    | (326109, 'F:\\Anime\\Made in Abyss (2017) [tvdb-326109]')                                          |
+[2022-11-05 19:46:17,195] [sonarr.py:74]              [DEBUG]    | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')                             |
+[2022-11-05 19:46:17,195] [sonarr.py:74]              [DEBUG]    | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                                       |
+[2022-11-05 19:46:17,195] [sonarr.py:74]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2022-11-05 19:46:17,196] [sonarr.py:74]              [DEBUG]    | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                                           |
+[2022-11-05 19:46:17,196] [sonarr.py:74]              [DEBUG]    | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                                       |
+[2022-11-05 19:46:17,196] [sonarr.py:74]              [DEBUG]    | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]')      |
+[2022-11-05 19:46:17,196] [sonarr.py:74]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2022-11-05 19:46:17,197] [sonarr.py:74]              [DEBUG]    | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')                                |
+[2022-11-05 19:46:17,197] [sonarr.py:74]              [DEBUG]    | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')                              |
+[2022-11-05 19:46:17,197] [sonarr.py:74]              [DEBUG]    | (415240, "F:\\Anime\\My Stepmom's Daughter Is My Ex (2022) [tvdb-415240]")                         |
+[2022-11-05 19:46:17,197] [sonarr.py:74]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
+[2022-11-05 19:46:17,197] [sonarr.py:74]              [DEBUG]    | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                                       |
+[2022-11-05 19:46:17,198] [sonarr.py:74]              [DEBUG]    | (391625, 'F:\\Anime\\Ranking of Kings (2021) [tvdb-391625]')                                       |
+[2022-11-05 19:46:17,198] [sonarr.py:74]              [DEBUG]    | (398387, 'F:\\Anime\\Sabikui Bisco (2022) [tvdb-398387]')                                          |
+[2022-11-05 19:46:17,198] [sonarr.py:74]              [DEBUG]    | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                                             |
+[2022-11-05 19:46:17,198] [sonarr.py:74]              [DEBUG]    | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                                           |
+[2022-11-05 19:46:17,198] [sonarr.py:74]              [DEBUG]    | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')                                  |
+[2022-11-05 19:46:17,199] [sonarr.py:74]              [DEBUG]    | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')                                |
+[2022-11-05 19:46:17,447] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-05 19:46:17,448] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (267441, 'F:\\Anime\\Devil Is a Part-Timer!, The (2013) [tvdb-267441]')        |
+[2022-11-05 19:46:17,448] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (326109, 'F:\\Anime\\Made in Abyss (2017) [tvdb-326109]')                      |
+[2022-11-05 19:46:17,448] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (306269, 'F:\\Anime\\March Comes in Like a Lion (2016) [tvdb-306269]')         |
+[2022-11-05 19:46:17,449] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (413522, 'F:\\Anime\\Bocchi the Rock! (2022) [tvdb-413522]')                   |
+[2022-11-05 19:46:17,449] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2022-11-05 19:46:17,449] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (397934, 'F:\\Anime\\Chainsaw Man (2022) [tvdb-397934]')                       |
+[2022-11-05 19:46:17,450] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (401950, 'F:\\Anime\\Do It Yourself!! (2022) [tvdb-401950]')                   |
+[2022-11-05 19:46:17,450] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]') |
+[2022-11-05 19:46:17,450] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2022-11-05 19:46:17,451] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')            |
+[2022-11-05 19:46:17,451] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (354198, 'F:\\Anime\\Kaguya-sama - Love Is War (2019) [tvdb-354198]')          |
+[2022-11-05 19:46:17,451] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (415240, "F:\\Anime\\My Stepmom's Daughter Is My Ex (2022) [tvdb-415240]")     |
+[2022-11-05 19:46:17,451] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
+[2022-11-05 19:46:17,451] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                   |
+[2022-11-05 19:46:17,452] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (391625, 'F:\\Anime\\Ranking of Kings (2021) [tvdb-391625]')                   |
+[2022-11-05 19:46:17,452] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (398387, 'F:\\Anime\\Sabikui Bisco (2022) [tvdb-398387]')                      |
+[2022-11-05 19:46:17,452] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (402033, 'F:\\Anime\\Link Click (2021) [tvdb-402033]')                         |
+[2022-11-05 19:46:17,452] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (405920, 'F:\\Anime\\SPY x FAMILY (2022) [tvdb-405920]')                       |
+[2022-11-05 19:46:17,453] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (407306, 'F:\\Anime\\Summer Time Rendering (2022) [tvdb-407306]')              |
+[2022-11-05 19:46:17,453] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (410378, 'F:\\Anime\\Reincarnated as a Sword (2022) [tvdb-410378]')            |
+[2022-11-05 19:46:17,453] [sonarr.py:174]             [INFO]     | 20 Series already exist in Sonarr                                                                  |
+[2022-11-05 19:46:17,454] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:46:17,454] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:46:17,455] [util.py:216]               [INFO]     |                           Finished Jack's Currently Watching Collection                            |
+[2022-11-05 19:46:17,455] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-05 19:46:17,455] [util.py:220]               [INFO]     |====================================================================================================|

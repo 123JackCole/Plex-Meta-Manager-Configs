@@ -1,131 +1,135 @@
 libraries:                                      # Library mappings must have a colon (:) placed after them
-  Movies:
-    metadata_path:
-      - file: config/Movie.yml
-      - file: config/Genre.yml
-      - file: config/Special_Genre.yml
-      - file: config/Studio.yml
-      - file: config/Holiday.yml
-      - file: config/Metadata.yml
-      - file: config/Overlays.yml
-  Anime:
-    sonarr:
-      url: http://localhost:7875/
-      token: anime
-      add_missing: false
-      add_existing: true
-      root_folder_path: F:\Anime
-      monitor: all
-      quality_profile: Anime
-      language_profile: English
-      series_type: anime
-      season_folder: true
-      tag:
-      search: false
-      cutoff_search: false
-      sonarr_path:
-      plex_path:
-    metadata_path:
-      - file: config/Anime.yml
+    Movies:
+        metadata_path:
+          - file: config/Movie.yml
+          - file: config/Genre.yml
+          - file: config/Special_Genre.yml
+          - file: config/Studio.yml
+          - file: config/Holiday.yml
+          - file: config/Metadata.yml
+          - file: config/Overlays.yml
+    Anime:
+        sonarr:
+            url: http://localhost:7875/
+            token: anime
+            add_missing: false
+            add_existing: true
+            root_folder_path: F:\Anime
+            monitor: all
+            quality_profile: Anime
+            language_profile: English
+            series_type: anime
+            season_folder: true
+            tag:
+            search: false
+            cutoff_search: false
+            sonarr_path:
+            plex_path:
+        metadata_path:
+          - file: config/Anime.yml
+    TV Shows:
+        metadata_path:
+          - file: config/TV_Shows.yml
+          - file: config/Overlays.yml
 settings:                                       # Can be individually specified per library as well
-  cache: true
-  cache_expiration: 60
-  asset_directory: config/assets
-  asset_folders: false
-  asset_depth: 1
-  create_asset_folders: false
-  dimensional_asset_rename: true
-  download_url_assets: false
-  show_missing_season_assets: false
-  sync_mode: append
-  minimum_items: 1
-  default_collection_order: release
-  delete_below_minimum: true
-  delete_not_scheduled: false
-  run_again_delay: 0
-  missing_only_released: false
-  only_filter_missing: false
-  show_unmanaged: true
-  show_filtered: false
-  show_options: false
-  missing_path: config/missing
-  show_missing: true
-  show_missing_assets: false
-  save_missing: true
-  tvdb_language: eng
-  ignore_ids:
-  ignore_imdb_ids:
-  playlist_sync_to_user: all
-  verify_ssl: true
+    cache: true
+    cache_expiration: 60
+    asset_directory: config/assets
+    asset_folders: false
+    asset_depth: 1
+    create_asset_folders: false
+    dimensional_asset_rename: true
+    download_url_assets: false
+    show_missing_season_assets: false
+    sync_mode: append
+    minimum_items: 1
+    default_collection_order: release
+    delete_below_minimum: true
+    delete_not_scheduled: false
+    run_again_delay: 0
+    missing_only_released: false
+    only_filter_missing: false
+    show_unmanaged: true
+    show_filtered: false
+    show_options: false
+    missing_path: config/missing
+    show_missing: true
+    show_missing_assets: false
+    save_missing: true
+    tvdb_language: eng
+    ignore_ids:
+    ignore_imdb_ids:
+    playlist_sync_to_user: all
+    verify_ssl: true
 webhooks:                                       # Can be individually specified per library as well
-  error:
-  run_start:
-  run_end:
-  changes:
+    error:
+    run_start:
+    run_end:
+    changes:
 plex:                                           # Can be individually specified per library as well; REQUIRED for the script to run
-  url: SECRET
-  token: SECRET
-  timeout: 60
-  clean_bundles: false
-  empty_trash: false
-  optimize: false
+    url: SECRET
+    token: SECRET
+    timeout: 60
+    clean_bundles: false
+    empty_trash: false
+    optimize: false
 tmdb:                                           # REQUIRED for the script to run
-  apikey: SECRET
-  language: en
+    apikey: SECRET
+    language: en
 tautulli:                                       # Can be individually specified per library as well
-  url: http://192.168.1.12:8181
-  apikey:
+    url: http://192.168.1.12:8181
+    apikey:
 omdb:
-  apikey:
+    apikey:
 notifiarr:
-  apikey:
+    apikey:
 anidb:                                          # Not required for AniDB builders unless you want mature content
-  username: jch0tsh0t
-  password: SECRET
+    username: jch0tsh0t
+    password: SECRET
 radarr:                                         # Can be individually specified per library as well
-  url: http://localhost:7879/
-  token: SECRET
-  add_missing: false
-  add_existing: false
-  root_folder_path: F:\Movies (4k)
-  monitor: false
-  availability: announced
-  quality_profile: Ultra-HD
-  tag:
-  search: false
-  radarr_path:
-  plex_path:
+    url: http://localhost:7879/
+    token: SECRET
+    add_missing: false
+    add_existing: false
+    root_folder_path: F:\Movies (4k)
+    monitor: false
+    availability: announced
+    quality_profile: Ultra-HD
+    tag:
+    search: false
+    radarr_path:
+    plex_path:
 sonarr:                                         # Can be individually specified per library as well
-  url: http://localhost:7874/
-  token: SECRET
-  add_missing: false
-  add_existing: false
-  root_folder_path: E:\Shows (4k)
-  monitor: false
-  quality_profile: Ultra-HD
-  language_profile: English
-  series_type: standard
-  season_folder: true
-  tag:
-  search: false
-  cutoff_search: false
-  sonarr_path:
-  plex_path:
+    url: http://localhost:7874/
+    token: SECRET
+    add_missing: false
+    add_existing: false
+    root_folder_path: E:\Shows (4k)
+    monitor: false
+    quality_profile: Ultra-HD
+    language_profile: English
+    series_type: standard
+    season_folder: true
+    tag:
+    search: false
+    cutoff_search: false
+    sonarr_path:
+    plex_path:
 trakt:
-  client_id: SECRET
-  client_secret: SECRET
-  authorization:
-    access_token: 3a53e0aa687250168c524105663739c4dc9a3149a8edf6ee82f15b78abc1dc08
-    token_type: Bearer
-    expires_in: 7889238
-    refresh_token: 948ff5bf110b92b35871d90ce1a1c8d8cd3ae7000c678e9fc90500d82efaec31
-    scope: public
-    created_at: 1659859211
+    client_id: SECRET
+    client_secret: SECRET
+    authorization:
+        access_token: 15a0fefde6a91e9a6489ea61ec85b0f0ab08b8ac7566a115173824555a03c7b8
+        token_type: Bearer
+        expires_in: 7889238
+        refresh_token: ffd19c898c07d1d8f7b51e025508729a838ebace80680355b90580b1c24b60b1
+        scope: public
+        created_at: 1667759310
 mal:
-  client_id: SECRET
-  client_secret: SECRET
-  authorization:
-    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIn0.eyJhdWQiOiJkNGQ3MTdlNzUyYTk2MDBmMjA0YjRjNTI0ODk1YjFmMiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIiwiaWF0IjoxNjY3NzAxMjY3LCJuYmYiOjE2Njc3MDEyNjcsImV4cCI6MTY3MDI5Njg2Nywic3ViIjoiNDc1MjI4NiIsInNjb3BlcyI6W119.bba_P6pZlefALUF0WqUu_JypGw4GXql9KbCYaMUB37uqQIm4jpHZJlzCl0uk9KhR_iH5co9OjFT4NfmhbQOQs73JwuAkqlLuF64rOnoqzpFBEjV5YHe8IJqH25aqVJoFOTiV2LoiUQnXbNAOqfkNna5WqNYabZUKlKdekul6Ja96r1byFHjXO3JwAc8w6HRGDEKTKX04wrNL5bDrwPWqf6enh49ekx4RMWxXAaby_s2FfC2uAvMZovnW185qPbxTSa2AHFfcfZ2rK-BlCF87jIFoVZJaswifiGa8qEc6KOBHRTUSDHgE9U1-t7m3sU86iMsvVGX82rmKOSac6SfO4Q
-    token_type: Bearer
-    expires_in: 2595600
-    refresh_token: def502003fe1754e9dfaeeafbacf6c4df71dcdd67b890e055b2d7181c8c4d4cc76fb0b0c3043677b52afd6c1e4a9cfa7319154e9667249960f719551853f97d441e3b67d2f38b639306623488522f8084c071ae1e022a2b2e0a53b1939e8fc7c5bb89405fd53d4bd50b2879ccbc30ad55d8aff060ac4f3f85b46eb71b91d95d9485ea63398a2b92018e2e55baa279bc939ebbf8cb9c6527a8bcc74679e2f0d208569ae016c9ccebbd616ebc5e1e7e41e3165d1aa4461721ecd810d1d1e8af09db99439b02cfcb6279372962cac0689d707901d0ccfd4a63733b8c3a5936b1a67320eda6a6851fb8ef5443f20294d4b158687102d322d2f11b6286b98ffb678abea0d6e53af062f9468adaa222afbe7346fce4abb84bbcdbdfa3a59b2007f560264c2101354eba0440b40ff1903fc6d110c69d83aad0cbd5c375e80f844513c44d36279b3e022da0f979370d8e71701e9a931d76b883319e20d4fd102d745be6054fe5de0b4a585c7e99980887952292b0493e91cdaceb65179a14e2dad9ca2ba82e64c2e584c37bd
+    client_id: SECRET
+    client_secret: SECRET
+    authorization:
+        access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIn0.eyJhdWQiOiJkNGQ3MTdlNzUyYTk2MDBmMjA0YjRjNTI0ODk1YjFmMiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIiwiaWF0IjoxNjY3NzAxMjY3LCJuYmYiOjE2Njc3MDEyNjcsImV4cCI6MTY3MDI5Njg2Nywic3ViIjoiNDc1MjI4NiIsInNjb3BlcyI6W119.bba_P6pZlefALUF0WqUu_JypGw4GXql9KbCYaMUB37uqQIm4jpHZJlzCl0uk9KhR_iH5co9OjFT4NfmhbQOQs73JwuAkqlLuF64rOnoqzpFBEjV5YHe8IJqH25aqVJoFOTiV2LoiUQnXbNAOqfkNna5WqNYabZUKlKdekul6Ja96r1byFHjXO3JwAc8w6HRGDEKTKX04wrNL5bDrwPWqf6enh49ekx4RMWxXAaby_s2FfC2uAvMZovnW185qPbxTSa2AHFfcfZ2rK-BlCF87jIFoVZJaswifiGa8qEc6KOBHRTUSDHgE9U1-t7m3sU86iMsvVGX82rmKOSac6SfO4Q
+        token_type: Bearer
+        expires_in: 2595600
+        refresh_token: def502003fe1754e9dfaeeafbacf6c4df71dcdd67b890e055b2d7181c8c4d4cc76fb0b0c3043677b52afd6c1e4a9cfa7319154e9667249960f719551853f97d441e3b67d2f38b639306623488522f8084c071ae1e022a2b2e0a53b1939e8fc7c5bb89405fd53d4bd50b2879ccbc30ad55d8aff060ac4f3f85b46eb71b91d95d9485ea63398a2b92018e2e55baa279bc939ebbf8cb9c6527a8bcc74679e2f0d208569ae016c9ccebbd616ebc5e1e7e41e3165d1aa4461721ecd810d1d1e8af09db99439b02cfcb6279372962cac0689d707901d0ccfd4a63733b8c3a5936b1a67320eda6a6851fb8ef5443f20294d4b158687102d322d2f11b6286b98ffb678abea0d6e53af062f9468adaa222afbe7346fce4abb84bbcdbdfa3a59b2007f560264c2101354eba0440b40ff1903fc6d110c69d83aad0cbd5c375e80f844513c44d36279b3e022da0f979370d8e71701e9a931d76b883319e20d4fd102d745be6054fe5de0b4a585c7e99980887952292b0493e91cdaceb65179a14e2dad9ca2ba82e64c2e584c37bd

@@ -1,99 +1,645 @@
-[2022-11-05 19:21:06,754] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,755] [plex_meta_manager.py:134]  [INFO]     |                                                                                                    |
-[2022-11-05 19:21:06,755] [plex_meta_manager.py:135]  [INFO]     |        ____  _             __  __      _          __  __                                           |
-[2022-11-05 19:21:06,756] [plex_meta_manager.py:136]  [INFO]     |       |  _ \| | _____  __ |  \/  | ___| |_ __ _  |  \/  | __ _ _ __   __ _  __ _  ___ _ __         |
-[2022-11-05 19:21:06,756] [plex_meta_manager.py:137]  [INFO]     |       | |_) | |/ _ \ \/ / | |\/| |/ _ \ __/ _` | | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|        |
-[2022-11-05 19:21:06,757] [plex_meta_manager.py:138]  [INFO]     |       |  __/| |  __/>  <  | |  | |  __/ || (_| | | |  | | (_| | | | | (_| | (_| |  __/ |           |
-[2022-11-05 19:21:06,757] [plex_meta_manager.py:139]  [INFO]     |       |_|   |_|\___/_/\_\ |_|  |_|\___|\__\__,_| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|           |
-[2022-11-05 19:21:06,757] [plex_meta_manager.py:140]  [INFO]     |                                                                            |___/                   |
-[2022-11-05 19:21:06,758] [plex_meta_manager.py:141]  [INFO]     |     Version: 1.15.0                                                                                |
-[2022-11-05 19:21:06,758] [util.py:207]               [DEBUG]    |====================================================================================================|
-[2022-11-05 19:21:06,758] [plex_meta_manager.py:152]  [DEBUG]    | --config (PMM_CONFIG): None                                                                        |
-[2022-11-05 19:21:06,758] [plex_meta_manager.py:153]  [DEBUG]    | --time (PMM_TIME): 03:00                                                                           |
-[2022-11-05 19:21:06,758] [plex_meta_manager.py:154]  [DEBUG]    | --run (PMM_RUN): True                                                                              |
-[2022-11-05 19:21:06,758] [plex_meta_manager.py:155]  [DEBUG]    | --run-tests (PMM_TEST): False                                                                      |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:156]  [DEBUG]    | --collections-only (PMM_COLLECTIONS_ONLY): False                                                   |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:157]  [DEBUG]    | --libraries-only (PMM_LIBRARIES_ONLY): False                                                       |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:158]  [DEBUG]    | --libraries-first (PMM_LIBRARIES_FIRST): False                                                     |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:159]  [DEBUG]    | --run-collections (PMM_COLLECTIONS): None                                                          |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:160]  [DEBUG]    | --run-libraries (PMM_LIBRARIES): None                                                              |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:161]  [DEBUG]    | --ignore-schedules (PMM_IGNORE_SCHEDULES): False                                                   |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:162]  [DEBUG]    | --delete-collections (PMM_DELETE_COLLECTIONS): False                                               |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:163]  [DEBUG]    | --resume (PMM_RESUME): None                                                                        |
-[2022-11-05 19:21:06,759] [plex_meta_manager.py:164]  [DEBUG]    | --no-countdown (PMM_NO_COUNTDOWN): False                                                           |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:165]  [DEBUG]    | --no-missing (PMM_NO_MISSING): False                                                               |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:166]  [DEBUG]    | --read-only-config (PMM_READ_ONLY_CONFIG): False                                                   |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:167]  [DEBUG]    | --divider (PMM_DIVIDER): =                                                                         |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:168]  [DEBUG]    | --width (PMM_WIDTH): 100                                                                           |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:169]  [DEBUG]    | --debug (PMM_DEBUG): False                                                                         |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:170]  [DEBUG]    | --trace (PMM_TRACE): False                                                                         |
-[2022-11-05 19:21:06,760] [plex_meta_manager.py:171]  [DEBUG]    |                                                                                                    |
-[2022-11-05 19:21:06,761] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,761] [util.py:216]               [INFO]     |                                            Starting Run                                            |
-[2022-11-05 19:21:06,761] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,761] [config.py:37]              [INFO]     | Locating config...                                                                                 |
-[2022-11-05 19:21:06,762] [config.py:43]              [INFO]     | Using C:\Plex-Stack\Plex-Meta-Manager\config\config.yml as config                                  |
-[2022-11-05 19:21:06,797] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,798] [cache.py:17]               [INFO]     | Initializing cache database at C:\Plex-Stack\Plex-Meta-Manager\config\config.cache                 |
-[2022-11-05 19:21:06,799] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,799] [config.py:313]             [INFO]     | Connecting to Notifiarr...                                                                         |
-[2022-11-05 19:21:06,800] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-05 19:24:41,118] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,119] [plex_meta_manager.py:134]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:41,119] [plex_meta_manager.py:135]  [INFO]     |        ____  _             __  __      _          __  __                                           |
+[2022-11-05 19:24:41,120] [plex_meta_manager.py:136]  [INFO]     |       |  _ \| | _____  __ |  \/  | ___| |_ __ _  |  \/  | __ _ _ __   __ _  __ _  ___ _ __         |
+[2022-11-05 19:24:41,120] [plex_meta_manager.py:137]  [INFO]     |       | |_) | |/ _ \ \/ / | |\/| |/ _ \ __/ _` | | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \ '__|        |
+[2022-11-05 19:24:41,121] [plex_meta_manager.py:138]  [INFO]     |       |  __/| |  __/>  <  | |  | |  __/ || (_| | | |  | | (_| | | | | (_| | (_| |  __/ |           |
+[2022-11-05 19:24:41,121] [plex_meta_manager.py:139]  [INFO]     |       |_|   |_|\___/_/\_\ |_|  |_|\___|\__\__,_| |_|  |_|\__,_|_| |_|\__,_|\__, |\___|_|           |
+[2022-11-05 19:24:41,121] [plex_meta_manager.py:140]  [INFO]     |                                                                            |___/                   |
+[2022-11-05 19:24:41,122] [plex_meta_manager.py:141]  [INFO]     |     Version: 1.15.0                                                                                |
+[2022-11-05 19:24:41,122] [util.py:207]               [DEBUG]    |====================================================================================================|
+[2022-11-05 19:24:41,122] [plex_meta_manager.py:152]  [DEBUG]    | --config (PMM_CONFIG): None                                                                        |
+[2022-11-05 19:24:41,122] [plex_meta_manager.py:153]  [DEBUG]    | --time (PMM_TIME): 03:00                                                                           |
+[2022-11-05 19:24:41,122] [plex_meta_manager.py:154]  [DEBUG]    | --run (PMM_RUN): True                                                                              |
+[2022-11-05 19:24:41,122] [plex_meta_manager.py:155]  [DEBUG]    | --run-tests (PMM_TEST): False                                                                      |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:156]  [DEBUG]    | --collections-only (PMM_COLLECTIONS_ONLY): False                                                   |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:157]  [DEBUG]    | --libraries-only (PMM_LIBRARIES_ONLY): False                                                       |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:158]  [DEBUG]    | --libraries-first (PMM_LIBRARIES_FIRST): False                                                     |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:159]  [DEBUG]    | --run-collections (PMM_COLLECTIONS): None                                                          |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:160]  [DEBUG]    | --run-libraries (PMM_LIBRARIES): None                                                              |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:161]  [DEBUG]    | --ignore-schedules (PMM_IGNORE_SCHEDULES): False                                                   |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:162]  [DEBUG]    | --delete-collections (PMM_DELETE_COLLECTIONS): False                                               |
+[2022-11-05 19:24:41,123] [plex_meta_manager.py:163]  [DEBUG]    | --resume (PMM_RESUME): None                                                                        |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:164]  [DEBUG]    | --no-countdown (PMM_NO_COUNTDOWN): False                                                           |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:165]  [DEBUG]    | --no-missing (PMM_NO_MISSING): False                                                               |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:166]  [DEBUG]    | --read-only-config (PMM_READ_ONLY_CONFIG): False                                                   |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:167]  [DEBUG]    | --divider (PMM_DIVIDER): =                                                                         |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:168]  [DEBUG]    | --width (PMM_WIDTH): 100                                                                           |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:169]  [DEBUG]    | --debug (PMM_DEBUG): False                                                                         |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:170]  [DEBUG]    | --trace (PMM_TRACE): False                                                                         |
+[2022-11-05 19:24:41,124] [plex_meta_manager.py:171]  [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:41,125] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,125] [util.py:216]               [INFO]     |                                            Starting Run                                            |
+[2022-11-05 19:24:41,125] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,125] [config.py:37]              [INFO]     | Locating config...                                                                                 |
+[2022-11-05 19:24:41,126] [config.py:43]              [INFO]     | Using C:\Plex-Stack\Plex-Meta-Manager\config\config.yml as config                                  |
+[2022-11-05 19:24:41,156] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,157] [cache.py:17]               [INFO]     | Initializing cache database at C:\Plex-Stack\Plex-Meta-Manager\config\config.cache                 |
+[2022-11-05 19:24:41,158] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,158] [config.py:313]             [INFO]     | Connecting to Notifiarr...                                                                         |
+[2022-11-05 19:24:41,159] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
                                                                  |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 316, in __init__
                                                                  |     "apikey": check_for_attribute(self.data, "apikey", parent="notifiarr", throw=True),
                                                                  |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 251, in check_for_attribute
                                                                  |     raise Failed(f"Config Error: {message}")
                                                                  | modules.util.Failed: Config Error: notifiarr sub-attribute apikey is blank
                                                                  | 
-[2022-11-05 19:21:06,801] [config.py:322]             [ERROR]    | Config Error: notifiarr sub-attribute apikey is blank
-[2022-11-05 19:21:06,801] [config.py:323]             [INFO]     | Notifiarr Connection Failed
-[2022-11-05 19:21:06,802] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,802] [config.py:341]             [INFO]     | Connecting to TMDb...                                                                              |
-[2022-11-05 19:21:06,853] [config.py:346]             [INFO]     | TMDb Connection Successful                                                                         |
-[2022-11-05 19:21:06,854] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,854] [config.py:354]             [INFO]     | Connecting to OMDb...                                                                              |
-[2022-11-05 19:21:06,855] [config.py:359]             [ERROR]    | Config Error: omdb sub-attribute apikey is blank                                                   |
-[2022-11-05 19:21:06,855] [config.py:360]             [INFO]     | OMDb Connection Failed                                                                             |
-[2022-11-05 19:21:06,856] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,856] [config.py:368]             [INFO]     | Connecting to Trakt...                                                                             |
-[2022-11-05 19:21:06,986] [config.py:379]             [INFO]     | Trakt Connection Successful                                                                        |
-[2022-11-05 19:21:06,986] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:06,987] [config.py:387]             [INFO]     | Connecting to My Anime List...                                                                     |
-[2022-11-05 19:21:07,116] [mal.py:95]                 [DEBUG]    | MyAnimeList Error: invalid_token                                                                   |
-[2022-11-05 19:21:07,117] [mal.py:100]                [INFO]     | Refreshing Access Token...                                                                         |
-[2022-11-05 19:21:08,271] [mal.py:122]                [INFO]     | Saving authorization information to C:\Plex-Stack\Plex-Meta-Manager\config\config.yml              |
-[2022-11-05 19:21:08,279] [config.py:398]             [INFO]     | My Anime List Connection Successful                                                                |
-[2022-11-05 19:21:08,279] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:08,280] [config.py:405]             [INFO]     | Connecting to AniDB...                                                                             |
-[2022-11-05 19:21:08,935] [config.py:413]             [ERROR]    | AniDB Error: Login failed                                                                          |
-[2022-11-05 19:21:26,447] [config.py:414]             [INFO]     | My Anime List Connection Successful                                                                |
-[2022-11-05 19:21:26,449] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:26,449] [config.py:466]             [WARNING]  | playlist_files attribute not found                                                                 |
-[2022-11-05 19:21:26,450] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:26,450] [config.py:486]             [INFO]     | Connecting to Plex Libraries...                                                                    |
-[2022-11-05 19:21:26,451] [util.py:162]               [DEBUG]    | Config Warning: sonarr sub-attribute monitor: False is an invalid input using all as default       |
-[2022-11-05 19:21:26,451] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:26,451] [util.py:216]               [INFO]     |                                        Movies Configuration                                        |
-[2022-11-05 19:21:26,452] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:26,452] [config.py:553]             [INFO]     |                                                                                                    |
-[2022-11-05 19:21:26,453] [config.py:554]             [INFO]     | Connecting to Movies Library...                                                                    |
-[2022-11-05 19:21:26,453] [util.py:162]               [DEBUG]    | Config Warning: missing_path attribute not found using None as default                             |
-[2022-11-05 19:21:26,455] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,455] [meta.py:228]               [INFO]     | Loading Metadata File: config/Movie.yml
-[2022-11-05 19:21:26,511] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
-[2022-11-05 19:21:26,512] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,513] [meta.py:228]               [INFO]     | Loading Metadata File: config/Genre.yml
-[2022-11-05 19:21:26,568] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
-[2022-11-05 19:21:26,568] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,569] [meta.py:228]               [INFO]     | Loading Metadata File: config/Special_Genre.yml
-[2022-11-05 19:21:26,579] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
-[2022-11-05 19:21:26,580] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,580] [meta.py:228]               [INFO]     | Loading Metadata File: config/Studio.yml
-[2022-11-05 19:21:26,599] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
-[2022-11-05 19:21:26,599] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,600] [meta.py:228]               [INFO]     | Loading Metadata File: config/Holiday.yml
-[2022-11-05 19:21:26,625] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
-[2022-11-05 19:21:26,626] [meta.py:227]               [INFO]     | 
-[2022-11-05 19:21:26,627] [meta.py:228]               [INFO]     | Loading Metadata File: config/Metadata.yml
-[2022-11-05 19:21:26,670] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:21:26,670] [util.py:216]               [INFO]     |                                     Exiting Plex Meta Manager                                      |
-[2022-11-05 19:21:26,671] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,160] [config.py:322]             [ERROR]    | Config Error: notifiarr sub-attribute apikey is blank
+[2022-11-05 19:24:41,160] [config.py:323]             [INFO]     | Notifiarr Connection Failed
+[2022-11-05 19:24:41,160] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,161] [config.py:341]             [INFO]     | Connecting to TMDb...                                                                              |
+[2022-11-05 19:24:41,229] [config.py:346]             [INFO]     | TMDb Connection Successful                                                                         |
+[2022-11-05 19:24:41,230] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,231] [config.py:354]             [INFO]     | Connecting to OMDb...                                                                              |
+[2022-11-05 19:24:41,231] [config.py:359]             [ERROR]    | Config Error: omdb sub-attribute apikey is blank                                                   |
+[2022-11-05 19:24:41,231] [config.py:360]             [INFO]     | OMDb Connection Failed                                                                             |
+[2022-11-05 19:24:41,231] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,232] [config.py:368]             [INFO]     | Connecting to Trakt...                                                                             |
+[2022-11-05 19:24:41,580] [config.py:379]             [INFO]     | Trakt Connection Successful                                                                        |
+[2022-11-05 19:24:41,580] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,581] [config.py:387]             [INFO]     | Connecting to My Anime List...                                                                     |
+[2022-11-05 19:24:41,852] [config.py:398]             [INFO]     | My Anime List Connection Successful                                                                |
+[2022-11-05 19:24:41,853] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:41,853] [config.py:405]             [INFO]     | Connecting to AniDB...                                                                             |
+[2022-11-05 19:24:42,471] [config.py:413]             [ERROR]    | AniDB Error: Login failed                                                                          |
+[2022-11-05 19:24:42,472] [config.py:414]             [INFO]     | My Anime List Connection Successful                                                                |
+[2022-11-05 19:24:42,472] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:42,473] [config.py:466]             [WARNING]  | playlist_files attribute not found                                                                 |
+[2022-11-05 19:24:42,473] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:42,473] [config.py:486]             [INFO]     | Connecting to Plex Libraries...                                                                    |
+[2022-11-05 19:24:42,474] [util.py:162]               [DEBUG]    | Config Warning: sonarr sub-attribute monitor: False is an invalid input using all as default       |
+[2022-11-05 19:24:42,474] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:42,474] [util.py:216]               [INFO]     |                                        Movies Configuration                                        |
+[2022-11-05 19:24:42,474] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:42,475] [config.py:553]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:42,475] [config.py:554]             [INFO]     | Connecting to Movies Library...                                                                    |
+[2022-11-05 19:24:42,475] [util.py:162]               [DEBUG]    | Config Warning: missing_path attribute not found using None as default                             |
+[2022-11-05 19:24:42,476] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,476] [meta.py:228]               [INFO]     | Loading Metadata File: config/Movie.yml
+[2022-11-05 19:24:42,524] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:42,525] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,525] [meta.py:228]               [INFO]     | Loading Metadata File: config/Genre.yml
+[2022-11-05 19:24:42,568] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:42,568] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,569] [meta.py:228]               [INFO]     | Loading Metadata File: config/Special_Genre.yml
+[2022-11-05 19:24:42,579] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:42,579] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,580] [meta.py:228]               [INFO]     | Loading Metadata File: config/Studio.yml
+[2022-11-05 19:24:42,598] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:42,598] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,599] [meta.py:228]               [INFO]     | Loading Metadata File: config/Holiday.yml
+[2022-11-05 19:24:42,621] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:42,622] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:42,622] [meta.py:228]               [INFO]     | Loading Metadata File: config/Metadata.yml
+[2022-11-05 19:24:43,503] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:43,504] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:43,505] [meta.py:228]               [INFO]     | Loading Metadata File: config/Overlays.yml
+[2022-11-05 19:24:43,508] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:43,508] [library.py:123]            [INFO]     | 
+[2022-11-05 19:24:43,509] [library.py:125]            [INFO]     | Using Asset Directory: config/assets
+[2022-11-05 19:24:43,509] [plex.py:386]               [INFO]     | 
+[2022-11-05 19:24:43,515] [config.py:748]             [INFO]     | Movies Library Connection Successful
+[2022-11-05 19:24:43,515] [config.py:758]             [INFO]     | 
+[2022-11-05 19:24:43,515] [util.py:216]               [INFO]     |======================================= Radarr Configuration =======================================|
+[2022-11-05 19:24:43,516] [config.py:760]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,516] [config.py:761]             [INFO]     | Connecting to Movies library's Radarr...                                                           |
+[2022-11-05 19:24:43,516] [config.py:762]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,544] [config.py:783]             [INFO]     | Movies library's Radarr Connection Successful                                                      |
+[2022-11-05 19:24:43,544] [config.py:786]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,545] [util.py:216]               [INFO]     |======================================= Sonarr Configuration =======================================|
+[2022-11-05 19:24:43,545] [config.py:788]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,546] [config.py:789]             [INFO]     | Connecting to Movies library's Sonarr...                                                           |
+[2022-11-05 19:24:43,546] [config.py:790]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,564] [config.py:814]             [INFO]     | Movies library's Sonarr Connection Successful                                                      |
+[2022-11-05 19:24:43,564] [config.py:817]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,564] [util.py:216]               [INFO]     |====================================== Tautulli Configuration ======================================|
+[2022-11-05 19:24:43,565] [config.py:819]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,565] [config.py:820]             [INFO]     | Connecting to Movies library's Tautulli...                                                         |
+[2022-11-05 19:24:43,565] [config.py:821]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,566] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 825, in __init__
+                                                                 |     "apikey": check_for_attribute(lib, "apikey", parent="tautulli", default=self.general["tautulli"]["apikey"], req_default=True, save=False)
+                                                                 |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 241, in check_for_attribute
+                                                                 |     raise Failed(f"Config Error: {attribute} attribute must be set under {parent} globally or under this specific Library")
+                                                                 | modules.util.Failed: Config Error: apikey attribute must be set under tautulli globally or under this specific Library
+                                                                 | 
+[2022-11-05 19:24:43,566] [util.py:159]               [ERROR]    | Config Error: apikey attribute must be set under tautulli globally or under this specific Library
+[2022-11-05 19:24:43,567] [config.py:831]             [INFO]     | 
+[2022-11-05 19:24:43,567] [config.py:832]             [INFO]     | Movies library's Tautulli Connection Failed
+[2022-11-05 19:24:43,567] [config.py:836]             [INFO]     | 
+[2022-11-05 19:24:43,568] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,568] [util.py:216]               [INFO]     |                                        Anime Configuration                                         |
+[2022-11-05 19:24:43,568] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,569] [config.py:553]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,569] [config.py:554]             [INFO]     | Connecting to Anime Library...                                                                     |
+[2022-11-05 19:24:43,570] [util.py:162]               [DEBUG]    | Config Warning: missing_path attribute not found using None as default                             |
+[2022-11-05 19:24:43,570] [meta.py:227]               [INFO]     | 
+[2022-11-05 19:24:43,571] [meta.py:228]               [INFO]     | Loading Metadata File: config/Anime.yml
+[2022-11-05 19:24:43,623] [meta.py:236]               [INFO]     | Metadata File Loaded Successfully
+[2022-11-05 19:24:43,624] [library.py:123]            [INFO]     | 
+[2022-11-05 19:24:43,624] [library.py:125]            [INFO]     | Using Asset Directory: config/assets
+[2022-11-05 19:24:43,625] [plex.py:386]               [INFO]     | 
+[2022-11-05 19:24:43,630] [config.py:748]             [INFO]     | Anime Library Connection Successful
+[2022-11-05 19:24:43,631] [config.py:758]             [INFO]     | 
+[2022-11-05 19:24:43,631] [util.py:216]               [INFO]     |======================================= Radarr Configuration =======================================|
+[2022-11-05 19:24:43,631] [config.py:760]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,631] [config.py:761]             [INFO]     | Connecting to Anime library's Radarr...                                                            |
+[2022-11-05 19:24:43,632] [config.py:762]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,646] [config.py:783]             [INFO]     | Anime library's Radarr Connection Successful                                                       |
+[2022-11-05 19:24:43,646] [config.py:786]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,646] [util.py:216]               [INFO]     |======================================= Sonarr Configuration =======================================|
+[2022-11-05 19:24:43,647] [config.py:788]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,647] [config.py:789]             [INFO]     | Connecting to Anime library's Sonarr...                                                            |
+[2022-11-05 19:24:43,647] [config.py:790]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,661] [config.py:814]             [INFO]     | Anime library's Sonarr Connection Successful                                                       |
+[2022-11-05 19:24:43,661] [config.py:817]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,661] [util.py:216]               [INFO]     |====================================== Tautulli Configuration ======================================|
+[2022-11-05 19:24:43,662] [config.py:819]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,662] [config.py:820]             [INFO]     | Connecting to Anime library's Tautulli...                                                          |
+[2022-11-05 19:24:43,662] [config.py:821]             [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,663] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+                                                                 |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 825, in __init__
+                                                                 |     "apikey": check_for_attribute(lib, "apikey", parent="tautulli", default=self.general["tautulli"]["apikey"], req_default=True, save=False)
+                                                                 |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\config.py", line 241, in check_for_attribute
+                                                                 |     raise Failed(f"Config Error: {attribute} attribute must be set under {parent} globally or under this specific Library")
+                                                                 | modules.util.Failed: Config Error: apikey attribute must be set under tautulli globally or under this specific Library
+                                                                 | 
+[2022-11-05 19:24:43,664] [util.py:159]               [ERROR]    | Config Error: apikey attribute must be set under tautulli globally or under this specific Library
+[2022-11-05 19:24:43,664] [config.py:831]             [INFO]     | 
+[2022-11-05 19:24:43,664] [config.py:832]             [INFO]     | Anime library's Tautulli Connection Failed
+[2022-11-05 19:24:43,665] [config.py:836]             [INFO]     | 
+[2022-11-05 19:24:43,666] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,666] [config.py:842]             [INFO]     | 2 Plex Library Connections Successful                                                              |
+[2022-11-05 19:24:43,666] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,668] [plex_meta_manager.py:216]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,669] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,669] [util.py:216]               [INFO]     |                                           Movies Library                                           |
+[2022-11-05 19:24:43,669] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:43,669] [plex_meta_manager.py:222]  [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:43,670] [plex_meta_manager.py:223]  [DEBUG]    | Mapping Name: Movies                                                                               |
+[2022-11-05 19:24:43,670] [plex_meta_manager.py:224]  [DEBUG]    | Folder Name: Movies                                                                                |
+[2022-11-05 19:24:43,670] [plex_meta_manager.py:225]  [DEBUG]    | Missing Path: C:\Plex-Stack\Plex-Meta-Manager\config\Movies_missing.yml                            |
+[2022-11-05 19:24:43,670] [plex_meta_manager.py:227]  [DEBUG]    | Asset Directory: config/assets                                                                     |
+[2022-11-05 19:24:43,670] [plex_meta_manager.py:228]  [DEBUG]    | Asset Folders: False                                                                               |
+[2022-11-05 19:24:43,671] [plex_meta_manager.py:229]  [DEBUG]    | Create Asset Folders: False                                                                        |
+[2022-11-05 19:24:43,671] [plex_meta_manager.py:230]  [DEBUG]    | Download URL Assets: False                                                                         |
+[2022-11-05 19:24:43,671] [plex_meta_manager.py:231]  [DEBUG]    | Sync Mode: append                                                                                  |
+[2022-11-05 19:24:43,671] [plex_meta_manager.py:232]  [DEBUG]    | Collection Minimum: 1                                                                              |
+[2022-11-05 19:24:43,672] [plex_meta_manager.py:233]  [DEBUG]    | Delete Below Minimum: True                                                                         |
+[2022-11-05 19:24:43,672] [plex_meta_manager.py:234]  [DEBUG]    | Delete Not Scheduled: False                                                                        |
+[2022-11-05 19:24:43,672] [plex_meta_manager.py:235]  [DEBUG]    | Default Collection Order: release                                                                  |
+[2022-11-05 19:24:43,672] [plex_meta_manager.py:236]  [DEBUG]    | Missing Only Released: False                                                                       |
+[2022-11-05 19:24:43,672] [plex_meta_manager.py:237]  [DEBUG]    | Only Filter Missing: False                                                                         |
+[2022-11-05 19:24:43,673] [plex_meta_manager.py:238]  [DEBUG]    | Show Unmanaged: True                                                                               |
+[2022-11-05 19:24:43,673] [plex_meta_manager.py:239]  [DEBUG]    | Show Filtered: False                                                                               |
+[2022-11-05 19:24:43,673] [plex_meta_manager.py:240]  [DEBUG]    | Show Missing: True                                                                                 |
+[2022-11-05 19:24:43,673] [plex_meta_manager.py:241]  [DEBUG]    | Show Missing Assets: False                                                                         |
+[2022-11-05 19:24:43,673] [plex_meta_manager.py:242]  [DEBUG]    | Save Missing: True                                                                                 |
+[2022-11-05 19:24:43,674] [plex_meta_manager.py:243]  [DEBUG]    | Clean Bundles: False                                                                               |
+[2022-11-05 19:24:43,674] [plex_meta_manager.py:244]  [DEBUG]    | Empty Trash: False                                                                                 |
+[2022-11-05 19:24:43,674] [plex_meta_manager.py:245]  [DEBUG]    | Optimize: False                                                                                    |
+[2022-11-05 19:24:43,674] [plex_meta_manager.py:246]  [DEBUG]    | Timeout: 60                                                                                        |
+[2022-11-05 19:24:43,674] [plex_meta_manager.py:256]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,675] [util.py:216]               [INFO]     |====================================== Mapping Movies Library ======================================|
+[2022-11-05 19:24:43,675] [plex_meta_manager.py:258]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:43,675] [plex.py:456]               [INFO]     | Loading All Movies from Library: Movies                                                            |
+[2022-11-05 19:24:47,115] [plex.py:465]               [INFO]     | Loaded 1270 Movies                                                                                 |
+[2022-11-05 19:24:47,115] [library.py:248]            [INFO]     | Mapping Movie Library: Movies                                                                      |
+[2022-11-05 19:24:47,115] [library.py:249]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,170] [convert.py:332]            [INFO]     |  Cache  |  +  | plex://movie/5d7768246f4521001ea988b1          | TMDb ID: 115     | IMDb ID: tt0118715  | The Big Lebowski |
+[2022-11-05 19:24:47,286] [convert.py:332]            [INFO]     |  Cache  |  ^  | plex://movie/5d776c07ad5437001f7b161d          | TMDb ID: 375262  | IMDb ID: tt5083738  | The Favourite |
+[2022-11-05 19:24:47,425] [convert.py:332]            [INFO]     |  Cache  |  ^  | plex://movie/5f409164a4f07a00421a9d31          | TMDb ID: 961484  | IMDb ID: tt10242388 | Last Seen Alive |
+[2022-11-05 19:24:47,489] [convert.py:332]            [INFO]     |  Cache  |  ^  | plex://movie/5f5a5f771e48ee00405c69fd          | TMDb ID: 741011  | IMDb ID: tt10229982 | My First Summer |
+[2022-11-05 19:24:47,573] [convert.py:332]            [INFO]     |  Cache  |  +  | plex://movie/5d776869594b2b001e68b2b9          | TMDb ID: 36685   | IMDb ID: tt0073629  | The Rocky Horror Picture Show |
+[2022-11-05 19:24:47,714] [library.py:263]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,714] [library.py:264]            [INFO]     | Processed 1270 Movies                                                                              |
+[2022-11-05 19:24:47,728] [plex_meta_manager.py:261]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,728] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,728] [util.py:216]               [INFO]     |                                       Running Metadata File                                        |
+[2022-11-05 19:24:47,729] [util.py:216]               [INFO]     |                                          config/Movie.yml                                          |
+[2022-11-05 19:24:47,730] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,730] [plex_meta_manager.py:275]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,731] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,731] [util.py:216]               [INFO]     |                                            Collections                                             |
+[2022-11-05 19:24:47,731] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,732] [plex_meta_manager.py:708]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,734] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,734] [util.py:216]               [INFO]     |                                      300 Collection in Movies                                      |
+[2022-11-05 19:24:47,735] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:47,735] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,735] [util.py:216]               [INFO]     |==================================== Validating 300 Attributes =====================================|
+[2022-11-05 19:24:47,736] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,736] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:47,736] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 125570), ('summary 125570', None), ('poster', 'https://theposterdb.com/api/assets/5575')]) |
+[2022-11-05 19:24:47,737] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,737] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:47,737] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:47,738] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,738] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:47,738] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:47,738] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,738] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:47,739] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/5575                                                     |
+[2022-11-05 19:24:47,739] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,739] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:47,739] [builder.py:474]            [DEBUG]    | Value: 125570                                                                                      |
+[2022-11-05 19:24:47,857] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,858] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:47,858] [builder.py:474]            [DEBUG]    | Value: 00000f_300                                                                                  |
+[2022-11-05 19:24:47,858] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,858] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:47,859] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:47,996] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,996] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:47,997] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,997] [util.py:216]               [INFO]     |====================================== Running 300 Collection ======================================|
+[2022-11-05 19:24:47,997] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,998] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:47,998] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:47,998] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 125570                                                                   |
+[2022-11-05 19:24:47,999] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:47,999] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (125570) 300 Collection (2 Items)                                      |
+[2022-11-05 19:24:47,999] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,000] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(1271, 'tmdb'), (53182, 'tmdb')]                                                     |
+[2022-11-05 19:24:48,000] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,052] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,052] [util.py:216]               [INFO]     |===================================== Adding to 300 Collection =====================================|
+[2022-11-05 19:24:48,052] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,053] [builder.py:1709]           [INFO]     | 1/2 | 300 Collection | = | 300 (2007)                                                              |
+[2022-11-05 19:24:48,053] [builder.py:1709]           [INFO]     | 2/2 | 300 Collection | = | 300: Rise of an Empire (2014)                                           |
+[2022-11-05 19:24:48,053] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,054] [builder.py:1735]           [INFO]     | 2 Movies Processed                                                                                 |
+[2022-11-05 19:24:48,058] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,058] [util.py:216]               [INFO]     |================================ Updating Details of 300 Collection ================================|
+[2022-11-05 19:24:48,058] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,059] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:48,059] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/5575                                 |
+[2022-11-05 19:24:48,060] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:48,060] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:48,193] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,194] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:48,195] [util.py:216]               [INFO]     |                                      Finished 300 Collection                                       |
+[2022-11-05 19:24:48,195] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 19:24:48,196] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:48,198] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:48,198] [util.py:216]               [INFO]     |                                     Alien Collection in Movies                                     |
+[2022-11-05 19:24:48,199] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:48,199] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:48,200] [util.py:216]               [INFO]     |=================================== Validating Alien Attributes ====================================|
+[2022-11-05 19:24:48,200] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,200] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:48,201] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', '8091, 135416, 115762'), ('summary', 8091), ('poster', 'https://theposterdb.com/api/assets/43458')]) |
+[2022-11-05 19:24:48,201] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,201] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:48,201] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:48,202] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,202] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:48,202] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:48,203] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,203] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:48,203] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/43458                                                    |
+[2022-11-05 19:24:48,203] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,204] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:48,204] [builder.py:474]            [DEBUG]    | Value: 8091, 135416, 115762                                                                        |
+[2022-11-05 19:24:48,608] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,608] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:48,608] [builder.py:474]            [DEBUG]    | Value: 8091                                                                                        |
+[2022-11-05 19:24:48,608] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,609] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:48,609] [builder.py:474]            [DEBUG]    | Value: 00000f_Alien                                                                                |
+[2022-11-05 19:24:48,609] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:48,609] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:48,610] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:48,802] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,559] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:53,559] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,560] [util.py:216]               [INFO]     |===================================== Running Alien Collection =====================================|
+[2022-11-05 19:24:53,561] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,561] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:53,561] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,561] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 8091                                                                     |
+[2022-11-05 19:24:53,562] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,562] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (8091) Alien Collection (4 Items)                                      |
+[2022-11-05 19:24:53,562] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,563] [builder.py:1283]           [DEBUG]    | 4 IDs Found: [(348, 'tmdb'), (679, 'tmdb'), (8077, 'tmdb'), (8078, 'tmdb')]                        |
+[2022-11-05 19:24:53,563] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,633] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,633] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 135416                                                                   |
+[2022-11-05 19:24:53,634] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,634] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (135416) Prometheus Collection (2 Items)                               |
+[2022-11-05 19:24:53,634] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,635] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(70981, 'tmdb'), (126889, 'tmdb')]                                                   |
+[2022-11-05 19:24:53,635] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,670] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,670] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 115762                                                                   |
+[2022-11-05 19:24:53,671] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,671] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (115762) AVP Collection (2 Items)                                      |
+[2022-11-05 19:24:53,671] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,672] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(395, 'tmdb'), (440, 'tmdb')]                                                        |
+[2022-11-05 19:24:53,672] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,718] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,719] [util.py:216]               [INFO]     |==================================== Adding to Alien Collection ====================================|
+[2022-11-05 19:24:53,719] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,720] [builder.py:1709]           [INFO]     | 1/8 | Alien Collection | = | Alien (1979)                                                          |
+[2022-11-05 19:24:53,720] [builder.py:1709]           [INFO]     | 2/8 | Alien Collection | = | Aliens (1986)                                                         |
+[2022-11-05 19:24:53,720] [builder.py:1709]           [INFO]     | 3/8 | Alien Collection | = | Alien³ (1992)                                                         |
+[2022-11-05 19:24:53,721] [builder.py:1709]           [INFO]     | 4/8 | Alien Collection | = | Alien: Resurrection (1997)                                            |
+[2022-11-05 19:24:53,721] [builder.py:1709]           [INFO]     | 5/8 | Alien Collection | = | Prometheus (2012)                                                     |
+[2022-11-05 19:24:53,721] [builder.py:1709]           [INFO]     | 6/8 | Alien Collection | = | Alien: Covenant (2017)                                                |
+[2022-11-05 19:24:53,722] [builder.py:1709]           [INFO]     | 7/8 | Alien Collection | = | Alien vs. Predator (2004)                                             |
+[2022-11-05 19:24:53,722] [builder.py:1709]           [INFO]     | 8/8 | Alien Collection | = | Aliens vs. Predator: Requiem (2007)                                   |
+[2022-11-05 19:24:53,722] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,723] [builder.py:1735]           [INFO]     | 8 Movies Processed                                                                                 |
+[2022-11-05 19:24:53,727] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,727] [util.py:216]               [INFO]     |=============================== Updating Details of Alien Collection ===============================|
+[2022-11-05 19:24:53,728] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,728] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2022-11-05 19:24:53,729] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:53,729] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/43458                                |
+[2022-11-05 19:24:53,729] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:53,730] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:53,889] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,890] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:53,891] [util.py:216]               [INFO]     |                                     Finished Alien Collection                                      |
+[2022-11-05 19:24:53,891] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
+[2022-11-05 19:24:53,891] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:53,894] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:53,895] [util.py:216]               [INFO]     |                                 Austin Powers Collection in Movies                                 |
+[2022-11-05 19:24:53,895] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:53,895] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:53,896] [util.py:216]               [INFO]     |=============================== Validating Austin Powers Attributes ================================|
+[2022-11-05 19:24:53,896] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,896] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:53,897] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 1006), ('summary', 1006), ('poster', 'https://theposterdb.com/api/assets/35262')]) |
+[2022-11-05 19:24:53,897] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,897] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:53,898] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:53,898] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,898] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:53,898] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:53,899] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,899] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:53,899] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/35262                                                    |
+[2022-11-05 19:24:53,899] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:53,899] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:53,900] [builder.py:474]            [DEBUG]    | Value: 1006                                                                                        |
+[2022-11-05 19:24:54,003] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,004] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:54,004] [builder.py:474]            [DEBUG]    | Value: 1006                                                                                        |
+[2022-11-05 19:24:54,004] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,005] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:54,005] [builder.py:474]            [DEBUG]    | Value: 00000f_Austin Powers                                                                        |
+[2022-11-05 19:24:54,005] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,005] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:54,006] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:54,144] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,145] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:54,146] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,146] [util.py:216]               [INFO]     |================================= Running Austin Powers Collection =================================|
+[2022-11-05 19:24:54,147] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,147] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:54,148] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,148] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 1006                                                                     |
+[2022-11-05 19:24:54,148] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,149] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (1006) Austin Powers Collection (3 Items)                              |
+[2022-11-05 19:24:54,149] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,149] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(816, 'tmdb'), (817, 'tmdb'), (818, 'tmdb')]                                         |
+[2022-11-05 19:24:54,150] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,228] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,228] [util.py:216]               [INFO]     |================================ Adding to Austin Powers Collection ================================|
+[2022-11-05 19:24:54,228] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,229] [builder.py:1709]           [INFO]     | 1/3 | Austin Powers Collection | = | Austin Powers: International Man of Mystery (1997)            |
+[2022-11-05 19:24:54,229] [builder.py:1709]           [INFO]     | 2/3 | Austin Powers Collection | = | Austin Powers: The Spy Who Shagged Me (1999)                  |
+[2022-11-05 19:24:54,229] [builder.py:1709]           [INFO]     | 3/3 | Austin Powers Collection | = | Austin Powers in Goldmember (2002)                            |
+[2022-11-05 19:24:54,230] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,230] [builder.py:1735]           [INFO]     | 3 Movies Processed                                                                                 |
+[2022-11-05 19:24:54,235] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,235] [util.py:216]               [INFO]     |=========================== Updating Details of Austin Powers Collection ===========================|
+[2022-11-05 19:24:54,236] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,236] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2022-11-05 19:24:54,237] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:54,237] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/35262                                |
+[2022-11-05 19:24:54,237] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:54,238] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:54,375] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,375] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,376] [util.py:216]               [INFO]     |                                 Finished Austin Powers Collection                                  |
+[2022-11-05 19:24:54,376] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 19:24:54,377] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,379] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,379] [util.py:216]               [INFO]     |                              Back to the Future Collection in Movies                               |
+[2022-11-05 19:24:54,380] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,380] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,381] [util.py:216]               [INFO]     |============================= Validating Back to the Future Attributes =============================|
+[2022-11-05 19:24:54,381] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,381] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:54,382] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 264), ('summary', 264), ('poster', 'https://theposterdb.com/api/assets/108170')]) |
+[2022-11-05 19:24:54,382] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,382] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:54,383] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:54,383] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,383] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:54,384] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:54,384] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,384] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:54,385] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/108170                                                   |
+[2022-11-05 19:24:54,385] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,385] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:54,385] [builder.py:474]            [DEBUG]    | Value: 264                                                                                         |
+[2022-11-05 19:24:54,485] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,485] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:54,485] [builder.py:474]            [DEBUG]    | Value: 264                                                                                         |
+[2022-11-05 19:24:54,486] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,486] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:54,486] [builder.py:474]            [DEBUG]    | Value: 00000f_Back to the Future                                                                   |
+[2022-11-05 19:24:54,487] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,487] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:54,487] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:54,633] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,634] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:54,635] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,635] [util.py:216]               [INFO]     |============================== Running Back to the Future Collection ===============================|
+[2022-11-05 19:24:54,636] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,636] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:54,636] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,637] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 264                                                                      |
+[2022-11-05 19:24:54,637] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,637] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (264) Back to the Future Collection (3 Items)                          |
+[2022-11-05 19:24:54,638] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,638] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(105, 'tmdb'), (165, 'tmdb'), (196, 'tmdb')]                                         |
+[2022-11-05 19:24:54,638] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,698] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,699] [util.py:216]               [INFO]     |============================= Adding to Back to the Future Collection ==============================|
+[2022-11-05 19:24:54,699] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,700] [builder.py:1709]           [INFO]     | 1/3 | Back to the Future Collection | = | Back to the Future (1985)                                |
+[2022-11-05 19:24:54,700] [builder.py:1709]           [INFO]     | 2/3 | Back to the Future Collection | = | Back to the Future Part II (1989)                        |
+[2022-11-05 19:24:54,700] [builder.py:1709]           [INFO]     | 3/3 | Back to the Future Collection | = | Back to the Future Part III (1990)                       |
+[2022-11-05 19:24:54,701] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,701] [builder.py:1735]           [INFO]     | 3 Movies Processed                                                                                 |
+[2022-11-05 19:24:54,705] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,706] [util.py:216]               [INFO]     |======================== Updating Details of Back to the Future Collection =========================|
+[2022-11-05 19:24:54,706] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,706] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2022-11-05 19:24:54,707] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:54,707] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/108170                               |
+[2022-11-05 19:24:54,708] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:54,709] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:54,850] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,850] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,851] [util.py:216]               [INFO]     |                               Finished Back to the Future Collection                               |
+[2022-11-05 19:24:54,851] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 19:24:54,852] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,854] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,854] [util.py:216]               [INFO]     |                                    Batman Collection in Movies                                     |
+[2022-11-05 19:24:54,855] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:54,855] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:54,856] [util.py:216]               [INFO]     |=================================== Validating Batman Attributes ===================================|
+[2022-11-05 19:24:54,856] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,856] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:54,857] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 120794), (263, None), ('summary', 120794), ('poster', 'https://theposterdb.com/api/assets/27394')]) |
+[2022-11-05 19:24:54,857] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,857] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:54,858] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:54,858] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,858] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:54,858] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:54,859] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,859] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:54,859] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/27394                                                    |
+[2022-11-05 19:24:54,860] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:54,860] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:54,860] [builder.py:474]            [DEBUG]    | Value: 120794                                                                                      |
+[2022-11-05 19:24:55,019] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,019] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:55,019] [builder.py:474]            [DEBUG]    | Value: 120794                                                                                      |
+[2022-11-05 19:24:55,019] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,020] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:55,020] [builder.py:474]            [DEBUG]    | Value: 00000f_Batman                                                                               |
+[2022-11-05 19:24:55,020] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,020] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:55,021] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:55,160] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,161] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:55,162] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,162] [util.py:216]               [INFO]     |==================================== Running Batman Collection =====================================|
+[2022-11-05 19:24:55,163] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,163] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:55,163] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,163] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 120794                                                                   |
+[2022-11-05 19:24:55,164] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,164] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (120794) Batman Collection (4 Items)                                   |
+[2022-11-05 19:24:55,165] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,165] [builder.py:1283]           [DEBUG]    | 4 IDs Found: [(268, 'tmdb'), (364, 'tmdb'), (414, 'tmdb'), (415, 'tmdb')]                          |
+[2022-11-05 19:24:55,165] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,250] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,251] [util.py:216]               [INFO]     |=================================== Adding to Batman Collection ====================================|
+[2022-11-05 19:24:55,251] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,252] [builder.py:1709]           [INFO]     | 1/4 | Batman Collection | = | Batman (1989)                                                        |
+[2022-11-05 19:24:55,252] [builder.py:1709]           [INFO]     | 2/4 | Batman Collection | = | Batman Returns (1992)                                                |
+[2022-11-05 19:24:55,252] [builder.py:1709]           [INFO]     | 3/4 | Batman Collection | = | Batman Forever (1995)                                                |
+[2022-11-05 19:24:55,253] [builder.py:1709]           [INFO]     | 4/4 | Batman Collection | = | Batman & Robin (1997)                                                |
+[2022-11-05 19:24:55,253] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,253] [builder.py:1735]           [INFO]     | 4 Movies Processed                                                                                 |
+[2022-11-05 19:24:55,257] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,257] [util.py:216]               [INFO]     |============================== Updating Details of Batman Collection ===============================|
+[2022-11-05 19:24:55,258] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,258] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2022-11-05 19:24:55,259] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:55,259] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/27394                                |
+[2022-11-05 19:24:55,259] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:55,260] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:55,399] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,400] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:55,400] [util.py:216]               [INFO]     |                                     Finished Batman Collection                                     |
+[2022-11-05 19:24:55,401] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 19:24:55,401] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:55,404] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:55,404] [util.py:216]               [INFO]     |                                 Blade Runner Collection in Movies                                  |
+[2022-11-05 19:24:55,404] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:55,405] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,406] [util.py:216]               [INFO]     |================================ Validating Blade Runner Attributes ================================|
+[2022-11-05 19:24:55,406] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,406] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:55,407] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 422837), ('summary', None), (422837, None), ('poster', 'https://theposterdb.com/api/assets/6081')]) |
+[2022-11-05 19:24:55,407] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,407] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:55,408] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:55,408] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,408] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:55,408] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:55,409] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,409] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:55,409] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/6081                                                     |
+[2022-11-05 19:24:55,409] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,410] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:55,410] [builder.py:474]            [DEBUG]    | Value: 422837                                                                                      |
+[2022-11-05 19:24:55,562] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,563] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:55,563] [builder.py:474]            [DEBUG]    | Value: 00000f_Blade Runner                                                                         |
+[2022-11-05 19:24:55,563] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,564] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:55,564] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:55,708] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,709] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:24:55,710] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,710] [util.py:216]               [INFO]     |================================= Running Blade Runner Collection ==================================|
+[2022-11-05 19:24:55,711] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,711] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:24:55,711] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,712] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 422837                                                                   |
+[2022-11-05 19:24:55,712] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,712] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (422837) Blade Runner Collection (2 Items)                             |
+[2022-11-05 19:24:55,713] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,713] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(78, 'tmdb'), (335984, 'tmdb')]                                                      |
+[2022-11-05 19:24:55,713] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:55,768] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,768] [util.py:216]               [INFO]     |================================ Adding to Blade Runner Collection =================================|
+[2022-11-05 19:24:55,769] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,769] [builder.py:1709]           [INFO]     | 1/2 | Blade Runner Collection | = | Blade Runner (1982)                                            |
+[2022-11-05 19:24:55,769] [builder.py:1709]           [INFO]     | 2/2 | Blade Runner Collection | = | Blade Runner 2049 (2017)                                       |
+[2022-11-05 19:24:55,770] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,770] [builder.py:1735]           [INFO]     | 2 Movies Processed                                                                                 |
+[2022-11-05 19:24:55,774] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,775] [util.py:216]               [INFO]     |=========================== Updating Details of Blade Runner Collection ============================|
+[2022-11-05 19:24:55,775] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-05 19:24:55,776] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-05 19:24:55,776] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/6081                                 |
+[2022-11-05 19:24:55,776] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-05 19:24:55,777] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-05 19:24:55,912] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:56,198] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,199] [util.py:216]               [INFO]     |                                  Finished Blade Runner Collection                                  |
+[2022-11-05 19:24:56,200] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-05 19:24:56,200] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,203] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,204] [util.py:216]               [INFO]     |                                    Bourne Collection in Movies                                     |
+[2022-11-05 19:24:56,204] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,205] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:24:56,206] [util.py:216]               [INFO]     |=================================== Validating Bourne Attributes ===================================|
+[2022-11-05 19:24:56,206] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,207] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:24:56,207] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 31562), ('summary', 31562), ('poster', 'https://theposterdb.com/api/assets/19519')]) |
+[2022-11-05 19:24:56,207] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,207] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:24:56,208] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:24:56,208] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,208] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:24:56,208] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-05 19:24:56,209] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,209] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:24:56,209] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/19519                                                    |
+[2022-11-05 19:24:56,209] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,209] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-05 19:24:56,210] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
+[2022-11-05 19:24:56,355] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,356] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-05 19:24:56,356] [builder.py:474]            [DEBUG]    | Value: 31562                                                                                       |
+[2022-11-05 19:24:56,357] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,357] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:24:56,357] [builder.py:474]            [DEBUG]    | Value: 00000f_Bourne                                                                               |
+[2022-11-05 19:24:56,357] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:24:56,358] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-05 19:24:56,358] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:24:56,498] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:24:56,498] [util.py:216]               [INFO]     |                                     Exiting Plex Meta Manager                                      |
+[2022-11-05 19:24:56,499] [util.py:220]               [INFO]     |====================================================================================================|
