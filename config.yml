@@ -8,29 +8,29 @@ libraries:                                      # Library mappings must have a c
       - file: config/Holiday.yml
       - file: config/Metadata.yml
       - file: config/Overlays.yml
-  # Anime:
-  #   sonarr:
-  #     url: http://localhost:7875/
-  #     token: anime
-  #     add_missing: false
-  #     add_existing: true
-  #     root_folder_path: F:\Anime
-  #     monitor: all
-  #     quality_profile: Anime
-  #     language_profile: English
-  #     series_type: anime
-  #     season_folder: true
-  #     tag:
-  #     search: false
-  #     cutoff_search: false
-  #     sonarr_path:
-  #     plex_path:
-  #   metadata_path:
-  #     - file: config/Anime.yml
-  # TV Shows:
-  #   metadata_path:
-  #     - file: config/TV_Shows.yml
-  #     - file: config/Overlays.yml
+  Anime:
+    sonarr:
+      url: http://localhost:7875/
+      token: anime
+      add_missing: false
+      add_existing: true
+      root_folder_path: F:\Anime
+      monitor: all
+      quality_profile: Anime
+      language_profile: English
+      series_type: anime
+      season_folder: true
+      tag:
+      search: false
+      cutoff_search: false
+      sonarr_path:
+      plex_path:
+    metadata_path:
+      - file: config/Anime.yml
+  TV Shows:
+    metadata_path:
+      - file: config/TV_Shows.yml
+      - file: config/Overlays.yml
 settings:                                       # Can be individually specified per library as well
   cache: true
   cache_expiration: 60

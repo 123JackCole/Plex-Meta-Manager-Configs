@@ -1,36 +1,79 @@
-[2022-11-06 01:00:24,192] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:00:24,192] [util.py:216]               [INFO]     |                                  Cloverfield Collection in Movies                                  |
-[2022-11-06 01:00:24,193] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 01:00:24,193] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 01:00:24,194] [util.py:216]               [INFO]     |================================ Validating Cloverfield Attributes =================================|
-[2022-11-06 01:00:24,194] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:00:24,194] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 01:00:24,195] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie')])                                                            |
-[2022-11-06 01:00:24,195] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:00:24,195] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 01:00:24,196] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 01:00:24,196] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:00:24,196] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 01:00:24,196] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-11-06 01:00:24,197] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:00:24,197] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2022-11-06 01:00:24,197] [builder.py:474]            [DEBUG]    | Value: https://www.imdb.com/list/ls021933730/                                                      |
-[2022-11-06 01:00:24,312] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-06 01:00:24,312] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
-[2022-11-06 01:00:24,312] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 539, in __init__                 |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |     self._imdb(method_name, method_data)                                                           |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 998, in _imdb                    |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |     for imdb_dict in self.config.IMDb.validate_imdb_lists(method_data, self.language):             |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\imdb.py", line 49, in validate_imdb_lists          |
-[2022-11-06 01:00:24,313] [util.py:162]               [DEBUG]    |     self._total(imdb_url, language)                                                                |
-[2022-11-06 01:00:24,314] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\imdb.py", line 89, in _total                       |
-[2022-11-06 01:00:24,314] [util.py:162]               [DEBUG]    |     raise Failed(f"IMDb Error: Failed to parse URL: {imdb_url}")                                   |
-[2022-11-06 01:00:24,314] [util.py:162]               [DEBUG]    | modules.util.Failed: IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/       |
-[2022-11-06 01:00:24,314] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-06 01:00:24,314] [util.py:159]               [ERROR]    | IMDb Error: Failed to parse URL: https://www.imdb.com/list/ls021933730/                            |
-[2022-11-06 01:00:24,315] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 01:00:24,316] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:00:24,316] [util.py:216]               [INFO]     |                                  Finished Cloverfield Collection                                   |
-[2022-11-06 01:00:24,316] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-06 01:00:24,316] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 23:20:27,432] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 23:20:27,432] [util.py:216]               [INFO]     |                                  Cloverfield Collection in Movies                                  |
+[2022-11-06 23:20:27,432] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 23:20:27,433] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 23:20:27,433] [util.py:216]               [INFO]     |================================ Validating Cloverfield Attributes =================================|
+[2022-11-06 23:20:27,433] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:27,434] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 23:20:27,434] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie')])                                                            |
+[2022-11-06 23:20:27,434] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:27,434] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 23:20:27,435] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 23:20:27,435] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:27,435] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 23:20:27,435] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-06 23:20:27,435] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:27,436] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2022-11-06 23:20:27,436] [builder.py:474]            [DEBUG]    | Value: https://www.imdb.com/list/ls023762626/                                                      |
+[2022-11-06 23:20:28,326] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:28,326] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 23:20:28,327] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/80058                                                    |
+[2022-11-06 23:20:28,327] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:28,327] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-06 23:20:28,328] [builder.py:474]            [DEBUG]    | Value: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space. |
+[2022-11-06 23:20:28,328] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:28,328] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 23:20:28,328] [builder.py:474]            [DEBUG]    | Value: 00000f_Cloverfield                                                                          |
+[2022-11-06 23:20:28,328] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:28,329] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-06 23:20:28,329] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 23:20:28,471] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 23:20:28,471] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 23:20:28,472] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 23:20:28,472] [util.py:216]               [INFO]     |================================== Running Cloverfield Collection ==================================|
+[2022-11-06 23:20:28,473] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 23:20:28,473] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 23:20:28,474] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:28,474] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls023762626/', 'limit': 0}                  |
+[2022-11-06 23:20:28,474] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:28,475] [imdb.py:158]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls023762626/                                       |
+[2022-11-06 23:20:31,830] [imdb.py:127]               [DEBUG]    | 4 IMDb IDs Found: ['tt1060277', 'tt1179933', 'tt2548396', 'tt4530422']                             |
+[2022-11-06 23:20:31,831] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:31,831] [builder.py:1283]           [DEBUG]    | 4 IDs Found: [('tt1060277', 'imdb'), ('tt1179933', 'imdb'), ('tt2548396', 'imdb'), ('tt4530422', 'imdb')] |
+[2022-11-06 23:20:31,831] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:31,849] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:31,850] [util.py:216]               [INFO]     |================================= Adding to Cloverfield Collection =================================|
+[2022-11-06 23:20:31,850] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:31,850] [builder.py:1709]           [INFO]     | 1/1 | Cloverfield Collection | = | 10 Cloverfield Lane (2016)                                      |
+[2022-11-06 23:20:31,851] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:31,851] [builder.py:1735]           [INFO]     | 1 Movie Processed                                                                                  |
+[2022-11-06 23:20:31,851] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:31,851] [util.py:216]               [INFO]     |============================= Missing Movies from Library: Cloverfield =============================|
+[2022-11-06 23:20:31,852] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:32,286] [builder.py:1943]           [INFO]     | Cloverfield Collection | ? | Cloverfield (2008) (TMDb: 7191)                                       |
+[2022-11-06 23:20:32,726] [builder.py:1943]           [INFO]     | Cloverfield Collection | ? | The Cloverfield Paradox (2018) (TMDb: 384521)                         |
+[2022-11-06 23:20:32,881] [builder.py:1943]           [INFO]     | Cloverfield Collection | ? | Overlord (2018) (TMDb: 438799)                                        |
+[2022-11-06 23:20:32,882] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:32,882] [builder.py:1948]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-11-06 23:20:32,887] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2022-11-06 23:20:32,888] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2022-11-06 23:20:32,888] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2022-11-06 23:20:32,888] [radarr.py:49]              [DEBUG]    | Radarr Adds: [7191, 384521, 438799]                                                                |
+[2022-11-06 23:20:33,698] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2022-11-06 23:20:33,698] [radarr.py:146]             [INFO]     | Skipped: In Cache | 7191                                                                           |
+[2022-11-06 23:20:33,699] [radarr.py:146]             [INFO]     | Skipped: In Cache | 384521                                                                         |
+[2022-11-06 23:20:33,699] [radarr.py:146]             [INFO]     | Skipped: In Cache | 438799                                                                         |
+[2022-11-06 23:20:33,699] [radarr.py:147]             [INFO]     | 3 Movies already exist in Radarr                                                                   |
+[2022-11-06 23:20:33,715] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:33,715] [util.py:216]               [INFO]     |============================ Updating Details of Cloverfield Collection ============================|
+[2022-11-06 23:20:33,716] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-06 23:20:33,716] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-06 23:20:33,717] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-06 23:20:33,717] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/80058                                |
+[2022-11-06 23:20:33,717] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-06 23:20:33,718] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-06 23:20:33,852] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 23:20:33,852] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 23:20:33,853] [util.py:216]               [INFO]     |                                  Finished Cloverfield Collection                                   |
+[2022-11-06 23:20:33,853] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-06 23:20:33,853] [util.py:220]               [INFO]     |====================================================================================================|
