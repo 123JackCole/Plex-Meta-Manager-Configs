@@ -1,260 +1,260 @@
-[2022-11-06 01:09:25,465] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:09:25,465] [util.py:216]               [INFO]     |                               Turkey Day Movies Collection in Movies                               |
-[2022-11-06 01:09:25,466] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 01:09:25,466] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 01:09:25,466] [util.py:216]               [INFO]     |============================= Validating Turkey Day Movies Attributes ==============================|
-[2022-11-06 01:09:25,467] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,467] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 01:09:25,467] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Holiday'), ('poster', './config/posters/paintings/thanksgiving.jpg')]) |
-[2022-11-06 01:09:25,467] [builder.py:273]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,467] [builder.py:274]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
-[2022-11-06 01:09:25,468] [builder.py:275]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:25,468] [builder.py:279]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,468] [builder.py:280]            [DEBUG]    | Validating Method: schedule                                                                        |
-[2022-11-06 01:09:25,468] [builder.py:284]            [DEBUG]    | Value: range(11/02-11/30)                                                                          |
-[2022-11-06 01:09:25,469] [builder.py:316]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,469] [builder.py:317]            [DEBUG]    | Validating Method: run_again                                                                       |
-[2022-11-06 01:09:25,469] [builder.py:318]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:25,469] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,470] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 01:09:25,470] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-11-06 01:09:25,470] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:25,471] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2022-11-06 01:09:25,471] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/galacticboy/lists/thanksgiving-movies', 'https://trakt.tv/users/galacticboy/lists/tday-sync'] |
-[2022-11-06 01:09:26,235] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,235] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-06 01:09:26,235] [builder.py:474]            [DEBUG]    | Value: A mix of movies revolving around Thanksgiving or families in general.                       |
-[2022-11-06 01:09:26,236] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,236] [builder.py:473]            [DEBUG]    | Validating Method: file_poster                                                                     |
-[2022-11-06 01:09:26,236] [builder.py:474]            [DEBUG]    | Value: ./config/posters/paintings/thanksgiving.jpg                                                 |
-[2022-11-06 01:09:26,236] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,237] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 01:09:26,237] [builder.py:474]            [DEBUG]    | Value: 00000a_Turkey Day Movies                                                                    |
-[2022-11-06 01:09:26,237] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,237] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2022-11-06 01:09:26,237] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:26,238] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,238] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2022-11-06 01:09:26,238] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:26,238] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,239] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2022-11-06 01:09:26,239] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:26,239] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,239] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_existing                                                             |
-[2022-11-06 01:09:26,239] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:26,240] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,240] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-06 01:09:26,240] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:09:26,384] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 01:09:26,384] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 01:09:26,385] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 01:09:26,385] [util.py:216]               [INFO]     |=============================== Running Turkey Day Movies Collection ===============================|
-[2022-11-06 01:09:26,385] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 01:09:26,386] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-06 01:09:26,386] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,386] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/galacticboy/lists/thanksgiving-movies                  |
-[2022-11-06 01:09:26,386] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:26,387] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/galacticboy/lists/thanksgiving-movies                |
-[2022-11-06 01:09:26,737] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,737] [builder.py:1283]           [DEBUG]    | 63 IDs Found: [(13479, 'tmdb'), (9489, 'tmdb'), (5638, 'tmdb'), (546554, 'tmdb'), (526034, 'tmdb'), (29461, 'tmdb'), (98502, 'tmdb'), (2758, 'tmdb'), (22881, 'tmdb'), (14799, 'tmdb'), (49806, 'tmdb'), (44840, 'tmdb'), (2302, 'tmdb'), (7211, 'tmdb'), (13203, 'tmdb'), (323929, 'tmdb'), (309245, 'tmdb'), (17127, 'tmdb'), (357684, 'tmdb'), (53113, 'tmdb'), (146233, 'tmdb'), (32868, 'tmdb'), (213, 'tmdb'), (33344, 'tmdb'), (12560, 'tmdb'), (5143, 'tmdb'), (18203, 'tmdb'), (1921, 'tmdb'), (348150, 'tmdb'), (643866, 'tmdb'), (18038, 'tmdb'), (175574, 'tmdb'), (520596, 'tmdb'), (59232, 'tmdb'), (9089, 'tmdb'), (20829, 'tmdb'), (293880, 'tmdb'), (39141, 'tmdb'), (1550, 'tmdb'), (25330, 'tmdb'), (2609, 'tmdb'), (59108, 'tmdb'), (331482, 'tmdb'), (19931, 'tmdb'), (10637, 'tmdb'), (175541, 'tmdb'), (9441, 'tmdb'), (565310, 'tmdb'), (11806, 'tmdb'), (11520, 'tmdb'), (68924, 'tmdb'), (9043, 'tmdb'), (27995, 'tmdb'), (2059, 'tmdb'), (14534, 'tmdb'), (10830, 'tmdb'), (10315, 'tmdb'), (14560, 'tmdb'), (57242, 'tmdb'), (71880, 'tmdb'), (22819, 'tmdb'), (429577, 'tmdb'), (701173, 'tmdb')] |
-[2022-11-06 01:09:26,738] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,859] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:26,860] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/galacticboy/lists/tday-sync                            |
-[2022-11-06 01:09:26,860] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:26,860] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/galacticboy/lists/tday-sync                          |
-[2022-11-06 01:09:27,191] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:27,191] [builder.py:1283]           [DEBUG]    | 25 IDs Found: [(5143, 'tmdb'), (2609, 'tmdb'), (9475, 'tmdb'), (68924, 'tmdb'), (323929, 'tmdb'), (209263, 'tmdb'), (1550, 'tmdb'), (2758, 'tmdb'), (111969, 'tmdb'), (54663, 'tmdb'), (33344, 'tmdb'), (59108, 'tmdb'), (65158, 'tmdb'), (520596, 'tmdb'), (25330, 'tmdb'), (293767, 'tmdb'), (50203, 'tmdb'), (526034, 'tmdb'), (13203, 'tmdb'), (175574, 'tmdb'), (98502, 'tmdb'), (532893, 'tmdb'), (639421, 'tmdb'), (93897, 'tmdb'), (51059, 'tmdb')] |
-[2022-11-06 01:09:27,191] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:27,192] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:27,192] [util.py:216]               [INFO]     |============================== Adding to Turkey Day Movies Collection ==============================|
-[2022-11-06 01:09:27,193] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:27,193] [builder.py:1709]           [INFO]     | 1/7 | Turkey Day Movies Collection | = | A Charlie Brown Thanksgiving (1973)                       |
-[2022-11-06 01:09:27,193] [builder.py:1709]           [INFO]     | 2/7 | Turkey Day Movies Collection | = | Knives Out (2019)                                         |
-[2022-11-06 01:09:27,194] [builder.py:1709]           [INFO]     | 3/7 | Turkey Day Movies Collection | = | North by Northwest (1959)                                 |
-[2022-11-06 01:09:27,194] [builder.py:1709]           [INFO]     | 4/7 | Turkey Day Movies Collection | = | Little Women (2019)                                       |
-[2022-11-06 01:09:27,194] [builder.py:1709]           [INFO]     | 5/7 | Turkey Day Movies Collection | = | The Farewell (2019)                                       |
-[2022-11-06 01:09:27,194] [builder.py:1709]           [INFO]     | 6/7 | Turkey Day Movies Collection | = | National Treasure (2004)                                  |
-[2022-11-06 01:09:27,195] [builder.py:1709]           [INFO]     | 7/7 | Turkey Day Movies Collection | = | Fantastic Mr. Fox (2009)                                  |
-[2022-11-06 01:09:27,195] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:27,195] [builder.py:1735]           [INFO]     | 7 Movies Processed                                                                                 |
-[2022-11-06 01:09:27,195] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:27,196] [util.py:216]               [INFO]     |========================== Missing Movies from Library: Turkey Day Movies ==========================|
-[2022-11-06 01:09:27,196] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:27,233] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | You've Got Mail (1998) (TMDb: 9489)                             |
-[2022-11-06 01:09:27,320] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Alice's Restaurant (1969) (TMDb: 5638)                          |
-[2022-11-06 01:09:27,352] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Lez Bomb (2018) (TMDb: 526034)                                  |
-[2022-11-06 01:09:27,378] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Soul Food (1997) (TMDb: 29461)                                  |
-[2022-11-06 01:09:27,410] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Myth of Fingerprints (1997) (TMDb: 98502)                   |
-[2022-11-06 01:09:27,443] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Addams Family Values (1993) (TMDb: 2758)                        |
-[2022-11-06 01:09:27,445] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Blind Side (2009) (TMDb: 22881)                             |
-[2022-11-06 01:09:27,470] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | For Your Consideration (2006) (TMDb: 14799)                     |
-[2022-11-06 01:09:27,495] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Daytrippers (1997) (TMDb: 49806)                            |
-[2022-11-06 01:09:27,527] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Garfield's Thanksgiving (1989) (TMDb: 44840)                    |
-[2022-11-06 01:09:27,527] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Avalon (1990) (TMDb: 2302)                                      |
-[2022-11-06 01:09:27,553] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Dan in Real Life (2007) (TMDb: 7211)                            |
-[2022-11-06 01:09:27,588] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Son in Law (1993) (TMDb: 13203)                                 |
-[2022-11-06 01:09:27,614] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Krisha (2016) (TMDb: 323929)                                    |
-[2022-11-06 01:09:27,640] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Mistress America (2015) (TMDb: 309245)                          |
-[2022-11-06 01:09:27,673] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Object of My Affection (1998) (TMDb: 17127)                 |
-[2022-11-06 01:09:27,710] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Winnie the Pooh Thanksgiving (1998) (TMDb: 357684)            |
-[2022-11-06 01:09:27,737] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | One True Thing (1998) (TMDb: 53113)                             |
-[2022-11-06 01:09:27,767] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Prisoners (2013) (TMDb: 146233)                                 |
-[2022-11-06 01:09:27,803] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Vicious Kind (2009) (TMDb: 32868)                           |
-[2022-11-06 01:09:27,831] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The House of Yes (1997) (TMDb: 33344)                           |
-[2022-11-06 01:09:27,833] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Big Chill (1983) (TMDb: 12560)                              |
-[2022-11-06 01:09:27,834] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Hannah and Her Sisters (1986) (TMDb: 5143)                      |
-[2022-11-06 01:09:27,862] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Big Night (1996) (TMDb: 18203)                                  |
-[2022-11-06 01:09:27,888] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Sweet November (2001) (TMDb: 1921)                              |
-[2022-11-06 01:09:27,917] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Jim Henson's Turkey Hollow (2015) (TMDb: 348150)                |
-[2022-11-06 01:09:27,942] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Pilgrim (2019) (TMDb: 643866)                                   |
-[2022-11-06 01:09:27,968] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Holiday Reunion (2003) (TMDb: 18038)                            |
-[2022-11-06 01:09:27,994] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Free Birds (2013) (TMDb: 175574)                                |
-[2022-11-06 01:09:28,018] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Oath (2018) (TMDb: 520596)                                  |
-[2022-11-06 01:09:28,042] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The War at Home (1996) (TMDb: 59232)                            |
-[2022-11-06 01:09:28,069] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Home for the Holidays (1995) (TMDb: 9089)                       |
-[2022-11-06 01:09:28,097] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Funny People (2009) (TMDb: 20829)                               |
-[2022-11-06 01:09:28,126] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Hollidaysburg (2014) (TMDb: 293880)                             |
-[2022-11-06 01:09:28,151] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Tadpole (2002) (TMDb: 39141)                                    |
-[2022-11-06 01:09:28,178] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Pieces of April (2003) (TMDb: 1550)                             |
-[2022-11-06 01:09:28,241] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Dutch (1991) (TMDb: 25330)                                      |
-[2022-11-06 01:09:28,293] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Planes, Trains and Automobiles (1987) (TMDb: 2609)              |
-[2022-11-06 01:09:28,320] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Tower Heist (2011) (TMDb: 59108)                                |
-[2022-11-06 01:09:28,354] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Joy Luck Club (1993) (TMDb: 19931)                          |
-[2022-11-06 01:09:28,357] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Remember the Titans (2000) (TMDb: 10637)                        |
-[2022-11-06 01:09:28,390] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Black Nativity (2013) (TMDb: 175541)                            |
-[2022-11-06 01:09:28,424] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Stepmom (1998) (TMDb: 9441)                                     |
-[2022-11-06 01:09:28,457] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Beethoven (1992) (TMDb: 11806)                                  |
-[2022-11-06 01:09:28,496] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Grumpy Old Men (1993) (TMDb: 11520)                             |
-[2022-11-06 01:09:28,522] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Ice Storm (1997) (TMDb: 68924)                              |
-[2022-11-06 01:09:28,554] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Family Stone (2005) (TMDb: 9043)                            |
-[2022-11-06 01:09:28,588] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | She's Gotta Have It (1986) (TMDb: 27995)                        |
-[2022-11-06 01:09:28,618] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Rudy (1993) (TMDb: 14534)                                       |
-[2022-11-06 01:09:28,620] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Matilda (1996) (TMDb: 10830)                                    |
-[2022-11-06 01:09:28,654] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Paul Blart: Mall Cop (2009) (TMDb: 14560)                       |
-[2022-11-06 01:09:28,687] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Alvin and the Chipmunks - Alvin's Thanksgiving Celebration (2008) (TMDb: 57242) |
-[2022-11-06 01:09:28,716] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Jack and Jill (2011) (TMDb: 71880)                              |
-[2022-11-06 01:09:28,748] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | American Son (2008) (TMDb: 22819)                               |
-[2022-11-06 01:09:28,773] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Mayflower Voyagers (1988) (TMDb: 429577)                    |
-[2022-11-06 01:09:28,800] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Looney Tunes Thanksgiving (2014) (TMDb: 701173)               |
-[2022-11-06 01:09:28,801] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Scent of a Woman (1992) (TMDb: 9475)                            |
-[2022-11-06 01:09:28,835] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Enough Said (2013) (TMDb: 209263)                               |
-[2022-11-06 01:09:28,867] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Stuck in Love (2013) (TMDb: 111969)                             |
-[2022-11-06 01:09:28,897] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Starting Over (1979) (TMDb: 54663)                              |
-[2022-11-06 01:09:28,925] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Squanto: A Warrior's Tale (1994) (TMDb: 65158)                  |
-[2022-11-06 01:09:28,955] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Billy Lynn's Long Halftime Walk (2016) (TMDb: 293767)           |
-[2022-11-06 01:09:28,983] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Sweet Hearts Dance (1988) (TMDb: 50203)                         |
-[2022-11-06 01:09:29,008] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Turkey Bowl (2019) (TMDb: 532893)                           |
-[2022-11-06 01:09:29,034] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Turkey Drop (2019) (TMDb: 639421)                               |
-[2022-11-06 01:09:29,061] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Very Gaga Thanksgiving (2011) (TMDb: 93897)                   |
-[2022-11-06 01:09:29,086] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Palo Alto, CA (2007) (TMDb: 51059)                              |
-[2022-11-06 01:09:29,086] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:29,086] [builder.py:1948]           [INFO]     | 67 Movies Missing                                                                                  |
-[2022-11-06 01:09:29,311] [radarr.py:46]              [INFO]     |                                                                                                    |
-[2022-11-06 01:09:29,312] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
-[2022-11-06 01:09:29,312] [radarr.py:48]              [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:29,312] [radarr.py:49]              [DEBUG]    | Radarr Adds: [9489, 5638, 526034, 29461, 98502, 2758, 22881, 14799, 49806, 44840, 2302, 7211, 13203, 323929, 309245, 17127, 357684, 53113, 146233, 32868, 33344, 12560, 5143, 18203, 1921, 348150, 643866, 18038, 175574, 520596, 59232, 9089, 20829, 293880, 39141, 1550, 25330, 2609, 59108, 19931, 10637, 175541, 9441, 11806, 11520, 68924, 9043, 27995, 14534, 10830, 14560, 57242, 71880, 22819, 429577, 701173, 9475, 209263, 111969, 54663, 65158, 293767, 50203, 532893, 639421, 93897, 51059] |
-[2022-11-06 01:09:30,265] [radarr.py:138]             [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,265] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9489                                                                           |
-[2022-11-06 01:09:30,265] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5638                                                                           |
-[2022-11-06 01:09:30,266] [radarr.py:146]             [INFO]     | Skipped: In Cache | 526034                                                                         |
-[2022-11-06 01:09:30,266] [radarr.py:146]             [INFO]     | Skipped: In Cache | 29461                                                                          |
-[2022-11-06 01:09:30,266] [radarr.py:146]             [INFO]     | Skipped: In Cache | 98502                                                                          |
-[2022-11-06 01:09:30,266] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2758                                                                           |
-[2022-11-06 01:09:30,267] [radarr.py:146]             [INFO]     | Skipped: In Cache | 22881                                                                          |
-[2022-11-06 01:09:30,267] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14799                                                                          |
-[2022-11-06 01:09:30,267] [radarr.py:146]             [INFO]     | Skipped: In Cache | 49806                                                                          |
-[2022-11-06 01:09:30,268] [radarr.py:146]             [INFO]     | Skipped: In Cache | 44840                                                                          |
-[2022-11-06 01:09:30,268] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2302                                                                           |
-[2022-11-06 01:09:30,268] [radarr.py:146]             [INFO]     | Skipped: In Cache | 7211                                                                           |
-[2022-11-06 01:09:30,268] [radarr.py:146]             [INFO]     | Skipped: In Cache | 13203                                                                          |
-[2022-11-06 01:09:30,269] [radarr.py:146]             [INFO]     | Skipped: In Cache | 323929                                                                         |
-[2022-11-06 01:09:30,269] [radarr.py:146]             [INFO]     | Skipped: In Cache | 309245                                                                         |
-[2022-11-06 01:09:30,269] [radarr.py:146]             [INFO]     | Skipped: In Cache | 17127                                                                          |
-[2022-11-06 01:09:30,270] [radarr.py:146]             [INFO]     | Skipped: In Cache | 357684                                                                         |
-[2022-11-06 01:09:30,270] [radarr.py:146]             [INFO]     | Skipped: In Cache | 53113                                                                          |
-[2022-11-06 01:09:30,270] [radarr.py:146]             [INFO]     | Skipped: In Cache | 146233                                                                         |
-[2022-11-06 01:09:30,270] [radarr.py:146]             [INFO]     | Skipped: In Cache | 32868                                                                          |
-[2022-11-06 01:09:30,271] [radarr.py:146]             [INFO]     | Skipped: In Cache | 33344                                                                          |
-[2022-11-06 01:09:30,271] [radarr.py:146]             [INFO]     | Skipped: In Cache | 12560                                                                          |
-[2022-11-06 01:09:30,271] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5143                                                                           |
-[2022-11-06 01:09:30,271] [radarr.py:146]             [INFO]     | Skipped: In Cache | 18203                                                                          |
-[2022-11-06 01:09:30,272] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1921                                                                           |
-[2022-11-06 01:09:30,272] [radarr.py:146]             [INFO]     | Skipped: In Cache | 348150                                                                         |
-[2022-11-06 01:09:30,272] [radarr.py:146]             [INFO]     | Skipped: In Cache | 643866                                                                         |
-[2022-11-06 01:09:30,272] [radarr.py:146]             [INFO]     | Skipped: In Cache | 18038                                                                          |
-[2022-11-06 01:09:30,273] [radarr.py:146]             [INFO]     | Skipped: In Cache | 175574                                                                         |
-[2022-11-06 01:09:30,273] [radarr.py:146]             [INFO]     | Skipped: In Cache | 520596                                                                         |
-[2022-11-06 01:09:30,273] [radarr.py:146]             [INFO]     | Skipped: In Cache | 59232                                                                          |
-[2022-11-06 01:09:30,274] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9089                                                                           |
-[2022-11-06 01:09:30,274] [radarr.py:146]             [INFO]     | Skipped: In Cache | 20829                                                                          |
-[2022-11-06 01:09:30,274] [radarr.py:146]             [INFO]     | Skipped: In Cache | 293880                                                                         |
-[2022-11-06 01:09:30,274] [radarr.py:146]             [INFO]     | Skipped: In Cache | 39141                                                                          |
-[2022-11-06 01:09:30,275] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1550                                                                           |
-[2022-11-06 01:09:30,275] [radarr.py:146]             [INFO]     | Skipped: In Cache | 25330                                                                          |
-[2022-11-06 01:09:30,275] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2609                                                                           |
-[2022-11-06 01:09:30,275] [radarr.py:146]             [INFO]     | Skipped: In Cache | 59108                                                                          |
-[2022-11-06 01:09:30,276] [radarr.py:146]             [INFO]     | Skipped: In Cache | 19931                                                                          |
-[2022-11-06 01:09:30,276] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10637                                                                          |
-[2022-11-06 01:09:30,276] [radarr.py:146]             [INFO]     | Skipped: In Cache | 175541                                                                         |
-[2022-11-06 01:09:30,277] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9441                                                                           |
-[2022-11-06 01:09:30,277] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11806                                                                          |
-[2022-11-06 01:09:30,277] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11520                                                                          |
-[2022-11-06 01:09:30,277] [radarr.py:146]             [INFO]     | Skipped: In Cache | 68924                                                                          |
-[2022-11-06 01:09:30,278] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9043                                                                           |
-[2022-11-06 01:09:30,278] [radarr.py:146]             [INFO]     | Skipped: In Cache | 27995                                                                          |
-[2022-11-06 01:09:30,278] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14534                                                                          |
-[2022-11-06 01:09:30,280] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10830                                                                          |
-[2022-11-06 01:09:30,281] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14560                                                                          |
-[2022-11-06 01:09:30,281] [radarr.py:146]             [INFO]     | Skipped: In Cache | 57242                                                                          |
-[2022-11-06 01:09:30,281] [radarr.py:146]             [INFO]     | Skipped: In Cache | 71880                                                                          |
-[2022-11-06 01:09:30,281] [radarr.py:146]             [INFO]     | Skipped: In Cache | 22819                                                                          |
-[2022-11-06 01:09:30,282] [radarr.py:146]             [INFO]     | Skipped: In Cache | 429577                                                                         |
-[2022-11-06 01:09:30,282] [radarr.py:146]             [INFO]     | Skipped: In Cache | 701173                                                                         |
-[2022-11-06 01:09:30,282] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9475                                                                           |
-[2022-11-06 01:09:30,283] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209263                                                                         |
-[2022-11-06 01:09:30,283] [radarr.py:146]             [INFO]     | Skipped: In Cache | 111969                                                                         |
-[2022-11-06 01:09:30,283] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54663                                                                          |
-[2022-11-06 01:09:30,283] [radarr.py:146]             [INFO]     | Skipped: In Cache | 65158                                                                          |
-[2022-11-06 01:09:30,284] [radarr.py:146]             [INFO]     | Skipped: In Cache | 293767                                                                         |
-[2022-11-06 01:09:30,284] [radarr.py:146]             [INFO]     | Skipped: In Cache | 50203                                                                          |
-[2022-11-06 01:09:30,284] [radarr.py:146]             [INFO]     | Skipped: In Cache | 532893                                                                         |
-[2022-11-06 01:09:30,284] [radarr.py:146]             [INFO]     | Skipped: In Cache | 639421                                                                         |
-[2022-11-06 01:09:30,285] [radarr.py:146]             [INFO]     | Skipped: In Cache | 93897                                                                          |
-[2022-11-06 01:09:30,285] [radarr.py:146]             [INFO]     | Skipped: In Cache | 51059                                                                          |
-[2022-11-06 01:09:30,285] [radarr.py:147]             [INFO]     | 67 Movies already exist in Radarr                                                                  |
-[2022-11-06 01:09:30,302] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,302] [util.py:216]               [INFO]     |========================= Updating Details of Turkey Day Movies Collection =========================|
-[2022-11-06 01:09:30,302] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,302] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-06 01:09:30,305] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-06 01:09:30,305] [builder.py:2260]           [DEBUG]    | Method: file_poster Poster: C:\Plex-Stack\Plex-Meta-Manager\config\posters\paintings\thanksgiving.jpg |
-[2022-11-06 01:09:30,305] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-06 01:09:30,306] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-06 01:09:30,450] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,451] [util.py:216]               [INFO]     |================== Updating Details of the Items in Turkey Day Movies Collection ===================|
-[2022-11-06 01:09:30,451] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,452] [radarr.py:46]              [INFO]     |                                                                                                    |
-[2022-11-06 01:09:30,452] [util.py:216]               [INFO]     |==================================== Adding Existing to Radarr =====================================|
-[2022-11-06 01:09:30,452] [radarr.py:48]              [DEBUG]    |                                                                                                    |
-[2022-11-06 01:09:30,452] [radarr.py:49]              [DEBUG]    | Radarr Adds:                                                                                       |
-[2022-11-06 01:09:30,453] [radarr.py:51]              [DEBUG]    | (213, 'D:\\Movies\\North by Northwest (1959)')                                                     |
-[2022-11-06 01:09:30,453] [radarr.py:51]              [DEBUG]    | (13479, 'F:\\Movies (4k)\\A Charlie Brown Thanksgiving (1973)')                                    |
-[2022-11-06 01:09:30,453] [radarr.py:51]              [DEBUG]    | (2059, 'D:\\Movies\\National Treasure (2004)')                                                     |
-[2022-11-06 01:09:30,453] [radarr.py:51]              [DEBUG]    | (10315, 'D:\\Movies\\Fantastic Mr. Fox (2009)')                                                    |
-[2022-11-06 01:09:30,453] [radarr.py:51]              [DEBUG]    | (565310, 'D:\\Movies\\The Farewell (2019)')                                                        |
-[2022-11-06 01:09:30,454] [radarr.py:51]              [DEBUG]    | (546554, 'D:\\Movies\\Knives Out (2019)')                                                          |
-[2022-11-06 01:09:30,454] [radarr.py:51]              [DEBUG]    | (331482, 'D:\\Movies\\Little Women (2019)')                                                        |
-[2022-11-06 01:09:31,169] [radarr.py:138]             [INFO]     |                                                                                                    |
-[2022-11-06 01:09:31,169] [radarr.py:146]             [INFO]     | Skipped: In Cache | (213, 'D:\\Movies\\North by Northwest (1959)')                                 |
-[2022-11-06 01:09:31,170] [radarr.py:146]             [INFO]     | Skipped: In Cache | (13479, 'F:\\Movies (4k)\\A Charlie Brown Thanksgiving (1973)')                |
-[2022-11-06 01:09:31,170] [radarr.py:146]             [INFO]     | Skipped: In Cache | (2059, 'D:\\Movies\\National Treasure (2004)')                                 |
-[2022-11-06 01:09:31,170] [radarr.py:146]             [INFO]     | Skipped: In Cache | (10315, 'D:\\Movies\\Fantastic Mr. Fox (2009)')                                |
-[2022-11-06 01:09:31,170] [radarr.py:146]             [INFO]     | Skipped: In Cache | (565310, 'D:\\Movies\\The Farewell (2019)')                                    |
-[2022-11-06 01:09:31,171] [radarr.py:146]             [INFO]     | Skipped: In Cache | (546554, 'D:\\Movies\\Knives Out (2019)')                                      |
-[2022-11-06 01:09:31,171] [radarr.py:146]             [INFO]     | Skipped: In Cache | (331482, 'D:\\Movies\\Little Women (2019)')                                    |
-[2022-11-06 01:09:31,171] [radarr.py:147]             [INFO]     | 7 Movies already exist in Radarr                                                                   |
-[2022-11-06 01:09:31,183] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 01:09:31,183] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:09:31,183] [util.py:216]               [INFO]     |                               Finished Turkey Day Movies Collection                                |
-[2022-11-06 01:09:31,183] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
-[2022-11-06 01:09:31,184] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 10:47:56,117] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 10:47:56,118] [util.py:216]               [INFO]     |                               Turkey Day Movies Collection in Movies                               |
+[2022-11-06 10:47:56,118] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 10:47:56,118] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 10:47:56,119] [util.py:216]               [INFO]     |============================= Validating Turkey Day Movies Attributes ==============================|
+[2022-11-06 10:47:56,119] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,119] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 10:47:56,119] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Holiday'), ('poster', './config/posters/paintings/thanksgiving.jpg')]) |
+[2022-11-06 10:47:56,120] [builder.py:273]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,120] [builder.py:274]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2022-11-06 10:47:56,120] [builder.py:275]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,120] [builder.py:279]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,120] [builder.py:280]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2022-11-06 10:47:56,121] [builder.py:284]            [DEBUG]    | Value: range(11/02-11/30)                                                                          |
+[2022-11-06 10:47:56,121] [builder.py:316]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,121] [builder.py:317]            [DEBUG]    | Validating Method: run_again                                                                       |
+[2022-11-06 10:47:56,121] [builder.py:318]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,122] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,122] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 10:47:56,122] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-06 10:47:56,123] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,123] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-06 10:47:56,123] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/galacticboy/lists/thanksgiving-movies', 'https://trakt.tv/users/galacticboy/lists/tday-sync'] |
+[2022-11-06 10:47:56,359] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,359] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-06 10:47:56,360] [builder.py:474]            [DEBUG]    | Value: A mix of movies revolving around Thanksgiving or families in general.                       |
+[2022-11-06 10:47:56,360] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,360] [builder.py:473]            [DEBUG]    | Validating Method: file_poster                                                                     |
+[2022-11-06 10:47:56,360] [builder.py:474]            [DEBUG]    | Value: ./config/posters/paintings/thanksgiving.jpg                                                 |
+[2022-11-06 10:47:56,361] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,361] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 10:47:56,361] [builder.py:474]            [DEBUG]    | Value: 00000a_Turkey Day Movies                                                                    |
+[2022-11-06 10:47:56,362] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,362] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2022-11-06 10:47:56,362] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,362] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,363] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-11-06 10:47:56,363] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,363] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,363] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-11-06 10:47:56,363] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,364] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,364] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_existing                                                             |
+[2022-11-06 10:47:56,364] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,364] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,365] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-06 10:47:56,365] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 10:47:56,522] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 10:47:56,523] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 10:47:56,523] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 10:47:56,523] [util.py:216]               [INFO]     |=============================== Running Turkey Day Movies Collection ===============================|
+[2022-11-06 10:47:56,524] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 10:47:56,524] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-06 10:47:56,524] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:56,525] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/galacticboy/lists/thanksgiving-movies                  |
+[2022-11-06 10:47:56,525] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:56,525] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/galacticboy/lists/thanksgiving-movies                |
+[2022-11-06 10:47:57,032] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:57,032] [builder.py:1283]           [DEBUG]    | 63 IDs Found: [(13479, 'tmdb'), (9489, 'tmdb'), (5638, 'tmdb'), (546554, 'tmdb'), (526034, 'tmdb'), (29461, 'tmdb'), (98502, 'tmdb'), (2758, 'tmdb'), (22881, 'tmdb'), (14799, 'tmdb'), (49806, 'tmdb'), (44840, 'tmdb'), (2302, 'tmdb'), (7211, 'tmdb'), (13203, 'tmdb'), (323929, 'tmdb'), (309245, 'tmdb'), (17127, 'tmdb'), (357684, 'tmdb'), (53113, 'tmdb'), (146233, 'tmdb'), (32868, 'tmdb'), (213, 'tmdb'), (33344, 'tmdb'), (12560, 'tmdb'), (5143, 'tmdb'), (18203, 'tmdb'), (1921, 'tmdb'), (348150, 'tmdb'), (643866, 'tmdb'), (18038, 'tmdb'), (175574, 'tmdb'), (520596, 'tmdb'), (59232, 'tmdb'), (9089, 'tmdb'), (20829, 'tmdb'), (293880, 'tmdb'), (39141, 'tmdb'), (1550, 'tmdb'), (25330, 'tmdb'), (2609, 'tmdb'), (59108, 'tmdb'), (331482, 'tmdb'), (19931, 'tmdb'), (10637, 'tmdb'), (175541, 'tmdb'), (9441, 'tmdb'), (565310, 'tmdb'), (11806, 'tmdb'), (11520, 'tmdb'), (68924, 'tmdb'), (9043, 'tmdb'), (27995, 'tmdb'), (2059, 'tmdb'), (14534, 'tmdb'), (10830, 'tmdb'), (10315, 'tmdb'), (14560, 'tmdb'), (57242, 'tmdb'), (71880, 'tmdb'), (22819, 'tmdb'), (429577, 'tmdb'), (701173, 'tmdb')] |
+[2022-11-06 10:47:57,032] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:57,159] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:57,159] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/galacticboy/lists/tday-sync                            |
+[2022-11-06 10:47:57,159] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,160] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/galacticboy/lists/tday-sync                          |
+[2022-11-06 10:47:57,268] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:57,268] [builder.py:1283]           [DEBUG]    | 25 IDs Found: [(5143, 'tmdb'), (2609, 'tmdb'), (9475, 'tmdb'), (68924, 'tmdb'), (323929, 'tmdb'), (209263, 'tmdb'), (1550, 'tmdb'), (2758, 'tmdb'), (111969, 'tmdb'), (54663, 'tmdb'), (33344, 'tmdb'), (59108, 'tmdb'), (65158, 'tmdb'), (520596, 'tmdb'), (25330, 'tmdb'), (293767, 'tmdb'), (50203, 'tmdb'), (526034, 'tmdb'), (13203, 'tmdb'), (175574, 'tmdb'), (98502, 'tmdb'), (532893, 'tmdb'), (639421, 'tmdb'), (93897, 'tmdb'), (51059, 'tmdb')] |
+[2022-11-06 10:47:57,268] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 10:47:57,269] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,269] [util.py:216]               [INFO]     |============================== Adding to Turkey Day Movies Collection ==============================|
+[2022-11-06 10:47:57,270] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,270] [builder.py:1709]           [INFO]     | 1/7 | Turkey Day Movies Collection | = | A Charlie Brown Thanksgiving (1973)                       |
+[2022-11-06 10:47:57,270] [builder.py:1709]           [INFO]     | 2/7 | Turkey Day Movies Collection | = | Knives Out (2019)                                         |
+[2022-11-06 10:47:57,271] [builder.py:1709]           [INFO]     | 3/7 | Turkey Day Movies Collection | = | North by Northwest (1959)                                 |
+[2022-11-06 10:47:57,271] [builder.py:1709]           [INFO]     | 4/7 | Turkey Day Movies Collection | = | Little Women (2019)                                       |
+[2022-11-06 10:47:57,271] [builder.py:1709]           [INFO]     | 5/7 | Turkey Day Movies Collection | = | The Farewell (2019)                                       |
+[2022-11-06 10:47:57,272] [builder.py:1709]           [INFO]     | 6/7 | Turkey Day Movies Collection | = | National Treasure (2004)                                  |
+[2022-11-06 10:47:57,272] [builder.py:1709]           [INFO]     | 7/7 | Turkey Day Movies Collection | = | Fantastic Mr. Fox (2009)                                  |
+[2022-11-06 10:47:57,272] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,272] [builder.py:1735]           [INFO]     | 7 Movies Processed                                                                                 |
+[2022-11-06 10:47:57,273] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,273] [util.py:216]               [INFO]     |========================== Missing Movies from Library: Turkey Day Movies ==========================|
+[2022-11-06 10:47:57,273] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-06 10:47:57,413] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | You've Got Mail (1998) (TMDb: 9489)                             |
+[2022-11-06 10:47:57,592] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Alice's Restaurant (1969) (TMDb: 5638)                          |
+[2022-11-06 10:47:57,723] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Lez Bomb (2018) (TMDb: 526034)                                  |
+[2022-11-06 10:47:57,850] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Soul Food (1997) (TMDb: 29461)                                  |
+[2022-11-06 10:47:57,998] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Myth of Fingerprints (1997) (TMDb: 98502)                   |
+[2022-11-06 10:47:58,188] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Addams Family Values (1993) (TMDb: 2758)                        |
+[2022-11-06 10:47:58,190] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Blind Side (2009) (TMDb: 22881)                             |
+[2022-11-06 10:47:58,357] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | For Your Consideration (2006) (TMDb: 14799)                     |
+[2022-11-06 10:47:58,509] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Daytrippers (1997) (TMDb: 49806)                            |
+[2022-11-06 10:47:58,666] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Garfield's Thanksgiving (1989) (TMDb: 44840)                    |
+[2022-11-06 10:47:58,667] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Avalon (1990) (TMDb: 2302)                                      |
+[2022-11-06 10:47:58,798] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Dan in Real Life (2007) (TMDb: 7211)                            |
+[2022-11-06 10:47:59,000] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Son in Law (1993) (TMDb: 13203)                                 |
+[2022-11-06 10:47:59,136] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Krisha (2016) (TMDb: 323929)                                    |
+[2022-11-06 10:47:59,321] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Mistress America (2015) (TMDb: 309245)                          |
+[2022-11-06 10:47:59,509] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Object of My Affection (1998) (TMDb: 17127)                 |
+[2022-11-06 10:47:59,708] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Winnie the Pooh Thanksgiving (1998) (TMDb: 357684)            |
+[2022-11-06 10:47:59,875] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | One True Thing (1998) (TMDb: 53113)                             |
+[2022-11-06 10:48:00,020] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Prisoners (2013) (TMDb: 146233)                                 |
+[2022-11-06 10:48:00,176] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Vicious Kind (2009) (TMDb: 32868)                           |
+[2022-11-06 10:48:00,330] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The House of Yes (1997) (TMDb: 33344)                           |
+[2022-11-06 10:48:00,331] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Big Chill (1983) (TMDb: 12560)                              |
+[2022-11-06 10:48:00,332] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Hannah and Her Sisters (1986) (TMDb: 5143)                      |
+[2022-11-06 10:48:00,479] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Big Night (1996) (TMDb: 18203)                                  |
+[2022-11-06 10:48:00,609] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Sweet November (2001) (TMDb: 1921)                              |
+[2022-11-06 10:48:00,772] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Jim Henson's Turkey Hollow (2015) (TMDb: 348150)                |
+[2022-11-06 10:48:00,938] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Pilgrim (2019) (TMDb: 643866)                                   |
+[2022-11-06 10:48:01,086] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Holiday Reunion (2003) (TMDb: 18038)                            |
+[2022-11-06 10:48:01,281] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Free Birds (2013) (TMDb: 175574)                                |
+[2022-11-06 10:48:01,458] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Oath (2018) (TMDb: 520596)                                  |
+[2022-11-06 10:48:01,597] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The War at Home (1996) (TMDb: 59232)                            |
+[2022-11-06 10:48:01,740] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Home for the Holidays (1995) (TMDb: 9089)                       |
+[2022-11-06 10:48:01,908] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Funny People (2009) (TMDb: 20829)                               |
+[2022-11-06 10:48:02,056] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Hollidaysburg (2014) (TMDb: 293880)                             |
+[2022-11-06 10:48:02,242] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Tadpole (2002) (TMDb: 39141)                                    |
+[2022-11-06 10:48:02,500] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Pieces of April (2003) (TMDb: 1550)                             |
+[2022-11-06 10:48:02,685] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Dutch (1991) (TMDb: 25330)                                      |
+[2022-11-06 10:48:02,809] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Planes, Trains and Automobiles (1987) (TMDb: 2609)              |
+[2022-11-06 10:48:03,045] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Tower Heist (2011) (TMDb: 59108)                                |
+[2022-11-06 10:48:03,177] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Joy Luck Club (1993) (TMDb: 19931)                          |
+[2022-11-06 10:48:03,179] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Remember the Titans (2000) (TMDb: 10637)                        |
+[2022-11-06 10:48:03,312] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Black Nativity (2013) (TMDb: 175541)                            |
+[2022-11-06 10:48:03,459] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Stepmom (1998) (TMDb: 9441)                                     |
+[2022-11-06 10:48:03,614] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Beethoven (1992) (TMDb: 11806)                                  |
+[2022-11-06 10:48:03,771] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Grumpy Old Men (1993) (TMDb: 11520)                             |
+[2022-11-06 10:48:03,952] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Ice Storm (1997) (TMDb: 68924)                              |
+[2022-11-06 10:48:04,105] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Family Stone (2005) (TMDb: 9043)                            |
+[2022-11-06 10:48:04,321] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | She's Gotta Have It (1986) (TMDb: 27995)                        |
+[2022-11-06 10:48:04,472] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Rudy (1993) (TMDb: 14534)                                       |
+[2022-11-06 10:48:04,473] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Matilda (1996) (TMDb: 10830)                                    |
+[2022-11-06 10:48:04,622] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Paul Blart: Mall Cop (2009) (TMDb: 14560)                       |
+[2022-11-06 10:48:04,824] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Alvin and the Chipmunks - Alvin's Thanksgiving Celebration (2008) (TMDb: 57242) |
+[2022-11-06 10:48:04,979] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Jack and Jill (2011) (TMDb: 71880)                              |
+[2022-11-06 10:48:05,112] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | American Son (2008) (TMDb: 22819)                               |
+[2022-11-06 10:48:05,259] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Mayflower Voyagers (1988) (TMDb: 429577)                    |
+[2022-11-06 10:48:05,428] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Looney Tunes Thanksgiving (2014) (TMDb: 701173)               |
+[2022-11-06 10:48:05,429] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Scent of a Woman (1992) (TMDb: 9475)                            |
+[2022-11-06 10:48:06,211] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Enough Said (2013) (TMDb: 209263)                               |
+[2022-11-06 10:48:06,383] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Stuck in Love (2013) (TMDb: 111969)                             |
+[2022-11-06 10:48:06,560] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Starting Over (1979) (TMDb: 54663)                              |
+[2022-11-06 10:48:06,762] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Squanto: A Warrior's Tale (1994) (TMDb: 65158)                  |
+[2022-11-06 10:48:06,939] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Billy Lynn's Long Halftime Walk (2016) (TMDb: 293767)           |
+[2022-11-06 10:48:07,081] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Sweet Hearts Dance (1988) (TMDb: 50203)                         |
+[2022-11-06 10:48:07,211] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | The Turkey Bowl (2019) (TMDb: 532893)                           |
+[2022-11-06 10:48:07,404] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Turkey Drop (2019) (TMDb: 639421)                               |
+[2022-11-06 10:48:07,561] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | A Very Gaga Thanksgiving (2011) (TMDb: 93897)                   |
+[2022-11-06 10:48:07,711] [builder.py:1943]           [INFO]     | Turkey Day Movies Collection | ? | Palo Alto, CA (2007) (TMDb: 51059)                              |
+[2022-11-06 10:48:07,711] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-06 10:48:07,711] [builder.py:1948]           [INFO]     | 67 Movies Missing                                                                                  |
+[2022-11-06 10:48:07,961] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2022-11-06 10:48:07,962] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2022-11-06 10:48:07,962] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2022-11-06 10:48:07,962] [radarr.py:49]              [DEBUG]    | Radarr Adds: [9489, 5638, 526034, 29461, 98502, 2758, 22881, 14799, 49806, 44840, 2302, 7211, 13203, 323929, 309245, 17127, 357684, 53113, 146233, 32868, 33344, 12560, 5143, 18203, 1921, 348150, 643866, 18038, 175574, 520596, 59232, 9089, 20829, 293880, 39141, 1550, 25330, 2609, 59108, 19931, 10637, 175541, 9441, 11806, 11520, 68924, 9043, 27995, 14534, 10830, 14560, 57242, 71880, 22819, 429577, 701173, 9475, 209263, 111969, 54663, 65158, 293767, 50203, 532893, 639421, 93897, 51059] |
+[2022-11-06 10:48:08,776] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,776] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9489                                                                           |
+[2022-11-06 10:48:08,776] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5638                                                                           |
+[2022-11-06 10:48:08,777] [radarr.py:146]             [INFO]     | Skipped: In Cache | 526034                                                                         |
+[2022-11-06 10:48:08,777] [radarr.py:146]             [INFO]     | Skipped: In Cache | 29461                                                                          |
+[2022-11-06 10:48:08,777] [radarr.py:146]             [INFO]     | Skipped: In Cache | 98502                                                                          |
+[2022-11-06 10:48:08,778] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2758                                                                           |
+[2022-11-06 10:48:08,778] [radarr.py:146]             [INFO]     | Skipped: In Cache | 22881                                                                          |
+[2022-11-06 10:48:08,778] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14799                                                                          |
+[2022-11-06 10:48:08,778] [radarr.py:146]             [INFO]     | Skipped: In Cache | 49806                                                                          |
+[2022-11-06 10:48:08,779] [radarr.py:146]             [INFO]     | Skipped: In Cache | 44840                                                                          |
+[2022-11-06 10:48:08,779] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2302                                                                           |
+[2022-11-06 10:48:08,779] [radarr.py:146]             [INFO]     | Skipped: In Cache | 7211                                                                           |
+[2022-11-06 10:48:08,779] [radarr.py:146]             [INFO]     | Skipped: In Cache | 13203                                                                          |
+[2022-11-06 10:48:08,780] [radarr.py:146]             [INFO]     | Skipped: In Cache | 323929                                                                         |
+[2022-11-06 10:48:08,780] [radarr.py:146]             [INFO]     | Skipped: In Cache | 309245                                                                         |
+[2022-11-06 10:48:08,780] [radarr.py:146]             [INFO]     | Skipped: In Cache | 17127                                                                          |
+[2022-11-06 10:48:08,780] [radarr.py:146]             [INFO]     | Skipped: In Cache | 357684                                                                         |
+[2022-11-06 10:48:08,781] [radarr.py:146]             [INFO]     | Skipped: In Cache | 53113                                                                          |
+[2022-11-06 10:48:08,781] [radarr.py:146]             [INFO]     | Skipped: In Cache | 146233                                                                         |
+[2022-11-06 10:48:08,781] [radarr.py:146]             [INFO]     | Skipped: In Cache | 32868                                                                          |
+[2022-11-06 10:48:08,782] [radarr.py:146]             [INFO]     | Skipped: In Cache | 33344                                                                          |
+[2022-11-06 10:48:08,782] [radarr.py:146]             [INFO]     | Skipped: In Cache | 12560                                                                          |
+[2022-11-06 10:48:08,782] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5143                                                                           |
+[2022-11-06 10:48:08,782] [radarr.py:146]             [INFO]     | Skipped: In Cache | 18203                                                                          |
+[2022-11-06 10:48:08,783] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1921                                                                           |
+[2022-11-06 10:48:08,783] [radarr.py:146]             [INFO]     | Skipped: In Cache | 348150                                                                         |
+[2022-11-06 10:48:08,783] [radarr.py:146]             [INFO]     | Skipped: In Cache | 643866                                                                         |
+[2022-11-06 10:48:08,783] [radarr.py:146]             [INFO]     | Skipped: In Cache | 18038                                                                          |
+[2022-11-06 10:48:08,784] [radarr.py:146]             [INFO]     | Skipped: In Cache | 175574                                                                         |
+[2022-11-06 10:48:08,784] [radarr.py:146]             [INFO]     | Skipped: In Cache | 520596                                                                         |
+[2022-11-06 10:48:08,785] [radarr.py:146]             [INFO]     | Skipped: In Cache | 59232                                                                          |
+[2022-11-06 10:48:08,785] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9089                                                                           |
+[2022-11-06 10:48:08,785] [radarr.py:146]             [INFO]     | Skipped: In Cache | 20829                                                                          |
+[2022-11-06 10:48:08,786] [radarr.py:146]             [INFO]     | Skipped: In Cache | 293880                                                                         |
+[2022-11-06 10:48:08,786] [radarr.py:146]             [INFO]     | Skipped: In Cache | 39141                                                                          |
+[2022-11-06 10:48:08,786] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1550                                                                           |
+[2022-11-06 10:48:08,786] [radarr.py:146]             [INFO]     | Skipped: In Cache | 25330                                                                          |
+[2022-11-06 10:48:08,787] [radarr.py:146]             [INFO]     | Skipped: In Cache | 2609                                                                           |
+[2022-11-06 10:48:08,787] [radarr.py:146]             [INFO]     | Skipped: In Cache | 59108                                                                          |
+[2022-11-06 10:48:08,787] [radarr.py:146]             [INFO]     | Skipped: In Cache | 19931                                                                          |
+[2022-11-06 10:48:08,787] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10637                                                                          |
+[2022-11-06 10:48:08,788] [radarr.py:146]             [INFO]     | Skipped: In Cache | 175541                                                                         |
+[2022-11-06 10:48:08,788] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9441                                                                           |
+[2022-11-06 10:48:08,788] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11806                                                                          |
+[2022-11-06 10:48:08,788] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11520                                                                          |
+[2022-11-06 10:48:08,789] [radarr.py:146]             [INFO]     | Skipped: In Cache | 68924                                                                          |
+[2022-11-06 10:48:08,789] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9043                                                                           |
+[2022-11-06 10:48:08,789] [radarr.py:146]             [INFO]     | Skipped: In Cache | 27995                                                                          |
+[2022-11-06 10:48:08,792] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14534                                                                          |
+[2022-11-06 10:48:08,792] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10830                                                                          |
+[2022-11-06 10:48:08,792] [radarr.py:146]             [INFO]     | Skipped: In Cache | 14560                                                                          |
+[2022-11-06 10:48:08,792] [radarr.py:146]             [INFO]     | Skipped: In Cache | 57242                                                                          |
+[2022-11-06 10:48:08,793] [radarr.py:146]             [INFO]     | Skipped: In Cache | 71880                                                                          |
+[2022-11-06 10:48:08,793] [radarr.py:146]             [INFO]     | Skipped: In Cache | 22819                                                                          |
+[2022-11-06 10:48:08,793] [radarr.py:146]             [INFO]     | Skipped: In Cache | 429577                                                                         |
+[2022-11-06 10:48:08,794] [radarr.py:146]             [INFO]     | Skipped: In Cache | 701173                                                                         |
+[2022-11-06 10:48:08,794] [radarr.py:146]             [INFO]     | Skipped: In Cache | 9475                                                                           |
+[2022-11-06 10:48:08,794] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209263                                                                         |
+[2022-11-06 10:48:08,795] [radarr.py:146]             [INFO]     | Skipped: In Cache | 111969                                                                         |
+[2022-11-06 10:48:08,795] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54663                                                                          |
+[2022-11-06 10:48:08,795] [radarr.py:146]             [INFO]     | Skipped: In Cache | 65158                                                                          |
+[2022-11-06 10:48:08,796] [radarr.py:146]             [INFO]     | Skipped: In Cache | 293767                                                                         |
+[2022-11-06 10:48:08,796] [radarr.py:146]             [INFO]     | Skipped: In Cache | 50203                                                                          |
+[2022-11-06 10:48:08,796] [radarr.py:146]             [INFO]     | Skipped: In Cache | 532893                                                                         |
+[2022-11-06 10:48:08,796] [radarr.py:146]             [INFO]     | Skipped: In Cache | 639421                                                                         |
+[2022-11-06 10:48:08,797] [radarr.py:146]             [INFO]     | Skipped: In Cache | 93897                                                                          |
+[2022-11-06 10:48:08,797] [radarr.py:146]             [INFO]     | Skipped: In Cache | 51059                                                                          |
+[2022-11-06 10:48:08,797] [radarr.py:147]             [INFO]     | 67 Movies already exist in Radarr                                                                  |
+[2022-11-06 10:48:08,813] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,814] [util.py:216]               [INFO]     |========================= Updating Details of Turkey Day Movies Collection =========================|
+[2022-11-06 10:48:08,814] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,814] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-06 10:48:08,817] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-06 10:48:08,817] [builder.py:2260]           [DEBUG]    | Method: file_poster Poster: C:\Plex-Stack\Plex-Meta-Manager\config\posters\paintings\thanksgiving.jpg |
+[2022-11-06 10:48:08,817] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-06 10:48:08,818] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-06 10:48:08,968] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,968] [util.py:216]               [INFO]     |================== Updating Details of the Items in Turkey Day Movies Collection ===================|
+[2022-11-06 10:48:08,969] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,969] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2022-11-06 10:48:08,969] [util.py:216]               [INFO]     |==================================== Adding Existing to Radarr =====================================|
+[2022-11-06 10:48:08,970] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2022-11-06 10:48:08,970] [radarr.py:49]              [DEBUG]    | Radarr Adds:                                                                                       |
+[2022-11-06 10:48:08,970] [radarr.py:51]              [DEBUG]    | (213, 'D:\\Movies\\North by Northwest (1959)')                                                     |
+[2022-11-06 10:48:08,971] [radarr.py:51]              [DEBUG]    | (13479, 'F:\\Movies (4k)\\A Charlie Brown Thanksgiving (1973)')                                    |
+[2022-11-06 10:48:08,971] [radarr.py:51]              [DEBUG]    | (2059, 'D:\\Movies\\National Treasure (2004)')                                                     |
+[2022-11-06 10:48:08,971] [radarr.py:51]              [DEBUG]    | (10315, 'D:\\Movies\\Fantastic Mr. Fox (2009)')                                                    |
+[2022-11-06 10:48:08,971] [radarr.py:51]              [DEBUG]    | (565310, 'D:\\Movies\\The Farewell (2019)')                                                        |
+[2022-11-06 10:48:08,971] [radarr.py:51]              [DEBUG]    | (546554, 'D:\\Movies\\Knives Out (2019)')                                                          |
+[2022-11-06 10:48:08,972] [radarr.py:51]              [DEBUG]    | (331482, 'D:\\Movies\\Little Women (2019)')                                                        |
+[2022-11-06 10:48:09,860] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2022-11-06 10:48:09,860] [radarr.py:146]             [INFO]     | Skipped: In Cache | (213, 'D:\\Movies\\North by Northwest (1959)')                                 |
+[2022-11-06 10:48:09,861] [radarr.py:146]             [INFO]     | Skipped: In Cache | (13479, 'F:\\Movies (4k)\\A Charlie Brown Thanksgiving (1973)')                |
+[2022-11-06 10:48:09,861] [radarr.py:146]             [INFO]     | Skipped: In Cache | (2059, 'D:\\Movies\\National Treasure (2004)')                                 |
+[2022-11-06 10:48:09,861] [radarr.py:146]             [INFO]     | Skipped: In Cache | (10315, 'D:\\Movies\\Fantastic Mr. Fox (2009)')                                |
+[2022-11-06 10:48:09,861] [radarr.py:146]             [INFO]     | Skipped: In Cache | (565310, 'D:\\Movies\\The Farewell (2019)')                                    |
+[2022-11-06 10:48:09,861] [radarr.py:146]             [INFO]     | Skipped: In Cache | (546554, 'D:\\Movies\\Knives Out (2019)')                                      |
+[2022-11-06 10:48:09,862] [radarr.py:146]             [INFO]     | Skipped: In Cache | (331482, 'D:\\Movies\\Little Women (2019)')                                    |
+[2022-11-06 10:48:09,862] [radarr.py:147]             [INFO]     | 7 Movies already exist in Radarr                                                                   |
+[2022-11-06 10:48:09,873] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 10:48:09,874] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 10:48:09,874] [util.py:216]               [INFO]     |                               Finished Turkey Day Movies Collection                                |
+[2022-11-06 10:48:09,875] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:13                                    |
+[2022-11-06 10:48:09,875] [util.py:220]               [INFO]     |====================================================================================================|

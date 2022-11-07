@@ -1,55 +1,55 @@
-[2022-11-05 01:04:12,334] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 01:04:12,334] [util.py:216]               [INFO]     |                                     Shoujo Collection in Anime                                     |
-[2022-11-05 01:04:12,334] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 01:04:12,335] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-05 01:04:12,335] [util.py:216]               [INFO]     |=================================== Validating Shoujo Attributes ===================================|
-[2022-11-05 01:04:12,336] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,336] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-05 01:04:12,336] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 25), ('poster', 'https://theposterdb.com/api/assets/240214')]) |
-[2022-11-05 01:04:12,336] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,337] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-05 01:04:12,337] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-05 01:04:12,337] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,337] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-05 01:04:12,338] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-05 01:04:12,338] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,338] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-05 01:04:12,338] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 25, 'limit': 999}                                                              |
-[2022-11-05 01:04:12,339] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,339] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-05 01:04:12,339] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240214                                                   |
-[2022-11-05 01:04:12,339] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,340] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-05 01:04:12,340] [builder.py:474]            [DEBUG]    | Value: +++_Shoujo                                                                                  |
-[2022-11-05 01:04:12,340] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,340] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-05 01:04:12,340] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 01:04:12,399] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-05 01:04:12,400] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-05 01:04:12,400] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-05 01:04:12,401] [util.py:216]               [INFO]     |==================================== Running Shoujo Collection =====================================|
-[2022-11-05 01:04:12,401] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-05 01:04:12,401] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-05 01:04:12,402] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:12,402] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 25, 'limit': 999}                                                 |
-[2022-11-05 01:04:12,402] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-05 01:04:12,402] [mal.py:223]                [INFO]     | Processing MyAnimeList Genre ID: 25                                                                |
-[2022-11-05 01:04:14,575] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-05 01:04:14,576] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-05 01:04:14,576] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-05 01:04:14,576] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-05 01:04:14,576] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-05 01:04:14,577] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-05 01:04:14,577] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-05 01:04:14,577] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 224, in get_mal_ids                  |
-[2022-11-05 01:04:14,577] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-05 01:04:14,577] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 171, in _genre                       |
-[2022-11-05 01:04:14,578] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-05 01:04:14,578] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 25                        |
-[2022-11-05 01:04:14,578] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-05 01:04:14,578] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 25                                             |
-[2022-11-05 01:04:14,579] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-05 01:04:14,579] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 01:04:14,580] [util.py:216]               [INFO]     |                                     Finished Shoujo Collection                                     |
-[2022-11-05 01:04:14,580] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-05 01:04:14,580] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:50:11,210] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:50:11,211] [util.py:216]               [INFO]     |                                     Shoujo Collection in Anime                                     |
+[2022-11-05 19:50:11,211] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-05 19:50:11,211] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-05 19:50:11,212] [util.py:216]               [INFO]     |=================================== Validating Shoujo Attributes ===================================|
+[2022-11-05 19:50:11,212] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,212] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-05 19:50:11,213] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 25), ('poster', 'https://theposterdb.com/api/assets/240214')]) |
+[2022-11-05 19:50:11,213] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,213] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-05 19:50:11,213] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-05 19:50:11,214] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,214] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-05 19:50:11,214] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-05 19:50:11,214] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,215] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-05 19:50:11,215] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 25, 'limit': 999}                                                              |
+[2022-11-05 19:50:11,215] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,215] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-05 19:50:11,216] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240214                                                   |
+[2022-11-05 19:50:11,216] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,216] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-05 19:50:11,216] [builder.py:474]            [DEBUG]    | Value: +++_Shoujo                                                                                  |
+[2022-11-05 19:50:11,216] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,217] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-05 19:50:11,217] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-05 19:50:11,278] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-05 19:50:11,278] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-05 19:50:11,279] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-05 19:50:11,279] [util.py:216]               [INFO]     |==================================== Running Shoujo Collection =====================================|
+[2022-11-05 19:50:11,280] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-05 19:50:11,280] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-05 19:50:11,280] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:11,280] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 25, 'limit': 999}                                                 |
+[2022-11-05 19:50:11,281] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-05 19:50:11,281] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 25                                                                |
+[2022-11-05 19:50:13,449] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-05 19:50:13,449] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-05 19:50:13,449] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-05 19:50:13,450] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-05 19:50:13,450] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-05 19:50:13,450] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-05 19:50:13,450] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-05 19:50:13,451] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
+[2022-11-05 19:50:13,451] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-05 19:50:13,451] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
+[2022-11-05 19:50:13,451] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-05 19:50:13,451] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 25                        |
+[2022-11-05 19:50:13,452] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-05 19:50:13,452] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 25                                             |
+[2022-11-05 19:50:13,452] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-05 19:50:13,453] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-05 19:50:13,453] [util.py:216]               [INFO]     |                                     Finished Shoujo Collection                                     |
+[2022-11-05 19:50:13,453] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-05 19:50:13,453] [util.py:220]               [INFO]     |====================================================================================================|

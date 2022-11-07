@@ -1,249 +1,249 @@
-[2022-10-28 01:41:05,397] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:41:05,397] [util.py:216]               [INFO]     |                                    HGTV Collection in TV Shows                                     |
-[2022-10-28 01:41:05,398] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-28 01:41:05,398] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:05,398] [util.py:216]               [INFO]     |==================================== Validating HGTV Attributes ====================================|
-[2022-10-28 01:41:05,399] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,399] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-28 01:41:05,399] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 210), ('poster', 'https://theposterdb.com/api/assets/98967')]) |
-[2022-10-28 01:41:05,399] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,400] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-28 01:41:05,400] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-28 01:41:05,400] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,400] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-28 01:41:05,401] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-28 01:41:05,401] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,401] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-10-28 01:41:05,401] [builder.py:474]            [DEBUG]    | Value: 210                                                                                         |
-[2022-10-28 01:41:05,548] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,549] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-28 01:41:05,549] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/98967                                                    |
-[2022-10-28 01:41:05,549] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,549] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-28 01:41:05,550] [builder.py:474]            [DEBUG]    | Value: +2_HGTV                                                                                     |
-[2022-10-28 01:41:05,552] [plex.py:685]               [DEBUG]    | Looking for: HGTV                                                                                  |
-[2022-10-28 01:41:05,553] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-28 01:41:05,553] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-28 01:41:05,554] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:05,555] [util.py:216]               [INFO]     |===================================== Running HGTV Collection ======================================|
-[2022-10-28 01:41:05,555] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:05,555] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-28 01:41:05,555] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:05,556] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 210                                                                         |
-[2022-10-28 01:41:05,556] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:06,839] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (210) HGTV (200 Shows)                                                    |
-[2022-10-28 01:41:06,839] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:06,840] [builder.py:1283]           [DEBUG]    | 200 IDs Found: [(29173, 'tmdb_show'), (6480, 'tmdb_show'), (59772, 'tmdb_show'), (71956, 'tmdb_show'), (77684, 'tmdb_show'), (89724, 'tmdb_show'), (62618, 'tmdb_show'), (109611, 'tmdb_show'), (35058, 'tmdb_show'), (211976, 'tmdb_show'), (33927, 'tmdb_show'), (60911, 'tmdb_show'), (92609, 'tmdb_show'), (20457, 'tmdb_show'), (94521, 'tmdb_show'), (119332, 'tmdb_show'), (10619, 'tmdb_show'), (76632, 'tmdb_show'), (100347, 'tmdb_show'), (44182, 'tmdb_show'), (121930, 'tmdb_show'), (61261, 'tmdb_show'), (19358, 'tmdb_show'), (67392, 'tmdb_show'), (79260, 'tmdb_show'), (80076, 'tmdb_show'), (29967, 'tmdb_show'), (69950, 'tmdb_show'), (83466, 'tmdb_show'), (26058, 'tmdb_show'), (209650, 'tmdb_show'), (101735, 'tmdb_show'), (155185, 'tmdb_show'), (206019, 'tmdb_show'), (128984, 'tmdb_show'), (120298, 'tmdb_show'), (57758, 'tmdb_show'), (71359, 'tmdb_show'), (88962, 'tmdb_show'), (88286, 'tmdb_show'), (18049, 'tmdb_show'), (25458, 'tmdb_show'), (77685, 'tmdb_show'), (100892, 'tmdb_show'), (12261, 'tmdb_show'), (37135, 'tmdb_show'), (72775, 'tmdb_show'), (123773, 'tmdb_show'), (124386, 'tmdb_show'), (25136, 'tmdb_show'), (134693, 'tmdb_show'), (118092, 'tmdb_show'), (81110, 'tmdb_show'), (43533, 'tmdb_show'), (31134, 'tmdb_show'), (21923, 'tmdb_show'), (69058, 'tmdb_show'), (13512, 'tmdb_show'), (55493, 'tmdb_show'), (209965, 'tmdb_show'), (74413, 'tmdb_show'), (154033, 'tmdb_show'), (11575, 'tmdb_show'), (14709, 'tmdb_show'), (204042, 'tmdb_show'), (60997, 'tmdb_show'), (44776, 'tmdb_show'), (206097, 'tmdb_show'), (117004, 'tmdb_show'), (89866, 'tmdb_show'), (79895, 'tmdb_show'), (115064, 'tmdb_show'), (94702, 'tmdb_show'), (154775, 'tmdb_show'), (13502, 'tmdb_show'), (43912, 'tmdb_show'), (37364, 'tmdb_show'), (85067, 'tmdb_show'), (125870, 'tmdb_show'), (106748, 'tmdb_show'), (91103, 'tmdb_show'), (207504, 'tmdb_show'), (33075, 'tmdb_show'), (24303, 'tmdb_show'), (13319, 'tmdb_show'), (209899, 'tmdb_show'), (90559, 'tmdb_show'), (210035, 'tmdb_show'), (104304, 'tmdb_show'), (63363, 'tmdb_show'), (25168, 'tmdb_show'), (202377, 'tmdb_show'), (22328, 'tmdb_show'), (16600, 'tmdb_show'), (71856, 'tmdb_show'), (67044, 'tmdb_show'), (120523, 'tmdb_show'), (135921, 'tmdb_show'), (4691, 'tmdb_show'), (208756, 'tmdb_show'), (123075, 'tmdb_show'), (71934, 'tmdb_show'), (30139, 'tmdb_show'), (133191, 'tmdb_show'), (60636, 'tmdb_show'), (135202, 'tmdb_show'), (105692, 'tmdb_show'), (17405, 'tmdb_show'), (86385, 'tmdb_show'), (82285, 'tmdb_show'), (75840, 'tmdb_show'), (24188, 'tmdb_show'), (93450, 'tmdb_show'), (75637, 'tmdb_show'), (75842, 'tmdb_show'), (125136, 'tmdb_show'), (114637, 'tmdb_show'), (116089, 'tmdb_show'), (117365, 'tmdb_show'), (92608, 'tmdb_show'), (209974, 'tmdb_show'), (209116, 'tmdb_show'), (208962, 'tmdb_show'), (208824, 'tmdb_show'), (208815, 'tmdb_show'), (201248, 'tmdb_show'), (201134, 'tmdb_show'), (197403, 'tmdb_show'), (197140, 'tmdb_show'), (196674, 'tmdb_show'), (158777, 'tmdb_show'), (155935, 'tmdb_show'), (155024, 'tmdb_show'), (154006, 'tmdb_show'), (152557, 'tmdb_show'), (152316, 'tmdb_show'), (135593, 'tmdb_show'), (132942, 'tmdb_show'), (128514, 'tmdb_show'), (125947, 'tmdb_show'), (125919, 'tmdb_show'), (125187, 'tmdb_show'), (124300, 'tmdb_show'), (122362, 'tmdb_show'), (122200, 'tmdb_show'), (121266, 'tmdb_show'), (119839, 'tmdb_show'), (117080, 'tmdb_show'), (116720, 'tmdb_show'), (116367, 'tmdb_show'), (108390, 'tmdb_show'), (106186, 'tmdb_show'), (104791, 'tmdb_show'), (101470, 'tmdb_show'), (92411, 'tmdb_show'), (92231, 'tmdb_show'), (92040, 'tmdb_show'), (90764, 'tmdb_show'), (90453, 'tmdb_show'), (88736, 'tmdb_show'), (77167, 'tmdb_show'), (75087, 'tmdb_show'), (73446, 'tmdb_show'), (73083, 'tmdb_show'), (72988, 'tmdb_show'), (68191, 'tmdb_show'), (65821, 'tmdb_show'), (62220, 'tmdb_show'), (49969, 'tmdb_show'), (46765, 'tmdb_show'), (43709, 'tmdb_show'), (42281, 'tmdb_show'), (40062, 'tmdb_show'), (40055, 'tmdb_show'), (37483, 'tmdb_show'), (32319, 'tmdb_show'), (31918, 'tmdb_show'), (31671, 'tmdb_show'), (30840, 'tmdb_show'), (29869, 'tmdb_show'), (29101, 'tmdb_show'), (27569, 'tmdb_show'), (27363, 'tmdb_show'), (27082, 'tmdb_show'), (27079, 'tmdb_show'), (24937, 'tmdb_show'), (24347, 'tmdb_show'), (23057, 'tmdb_show'), (22735, 'tmdb_show'), (22643, 'tmdb_show'), (21120, 'tmdb_show'), (20701, 'tmdb_show'), (18803, 'tmdb_show'), (16687, 'tmdb_show'), (15323, 'tmdb_show'), (14353, 'tmdb_show'), (14220, 'tmdb_show'), (13741, 'tmdb_show'), (13240, 'tmdb_show'), (13009, 'tmdb_show')] |
-[2022-10-28 01:41:06,840] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:06,959] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 20457                                                 |
-[2022-10-28 01:41:07,077] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79260                                                 |
-[2022-10-28 01:41:07,185] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 209650                                                |
-[2022-10-28 01:41:07,303] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155185                                                |
-[2022-10-28 01:41:07,410] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206019                                                |
-[2022-10-28 01:41:07,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 25458                                                 |
-[2022-10-28 01:41:07,650] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77685                                                 |
-[2022-10-28 01:41:07,755] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 100892                                                |
-[2022-10-28 01:41:07,872] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 81110                                                 |
-[2022-10-28 01:41:08,002] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 44776                                                 |
-[2022-10-28 01:41:08,108] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206097                                                |
-[2022-10-28 01:41:08,239] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 85067                                                 |
-[2022-10-28 01:41:08,347] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 71856                                                 |
-[2022-10-28 01:41:08,451] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 120523                                                |
-[2022-10-28 01:41:08,555] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4691                                                  |
-[2022-10-28 01:41:08,698] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116089                                                |
-[2022-10-28 01:41:08,797] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92608                                                 |
-[2022-10-28 01:41:08,913] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 154006                                                |
-[2022-10-28 01:41:09,018] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 152316                                                |
-[2022-10-28 01:41:09,117] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 125919                                                |
-[2022-10-28 01:41:09,225] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 122362                                                |
-[2022-10-28 01:41:09,331] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119839                                                |
-[2022-10-28 01:41:09,440] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116720                                                |
-[2022-10-28 01:41:09,542] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101470                                                |
-[2022-10-28 01:41:09,651] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92411                                                 |
-[2022-10-28 01:41:09,756] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 73446                                                 |
-[2022-10-28 01:41:09,872] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 73083                                                 |
-[2022-10-28 01:41:09,985] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72988                                                 |
-[2022-10-28 01:41:10,091] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43709                                                 |
-[2022-10-28 01:41:10,191] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42281                                                 |
-[2022-10-28 01:41:10,302] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 40062                                                 |
-[2022-10-28 01:41:10,406] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 40055                                                 |
-[2022-10-28 01:41:10,506] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31918                                                 |
-[2022-10-28 01:41:10,617] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31671                                                 |
-[2022-10-28 01:41:10,716] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 30840                                                 |
-[2022-10-28 01:41:10,816] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29869                                                 |
-[2022-10-28 01:41:10,917] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 27363                                                 |
-[2022-10-28 01:41:11,038] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23057                                                 |
-[2022-10-28 01:41:11,135] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21120                                                 |
-[2022-10-28 01:41:11,229] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 20701                                                 |
-[2022-10-28 01:41:11,329] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18803                                                 |
-[2022-10-28 01:41:11,428] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15323                                                 |
-[2022-10-28 01:41:11,554] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14353                                                 |
-[2022-10-28 01:41:11,685] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14220                                                 |
-[2022-10-28 01:41:11,799] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13741                                                 |
-[2022-10-28 01:41:11,904] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13240                                                 |
-[2022-10-28 01:41:11,905] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:11,906] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for HGTV Collection                                                  |
-[2022-10-28 01:41:11,906] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:11,906] [util.py:216]               [INFO]     |================================= Missing Shows from Library: HGTV =================================|
-[2022-10-28 01:41:11,907] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:14,683] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters International (TVDB: 183411)                                   |
-[2022-10-28 01:41:18,167] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters (TVDB: 73182)                                                  |
-[2022-10-28 01:41:18,585] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flea Market Flip (TVDB: 262644)                                              |
-[2022-10-28 01:41:18,881] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Good Bones (TVDB: 309057)                                                    |
-[2022-10-28 01:41:19,349] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My Lottery Dream Home (TVDB: 322630)                                         |
-[2022-10-28 01:41:19,831] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers: Forever Home (TVDB: 360123)                               |
-[2022-10-28 01:41:20,288] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop (TVDB: 276812)                                                  |
-[2022-10-28 01:41:20,520] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Help! I Wrecked My House (TVDB: 387269)                                      |
-[2022-10-28 01:41:20,972] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers (TVDB: 254292)                                             |
-[2022-10-28 01:41:21,170] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Saving the Manor (TVDB: 425255)                                              |
-[2022-10-28 01:41:21,669] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Love It or List It (TVDB: 262419)                                            |
-[2022-10-28 01:41:22,042] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fixer Upper (TVDB: 281053)                                                   |
-[2022-10-28 01:41:22,281] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Supermarket Stakeout (TVDB: 367769)                                          |
-[2022-10-28 01:41:22,491] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fixer to Fabulous (TVDB: 370883)                                             |
-[2022-10-28 01:41:22,689] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Farmhouse Fixer (TVDB: 396299)                                               |
-[2022-10-28 01:41:22,941] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Designed to Sell (TVDB: 275678)                                              |
-[2022-10-28 01:41:23,534] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beachfront Bargain Hunt (TVDB: 275886)                                       |
-[2022-10-28 01:41:23,775] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Celebrity IOU (TVDB: 378550)                                                 |
-[2022-10-28 01:41:24,049] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Leave it to Bryan (TVDB: 267612)                                             |
-[2022-10-28 01:41:24,231] [builder.py:1982]           [INFO]     | HGTV Collection | ? | No Demo Reno (TVDB: 397827)                                                  |
-[2022-10-28 01:41:24,398] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip It to Win It (TVDB: 279624)                                             |
-[2022-10-28 01:41:24,655] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Carol Duvall Show (TVDB: 256363)                                         |
-[2022-10-28 01:41:24,949] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers: Buying and Selling (TVDB: 261623)                         |
-[2022-10-28 01:41:25,152] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hidden Potential (2018) (TVDB: 347686)                                       |
-[2022-10-28 01:41:25,314] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Urban Outsiders (TVDB: 131351)                                               |
-[2022-10-28 01:41:25,846] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Caribbean Life (TVDB: 280394)                                                |
-[2022-10-28 01:41:26,097] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bahamas Life (TVDB: 346347)                                                  |
-[2022-10-28 01:41:26,146] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 165721                              |
-[2022-10-28 01:41:26,333] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling the Big Easy (TVDB: 379916)                                          |
-[2022-10-28 01:41:26,562] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Battle on the Beach (TVDB: 405307)                                           |
-[2022-10-28 01:41:26,778] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Unsellable Houses (TVDB: 376538)                                             |
-[2022-10-28 01:41:27,067] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Brother vs. Brother (TVDB: 271857)                                           |
-[2022-10-28 01:41:27,341] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Town (TVDB: 325186)                                                     |
-[2022-10-28 01:41:27,624] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mexico Life (TVDB: 329514)                                                   |
-[2022-10-28 01:41:27,813] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mediterranean Life (TVDB: 380500)                                            |
-[2022-10-28 01:41:28,279] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Virgins (TVDB: 93351)                                               |
-[2022-10-28 01:41:28,623] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Holmes on Homes (TVDB: 80258)                                                |
-[2022-10-28 01:41:29,042] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Yard Crashers (TVDB: 111281)                                                 |
-[2022-10-28 01:41:29,286] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beachfront Bargain Hunt: Renovation (TVDB: 315689)                           |
-[2022-10-28 01:41:29,503] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Curb Appeal: The Block (TVDB: 365990)                                        |
-[2022-10-28 01:41:29,709] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bargain Block (TVDB: 398973)                                                 |
-[2022-10-28 01:41:29,941] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Kidspace (TVDB: 248454)                                                      |
-[2022-10-28 01:41:30,133] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Outgrown (TVDB: 410140)                                                      |
-[2022-10-28 01:41:30,309] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rehab Addict Rescue (TVDB: 393517)                                           |
-[2022-10-28 01:41:30,495] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Consumed (TVDB: 251918)                                                      |
-[2022-10-28 01:41:30,723] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Holmes Inspection (TVDB: 117701)                                             |
-[2022-10-28 01:41:30,938] [builder.py:1982]           [INFO]     | HGTV Collection | ? | World's Most Extreme Homes (TVDB: 83208)                                     |
-[2022-10-28 01:41:31,123] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Brothers Take New Orleans (TVDB: 319660)                                     |
-[2022-10-28 01:41:31,350] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Designing For The Sexes (TVDB: 71540)                                        |
-[2022-10-28 01:41:31,812] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters Renovation (TVDB: 262643)                                      |
-[2022-10-28 01:41:32,011] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling LA (TVDB: 256025)                                                    |
-[2022-10-28 01:41:32,473] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Island Life (TVDB: 290645)                                                   |
-[2022-10-28 01:41:32,639] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tough Love with Hilary Farr (TVDB: 413700)                                   |
-[2022-10-28 01:41:33,067] [builder.py:1982]           [INFO]     | HGTV Collection | ? | HGTV Star (TVDB: 106691)                                                     |
-[2022-10-28 01:41:33,269] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Living With Ed (TVDB: 83624)                                                 |
-[2022-10-28 01:41:33,438] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Great Giveback with Melissa and Jenna (TVDB: 421819)                     |
-[2022-10-28 01:41:33,620] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Cousins Undercover (TVDB: 274409)                                            |
-[2022-10-28 01:41:33,831] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping 101 with Tarek El Moussa (TVDB: 369974)                             |
-[2022-10-28 01:41:34,056] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Christina on the Coast (TVDB: 361948)                                        |
-[2022-10-28 01:41:34,350] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beach Hunters (TVDB: 331581)                                                 |
-[2022-10-28 01:41:34,564] [builder.py:1982]           [INFO]     | HGTV Collection | ? | 100 Day Dream Home (TVDB: 374810)                                            |
-[2022-10-28 01:41:34,797] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rock the Block (TVDB: 369775)                                                |
-[2022-10-28 01:41:34,993] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ugliest House in America (TVDB: 414194)                                      |
-[2022-10-28 01:41:35,237] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Divine Design (TVDB: 78977)                                                  |
-[2022-10-28 01:41:35,460] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Decked Out (TVDB: 267095)                                                    |
-[2022-10-28 01:41:35,945] [builder.py:1982]           [INFO]     | HGTV Collection | ? | HGTV Dream Home (TVDB: 342096)                                               |
-[2022-10-28 01:41:36,132] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Inside Out (TVDB: 401073)                                                    |
-[2022-10-28 01:41:36,356] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Martha Knows Best (TVDB: 386115)                                             |
-[2022-10-28 01:41:36,549] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Supersize My Pool (TVDB: 366311)                                             |
-[2022-10-28 01:41:36,721] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip to a Million (TVDB: 423097)                                             |
-[2022-10-28 01:41:37,006] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling New York (TVDB: 215131)                                              |
-[2022-10-28 01:41:37,337] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bang for your Buck (TVDB: 274977)                                            |
-[2022-10-28 01:41:37,634] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design on a Dime (TVDB: 72804)                                               |
-[2022-10-28 01:41:37,801] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Move and Improve (TVDB: 375496)                                              |
-[2022-10-28 01:41:37,965] [builder.py:1982]           [INFO]     | HGTV Collection | ? | City vs. Burbs (TVDB: 365800)                                                |
-[2022-10-28 01:41:38,125] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Perfect Place (TVDB: 424652)                                             |
-[2022-10-28 01:41:38,313] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling London (TVDB: 259568)                                                |
-[2022-10-28 01:41:38,663] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Love It or List It, Too (TVDB: 274555)                                       |
-[2022-10-28 01:41:38,894] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Dear Genevieve (TVDB: 255731)                                                |
-[2022-10-28 01:41:39,057] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Buy It or Build It (TVDB: 420797)                                            |
-[2022-10-28 01:41:39,223] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Homes Across America (TVDB: 423841)                                          |
-[2022-10-28 01:41:39,366] [builder.py:1982]           [INFO]     | HGTV Collection | ? | 24 Hour Design (TVDB: 423884)                                                |
-[2022-10-28 01:41:39,592] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tiny Luxury (TVDB: 314102)                                                   |
-[2022-10-28 01:41:39,782] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Nate & Jeremiah Home Project (TVDB: 411030)                              |
-[2022-10-28 01:41:39,960] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Follow-Up (TVDB: 404165)                                        |
-[2022-10-28 01:41:40,130] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My Lottery Dream Home International (TVDB: 379557)                           |
-[2022-10-28 01:41:40,283] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ultimate Pools (TVDB: 343210)                                                |
-[2022-10-28 01:41:40,417] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Landscapers' Challenge (TVDB: 423840)                                        |
-[2022-10-28 01:41:40,625] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Curb Appeal Xtreme (TVDB: 409778)                                            |
-[2022-10-28 01:41:40,857] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Timber Kings (TVDB: 276963)                                                  |
-[2022-10-28 01:41:41,049] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Houses with History (TVDB: 410764)                                           |
-[2022-10-28 01:41:41,247] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping Across America (TVDB: 384926)                                       |
-[2022-10-28 01:41:41,631] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Income Property (TVDB: 233341)                                               |
-[2022-10-28 01:41:41,858] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Windy City Rehab (TVDB: 356798)                                              |
-[2022-10-28 01:41:42,057] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Aloha Builds (TVDB: 352562)                                                  |
-[2022-10-28 01:41:42,238] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Fort Worth (TVDB: 330189)                                       |
-[2022-10-28 01:41:42,375] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Good Buy, Bad Buy? (TVDB: 423846)                                            |
-[2022-10-28 01:41:42,594] [builder.py:1982]           [INFO]     | HGTV Collection | ? | A Very Brady Renovation (TVDB: 355474)                                       |
-[2022-10-28 01:41:42,825] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Where Are They Now? (TVDB: 329819)                            |
-[2022-10-28 01:41:43,039] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Outside the Box (TVDB: 339231)                                |
-[2022-10-28 01:41:43,212] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Happily Wherever (TVDB: 402385)                                              |
-[2022-10-28 01:41:43,374] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Container Homes (TVDB: 343414)                                               |
-[2022-10-28 01:41:43,566] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hot Properties: San Diego (TVDB: 371687)                                     |
-[2022-10-28 01:41:43,758] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Welcome Back Potter (TVDB: 318405)                                           |
-[2022-10-28 01:41:43,930] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bargain Block: Bargain Buys (TVDB: 423129)                                   |
-[2022-10-28 01:41:44,113] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Genevieve's Renovation (TVDB: 288421)                                        |
-[2022-10-28 01:41:44,277] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hunting Vintage (TVDB: 314364)                                               |
-[2022-10-28 01:41:44,447] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rustic Rehab (TVDB: 351686)                                                  |
-[2022-10-28 01:41:44,603] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Lil Jon Wants to Do What? (TVDB: 420027)                                     |
-[2022-10-28 01:41:44,743] [builder.py:1982]           [INFO]     | HGTV Collection | ? | I Bought A Dump... Now What? (TVDB: 424600)                                  |
-[2022-10-28 01:41:44,914] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Building Roots (TVDB: 418879)                                                |
-[2022-10-28 01:41:45,078] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Why the Heck Did I Buy This House? (TVDB: 418661)                            |
-[2022-10-28 01:41:45,247] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fix My Flip (TVDB: 417745)                                                   |
-[2022-10-28 01:41:45,438] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beach Flip (TVDB: 297159)                                                    |
-[2022-10-28 01:41:45,636] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Inspector Joe (TVDB: 414848)                                            |
-[2022-10-28 01:41:45,802] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Married to Real Estate (TVDB: 414522)                                        |
-[2022-10-28 01:41:45,975] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Going Yard (TVDB: 285103)                                                    |
-[2022-10-28 01:41:46,164] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rehab Addict Detroit (TVDB: 302839)                                          |
-[2022-10-28 01:41:46,354] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters Family (TVDB: 332934)                                          |
-[2022-10-28 01:41:46,554] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Two Steps Home (TVDB: 402477)                                                |
-[2022-10-28 01:41:46,722] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Best House on the Block (TVDB: 355283)                                       |
-[2022-10-28 01:41:46,904] [builder.py:1982]           [INFO]     | HGTV Collection | ? | $50K Three Ways (TVDB: 401818)                                               |
-[2022-10-28 01:41:47,107] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Town Takeover (TVDB: 392433)                                            |
-[2022-10-28 01:41:47,163] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 122200                              |
-[2022-10-28 01:41:47,340] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Everything But the House (TVDB: 397881)                                      |
-[2022-10-28 01:41:47,516] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ty Breaker (TVDB: 390061)                                                    |
-[2022-10-28 01:41:47,708] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Comedians on Couches (TVDB: 383132)                           |
-[2022-10-28 01:41:47,929] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Renovation, Inc (TVDB: 387692)                                               |
-[2022-10-28 01:41:48,106] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Build Me Up (TVDB: 385784)                                                   |
-[2022-10-28 01:41:48,304] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design At Your Door (TVDB: 383807)                                           |
-[2022-10-28 01:41:48,493] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mountain Mamas (TVDB: 367941)                                                |
-[2022-10-28 01:41:48,704] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping Virgins (TVDB: 322976)                                              |
-[2022-10-28 01:41:48,883] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Pool Hunters (TVDB: 366124)                                                  |
-[2022-10-28 01:41:49,052] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Say Yes to the Nest (TVDB: 357743)                                           |
-[2022-10-28 01:41:49,274] [builder.py:1982]           [INFO]     | HGTV Collection | ? | One of a Kind (TVDB: 361078)                                                 |
-[2022-10-28 01:41:49,480] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Nashville (TVDB: 335992)                                        |
-[2022-10-28 01:41:49,778] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tiny House, Big Living (TVDB: 289431)                                        |
-[2022-10-28 01:41:50,179] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hawaii Life (TVDB: 273131)                                                   |
-[2022-10-28 01:41:50,413] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ellen's Design Challenge (TVDB: 291272)                                      |
-[2022-10-28 01:41:50,579] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Donna Decorates Dallas (TVDB: 292986)                                        |
-[2022-10-28 01:41:50,812] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Million Dollar Rooms (TVDB: 258527)                                          |
-[2022-10-28 01:41:51,021] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Canada's Handyman Challenge (TVDB: 255105)                                   |
-[2022-10-28 01:41:51,184] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design School (TVDB: 166271)                                                 |
-[2022-10-28 01:41:51,355] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Antonio Treatment (TVDB: 189601)                                         |
-[2022-10-28 01:41:51,860] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Renovation Realities (TVDB: 104191)                                          |
-[2022-10-28 01:41:52,011] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My House Is Worth What? (TVDB: 423809)                                       |
-[2022-10-28 01:41:52,178] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Carter Can (TVDB: 164071)                                                    |
-[2022-10-28 01:41:52,378] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Color Correction (TVDB: 404301)                                              |
-[2022-10-28 01:41:52,531] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Takeover My Makeover (TVDB: 423886)                                          |
-[2022-10-28 01:41:52,668] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Weekend Warriors (TVDB: 423813)                                              |
-[2022-10-28 01:41:52,818] [builder.py:1982]           [INFO]     | HGTV Collection | ? | National Open House (TVDB: 423811)                                           |
-[2022-10-28 01:41:52,976] [builder.py:1982]           [INFO]     | HGTV Collection | ? | reDesign (TVDB: 423843)                                                      |
-[2022-10-28 01:41:53,338] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Color Splash (TVDB: 131921)                                                  |
-[2022-10-28 01:41:53,637] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Buy Me (TVDB: 80492)                                                         |
-[2022-10-28 01:41:53,637] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,638] [builder.py:1987]           [INFO]     | 152 Shows Missing                                                                                  |
-[2022-10-28 01:41:53,807] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,807] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:41:53,807] [util.py:216]               [INFO]     |                                      Finished HGTV Collection                                      |
-[2022-10-28 01:41:53,808] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:48                                    |
-[2022-10-28 01:41:53,808] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 12:29:29,370] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 12:29:29,370] [util.py:216]               [INFO]     |                                    HGTV Collection in TV Shows                                     |
+[2022-11-06 12:29:29,371] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 12:29:29,371] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 12:29:29,372] [util.py:216]               [INFO]     |==================================== Validating HGTV Attributes ====================================|
+[2022-11-06 12:29:29,372] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,372] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 12:29:29,373] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 210), ('poster', 'https://theposterdb.com/api/assets/98967')]) |
+[2022-11-06 12:29:29,373] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,373] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 12:29:29,374] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 12:29:29,374] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,374] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 12:29:29,374] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-06 12:29:29,374] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,375] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-06 12:29:29,375] [builder.py:474]            [DEBUG]    | Value: 210                                                                                         |
+[2022-11-06 12:29:29,512] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,512] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 12:29:29,512] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/98967                                                    |
+[2022-11-06 12:29:29,513] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,513] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 12:29:29,513] [builder.py:474]            [DEBUG]    | Value: +2_HGTV                                                                                     |
+[2022-11-06 12:29:29,516] [plex.py:687]               [DEBUG]    | Looking for: HGTV                                                                                  |
+[2022-11-06 12:29:29,516] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 12:29:29,517] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 12:29:29,518] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 12:29:29,518] [util.py:216]               [INFO]     |===================================== Running HGTV Collection ======================================|
+[2022-11-06 12:29:29,519] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 12:29:29,519] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 12:29:29,519] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:29,519] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 210                                                                         |
+[2022-11-06 12:29:29,519] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 12:29:30,800] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (210) HGTV (200 Shows)                                                    |
+[2022-11-06 12:29:30,800] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:30,801] [builder.py:1283]           [DEBUG]    | 200 IDs Found: [(29173, 'tmdb_show'), (10619, 'tmdb_show'), (6480, 'tmdb_show'), (62618, 'tmdb_show'), (35058, 'tmdb_show'), (89724, 'tmdb_show'), (77684, 'tmdb_show'), (69950, 'tmdb_show'), (33927, 'tmdb_show'), (60911, 'tmdb_show'), (77685, 'tmdb_show'), (71956, 'tmdb_show'), (44182, 'tmdb_show'), (59772, 'tmdb_show'), (71359, 'tmdb_show'), (109611, 'tmdb_show'), (79895, 'tmdb_show'), (83466, 'tmdb_show'), (100347, 'tmdb_show'), (92609, 'tmdb_show'), (67392, 'tmdb_show'), (13512, 'tmdb_show'), (88286, 'tmdb_show'), (211976, 'tmdb_show'), (121930, 'tmdb_show'), (94521, 'tmdb_show'), (88962, 'tmdb_show'), (57758, 'tmdb_show'), (72775, 'tmdb_show'), (76632, 'tmdb_show'), (19358, 'tmdb_show'), (24347, 'tmdb_show'), (206019, 'tmdb_show'), (18049, 'tmdb_show'), (119332, 'tmdb_show'), (89866, 'tmdb_show'), (26058, 'tmdb_show'), (80076, 'tmdb_show'), (43912, 'tmdb_show'), (120298, 'tmdb_show'), (37135, 'tmdb_show'), (118092, 'tmdb_show'), (20457, 'tmdb_show'), (123773, 'tmdb_show'), (11575, 'tmdb_show'), (154775, 'tmdb_show'), (209650, 'tmdb_show'), (13502, 'tmdb_show'), (85067, 'tmdb_show'), (115064, 'tmdb_show'), (135921, 'tmdb_show'), (105692, 'tmdb_show'), (31134, 'tmdb_show'), (69058, 'tmdb_show'), (73446, 'tmdb_show'), (21120, 'tmdb_show'), (133191, 'tmdb_show'), (75840, 'tmdb_show'), (25136, 'tmdb_show'), (135202, 'tmdb_show'), (81110, 'tmdb_show'), (94702, 'tmdb_show'), (128984, 'tmdb_show'), (37364, 'tmdb_show'), (55493, 'tmdb_show'), (72988, 'tmdb_show'), (21923, 'tmdb_show'), (25458, 'tmdb_show'), (79260, 'tmdb_show'), (88736, 'tmdb_show'), (46765, 'tmdb_show'), (30139, 'tmdb_show'), (12261, 'tmdb_show'), (101470, 'tmdb_show'), (119839, 'tmdb_show'), (108390, 'tmdb_show'), (44776, 'tmdb_show'), (121266, 'tmdb_show'), (92231, 'tmdb_show'), (71856, 'tmdb_show'), (202377, 'tmdb_show'), (74413, 'tmdb_show'), (67044, 'tmdb_show'), (13319, 'tmdb_show'), (117004, 'tmdb_show'), (125947, 'tmdb_show'), (122200, 'tmdb_show'), (204042, 'tmdb_show'), (125187, 'tmdb_show'), (68191, 'tmdb_show'), (86385, 'tmdb_show'), (124386, 'tmdb_show'), (29101, 'tmdb_show'), (62220, 'tmdb_show'), (75637, 'tmdb_show'), (209965, 'tmdb_show'), (29869, 'tmdb_show'), (123075, 'tmdb_show'), (116367, 'tmdb_show'), (16687, 'tmdb_show'), (209116, 'tmdb_show'), (197140, 'tmdb_show'), (25168, 'tmdb_show'), (100892, 'tmdb_show'), (14709, 'tmdb_show'), (207504, 'tmdb_show'), (17405, 'tmdb_show'), (61261, 'tmdb_show'), (154033, 'tmdb_show'), (128514, 'tmdb_show'), (43533, 'tmdb_show'), (60636, 'tmdb_show'), (71934, 'tmdb_show'), (101735, 'tmdb_show'), (117365, 'tmdb_show'), (155185, 'tmdb_show'), (158777, 'tmdb_show'), (20701, 'tmdb_show'), (134693, 'tmdb_show'), (124300, 'tmdb_show'), (114637, 'tmdb_show'), (125136, 'tmdb_show'), (65821, 'tmdb_show'), (116089, 'tmdb_show'), (117080, 'tmdb_show'), (29967, 'tmdb_show'), (24303, 'tmdb_show'), (77167, 'tmdb_show'), (132942, 'tmdb_show'), (49969, 'tmdb_show'), (210035, 'tmdb_show'), (209974, 'tmdb_show'), (209899, 'tmdb_show'), (208962, 'tmdb_show'), (208824, 'tmdb_show'), (208815, 'tmdb_show'), (208756, 'tmdb_show'), (206097, 'tmdb_show'), (201248, 'tmdb_show'), (201134, 'tmdb_show'), (197403, 'tmdb_show'), (196674, 'tmdb_show'), (155935, 'tmdb_show'), (155024, 'tmdb_show'), (154006, 'tmdb_show'), (152557, 'tmdb_show'), (152316, 'tmdb_show'), (135593, 'tmdb_show'), (125919, 'tmdb_show'), (125870, 'tmdb_show'), (122362, 'tmdb_show'), (120523, 'tmdb_show'), (116720, 'tmdb_show'), (106748, 'tmdb_show'), (106186, 'tmdb_show'), (104791, 'tmdb_show'), (104304, 'tmdb_show'), (93450, 'tmdb_show'), (92608, 'tmdb_show'), (92411, 'tmdb_show'), (92040, 'tmdb_show'), (91103, 'tmdb_show'), (90764, 'tmdb_show'), (90559, 'tmdb_show'), (90453, 'tmdb_show'), (82285, 'tmdb_show'), (75842, 'tmdb_show'), (75087, 'tmdb_show'), (73083, 'tmdb_show'), (63363, 'tmdb_show'), (60997, 'tmdb_show'), (43709, 'tmdb_show'), (42281, 'tmdb_show'), (40062, 'tmdb_show'), (40055, 'tmdb_show'), (37483, 'tmdb_show'), (33075, 'tmdb_show'), (32319, 'tmdb_show'), (31918, 'tmdb_show'), (31671, 'tmdb_show'), (30840, 'tmdb_show'), (27569, 'tmdb_show'), (27363, 'tmdb_show'), (27082, 'tmdb_show'), (27079, 'tmdb_show'), (24937, 'tmdb_show'), (24188, 'tmdb_show'), (23057, 'tmdb_show'), (22735, 'tmdb_show'), (22643, 'tmdb_show'), (22328, 'tmdb_show'), (18803, 'tmdb_show'), (16600, 'tmdb_show'), (15323, 'tmdb_show'), (14353, 'tmdb_show'), (14220, 'tmdb_show'), (13741, 'tmdb_show'), (13240, 'tmdb_show'), (13009, 'tmdb_show'), (4691, 'tmdb_show')] |
+[2022-11-06 12:29:30,801] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:29:30,920] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77685                                                 |
+[2022-11-06 12:29:31,055] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206019                                                |
+[2022-11-06 12:29:31,196] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 20457                                                 |
+[2022-11-06 12:29:31,296] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 209650                                                |
+[2022-11-06 12:29:31,408] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 85067                                                 |
+[2022-11-06 12:29:31,525] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 73446                                                 |
+[2022-11-06 12:29:31,624] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 21120                                                 |
+[2022-11-06 12:29:31,739] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 81110                                                 |
+[2022-11-06 12:29:31,857] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72988                                                 |
+[2022-11-06 12:29:32,036] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 25458                                                 |
+[2022-11-06 12:29:32,158] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 79260                                                 |
+[2022-11-06 12:29:32,272] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101470                                                |
+[2022-11-06 12:29:32,387] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119839                                                |
+[2022-11-06 12:29:32,495] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 44776                                                 |
+[2022-11-06 12:29:32,628] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 71856                                                 |
+[2022-11-06 12:29:32,734] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29869                                                 |
+[2022-11-06 12:29:32,863] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 100892                                                |
+[2022-11-06 12:29:32,965] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155185                                                |
+[2022-11-06 12:29:33,072] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 20701                                                 |
+[2022-11-06 12:29:33,185] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116089                                                |
+[2022-11-06 12:29:33,623] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206097                                                |
+[2022-11-06 12:29:33,763] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 154006                                                |
+[2022-11-06 12:29:33,857] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 152316                                                |
+[2022-11-06 12:29:33,965] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 125919                                                |
+[2022-11-06 12:29:34,063] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 122362                                                |
+[2022-11-06 12:29:34,165] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 120523                                                |
+[2022-11-06 12:29:34,262] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116720                                                |
+[2022-11-06 12:29:34,371] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92608                                                 |
+[2022-11-06 12:29:34,485] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92411                                                 |
+[2022-11-06 12:29:34,604] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 73083                                                 |
+[2022-11-06 12:29:34,725] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 43709                                                 |
+[2022-11-06 12:29:34,848] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42281                                                 |
+[2022-11-06 12:29:34,975] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 40062                                                 |
+[2022-11-06 12:29:35,093] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 40055                                                 |
+[2022-11-06 12:29:35,215] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31918                                                 |
+[2022-11-06 12:29:35,328] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31671                                                 |
+[2022-11-06 12:29:35,436] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 30840                                                 |
+[2022-11-06 12:29:35,546] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 27363                                                 |
+[2022-11-06 12:29:35,655] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23057                                                 |
+[2022-11-06 12:29:35,762] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 18803                                                 |
+[2022-11-06 12:29:35,868] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 15323                                                 |
+[2022-11-06 12:29:35,970] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14353                                                 |
+[2022-11-06 12:29:36,092] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 14220                                                 |
+[2022-11-06 12:29:36,214] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13741                                                 |
+[2022-11-06 12:29:37,332] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13240                                                 |
+[2022-11-06 12:29:37,435] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4691                                                  |
+[2022-11-06 12:29:37,436] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-06 12:29:37,436] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for HGTV Collection                                                  |
+[2022-11-06 12:29:37,436] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-06 12:29:37,437] [util.py:216]               [INFO]     |================================= Missing Shows from Library: HGTV =================================|
+[2022-11-06 12:29:37,437] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-06 12:29:40,077] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters International (TVDB: 183411)                                   |
+[2022-11-06 12:29:40,361] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Designed to Sell (TVDB: 275678)                                              |
+[2022-11-06 12:29:43,611] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters (TVDB: 73182)                                                  |
+[2022-11-06 12:29:44,015] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop (TVDB: 276812)                                                  |
+[2022-11-06 12:29:44,461] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers (TVDB: 254292)                                             |
+[2022-11-06 12:29:44,870] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers: Forever Home (TVDB: 360123)                               |
+[2022-11-06 12:29:45,264] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My Lottery Dream Home (TVDB: 322630)                                         |
+[2022-11-06 12:29:45,739] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Caribbean Life (TVDB: 280394)                                                |
+[2022-11-06 12:29:46,251] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Love It or List It (TVDB: 262419)                                            |
+[2022-11-06 12:29:46,616] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fixer Upper (TVDB: 281053)                                                   |
+[2022-11-06 12:29:46,919] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Good Bones (TVDB: 309057)                                                    |
+[2022-11-06 12:29:47,258] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Leave it to Bryan (TVDB: 267612)                                             |
+[2022-11-06 12:29:47,633] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flea Market Flip (TVDB: 262644)                                              |
+[2022-11-06 12:29:47,918] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Town (TVDB: 325186)                                                     |
+[2022-11-06 12:29:48,135] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Help! I Wrecked My House (TVDB: 387269)                                      |
+[2022-11-06 12:29:48,394] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beach Hunters (TVDB: 331581)                                                 |
+[2022-11-06 12:29:48,642] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bahamas Life (TVDB: 346347)                                                  |
+[2022-11-06 12:29:48,887] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Celebrity IOU (TVDB: 378550)                                                 |
+[2022-11-06 12:29:49,134] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Supermarket Stakeout (TVDB: 367769)                                          |
+[2022-11-06 12:29:49,411] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Brothers: Buying and Selling (TVDB: 261623)                         |
+[2022-11-06 12:29:49,653] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Designing For The Sexes (TVDB: 71540)                                        |
+[2022-11-06 12:29:49,900] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mediterranean Life (TVDB: 380500)                                            |
+[2022-11-06 12:29:50,102] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Saving the Manor (TVDB: 425255)                                              |
+[2022-11-06 12:29:50,317] [builder.py:1982]           [INFO]     | HGTV Collection | ? | No Demo Reno (TVDB: 397827)                                                  |
+[2022-11-06 12:29:50,532] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fixer to Fabulous (TVDB: 370883)                                             |
+[2022-11-06 12:29:50,803] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mexico Life (TVDB: 329514)                                                   |
+[2022-11-06 12:29:51,088] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Brother vs. Brother (TVDB: 271857)                                           |
+[2022-11-06 12:29:51,420] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beachfront Bargain Hunt: Renovation (TVDB: 315689)                           |
+[2022-11-06 12:29:51,996] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beachfront Bargain Hunt (TVDB: 275886)                                       |
+[2022-11-06 12:29:52,260] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Carol Duvall Show (TVDB: 256363)                                         |
+[2022-11-06 12:29:52,392] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Weekend Warriors (TVDB: 423813)                                              |
+[2022-11-06 12:29:52,852] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Property Virgins (TVDB: 93351)                                               |
+[2022-11-06 12:29:53,088] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Farmhouse Fixer (TVDB: 396299)                                               |
+[2022-11-06 12:29:53,369] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Christina on the Coast (TVDB: 361948)                                        |
+[2022-11-06 12:29:53,424] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 165721                              |
+[2022-11-06 12:29:53,619] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hidden Potential (2018) (TVDB: 347686)                                       |
+[2022-11-06 12:29:53,839] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Decked Out (TVDB: 267095)                                                    |
+[2022-11-06 12:29:54,034] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Unsellable Houses (TVDB: 376538)                                             |
+[2022-11-06 12:29:54,427] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Yard Crashers (TVDB: 111281)                                                 |
+[2022-11-06 12:29:54,597] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rehab Addict Rescue (TVDB: 393517)                                           |
+[2022-11-06 12:29:54,842] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Curb Appeal: The Block (TVDB: 365990)                                        |
+[2022-11-06 12:29:55,151] [builder.py:1982]           [INFO]     | HGTV Collection | ? | HGTV Star (TVDB: 106691)                                                     |
+[2022-11-06 12:29:55,366] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ugliest House in America (TVDB: 414194)                                      |
+[2022-11-06 12:29:55,617] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Divine Design (TVDB: 78977)                                                  |
+[2022-11-06 12:29:55,858] [builder.py:1982]           [INFO]     | HGTV Collection | ? | 100 Day Dream Home (TVDB: 374810)                                            |
+[2022-11-06 12:29:56,062] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Nate & Jeremiah Home Project (TVDB: 411030)                              |
+[2022-11-06 12:29:56,237] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping Across America (TVDB: 384926)                                       |
+[2022-11-06 12:29:56,450] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Holmes Inspection (TVDB: 117701)                                             |
+[2022-11-06 12:29:56,630] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Brothers Take New Orleans (TVDB: 319660)                                     |
+[2022-11-06 12:29:56,812] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Curb Appeal Xtreme (TVDB: 409778)                                            |
+[2022-11-06 12:29:56,993] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Fort Worth (TVDB: 330189)                                       |
+[2022-11-06 12:29:57,222] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Kidspace (TVDB: 248454)                                                      |
+[2022-11-06 12:29:57,385] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Houses with History (TVDB: 410764)                                           |
+[2022-11-06 12:29:57,598] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rock the Block (TVDB: 369775)                                                |
+[2022-11-06 12:29:57,839] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Battle on the Beach (TVDB: 405307)                                           |
+[2022-11-06 12:29:58,277] [builder.py:1982]           [INFO]     | HGTV Collection | ? | HGTV Dream Home (TVDB: 342096)                                               |
+[2022-11-06 12:29:58,747] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters Renovation (TVDB: 262643)                                      |
+[2022-11-06 12:29:58,935] [builder.py:1982]           [INFO]     | HGTV Collection | ? | World's Most Extreme Homes (TVDB: 83208)                                     |
+[2022-11-06 12:29:59,123] [builder.py:1982]           [INFO]     | HGTV Collection | ? | One of a Kind (TVDB: 361078)                                                 |
+[2022-11-06 12:29:59,374] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Canada's Handyman Challenge (TVDB: 255105)                                   |
+[2022-11-06 12:29:59,540] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Landscapers' Challenge (TVDB: 423840)                                        |
+[2022-11-06 12:29:59,914] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Holmes on Homes (TVDB: 80258)                                                |
+[2022-11-06 12:30:00,148] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Renovation, Inc (TVDB: 387692)                                               |
+[2022-11-06 12:30:00,312] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Everything But the House (TVDB: 397881)                                      |
+[2022-11-06 12:30:00,490] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Mountain Mamas (TVDB: 367941)                                                |
+[2022-11-06 12:30:00,667] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Buy It or Build It (TVDB: 420797)                                            |
+[2022-11-06 12:30:01,137] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Island Life (TVDB: 290645)                                                   |
+[2022-11-06 12:30:01,373] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tiny Luxury (TVDB: 314102)                                                   |
+[2022-11-06 12:30:01,709] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design on a Dime (TVDB: 72804)                                               |
+[2022-11-06 12:30:01,953] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping 101 with Tarek El Moussa (TVDB: 369974)                             |
+[2022-11-06 12:30:02,123] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Best House on the Block (TVDB: 355283)                                       |
+[2022-11-06 12:30:02,212] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 122200                              |
+[2022-11-06 12:30:02,421] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Great Giveback with Melissa and Jenna (TVDB: 421819)                     |
+[2022-11-06 12:30:02,590] [builder.py:1982]           [INFO]     | HGTV Collection | ? | $50K Three Ways (TVDB: 401818)                                               |
+[2022-11-06 12:30:03,097] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hawaii Life (TVDB: 273131)                                                   |
+[2022-11-06 12:30:03,346] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Windy City Rehab (TVDB: 356798)                                              |
+[2022-11-06 12:30:03,553] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bargain Block (TVDB: 398973)                                                 |
+[2022-11-06 12:30:04,041] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Renovation Realities (TVDB: 104191)                                          |
+[2022-11-06 12:30:04,212] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Donna Decorates Dallas (TVDB: 292986)                                        |
+[2022-11-06 12:30:04,465] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Where Are They Now? (TVDB: 329819)                            |
+[2022-11-06 12:30:04,667] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling LA (TVDB: 256025)                                                    |
+[2022-11-06 12:30:04,855] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My Lottery Dream Home International (TVDB: 379557)                           |
+[2022-11-06 12:30:05,044] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Comedians on Couches (TVDB: 383132)                           |
+[2022-11-06 12:30:05,377] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Color Splash (TVDB: 131921)                                                  |
+[2022-11-06 12:30:05,543] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bargain Block: Bargain Buys (TVDB: 423129)                                   |
+[2022-11-06 12:30:05,722] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Why the Heck Did I Buy This House? (TVDB: 418661)                            |
+[2022-11-06 12:30:05,956] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Dear Genevieve (TVDB: 255731)                                                |
+[2022-11-06 12:30:06,173] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Living With Ed (TVDB: 83624)                                                 |
+[2022-11-06 12:30:06,355] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip to a Million (TVDB: 423097)                                             |
+[2022-11-06 12:30:06,724] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Income Property (TVDB: 233341)                                               |
+[2022-11-06 12:30:06,883] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip It to Win It (TVDB: 279624)                                             |
+[2022-11-06 12:30:07,056] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tough Love with Hilary Farr (TVDB: 413700)                                   |
+[2022-11-06 12:30:07,242] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Two Steps Home (TVDB: 402477)                                                |
+[2022-11-06 12:30:07,432] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Consumed (TVDB: 251918)                                                      |
+[2022-11-06 12:30:07,669] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Timber Kings (TVDB: 276963)                                                  |
+[2022-11-06 12:30:07,856] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ultimate Pools (TVDB: 343210)                                                |
+[2022-11-06 12:30:08,043] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling the Big Easy (TVDB: 379916)                                          |
+[2022-11-06 12:30:08,207] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hot Properties: San Diego (TVDB: 371687)                                     |
+[2022-11-06 12:30:08,396] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Beach Flip (TVDB: 297159)                                                    |
+[2022-11-06 12:30:08,638] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Outgrown (TVDB: 410140)                                                      |
+[2022-11-06 12:30:08,834] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Town Takeover (TVDB: 392433)                                            |
+[2022-11-06 12:30:08,991] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Container Homes (TVDB: 343414)                                               |
+[2022-11-06 12:30:09,156] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Happily Wherever (TVDB: 402385)                                              |
+[2022-11-06 12:30:09,352] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ellen's Design Challenge (TVDB: 291272)                                      |
+[2022-11-06 12:30:09,526] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Ty Breaker (TVDB: 390061)                                                    |
+[2022-11-06 12:30:09,686] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Urban Outsiders (TVDB: 131351)                                               |
+[2022-11-06 12:30:09,978] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Bang for your Buck (TVDB: 274977)                                            |
+[2022-11-06 12:30:10,210] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Nashville (TVDB: 335992)                                        |
+[2022-11-06 12:30:10,404] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters Family (TVDB: 332934)                                          |
+[2022-11-06 12:30:10,600] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Million Dollar Rooms (TVDB: 258527)                                          |
+[2022-11-06 12:30:10,765] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Perfect Place (TVDB: 424652)                                             |
+[2022-11-06 12:30:10,947] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Welcome Back Potter (TVDB: 318405)                                           |
+[2022-11-06 12:30:11,117] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Move and Improve (TVDB: 375496)                                              |
+[2022-11-06 12:30:11,320] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Genevieve's Renovation (TVDB: 288421)                                        |
+[2022-11-06 12:30:11,499] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Hunting Vintage (TVDB: 314364)                                               |
+[2022-11-06 12:30:11,670] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rustic Rehab (TVDB: 351686)                                                  |
+[2022-11-06 12:30:11,879] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flip or Flop Follow-Up (TVDB: 404165)                                        |
+[2022-11-06 12:30:12,072] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Lil Jon Wants to Do What? (TVDB: 420027)                                     |
+[2022-11-06 12:30:12,229] [builder.py:1982]           [INFO]     | HGTV Collection | ? | I Bought A Dump... Now What? (TVDB: 424600)                                  |
+[2022-11-06 12:30:12,406] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Building Roots (TVDB: 418879)                                                |
+[2022-11-06 12:30:12,578] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Fix My Flip (TVDB: 417745)                                                   |
+[2022-11-06 12:30:12,781] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Home Inspector Joe (TVDB: 414848)                                            |
+[2022-11-06 12:30:12,955] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Married to Real Estate (TVDB: 414522)                                        |
+[2022-11-06 12:30:13,151] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Going Yard (TVDB: 285103)                                                    |
+[2022-11-06 12:30:13,338] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Rehab Addict Detroit (TVDB: 302839)                                          |
+[2022-11-06 12:30:13,522] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Inside Out (TVDB: 401073)                                                    |
+[2022-11-06 12:30:13,731] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Martha Knows Best (TVDB: 386115)                                             |
+[2022-11-06 12:30:13,896] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Build Me Up (TVDB: 385784)                                                   |
+[2022-11-06 12:30:14,069] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design At Your Door (TVDB: 383807)                                           |
+[2022-11-06 12:30:14,230] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling London (TVDB: 259568)                                                |
+[2022-11-06 12:30:14,467] [builder.py:1982]           [INFO]     | HGTV Collection | ? | A Very Brady Renovation (TVDB: 355474)                                       |
+[2022-11-06 12:30:14,715] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Flipping Virgins (TVDB: 322976)                                              |
+[2022-11-06 12:30:14,907] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Supersize My Pool (TVDB: 366311)                                             |
+[2022-11-06 12:30:15,108] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Pool Hunters (TVDB: 366124)                                                  |
+[2022-11-06 12:30:15,285] [builder.py:1982]           [INFO]     | HGTV Collection | ? | City vs. Burbs (TVDB: 365800)                                                |
+[2022-11-06 12:30:15,458] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Say Yes to the Nest (TVDB: 357743)                                           |
+[2022-11-06 12:30:15,676] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Aloha Builds (TVDB: 352562)                                                  |
+[2022-11-06 12:30:15,861] [builder.py:1982]           [INFO]     | HGTV Collection | ? | House Hunters: Outside the Box (TVDB: 339231)                                |
+[2022-11-06 12:30:16,164] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Tiny House, Big Living (TVDB: 289431)                                        |
+[2022-11-06 12:30:16,479] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Love It or List It, Too (TVDB: 274555)                                       |
+[2022-11-06 12:30:16,685] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Cousins Undercover (TVDB: 274409)                                            |
+[2022-11-06 12:30:16,848] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Design School (TVDB: 166271)                                                 |
+[2022-11-06 12:30:17,133] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Selling New York (TVDB: 215131)                                              |
+[2022-11-06 12:30:17,303] [builder.py:1982]           [INFO]     | HGTV Collection | ? | The Antonio Treatment (TVDB: 189601)                                         |
+[2022-11-06 12:30:17,461] [builder.py:1982]           [INFO]     | HGTV Collection | ? | My House Is Worth What? (TVDB: 423809)                                       |
+[2022-11-06 12:30:17,643] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Carter Can (TVDB: 164071)                                                    |
+[2022-11-06 12:30:17,820] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Color Correction (TVDB: 404301)                                              |
+[2022-11-06 12:30:17,971] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Takeover My Makeover (TVDB: 423886)                                          |
+[2022-11-06 12:30:18,145] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Good Buy, Bad Buy? (TVDB: 423846)                                            |
+[2022-11-06 12:30:18,300] [builder.py:1982]           [INFO]     | HGTV Collection | ? | National Open House (TVDB: 423811)                                           |
+[2022-11-06 12:30:18,461] [builder.py:1982]           [INFO]     | HGTV Collection | ? | reDesign (TVDB: 423843)                                                      |
+[2022-11-06 12:30:18,591] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Homes Across America (TVDB: 423841)                                          |
+[2022-11-06 12:30:18,737] [builder.py:1982]           [INFO]     | HGTV Collection | ? | 24 Hour Design (TVDB: 423884)                                                |
+[2022-11-06 12:30:19,002] [builder.py:1982]           [INFO]     | HGTV Collection | ? | Buy Me (TVDB: 80492)                                                         |
+[2022-11-06 12:30:19,002] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,003] [builder.py:1987]           [INFO]     | 152 Shows Missing                                                                                  |
+[2022-11-06 12:30:19,376] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,376] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 12:30:19,376] [util.py:216]               [INFO]     |                                      Finished HGTV Collection                                      |
+[2022-11-06 12:30:19,377] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:50                                    |
+[2022-11-06 12:30:19,377] [util.py:220]               [INFO]     |====================================================================================================|

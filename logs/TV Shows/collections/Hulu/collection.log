@@ -1,261 +1,263 @@
-[2022-10-28 01:41:53,818] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:41:53,818] [util.py:216]               [INFO]     |                                    Hulu Collection in TV Shows                                     |
-[2022-10-28 01:41:53,818] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-28 01:41:53,819] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,819] [util.py:216]               [INFO]     |==================================== Validating Hulu Attributes ====================================|
-[2022-10-28 01:41:53,819] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,819] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-28 01:41:53,820] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 453), ('poster', 'https://theposterdb.com/api/assets/168826')]) |
-[2022-10-28 01:41:53,820] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,820] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-28 01:41:53,820] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-28 01:41:53,821] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,821] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-28 01:41:53,821] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-28 01:41:53,821] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,822] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-10-28 01:41:53,822] [builder.py:474]            [DEBUG]    | Value: 453                                                                                         |
-[2022-10-28 01:41:53,929] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,929] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-28 01:41:53,929] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/168826                                                   |
-[2022-10-28 01:41:53,929] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,930] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-28 01:41:53,930] [builder.py:474]            [DEBUG]    | Value: +2_Hulu                                                                                     |
-[2022-10-28 01:41:53,990] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,990] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-28 01:41:53,991] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,991] [util.py:216]               [INFO]     |===================================== Running Hulu Collection ======================================|
-[2022-10-28 01:41:53,991] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-28 01:41:53,991] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-28 01:41:53,992] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:53,992] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 453                                                                         |
-[2022-10-28 01:41:53,992] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:55,167] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (453) Hulu (203 Shows)                                                    |
-[2022-10-28 01:41:55,168] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:55,168] [builder.py:1283]           [DEBUG]    | 203 IDs Found: [(69478, 'tmdb_show'), (154521, 'tmdb_show'), (110695, 'tmdb_show'), (113036, 'tmdb_show'), (135250, 'tmdb_show'), (71738, 'tmdb_show'), (136315, 'tmdb_show'), (67466, 'tmdb_show'), (128095, 'tmdb_show'), (82883, 'tmdb_show'), (130464, 'tmdb_show'), (135868, 'tmdb_show'), (122066, 'tmdb_show'), (46707, 'tmdb_show'), (107113, 'tmdb_show'), (107124, 'tmdb_show'), (132559, 'tmdb_show'), (44857, 'tmdb_show'), (97186, 'tmdb_show'), (155427, 'tmdb_show'), (124010, 'tmdb_show'), (97645, 'tmdb_show'), (1432, 'tmdb_show'), (195420, 'tmdb_show'), (135134, 'tmdb_show'), (130392, 'tmdb_show'), (86550, 'tmdb_show'), (93812, 'tmdb_show'), (88989, 'tmdb_show'), (82199, 'tmdb_show'), (136322, 'tmdb_show'), (114925, 'tmdb_show'), (73157, 'tmdb_show'), (71116, 'tmdb_show'), (64464, 'tmdb_show'), (204554, 'tmdb_show'), (89905, 'tmdb_show'), (211357, 'tmdb_show'), (87382, 'tmdb_show'), (109330, 'tmdb_show'), (105804, 'tmdb_show'), (65227, 'tmdb_show'), (62335, 'tmdb_show'), (64043, 'tmdb_show'), (156812, 'tmdb_show'), (81829, 'tmdb_show'), (127162, 'tmdb_show'), (81349, 'tmdb_show'), (103992, 'tmdb_show'), (89314, 'tmdb_show'), (111312, 'tmdb_show'), (70721, 'tmdb_show'), (133903, 'tmdb_show'), (69541, 'tmdb_show'), (113378, 'tmdb_show'), (66912, 'tmdb_show'), (88987, 'tmdb_show'), (91837, 'tmdb_show'), (95215, 'tmdb_show'), (88640, 'tmdb_show'), (96734, 'tmdb_show'), (112945, 'tmdb_show'), (90257, 'tmdb_show'), (205272, 'tmdb_show'), (56964, 'tmdb_show'), (90870, 'tmdb_show'), (71437, 'tmdb_show'), (85702, 'tmdb_show'), (82744, 'tmdb_show'), (62234, 'tmdb_show'), (107119, 'tmdb_show'), (84584, 'tmdb_show'), (132159, 'tmdb_show'), (112063, 'tmdb_show'), (105763, 'tmdb_show'), (83605, 'tmdb_show'), (112226, 'tmdb_show'), (5739, 'tmdb_show'), (74159, 'tmdb_show'), (97559, 'tmdb_show'), (56402, 'tmdb_show'), (210602, 'tmdb_show'), (99747, 'tmdb_show'), (157433, 'tmdb_show'), (68052, 'tmdb_show'), (66858, 'tmdb_show'), (85046, 'tmdb_show'), (107114, 'tmdb_show'), (45749, 'tmdb_show'), (84282, 'tmdb_show'), (130567, 'tmdb_show'), (210820, 'tmdb_show'), (202137, 'tmdb_show'), (6850, 'tmdb_show'), (80858, 'tmdb_show'), (63353, 'tmdb_show'), (74359, 'tmdb_show'), (105848, 'tmdb_show'), (89221, 'tmdb_show'), (130980, 'tmdb_show'), (70690, 'tmdb_show'), (62321, 'tmdb_show'), (156401, 'tmdb_show'), (79777, 'tmdb_show'), (204572, 'tmdb_show'), (75966, 'tmdb_show'), (90617, 'tmdb_show'), (49525, 'tmdb_show'), (96391, 'tmdb_show'), (60182, 'tmdb_show'), (104127, 'tmdb_show'), (61580, 'tmdb_show'), (119507, 'tmdb_show'), (38979, 'tmdb_show'), (34466, 'tmdb_show'), (118556, 'tmdb_show'), (104201, 'tmdb_show'), (116600, 'tmdb_show'), (28104, 'tmdb_show'), (57283, 'tmdb_show'), (64887, 'tmdb_show'), (64298, 'tmdb_show'), (65781, 'tmdb_show'), (205971, 'tmdb_show'), (75390, 'tmdb_show'), (61281, 'tmdb_show'), (205032, 'tmdb_show'), (57285, 'tmdb_show'), (135230, 'tmdb_show'), (206816, 'tmdb_show'), (73463, 'tmdb_show'), (79516, 'tmdb_show'), (127907, 'tmdb_show'), (206818, 'tmdb_show'), (107117, 'tmdb_show'), (60579, 'tmdb_show'), (133813, 'tmdb_show'), (200908, 'tmdb_show'), (208550, 'tmdb_show'), (68933, 'tmdb_show'), (138999, 'tmdb_show'), (62878, 'tmdb_show'), (156390, 'tmdb_show'), (105224, 'tmdb_show'), (40488, 'tmdb_show'), (210426, 'tmdb_show'), (123451, 'tmdb_show'), (127948, 'tmdb_show'), (202173, 'tmdb_show'), (138566, 'tmdb_show'), (213200, 'tmdb_show'), (202213, 'tmdb_show'), (43953, 'tmdb_show'), (201902, 'tmdb_show'), (110234, 'tmdb_show'), (99628, 'tmdb_show'), (195684, 'tmdb_show'), (138561, 'tmdb_show'), (212246, 'tmdb_show'), (206925, 'tmdb_show'), (43587, 'tmdb_show'), (155354, 'tmdb_show'), (206300, 'tmdb_show'), (157028, 'tmdb_show'), (121567, 'tmdb_show'), (46914, 'tmdb_show'), (139564, 'tmdb_show'), (107125, 'tmdb_show'), (204202, 'tmdb_show'), (129569, 'tmdb_show'), (207334, 'tmdb_show'), (203554, 'tmdb_show'), (203749, 'tmdb_show'), (82630, 'tmdb_show'), (102945, 'tmdb_show'), (95088, 'tmdb_show'), (61645, 'tmdb_show'), (201831, 'tmdb_show'), (65722, 'tmdb_show'), (209727, 'tmdb_show'), (126308, 'tmdb_show'), (212064, 'tmdb_show'), (211358, 'tmdb_show'), (211059, 'tmdb_show'), (211058, 'tmdb_show'), (211049, 'tmdb_show'), (210726, 'tmdb_show'), (207517, 'tmdb_show'), (206817, 'tmdb_show'), (206815, 'tmdb_show'), (206022, 'tmdb_show'), (204999, 'tmdb_show'), (157239, 'tmdb_show'), (130669, 'tmdb_show'), (128180, 'tmdb_show'), (121820, 'tmdb_show'), (121194, 'tmdb_show'), (108180, 'tmdb_show'), (105039, 'tmdb_show'), (80295, 'tmdb_show'), (62483, 'tmdb_show'), (39177, 'tmdb_show'), (31439, 'tmdb_show')] |
-[2022-10-28 01:41:55,168] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:41:55,287] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 107124                                                |
-[2022-10-28 01:41:55,393] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211357                                                |
-[2022-10-28 01:41:55,407] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105763                                                |
-[2022-10-28 01:41:55,522] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210820                                                |
-[2022-10-28 01:41:55,629] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 62321                                                 |
-[2022-10-28 01:41:55,750] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206816                                                |
-[2022-10-28 01:41:55,864] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 200908                                                |
-[2022-10-28 01:41:55,980] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208550                                                |
-[2022-10-28 01:41:56,082] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105224                                                |
-[2022-10-28 01:41:56,187] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210426                                                |
-[2022-10-28 01:41:56,294] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 123451                                                |
-[2022-10-28 01:41:56,398] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213200                                                |
-[2022-10-28 01:41:56,496] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202213                                                |
-[2022-10-28 01:41:56,594] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201902                                                |
-[2022-10-28 01:41:56,695] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 99628                                                 |
-[2022-10-28 01:41:56,806] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206925                                                |
-[2022-10-28 01:41:56,934] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155354                                                |
-[2022-10-28 01:41:57,033] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206300                                                |
-[2022-10-28 01:41:57,143] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157028                                                |
-[2022-10-28 01:41:57,254] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46914                                                 |
-[2022-10-28 01:41:57,362] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 139564                                                |
-[2022-10-28 01:41:57,468] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 107125                                                |
-[2022-10-28 01:41:57,576] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204202                                                |
-[2022-10-28 01:41:57,677] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 129569                                                |
-[2022-10-28 01:41:57,777] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203554                                                |
-[2022-10-28 01:41:57,777] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203749                                                |
-[2022-10-28 01:41:57,883] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 102945                                                |
-[2022-10-28 01:41:58,002] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 61645                                                 |
-[2022-10-28 01:41:58,113] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201831                                                |
-[2022-10-28 01:41:58,219] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212064                                                |
-[2022-10-28 01:41:58,315] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211059                                                |
-[2022-10-28 01:41:58,426] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211058                                                |
-[2022-10-28 01:41:58,531] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211049                                                |
-[2022-10-28 01:41:58,633] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210726                                                |
-[2022-10-28 01:41:58,761] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207517                                                |
-[2022-10-28 01:41:58,868] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206817                                                |
-[2022-10-28 01:41:58,974] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206815                                                |
-[2022-10-28 01:41:59,075] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206022                                                |
-[2022-10-28 01:41:59,182] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121820                                                |
-[2022-10-28 01:41:59,287] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121194                                                |
-[2022-10-28 01:41:59,387] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 108180                                                |
-[2022-10-28 01:41:59,493] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105039                                                |
-[2022-10-28 01:41:59,593] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 39177                                                 |
-[2022-10-28 01:41:59,700] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31439                                                 |
-[2022-10-28 01:41:59,701] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:59,701] [util.py:216]               [INFO]     |==================================== Adding to Hulu Collection =====================================|
-[2022-10-28 01:41:59,701] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:59,701] [builder.py:1709]           [INFO]     | 1/1 | Hulu Collection | = | The Bear                                                               |
-[2022-10-28 01:41:59,702] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:59,702] [builder.py:1735]           [INFO]     | 1 Show Processed                                                                                   |
-[2022-10-28 01:41:59,702] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-10-28 01:41:59,703] [util.py:216]               [INFO]     |================================= Missing Shows from Library: Hulu =================================|
-[2022-10-28 01:41:59,703] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-10-28 01:42:00,137] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Handmaid's Tale (TVDB: 321239)                                           |
-[2022-10-28 01:42:00,385] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Kardashians (TVDB: 414093)                                               |
-[2022-10-28 01:42:00,618] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dopesick (TVDB: 390716)                                                      |
-[2022-10-28 01:42:00,847] [builder.py:1982]           [INFO]     | Hulu Collection | ? | American Horror Stories (TVDB: 382187)                                       |
-[2022-10-28 01:42:01,076] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mike (2022) (TVDB: 401871)                                                   |
-[2022-10-28 01:42:01,410] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Orville (TVDB: 328487)                                                   |
-[2022-10-28 01:42:01,774] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's Runaways (TVDB: 332027)                                             |
-[2022-10-28 01:42:02,035] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Under the Banner of Heaven (TVDB: 405549)                                    |
-[2022-10-28 01:42:02,284] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Act (TVDB: 354765)                                                       |
-[2022-10-28 01:42:02,483] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Tell Me Lies (TVDB: 393269)                                                  |
-[2022-10-28 01:42:02,707] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Patient (TVDB: 411118)                                                   |
-[2022-10-28 01:42:02,941] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Dropout (TVDB: 363024)                                                   |
-[2022-10-28 01:42:02,989] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 263030                              |
-[2022-10-28 01:42:03,277] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Only Murders in the Building (TVDB: 399959)                                  |
-[2022-10-28 01:42:03,557] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Croods: Family Tree (TVDB: 409654)                                       |
-[2022-10-28 01:42:04,046] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Mindy Project (TVDB: 259007)                                             |
-[2022-10-28 01:42:04,352] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Love, Victor (TVDB: 368188)                                                  |
-[2022-10-28 01:42:04,568] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reboot (2022) (TVDB: 414543)                                                 |
-[2022-10-28 01:42:04,780] [builder.py:1982]           [INFO]     | Hulu Collection | ? | How I Met Your Father (TVDB: 401513)                                         |
-[2022-10-28 01:42:05,071] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Solar Opposites (TVDB: 375892)                                               |
-[2022-10-28 01:42:05,472] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Veronica Mars (TVDB: 73730)                                                  |
-[2022-10-28 01:42:05,648] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Captive Audience: A Real American Horror Story (TVDB: 418061)                |
-[2022-10-28 01:42:05,847] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Wild Crime (TVDB: 410482)                                                    |
-[2022-10-28 01:42:06,039] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The D'Amelio Show (TVDB: 407311)                                             |
-[2022-10-28 01:42:06,258] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Y: The Last Man (TVDB: 362250)                                               |
-[2022-10-28 01:42:06,515] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Great (TVDB: 369301)                                                     |
-[2022-10-28 01:42:06,740] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Nine Perfect Strangers (TVDB: 376815)                                        |
-[2022-10-28 01:42:07,040] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Find Me in Paris (TVDB: 345183)                                              |
-[2022-10-28 01:42:07,344] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dragons: The Nine Realms (TVDB: 411408)                                      |
-[2022-10-28 01:42:07,582] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pam & Tommy (TVDB: 400690)                                                   |
-[2022-10-28 01:42:07,837] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Future Man (TVDB: 330997)                                                    |
-[2022-10-28 01:42:08,146] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Castle Rock (TVDB: 331600)                                                   |
-[2022-10-28 01:42:08,433] [builder.py:1982]           [INFO]     | Hulu Collection | ? | 11.22.63 (TVDB: 301824)                                                      |
-[2022-10-28 01:42:08,613] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Legacy: The True Story of the LA Lakers (TVDB: 421561)                       |
-[2022-10-28 01:42:08,810] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Normal People (TVDB: 371806)                                                 |
-[2022-10-28 01:42:09,047] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Ramy (TVDB: 359257)                                                          |
-[2022-10-28 01:42:09,430] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Madagascar: A Little Wild (TVDB: 387162)                                     |
-[2022-10-28 01:42:09,695] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Candy (TVDB: 385141)                                                         |
-[2022-10-28 01:42:10,030] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Path (TVDB: 304196)                                                      |
-[2022-10-28 01:42:10,376] [builder.py:1982]           [INFO]     | Hulu Collection | ? | UnReal (TVDB: 278264)                                                        |
-[2022-10-28 01:42:10,700] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Casual (TVDB: 299350)                                                        |
-[2022-10-28 01:42:10,880] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Life & Beth (TVDB: 370105)                                                   |
-[2022-10-28 01:42:11,178] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Light as a Feather (TVDB: 347708)                                            |
-[2022-10-28 01:42:11,376] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Maggie (TVDB: 402909)                                                        |
-[2022-10-28 01:42:11,594] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Devs (TVDB: 364149)                                                          |
-[2022-10-28 01:42:11,817] [builder.py:1982]           [INFO]     | Hulu Collection | ? | A Teacher (TVDB: 352440)                                                     |
-[2022-10-28 01:42:12,046] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reprisal (TVDB: 367554)                                                      |
-[2022-10-28 01:42:12,268] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's M.O.D.O.K. (TVDB: 361834)                                           |
-[2022-10-28 01:42:12,471] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Looming Tower (TVDB: 331821)                                             |
-[2022-10-28 01:42:12,687] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's Hit-Monkey (TVDB: 361835)                                           |
-[2022-10-28 01:42:12,978] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Harlots (TVDB: 319861)                                                       |
-[2022-10-28 01:42:13,232] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Trolls: TrollsTopia (TVDB: 391482)                                           |
-[2022-10-28 01:42:13,513] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Chance (TVDB: 311196)                                                        |
-[2022-10-28 01:42:13,773] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Helstrom (TVDB: 364038)                                                      |
-[2022-10-28 01:42:13,980] [builder.py:1982]           [INFO]     | Hulu Collection | ? | En La Boca Del Lobo (TVDB: 341654)                                           |
-[2022-10-28 01:42:14,209] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reservation Dogs (TVDB: 371884)                                              |
-[2022-10-28 01:42:14,394] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Looking for Alaska (TVDB: 359638)                                            |
-[2022-10-28 01:42:14,579] [builder.py:1982]           [INFO]     | Hulu Collection | ? | High Fidelity (TVDB: 371643)                                                 |
-[2022-10-28 01:42:14,842] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hardy Boys (2020) (TVDB: 391628)                                         |
-[2022-10-28 01:42:15,093] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Little Fires Everywhere (TVDB: 363194)                                       |
-[2022-10-28 01:42:15,315] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reasonable Doubt (2022) (TVDB: 410743)                                       |
-[2022-10-28 01:42:15,571] [builder.py:1982]           [INFO]     | Hulu Collection | ? | East Los High (TVDB: 270610)                                                 |
-[2022-10-28 01:42:15,797] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Wu-Tang: An American Saga (TVDB: 354080)                                     |
-[2022-10-28 01:42:16,016] [builder.py:1982]           [INFO]     | Hulu Collection | ? | T@gged (TVDB: 315804)                                                        |
-[2022-10-28 01:42:16,255] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pen15 (TVDB: 348127)                                                         |
-[2022-10-28 01:42:16,494] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Catch-22 (TVDB: 357558)                                                      |
-[2022-10-28 01:42:16,739] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Deadbeat (TVDB: 279392)                                                      |
-[2022-10-28 01:42:16,975] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Monsterland (TVDB: 385960)                                                   |
-[2022-10-28 01:42:17,216] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dollface (TVDB: 367553)                                                      |
-[2022-10-28 01:42:17,418] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pistol (TVDB: 394966)                                                        |
-[2022-10-28 01:42:17,651] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Mighty Ones (TVDB: 389305)                                               |
-[2022-10-28 01:42:17,885] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mrs. America (TVDB: 367230)                                                  |
-[2022-10-28 01:42:18,114] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Bite Size Halloween (TVDB: 391056)                                           |
-[2022-10-28 01:42:18,331] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dr. Horrible's Sing-Along Blog (TVDB: 82507)                                 |
-[2022-10-28 01:42:18,565] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The First (TVDB: 349002)                                                     |
-[2022-10-28 01:42:18,773] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Utopia Falls (TVDB: 365294)                                                  |
-[2022-10-28 01:42:19,031] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Monsuno (TVDB: 260070)                                                       |
-[2022-10-28 01:42:19,211] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hair Tales (TVDB: 405529)                                                |
-[2022-10-28 01:42:19,399] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Conversations with Friends (TVDB: 384554)                                    |
-[2022-10-28 01:42:19,587] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Abominable and the Invisible City (TVDB: 416373)                             |
-[2022-10-28 01:42:19,801] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Freakish (TVDB: 317407)                                                      |
-[2022-10-28 01:42:20,024] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shut Eye (TVDB: 311197)                                                      |
-[2022-10-28 01:42:20,278] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shrill (TVDB: 351606)                                                        |
-[2022-10-28 01:42:20,498] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Girl From Plainville (TVDB: 386664)                                      |
-[2022-10-28 01:42:20,926] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Larry King Now (TVDB: 285399)                                                |
-[2022-10-28 01:42:21,171] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Four Weddings and a Funeral (TVDB: 362415)                                   |
-[2022-10-28 01:42:21,374] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Welcome to Chippendales (TVDB: 403128)                                       |
-[2022-10-28 01:42:21,568] [builder.py:1982]           [INFO]     | Hulu Collection | ? | This Fool (TVDB: 408305)                                                     |
-[2022-10-28 01:42:21,758] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Premise (TVDB: 393222)                                                   |
-[2022-10-28 01:42:21,975] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Zac & Mia (TVDB: 337588)                                                     |
-[2022-10-28 01:42:22,206] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Difficult People (TVDB: 296367)                                              |
-[2022-10-28 01:42:22,415] [builder.py:1982]           [INFO]     | Hulu Collection | ? | I Love You, America (TVDB: 332028)                                           |
-[2022-10-28 01:42:22,638] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Woke (TVDB: 385174)                                                          |
-[2022-10-28 01:42:22,886] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Holly Hobbie (TVDB: 355724)                                                  |
-[2022-10-28 01:42:23,097] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Promised Land (2022) (TVDB: 408611)                                          |
-[2022-10-28 01:42:23,327] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dimension 404 (TVDB: 325529)                                                 |
-[2022-10-28 01:42:23,508] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Fleishman is in Trouble (TVDB: 398362)                                       |
-[2022-10-28 01:42:23,740] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Leap Year (TVDB: 262146)                                                     |
-[2022-10-28 01:42:23,935] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Chefs vs. Wild (TVDB: 425287)                                                |
-[2022-10-28 01:42:24,154] [builder.py:1982]           [INFO]     | Hulu Collection | ? | All Night (TVDB: 346001)                                                     |
-[2022-10-28 01:42:24,350] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Bravest Knight (TVDB: 365893)                                            |
-[2022-10-28 01:42:24,595] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Blue (TVDB: 260319)                                                          |
-[2022-10-28 01:42:24,753] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Hillary (2020) (TVDB: 375373)                                                |
-[2022-10-28 01:42:25,030] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Wrong Mans (TVDB: 268943)                                                |
-[2022-10-28 01:42:25,292] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Crossing Swords (TVDB: 353892)                                               |
-[2022-10-28 01:42:25,497] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Tomorrow's Cantabile (TVDB: 286129)                                          |
-[2022-10-28 01:42:25,689] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Victoria’s Secret: Angels and Demons (TVDB: 420697)                          |
-[2022-10-28 01:42:25,889] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Confession (TVDB: 243621)                                                |
-[2022-10-28 01:42:26,116] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Legion of Extraordinary Dancers (TVDB: 202331)                           |
-[2022-10-28 01:42:26,292] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Sasquatch (TVDB: 398766)                                                     |
-[2022-10-28 01:42:26,494] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Taste the Nation (TVDB: 382650)                                              |
-[2022-10-28 01:42:26,665] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Everyone Is Doing Great (TVDB: 358543)                                       |
-[2022-10-28 01:42:26,921] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Awesomes (TVDB: 268914)                                                  |
-[2022-10-28 01:42:27,126] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Battleground (TVDB: 255229)                                                  |
-[2022-10-28 01:42:27,314] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mother Up! (TVDB: 275048)                                                    |
-[2022-10-28 01:42:27,478] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Strictly Sexual: The Series (TVDB: 257289)                                   |
-[2022-10-28 01:42:27,667] [builder.py:1982]           [INFO]     | Hulu Collection | ? | RocketJump: The Show (TVDB: 302734)                                          |
-[2022-10-28 01:42:27,835] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Best In Dough (TVDB: 423917)                                                 |
-[2022-10-28 01:42:28,071] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hotwives of Las Vegas (TVDB: 299270)                                     |
-[2022-10-28 01:42:28,254] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hotwives of Orlando (TVDB: 277126)                                       |
-[2022-10-28 01:42:28,462] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mormon No More (TVDB: 421664)                                                |
-[2022-10-28 01:42:28,673] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Quick Draw (TVDB: 270913)                                                    |
-[2022-10-28 01:42:28,843] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Curse of Von Dutch: A Brand to Die For (TVDB: 410709)                    |
-[2022-10-28 01:42:29,024] [builder.py:1982]           [INFO]     | Hulu Collection | ? | There's... Johnny! (TVDB: 328151)                                            |
-[2022-10-28 01:42:29,204] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Doozers (TVDB: 281407)                                                   |
-[2022-10-28 01:42:29,393] [builder.py:1982]           [INFO]     | Hulu Collection | ? | McCartney 3, 2, 1 (TVDB: 403234)                                             |
-[2022-10-28 01:42:29,558] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Murders Before the Marathon (TVDB: 423827)                               |
-[2022-10-28 01:42:29,735] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Next Thing You Eat (TVDB: 410737)                                        |
-[2022-10-28 01:42:29,929] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Caper (TVDB: 278406)                                                         |
-[2022-10-28 01:42:30,109] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Career Opportunities in Murder & Mayhem (TVDB: 410100)                       |
-[2022-10-28 01:42:30,309] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Farmed and Dangerous (TVDB: 278683)                                          |
-[2022-10-28 01:42:30,486] [builder.py:1982]           [INFO]     | Hulu Collection | ? | City of Angels | City of Death (TVDB: 412638)                                |
-[2022-10-28 01:42:30,682] [builder.py:1982]           [INFO]     | Hulu Collection | ? | What Lives Inside (TVDB: 294532)                                             |
-[2022-10-28 01:42:30,856] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Washington Black (TVDB: 410925)                                              |
-[2022-10-28 01:42:31,055] [builder.py:1982]           [INFO]     | Hulu Collection | ? | A Day In The Life (TVDB: 257391)                                             |
-[2022-10-28 01:42:31,230] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Class of '09 (TVDB: 405445)                                                  |
-[2022-10-28 01:42:31,415] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Keeper of the Ashes: The Oklahoma Girl Scout Murders (TVDB: 420215)          |
-[2022-10-28 01:42:31,601] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Devil in the White City (TVDB: 359565)                                   |
-[2022-10-28 01:42:31,811] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Spoilers (TVDB: 259289)                                                      |
-[2022-10-28 01:42:32,043] [builder.py:1982]           [INFO]     | Hulu Collection | ? | State of Syn (TVDB: 275424)                                                  |
-[2022-10-28 01:42:32,208] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Have You Seen This Man? (TVDB: 417926)                                       |
-[2022-10-28 01:42:32,458] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Kindred (TVDB: 414513)                                                       |
-[2022-10-28 01:42:32,625] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Interior Chinatown (TVDB: 425999)                                            |
-[2022-10-28 01:42:32,792] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Up to Speed (TVDB: 268913)                                                   |
-[2022-10-28 01:42:32,955] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Koala Man (TVDB: 399758)                                                     |
-[2022-10-28 01:42:33,110] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Veil (TVDB: 423016)                                                      |
-[2022-10-28 01:42:33,295] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Behind the Mask (TVDB: 274742)                                               |
-[2022-10-28 01:42:33,466] [builder.py:1982]           [INFO]     | Hulu Collection | ? | VICE Investigates (TVDB: 371349)                                             |
-[2022-10-28 01:42:33,690] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Fashion Fund (TVDB: 286455)                                              |
-[2022-10-28 01:42:33,838] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Other Black Girl (TVDB: 423098)                                          |
-[2022-10-28 01:42:33,990] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shōgun (2022) (TVDB: 392573)                                                 |
-[2022-10-28 01:42:34,159] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Under the Bridge (TVDB: 425386)                                              |
-[2022-10-28 01:42:34,329] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Faraway Downs (TVDB: 422756)                                                 |
-[2022-10-28 01:42:34,474] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Alien (TVDB: 393223)                                                         |
-[2022-10-28 01:42:34,644] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Baker's Dozen (2021) (TVDB: 404806)                                          |
-[2022-10-28 01:42:34,788] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Testaments (TVDB: 372931)                                                |
-[2022-10-28 01:42:34,951] [builder.py:1982]           [INFO]     | Hulu Collection | ? | South Beach (2015) (TVDB: 299009)                                            |
-[2022-10-28 01:42:35,130] [builder.py:1982]           [INFO]     | Hulu Collection | ? | I Wanna Marry Harry (TVDB: 280256)                                           |
-[2022-10-28 01:42:35,131] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-10-28 01:42:35,131] [builder.py:1987]           [INFO]     | 157 Shows Missing                                                                                  |
-[2022-10-28 01:42:35,310] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-10-28 01:42:35,311] [util.py:216]               [INFO]     |=============================== Updating Details of Hulu Collection ================================|
-[2022-10-28 01:42:35,311] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-10-28 01:42:35,312] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-10-28 01:42:35,312] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/168826                               |
-[2022-10-28 01:42:35,313] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-10-28 01:42:35,321] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-10-28 01:42:35,377] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-28 01:42:35,378] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:42:35,378] [util.py:216]               [INFO]     |                                      Finished Hulu Collection                                      |
-[2022-10-28 01:42:35,378] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:41                                    |
-[2022-10-28 01:42:35,379] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 12:30:19,379] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 12:30:19,380] [util.py:216]               [INFO]     |                                    Hulu Collection in TV Shows                                     |
+[2022-11-06 12:30:19,380] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 12:30:19,380] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,381] [util.py:216]               [INFO]     |==================================== Validating Hulu Attributes ====================================|
+[2022-11-06 12:30:19,381] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,381] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 12:30:19,382] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 453), ('poster', 'https://theposterdb.com/api/assets/168826')]) |
+[2022-11-06 12:30:19,382] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,382] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 12:30:19,382] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 12:30:19,383] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,383] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 12:30:19,383] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-06 12:30:19,383] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,384] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-06 12:30:19,384] [builder.py:474]            [DEBUG]    | Value: 453                                                                                         |
+[2022-11-06 12:30:19,504] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,505] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 12:30:19,505] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/168826                                                   |
+[2022-11-06 12:30:19,505] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,505] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 12:30:19,506] [builder.py:474]            [DEBUG]    | Value: +2_Hulu                                                                                     |
+[2022-11-06 12:30:19,567] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,567] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 12:30:19,568] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,568] [util.py:216]               [INFO]     |===================================== Running Hulu Collection ======================================|
+[2022-11-06 12:30:19,569] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 12:30:19,569] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 12:30:19,569] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:19,569] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 453                                                                         |
+[2022-11-06 12:30:19,570] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:20,811] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (453) Hulu (205 Shows)                                                    |
+[2022-11-06 12:30:20,811] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:20,812] [builder.py:1283]           [DEBUG]    | 205 IDs Found: [(69478, 'tmdb_show'), (136315, 'tmdb_show'), (110695, 'tmdb_show'), (113036, 'tmdb_show'), (67466, 'tmdb_show'), (135250, 'tmdb_show'), (154521, 'tmdb_show'), (71738, 'tmdb_show'), (128095, 'tmdb_show'), (82883, 'tmdb_show'), (132559, 'tmdb_show'), (122066, 'tmdb_show'), (107113, 'tmdb_show'), (107124, 'tmdb_show'), (1432, 'tmdb_show'), (97186, 'tmdb_show'), (136322, 'tmdb_show'), (124010, 'tmdb_show'), (44857, 'tmdb_show'), (71116, 'tmdb_show'), (88989, 'tmdb_show'), (64464, 'tmdb_show'), (73157, 'tmdb_show'), (97645, 'tmdb_show'), (89905, 'tmdb_show'), (195420, 'tmdb_show'), (204554, 'tmdb_show'), (86550, 'tmdb_show'), (93812, 'tmdb_show'), (114925, 'tmdb_show'), (130392, 'tmdb_show'), (87382, 'tmdb_show'), (82199, 'tmdb_show'), (109330, 'tmdb_show'), (210820, 'tmdb_show'), (90257, 'tmdb_show'), (156812, 'tmdb_show'), (81349, 'tmdb_show'), (133903, 'tmdb_show'), (69541, 'tmdb_show'), (130464, 'tmdb_show'), (46707, 'tmdb_show'), (62335, 'tmdb_show'), (111312, 'tmdb_show'), (155427, 'tmdb_show'), (135868, 'tmdb_show'), (103992, 'tmdb_show'), (81829, 'tmdb_show'), (88640, 'tmdb_show'), (96734, 'tmdb_show'), (105804, 'tmdb_show'), (205272, 'tmdb_show'), (64043, 'tmdb_show'), (95215, 'tmdb_show'), (89314, 'tmdb_show'), (65227, 'tmdb_show'), (70721, 'tmdb_show'), (88987, 'tmdb_show'), (66912, 'tmdb_show'), (90870, 'tmdb_show'), (113378, 'tmdb_show'), (127162, 'tmdb_show'), (82744, 'tmdb_show'), (71437, 'tmdb_show'), (83605, 'tmdb_show'), (107119, 'tmdb_show'), (5739, 'tmdb_show'), (85702, 'tmdb_show'), (89221, 'tmdb_show'), (68052, 'tmdb_show'), (84282, 'tmdb_show'), (132159, 'tmdb_show'), (107114, 'tmdb_show'), (63353, 'tmdb_show'), (56402, 'tmdb_show'), (84584, 'tmdb_show'), (210602, 'tmdb_show'), (66858, 'tmdb_show'), (85046, 'tmdb_show'), (112945, 'tmdb_show'), (99747, 'tmdb_show'), (74159, 'tmdb_show'), (105848, 'tmdb_show'), (70690, 'tmdb_show'), (91837, 'tmdb_show'), (62234, 'tmdb_show'), (60182, 'tmdb_show'), (202137, 'tmdb_show'), (61580, 'tmdb_show'), (104127, 'tmdb_show'), (105763, 'tmdb_show'), (28104, 'tmdb_show'), (6850, 'tmdb_show'), (135134, 'tmdb_show'), (112063, 'tmdb_show'), (157433, 'tmdb_show'), (116600, 'tmdb_show'), (62321, 'tmdb_show'), (56964, 'tmdb_show'), (97559, 'tmdb_show'), (74359, 'tmdb_show'), (49525, 'tmdb_show'), (118556, 'tmdb_show'), (75966, 'tmdb_show'), (130980, 'tmdb_show'), (119507, 'tmdb_show'), (112226, 'tmdb_show'), (80858, 'tmdb_show'), (156401, 'tmdb_show'), (127907, 'tmdb_show'), (34466, 'tmdb_show'), (61281, 'tmdb_show'), (62878, 'tmdb_show'), (208550, 'tmdb_show'), (90617, 'tmdb_show'), (205971, 'tmdb_show'), (79516, 'tmdb_show'), (130567, 'tmdb_show'), (73463, 'tmdb_show'), (38979, 'tmdb_show'), (211357, 'tmdb_show'), (79777, 'tmdb_show'), (64298, 'tmdb_show'), (96391, 'tmdb_show'), (202173, 'tmdb_show'), (206816, 'tmdb_show'), (204572, 'tmdb_show'), (127948, 'tmdb_show'), (107125, 'tmdb_show'), (104201, 'tmdb_show'), (206818, 'tmdb_show'), (99628, 'tmdb_show'), (75390, 'tmdb_show'), (57285, 'tmdb_show'), (43953, 'tmdb_show'), (123451, 'tmdb_show'), (57283, 'tmdb_show'), (126308, 'tmdb_show'), (65781, 'tmdb_show'), (64887, 'tmdb_show'), (60579, 'tmdb_show'), (138566, 'tmdb_show'), (156390, 'tmdb_show'), (195684, 'tmdb_show'), (200908, 'tmdb_show'), (133813, 'tmdb_show'), (138561, 'tmdb_show'), (43587, 'tmdb_show'), (213869, 'tmdb_show'), (207517, 'tmdb_show'), (110234, 'tmdb_show'), (62483, 'tmdb_show'), (46914, 'tmdb_show'), (206300, 'tmdb_show'), (107117, 'tmdb_show'), (65722, 'tmdb_show'), (205032, 'tmdb_show'), (61645, 'tmdb_show'), (82630, 'tmdb_show'), (138999, 'tmdb_show'), (121567, 'tmdb_show'), (68933, 'tmdb_show'), (135230, 'tmdb_show'), (105224, 'tmdb_show'), (203749, 'tmdb_show'), (102945, 'tmdb_show'), (45749, 'tmdb_show'), (211059, 'tmdb_show'), (206925, 'tmdb_show'), (206022, 'tmdb_show'), (95088, 'tmdb_show'), (40488, 'tmdb_show'), (212246, 'tmdb_show'), (130669, 'tmdb_show'), (201902, 'tmdb_show'), (207334, 'tmdb_show'), (210426, 'tmdb_show'), (157028, 'tmdb_show'), (155354, 'tmdb_show'), (213200, 'tmdb_show'), (139564, 'tmdb_show'), (213214, 'tmdb_show'), (212064, 'tmdb_show'), (211358, 'tmdb_show'), (211058, 'tmdb_show'), (211049, 'tmdb_show'), (210726, 'tmdb_show'), (209727, 'tmdb_show'), (206817, 'tmdb_show'), (206815, 'tmdb_show'), (204999, 'tmdb_show'), (204202, 'tmdb_show'), (203554, 'tmdb_show'), (202213, 'tmdb_show'), (201831, 'tmdb_show'), (157239, 'tmdb_show'), (129569, 'tmdb_show'), (128180, 'tmdb_show'), (121820, 'tmdb_show'), (121194, 'tmdb_show'), (108180, 'tmdb_show'), (105039, 'tmdb_show'), (80295, 'tmdb_show'), (39177, 'tmdb_show'), (31439, 'tmdb_show')] |
+[2022-11-06 12:30:20,812] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 12:30:20,927] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 107124                                                |
+[2022-11-06 12:30:21,072] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105763                                                |
+[2022-11-06 12:30:21,205] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 62321                                                 |
+[2022-11-06 12:30:21,314] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208550                                                |
+[2022-11-06 12:30:21,528] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211357                                                |
+[2022-11-06 12:30:21,639] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206816                                                |
+[2022-11-06 12:30:21,851] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 107125                                                |
+[2022-11-06 12:30:21,976] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 99628                                                 |
+[2022-11-06 12:30:22,097] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 123451                                                |
+[2022-11-06 12:30:22,314] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213869                                                |
+[2022-11-06 12:30:22,421] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207517                                                |
+[2022-11-06 12:30:22,517] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 46914                                                 |
+[2022-11-06 12:30:22,619] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206300                                                |
+[2022-11-06 12:30:22,727] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 61645                                                 |
+[2022-11-06 12:30:22,842] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105224                                                |
+[2022-11-06 12:30:22,843] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203749                                                |
+[2022-11-06 12:30:22,966] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 102945                                                |
+[2022-11-06 12:30:23,070] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211059                                                |
+[2022-11-06 12:30:23,181] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206925                                                |
+[2022-11-06 12:30:23,309] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206022                                                |
+[2022-11-06 12:30:23,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201902                                                |
+[2022-11-06 12:30:23,632] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210426                                                |
+[2022-11-06 12:30:23,743] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157028                                                |
+[2022-11-06 12:30:23,841] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155354                                                |
+[2022-11-06 12:30:23,950] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213200                                                |
+[2022-11-06 12:30:24,050] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 139564                                                |
+[2022-11-06 12:30:24,162] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213214                                                |
+[2022-11-06 12:30:24,277] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212064                                                |
+[2022-11-06 12:30:24,375] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211058                                                |
+[2022-11-06 12:30:24,497] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211049                                                |
+[2022-11-06 12:30:24,633] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210726                                                |
+[2022-11-06 12:30:24,732] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206817                                                |
+[2022-11-06 12:30:24,831] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206815                                                |
+[2022-11-06 12:30:24,832] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204202                                                |
+[2022-11-06 12:30:24,930] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203554                                                |
+[2022-11-06 12:30:25,033] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202213                                                |
+[2022-11-06 12:30:25,137] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201831                                                |
+[2022-11-06 12:30:25,245] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 129569                                                |
+[2022-11-06 12:30:25,354] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121820                                                |
+[2022-11-06 12:30:25,459] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121194                                                |
+[2022-11-06 12:30:25,587] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 108180                                                |
+[2022-11-06 12:30:25,705] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105039                                                |
+[2022-11-06 12:30:25,814] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 39177                                                 |
+[2022-11-06 12:30:25,924] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 31439                                                 |
+[2022-11-06 12:30:25,924] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:25,925] [util.py:216]               [INFO]     |==================================== Adding to Hulu Collection =====================================|
+[2022-11-06 12:30:25,925] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:25,926] [builder.py:1709]           [INFO]     | 1/1 | Hulu Collection | = | The Bear                                                               |
+[2022-11-06 12:30:25,926] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:25,926] [builder.py:1735]           [INFO]     | 1 Show Processed                                                                                   |
+[2022-11-06 12:30:25,926] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:25,927] [util.py:216]               [INFO]     |================================= Missing Shows from Library: Hulu =================================|
+[2022-11-06 12:30:25,927] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-06 12:30:26,312] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Handmaid's Tale (TVDB: 321239)                                           |
+[2022-11-06 12:30:26,556] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dopesick (TVDB: 390716)                                                      |
+[2022-11-06 12:30:26,788] [builder.py:1982]           [INFO]     | Hulu Collection | ? | American Horror Stories (TVDB: 382187)                                       |
+[2022-11-06 12:30:27,179] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's Runaways (TVDB: 332027)                                             |
+[2022-11-06 12:30:27,384] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mike (2022) (TVDB: 401871)                                                   |
+[2022-11-06 12:30:27,622] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Kardashians (TVDB: 414093)                                               |
+[2022-11-06 12:30:27,966] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Orville (TVDB: 328487)                                                   |
+[2022-11-06 12:30:28,269] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Under the Banner of Heaven (TVDB: 405549)                                    |
+[2022-11-06 12:30:28,459] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Act (TVDB: 354765)                                                       |
+[2022-11-06 12:30:28,698] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Croods: Family Tree (TVDB: 409654)                                       |
+[2022-11-06 12:30:28,946] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Dropout (TVDB: 363024)                                                   |
+[2022-11-06 12:30:29,179] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Only Murders in the Building (TVDB: 399959)                                  |
+[2022-11-06 12:30:29,580] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Veronica Mars (TVDB: 73730)                                                  |
+[2022-11-06 12:30:29,858] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Love, Victor (TVDB: 368188)                                                  |
+[2022-11-06 12:30:30,101] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dragons: The Nine Realms (TVDB: 411408)                                      |
+[2022-11-06 12:30:30,299] [builder.py:1982]           [INFO]     | Hulu Collection | ? | How I Met Your Father (TVDB: 401513)                                         |
+[2022-11-06 12:30:30,753] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Mindy Project (TVDB: 259007)                                             |
+[2022-11-06 12:30:31,070] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Castle Rock (TVDB: 331600)                                                   |
+[2022-11-06 12:30:31,288] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Nine Perfect Strangers (TVDB: 376815)                                        |
+[2022-11-06 12:30:31,543] [builder.py:1982]           [INFO]     | Hulu Collection | ? | 11.22.63 (TVDB: 301824)                                                      |
+[2022-11-06 12:30:31,787] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Future Man (TVDB: 330997)                                                    |
+[2022-11-06 12:30:32,064] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Solar Opposites (TVDB: 375892)                                               |
+[2022-11-06 12:30:32,263] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Normal People (TVDB: 371806)                                                 |
+[2022-11-06 12:30:32,421] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Captive Audience: A Real American Horror Story (TVDB: 418061)                |
+[2022-11-06 12:30:32,593] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Legacy: The True Story of the LA Lakers (TVDB: 421561)                       |
+[2022-11-06 12:30:32,800] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Y: The Last Man (TVDB: 362250)                                               |
+[2022-11-06 12:30:33,048] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Great (TVDB: 369301)                                                     |
+[2022-11-06 12:30:33,284] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pam & Tommy (TVDB: 400690)                                                   |
+[2022-11-06 12:30:33,489] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The D'Amelio Show (TVDB: 407311)                                             |
+[2022-11-06 12:30:33,712] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Ramy (TVDB: 359257)                                                          |
+[2022-11-06 12:30:33,997] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Find Me in Paris (TVDB: 345183)                                              |
+[2022-11-06 12:30:34,287] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Madagascar: A Little Wild (TVDB: 387162)                                     |
+[2022-11-06 12:30:34,465] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Power Trip: Those Who Seek Power and Those Who Chase Them (TVDB: 425461)     |
+[2022-11-06 12:30:34,687] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Little Fires Everywhere (TVDB: 363194)                                       |
+[2022-11-06 12:30:34,857] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Life & Beth (TVDB: 370105)                                                   |
+[2022-11-06 12:30:35,096] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Devs (TVDB: 364149)                                                          |
+[2022-11-06 12:30:35,332] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's Hit-Monkey (TVDB: 361835)                                           |
+[2022-11-06 12:30:35,688] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Harlots (TVDB: 319861)                                                       |
+[2022-11-06 12:30:35,905] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Tell Me Lies (TVDB: 393269)                                                  |
+[2022-11-06 12:30:35,988] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 263030                              |
+[2022-11-06 12:30:36,300] [builder.py:1982]           [INFO]     | Hulu Collection | ? | UnReal (TVDB: 278264)                                                        |
+[2022-11-06 12:30:36,561] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Marvel's M.O.D.O.K. (TVDB: 361834)                                           |
+[2022-11-06 12:30:36,767] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reboot (2022) (TVDB: 414543)                                                 |
+[2022-11-06 12:30:36,988] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Patient (TVDB: 411118)                                                   |
+[2022-11-06 12:30:37,200] [builder.py:1982]           [INFO]     | Hulu Collection | ? | A Teacher (TVDB: 352440)                                                     |
+[2022-11-06 12:30:37,438] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Light as a Feather (TVDB: 347708)                                            |
+[2022-11-06 12:30:37,642] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Looking for Alaska (TVDB: 359638)                                            |
+[2022-11-06 12:30:37,852] [builder.py:1982]           [INFO]     | Hulu Collection | ? | High Fidelity (TVDB: 371643)                                                 |
+[2022-11-06 12:30:38,073] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Candy (TVDB: 385141)                                                         |
+[2022-11-06 12:30:38,301] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reasonable Doubt (2022) (TVDB: 410743)                                       |
+[2022-11-06 12:30:38,582] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Casual (TVDB: 299350)                                                        |
+[2022-11-06 12:30:38,820] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reservation Dogs (TVDB: 371884)                                              |
+[2022-11-06 12:30:39,042] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Reprisal (TVDB: 367554)                                                      |
+[2022-11-06 12:30:39,317] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Path (TVDB: 304196)                                                      |
+[2022-11-06 12:30:39,529] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Looming Tower (TVDB: 331821)                                             |
+[2022-11-06 12:30:39,766] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Helstrom (TVDB: 364038)                                                      |
+[2022-11-06 12:30:40,013] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Chance (TVDB: 311196)                                                        |
+[2022-11-06 12:30:40,234] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Wu-Tang: An American Saga (TVDB: 354080)                                     |
+[2022-11-06 12:30:40,502] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Trolls: TrollsTopia (TVDB: 391482)                                           |
+[2022-11-06 12:30:40,702] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Maggie (TVDB: 402909)                                                        |
+[2022-11-06 12:30:40,923] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Catch-22 (TVDB: 357558)                                                      |
+[2022-11-06 12:30:41,130] [builder.py:1982]           [INFO]     | Hulu Collection | ? | T@gged (TVDB: 315804)                                                        |
+[2022-11-06 12:30:41,346] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mrs. America (TVDB: 367230)                                                  |
+[2022-11-06 12:30:41,525] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Monsterland (TVDB: 385960)                                                   |
+[2022-11-06 12:30:41,718] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dr. Horrible's Sing-Along Blog (TVDB: 82507)                                 |
+[2022-11-06 12:30:41,982] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pen15 (TVDB: 348127)                                                         |
+[2022-11-06 12:30:42,196] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Holly Hobbie (TVDB: 355724)                                                  |
+[2022-11-06 12:30:42,409] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Freakish (TVDB: 317407)                                                      |
+[2022-11-06 12:30:42,616] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Four Weddings and a Funeral (TVDB: 362415)                                   |
+[2022-11-06 12:30:43,054] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Pistol (TVDB: 394966)                                                        |
+[2022-11-06 12:30:43,325] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Girl From Plainville (TVDB: 386664)                                      |
+[2022-11-06 12:30:43,553] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Difficult People (TVDB: 296367)                                              |
+[2022-11-06 12:30:43,774] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Monsuno (TVDB: 260070)                                                       |
+[2022-11-06 12:30:44,015] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dollface (TVDB: 367553)                                                      |
+[2022-11-06 12:30:44,197] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hair Tales (TVDB: 405529)                                                |
+[2022-11-06 12:30:44,425] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shut Eye (TVDB: 311197)                                                      |
+[2022-11-06 12:30:44,661] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shrill (TVDB: 351606)                                                        |
+[2022-11-06 12:30:44,907] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hardy Boys (2020) (TVDB: 391628)                                         |
+[2022-11-06 12:30:45,104] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Conversations with Friends (TVDB: 384554)                                    |
+[2022-11-06 12:30:45,338] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The First (TVDB: 349002)                                                     |
+[2022-11-06 12:30:45,559] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Woke (TVDB: 385174)                                                          |
+[2022-11-06 12:30:45,757] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Dimension 404 (TVDB: 325529)                                                 |
+[2022-11-06 12:30:45,937] [builder.py:1982]           [INFO]     | Hulu Collection | ? | En La Boca Del Lobo (TVDB: 341654)                                           |
+[2022-11-06 12:30:46,178] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Deadbeat (TVDB: 279392)                                                      |
+[2022-11-06 12:30:46,452] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Wrong Mans (TVDB: 268943)                                                |
+[2022-11-06 12:30:46,631] [builder.py:1982]           [INFO]     | Hulu Collection | ? | This Fool (TVDB: 408305)                                                     |
+[2022-11-06 12:30:46,813] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Tomorrow's Cantabile (TVDB: 286129)                                          |
+[2022-11-06 12:30:47,166] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Crossing Swords (TVDB: 353892)                                               |
+[2022-11-06 12:30:47,395] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Awesomes (TVDB: 268914)                                                  |
+[2022-11-06 12:30:47,592] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Premise (TVDB: 393222)                                                   |
+[2022-11-06 12:30:47,790] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Wild Crime (TVDB: 410482)                                                    |
+[2022-11-06 12:30:48,014] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Mighty Ones (TVDB: 389305)                                               |
+[2022-11-06 12:30:48,211] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Abominable and the Invisible City (TVDB: 416373)                             |
+[2022-11-06 12:30:48,381] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Everyone Is Doing Great (TVDB: 358543)                                       |
+[2022-11-06 12:30:48,610] [builder.py:1982]           [INFO]     | Hulu Collection | ? | East Los High (TVDB: 270610)                                                 |
+[2022-11-06 12:30:48,908] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Utopia Falls (TVDB: 365294)                                                  |
+[2022-11-06 12:30:49,128] [builder.py:1982]           [INFO]     | Hulu Collection | ? | I Love You, America (TVDB: 332028)                                           |
+[2022-11-06 12:30:49,408] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Blue (TVDB: 260319)                                                          |
+[2022-11-06 12:30:49,603] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Sasquatch (TVDB: 398766)                                                     |
+[2022-11-06 12:30:49,833] [builder.py:1982]           [INFO]     | Hulu Collection | ? | All Night (TVDB: 346001)                                                     |
+[2022-11-06 12:30:50,040] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Promised Land (2022) (TVDB: 408611)                                          |
+[2022-11-06 12:30:50,246] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Victoria's Secret: Angels and Demons (TVDB: 420697)                          |
+[2022-11-06 12:30:50,453] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Bite Size Halloween (TVDB: 391056)                                           |
+[2022-11-06 12:30:50,634] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Zac & Mia (TVDB: 337588)                                                     |
+[2022-11-06 12:30:50,806] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Fleishman is in Trouble (TVDB: 398362)                                       |
+[2022-11-06 12:30:50,998] [builder.py:1982]           [INFO]     | Hulu Collection | ? | McCartney 3, 2, 1 (TVDB: 403234)                                             |
+[2022-11-06 12:30:51,228] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Legion of Extraordinary Dancers (TVDB: 202331)                           |
+[2022-11-06 12:30:51,434] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hotwives of Orlando (TVDB: 277126)                                       |
+[2022-11-06 12:30:51,615] [builder.py:1982]           [INFO]     | Hulu Collection | ? | What Lives Inside (TVDB: 294532)                                             |
+[2022-11-06 12:30:51,784] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Bravest Knight (TVDB: 365893)                                            |
+[2022-11-06 12:30:51,951] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Best In Dough (TVDB: 423917)                                                 |
+[2022-11-06 12:30:52,139] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Doozers (TVDB: 281407)                                                   |
+[2022-11-06 12:30:52,359] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Welcome to Chippendales (TVDB: 403128)                                       |
+[2022-11-06 12:30:52,547] [builder.py:1982]           [INFO]     | Hulu Collection | ? | There's... Johnny! (TVDB: 328151)                                            |
+[2022-11-06 12:30:52,740] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Confession (TVDB: 243621)                                                |
+[2022-11-06 12:30:52,951] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Leap Year (TVDB: 262146)                                                     |
+[2022-11-06 12:30:53,113] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Strictly Sexual: The Series (TVDB: 257289)                                   |
+[2022-11-06 12:30:53,273] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Hillary (2020) (TVDB: 375373)                                                |
+[2022-11-06 12:30:53,467] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Keeper of the Ashes: The Oklahoma Girl Scout Murders (TVDB: 420215)          |
+[2022-11-06 12:30:53,643] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Chefs vs. Wild (TVDB: 425287)                                                |
+[2022-11-06 12:30:53,814] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Class of '09 (TVDB: 405445)                                                  |
+[2022-11-06 12:30:54,007] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Taste the Nation (TVDB: 382650)                                              |
+[2022-11-06 12:30:54,183] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Murders Before the Marathon (TVDB: 423827)                               |
+[2022-11-06 12:30:54,365] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Hotwives of Las Vegas (TVDB: 299270)                                     |
+[2022-11-06 12:30:54,563] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Quick Draw (TVDB: 270913)                                                    |
+[2022-11-06 12:30:54,744] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Spoilers (TVDB: 259289)                                                      |
+[2022-11-06 12:30:54,955] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Battleground (TVDB: 255229)                                                  |
+[2022-11-06 12:30:55,123] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Shōgun (2022) (TVDB: 392573)                                                 |
+[2022-11-06 12:30:55,333] [builder.py:1982]           [INFO]     | Hulu Collection | ? | RocketJump: The Show (TVDB: 302734)                                          |
+[2022-11-06 12:30:55,512] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mother Up! (TVDB: 275048)                                                    |
+[2022-11-06 12:30:55,708] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Caper (TVDB: 278406)                                                         |
+[2022-11-06 12:30:55,857] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Devil in the White City (TVDB: 359565)                                   |
+[2022-11-06 12:30:56,014] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Washington Black (TVDB: 410925)                                              |
+[2022-11-06 12:30:56,186] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Have You Seen This Man? (TVDB: 417926)                                       |
+[2022-11-06 12:30:56,343] [builder.py:1982]           [INFO]     | Hulu Collection | ? | We Were The Lucky Ones (TVDB: 419596)                                        |
+[2022-11-06 12:30:56,531] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Career Opportunities in Murder & Mayhem (TVDB: 410100)                       |
+[2022-11-06 12:30:56,732] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Kindred (TVDB: 414513)                                                       |
+[2022-11-06 12:30:56,892] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Up to Speed (TVDB: 268913)                                                   |
+[2022-11-06 12:30:57,068] [builder.py:1982]           [INFO]     | Hulu Collection | ? | State of Syn (TVDB: 275424)                                                  |
+[2022-11-06 12:30:57,242] [builder.py:1982]           [INFO]     | Hulu Collection | ? | I Wanna Marry Harry (TVDB: 280256)                                           |
+[2022-11-06 12:30:57,433] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Next Thing You Eat (TVDB: 410737)                                        |
+[2022-11-06 12:30:57,688] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Fashion Fund (TVDB: 286455)                                              |
+[2022-11-06 12:30:57,916] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Mormon No More (TVDB: 421664)                                                |
+[2022-11-06 12:30:58,104] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Behind the Mask (TVDB: 274742)                                               |
+[2022-11-06 12:30:58,278] [builder.py:1982]           [INFO]     | Hulu Collection | ? | City of Angels | City of Death (TVDB: 412638)                                |
+[2022-11-06 12:30:58,433] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Koala Man (TVDB: 399758)                                                     |
+[2022-11-06 12:30:58,616] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Farmed and Dangerous (TVDB: 278683)                                          |
+[2022-11-06 12:30:58,789] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Curse of Von Dutch: A Brand to Die For (TVDB: 410709)                    |
+[2022-11-06 12:30:59,175] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Larry King Now (TVDB: 285399)                                                |
+[2022-11-06 12:30:59,376] [builder.py:1982]           [INFO]     | Hulu Collection | ? | VICE Investigates (TVDB: 371349)                                             |
+[2022-11-06 12:30:59,553] [builder.py:1982]           [INFO]     | Hulu Collection | ? | A Day In The Life (TVDB: 257391)                                             |
+[2022-11-06 12:30:59,713] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Interior Chinatown (TVDB: 425999)                                            |
+[2022-11-06 12:30:59,902] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Baker's Dozen (2021) (TVDB: 404806)                                          |
+[2022-11-06 12:31:00,087] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Veil (TVDB: 423016)                                                      |
+[2022-11-06 12:31:00,294] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Under the Bridge (TVDB: 425386)                                              |
+[2022-11-06 12:31:00,477] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Other Black Girl (TVDB: 423098)                                          |
+[2022-11-06 12:31:00,631] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Faraway Downs (TVDB: 422756)                                                 |
+[2022-11-06 12:31:00,782] [builder.py:1982]           [INFO]     | Hulu Collection | ? | Alien (TVDB: 393223)                                                         |
+[2022-11-06 12:31:00,937] [builder.py:1982]           [INFO]     | Hulu Collection | ? | The Testaments (TVDB: 372931)                                                |
+[2022-11-06 12:31:01,107] [builder.py:1982]           [INFO]     | Hulu Collection | ? | South Beach (2015) (TVDB: 299009)                                            |
+[2022-11-06 12:31:01,107] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-06 12:31:01,107] [builder.py:1987]           [INFO]     | 159 Shows Missing                                                                                  |
+[2022-11-06 12:31:01,561] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-06 12:31:01,561] [util.py:216]               [INFO]     |=============================== Updating Details of Hulu Collection ================================|
+[2022-11-06 12:31:01,562] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-06 12:31:01,562] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-06 12:31:01,563] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/168826                               |
+[2022-11-06 12:31:01,563] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-06 12:31:01,563] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-06 12:31:01,620] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 12:31:01,620] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 12:31:01,620] [util.py:216]               [INFO]     |                                      Finished Hulu Collection                                      |
+[2022-11-06 12:31:01,621] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:42                                    |
+[2022-11-06 12:31:01,621] [util.py:220]               [INFO]     |====================================================================================================|

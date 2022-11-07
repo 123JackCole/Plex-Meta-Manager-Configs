@@ -1,73 +1,73 @@
-[2022-11-06 10:29:40,609] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:29:40,610] [util.py:216]               [INFO]     |                                 Middle Earth Collection in Movies                                  |
-[2022-11-06 10:29:40,610] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 10:29:40,610] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 10:29:40,611] [util.py:216]               [INFO]     |================================ Validating Middle Earth Attributes ================================|
-[2022-11-06 10:29:40,611] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,611] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 10:29:40,612] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', '119, 121938'), ('summary', 119), ('poster', 'https://theposterdb.com/api/assets/12363')]) |
-[2022-11-06 10:29:40,612] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,612] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 10:29:40,613] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 10:29:40,613] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,613] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 10:29:40,613] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-11-06 10:29:40,613] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,614] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 10:29:40,614] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/12363                                                    |
-[2022-11-06 10:29:40,614] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,614] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
-[2022-11-06 10:29:40,615] [builder.py:474]            [DEBUG]    | Value: 119, 121938                                                                                 |
-[2022-11-06 10:29:40,879] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,879] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
-[2022-11-06 10:29:40,880] [builder.py:474]            [DEBUG]    | Value: 119                                                                                         |
-[2022-11-06 10:29:40,880] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,880] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 10:29:40,881] [builder.py:474]            [DEBUG]    | Value: 00000f_Middle Earth                                                                         |
-[2022-11-06 10:29:40,881] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:40,881] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-06 10:29:40,881] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 10:29:41,047] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,047] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 10:29:41,048] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,048] [util.py:216]               [INFO]     |================================= Running Middle Earth Collection ==================================|
-[2022-11-06 10:29:41,048] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,049] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 10:29:41,049] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,049] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 119                                                                      |
-[2022-11-06 10:29:41,049] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,050] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (119) The Lord of the Rings Collection (3 Items)                       |
-[2022-11-06 10:29:41,050] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,050] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(120, 'tmdb'), (121, 'tmdb'), (122, 'tmdb')]                                         |
-[2022-11-06 10:29:41,051] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,207] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,208] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 121938                                                                   |
-[2022-11-06 10:29:41,208] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,208] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (121938) The Hobbit Collection (3 Items)                               |
-[2022-11-06 10:29:41,209] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,209] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(49051, 'tmdb'), (57158, 'tmdb'), (122917, 'tmdb')]                                  |
-[2022-11-06 10:29:41,209] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:29:41,288] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,289] [util.py:216]               [INFO]     |================================ Adding to Middle Earth Collection =================================|
-[2022-11-06 10:29:41,289] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,289] [builder.py:1709]           [INFO]     | 1/6 | Middle Earth Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001)       |
-[2022-11-06 10:29:41,290] [builder.py:1709]           [INFO]     | 2/6 | Middle Earth Collection | = | The Lord of the Rings: The Two Towers (2002)                   |
-[2022-11-06 10:29:41,290] [builder.py:1709]           [INFO]     | 3/6 | Middle Earth Collection | = | The Lord of the Rings: The Return of the King (2003)           |
-[2022-11-06 10:29:41,290] [builder.py:1709]           [INFO]     | 4/6 | Middle Earth Collection | = | The Hobbit: An Unexpected Journey (2012)                       |
-[2022-11-06 10:29:41,290] [builder.py:1709]           [INFO]     | 5/6 | Middle Earth Collection | = | The Hobbit: The Desolation of Smaug (2013)                     |
-[2022-11-06 10:29:41,291] [builder.py:1709]           [INFO]     | 6/6 | Middle Earth Collection | = | The Hobbit: The Battle of the Five Armies (2014)               |
-[2022-11-06 10:29:41,291] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,291] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
-[2022-11-06 10:29:41,295] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,296] [util.py:216]               [INFO]     |=========================== Updating Details of Middle Earth Collection ============================|
-[2022-11-06 10:29:41,296] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,296] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
-[2022-11-06 10:29:41,297] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-06 10:29:41,297] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/12363                                |
-[2022-11-06 10:29:41,297] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-06 10:29:41,298] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-06 10:29:41,465] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 10:29:41,466] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:29:41,466] [util.py:216]               [INFO]     |                                  Finished Middle Earth Collection                                  |
-[2022-11-06 10:29:41,467] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-06 10:29:41,467] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 11:47:11,041] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 11:47:11,042] [util.py:216]               [INFO]     |                                 Middle Earth Collection in Movies                                  |
+[2022-11-06 11:47:11,042] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 11:47:11,043] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,043] [util.py:216]               [INFO]     |================================ Validating Middle Earth Attributes ================================|
+[2022-11-06 11:47:11,043] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,044] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 11:47:11,044] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', '119, 121938'), ('summary', 119), ('poster', 'https://theposterdb.com/api/assets/12363')]) |
+[2022-11-06 11:47:11,044] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,044] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 11:47:11,045] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 11:47:11,045] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,045] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 11:47:11,045] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-06 11:47:11,046] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,046] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 11:47:11,046] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/12363                                                    |
+[2022-11-06 11:47:11,046] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,046] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2022-11-06 11:47:11,047] [builder.py:474]            [DEBUG]    | Value: 119, 121938                                                                                 |
+[2022-11-06 11:47:11,162] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,163] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2022-11-06 11:47:11,163] [builder.py:474]            [DEBUG]    | Value: 119                                                                                         |
+[2022-11-06 11:47:11,164] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,164] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 11:47:11,164] [builder.py:474]            [DEBUG]    | Value: 00000f_Middle Earth                                                                         |
+[2022-11-06 11:47:11,164] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,164] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-06 11:47:11,165] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 11:47:11,325] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,326] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 11:47:11,327] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,327] [util.py:216]               [INFO]     |================================= Running Middle Earth Collection ==================================|
+[2022-11-06 11:47:11,327] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,327] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 11:47:11,328] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,328] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 119                                                                      |
+[2022-11-06 11:47:11,328] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,329] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (119) The Lord of the Rings Collection (3 Items)                       |
+[2022-11-06 11:47:11,329] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,329] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(120, 'tmdb'), (121, 'tmdb'), (122, 'tmdb')]                                         |
+[2022-11-06 11:47:11,330] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,487] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,488] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 121938                                                                   |
+[2022-11-06 11:47:11,488] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,488] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (121938) The Hobbit Collection (3 Items)                               |
+[2022-11-06 11:47:11,489] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,489] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(49051, 'tmdb'), (57158, 'tmdb'), (122917, 'tmdb')]                                  |
+[2022-11-06 11:47:11,489] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:47:11,573] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,573] [util.py:216]               [INFO]     |================================ Adding to Middle Earth Collection =================================|
+[2022-11-06 11:47:11,574] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,574] [builder.py:1709]           [INFO]     | 1/6 | Middle Earth Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001)       |
+[2022-11-06 11:47:11,574] [builder.py:1709]           [INFO]     | 2/6 | Middle Earth Collection | = | The Lord of the Rings: The Two Towers (2002)                   |
+[2022-11-06 11:47:11,575] [builder.py:1709]           [INFO]     | 3/6 | Middle Earth Collection | = | The Lord of the Rings: The Return of the King (2003)           |
+[2022-11-06 11:47:11,575] [builder.py:1709]           [INFO]     | 4/6 | Middle Earth Collection | = | The Hobbit: An Unexpected Journey (2012)                       |
+[2022-11-06 11:47:11,575] [builder.py:1709]           [INFO]     | 5/6 | Middle Earth Collection | = | The Hobbit: The Desolation of Smaug (2013)                     |
+[2022-11-06 11:47:11,576] [builder.py:1709]           [INFO]     | 6/6 | Middle Earth Collection | = | The Hobbit: The Battle of the Five Armies (2014)               |
+[2022-11-06 11:47:11,576] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,576] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
+[2022-11-06 11:47:11,581] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,581] [util.py:216]               [INFO]     |=========================== Updating Details of Middle Earth Collection ============================|
+[2022-11-06 11:47:11,581] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,582] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2022-11-06 11:47:11,582] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-06 11:47:11,583] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/12363                                |
+[2022-11-06 11:47:11,583] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-06 11:47:11,584] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-06 11:47:11,741] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 11:47:11,741] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 11:47:11,742] [util.py:216]               [INFO]     |                                  Finished Middle Earth Collection                                  |
+[2022-11-06 11:47:11,742] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-06 11:47:11,742] [util.py:220]               [INFO]     |====================================================================================================|

@@ -1,56 +1,56 @@
-[2022-11-05 19:48:53,046] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:48:53,047] [util.py:216]               [INFO]     |                                  Educational Collection in Anime                                   |
-[2022-11-05 19:48:53,047] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:48:53,048] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-05 19:48:53,052] [util.py:216]               [INFO]     |================================ Validating Educational Attributes =================================|
-[2022-11-05 19:48:53,052] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,052] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-05 19:48:53,053] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 56), ('poster', 'https://theposterdb.com/api/assets/240854')]) |
-[2022-11-05 19:48:53,053] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,053] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-05 19:48:53,053] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-05 19:48:53,054] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,054] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-05 19:48:53,054] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-05 19:48:53,054] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,054] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-05 19:48:53,055] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 56, 'limit': 999}                                                              |
-[2022-11-05 19:48:53,055] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,055] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-05 19:48:53,056] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240854                                                   |
-[2022-11-05 19:48:53,056] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,056] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-05 19:48:53,056] [builder.py:474]            [DEBUG]    | Value: +++_Educational                                                                             |
-[2022-11-05 19:48:53,057] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,057] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-05 19:48:53,057] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 19:48:53,060] [plex.py:687]               [DEBUG]    | Looking for: Educational                                                                           |
-[2022-11-05 19:48:53,060] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-05 19:48:53,061] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-05 19:48:53,061] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-05 19:48:53,061] [util.py:216]               [INFO]     |================================== Running Educational Collection ==================================|
-[2022-11-05 19:48:53,062] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-05 19:48:53,062] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-05 19:48:53,062] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:53,062] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 56, 'limit': 999}                                                 |
-[2022-11-05 19:48:53,063] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-05 19:48:53,063] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 56                                                                |
-[2022-11-05 19:48:55,227] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-05 19:48:55,228] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-05 19:48:55,228] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-05 19:48:55,228] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-05 19:48:55,228] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-05 19:48:55,229] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-05 19:48:55,229] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-05 19:48:55,229] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-05 19:48:55,229] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-05 19:48:55,230] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-05 19:48:55,230] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-05 19:48:55,230] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 56                        |
-[2022-11-05 19:48:55,230] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-05 19:48:55,230] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 56                                             |
-[2022-11-05 19:48:55,231] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-05 19:48:55,231] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:48:55,231] [util.py:216]               [INFO]     |                                  Finished Educational Collection                                   |
-[2022-11-05 19:48:55,232] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-05 19:48:55,232] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:12:41,331] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:12:41,331] [util.py:216]               [INFO]     |                                  Educational Collection in Anime                                   |
+[2022-11-06 01:12:41,331] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:12:41,332] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 01:12:41,339] [util.py:216]               [INFO]     |================================ Validating Educational Attributes =================================|
+[2022-11-06 01:12:41,339] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,340] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 01:12:41,340] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 56), ('poster', 'https://theposterdb.com/api/assets/240854')]) |
+[2022-11-06 01:12:41,341] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,341] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 01:12:41,341] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 01:12:41,341] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,341] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 01:12:41,342] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-06 01:12:41,342] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,342] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-06 01:12:41,342] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 56, 'limit': 999}                                                              |
+[2022-11-06 01:12:41,343] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,343] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 01:12:41,343] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240854                                                   |
+[2022-11-06 01:12:41,343] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,343] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 01:12:41,344] [builder.py:474]            [DEBUG]    | Value: +++_Educational                                                                             |
+[2022-11-06 01:12:41,344] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,344] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-06 01:12:41,344] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 01:12:41,347] [plex.py:687]               [DEBUG]    | Looking for: Educational                                                                           |
+[2022-11-06 01:12:41,348] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 01:12:41,348] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 01:12:41,348] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 01:12:41,348] [util.py:216]               [INFO]     |================================== Running Educational Collection ==================================|
+[2022-11-06 01:12:41,349] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 01:12:41,349] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 01:12:41,349] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:41,350] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 56, 'limit': 999}                                                 |
+[2022-11-06 01:12:41,350] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 01:12:41,350] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 56                                                                |
+[2022-11-06 01:12:43,512] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-06 01:12:43,512] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-06 01:12:43,513] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
+[2022-11-06 01:12:43,514] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-06 01:12:43,514] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
+[2022-11-06 01:12:43,514] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-06 01:12:43,514] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 56                        |
+[2022-11-06 01:12:43,514] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-06 01:12:43,515] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 56                                             |
+[2022-11-06 01:12:43,515] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 01:12:43,515] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:12:43,516] [util.py:216]               [INFO]     |                                  Finished Educational Collection                                   |
+[2022-11-06 01:12:43,516] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-06 01:12:43,516] [util.py:220]               [INFO]     |====================================================================================================|

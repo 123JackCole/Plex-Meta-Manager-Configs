@@ -1,158 +1,152 @@
-[2022-11-05 19:46:06,566] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:46:06,566] [util.py:216]               [INFO]     |                             Jack's Favorite Anime Collection in Anime                              |
-[2022-11-05 19:46:06,566] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:46:06,567] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-05 19:46:06,567] [util.py:216]               [INFO]     |=========================== Validating Jack's Favorite Anime Attributes ============================|
-[2022-11-05 19:46:06,567] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,568] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-05 19:46:06,568] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-05 19:46:06,568] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,568] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-05 19:46:06,569] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-11-05 19:46:06,569] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,569] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-05 19:46:06,570] [builder.py:474]            [DEBUG]    | Value: ++++++_Completed                                                                            |
-[2022-11-05 19:46:06,570] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,570] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
-[2022-11-05 19:46:06,570] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'completed'), ('sort_by', 'score'), ('limit', 40)]) |
-[2022-11-05 19:46:06,570] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,571] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2022-11-05 19:46:06,571] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 19:46:06,571] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,571] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-05 19:46:06,571] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 19:46:06,572] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,572] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-11-05 19:46:06,572] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 19:46:06,597] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-05 19:46:06,598] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-05 19:46:06,598] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-05 19:46:06,599] [util.py:216]               [INFO]     |============================= Running Jack's Favorite Anime Collection =============================|
-[2022-11-05 19:46:06,599] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-05 19:46:06,599] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-05 19:46:06,599] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,600] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'completed', 'sort_by': 'list_score', 'limit': 40} |
-[2022-11-05 19:46:06,600] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:06,600] [mal.py:237]                [INFO]     | Processing MyAnimeList Userlist: 40 Anime from JCH0tsh0t's Completed list sorted by Score          |
-[2022-11-05 19:46:06,810] [mal.py:241]                [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,810] [mal.py:242]                [DEBUG]    | 40 MyAnimeList IDs Found: [164, 199, 457, 5114, 9253, 11061, 21329, 21939, 24701, 28171, 28957, 38524, 40028, 40748, 41025, 46095, 1, 1535, 2904, 4224, 16498, 20583, 25777, 28891, 30276, 32281, 32935, 33206, 35760, 36949, 38000, 38883, 42203, 46102, 47778, 48583, 48736, 20, 30, 205] |
-[2022-11-05 19:46:06,812] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:06,812] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [(128, 'tmdb'), (129, 'tmdb'), (79214, 'tvdb'), (103082, 'ratingKey'), (104627, 'ratingKey'), (105612, 'ratingKey'), (79214, 'tvdb'), (79214, 'tvdb'), (79214, 'tvdb'), (289909, 'tvdb'), (312966, 'tmdb'), (267440, 'tvdb'), (267440, 'tvdb'), (103162, 'ratingKey'), (103774, 'ratingKey'), (397774, 'tvdb'), (102957, 'ratingKey'), (102918, 'ratingKey'), (79525, 'tvdb'), (105010, 'ratingKey'), (267440, 'tvdb'), (278157, 'tvdb'), (267440, 'tvdb'), (278157, 'tvdb'), (293088, 'tvdb'), (372058, 'tmdb'), (278157, 'tvdb'), (104117, 'ratingKey'), (267440, 'tvdb'), (289909, 'tvdb'), (348545, 'tvdb'), (278157, 'tvdb'), (105271, 'ratingKey'), (103919, 'ratingKey'), (348545, 'tvdb'), (267440, 'tvdb'), (103949, 'ratingKey'), (78857, 'tvdb'), (104645, 'ratingKey'), (104699, 'ratingKey')] |
-[2022-11-05 19:46:06,813] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:07,054] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,055] [util.py:216]               [INFO]     |============================ Adding to Jack's Favorite Anime Collection ============================|
-[2022-11-05 19:46:07,055] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,055] [builder.py:1709]           [INFO]     |  1/21 | Jack's Favorite Anime Collection | = | Mushishi                                            |
-[2022-11-05 19:46:07,056] [builder.py:1709]           [INFO]     |  2/21 | Jack's Favorite Anime Collection | = | Hagane no Renkinjutsushi (2009)                     |
-[2022-11-05 19:46:07,056] [builder.py:1709]           [INFO]     |  3/21 | Jack's Favorite Anime Collection | = | Steins;Gate                                         |
-[2022-11-05 19:46:07,057] [builder.py:1709]           [INFO]     |  4/21 | Jack's Favorite Anime Collection | = | Hunter x Hunter (2011)                              |
-[2022-11-05 19:46:07,057] [builder.py:1709]           [INFO]     |  5/21 | Jack's Favorite Anime Collection | = | Shingeki no Kyojin                                  |
-[2022-11-05 19:46:07,057] [builder.py:1709]           [INFO]     |  6/21 | Jack's Favorite Anime Collection | = | Jujutsu Kaisen                                      |
-[2022-11-05 19:46:07,057] [builder.py:1709]           [INFO]     |  7/21 | Jack's Favorite Anime Collection | = | Fumetsu no Anata e                                  |
-[2022-11-05 19:46:07,058] [builder.py:1709]           [INFO]     |  8/21 | Jack's Favorite Anime Collection | = | Vivy: Fluorite Eye's Song                           |
-[2022-11-05 19:46:07,058] [builder.py:1709]           [INFO]     |  9/21 | Jack's Favorite Anime Collection | = | Cowboy Bebop                                        |
-[2022-11-05 19:46:07,058] [builder.py:1709]           [INFO]     | 10/21 | Jack's Favorite Anime Collection | = | Death Note                                          |
-[2022-11-05 19:46:07,058] [builder.py:1709]           [INFO]     | 11/21 | Jack's Favorite Anime Collection | = | Code Geass: Hangyaku no Lelouch                     |
-[2022-11-05 19:46:07,059] [builder.py:1709]           [INFO]     | 12/21 | Jack's Favorite Anime Collection | = | Toradora!                                           |
-[2022-11-05 19:46:07,059] [builder.py:1709]           [INFO]     | 13/21 | Jack's Favorite Anime Collection | = | Haikyuu!!                                           |
-[2022-11-05 19:46:07,059] [builder.py:1709]           [INFO]     | 14/21 | Jack's Favorite Anime Collection | = | One Punch Man                                       |
-[2022-11-05 19:46:07,060] [builder.py:1709]           [INFO]     | 15/21 | Jack's Favorite Anime Collection | = | Kobayashi-san Chi no Maidragon                      |
-[2022-11-05 19:46:07,060] [builder.py:1709]           [INFO]     | 16/21 | Jack's Favorite Anime Collection | = | Kimetsu no Yaiba                                    |
-[2022-11-05 19:46:07,060] [builder.py:1709]           [INFO]     | 17/21 | Jack's Favorite Anime Collection | = | Re:Zero kara Hajimeru Isekai Seikatsu (2021)        |
-[2022-11-05 19:46:07,060] [builder.py:1709]           [INFO]     | 18/21 | Jack's Favorite Anime Collection | = | Odd Taxi                                            |
-[2022-11-05 19:46:07,061] [builder.py:1709]           [INFO]     | 19/21 | Jack's Favorite Anime Collection | = | Sono Bisque Doll wa Koi o Suru                      |
-[2022-11-05 19:46:07,061] [builder.py:1709]           [INFO]     | 20/21 | Jack's Favorite Anime Collection | = | Shinseiki Evangelion                                |
-[2022-11-05 19:46:07,061] [builder.py:1709]           [INFO]     | 21/21 | Jack's Favorite Anime Collection | + | Samurai Champloo                                    |
-[2022-11-05 19:46:07,116] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,117] [builder.py:1735]           [INFO]     | 21 Shows Processed                                                                                 |
-[2022-11-05 19:46:07,117] [builder.py:1743]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,117] [util.py:216]               [INFO]     |========================== Removed from Jack's Favorite Anime Collection ===========================|
-[2022-11-05 19:46:07,117] [builder.py:1745]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,125] [builder.py:1751]           [INFO]     | 1/1 | Jack's Favorite Anime Collection | - | Made in Abyss                                         |
-[2022-11-05 19:46:07,176] [builder.py:1768]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,177] [builder.py:1769]           [INFO]     | 1 Shows Removed                                                                                    |
-[2022-11-05 19:46:07,177] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,177] [util.py:216]               [INFO]     |======================== Missing Movies from Library: Jack's Favorite Anime ========================|
-[2022-11-05 19:46:07,178] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,323] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Princess Mononoke (1997) (TMDb: 128)                        |
-[2022-11-05 19:46:07,503] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Spirited Away (2001) (TMDb: 129)                            |
-[2022-11-05 19:46:07,670] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Mushi-Shi: The Next Chapter - Drops of Bells (2015) (TMDb: 312966) |
-[2022-11-05 19:46:07,826] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Your Name. (2016) (TMDb: 372058)                            |
-[2022-11-05 19:46:07,827] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,827] [builder.py:1948]           [INFO]     | 4 Movies Missing                                                                                   |
-[2022-11-05 19:46:07,828] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:07,829] [util.py:216]               [INFO]     |======================== Missing Shows from Library: Jack's Favorite Anime =========================|
-[2022-11-05 19:46:07,829] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:08,332] [builder.py:1982]           [INFO]     | Jack's Favorite Anime Collection | ? | Food Wars! (TVDB: 289909)                                   |
-[2022-11-05 19:46:09,029] [builder.py:1982]           [INFO]     | Jack's Favorite Anime Collection | ? | Naruto (TVDB: 78857)                                        |
-[2022-11-05 19:46:09,029] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,030] [builder.py:1987]           [INFO]     | 2 Shows Missing                                                                                    |
-[2022-11-05 19:46:09,031] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,032] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2022-11-05 19:46:09,032] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:09,032] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [289909, 78857]                                                                       |
-[2022-11-05 19:46:09,284] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,285] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 289909                                                                         |
-[2022-11-05 19:46:09,285] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78857                                                                          |
-[2022-11-05 19:46:09,285] [sonarr.py:174]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
-[2022-11-05 19:46:09,290] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,290] [util.py:216]               [INFO]     |======================= Updating Details of Jack's Favorite Anime Collection =======================|
-[2022-11-05 19:46:09,291] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,293] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
-[2022-11-05 19:46:09,293] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-05 19:46:09,319] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:09,320] [util.py:216]               [INFO]     |================ Updating Details of the Items in Jack's Favorite Anime Collection =================|
-[2022-11-05 19:46:09,320] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-11-05 19:46:12,337] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2022-11-05 19:46:12,337] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2022-11-05 19:46:12,338] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2022-11-05 19:46:12,338] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2022-11-05 19:46:12,338] [sonarr.py:74]              [DEBUG]    | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                                         |
-[2022-11-05 19:46:12,338] [sonarr.py:74]              [DEBUG]    | (79214, 'F:\\Anime\\Mushi-Shi (2005) [tvdb-79214]')                                                |
-[2022-11-05 19:46:12,339] [sonarr.py:74]              [DEBUG]    | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')                        |
-[2022-11-05 19:46:12,339] [sonarr.py:74]              [DEBUG]    | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                                            |
-[2022-11-05 19:46:12,339] [sonarr.py:74]              [DEBUG]    | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                                        |
-[2022-11-05 19:46:12,339] [sonarr.py:74]              [DEBUG]    | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                                        |
-[2022-11-05 19:46:12,339] [sonarr.py:74]              [DEBUG]    | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                                         |
-[2022-11-05 19:46:12,340] [sonarr.py:74]              [DEBUG]    | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                                       |
-[2022-11-05 19:46:12,340] [sonarr.py:74]              [DEBUG]    | (397774, "F:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")                             |
-[2022-11-05 19:46:12,340] [sonarr.py:74]              [DEBUG]    | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                                             |
-[2022-11-05 19:46:12,340] [sonarr.py:74]              [DEBUG]    | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                                               |
-[2022-11-05 19:46:12,341] [sonarr.py:74]              [DEBUG]    | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]')                    |
-[2022-11-05 19:46:12,341] [sonarr.py:74]              [DEBUG]    | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                                                |
-[2022-11-05 19:46:12,341] [sonarr.py:74]              [DEBUG]    | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                                               |
-[2022-11-05 19:46:12,341] [sonarr.py:74]              [DEBUG]    | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                                          |
-[2022-11-05 19:46:12,342] [sonarr.py:74]              [DEBUG]    | (318893, "F:\\Anime\\Miss Kobayashi's Dragon Maid (2017) [tvdb-318893]")                           |
-[2022-11-05 19:46:12,342] [sonarr.py:74]              [DEBUG]    | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')                        |
-[2022-11-05 19:46:12,342] [sonarr.py:74]              [DEBUG]    | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]')              |
-[2022-11-05 19:46:12,342] [sonarr.py:74]              [DEBUG]    | (397208, 'F:\\Anime\\ODDTAXI (2021) [tvdb-397208]')                                                |
-[2022-11-05 19:46:12,343] [sonarr.py:74]              [DEBUG]    | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                                    |
-[2022-11-05 19:46:12,343] [sonarr.py:74]              [DEBUG]    | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')                                  |
-[2022-11-05 19:46:12,590] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2022-11-05 19:46:12,591] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                     |
-[2022-11-05 19:46:12,591] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79214, 'F:\\Anime\\Mushi-Shi (2005) [tvdb-79214]')                            |
-[2022-11-05 19:46:12,591] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')    |
-[2022-11-05 19:46:12,591] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                        |
-[2022-11-05 19:46:12,592] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                    |
-[2022-11-05 19:46:12,592] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                    |
-[2022-11-05 19:46:12,592] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                     |
-[2022-11-05 19:46:12,592] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                   |
-[2022-11-05 19:46:12,593] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (397774, "F:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")         |
-[2022-11-05 19:46:12,593] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                         |
-[2022-11-05 19:46:12,594] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                           |
-[2022-11-05 19:46:12,594] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]') |
-[2022-11-05 19:46:12,595] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                            |
-[2022-11-05 19:46:12,595] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                           |
-[2022-11-05 19:46:12,595] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                      |
-[2022-11-05 19:46:12,596] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (318893, "F:\\Anime\\Miss Kobayashi's Dragon Maid (2017) [tvdb-318893]")       |
-[2022-11-05 19:46:12,596] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')    |
-[2022-11-05 19:46:12,596] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]') |
-[2022-11-05 19:46:12,596] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (397208, 'F:\\Anime\\ODDTAXI (2021) [tvdb-397208]')                            |
-[2022-11-05 19:46:12,597] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                |
-[2022-11-05 19:46:12,597] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')              |
-[2022-11-05 19:46:12,597] [sonarr.py:174]             [INFO]     | 21 Series already exist in Sonarr                                                                  |
-[2022-11-05 19:46:12,599] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-05 19:46:12,599] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:46:12,599] [util.py:216]               [INFO]     |                             Finished Jack's Favorite Anime Collection                              |
-[2022-11-05 19:46:12,599] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
-[2022-11-05 19:46:12,600] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:10:06,436] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:10:06,436] [util.py:216]               [INFO]     |                             Jack's Favorite Anime Collection in Anime                              |
+[2022-11-06 01:10:06,437] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:10:06,437] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,437] [util.py:216]               [INFO]     |=========================== Validating Jack's Favorite Anime Attributes ============================|
+[2022-11-06 01:10:06,438] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,438] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 01:10:06,438] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 01:10:06,438] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,439] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 01:10:06,439] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-06 01:10:06,440] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,440] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 01:10:06,440] [builder.py:474]            [DEBUG]    | Value: ++++++_Completed                                                                            |
+[2022-11-06 01:10:06,440] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,441] [builder.py:473]            [DEBUG]    | Validating Method: mal_userlist                                                                    |
+[2022-11-06 01:10:06,441] [builder.py:474]            [DEBUG]    | Value: ordereddict([('username', 'JCH0tsh0t'), ('status', 'completed'), ('sort_by', 'score'), ('limit', 40)]) |
+[2022-11-06 01:10:06,441] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,441] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-11-06 01:10:06,442] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 01:10:06,442] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,442] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-06 01:10:06,442] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 01:10:06,443] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,443] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-11-06 01:10:06,443] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 01:10:06,468] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,468] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 01:10:06,469] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,469] [util.py:216]               [INFO]     |============================= Running Jack's Favorite Anime Collection =============================|
+[2022-11-06 01:10:06,469] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,470] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 01:10:06,470] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,470] [builder.py:1276]           [DEBUG]    | Builder: mal_userlist: {'username': 'JCH0tsh0t', 'status': 'completed', 'sort_by': 'list_score', 'limit': 40} |
+[2022-11-06 01:10:06,470] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,471] [mal.py:237]                [INFO]     | Processing MyAnimeList Userlist: 40 Anime from JCH0tsh0t's Completed list sorted by Score          |
+[2022-11-06 01:10:06,675] [mal.py:241]                [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,675] [mal.py:242]                [DEBUG]    | 40 MyAnimeList IDs Found: [164, 199, 457, 5114, 9253, 11061, 21329, 21939, 24701, 28171, 28957, 38524, 40028, 40748, 41025, 46095, 1, 1535, 2904, 4224, 16498, 20583, 25777, 28891, 30276, 32281, 32935, 33206, 35760, 36949, 38000, 38883, 42203, 46102, 47778, 48583, 48736, 20, 30, 205] |
+[2022-11-06 01:10:06,677] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,677] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [(128, 'tmdb'), (129, 'tmdb'), (79214, 'tvdb'), (103082, 'ratingKey'), (104627, 'ratingKey'), (105612, 'ratingKey'), (79214, 'tvdb'), (79214, 'tvdb'), (79214, 'tvdb'), (289909, 'tvdb'), (312966, 'tmdb'), (267440, 'tvdb'), (267440, 'tvdb'), (103162, 'ratingKey'), (103774, 'ratingKey'), (397774, 'tvdb'), (102957, 'ratingKey'), (102918, 'ratingKey'), (79525, 'tvdb'), (105010, 'ratingKey'), (267440, 'tvdb'), (278157, 'tvdb'), (267440, 'tvdb'), (278157, 'tvdb'), (293088, 'tvdb'), (372058, 'tmdb'), (278157, 'tvdb'), (104117, 'ratingKey'), (267440, 'tvdb'), (289909, 'tvdb'), (348545, 'tvdb'), (278157, 'tvdb'), (105271, 'ratingKey'), (103919, 'ratingKey'), (348545, 'tvdb'), (267440, 'tvdb'), (103949, 'ratingKey'), (78857, 'tvdb'), (104645, 'ratingKey'), (104699, 'ratingKey')] |
+[2022-11-06 01:10:06,678] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:06,928] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,929] [util.py:216]               [INFO]     |============================ Adding to Jack's Favorite Anime Collection ============================|
+[2022-11-06 01:10:06,929] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,929] [builder.py:1709]           [INFO]     |  1/21 | Jack's Favorite Anime Collection | = | Mushishi                                            |
+[2022-11-06 01:10:06,930] [builder.py:1709]           [INFO]     |  2/21 | Jack's Favorite Anime Collection | = | Hagane no Renkinjutsushi (2009)                     |
+[2022-11-06 01:10:06,930] [builder.py:1709]           [INFO]     |  3/21 | Jack's Favorite Anime Collection | = | Steins;Gate                                         |
+[2022-11-06 01:10:06,930] [builder.py:1709]           [INFO]     |  4/21 | Jack's Favorite Anime Collection | = | Hunter x Hunter (2011)                              |
+[2022-11-06 01:10:06,930] [builder.py:1709]           [INFO]     |  5/21 | Jack's Favorite Anime Collection | = | Shingeki no Kyojin                                  |
+[2022-11-06 01:10:06,931] [builder.py:1709]           [INFO]     |  6/21 | Jack's Favorite Anime Collection | = | Jujutsu Kaisen                                      |
+[2022-11-06 01:10:06,931] [builder.py:1709]           [INFO]     |  7/21 | Jack's Favorite Anime Collection | = | Fumetsu no Anata e                                  |
+[2022-11-06 01:10:06,932] [builder.py:1709]           [INFO]     |  8/21 | Jack's Favorite Anime Collection | = | Vivy: Fluorite Eye's Song                           |
+[2022-11-06 01:10:06,932] [builder.py:1709]           [INFO]     |  9/21 | Jack's Favorite Anime Collection | = | Cowboy Bebop                                        |
+[2022-11-06 01:10:06,932] [builder.py:1709]           [INFO]     | 10/21 | Jack's Favorite Anime Collection | = | Death Note                                          |
+[2022-11-06 01:10:06,932] [builder.py:1709]           [INFO]     | 11/21 | Jack's Favorite Anime Collection | = | Code Geass: Hangyaku no Lelouch                     |
+[2022-11-06 01:10:06,933] [builder.py:1709]           [INFO]     | 12/21 | Jack's Favorite Anime Collection | = | Toradora!                                           |
+[2022-11-06 01:10:06,933] [builder.py:1709]           [INFO]     | 13/21 | Jack's Favorite Anime Collection | = | Haikyuu!!                                           |
+[2022-11-06 01:10:06,933] [builder.py:1709]           [INFO]     | 14/21 | Jack's Favorite Anime Collection | = | One Punch Man                                       |
+[2022-11-06 01:10:06,934] [builder.py:1709]           [INFO]     | 15/21 | Jack's Favorite Anime Collection | = | Kobayashi-san Chi no Maidragon                      |
+[2022-11-06 01:10:06,934] [builder.py:1709]           [INFO]     | 16/21 | Jack's Favorite Anime Collection | = | Kimetsu no Yaiba                                    |
+[2022-11-06 01:10:06,934] [builder.py:1709]           [INFO]     | 17/21 | Jack's Favorite Anime Collection | = | Re:Zero kara Hajimeru Isekai Seikatsu (2021)        |
+[2022-11-06 01:10:06,935] [builder.py:1709]           [INFO]     | 18/21 | Jack's Favorite Anime Collection | = | Odd Taxi                                            |
+[2022-11-06 01:10:06,935] [builder.py:1709]           [INFO]     | 19/21 | Jack's Favorite Anime Collection | = | Sono Bisque Doll wa Koi o Suru                      |
+[2022-11-06 01:10:06,935] [builder.py:1709]           [INFO]     | 20/21 | Jack's Favorite Anime Collection | = | Shinseiki Evangelion                                |
+[2022-11-06 01:10:06,935] [builder.py:1709]           [INFO]     | 21/21 | Jack's Favorite Anime Collection | = | Samurai Champloo                                    |
+[2022-11-06 01:10:06,937] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,937] [builder.py:1735]           [INFO]     | 21 Shows Processed                                                                                 |
+[2022-11-06 01:10:06,937] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,938] [util.py:216]               [INFO]     |======================== Missing Movies from Library: Jack's Favorite Anime ========================|
+[2022-11-06 01:10:06,938] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:06,983] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Princess Mononoke (1997) (TMDb: 128)                        |
+[2022-11-06 01:10:07,011] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Spirited Away (2001) (TMDb: 129)                            |
+[2022-11-06 01:10:07,035] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Mushi-Shi: The Next Chapter - Drops of Bells (2015) (TMDb: 312966) |
+[2022-11-06 01:10:07,067] [builder.py:1943]           [INFO]     | Jack's Favorite Anime Collection | ? | Your Name. (2016) (TMDb: 372058)                            |
+[2022-11-06 01:10:07,067] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,067] [builder.py:1948]           [INFO]     | 4 Movies Missing                                                                                   |
+[2022-11-06 01:10:07,069] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,069] [util.py:216]               [INFO]     |======================== Missing Shows from Library: Jack's Favorite Anime =========================|
+[2022-11-06 01:10:07,070] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,213] [builder.py:1982]           [INFO]     | Jack's Favorite Anime Collection | ? | Food Wars! (TVDB: 289909)                                   |
+[2022-11-06 01:10:07,262] [builder.py:1982]           [INFO]     | Jack's Favorite Anime Collection | ? | Naruto (TVDB: 78857)                                        |
+[2022-11-06 01:10:07,262] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,262] [builder.py:1987]           [INFO]     | 2 Shows Missing                                                                                    |
+[2022-11-06 01:10:07,264] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,264] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-06 01:10:07,264] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:07,265] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [289909, 78857]                                                                       |
+[2022-11-06 01:10:07,505] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,506] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 289909                                                                         |
+[2022-11-06 01:10:07,506] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78857                                                                          |
+[2022-11-06 01:10:07,506] [sonarr.py:174]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
+[2022-11-06 01:10:07,511] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,512] [util.py:216]               [INFO]     |======================= Updating Details of Jack's Favorite Anime Collection =======================|
+[2022-11-06 01:10:07,512] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,514] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-11-06 01:10:07,515] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-06 01:10:07,537] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:07,537] [util.py:216]               [INFO]     |================ Updating Details of the Items in Jack's Favorite Anime Collection =================|
+[2022-11-06 01:10:07,537] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-06 01:10:10,530] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-06 01:10:10,531] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-11-06 01:10:10,531] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-06 01:10:10,531] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-11-06 01:10:10,531] [sonarr.py:74]              [DEBUG]    | (79214, 'F:\\Anime\\Mushi-Shi (2005) [tvdb-79214]')                                                |
+[2022-11-06 01:10:10,532] [sonarr.py:74]              [DEBUG]    | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')                        |
+[2022-11-06 01:10:10,532] [sonarr.py:74]              [DEBUG]    | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                                            |
+[2022-11-06 01:10:10,532] [sonarr.py:74]              [DEBUG]    | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                                        |
+[2022-11-06 01:10:10,532] [sonarr.py:74]              [DEBUG]    | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                                        |
+[2022-11-06 01:10:10,533] [sonarr.py:74]              [DEBUG]    | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                                         |
+[2022-11-06 01:10:10,533] [sonarr.py:74]              [DEBUG]    | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                                       |
+[2022-11-06 01:10:10,533] [sonarr.py:74]              [DEBUG]    | (397774, "F:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")                             |
+[2022-11-06 01:10:10,533] [sonarr.py:74]              [DEBUG]    | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                                             |
+[2022-11-06 01:10:10,534] [sonarr.py:74]              [DEBUG]    | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                                               |
+[2022-11-06 01:10:10,534] [sonarr.py:74]              [DEBUG]    | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]')                    |
+[2022-11-06 01:10:10,534] [sonarr.py:74]              [DEBUG]    | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                                                |
+[2022-11-06 01:10:10,534] [sonarr.py:74]              [DEBUG]    | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                                               |
+[2022-11-06 01:10:10,534] [sonarr.py:74]              [DEBUG]    | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                                          |
+[2022-11-06 01:10:10,535] [sonarr.py:74]              [DEBUG]    | (318893, "F:\\Anime\\Miss Kobayashi's Dragon Maid (2017) [tvdb-318893]")                           |
+[2022-11-06 01:10:10,535] [sonarr.py:74]              [DEBUG]    | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')                        |
+[2022-11-06 01:10:10,535] [sonarr.py:74]              [DEBUG]    | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]')              |
+[2022-11-06 01:10:10,535] [sonarr.py:74]              [DEBUG]    | (397208, 'F:\\Anime\\ODDTAXI (2021) [tvdb-397208]')                                                |
+[2022-11-06 01:10:10,536] [sonarr.py:74]              [DEBUG]    | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                                    |
+[2022-11-06 01:10:10,536] [sonarr.py:74]              [DEBUG]    | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')                                  |
+[2022-11-06 01:10:10,536] [sonarr.py:74]              [DEBUG]    | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                                         |
+[2022-11-06 01:10:10,788] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-06 01:10:10,788] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79214, 'F:\\Anime\\Mushi-Shi (2005) [tvdb-79214]')                            |
+[2022-11-06 01:10:10,789] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')    |
+[2022-11-06 01:10:10,789] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                        |
+[2022-11-06 01:10:10,789] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                    |
+[2022-11-06 01:10:10,789] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                    |
+[2022-11-06 01:10:10,790] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                     |
+[2022-11-06 01:10:10,790] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                   |
+[2022-11-06 01:10:10,790] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (397774, "F:\\Anime\\Vivy - Fluorite Eye's Song (2021) [tvdb-397774]")         |
+[2022-11-06 01:10:10,791] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                         |
+[2022-11-06 01:10:10,791] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                           |
+[2022-11-06 01:10:10,791] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]') |
+[2022-11-06 01:10:10,792] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                            |
+[2022-11-06 01:10:10,792] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                           |
+[2022-11-06 01:10:10,792] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                      |
+[2022-11-06 01:10:10,792] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (318893, "F:\\Anime\\Miss Kobayashi's Dragon Maid (2017) [tvdb-318893]")       |
+[2022-11-06 01:10:10,793] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')    |
+[2022-11-06 01:10:10,793] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]') |
+[2022-11-06 01:10:10,793] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (397208, 'F:\\Anime\\ODDTAXI (2021) [tvdb-397208]')                            |
+[2022-11-06 01:10:10,793] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                |
+[2022-11-06 01:10:10,794] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')              |
+[2022-11-06 01:10:10,794] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                     |
+[2022-11-06 01:10:10,794] [sonarr.py:174]             [INFO]     | 21 Series already exist in Sonarr                                                                  |
+[2022-11-06 01:10:10,795] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 01:10:10,795] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:10:10,796] [util.py:216]               [INFO]     |                             Finished Jack's Favorite Anime Collection                              |
+[2022-11-06 01:10:10,796] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-06 01:10:10,796] [util.py:220]               [INFO]     |====================================================================================================|

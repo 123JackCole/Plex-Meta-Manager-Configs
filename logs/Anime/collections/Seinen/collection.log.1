@@ -1,55 +1,55 @@
-[2022-11-05 19:50:08,962] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:50:08,962] [util.py:216]               [INFO]     |                                     Seinen Collection in Anime                                     |
-[2022-11-05 19:50:08,962] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:50:08,963] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-05 19:50:08,963] [util.py:216]               [INFO]     |=================================== Validating Seinen Attributes ===================================|
-[2022-11-05 19:50:08,963] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,964] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-05 19:50:08,964] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 42), ('poster', 'https://theposterdb.com/api/assets/240866')]) |
-[2022-11-05 19:50:08,964] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,964] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-05 19:50:08,965] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-05 19:50:08,965] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,965] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-05 19:50:08,965] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-05 19:50:08,966] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,966] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-05 19:50:08,966] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 42, 'limit': 999}                                                              |
-[2022-11-05 19:50:08,966] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,967] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-05 19:50:08,967] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240866                                                   |
-[2022-11-05 19:50:08,967] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,967] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-05 19:50:08,968] [builder.py:474]            [DEBUG]    | Value: +++_Seinen                                                                                  |
-[2022-11-05 19:50:08,968] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:08,968] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-05 19:50:08,968] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-05 19:50:09,034] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-05 19:50:09,035] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-05 19:50:09,035] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-05 19:50:09,035] [util.py:216]               [INFO]     |==================================== Running Seinen Collection =====================================|
-[2022-11-05 19:50:09,036] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-05 19:50:09,036] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-05 19:50:09,036] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:09,036] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 42, 'limit': 999}                                                 |
-[2022-11-05 19:50:09,037] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-05 19:50:09,037] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 42                                                                |
-[2022-11-05 19:50:11,204] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-05 19:50:11,204] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-05 19:50:11,204] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-05 19:50:11,205] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-05 19:50:11,205] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-05 19:50:11,205] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-05 19:50:11,205] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-05 19:50:11,206] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-05 19:50:11,206] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-05 19:50:11,206] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-05 19:50:11,206] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-05 19:50:11,206] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 42                        |
-[2022-11-05 19:50:11,207] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-05 19:50:11,207] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 42                                             |
-[2022-11-05 19:50:11,207] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-05 19:50:11,208] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:50:11,208] [util.py:216]               [INFO]     |                                     Finished Seinen Collection                                     |
-[2022-11-05 19:50:11,208] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-05 19:50:11,208] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:13:57,274] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:13:57,275] [util.py:216]               [INFO]     |                                     Seinen Collection in Anime                                     |
+[2022-11-06 01:13:57,275] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 01:13:57,275] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 01:13:57,276] [util.py:216]               [INFO]     |=================================== Validating Seinen Attributes ===================================|
+[2022-11-06 01:13:57,276] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,276] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 01:13:57,276] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 42), ('poster', 'https://theposterdb.com/api/assets/240866')]) |
+[2022-11-06 01:13:57,277] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,277] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 01:13:57,277] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 01:13:57,278] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,278] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 01:13:57,278] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-06 01:13:57,278] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,279] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-06 01:13:57,279] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 42, 'limit': 999}                                                              |
+[2022-11-06 01:13:57,279] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,279] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 01:13:57,279] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240866                                                   |
+[2022-11-06 01:13:57,280] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,280] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 01:13:57,280] [builder.py:474]            [DEBUG]    | Value: +++_Seinen                                                                                  |
+[2022-11-06 01:13:57,280] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,281] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-06 01:13:57,281] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-06 01:13:57,348] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 01:13:57,349] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 01:13:57,349] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 01:13:57,349] [util.py:216]               [INFO]     |==================================== Running Seinen Collection =====================================|
+[2022-11-06 01:13:57,350] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 01:13:57,350] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 01:13:57,350] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:57,351] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 42, 'limit': 999}                                                 |
+[2022-11-06 01:13:57,351] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 01:13:57,351] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 42                                                                |
+[2022-11-06 01:13:59,517] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-06 01:13:59,517] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-06 01:13:59,518] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-06 01:13:59,518] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-06 01:13:59,518] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-06 01:13:59,518] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-06 01:13:59,519] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-06 01:13:59,519] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
+[2022-11-06 01:13:59,519] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-06 01:13:59,519] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
+[2022-11-06 01:13:59,520] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-06 01:13:59,520] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 42                        |
+[2022-11-06 01:13:59,520] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-06 01:13:59,520] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 42                                             |
+[2022-11-06 01:13:59,521] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 01:13:59,521] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 01:13:59,521] [util.py:216]               [INFO]     |                                     Finished Seinen Collection                                     |
+[2022-11-06 01:13:59,522] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-06 01:13:59,522] [util.py:220]               [INFO]     |====================================================================================================|

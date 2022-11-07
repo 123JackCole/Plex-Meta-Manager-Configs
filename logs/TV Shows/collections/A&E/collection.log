@@ -1,120 +1,307 @@
-[2022-10-28 01:24:31,700] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:24:31,700] [util.py:216]               [INFO]     |                                     A&E Collection in TV Shows                                     |
-[2022-10-28 01:24:31,701] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-28 01:24:31,701] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-28 01:24:31,701] [util.py:216]               [INFO]     |==================================== Validating A&E Attributes =====================================|
-[2022-10-28 01:24:31,702] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:31,702] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-28 01:24:31,702] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '129, 2639, 3688'), ('poster', 'https://theposterdb.com/api/assets/160188')]) |
-[2022-10-28 01:24:31,702] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:31,703] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-28 01:24:31,703] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-28 01:24:31,703] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:31,703] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-28 01:24:31,704] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-28 01:24:31,704] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:31,704] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-10-28 01:24:31,704] [builder.py:474]            [DEBUG]    | Value: 129, 2639, 3688                                                                             |
-[2022-10-28 01:24:32,025] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,026] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-28 01:24:32,026] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/160188                                                   |
-[2022-10-28 01:24:32,026] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,027] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-28 01:24:32,027] [builder.py:474]            [DEBUG]    | Value: +2_A&E                                                                                      |
-[2022-10-28 01:24:32,030] [plex.py:685]               [DEBUG]    | Looking for: A&E                                                                                   |
-[2022-10-28 01:24:32,030] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-28 01:24:32,030] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-28 01:24:32,033] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-28 01:24:32,033] [util.py:216]               [INFO]     |====================================== Running A&E Collection ======================================|
-[2022-10-28 01:24:32,033] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-28 01:24:32,034] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-28 01:24:32,034] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,034] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 129                                                                         |
-[2022-10-28 01:24:32,034] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-28 01:24:32,271] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-28 01:24:32,271] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
-[2022-10-28 01:24:32,271] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
-[2022-10-28 01:24:32,272] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request |
-[2022-10-28 01:24:32,272] [util.py:162]               [DEBUG]    |     self._validate_conn(conn)                                                                      |
-[2022-10-28 01:24:32,272] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn |
-[2022-10-28 01:24:32,272] [util.py:162]               [DEBUG]    |     conn.connect()                                                                                 |
-[2022-10-28 01:24:32,273] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 416, in connect |
-[2022-10-28 01:24:32,273] [util.py:162]               [DEBUG]    |     self.sock = ssl_wrap_socket(                                                                   |
-[2022-10-28 01:24:32,273] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket |
-[2022-10-28 01:24:32,273] [util.py:162]               [DEBUG]    |     ssl_sock = _ssl_wrap_socket_impl(                                                              |
-[2022-10-28 01:24:32,274] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl |
-[2022-10-28 01:24:32,274] [util.py:162]               [DEBUG]    |     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)                          |
-[2022-10-28 01:24:32,274] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket |
-[2022-10-28 01:24:32,274] [util.py:162]               [DEBUG]    |     return self.sslsocket_class._create(                                                           |
-[2022-10-28 01:24:32,274] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create    |
-[2022-10-28 01:24:32,275] [util.py:162]               [DEBUG]    |     self.do_handshake()                                                                            |
-[2022-10-28 01:24:32,275] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake |
-[2022-10-28 01:24:32,275] [util.py:162]               [DEBUG]    |     self._sslobj.do_handshake()                                                                    |
-[2022-10-28 01:24:32,275] [util.py:162]               [DEBUG]    | ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host |
-[2022-10-28 01:24:32,276] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,276] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-28 01:24:32,276] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,276] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-28 01:24:32,276] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 440, in send |
-[2022-10-28 01:24:32,277] [util.py:162]               [DEBUG]    |     resp = conn.urlopen(                                                                           |
-[2022-10-28 01:24:32,277] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 785, in urlopen |
-[2022-10-28 01:24:32,277] [util.py:162]               [DEBUG]    |     retries = retries.increment(                                                                   |
-[2022-10-28 01:24:32,277] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\retry.py", line 550, in increment |
-[2022-10-28 01:24:32,277] [util.py:162]               [DEBUG]    |     raise six.reraise(type(error), error, _stacktrace)                                             |
-[2022-10-28 01:24:32,278] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\packages\six.py", line 769, in reraise |
-[2022-10-28 01:24:32,278] [util.py:162]               [DEBUG]    |     raise value.with_traceback(tb)                                                                 |
-[2022-10-28 01:24:32,278] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 703, in urlopen |
-[2022-10-28 01:24:32,278] [util.py:162]               [DEBUG]    |     httplib_response = self._make_request(                                                         |
-[2022-10-28 01:24:32,279] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 386, in _make_request |
-[2022-10-28 01:24:32,279] [util.py:162]               [DEBUG]    |     self._validate_conn(conn)                                                                      |
-[2022-10-28 01:24:32,279] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connectionpool.py", line 1040, in _validate_conn |
-[2022-10-28 01:24:32,279] [util.py:162]               [DEBUG]    |     conn.connect()                                                                                 |
-[2022-10-28 01:24:32,279] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\connection.py", line 416, in connect |
-[2022-10-28 01:24:32,280] [util.py:162]               [DEBUG]    |     self.sock = ssl_wrap_socket(                                                                   |
-[2022-10-28 01:24:32,280] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\ssl_.py", line 449, in ssl_wrap_socket |
-[2022-10-28 01:24:32,280] [util.py:162]               [DEBUG]    |     ssl_sock = _ssl_wrap_socket_impl(                                                              |
-[2022-10-28 01:24:32,280] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\urllib3\util\ssl_.py", line 493, in _ssl_wrap_socket_impl |
-[2022-10-28 01:24:32,281] [util.py:162]               [DEBUG]    |     return ssl_context.wrap_socket(sock, server_hostname=server_hostname)                          |
-[2022-10-28 01:24:32,281] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 500, in wrap_socket |
-[2022-10-28 01:24:32,281] [util.py:162]               [DEBUG]    |     return self.sslsocket_class._create(                                                           |
-[2022-10-28 01:24:32,281] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1040, in _create    |
-[2022-10-28 01:24:32,281] [util.py:162]               [DEBUG]    |     self.do_handshake()                                                                            |
-[2022-10-28 01:24:32,282] [util.py:162]               [DEBUG]    |   File "C:\Users\Jack\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1309, in do_handshake |
-[2022-10-28 01:24:32,282] [util.py:162]               [DEBUG]    |     self._sslobj.do_handshake()                                                                    |
-[2022-10-28 01:24:32,282] [util.py:162]               [DEBUG]    | urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
-[2022-10-28 01:24:32,282] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,282] [util.py:162]               [DEBUG]    | During handling of the above exception, another exception occurred:                                |
-[2022-10-28 01:24:32,283] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,283] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-10-28 01:24:32,283] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-10-28 01:24:32,283] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-10-28 01:24:32,284] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-10-28 01:24:32,284] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-10-28 01:24:32,284] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1267, in gather_ids              |
-[2022-10-28 01:24:32,284] [util.py:162]               [DEBUG]    |     return self.config.TMDb.get_tmdb_ids(method, value, self.library.is_movie)                     |
-[2022-10-28 01:24:32,284] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\tmdb.py", line 278, in get_tmdb_ids                |
-[2022-10-28 01:24:32,285] [util.py:162]               [DEBUG]    |     ids, amount = self._discover(attrs, limit, is_movie)                                           |
-[2022-10-28 01:24:32,285] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\tmdb.py", line 225, in _discover                   |
-[2022-10-28 01:24:32,285] [util.py:162]               [DEBUG]    |     tmdb_items = self.Discover.discover_movies(attrs) if is_movie else self.Discover.discover_tv_shows(attrs) |
-[2022-10-28 01:24:32,285] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\objs\discover.py", line 27, in discover_tv_shows |
-[2022-10-28 01:24:32,285] [util.py:162]               [DEBUG]    |     return self._get_obj(self._call(self._urls["tv"], urlencode(params)))                          |
-[2022-10-28 01:24:32,286] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\tmdb.py", line 131, in _call |
-[2022-10-28 01:24:32,286] [util.py:162]               [DEBUG]    |     req = self.cached_request(method, url, data)                                                   |
-[2022-10-28 01:24:32,286] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\tmdbv3api\tmdb.py", line 111, in cached_request |
-[2022-10-28 01:24:32,286] [util.py:162]               [DEBUG]    |     return requests.request(method, url, data=data)                                                |
-[2022-10-28 01:24:32,286] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\api.py", line 61, in request |
-[2022-10-28 01:24:32,287] [util.py:162]               [DEBUG]    |     return session.request(method=method, url=url, **kwargs)                                       |
-[2022-10-28 01:24:32,287] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 529, in request |
-[2022-10-28 01:24:32,287] [util.py:162]               [DEBUG]    |     resp = self.send(prep, **send_kwargs)                                                          |
-[2022-10-28 01:24:32,287] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\sessions.py", line 645, in send |
-[2022-10-28 01:24:32,288] [util.py:162]               [DEBUG]    |     r = adapter.send(request, **kwargs)                                                            |
-[2022-10-28 01:24:32,288] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\pmm-venv\lib\site-packages\requests\adapters.py", line 501, in send |
-[2022-10-28 01:24:32,288] [util.py:162]               [DEBUG]    |     raise ConnectionError(err, request=request)                                                    |
-[2022-10-28 01:24:32,288] [util.py:162]               [DEBUG]    | requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
-[2022-10-28 01:24:32,288] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-10-28 01:24:32,289] [plex_meta_manager.py:877]  [ERROR]    | Unknown Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)) |
-[2022-10-28 01:24:32,289] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-28 01:24:32,289] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-28 01:24:32,290] [util.py:216]               [INFO]     |                                      Finished A&E Collection                                       |
-[2022-10-28 01:24:32,290] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-10-28 01:24:32,290] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 11:55:56,066] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 11:55:56,066] [util.py:216]               [INFO]     |                                     A&E Collection in TV Shows                                     |
+[2022-11-06 11:55:56,066] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-06 11:55:56,067] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-06 11:55:56,067] [util.py:216]               [INFO]     |==================================== Validating A&E Attributes =====================================|
+[2022-11-06 11:55:56,068] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,068] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-06 11:55:56,068] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '129, 2639, 3688'), ('poster', 'https://theposterdb.com/api/assets/160188')]) |
+[2022-11-06 11:55:56,068] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,069] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-06 11:55:56,069] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-06 11:55:56,069] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,069] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-06 11:55:56,070] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-06 11:55:56,070] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,070] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-06 11:55:56,070] [builder.py:474]            [DEBUG]    | Value: 129, 2639, 3688                                                                             |
+[2022-11-06 11:55:56,432] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,433] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-06 11:55:56,433] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/160188                                                   |
+[2022-11-06 11:55:56,433] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,433] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-06 11:55:56,434] [builder.py:474]            [DEBUG]    | Value: +2_A&E                                                                                      |
+[2022-11-06 11:55:56,437] [plex.py:687]               [DEBUG]    | Looking for: A&E                                                                                   |
+[2022-11-06 11:55:56,437] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-06 11:55:56,437] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-06 11:55:56,440] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-06 11:55:56,441] [util.py:216]               [INFO]     |====================================== Running A&E Collection ======================================|
+[2022-11-06 11:55:56,441] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-06 11:55:56,441] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-06 11:55:56,441] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:56,442] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 129                                                                         |
+[2022-11-06 11:55:56,442] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 11:55:57,870] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (129) A&E (240 Shows)                                                     |
+[2022-11-06 11:55:57,871] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:57,871] [builder.py:1283]           [DEBUG]    | 240 IDs Found: [(46786, 'tmdb_show'), (34971, 'tmdb_show'), (43901, 'tmdb_show'), (5146, 'tmdb_show'), (39276, 'tmdb_show'), (33091, 'tmdb_show'), (68430, 'tmdb_show'), (39758, 'tmdb_show'), (64099, 'tmdb_show'), (19997, 'tmdb_show'), (65854, 'tmdb_show'), (4557, 'tmdb_show'), (96152, 'tmdb_show'), (32861, 'tmdb_show'), (32803, 'tmdb_show'), (62142, 'tmdb_show'), (12258, 'tmdb_show'), (65925, 'tmdb_show'), (62829, 'tmdb_show'), (3195, 'tmdb_show'), (11145, 'tmdb_show'), (30946, 'tmdb_show'), (1883, 'tmdb_show'), (37092, 'tmdb_show'), (19033, 'tmdb_show'), (50592, 'tmdb_show'), (42738, 'tmdb_show'), (68901, 'tmdb_show'), (1205, 'tmdb_show'), (31380, 'tmdb_show'), (90686, 'tmdb_show'), (119985, 'tmdb_show'), (16386, 'tmdb_show'), (203453, 'tmdb_show'), (83692, 'tmdb_show'), (7547, 'tmdb_show'), (10275, 'tmdb_show'), (14390, 'tmdb_show'), (38785, 'tmdb_show'), (60951, 'tmdb_show'), (88744, 'tmdb_show'), (122821, 'tmdb_show'), (92820, 'tmdb_show'), (71801, 'tmdb_show'), (114635, 'tmdb_show'), (155892, 'tmdb_show'), (14124, 'tmdb_show'), (62284, 'tmdb_show'), (64559, 'tmdb_show'), (12327, 'tmdb_show'), (13042, 'tmdb_show'), (204381, 'tmdb_show'), (207194, 'tmdb_show'), (113809, 'tmdb_show'), (68505, 'tmdb_show'), (79775, 'tmdb_show'), (42188, 'tmdb_show'), (11011, 'tmdb_show'), (119896, 'tmdb_show'), (122296, 'tmdb_show'), (203655, 'tmdb_show'), (62998, 'tmdb_show'), (8449, 'tmdb_show'), (64682, 'tmdb_show'), (77969, 'tmdb_show'), (75210, 'tmdb_show'), (106212, 'tmdb_show'), (14163, 'tmdb_show'), (12664, 'tmdb_show'), (63199, 'tmdb_show'), (128310, 'tmdb_show'), (112812, 'tmdb_show'), (24587, 'tmdb_show'), (102287, 'tmdb_show'), (59670, 'tmdb_show'), (203303, 'tmdb_show'), (31745, 'tmdb_show'), (3223, 'tmdb_show'), (8752, 'tmdb_show'), (123932, 'tmdb_show'), (105988, 'tmdb_show'), (75745, 'tmdb_show'), (73538, 'tmdb_show'), (97191, 'tmdb_show'), (98186, 'tmdb_show'), (65325, 'tmdb_show'), (124602, 'tmdb_show'), (7182, 'tmdb_show'), (65066, 'tmdb_show'), (74580, 'tmdb_show'), (114850, 'tmdb_show'), (39498, 'tmdb_show'), (10638, 'tmdb_show'), (36790, 'tmdb_show'), (72653, 'tmdb_show'), (205373, 'tmdb_show'), (91751, 'tmdb_show'), (77668, 'tmdb_show'), (73403, 'tmdb_show'), (72810, 'tmdb_show'), (40169, 'tmdb_show'), (34133, 'tmdb_show'), (19321, 'tmdb_show'), (36768, 'tmdb_show'), (84197, 'tmdb_show'), (66735, 'tmdb_show'), (3827, 'tmdb_show'), (80407, 'tmdb_show'), (19450, 'tmdb_show'), (31603, 'tmdb_show'), (80408, 'tmdb_show'), (133034, 'tmdb_show'), (86017, 'tmdb_show'), (34256, 'tmdb_show'), (46451, 'tmdb_show'), (42819, 'tmdb_show'), (18807, 'tmdb_show'), (116136, 'tmdb_show'), (42811, 'tmdb_show'), (16539, 'tmdb_show'), (203427, 'tmdb_show'), (63355, 'tmdb_show'), (106520, 'tmdb_show'), (204380, 'tmdb_show'), (204885, 'tmdb_show'), (47694, 'tmdb_show'), (133774, 'tmdb_show'), (4021, 'tmdb_show'), (121268, 'tmdb_show'), (95641, 'tmdb_show'), (57752, 'tmdb_show'), (96633, 'tmdb_show'), (63000, 'tmdb_show'), (42741, 'tmdb_show'), (117269, 'tmdb_show'), (106954, 'tmdb_show'), (35380, 'tmdb_show'), (19100, 'tmdb_show'), (77307, 'tmdb_show'), (129158, 'tmdb_show'), (101609, 'tmdb_show'), (96733, 'tmdb_show'), (91037, 'tmdb_show'), (69266, 'tmdb_show'), (61515, 'tmdb_show'), (32532, 'tmdb_show'), (27787, 'tmdb_show'), (76426, 'tmdb_show'), (38183, 'tmdb_show'), (38414, 'tmdb_show'), (86403, 'tmdb_show'), (10899, 'tmdb_show'), (37298, 'tmdb_show'), (21293, 'tmdb_show'), (33695, 'tmdb_show'), (128829, 'tmdb_show'), (29386, 'tmdb_show'), (118478, 'tmdb_show'), (62357, 'tmdb_show'), (13059, 'tmdb_show'), (10811, 'tmdb_show'), (103888, 'tmdb_show'), (34659, 'tmdb_show'), (42746, 'tmdb_show'), (16357, 'tmdb_show'), (155257, 'tmdb_show'), (204828, 'tmdb_show'), (203262, 'tmdb_show'), (197572, 'tmdb_show'), (178066, 'tmdb_show'), (156740, 'tmdb_show'), (154518, 'tmdb_show'), (154200, 'tmdb_show'), (137535, 'tmdb_show'), (131268, 'tmdb_show'), (129388, 'tmdb_show'), (117366, 'tmdb_show'), (117342, 'tmdb_show'), (117294, 'tmdb_show'), (117041, 'tmdb_show'), (117040, 'tmdb_show'), (116974, 'tmdb_show'), (113343, 'tmdb_show'), (100151, 'tmdb_show'), (93710, 'tmdb_show'), (91076, 'tmdb_show'), (88414, 'tmdb_show'), (83397, 'tmdb_show'), (80306, 'tmdb_show'), (79446, 'tmdb_show'), (78170, 'tmdb_show'), (77306, 'tmdb_show'), (77133, 'tmdb_show'), (76268, 'tmdb_show'), (70403, 'tmdb_show'), (69499, 'tmdb_show'), (67323, 'tmdb_show'), (63003, 'tmdb_show'), (59088, 'tmdb_show'), (58436, 'tmdb_show'), (42818, 'tmdb_show'), (42817, 'tmdb_show'), (42816, 'tmdb_show'), (42815, 'tmdb_show'), (42814, 'tmdb_show'), (42813, 'tmdb_show'), (42810, 'tmdb_show'), (42809, 'tmdb_show'), (42808, 'tmdb_show'), (42806, 'tmdb_show'), (42750, 'tmdb_show'), (42749, 'tmdb_show'), (42748, 'tmdb_show'), (42747, 'tmdb_show'), (42745, 'tmdb_show'), (42744, 'tmdb_show'), (42742, 'tmdb_show'), (42740, 'tmdb_show'), (42185, 'tmdb_show'), (38694, 'tmdb_show'), (37887, 'tmdb_show'), (37551, 'tmdb_show'), (37358, 'tmdb_show'), (37327, 'tmdb_show'), (37212, 'tmdb_show'), (36022, 'tmdb_show'), (35951, 'tmdb_show'), (35506, 'tmdb_show'), (30975, 'tmdb_show'), (29055, 'tmdb_show'), (25675, 'tmdb_show'), (23856, 'tmdb_show'), (18342, 'tmdb_show'), (16948, 'tmdb_show'), (13174, 'tmdb_show'), (10754, 'tmdb_show'), (9456, 'tmdb_show'), (8006, 'tmdb_show'), (690, 'tmdb_show'), (614, 'tmdb_show')] |
+[2022-11-06 11:55:57,871] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:55:57,993] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 90686                                                 |
+[2022-11-06 11:55:58,104] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92820                                                 |
+[2022-11-06 11:55:58,229] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112812                                                |
+[2022-11-06 11:55:58,368] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203303                                                |
+[2022-11-06 11:55:58,474] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 98186                                                 |
+[2022-11-06 11:55:58,612] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 124602                                                |
+[2022-11-06 11:55:58,741] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 36790                                                 |
+[2022-11-06 11:55:58,846] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 19321                                                 |
+[2022-11-06 11:55:58,952] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 80407                                                 |
+[2022-11-06 11:55:59,062] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42819                                                 |
+[2022-11-06 11:55:59,169] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42811                                                 |
+[2022-11-06 11:55:59,285] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4021                                                  |
+[2022-11-06 11:55:59,389] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96633                                                 |
+[2022-11-06 11:55:59,494] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117269                                                |
+[2022-11-06 11:55:59,595] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77307                                                 |
+[2022-11-06 11:55:59,715] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101609                                                |
+[2022-11-06 11:55:59,976] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 91037                                                 |
+[2022-11-06 11:56:00,089] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 69266                                                 |
+[2022-11-06 11:56:00,196] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 32532                                                 |
+[2022-11-06 11:56:00,311] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 38414                                                 |
+[2022-11-06 11:56:00,411] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 10899                                                 |
+[2022-11-06 11:56:00,515] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29386                                                 |
+[2022-11-06 11:56:00,630] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156740                                                |
+[2022-11-06 11:56:00,734] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 154518                                                |
+[2022-11-06 11:56:00,834] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131268                                                |
+[2022-11-06 11:56:00,933] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117366                                                |
+[2022-11-06 11:56:01,068] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117342                                                |
+[2022-11-06 11:56:01,199] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117294                                                |
+[2022-11-06 11:56:01,306] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117041                                                |
+[2022-11-06 11:56:01,409] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117040                                                |
+[2022-11-06 11:56:01,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116974                                                |
+[2022-11-06 11:56:01,650] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 113343                                                |
+[2022-11-06 11:56:01,760] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93710                                                 |
+[2022-11-06 11:56:01,868] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 91076                                                 |
+[2022-11-06 11:56:01,971] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 83397                                                 |
+[2022-11-06 11:56:02,083] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 80306                                                 |
+[2022-11-06 11:56:02,215] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 78170                                                 |
+[2022-11-06 11:56:02,318] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77306                                                 |
+[2022-11-06 11:56:02,423] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77133                                                 |
+[2022-11-06 11:56:02,527] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 76268                                                 |
+[2022-11-06 11:56:02,638] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 67323                                                 |
+[2022-11-06 11:56:02,741] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 63003                                                 |
+[2022-11-06 11:56:02,845] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 59088                                                 |
+[2022-11-06 11:56:02,965] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 58436                                                 |
+[2022-11-06 11:56:03,072] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42818                                                 |
+[2022-11-06 11:56:03,175] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42817                                                 |
+[2022-11-06 11:56:03,282] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42816                                                 |
+[2022-11-06 11:56:03,400] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42815                                                 |
+[2022-11-06 11:56:03,518] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42814                                                 |
+[2022-11-06 11:56:03,617] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42813                                                 |
+[2022-11-06 11:56:03,724] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42810                                                 |
+[2022-11-06 11:56:03,834] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42809                                                 |
+[2022-11-06 11:56:03,937] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42808                                                 |
+[2022-11-06 11:56:04,043] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42806                                                 |
+[2022-11-06 11:56:04,151] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42750                                                 |
+[2022-11-06 11:56:04,251] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42748                                                 |
+[2022-11-06 11:56:04,355] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42747                                                 |
+[2022-11-06 11:56:04,459] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42744                                                 |
+[2022-11-06 11:56:04,597] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42185                                                 |
+[2022-11-06 11:56:04,700] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37887                                                 |
+[2022-11-06 11:56:04,815] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37212                                                 |
+[2022-11-06 11:56:04,922] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35951                                                 |
+[2022-11-06 11:56:05,028] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35506                                                 |
+[2022-11-06 11:56:05,125] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 25675                                                 |
+[2022-11-06 11:56:05,251] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23856                                                 |
+[2022-11-06 11:56:05,347] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13174                                                 |
+[2022-11-06 11:56:05,460] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 9456                                                  |
+[2022-11-06 11:56:05,564] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8006                                                  |
+[2022-11-06 11:56:05,566] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:05,566] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2639                                                                        |
+[2022-11-06 11:56:05,566] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 11:56:05,788] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2639) A&E (2 Shows)                                                      |
+[2022-11-06 11:56:05,789] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:05,789] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(81340, 'tmdb_show'), (138516, 'tmdb_show')]                                         |
+[2022-11-06 11:56:05,789] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:05,895] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 81340                                                 |
+[2022-11-06 11:56:06,015] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138516                                                |
+[2022-11-06 11:56:06,016] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:06,016] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 3688                                                                        |
+[2022-11-06 11:56:06,016] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-06 11:56:06,223] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (3688) A&E (2 Shows)                                                      |
+[2022-11-06 11:56:06,223] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:06,224] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(74868, 'tmdb_show'), (195955, 'tmdb_show')]                                         |
+[2022-11-06 11:56:06,224] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-06 11:56:06,326] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 74868                                                 |
+[2022-11-06 11:56:06,422] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195955                                                |
+[2022-11-06 11:56:06,423] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-06 11:56:06,423] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for A&E Collection                                                   |
+[2022-11-06 11:56:06,424] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-06 11:56:06,424] [util.py:216]               [INFO]     |================================= Missing Shows from Library: A&E ==================================|
+[2022-11-06 11:56:06,424] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-06 11:56:06,811] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bates Motel (TVDB: 262414)                                                    |
+[2022-11-06 11:56:07,273] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars (TVDB: 207621)                                                   |
+[2022-11-06 11:56:07,646] [builder.py:1982]           [INFO]     | A&E Collection | ? | Longmire (TVDB: 253491)                                                       |
+[2022-11-06 11:56:08,306] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 (TVDB: 81275)                                                    |
+[2022-11-06 11:56:08,615] [builder.py:1982]           [INFO]     | A&E Collection | ? | Unforgettable (TVDB: 248861)                                                  |
+[2022-11-06 11:56:08,916] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Glades (TVDB: 168941)                                                     |
+[2022-11-06 11:56:09,250] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD (TVDB: 318451)                                                        |
+[2022-11-06 11:56:09,501] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bag of Bones (TVDB: 252870)                                                   |
+[2022-11-06 11:56:09,720] [builder.py:1982]           [INFO]     | A&E Collection | ? | War & Peace (2016) (TVDB: 299408)                                             |
+[2022-11-06 11:56:09,953] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Andromeda Strain (TVDB: 81843)                                            |
+[2022-11-06 11:56:10,315] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In (TVDB: 308045)                                                     |
+[2022-11-06 11:56:10,666] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lovejoy (TVDB: 71764)                                                         |
+[2022-11-06 11:56:10,944] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Cam (TVDB: 371728)                                                      |
+[2022-11-06 11:56:11,220] [builder.py:1982]           [INFO]     | A&E Collection | ? | Breakout Kings (TVDB: 219341)                                                 |
+[2022-11-06 11:56:11,533] [builder.py:1982]           [INFO]     | A&E Collection | ? | Celebrity Ghost Stories (TVDB: 122701)                                        |
+[2022-11-06 11:56:11,759] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Returned (US) (TVDB: 283317)                                              |
+[2022-11-06 11:56:12,120] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cold Case Files (TVDB: 74814)                                                 |
+[2022-11-06 11:56:12,328] [builder.py:1982]           [INFO]     | A&E Collection | ? | Zombie House Flipping (TVDB: 306562)                                          |
+[2022-11-06 11:56:12,569] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bonnie & Clyde (TVDB: 270110)                                                 |
+[2022-11-06 11:56:12,860] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gene Simmons Family Jewels (TVDB: 79406)                                      |
+[2022-11-06 11:56:13,384] [builder.py:1982]           [INFO]     | A&E Collection | ? | Intervention (TVDB: 75896)                                                    |
+[2022-11-06 11:56:13,805] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hoarders (TVDB: 109621)                                                       |
+[2022-11-06 11:56:14,152] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dog the Bounty Hunter (TVDB: 75036)                                           |
+[2022-11-06 11:56:14,357] [builder.py:1982]           [INFO]     | A&E Collection | ? | Coma (TVDB: 261272)                                                           |
+[2022-11-06 11:56:14,588] [builder.py:1982]           [INFO]     | A&E Collection | ? | Damien (TVDB: 282165)                                                         |
+[2022-11-06 11:56:14,910] [builder.py:1982]           [INFO]     | A&E Collection | ? | Shipping Wars (TVDB: 254669)                                                  |
+[2022-11-06 11:56:15,348] [builder.py:1982]           [INFO]     | A&E Collection | ? | Duck Dynasty (TVDB: 256825)                                                   |
+[2022-11-06 11:56:15,603] [builder.py:1982]           [INFO]     | A&E Collection | ? | Leah Remini: Scientology and the Aftermath (TVDB: 319252)                     |
+[2022-11-06 11:56:15,899] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nero Wolfe (2001) (TVDB: 78811)                                               |
+[2022-11-06 11:56:16,121] [builder.py:1982]           [INFO]     | A&E Collection | ? | Steven Seagal: Lawman (TVDB: 126841)                                          |
+[2022-11-06 11:56:16,296] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: WWE Legends (TVDB: 397372)                                         |
+[2022-11-06 11:56:16,538] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Beast (TVDB: 83805)                                                       |
+[2022-11-06 11:56:16,708] [builder.py:1982]           [INFO]     | A&E Collection | ? | Interrogation Raw (TVDB: 420401)                                              |
+[2022-11-06 11:56:16,963] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD Presents: PD Cam (TVDB: 350050)                                       |
+[2022-11-06 11:56:17,192] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Cleaner (TVDB: 82492)                                                     |
+[2022-11-06 11:56:17,465] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ancient Mysteries (TVDB: 226691)                                              |
+[2022-11-06 11:56:17,658] [builder.py:1982]           [INFO]     | A&E Collection | ? | Street Justice (TVDB: 71052)                                                  |
+[2022-11-06 11:56:17,935] [builder.py:1982]           [INFO]     | A&E Collection | ? | Beyond Scared Straight (TVDB: 219331)                                         |
+[2022-11-06 11:56:18,315] [builder.py:1982]           [INFO]     | A&E Collection | ? | Wahlburgers (TVDB: 276525)                                                    |
+[2022-11-06 11:56:18,527] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live Rescue (TVDB: 361071)                                                    |
+[2022-11-06 11:56:18,732] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE's Most Wanted Treasures (TVDB: 397507)                                    |
+[2022-11-06 11:56:18,982] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD: Police Patrol (TVDB: 329175)                                         |
+[2022-11-06 11:56:19,182] [builder.py:1982]           [INFO]     | A&E Collection | ? | Killer Cases (TVDB: 392853)                                                   |
+[2022-11-06 11:56:19,359] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of Playboy (TVDB: 413259)                                             |
+[2022-11-06 11:56:19,629] [builder.py:1982]           [INFO]     | A&E Collection | ? | Paranormal State (TVDB: 81408)                                                |
+[2022-11-06 11:56:19,849] [builder.py:1982]           [INFO]     | A&E Collection | ? | Those Who Kill (US) (TVDB: 273351)                                            |
+[2022-11-06 11:56:20,152] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nightwatch (TVDB: 290557)                                                     |
+[2022-11-06 11:56:20,357] [builder.py:1982]           [INFO]     | A&E Collection | ? | 100 Centre Street (TVDB: 71327)                                               |
+[2022-11-06 11:56:20,792] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Justice (TVDB: 216281)                                               |
+[2022-11-06 11:56:20,991] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Rivals (TVDB: 420793)                                                     |
+[2022-11-06 11:56:21,162] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Night Live (TVDB: 422959)                                               |
+[2022-11-06 11:56:21,338] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rescue Cam (TVDB: 391188)                                                     |
+[2022-11-06 11:56:21,500] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killing Season (2016) (TVDB: 318973)                                      |
+[2022-11-06 11:56:21,669] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cults and Extreme Belief (TVDB: 348158)                                       |
+[2022-11-06 11:56:21,924] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Texas (TVDB: 251596)                                            |
+[2022-11-06 11:56:22,104] [builder.py:1982]           [INFO]     | A&E Collection | ? | Inked (TVDB: 78805)                                                           |
+[2022-11-06 11:56:22,321] [builder.py:1982]           [INFO]     | A&E Collection | ? | I Survived a Crime (TVDB: 395266)                                             |
+[2022-11-06 11:56:22,507] [builder.py:1982]           [INFO]     | A&E Collection | ? | Janet Jackson. (TVDB: 414707)                                                 |
+[2022-11-06 11:56:22,686] [builder.py:1982]           [INFO]     | A&E Collection | ? | Living Smaller (TVDB: 420855)                                                 |
+[2022-11-06 11:56:22,895] [builder.py:1982]           [INFO]     | A&E Collection | ? | Donnie Loves Jenny (TVDB: 289205)                                             |
+[2022-11-06 11:56:23,084] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hotel Malibu (TVDB: 71370)                                                    |
+[2022-11-06 11:56:23,402] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born This Way (TVDB: 304021)                                                  |
+[2022-11-06 11:56:23,604] [builder.py:1982]           [INFO]     | A&E Collection | ? | Waco: Madman or Messiah (TVDB: 341252)                                        |
+[2022-11-06 11:56:23,789] [builder.py:1982]           [INFO]     | A&E Collection | ? | Who Killed Tupac? (TVDB: 330903)                                              |
+[2022-11-06 11:56:23,972] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Menendez Murders: Erik Tells All (TVDB: 338565)                           |
+[2022-11-06 11:56:24,285] [builder.py:1982]           [INFO]     | A&E Collection | ? | Parking Wars (TVDB: 81343)                                                    |
+[2022-11-06 11:56:24,663] [builder.py:1982]           [INFO]     | A&E Collection | ? | Sell This House (TVDB: 73497)                                                 |
+[2022-11-06 11:56:24,925] [builder.py:1982]           [INFO]     | A&E Collection | ? | Escaping Polygamy (TVDB: 297358)                                              |
+[2022-11-06 11:56:25,118] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: KISStory (TVDB: 405718)                                            |
+[2022-11-06 11:56:25,283] [builder.py:1982]           [INFO]     | A&E Collection | ? | Moonacre (TVDB: 77426)                                                        |
+[2022-11-06 11:56:25,494] [builder.py:1982]           [INFO]     | A&E Collection | ? | Accused: Guilty or Innocent? (TVDB: 379555)                                   |
+[2022-11-06 11:56:25,661] [builder.py:1982]           [INFO]     | A&E Collection | ? | Southie Rules (TVDB: 265990)                                                  |
+[2022-11-06 11:56:25,971] [builder.py:1982]           [INFO]     | A&E Collection | ? | Billy the Exterminator (TVDB: 166101)                                         |
+[2022-11-06 11:56:26,163] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Gotti (TVDB: 74819)                                                |
+[2022-11-06 11:56:26,419] [builder.py:1982]           [INFO]     | A&E Collection | ? | Psychic Kids: Children of the Paranormal (TVDB: 82476)                        |
+[2022-11-06 11:56:26,591] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hustle & Tow (TVDB: 399989)                                                   |
+[2022-11-06 11:56:26,799] [builder.py:1982]           [INFO]     | A&E Collection | ? | Extreme Unboxing (TVDB: 385920)                                               |
+[2022-11-06 11:56:26,973] [builder.py:1982]           [INFO]     | A&E Collection | ? | Undercover High (TVDB: 335442)                                                |
+[2022-11-06 11:56:27,143] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Murder of Laci Peterson (TVDB: 333271)                                    |
+[2022-11-06 11:56:27,420] [builder.py:1982]           [INFO]     | A&E Collection | ? | America's Top Dog (TVDB: 372763)                                              |
+[2022-11-06 11:56:27,613] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fit to Fat to Fit (TVDB: 306214)                                              |
+[2022-11-06 11:56:27,801] [builder.py:1982]           [INFO]     | A&E Collection | ? | Crime 360 (TVDB: 81487)                                                       |
+[2022-11-06 11:56:27,959] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dogs of War (TVDB: 287726)                                                    |
+[2022-11-06 11:56:28,136] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Eleven (TVDB: 336193)                                                     |
+[2022-11-06 11:56:28,318] [builder.py:1982]           [INFO]     | A&E Collection | ? | Pawn Stars Australia (TVDB: 298914)                                           |
+[2022-11-06 11:56:28,498] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Missing Persons (TVDB: 249241)                                  |
+[2022-11-06 11:56:28,733] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dallas SWAT (TVDB: 80341)                                                     |
+[2022-11-06 11:56:28,922] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Lowe Files (TVDB: 330816)                                                 |
+[2022-11-06 11:56:29,094] [builder.py:1982]           [INFO]     | A&E Collection | ? | Road Wars (2022) (TVDB: 422035)                                               |
+[2022-11-06 11:56:29,287] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In: Narcoland (TVDB: 365846)                                          |
+[2022-11-06 11:56:29,464] [builder.py:1982]           [INFO]     | A&E Collection | ? | Divided States (TVDB: 343869)                                                 |
+[2022-11-06 11:56:29,642] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cursed: The Bell Witch (TVDB: 302303)                                         |
+[2022-11-06 11:56:29,810] [builder.py:1982]           [INFO]     | A&E Collection | ? | Akil the Fugitive Hunter (TVDB: 331425)                                       |
+[2022-11-06 11:56:30,006] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kirstie Alley's Big Life (TVDB: 150411)                                       |
+[2022-11-06 11:56:30,199] [builder.py:1982]           [INFO]     | A&E Collection | ? | Travel Sick (TVDB: 74761)                                                     |
+[2022-11-06 11:56:30,394] [builder.py:1982]           [INFO]     | A&E Collection | ? | TVography (TVDB: 70974)                                                       |
+[2022-11-06 11:56:30,614] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Clinton Affair (TVDB: 355453)                                             |
+[2022-11-06 11:56:30,799] [builder.py:1982]           [INFO]     | A&E Collection | ? | Streets of Compton (TVDB: 312835)                                             |
+[2022-11-06 11:56:31,000] [builder.py:1982]           [INFO]     | A&E Collection | ? | Airline (2004) (TVDB: 81059)                                                  |
+[2022-11-06 11:56:31,196] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Two Coreys (TVDB: 80360)                                                  |
+[2022-11-06 11:56:31,376] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Jacksons: A Family Dynasty (TVDB: 139431)                                 |
+[2022-11-06 11:56:31,549] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gotti: Godfather and Son (TVDB: 348769)                                       |
+[2022-11-06 11:56:31,729] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Takedown (TVDB: 297276)                                              |
+[2022-11-06 11:56:31,898] [builder.py:1982]           [INFO]     | A&E Collection | ? | Many Sides of Jane (TVDB: 357651)                                             |
+[2022-11-06 11:56:32,085] [builder.py:1982]           [INFO]     | A&E Collection | ? | Teach: Tony Danza (TVDB: 193511)                                              |
+[2022-11-06 11:56:32,263] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killer Speaks (TVDB: 268422)                                              |
+[2022-11-06 11:56:32,469] [builder.py:1982]           [INFO]     | A&E Collection | ? | Obsessed (TVDB: 96301)                                                        |
+[2022-11-06 11:56:32,637] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nature Gone Wild (TVDB: 394086)                                               |
+[2022-11-06 11:56:32,940] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Unexplained (TVDB: 256661)                                                |
+[2022-11-06 11:56:33,119] [builder.py:1982]           [INFO]     | A&E Collection | ? | Digital Addiction (TVDB: 420414)                                              |
+[2022-11-06 11:56:33,297] [builder.py:1982]           [INFO]     | A&E Collection | ? | Behind Bars: Rookie Year (TVDB: 298997)                                       |
+[2022-11-06 11:56:33,477] [builder.py:1982]           [INFO]     | A&E Collection | ? | Garth Brooks: The Road I'm On (TVDB: 372636)                                  |
+[2022-11-06 11:56:33,656] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Smack Talk (TVDB: 420794)                                                 |
+[2022-11-06 11:56:33,839] [builder.py:1982]           [INFO]     | A&E Collection | ? | First Blood (TVDB: 421747)                                                    |
+[2022-11-06 11:56:34,005] [builder.py:1982]           [INFO]     | A&E Collection | ? | Frankie's House (TVDB: 252307)                                                |
+[2022-11-06 11:56:34,215] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighborhood Wars (TVDB: 409286)                                              |
+[2022-11-06 11:56:34,411] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Gestapo (TVDB: 84624)                                                     |
+[2022-11-06 11:56:34,581] [builder.py:1982]           [INFO]     | A&E Collection | ? | Alaska PD (TVDB: 372733)                                                      |
+[2022-11-06 11:56:34,787] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars New York (TVDB: 264535)                                          |
+[2022-11-06 11:56:34,961] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lachey's Bar (TVDB: 297510)                                                   |
+[2022-11-06 11:56:35,169] [builder.py:1982]           [INFO]     | A&E Collection | ? | Barter Kings (TVDB: 259497)                                                   |
+[2022-11-06 11:56:35,354] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Toe Bro (TVDB: 359717)                                                    |
+[2022-11-06 11:56:35,548] [builder.py:1982]           [INFO]     | A&E Collection | ? | Heavy (TVDB: 213131)                                                          |
+[2022-11-06 11:56:35,718] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hammertime (TVDB: 99971)                                                      |
+[2022-11-06 11:56:35,909] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Untold Story (TVDB: 361381)                                               |
+[2022-11-06 11:56:36,094] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kids Behind Bars (TVDB: 249498)                                               |
+[2022-11-06 11:56:36,281] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dead Again (TVDB: 286242)                                                     |
+[2022-11-06 11:56:36,529] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ghostly Encounters (TVDB: 217081)                                             |
+[2022-11-06 11:56:36,680] [builder.py:1982]           [INFO]     | A&E Collection | ? | Minute by Minute (2001) (TVDB: 296296)                                        |
+[2022-11-06 11:56:36,730] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 205371                              |
+[2022-11-06 11:56:36,905] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 Presents: Homicide Squad Atlanta (TVDB: 356224)                  |
+[2022-11-06 11:56:37,058] [builder.py:1982]           [INFO]     | A&E Collection | ? | $100 Makeover (TVDB: 251171)                                                  |
+[2022-11-06 11:56:37,307] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Greatest Pharaohs (TVDB: 92541)                                           |
+[2022-11-06 11:56:37,472] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Twisted (TVDB: 179381)                                             |
+[2022-11-06 11:56:37,644] [builder.py:1982]           [INFO]     | A&E Collection | ? | An Animal Saved My Life (TVDB: 405033)                                        |
+[2022-11-06 11:56:37,703] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 351233                              |
+[2022-11-06 11:56:37,876] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighbors With Benefits (TVDB: 293005)                                        |
+[2022-11-06 11:56:38,092] [builder.py:1982]           [INFO]     | A&E Collection | ? | Driving Force (TVDB: 80036)                                                   |
+[2022-11-06 11:56:38,327] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flip This House (TVDB: 251597)                                                |
+[2022-11-06 11:56:38,526] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Killer Confessions (TVDB: 296989)                               |
+[2022-11-06 11:56:38,701] [builder.py:1982]           [INFO]     | A&E Collection | ? | Strange Days with Bob Saget (TVDB: 208081)                                    |
+[2022-11-06 11:56:38,904] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipping Boston (TVDB: 257065)                                                |
+[2022-11-06 11:56:39,116] [builder.py:1982]           [INFO]     | A&E Collection | ? | Manhunters: Fugitive Task Force (TVDB: 84133)                                 |
+[2022-11-06 11:56:39,309] [builder.py:1982]           [INFO]     | A&E Collection | ? | BTK: Confession of a Serial Killer (TVDB: 414455)                             |
+[2022-11-06 11:56:39,499] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: Bobby Brown (TVDB: 420786)                                         |
+[2022-11-06 11:56:39,667] [builder.py:1982]           [INFO]     | A&E Collection | ? | Origins of Hip Hop (TVDB: 420627)                                             |
+[2022-11-06 11:56:39,862] [builder.py:1982]           [INFO]     | A&E Collection | ? | 50/50 Flip (TVDB: 415446)                                                     |
+[2022-11-06 11:56:40,035] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of the Chippendales Murders (TVDB: 417812)                            |
+[2022-11-06 11:56:40,190] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born Behind Bars (TVDB: 349727)                                               |
+[2022-11-06 11:56:40,355] [builder.py:1982]           [INFO]     | A&E Collection | ? | Triple Digit Flip (TVDB: 411218)                                              |
+[2022-11-06 11:56:40,516] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fasten Your Seatbelt (TVDB: 406564)                                           |
+[2022-11-06 11:56:40,683] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Haunting (TVDB: 271934)                                              |
+[2022-11-06 11:56:40,883] [builder.py:1982]           [INFO]     | A&E Collection | ? | Elizabeth Smart: Autobiography (TVDB: 337860)                                 |
+[2022-11-06 11:56:41,074] [builder.py:1982]           [INFO]     | A&E Collection | ? | Epic Ink (TVDB: 283384)                                                       |
+[2022-11-06 11:56:41,255] [builder.py:1982]           [INFO]     | A&E Collection | ? | Jep & Jessica: Growing the Dynasty (TVDB: 306038)                             |
+[2022-11-06 11:56:41,442] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Miami (TVDB: 301610)                                            |
+[2022-11-06 11:56:41,600] [builder.py:1982]           [INFO]     | A&E Collection | ? | Last Chance Driving School (TVDB: 257985)                                     |
+[2022-11-06 11:56:41,794] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipped Off (TVDB: 257836)                                                    |
+[2022-11-06 11:56:41,959] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bordertown: Laredo (TVDB: 252574)                                             |
+[2022-11-06 11:56:42,178] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Hoggers (TVDB: 252617)                                               |
+[2022-11-06 11:56:42,342] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Ghost Prophecies (TVDB: 212401)                                           |
+[2022-11-06 11:56:42,646] [builder.py:1982]           [INFO]     | A&E Collection | ? | Investigative Reports (TVDB: 280099)                                          |
+[2022-11-06 11:56:42,805] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Squad: Prison Police (TVDB: 181641)                                       |
+[2022-11-06 11:56:42,985] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fugitive Chronicles (TVDB: 155611)                                            |
+[2022-11-06 11:56:43,185] [builder.py:1982]           [INFO]     | A&E Collection | ? | Meet the Royals (TVDB: 75013)                                                 |
+[2022-11-06 11:56:43,346] [builder.py:1982]           [INFO]     | A&E Collection | ? | Tattoo Highway (TVDB: 96711)                                                  |
+[2022-11-06 11:56:43,521] [builder.py:1982]           [INFO]     | A&E Collection | ? | The View from Daniel Pike (TVDB: 75012)                                       |
+[2022-11-06 11:56:43,698] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rookies (2008) (TVDB: 93611)                                                  |
+[2022-11-06 11:56:43,882] [builder.py:1982]           [INFO]     | A&E Collection | ? | Confessions of a Matchmaker (TVDB: 271517)                                    |
+[2022-11-06 11:56:44,069] [builder.py:1982]           [INFO]     | A&E Collection | ? | Family Plots (TVDB: 74509)                                                    |
+[2022-11-06 11:56:44,283] [builder.py:1982]           [INFO]     | A&E Collection | ? | King of Cars (TVDB: 128061)                                                   |
+[2022-11-06 11:56:44,456] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rollergirls (TVDB: 83819)                                                     |
+[2022-11-06 11:56:44,457] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-06 11:56:44,457] [builder.py:1987]           [INFO]     | 170 Shows Missing                                                                                  |
+[2022-11-06 11:56:44,477] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-06 11:56:44,477] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-06 11:56:44,477] [util.py:216]               [INFO]     |                                      Finished A&E Collection                                       |
+[2022-11-06 11:56:44,478] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:48                                    |
+[2022-11-06 11:56:44,478] [util.py:220]               [INFO]     |====================================================================================================|
