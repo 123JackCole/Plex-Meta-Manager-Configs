@@ -13,12 +13,22 @@
 #        Templates        #
 ###########################
 templates:
+  set:
+    optional:
+      - network
+      - list
+    tmdb_network: <<network>>
+    tmdb_list: <<list>>
+    sort_title: +3_<<collection_name>>
+    sync_mode: sync
+    url_poster: <<poster>>
+    url_background: <<background>>
   network:
     optional:
       - network
     tmdb_network: <<network>>
     url_poster: <<poster>>
-    sort_title: +2_<<collection_name>>
+    sort_title: +4_<<collection_name>>
     collection_order: alpha
     sync_mode: sync
         
@@ -65,6 +75,22 @@ collections:
     summary: Top Rated Shows across the internet
     url_poster: https://i.imgur.com/7h1vaxl.png
     url_background: https://wallpaper.dog/large/20509069.jpg
+    sonarr_add_missing: true
+
+######################################################
+#                Universe Collections                #
+######################################################
+  DC Universe:
+    template: { name: set, list: "8215646", poster: https://theposterdb.com/api/assets/239356, background: https://i.imgur.com/x9ijxTc.jpg, }
+    summary: Series DC
+    sonarr_add_missing: true
+  Marvel Television:
+    template: { name: set, list: "8205726", poster: https://theposterdb.com/api/assets/239453, background: https://i.imgur.com/ckx6reE.jpg, }
+    summary:  Marvel Television
+    sonarr_add_missing: true
+  Star Wars:
+    template: { name: set, list: "8205730", poster: https://theposterdb.com/api/assets/164120, background: https://i.imgur.com/OvxROTE.jpg, }
+    summary:  Star Wars
     sonarr_add_missing: true
 ######################################################
 #                Network Collections                 #

@@ -1,55 +1,113 @@
-[2022-11-23 01:14:20,519] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,519] [util.py:216]               [INFO]     |                          Illumination Entertainment Collection in Movies                           |
-[2022-11-23 01:14:20,520] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,520] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,520] [util.py:216]               [INFO]     |========================= Validating Illumination Entertainment Attributes =========================|
-[2022-11-23 01:14:20,521] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,521] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:14:20,521] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Illumination Entertainment'), ('poster', 'https://theposterdb.com/api/assets/8158')]) |
-[2022-11-23 01:14:20,521] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,522] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:14:20,522] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:14:20,522] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,522] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:14:20,522] [builder.py:474]            [DEBUG]    | Value: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots. |
-[2022-11-23 01:14:20,523] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,523] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:14:20,523] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Illumination Entertainment'}                                                    |
-[2022-11-23 01:14:20,523] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,524] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:14:20,524] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/8158                                                     |
-[2022-11-23 01:14:20,524] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,524] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:14:20,524] [builder.py:474]            [DEBUG]    | Value: 00000e_Illumination Entertainment                                                           |
-[2022-11-23 01:14:20,651] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,651] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:14:20,652] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,652] [util.py:216]               [INFO]     |========================== Running Illumination Entertainment Collection ===========================|
-[2022-11-23 01:14:20,653] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,653] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:14:20,653] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,654] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Illumination Entertainment', '?type=1&sort=titleSort&push=1&studio=Illumination%20Entertainment&pop=1') |
-[2022-11-23 01:14:20,654] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,654] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:14:20,654] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:14:20,655] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:14:20,655] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:14:20,655] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:14:20,655] [util.py:161]               [INFO]     |       Studio contains Illumination Entertainment                                                   |
-[2022-11-23 01:14:20,663] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-23 01:14:20,663] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-23 01:14:20,664] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-23 01:14:20,664] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-23 01:14:20,664] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-23 01:14:20,664] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1242, in gather_ids              |
-[2022-11-23 01:14:20,664] [util.py:162]               [DEBUG]    |     return self.library.get_rating_keys(method, value)                                             |
-[2022-11-23 01:14:20,665] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 752, in get_rating_keys             |
-[2022-11-23 01:14:20,665] [util.py:162]               [DEBUG]    |     raise Failed("Plex Error: No Items found in Plex")                                             |
-[2022-11-23 01:14:20,665] [util.py:162]               [DEBUG]    | modules.util.Failed: Plex Error: No Items found in Plex                                            |
-[2022-11-23 01:14:20,665] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,665] [util.py:159]               [ERROR]    | Plex Error: No Items found in Plex                                                                 |
-[2022-11-23 01:14:20,666] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,667] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,667] [util.py:216]               [INFO]     |                           Finished Illumination Entertainment Collection                           |
-[2022-11-23 01:14:20,667] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-23 01:14:20,667] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:19,829] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:19,830] [util.py:216]               [INFO]     |                          Illumination Entertainment Collection in Movies                           |
+[2022-11-23 17:17:19,830] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:19,830] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:19,831] [util.py:216]               [INFO]     |========================= Validating Illumination Entertainment Attributes =========================|
+[2022-11-23 17:17:19,831] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,831] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 17:17:19,831] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 6704), ('poster', 'https://theposterdb.com/api/assets/8158')]) |
+[2022-11-23 17:17:19,832] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,832] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:17:19,832] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-23 17:17:19,833] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,833] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:17:19,833] [builder.py:474]            [DEBUG]    | Value: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots. |
+[2022-11-23 17:17:19,833] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,834] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2022-11-23 17:17:19,834] [builder.py:474]            [DEBUG]    | Value: 6704                                                                                        |
+[2022-11-23 17:17:19,941] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,941] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 17:17:19,942] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/8158                                                     |
+[2022-11-23 17:17:19,942] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:19,942] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 17:17:19,943] [builder.py:474]            [DEBUG]    | Value: 00000e_Illumination Entertainment                                                           |
+[2022-11-23 17:17:20,089] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,090] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 17:17:20,091] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,092] [util.py:216]               [INFO]     |========================== Running Illumination Entertainment Collection ===========================|
+[2022-11-23 17:17:20,092] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,092] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 17:17:20,092] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:20,093] [builder.py:1276]           [DEBUG]    | Builder: tmdb_company: 6704                                                                        |
+[2022-11-23 17:17:20,093] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,499] [tmdb.py:282]               [INFO]     | Processing TMDb Company: (6704) Illumination (53 Movies)                                           |
+[2022-11-23 17:17:20,499] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:20,499] [builder.py:1283]           [DEBUG]    | 53 IDs Found: [(438148, 'tmdb'), (438695, 'tmdb'), (360920, 'tmdb'), (93456, 'tmdb'), (335797, 'tmdb'), (502356, 'tmdb'), (20352, 'tmdb'), (412117, 'tmdb'), (324852, 'tmdb'), (73723, 'tmdb'), (211672, 'tmdb'), (229407, 'tmdb'), (328111, 'tmdb'), (366141, 'tmdb'), (54551, 'tmdb'), (50359, 'tmdb'), (403052, 'tmdb'), (229408, 'tmdb'), (54559, 'tmdb'), (54553, 'tmdb'), (519182, 'tmdb'), (229405, 'tmdb'), (553903, 'tmdb'), (366142, 'tmdb'), (624995, 'tmdb'), (764079, 'tmdb'), (366143, 'tmdb'), (579524, 'tmdb'), (375186, 'tmdb'), (1018814, 'tmdb'), (125453, 'tmdb'), (940551, 'tmdb'), (125445, 'tmdb'), (878357, 'tmdb'), (360848, 'tmdb'), (624993, 'tmdb'), (125448, 'tmdb'), (501104, 'tmdb'), (484809, 'tmdb'), (424873, 'tmdb'), (449124, 'tmdb'), (424889, 'tmdb'), (943482, 'tmdb'), (1026725, 'tmdb'), (580312, 'tmdb'), (449655, 'tmdb'), (945322, 'tmdb'), (448450, 'tmdb'), (501102, 'tmdb'), (931633, 'tmdb'), (240159, 'tmdb'), (945394, 'tmdb'), (912291, 'tmdb')] |
+[2022-11-23 17:17:20,500] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:20,565] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,566] [util.py:216]               [INFO]     |========================= Adding to Illumination Entertainment Collection ==========================|
+[2022-11-23 17:17:20,567] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,567] [builder.py:1709]           [INFO]     | 1/3 | Illumination Entertainment Collection | + | Minions: The Rise of Gru (2022)                  |
+[2022-11-23 17:17:20,646] [builder.py:1709]           [INFO]     | 2/3 | Illumination Entertainment Collection | + | Sing 2 (2021)                                    |
+[2022-11-23 17:17:20,715] [builder.py:1709]           [INFO]     | 3/3 | Illumination Entertainment Collection | = | Sing (2016)                                      |
+[2022-11-23 17:17:20,716] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,716] [builder.py:1735]           [INFO]     | 3 Movies Processed                                                                                 |
+[2022-11-23 17:17:20,716] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,717] [util.py:216]               [INFO]     |===================== Missing Movies from Library: Illumination Entertainment ======================|
+[2022-11-23 17:17:20,717] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:20,719] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Grinch (2018) (TMDb: 360920)                       |
+[2022-11-23 17:17:20,848] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Despicable Me 2 (2013) (TMDb: 93456)                   |
+[2022-11-23 17:17:20,984] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Super Mario Bros. Movie (2023) (TMDb: 502356)      |
+[2022-11-23 17:17:21,119] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Despicable Me (2010) (TMDb: 20352)                     |
+[2022-11-23 17:17:21,252] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Secret Life of Pets 2 (2019) (TMDb: 412117)        |
+[2022-11-23 17:17:21,419] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Despicable Me 3 (2017) (TMDb: 324852)                  |
+[2022-11-23 17:17:21,535] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Lorax (2012) (TMDb: 73723)                         |
+[2022-11-23 17:17:21,685] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions (2015) (TMDb: 211672)                          |
+[2022-11-23 17:17:21,805] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions: Puppy (2013) (TMDb: 229407)                   |
+[2022-11-23 17:17:21,808] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Secret Life of Pets (2016) (TMDb: 328111)          |
+[2022-11-23 17:17:21,914] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Cro Minion (2015) (TMDb: 366141)                       |
+[2022-11-23 17:17:22,033] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Banana (2010) (TMDb: 54551)                            |
+[2022-11-23 17:17:22,152] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Hop (2011) (TMDb: 50359)                               |
+[2022-11-23 17:17:22,298] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Mower Minions (2016) (TMDb: 403052)                    |
+[2022-11-23 17:17:22,415] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions: Training Wheels (2013) (TMDb: 229408)         |
+[2022-11-23 17:17:22,572] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions: Orientation Day (2010) (TMDb: 54559)          |
+[2022-11-23 17:17:22,711] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions: Home Makeover (2010) (TMDb: 54553)            |
+[2022-11-23 17:17:22,830] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Despicable Me 4 (2024) (TMDb: 519182)                  |
+[2022-11-23 17:17:22,963] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Panic in the Mailroom (2013) (TMDb: 229405)            |
+[2022-11-23 17:17:23,097] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Yellow Is the New Black (2018) (TMDb: 553903)          |
+[2022-11-23 17:17:23,224] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Competition (2015) (TMDb: 366142)                      |
+[2022-11-23 17:17:23,354] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minion Scouts (2019) (TMDb: 624995)                    |
+[2022-11-23 17:17:23,471] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Illumination Presents: Minions Holiday Special (2020) (TMDb: 764079) |
+[2022-11-23 17:17:23,635] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Binky Nelson Unpacified (2015) (TMDb: 366143)          |
+[2022-11-23 17:17:23,766] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Santa's Little Helpers (2019) (TMDb: 579524)           |
+[2022-11-23 17:17:23,872] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions Jingle Bells (2014) (TMDb: 375186)             |
+[2022-11-23 17:17:23,997] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Post Modern Minions (2022) (TMDb: 1018814)             |
+[2022-11-23 17:17:24,121] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Forces of Nature (2012) (TMDb: 125453)                 |
+[2022-11-23 17:17:24,235] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Migration (2023) (TMDb: 940551)                        |
+[2022-11-23 17:17:24,353] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Serenade (2012) (TMDb: 125445)                         |
+[2022-11-23 17:17:24,464] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions and Monsters (2021) (TMDb: 878357)             |
+[2022-11-23 17:17:24,588] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minions: Movie Auditions (2013) (TMDb: 360848)         |
+[2022-11-23 17:17:24,718] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Super Gidget (2019) (TMDb: 624993)                     |
+[2022-11-23 17:17:24,855] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Wagon Ho! (2012) (TMDb: 125448)                        |
+[2022-11-23 17:17:25,042] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minion Moments: Overkill (2017) (TMDb: 501104)         |
+[2022-11-23 17:17:25,158] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Secret Life of Kyle (2017) (TMDb: 484809)          |
+[2022-11-23 17:17:25,338] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Weenie (2016) (TMDb: 424873)                           |
+[2022-11-23 17:17:25,471] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Love at First Sight (2017) (TMDb: 449124)              |
+[2022-11-23 17:17:25,619] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Norman Television (2016) (TMDb: 424889)                |
+[2022-11-23 17:17:25,757] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Despicable Me: Minion Mayhem (2012) (TMDb: 943482)     |
+[2022-11-23 17:17:25,871] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Penglai (2022) (TMDb: 1026725)                         |
+[2022-11-23 17:17:25,996] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | The Dog Days of Winter (2019) (TMDb: 580312)           |
+[2022-11-23 17:17:26,163] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Eddie's Life Coach (2017) (TMDb: 449655)               |
+[2022-11-23 17:17:26,329] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | For Gunter’s Eyes Only (2022) (TMDb: 945322)           |
+[2022-11-23 17:17:26,442] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Gunter Babysits (2017) (TMDb: 448450)                  |
+[2022-11-23 17:17:26,580] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Minion Moments: Drenched (2017) (TMDb: 501102)         |
+[2022-11-23 17:17:26,699] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Come Home (2021) (TMDb: 931633)                        |
+[2022-11-23 17:17:26,847] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Phil's Dance Party (2011) (TMDb: 240159)               |
+[2022-11-23 17:17:26,988] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Animal Attraction (2022) (TMDb: 945394)                |
+[2022-11-23 17:17:27,127] [builder.py:1943]           [INFO]     | Illumination Entertainment Collection | ? | Brad & Gary (2011) (TMDb: 912291)                      |
+[2022-11-23 17:17:27,127] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:27,128] [builder.py:1948]           [INFO]     | 50 Movies Missing                                                                                  |
+[2022-11-23 17:17:27,351] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:27,353] [util.py:216]               [INFO]     |==================== Updating Details of Illumination Entertainment Collection =====================|
+[2022-11-23 17:17:27,353] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:27,353] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 17:17:27,483] [builder.py:2208]           [INFO]     | Detail: collection_order updated Collection Order to release                                       |
+[2022-11-23 17:17:27,485] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 17:17:27,485] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/8158                                 |
+[2022-11-23 17:17:27,485] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 17:17:28,596] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/8158                 |
+[2022-11-23 17:17:28,743] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:28,744] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:28,744] [util.py:216]               [INFO]     |                           Finished Illumination Entertainment Collection                           |
+[2022-11-23 17:17:28,744] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:08                                    |
+[2022-11-23 17:17:28,745] [util.py:220]               [INFO]     |====================================================================================================|

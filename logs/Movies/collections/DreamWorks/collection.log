@@ -1,68 +1,183 @@
-[2022-11-23 01:14:20,080] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,080] [util.py:216]               [INFO]     |                                  DreamWorks Collection in Movies                                   |
-[2022-11-23 01:14:20,080] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,081] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,081] [util.py:216]               [INFO]     |================================= Validating DreamWorks Attributes =================================|
-[2022-11-23 01:14:20,081] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,081] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:14:20,082] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'DreamWorks Animation, DreamWorks Pictures'), ('poster', 'https://theposterdb.com/api/assets/52723')]) |
-[2022-11-23 01:14:20,082] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,082] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:14:20,082] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:14:20,082] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,083] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:14:20,083] [builder.py:474]            [DEBUG]    | Value: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games. |
-[2022-11-23 01:14:20,083] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,083] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:14:20,083] [builder.py:474]            [DEBUG]    | Value: {'studio': 'DreamWorks Animation, DreamWorks Pictures'}                                     |
-[2022-11-23 01:14:20,084] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,084] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:14:20,084] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/52723                                                    |
-[2022-11-23 01:14:20,084] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,084] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:14:20,085] [builder.py:474]            [DEBUG]    | Value: 00000e_DreamWorks                                                                           |
-[2022-11-23 01:14:20,223] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,223] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:14:20,223] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,224] [util.py:216]               [INFO]     |================================== Running DreamWorks Collection ===================================|
-[2022-11-23 01:14:20,224] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,224] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:14:20,225] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,225] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains DreamWorks Animation, DreamWorks Pictures', '?type=1&sort=titleSort&push=1&studio=DreamWorks%20Animation%2C%20DreamWorks%20Pictures&pop=1') |
-[2022-11-23 01:14:20,225] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,225] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:14:20,226] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:14:20,226] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:14:20,226] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:14:20,226] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:14:20,227] [util.py:161]               [INFO]     |       Studio contains DreamWorks Animation, DreamWorks Pictures                                    |
-[2022-11-23 01:14:20,250] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,250] [plex.py:749]               [DEBUG]    | 7 Keys Found: [(115115, 'ratingKey'), (113273, 'ratingKey'), (115432, 'ratingKey'), (102233, 'ratingKey'), (102236, 'ratingKey'), (101310, 'ratingKey'), (104993, 'ratingKey')] |
-[2022-11-23 01:14:20,250] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,250] [builder.py:1283]           [DEBUG]    | 7 IDs Found: [(115115, 'ratingKey'), (113273, 'ratingKey'), (115432, 'ratingKey'), (102233, 'ratingKey'), (102236, 'ratingKey'), (101310, 'ratingKey'), (104993, 'ratingKey')] |
-[2022-11-23 01:14:20,251] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,362] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,363] [util.py:216]               [INFO]     |================================= Adding to DreamWorks Collection ==================================|
-[2022-11-23 01:14:20,363] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,363] [builder.py:1709]           [INFO]     | 1/7 | DreamWorks Collection | = | How to Train Your Dragon (2010)                                  |
-[2022-11-23 01:14:20,363] [builder.py:1709]           [INFO]     | 2/7 | DreamWorks Collection | = | How to Train Your Dragon 2 (2014)                                |
-[2022-11-23 01:14:20,364] [builder.py:1709]           [INFO]     | 3/7 | DreamWorks Collection | = | How to Train Your Dragon: The Hidden World (2019)                |
-[2022-11-23 01:14:20,364] [builder.py:1709]           [INFO]     | 4/7 | DreamWorks Collection | = | Kung Fu Panda (2008)                                             |
-[2022-11-23 01:14:20,364] [builder.py:1709]           [INFO]     | 5/7 | DreamWorks Collection | = | Kung Fu Panda 2 (2011)                                           |
-[2022-11-23 01:14:20,365] [builder.py:1709]           [INFO]     | 6/7 | DreamWorks Collection | = | Kung Fu Panda 3 (2016)                                           |
-[2022-11-23 01:14:20,365] [builder.py:1709]           [INFO]     | 7/7 | DreamWorks Collection | = | Shrek Forever After (2010)                                       |
-[2022-11-23 01:14:20,365] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,365] [builder.py:1735]           [INFO]     | 7 Movies Processed                                                                                 |
-[2022-11-23 01:14:20,369] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,369] [util.py:216]               [INFO]     |============================ Updating Details of DreamWorks Collection =============================|
-[2022-11-23 01:14:20,369] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,370] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-23 01:14:20,370] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 01:14:20,370] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/52723                                |
-[2022-11-23 01:14:20,371] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-23 01:14:20,372] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-23 01:14:20,508] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,509] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,509] [util.py:216]               [INFO]     |                                   Finished DreamWorks Collection                                   |
-[2022-11-23 01:14:20,509] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-23 01:14:20,509] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:36,884] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:36,885] [util.py:216]               [INFO]     |                                  DreamWorks Collection in Movies                                   |
+[2022-11-23 17:16:36,885] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:36,885] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:36,886] [util.py:216]               [INFO]     |================================= Validating DreamWorks Attributes =================================|
+[2022-11-23 17:16:36,886] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:36,886] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 17:16:36,886] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 521), ('poster', 'https://theposterdb.com/api/assets/52723')]) |
+[2022-11-23 17:16:36,887] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:36,887] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:16:36,887] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-23 17:16:36,888] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:36,888] [builder.py:473]            [DEBUG]    | Validating Method: filters                                                                         |
+[2022-11-23 17:16:36,888] [builder.py:474]            [DEBUG]    | Value: ordereddict([('collection.not', 'Aardman')])                                                |
+[2022-11-23 17:16:36,913] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:36,913] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:16:36,914] [builder.py:474]            [DEBUG]    | Value: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games. |
+[2022-11-23 17:16:36,914] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:36,914] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2022-11-23 17:16:36,914] [builder.py:474]            [DEBUG]    | Value: 521                                                                                         |
+[2022-11-23 17:16:37,023] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:37,023] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 17:16:37,023] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/52723                                                    |
+[2022-11-23 17:16:37,024] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:37,024] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 17:16:37,024] [builder.py:474]            [DEBUG]    | Value: 00000e_DreamWorks                                                                           |
+[2022-11-23 17:16:37,179] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 17:16:37,179] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 17:16:37,181] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:37,182] [util.py:216]               [INFO]     |================================== Running DreamWorks Collection ===================================|
+[2022-11-23 17:16:37,182] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:37,182] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 17:16:37,182] [plex_meta_manager.py:777]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:37,183] [plex_meta_manager.py:779]  [INFO]     | Collection Filter collection.not: ['Aardman']                                                      |
+[2022-11-23 17:16:37,183] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:37,183] [builder.py:1276]           [DEBUG]    | Builder: tmdb_company: 521                                                                         |
+[2022-11-23 17:16:37,183] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:37,930] [tmdb.py:282]               [INFO]     | Processing TMDb Company: (521) DreamWorks Animation (120 Movies)                                   |
+[2022-11-23 17:16:37,930] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:37,931] [builder.py:1283]           [DEBUG]    | 120 IDs Found: [(459151, 'tmdb'), (629542, 'tmdb'), (808, 'tmdb'), (315162, 'tmdb'), (529203, 'tmdb'), (809, 'tmdb'), (810, 'tmdb'), (417859, 'tmdb'), (10192, 'tmdb'), (82702, 'tmdb'), (166428, 'tmdb'), (9023, 'tmdb'), (637693, 'tmdb'), (953, 'tmdb'), (49519, 'tmdb'), (81188, 'tmdb'), (80321, 'tmdb'), (270946, 'tmdb'), (9502, 'tmdb'), (10191, 'tmdb'), (896221, 'tmdb'), (140300, 'tmdb'), (49444, 'tmdb'), (446893, 'tmdb'), (10527, 'tmdb'), (38055, 'tmdb'), (228161, 'tmdb'), (10555, 'tmdb'), (730840, 'tmdb'), (83201, 'tmdb'), (5559, 'tmdb'), (15512, 'tmdb'), (421892, 'tmdb'), (638507, 'tmdb'), (462650, 'tmdb'), (10501, 'tmdb'), (136799, 'tmdb'), (13394, 'tmdb'), (7443, 'tmdb'), (298115, 'tmdb'), (16366, 'tmdb'), (14411, 'tmdb'), (431580, 'tmdb'), (1036956, 'tmdb'), (9837, 'tmdb'), (77950, 'tmdb'), (11619, 'tmdb'), (7518, 'tmdb'), (82703, 'tmdb'), (8916, 'tmdb'), (268531, 'tmdb'), (295693, 'tmdb'), (91417, 'tmdb'), (533, 'tmdb'), (484510, 'tmdb'), (57718, 'tmdb'), (161143, 'tmdb'), (47626, 'tmdb'), (79379, 'tmdb'), (25472, 'tmdb'), (381693, 'tmdb'), (10258, 'tmdb'), (15854, 'tmdb'), (768509, 'tmdb'), (1045944, 'tmdb'), (50393, 'tmdb'), (25523, 'tmdb'), (768076, 'tmdb'), (723895, 'tmdb'), (53985, 'tmdb'), (686941, 'tmdb'), (48466, 'tmdb'), (51256, 'tmdb'), (118249, 'tmdb'), (81003, 'tmdb'), (528644, 'tmdb'), (26840, 'tmdb'), (637395, 'tmdb'), (653904, 'tmdb'), (24884, 'tmdb'), (490156, 'tmdb'), (82530, 'tmdb'), (901362, 'tmdb'), (1011985, 'tmdb'), (58508, 'tmdb'), (118248, 'tmdb'), (85693, 'tmdb'), (668602, 'tmdb'), (256346, 'tmdb'), (381690, 'tmdb'), (680941, 'tmdb'), (510738, 'tmdb'), (801876, 'tmdb'), (118254, 'tmdb'), (456661, 'tmdb'), (999336, 'tmdb'), (981424, 'tmdb'), (118251, 'tmdb'), (607386, 'tmdb'), (251278, 'tmdb'), (789477, 'tmdb'), (258076, 'tmdb'), (501861, 'tmdb'), (291174, 'tmdb'), (673628, 'tmdb'), (999314, 'tmdb'), (1046032, 'tmdb'), (460789, 'tmdb'), (722812, 'tmdb'), (661386, 'tmdb'), (917477, 'tmdb'), (1040148, 'tmdb'), (875656, 'tmdb'), (829339, 'tmdb'), (801735, 'tmdb'), (774370, 'tmdb'), (743226, 'tmdb'), (690669, 'tmdb'), (575510, 'tmdb'), (559579, 'tmdb')] |
+[2022-11-23 17:16:37,931] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:38,249] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:38,250] [util.py:216]               [INFO]     |================================= Adding to DreamWorks Collection ==================================|
+[2022-11-23 17:16:38,250] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:38,250] [builder.py:1709]           [INFO]     |  1/13 | DreamWorks Collection | + | The Bad Guys (2022)                                            |
+[2022-11-23 17:16:38,318] [builder.py:1709]           [INFO]     |  2/13 | DreamWorks Collection | = | Shrek (2001)                                                   |
+[2022-11-23 17:16:38,319] [builder.py:1709]           [INFO]     |  3/13 | DreamWorks Collection | + | Shrek 2 (2004)                                                 |
+[2022-11-23 17:16:38,390] [builder.py:1709]           [INFO]     |  4/13 | DreamWorks Collection | + | Shrek the Third (2007)                                         |
+[2022-11-23 17:16:38,452] [builder.py:1709]           [INFO]     |  5/13 | DreamWorks Collection | = | Shrek Forever After (2010)                                     |
+[2022-11-23 17:16:38,453] [builder.py:1709]           [INFO]     |  6/13 | DreamWorks Collection | = | How to Train Your Dragon 2 (2014)                              |
+[2022-11-23 17:16:38,453] [builder.py:1709]           [INFO]     |  7/13 | DreamWorks Collection | = | How to Train Your Dragon: The Hidden World (2019)              |
+[2022-11-23 17:16:38,453] [builder.py:1709]           [INFO]     |  8/13 | DreamWorks Collection | = | Kung Fu Panda (2008)                                           |
+[2022-11-23 17:16:38,454] [builder.py:1709]           [INFO]     |  9/13 | DreamWorks Collection | = | How to Train Your Dragon (2010)                                |
+[2022-11-23 17:16:38,454] [builder.py:1709]           [INFO]     | 10/13 | DreamWorks Collection | = | Kung Fu Panda 3 (2016)                                         |
+[2022-11-23 17:16:38,454] [builder.py:1709]           [INFO]     | 11/13 | DreamWorks Collection | = | Kung Fu Panda 2 (2011)                                         |
+[2022-11-23 17:16:38,455] [builder.py:1709]           [INFO]     | 12/13 | DreamWorks Collection | + | The Road to El Dorado (2000)                                   |
+[2022-11-23 17:16:38,722] [builder.py:1709]           [INFO]     | 13/13 | DreamWorks Collection | + | The Prince of Egypt (1998)                                     |
+[2022-11-23 17:16:46,102] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:46,104] [builder.py:1735]           [INFO]     | 13 Movies Processed                                                                                |
+[2022-11-23 17:16:46,104] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:46,104] [util.py:216]               [INFO]     |============================= Missing Movies from Library: DreamWorks ==============================|
+[2022-11-23 17:16:46,105] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:46,240] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Boss Baby: Family Business (2021) (TMDb: 459151)                   |
+[2022-11-23 17:16:46,702] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Puss in Boots: The Last Wish (2022) (TMDb: 315162)                     |
+[2022-11-23 17:16:46,808] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Croods: A New Age (2020) (TMDb: 529203)                            |
+[2022-11-23 17:16:46,981] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Puss in Boots (2011) (TMDb: 417859)                                    |
+[2022-11-23 17:16:47,097] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Spirit: Stallion of the Cimarron (2002) (TMDb: 9023)                   |
+[2022-11-23 17:16:47,241] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Spirit Untamed (2021) (TMDb: 637693)                                   |
+[2022-11-23 17:16:47,426] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Madagascar (2005) (TMDb: 953)                                          |
+[2022-11-23 17:16:47,555] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Croods (2013) (TMDb: 49519)                                        |
+[2022-11-23 17:16:47,558] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Rise of the Guardians (2012) (TMDb: 81188)                             |
+[2022-11-23 17:16:47,700] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Madagascar 3: Europe's Most Wanted (2012) (TMDb: 80321)                |
+[2022-11-23 17:16:47,859] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Penguins of Madagascar (2014) (TMDb: 270946)                           |
+[2022-11-23 17:16:47,987] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls Holiday in Harmony (2021) (TMDb: 896221)                        |
+[2022-11-23 17:16:48,114] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls World Tour (2020) (TMDb: 446893)                                |
+[2022-11-23 17:16:48,240] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Madagascar: Escape 2 Africa (2008) (TMDb: 10527)                       |
+[2022-11-23 17:16:48,367] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Megamind (2010) (TMDb: 38055)                                          |
+[2022-11-23 17:16:48,524] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Home (2015) (TMDb: 228161)                                             |
+[2022-11-23 17:16:48,651] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shark Tale (2004) (TMDb: 10555)                                        |
+[2022-11-23 17:16:48,775] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trollhunters: Rise of the Titans (2021) (TMDb: 730840)                 |
+[2022-11-23 17:16:48,896] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Puss in Boots: The Three Diablos (2012) (TMDb: 83201)                  |
+[2022-11-23 17:16:49,033] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Bee Movie (2007) (TMDb: 5559)                                          |
+[2022-11-23 17:16:50,199] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Monsters vs Aliens (2009) (TMDb: 15512)                                |
+[2022-11-23 17:16:50,614] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shrek 5 (TMDb: 421892)                                                 |
+[2022-11-23 17:16:50,733] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | How to Train Your Dragon: Homecoming (2019) (TMDb: 638507)             |
+[2022-11-23 17:16:50,873] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Puss in Book: Trapped in an Epic Tale (2017) (TMDb: 462650)            |
+[2022-11-23 17:16:51,010] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls (2016) (TMDb: 136799)                                           |
+[2022-11-23 17:16:51,141] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shrek the Halls (2007) (TMDb: 13394)                                   |
+[2022-11-23 17:16:51,275] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dragons: Dawn Of The Dragon Racers (2014) (TMDb: 298115)               |
+[2022-11-23 17:16:51,411] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Joseph: King of Dreams (2000) (TMDb: 16366)                            |
+[2022-11-23 17:16:51,546] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Sinbad: Legend of the Seven Seas (2003) (TMDb: 14411)                  |
+[2022-11-23 17:16:51,686] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Abominable (2019) (TMDb: 431580)                                       |
+[2022-11-23 17:16:51,822] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Jurassic World Camp Cretaceous: Hidden Adventure (2022) (TMDb: 1036956) |
+[2022-11-23 17:16:51,947] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Turbo (2013) (TMDb: 77950)                                             |
+[2022-11-23 17:16:51,948] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Flushed Away (2006) (TMDb: 11619)                                      |
+[2022-11-23 17:16:52,074] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Over the Hedge (2006) (TMDb: 7518)                                     |
+[2022-11-23 17:16:52,198] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Mr. Peabody & Sherman (2014) (TMDb: 82703)                             |
+[2022-11-23 17:16:52,314] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Antz (1998) (TMDb: 8916)                                               |
+[2022-11-23 17:16:52,442] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Captain Underpants: The First Epic Movie (2017) (TMDb: 268531)         |
+[2022-11-23 17:16:52,445] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Boss Baby (2017) (TMDb: 295693)                                    |
+[2022-11-23 17:16:52,564] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dragons: Gift of the Night Fury (2011) (TMDb: 91417)                   |
+[2022-11-23 17:16:52,694] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls Holiday (2017) (TMDb: 484510)                                   |
+[2022-11-23 17:16:52,836] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Megamind: The Button of Doom (2011) (TMDb: 57718)                      |
+[2022-11-23 17:16:52,994] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Madly Madagascar (2013) (TMDb: 161143)                                 |
+[2022-11-23 17:17:09,304] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Legend of the BoneKnapper Dragon (2010) (TMDb: 47626)                  |
+[2022-11-23 17:17:09,428] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Book of Dragons (2011) (TMDb: 79379)                                   |
+[2022-11-23 17:17:09,541] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Merry Madagascar (2009) (TMDb: 25472)                                  |
+[2022-11-23 17:17:09,669] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda: Secrets of the Scroll (2016) (TMDb: 381693)             |
+[2022-11-23 17:17:09,809] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Madagascar Penguins in a Christmas Caper (2005) (TMDb: 10258)      |
+[2022-11-23 17:17:09,947] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda: Secrets of the Furious Five (2008) (TMDb: 15854)        |
+[2022-11-23 17:17:10,076] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Captain Underpants: Mega Blissmas (2020) (TMDb: 768509)                |
+[2022-11-23 17:17:10,194] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Boss Baby: Christmas Bonus (2022) (TMDb: 1045944)                  |
+[2022-11-23 17:17:10,342] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda Holiday (2010) (TMDb: 50393)                             |
+[2022-11-23 17:17:10,466] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Ghost of Lord Farquaad (2003) (TMDb: 25523)                        |
+[2022-11-23 17:17:10,621] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dragons: Rescue Riders: Huttsgalor Holiday (2020) (TMDb: 768076)       |
+[2022-11-23 17:17:10,764] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dragons: Rescue Riders: Secrets of the Songwing (2020) (TMDb: 723895)  |
+[2022-11-23 17:17:10,880] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Mutant Pumpkins from Outer Space (2009) (TMDb: 53985)                  |
+[2022-11-23 17:17:11,006] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dragons: Rescue Riders: Hunt for the Golden Dragon (2020) (TMDb: 686941) |
+[2022-11-23 17:17:11,112] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Scared Shrekless (2010) (TMDb: 48466)                                  |
+[2022-11-23 17:17:11,229] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Donkey's Christmas Shrektacular (2010) (TMDb: 51256)                   |
+[2022-11-23 17:17:12,399] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shrek: Thriller Night (2011) (TMDb: 118249)                            |
+[2022-11-23 17:17:12,524] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda: Secrets of the Masters (2011) (TMDb: 81003)             |
+[2022-11-23 17:17:12,665] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Bilby (2019) (TMDb: 528644)                                            |
+[2022-11-23 17:17:12,830] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shrek in the Swamp Karaoke Dance Party (2001) (TMDb: 26840)            |
+[2022-11-23 17:17:12,940] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Spooky Tale of Captain Underpants Hack-a-ween (2019) (TMDb: 637395) |
+[2022-11-23 17:17:13,053] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Spirit Riding Free: Spirit of Christmas (2019) (TMDb: 653904)          |
+[2022-11-23 17:17:13,162] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | B.O.B.'s Big Break (2009) (TMDb: 24884)                                |
+[2022-11-23 17:17:13,320] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | DreamWorks Home: For the Holidays (2017) (TMDb: 490156)                |
+[2022-11-23 17:17:13,461] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Pig Who Cried Werewolf (2011) (TMDb: 82530)                        |
+[2022-11-23 17:17:13,570] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls Band Together (2023) (TMDb: 901362)                             |
+[2022-11-23 17:17:13,684] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda 4 (2024) (TMDb: 1011985)                                 |
+[2022-11-23 17:17:13,798] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Far Far Away Idol (2004) (TMDb: 58508)                                 |
+[2022-11-23 17:17:13,930] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Night of the Living Carrots (2011) (TMDb: 118248)                      |
+[2022-11-23 17:17:14,060] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Hammy's Boomerang Adventure (2006) (TMDb: 85693)                       |
+[2022-11-23 17:17:14,230] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Captain Underpants: Epic Choice-o-rama (2020) (TMDb: 668602)           |
+[2022-11-23 17:17:14,374] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Almost Home (2014) (TMDb: 256346)                                      |
+[2022-11-23 17:17:14,499] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Sinbad and the Cyclops Island (2003) (TMDb: 381690)                    |
+[2022-11-23 17:17:14,623] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | To: Gerard (2020) (TMDb: 680941)                                       |
+[2022-11-23 17:17:14,782] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Bird Karma (2018) (TMDb: 510738)                                       |
+[2022-11-23 17:17:14,894] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dear Diary: World's First Pranks (2021) (TMDb: 801876)                 |
+[2022-11-23 17:17:15,008] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Club Oscar (2005) (TMDb: 118254)                                       |
+[2022-11-23 17:17:15,130] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Panda Paws (2016) (TMDb: 456661)                                       |
+[2022-11-23 17:17:15,280] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls: Trolla-Palooza Tour (2017) (TMDb: 999336)                      |
+[2022-11-23 17:17:15,437] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Maraschino Ruby (2022) (TMDb: 981424)                                  |
+[2022-11-23 17:17:15,550] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | First Flight (2006) (TMDb: 118251)                                     |
+[2022-11-23 17:17:15,663] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Marooned (2019) (TMDb: 607386)                                         |
+[2022-11-23 17:17:15,782] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | CyberWorld (2000) (TMDb: 251278)                                       |
+[2022-11-23 17:17:15,914] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trollhunters: Happy Birthday to You! (2017) (TMDb: 789477)             |
+[2022-11-23 17:17:16,026] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Rocky and Bullwinkle (2014) (TMDb: 258076)                             |
+[2022-11-23 17:17:16,170] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Croodaceous Creatures of 'Croods' (2013) (TMDb: 501861)            |
+[2022-11-23 17:17:16,292] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | VeggieTales: Celery Night Fever (2014) (TMDb: 291174)                  |
+[2022-11-23 17:17:16,409] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Show & Tell (2019) (TMDb: 673628)                                      |
+[2022-11-23 17:17:16,538] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Trolls: Together (2017) (TMDb: 999314)                                 |
+[2022-11-23 17:17:16,656] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Untitled The Bad Guys Holiday Special (TMDb: 1046032)                  |
+[2022-11-23 17:17:16,785] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Boss Baby and Tim's Treasure Hunt Through Time (2017) (TMDb: 460789) |
+[2022-11-23 17:17:16,904] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Tiny Diamond Goes Back to School (2020) (TMDb: 722812)                 |
+[2022-11-23 17:17:17,035] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | The Penguins of Madagascar: Operation Antarctica (2012) (TMDb: 661386) |
+[2022-11-23 17:17:17,141] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Real Steel 2 (TMDb: 917477)                                            |
+[2022-11-23 17:17:17,313] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Meet the Gillmans (TMDb: 1040148)                                      |
+[2022-11-23 17:17:17,440] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Precious Templeton: A Pony Tale (2021) (TMDb: 875656)                  |
+[2022-11-23 17:17:17,571] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Kung Fu Panda: Unstoppable Awesomeness (2016) (TMDb: 829339)           |
+[2022-11-23 17:17:17,693] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Family Movie Night: Little Red Bronana Bread (2021) (TMDb: 801735)     |
+[2022-11-23 17:17:17,815] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Dog Man (TMDb: 774370)                                                 |
+[2022-11-23 17:17:17,944] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Ronan Boyle And The Book Of Riddles (TMDb: 743226)                     |
+[2022-11-23 17:17:18,076] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Shadows (TMDb: 690669)                                                 |
+[2022-11-23 17:17:18,210] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Where No One Goes: The Making of How to Train Your Dragon 2 (2015) (TMDb: 575510) |
+[2022-11-23 17:17:18,313] [builder.py:1943]           [INFO]     | DreamWorks Collection | ? | Mice and Mystics (TMDb: 559579)                                        |
+[2022-11-23 17:17:18,313] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:18,313] [builder.py:1948]           [INFO]     | 105 Movies Missing                                                                                 |
+[2022-11-23 17:17:18,528] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:18,528] [util.py:216]               [INFO]     |============================ Updating Details of DreamWorks Collection =============================|
+[2022-11-23 17:17:18,529] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 17:17:18,529] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 17:17:18,659] [builder.py:2208]           [INFO]     | Detail: collection_order updated Collection Order to release                                       |
+[2022-11-23 17:17:18,660] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 17:17:18,660] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/52723                                |
+[2022-11-23 17:17:18,660] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 17:17:19,649] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/52723                |
+[2022-11-23 17:17:19,826] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:19,826] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:19,826] [util.py:216]               [INFO]     |                                   Finished DreamWorks Collection                                   |
+[2022-11-23 17:17:19,827] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:42                                    |
+[2022-11-23 17:17:19,827] [util.py:220]               [INFO]     |====================================================================================================|

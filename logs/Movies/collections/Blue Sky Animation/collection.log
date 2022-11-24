@@ -1,56 +1,75 @@
-[2022-11-23 01:14:20,050] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,050] [util.py:216]               [INFO]     |                              Blue Sky Animation Collection in Movies                               |
-[2022-11-23 01:14:20,050] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,051] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,051] [util.py:216]               [INFO]     |============================= Validating Blue Sky Animation Attributes =============================|
-[2022-11-23 01:14:20,051] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,052] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:14:20,052] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Blue Sky Animation'), ('poster', 'https://theposterdb.com/poster/33753')]) |
-[2022-11-23 01:14:20,052] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,052] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:14:20,053] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:14:20,053] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,053] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:14:20,053] [builder.py:474]            [DEBUG]    | Value: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content. |
-[2022-11-23 01:14:20,054] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,054] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:14:20,054] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Blue Sky Animation'}                                                            |
-[2022-11-23 01:14:20,054] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,055] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:14:20,055] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/poster/33753                                                        |
-[2022-11-23 01:14:20,055] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,055] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:14:20,055] [builder.py:474]            [DEBUG]    | Value: 00000e_Blue Sky Animation                                                                   |
-[2022-11-23 01:14:20,059] [plex.py:687]               [DEBUG]    | Looking for: Blue Sky Animation                                                                    |
-[2022-11-23 01:14:20,059] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,060] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:14:20,063] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,063] [util.py:216]               [INFO]     |============================== Running Blue Sky Animation Collection ===============================|
-[2022-11-23 01:14:20,063] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,063] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:14:20,064] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,064] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Blue Sky Animation', '?type=1&sort=titleSort&push=1&studio=Blue%20Sky%20Animation&pop=1') |
-[2022-11-23 01:14:20,064] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,064] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:14:20,064] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:14:20,065] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:14:20,065] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:14:20,065] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:14:20,065] [util.py:161]               [INFO]     |       Studio contains Blue Sky Animation                                                           |
-[2022-11-23 01:14:20,073] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-23 01:14:20,073] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-23 01:14:20,074] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-23 01:14:20,074] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-23 01:14:20,074] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-23 01:14:20,074] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1242, in gather_ids              |
-[2022-11-23 01:14:20,074] [util.py:162]               [DEBUG]    |     return self.library.get_rating_keys(method, value)                                             |
-[2022-11-23 01:14:20,075] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 752, in get_rating_keys             |
-[2022-11-23 01:14:20,075] [util.py:162]               [DEBUG]    |     raise Failed("Plex Error: No Items found in Plex")                                             |
-[2022-11-23 01:14:20,075] [util.py:162]               [DEBUG]    | modules.util.Failed: Plex Error: No Items found in Plex                                            |
-[2022-11-23 01:14:20,075] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:20,075] [util.py:159]               [ERROR]    | Plex Error: No Items found in Plex                                                                 |
-[2022-11-23 01:14:20,076] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,077] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,077] [util.py:216]               [INFO]     |                               Finished Blue Sky Animation Collection                               |
-[2022-11-23 01:14:20,077] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-23 01:14:20,077] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:26,131] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:26,131] [util.py:216]               [INFO]     |                              Blue Sky Animation Collection in Movies                               |
+[2022-11-23 17:16:26,132] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:26,132] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,132] [util.py:216]               [INFO]     |============================= Validating Blue Sky Animation Attributes =============================|
+[2022-11-23 17:16:26,133] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,133] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 17:16:26,133] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 9383), ('poster', 'https://theposterdb.com/poster/33753')]) |
+[2022-11-23 17:16:26,134] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,134] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:16:26,135] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-23 17:16:26,135] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,135] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:16:26,136] [builder.py:474]            [DEBUG]    | Value: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content. |
+[2022-11-23 17:16:26,136] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,136] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2022-11-23 17:16:26,137] [builder.py:474]            [DEBUG]    | Value: 9383                                                                                        |
+[2022-11-23 17:16:26,263] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,263] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 17:16:26,263] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/poster/33753                                                        |
+[2022-11-23 17:16:26,264] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,264] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 17:16:26,264] [builder.py:474]            [DEBUG]    | Value: 00000e_Blue Sky Animation                                                                   |
+[2022-11-23 17:16:26,268] [plex.py:687]               [DEBUG]    | Looking for: Blue Sky Animation                                                                    |
+[2022-11-23 17:16:26,268] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,269] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 17:16:26,270] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,271] [util.py:216]               [INFO]     |============================== Running Blue Sky Animation Collection ===============================|
+[2022-11-23 17:16:26,271] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,272] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 17:16:26,272] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,272] [builder.py:1276]           [DEBUG]    | Builder: tmdb_company: 9383                                                                        |
+[2022-11-23 17:16:26,273] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,682] [tmdb.py:282]               [INFO]     | Processing TMDb Company: (9383) Blue Sky Studios (26 Movies)                                       |
+[2022-11-23 17:16:26,683] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,683] [builder.py:1283]           [DEBUG]    | 26 IDs Found: [(425, 'tmdb'), (8355, 'tmdb'), (46195, 'tmdb'), (364689, 'tmdb'), (172385, 'tmdb'), (950, 'tmdb'), (57800, 'tmdb'), (278154, 'tmdb'), (116711, 'tmdb'), (12222, 'tmdb'), (431693, 'tmdb'), (9928, 'tmdb'), (227973, 'tmdb'), (387893, 'tmdb'), (79218, 'tmdb'), (21044, 'tmdb'), (46247, 'tmdb'), (367326, 'tmdb'), (17963, 'tmdb'), (98857, 'tmdb'), (55692, 'tmdb'), (48610, 'tmdb'), (421725, 'tmdb'), (121678, 'tmdb'), (63516, 'tmdb'), (660704, 'tmdb')] |
+[2022-11-23 17:16:26,684] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:26,685] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,685] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Blue Sky Animation Collection                                    |
+[2022-11-23 17:16:26,685] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,686] [util.py:216]               [INFO]     |========================= Missing Movies from Library: Blue Sky Animation ==========================|
+[2022-11-23 17:16:26,686] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:26,834] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age (2002) (TMDb: 425)                                     |
+[2022-11-23 17:16:27,002] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: Dawn of the Dinosaurs (2009) (TMDb: 8355)             |
+[2022-11-23 17:16:27,164] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Rio (2011) (TMDb: 46195)                                       |
+[2022-11-23 17:16:27,292] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ferdinand (2017) (TMDb: 364689)                                |
+[2022-11-23 17:16:27,455] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Rio 2 (2014) (TMDb: 172385)                                    |
+[2022-11-23 17:16:27,603] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: The Meltdown (2006) (TMDb: 950)                       |
+[2022-11-23 17:16:27,774] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: Continental Drift (2012) (TMDb: 57800)                |
+[2022-11-23 17:16:27,919] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: Collision Course (2016) (TMDb: 278154)                |
+[2022-11-23 17:16:28,122] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Epic (2013) (TMDb: 116711)                                     |
+[2022-11-23 17:16:28,267] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Horton Hears a Who! (2008) (TMDb: 12222)                       |
+[2022-11-23 17:16:28,434] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Spies in Disguise (2019) (TMDb: 431693)                        |
+[2022-11-23 17:16:28,551] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Robots (2005) (TMDb: 9928)                                     |
+[2022-11-23 17:16:28,685] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | The Peanuts Movie (2015) (TMDb: 227973)                        |
+[2022-11-23 17:16:28,799] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: The Great Egg-Scapade (2016) (TMDb: 387893)           |
+[2022-11-23 17:16:28,919] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: A Mammoth Christmas (2011) (TMDb: 79218)              |
+[2022-11-23 17:16:29,073] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Ice Age: Surviving Sid (2008) (TMDb: 21044)                    |
+[2022-11-23 17:16:29,207] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | No Time for Nuts (2006) (TMDb: 46247)                          |
+[2022-11-23 17:16:29,370] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Cosmic Scrat-tastrophe (2015) (TMDb: 367326)                   |
+[2022-11-23 17:16:29,529] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Gone Nutty (2002) (TMDb: 17963)                                |
+[2022-11-23 17:16:29,643] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Scrat's Continental Crack-Up: Part 2 (2011) (TMDb: 98857)      |
+[2022-11-23 17:16:29,791] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Scrat's Continental Crack-Up (2010) (TMDb: 55692)              |
+[2022-11-23 17:16:29,927] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Bunny (1998) (TMDb: 48610)                                     |
+[2022-11-23 17:16:30,053] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Scrat: Spaced Out (2016) (TMDb: 421725)                        |
+[2022-11-23 17:16:30,204] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Aunt Fanny's Tour of Booty (2005) (TMDb: 121678)               |
+[2022-11-23 17:16:30,381] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Scrat in Love (2009) (TMDb: 63516)                             |
+[2022-11-23 17:16:30,516] [builder.py:1943]           [INFO]     | Blue Sky Animation Collection | ? | Umbrellacorn (2013) (TMDb: 660704)                             |
+[2022-11-23 17:16:30,516] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,517] [builder.py:1948]           [INFO]     | 26 Movies Missing                                                                                  |
+[2022-11-23 17:16:30,778] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,778] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:30,779] [util.py:216]               [INFO]     |                               Finished Blue Sky Animation Collection                               |
+[2022-11-23 17:16:30,779] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:04                                    |
+[2022-11-23 17:16:30,779] [util.py:220]               [INFO]     |====================================================================================================|

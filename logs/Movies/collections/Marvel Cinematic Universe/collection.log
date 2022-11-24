@@ -1,91 +1,40 @@
-[2022-11-23 01:14:18,892] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:18,893] [util.py:216]               [INFO]     |                           Marvel Cinematic Universe Collection in Movies                           |
-[2022-11-23 01:14:18,893] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:18,893] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,894] [util.py:216]               [INFO]     |========================= Validating Marvel Cinematic Universe Attributes ==========================|
-[2022-11-23 01:14:18,894] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,894] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:14:18,894] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Marvel Studios, Marvel Enterprise, Marvel Entertainment'), ('poster', 'https://theposterdb.com/api/assets/5912')]) |
-[2022-11-23 01:14:18,895] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,895] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:14:18,895] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:14:18,895] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,896] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:14:18,896] [builder.py:474]            [DEBUG]    | Value: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023). |
-[2022-11-23 01:14:18,896] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,897] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-23 01:14:18,897] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:14:18,897] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,897] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:14:18,898] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Marvel Studios, Marvel Enterprise, Marvel Entertainment'}                       |
-[2022-11-23 01:14:18,898] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,898] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:14:18,898] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/5912                                                     |
-[2022-11-23 01:14:18,898] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,899] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:14:18,899] [builder.py:474]            [DEBUG]    | Value: 00000e_Marvel Cinematic Universe                                                            |
-[2022-11-23 01:14:19,104] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,105] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:14:19,105] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,105] [util.py:216]               [INFO]     |=========================== Running Marvel Cinematic Universe Collection ===========================|
-[2022-11-23 01:14:19,106] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,106] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:14:19,106] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:19,107] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Marvel Studios, Marvel Enterprise, Marvel Entertainment', '?type=1&sort=titleSort&push=1&studio=Marvel%20Studios%2C%20Marvel%20Enterprise%2C%20Marvel%20Entertainment&pop=1') |
-[2022-11-23 01:14:19,107] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,107] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:14:19,107] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:14:19,108] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:14:19,108] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:14:19,108] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:14:19,109] [util.py:161]               [INFO]     |       Studio contains Marvel Studios, Marvel Enterprise, Marvel Entertainment                      |
-[2022-11-23 01:14:19,175] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:19,176] [plex.py:749]               [DEBUG]    | 27 Keys Found: [(117347, 'ratingKey'), (117535, 'ratingKey'), (117445, 'ratingKey'), (116232, 'ratingKey'), (116161, 'ratingKey'), (98386, 'ratingKey'), (117233, 'ratingKey'), (117801, 'ratingKey'), (117448, 'ratingKey'), (112990, 'ratingKey'), (117756, 'ratingKey'), (117755, 'ratingKey'), (112652, 'ratingKey'), (96876, 'ratingKey'), (117533, 'ratingKey'), (115642, 'ratingKey'), (113021, 'ratingKey'), (115458, 'ratingKey'), (61726, 'ratingKey'), (114943, 'ratingKey'), (115191, 'ratingKey'), (39638, 'ratingKey'), (66866, 'ratingKey'), (114030, 'ratingKey'), (112651, 'ratingKey'), (114031, 'ratingKey'), (119517, 'ratingKey')] |
-[2022-11-23 01:14:19,176] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:19,176] [builder.py:1283]           [DEBUG]    | 27 IDs Found: [(117347, 'ratingKey'), (117535, 'ratingKey'), (117445, 'ratingKey'), (116232, 'ratingKey'), (116161, 'ratingKey'), (98386, 'ratingKey'), (117233, 'ratingKey'), (117801, 'ratingKey'), (117448, 'ratingKey'), (112990, 'ratingKey'), (117756, 'ratingKey'), (117755, 'ratingKey'), (112652, 'ratingKey'), (96876, 'ratingKey'), (117533, 'ratingKey'), (115642, 'ratingKey'), (113021, 'ratingKey'), (115458, 'ratingKey'), (61726, 'ratingKey'), (114943, 'ratingKey'), (115191, 'ratingKey'), (39638, 'ratingKey'), (66866, 'ratingKey'), (114030, 'ratingKey'), (112651, 'ratingKey'), (114031, 'ratingKey'), (119517, 'ratingKey')] |
-[2022-11-23 01:14:19,177] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:19,821] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,822] [util.py:216]               [INFO]     |========================== Adding to Marvel Cinematic Universe Collection ==========================|
-[2022-11-23 01:14:19,822] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,822] [builder.py:1709]           [INFO]     |  1/27 | Marvel Cinematic Universe Collection | = | Ant-Man (2015)                                  |
-[2022-11-23 01:14:19,822] [builder.py:1709]           [INFO]     |  2/27 | Marvel Cinematic Universe Collection | = | Ant-Man and the Wasp (2018)                     |
-[2022-11-23 01:14:19,823] [builder.py:1709]           [INFO]     |  3/27 | Marvel Cinematic Universe Collection | = | The Avengers (2012)                             |
-[2022-11-23 01:14:19,823] [builder.py:1709]           [INFO]     |  4/27 | Marvel Cinematic Universe Collection | = | Avengers: Age of Ultron (2015)                  |
-[2022-11-23 01:14:19,823] [builder.py:1709]           [INFO]     |  5/27 | Marvel Cinematic Universe Collection | = | Avengers: Endgame (2019)                        |
-[2022-11-23 01:14:19,824] [builder.py:1709]           [INFO]     |  6/27 | Marvel Cinematic Universe Collection | = | Avengers: Infinity War (2018)                   |
-[2022-11-23 01:14:19,824] [builder.py:1709]           [INFO]     |  7/27 | Marvel Cinematic Universe Collection | = | Black Panther (2018)                            |
-[2022-11-23 01:14:19,824] [builder.py:1709]           [INFO]     |  8/27 | Marvel Cinematic Universe Collection | = | Black Widow (2021)                              |
-[2022-11-23 01:14:19,824] [builder.py:1709]           [INFO]     |  9/27 | Marvel Cinematic Universe Collection | = | Captain America: Civil War (2016)               |
-[2022-11-23 01:14:19,825] [builder.py:1709]           [INFO]     | 10/27 | Marvel Cinematic Universe Collection | = | Captain America: The First Avenger (2011)       |
-[2022-11-23 01:14:19,825] [builder.py:1709]           [INFO]     | 11/27 | Marvel Cinematic Universe Collection | = | Captain America: The Winter Soldier (2014)      |
-[2022-11-23 01:14:19,825] [builder.py:1709]           [INFO]     | 12/27 | Marvel Cinematic Universe Collection | = | Captain Marvel (2019)                           |
-[2022-11-23 01:14:19,825] [builder.py:1709]           [INFO]     | 13/27 | Marvel Cinematic Universe Collection | = | Doctor Strange (2016)                           |
-[2022-11-23 01:14:19,826] [builder.py:1709]           [INFO]     | 14/27 | Marvel Cinematic Universe Collection | = | Doctor Strange in the Multiverse of Madness (2022) |
-[2022-11-23 01:14:19,826] [builder.py:1709]           [INFO]     | 15/27 | Marvel Cinematic Universe Collection | = | Eternals (2021)                                 |
-[2022-11-23 01:14:19,826] [builder.py:1709]           [INFO]     | 16/27 | Marvel Cinematic Universe Collection | = | Guardians of the Galaxy (2014)                  |
-[2022-11-23 01:14:19,827] [builder.py:1709]           [INFO]     | 17/27 | Marvel Cinematic Universe Collection | = | Guardians of the Galaxy Vol. 2 (2017)           |
-[2022-11-23 01:14:19,827] [builder.py:1709]           [INFO]     | 18/27 | Marvel Cinematic Universe Collection | = | The Incredible Hulk (2008)                      |
-[2022-11-23 01:14:19,827] [builder.py:1709]           [INFO]     | 19/27 | Marvel Cinematic Universe Collection | = | Iron Man (2008)                                 |
-[2022-11-23 01:14:19,828] [builder.py:1709]           [INFO]     | 20/27 | Marvel Cinematic Universe Collection | = | Iron Man 2 (2010)                               |
-[2022-11-23 01:14:19,828] [builder.py:1709]           [INFO]     | 21/27 | Marvel Cinematic Universe Collection | = | Iron Man 3 (2013)                               |
-[2022-11-23 01:14:19,828] [builder.py:1709]           [INFO]     | 22/27 | Marvel Cinematic Universe Collection | = | Shang-Chi and the Legend of the Ten Rings (2021) |
-[2022-11-23 01:14:19,829] [builder.py:1709]           [INFO]     | 23/27 | Marvel Cinematic Universe Collection | = | Spider-Man: Homecoming (2017)                   |
-[2022-11-23 01:14:19,829] [builder.py:1709]           [INFO]     | 24/27 | Marvel Cinematic Universe Collection | = | Thor (2011)                                     |
-[2022-11-23 01:14:19,829] [builder.py:1709]           [INFO]     | 25/27 | Marvel Cinematic Universe Collection | = | Thor: Ragnarok (2017)                           |
-[2022-11-23 01:14:19,830] [builder.py:1709]           [INFO]     | 26/27 | Marvel Cinematic Universe Collection | = | Thor: The Dark World (2013)                     |
-[2022-11-23 01:14:19,830] [builder.py:1709]           [INFO]     | 27/27 | Marvel Cinematic Universe Collection | = | Werewolf by Night (2022)                        |
-[2022-11-23 01:14:19,830] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,830] [builder.py:1735]           [INFO]     | 27 Movies Processed                                                                                |
-[2022-11-23 01:14:19,834] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,834] [util.py:216]               [INFO]     |===================== Updating Details of Marvel Cinematic Universe Collection =====================|
-[2022-11-23 01:14:19,835] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:19,835] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-23 01:14:19,835] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 01:14:19,836] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/5912                                 |
-[2022-11-23 01:14:19,836] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-23 01:14:19,837] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-23 01:14:20,038] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:20,039] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:20,039] [util.py:216]               [INFO]     |                           Finished Marvel Cinematic Universe Collection                            |
-[2022-11-23 01:14:20,040] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
-[2022-11-23 01:14:20,040] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:36,376] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:36,376] [util.py:216]               [INFO]     |                           Marvel Cinematic Universe Collection in Movies                           |
+[2022-11-23 17:17:36,377] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:36,377] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:36,377] [util.py:216]               [INFO]     |========================= Validating Marvel Cinematic Universe Attributes ==========================|
+[2022-11-23 17:17:36,378] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,378] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 17:17:36,378] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 'Marvel Studios, Marvel Enterprise, Marvel Entertainment'), ('poster', 'https://theposterdb.com/api/assets/5912')]) |
+[2022-11-23 17:17:36,379] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,379] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:17:36,379] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-23 17:17:36,379] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,380] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:17:36,380] [builder.py:474]            [DEBUG]    | Value: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023). |
+[2022-11-23 17:17:36,380] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,380] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-23 17:17:36,380] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 17:17:36,381] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,381] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2022-11-23 17:17:36,381] [builder.py:474]            [DEBUG]    | Value: Marvel Studios, Marvel Enterprise, Marvel Entertainment                                     |
+[2022-11-23 17:17:36,381] [util.py:110]               [ERROR]    | Regex Error: Failed to parse TMDb Company ID from Marvel Studios                                   |
+[2022-11-23 17:17:36,382] [util.py:110]               [ERROR]    | Regex Error: Failed to parse TMDb Company ID from Marvel Enterprise                                |
+[2022-11-23 17:17:36,382] [util.py:110]               [ERROR]    | Regex Error: Failed to parse TMDb Company ID from Marvel Entertainment                             |
+[2022-11-23 17:17:36,397] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-23 17:17:36,398] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2022-11-23 17:17:36,398] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2022-11-23 17:17:36,398] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 549, in __init__                 |
+[2022-11-23 17:17:36,398] [util.py:162]               [DEBUG]    |     self._tmdb(method_name, method_data)                                                           |
+[2022-11-23 17:17:36,399] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1155, in _tmdb                   |
+[2022-11-23 17:17:36,399] [util.py:162]               [DEBUG]    |     values = self.config.TMDb.validate_tmdb_ids(method_data, method_name)                          |
+[2022-11-23 17:17:36,399] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\tmdb.py", line 243, in validate_tmdb_ids           |
+[2022-11-23 17:17:36,399] [util.py:162]               [DEBUG]    |     if len(tmdb_values) == 0:                   raise Failed(f"TMDb Error: No valid TMDb IDs in {tmdb_list}") |
+[2022-11-23 17:17:36,400] [util.py:162]               [DEBUG]    | modules.util.Failed: TMDb Error: No valid TMDb IDs in []                                           |
+[2022-11-23 17:17:36,400] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-23 17:17:36,400] [util.py:159]               [ERROR]    | TMDb Error: No valid TMDb IDs in []                                                                |
+[2022-11-23 17:17:36,400] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:17:36,401] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:17:36,401] [util.py:216]               [INFO]     |                           Finished Marvel Cinematic Universe Collection                            |
+[2022-11-23 17:17:36,401] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-23 17:17:36,401] [util.py:220]               [INFO]     |====================================================================================================|

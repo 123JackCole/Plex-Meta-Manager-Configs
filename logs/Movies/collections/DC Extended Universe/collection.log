@@ -1,59 +1,93 @@
-[2022-11-23 01:14:18,844] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:18,845] [util.py:216]               [INFO]     |                             DC Extended Universe Collection in Movies                              |
-[2022-11-23 01:14:18,845] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:18,845] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,846] [util.py:216]               [INFO]     |============================ Validating DC Extended Universe Attributes ============================|
-[2022-11-23 01:14:18,846] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,846] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:14:18,846] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'DC Extended Universe'), ('poster', 'https://theposterdb.com/api/assets/92689')]) |
-[2022-11-23 01:14:18,847] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,847] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:14:18,847] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:14:18,847] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,847] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:14:18,847] [builder.py:474]            [DEBUG]    | Value: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. |
-[2022-11-23 01:14:18,848] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,848] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-23 01:14:18,848] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:14:18,848] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,848] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:14:18,849] [builder.py:474]            [DEBUG]    | Value: {'studio': 'DC Extended Universe'}                                                          |
-[2022-11-23 01:14:18,849] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,849] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:14:18,849] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/92689                                                    |
-[2022-11-23 01:14:18,849] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,850] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:14:18,850] [builder.py:474]            [DEBUG]    | Value: 00000e_DC Extended Universe                                                                 |
-[2022-11-23 01:14:18,853] [plex.py:687]               [DEBUG]    | Looking for: DC Extended Universe                                                                  |
-[2022-11-23 01:14:18,853] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,854] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:14:18,855] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,855] [util.py:216]               [INFO]     |============================= Running DC Extended Universe Collection ==============================|
-[2022-11-23 01:14:18,855] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,856] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:14:18,856] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,856] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains DC Extended Universe', '?type=1&sort=titleSort&push=1&studio=DC%20Extended%20Universe&pop=1') |
-[2022-11-23 01:14:18,856] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,857] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:14:18,857] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:14:18,857] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:14:18,857] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:14:18,858] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:14:18,858] [util.py:161]               [INFO]     |       Studio contains DC Extended Universe                                                         |
-[2022-11-23 01:14:18,886] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-23 01:14:18,886] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-23 01:14:18,886] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-23 01:14:18,887] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-23 01:14:18,887] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-23 01:14:18,887] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1242, in gather_ids              |
-[2022-11-23 01:14:18,887] [util.py:162]               [DEBUG]    |     return self.library.get_rating_keys(method, value)                                             |
-[2022-11-23 01:14:18,887] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\plex.py", line 752, in get_rating_keys             |
-[2022-11-23 01:14:18,888] [util.py:162]               [DEBUG]    |     raise Failed("Plex Error: No Items found in Plex")                                             |
-[2022-11-23 01:14:18,888] [util.py:162]               [DEBUG]    | modules.util.Failed: Plex Error: No Items found in Plex                                            |
-[2022-11-23 01:14:18,888] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:14:18,888] [util.py:159]               [ERROR]    | Plex Error: No Items found in Plex                                                                 |
-[2022-11-23 01:14:18,888] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:14:18,889] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:14:18,889] [util.py:216]               [INFO]     |                              Finished DC Extended Universe Collection                              |
-[2022-11-23 01:14:18,889] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-23 01:14:18,890] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:30,782] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:30,782] [util.py:216]               [INFO]     |                             DC Extended Universe Collection in Movies                              |
+[2022-11-23 17:16:30,782] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:30,783] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,783] [util.py:216]               [INFO]     |============================ Validating DC Extended Universe Attributes ============================|
+[2022-11-23 17:16:30,783] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,784] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 17:16:30,784] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('poster', 'https://theposterdb.com/api/assets/92689')])   |
+[2022-11-23 17:16:30,784] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,785] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:16:30,785] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-23 17:16:30,785] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,785] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-23 17:16:30,786] [builder.py:474]            [DEBUG]    | Value: https://trakt.tv/users/donxy/lists/dc-extended-universe                                     |
+[2022-11-23 17:16:30,929] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,930] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:16:30,930] [builder.py:474]            [DEBUG]    | Value: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. |
+[2022-11-23 17:16:30,930] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,931] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-23 17:16:30,931] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 17:16:30,931] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,932] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 17:16:30,932] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/92689                                                    |
+[2022-11-23 17:16:30,932] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,932] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 17:16:30,933] [builder.py:474]            [DEBUG]    | Value: 00000e_DC Extended Universe                                                                 |
+[2022-11-23 17:16:30,936] [plex.py:687]               [DEBUG]    | Looking for: DC Extended Universe                                                                  |
+[2022-11-23 17:16:30,936] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,937] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 17:16:30,937] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,938] [util.py:216]               [INFO]     |============================= Running DC Extended Universe Collection ==============================|
+[2022-11-23 17:16:30,938] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,938] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 17:16:30,938] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:30,939] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe                       |
+[2022-11-23 17:16:30,939] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:30,939] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/donxy/lists/dc-extended-universe                     |
+[2022-11-23 17:16:31,048] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:31,048] [builder.py:1283]           [DEBUG]    | 16 IDs Found: [(297762, 'tmdb'), (49521, 'tmdb'), (209112, 'tmdb'), (297761, 'tmdb'), (141052, 'tmdb'), (298618, 'tmdb'), (297802, 'tmdb'), (287947, 'tmdb'), (414906, 'tmdb'), (416649, 'tmdb'), (495764, 'tmdb'), (464052, 'tmdb'), (436969, 'tmdb'), (572802, 'tmdb'), (436270, 'tmdb'), (594767, 'tmdb')] |
+[2022-11-23 17:16:31,048] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:31,388] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:31,389] [util.py:216]               [INFO]     |============================ Adding to DC Extended Universe Collection =============================|
+[2022-11-23 17:16:31,389] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:31,389] [builder.py:1709]           [INFO]     |  1/10 | DC Extended Universe Collection | + | Wonder Woman (2017)                                  |
+[2022-11-23 17:16:31,488] [builder.py:1709]           [INFO]     |  2/10 | DC Extended Universe Collection | + | Man of Steel (2013)                                  |
+[2022-11-23 17:16:31,579] [builder.py:1709]           [INFO]     |  3/10 | DC Extended Universe Collection | + | Batman v Superman: Dawn of Justice (2016)            |
+[2022-11-23 17:16:31,676] [builder.py:1709]           [INFO]     |  4/10 | DC Extended Universe Collection | + | Justice League (2017)                                |
+[2022-11-23 17:16:31,766] [builder.py:1709]           [INFO]     |  5/10 | DC Extended Universe Collection | + | Aquaman (2018)                                       |
+[2022-11-23 17:16:31,854] [builder.py:1709]           [INFO]     |  6/10 | DC Extended Universe Collection | + | Shazam! (2019)                                       |
+[2022-11-23 17:16:31,941] [builder.py:1709]           [INFO]     |  7/10 | DC Extended Universe Collection | + | The Batman (2022)                                    |
+[2022-11-23 17:16:32,031] [builder.py:1709]           [INFO]     |  8/10 | DC Extended Universe Collection | + | Birds of Prey (2020)                                 |
+[2022-11-23 17:16:32,396] [builder.py:1709]           [INFO]     |  9/10 | DC Extended Universe Collection | + | The Suicide Squad (2021)                             |
+[2022-11-23 17:16:32,458] [builder.py:1709]           [INFO]     | 10/10 | DC Extended Universe Collection | + | Black Adam (2022)                                    |
+[2022-11-23 17:16:32,522] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:32,523] [builder.py:1735]           [INFO]     | 10 Movies Processed                                                                                |
+[2022-11-23 17:16:32,523] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:32,523] [util.py:216]               [INFO]     |======================== Missing Movies from Library: DC Extended Universe =========================|
+[2022-11-23 17:16:32,524] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:32,665] [builder.py:1943]           [INFO]     | DC Extended Universe Collection | ? | Suicide Squad (2016) (TMDb: 297761)                          |
+[2022-11-23 17:16:32,775] [builder.py:1943]           [INFO]     | DC Extended Universe Collection | ? | The Flash (2023) (TMDb: 298618)                              |
+[2022-11-23 17:16:32,889] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 416649: The resource you requested could not be found.      |
+[2022-11-23 17:16:33,049] [builder.py:1943]           [INFO]     | DC Extended Universe Collection | ? | Wonder Woman 1984 (2020) (TMDb: 464052)                      |
+[2022-11-23 17:16:33,242] [builder.py:1943]           [INFO]     | DC Extended Universe Collection | ? | Aquaman and the Lost Kingdom (2023) (TMDb: 572802)           |
+[2022-11-23 17:16:33,384] [builder.py:1943]           [INFO]     | DC Extended Universe Collection | ? | Shazam! Fury of the Gods (2023) (TMDb: 594767)               |
+[2022-11-23 17:16:33,385] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:33,385] [builder.py:1948]           [INFO]     | 5 Movies Missing                                                                                   |
+[2022-11-23 17:16:33,647] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2022-11-23 17:16:33,647] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2022-11-23 17:16:33,648] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2022-11-23 17:16:33,648] [radarr.py:49]              [DEBUG]    | Radarr Adds: [297761, 298618, 464052, 572802, 594767]                                              |
+[2022-11-23 17:16:35,904] [radarr.py:130]             [INFO]     |                                                                                                    |
+[2022-11-23 17:16:35,905] [radarr.py:132]             [INFO]     | Added to Radarr | 297761  | Suicide Squad                                                          |
+[2022-11-23 17:16:35,908] [radarr.py:132]             [INFO]     | Added to Radarr | 298618  | The Flash                                                              |
+[2022-11-23 17:16:35,914] [radarr.py:132]             [INFO]     | Added to Radarr | 464052  | Wonder Woman 1984                                                      |
+[2022-11-23 17:16:35,919] [radarr.py:132]             [INFO]     | Added to Radarr | 572802  | Aquaman and the Lost Kingdom                                           |
+[2022-11-23 17:16:35,924] [radarr.py:132]             [INFO]     | Added to Radarr | 594767  | Shazam! Fury of the Gods                                               |
+[2022-11-23 17:16:35,929] [radarr.py:135]             [INFO]     | 5 Movies added to Radarr                                                                           |
+[2022-11-23 17:16:35,945] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:35,945] [util.py:216]               [INFO]     |======================= Updating Details of DC Extended Universe Collection ========================|
+[2022-11-23 17:16:35,946] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 17:16:35,946] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 17:16:35,946] [builder.py:2193]           [INFO]     | Detail: sort_title updated Collection Sort Title to 00000e_DC Extended Universe                    |
+[2022-11-23 17:16:35,946] [builder.py:2235]           [DEBUG]    | {'summary.value': 'The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters.', 'summary.locked': 1, 'titleSort.value': '00000e_DC Extended Universe', 'titleSort.locked': 1} |
+[2022-11-23 17:16:35,965] [builder.py:2237]           [INFO]     | Details: have been updated                                                                         |
+[2022-11-23 17:16:35,966] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 17:16:35,966] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/92689                                |
+[2022-11-23 17:16:35,966] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 17:16:36,705] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/92689                |
+[2022-11-23 17:16:36,880] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:16:36,881] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:16:36,881] [util.py:216]               [INFO]     |                              Finished DC Extended Universe Collection                              |
+[2022-11-23 17:16:36,881] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-23 17:16:36,882] [util.py:220]               [INFO]     |====================================================================================================|

@@ -1,206 +1,131 @@
-[2022-11-23 01:02:35,257] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:02:35,257] [util.py:216]               [INFO]     |                                Trending Movies Collection in Movies                                |
-[2022-11-23 01:02:35,258] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:02:35,258] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:02:35,258] [util.py:216]               [INFO]     |============================== Validating Trending Movies Attributes ===============================|
-[2022-11-23 01:02:35,258] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:35,259] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:02:35,259] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-11-23 01:02:35,259] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:35,259] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:02:35,259] [builder.py:474]            [DEBUG]    | Value: 00000b_2                                                                                    |
-[2022-11-23 01:02:35,260] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:35,260] [builder.py:473]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
-[2022-11-23 01:02:35,260] [builder.py:474]            [DEBUG]    | Value: 150                                                                                         |
-[2022-11-23 01:02:35,260] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:35,260] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:02:35,261] [builder.py:474]            [DEBUG]    | Value: A collection of movies trending across the internet                                         |
-[2022-11-23 01:02:35,261] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:35,261] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:02:35,261] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/LFJnVzC.jpg                                                             |
-[2022-11-23 01:02:36,735] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:02:36,735] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:02:36,736] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:02:36,736] [util.py:216]               [INFO]     |================================ Running Trending Movies Collection ================================|
-[2022-11-23 01:02:36,736] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:02:36,737] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:02:36,737] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:36,737] [builder.py:1276]           [DEBUG]    | Builder: trakt_trending: 150                                                                       |
-[2022-11-23 01:02:36,737] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:36,737] [trakt.py:236]              [INFO]     | Processing Trakt Trending: 150 Movies                                                              |
-[2022-11-23 01:02:36,829] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:36,830] [builder.py:1283]           [DEBUG]    | 150 IDs Found: [(436270, 'tmdb'), (361743, 'tmdb'), (505642, 'tmdb'), (668461, 'tmdb'), (497828, 'tmdb'), (882598, 'tmdb'), (724495, 'tmdb'), (632856, 'tmdb'), (338958, 'tmdb'), (109445, 'tmdb'), (674, 'tmdb'), (507086, 'tmdb'), (672, 'tmdb'), (616037, 'tmdb'), (725201, 'tmdb'), (718789, 'tmdb'), (928344, 'tmdb'), (593643, 'tmdb'), (118340, 'tmdb'), (324552, 'tmdb'), (546554, 'tmdb'), (808, 'tmdb'), (497698, 'tmdb'), (399579, 'tmdb'), (512200, 'tmdb'), (453395, 'tmdb'), (791373, 'tmdb'), (454626, 'tmdb'), (435, 'tmdb'), (36647, 'tmdb'), (568124, 'tmdb'), (1979, 'tmdb'), (718930, 'tmdb'), (639933, 'tmdb'), (752623, 'tmdb'), (762504, 'tmdb'), (522931, 'tmdb'), (360920, 'tmdb'), (2756, 'tmdb'), (760104, 'tmdb'), (829280, 'tmdb'), (49046, 'tmdb'), (556694, 'tmdb'), (520023, 'tmdb'), (675445, 'tmdb'), (766475, 'tmdb'), (664469, 'tmdb'), (551271, 'tmdb'), (1013860, 'tmdb'), (842934, 'tmdb'), (829799, 'tmdb'), (615952, 'tmdb'), (854239, 'tmdb'), (1028186, 'tmdb'), (1040533, 'tmdb'), (1013599, 'tmdb'), (293660, 'tmdb'), (27205, 'tmdb'), (157336, 'tmdb'), (24428, 'tmdb'), (263115, 'tmdb'), (297762, 'tmdb'), (271110, 'tmdb'), (19995, 'tmdb'), (120, 'tmdb'), (286217, 'tmdb'), (277834, 'tmdb'), (299534, 'tmdb'), (245891, 'tmdb'), (259316, 'tmdb'), (330459, 'tmdb'), (284054, 'tmdb'), (269149, 'tmdb'), (671, 'tmdb'), (68718, 'tmdb'), (102899, 'tmdb'), (278, 'tmdb'), (209112, 'tmdb'), (207703, 'tmdb'), (1771, 'tmdb'), (12, 'tmdb'), (68721, 'tmdb'), (585, 'tmdb'), (12445, 'tmdb'), (75656, 'tmdb'), (767, 'tmdb'), (328111, 'tmdb'), (496243, 'tmdb'), (12444, 'tmdb'), (329, 'tmdb'), (127585, 'tmdb'), (354912, 'tmdb'), (297802, 'tmdb'), (141052, 'tmdb'), (335984, 'tmdb'), (57158, 'tmdb'), (771, 'tmdb'), (274, 'tmdb'), (240832, 'tmdb'), (198663, 'tmdb'), (438631, 'tmdb'), (458156, 'tmdb'), (93456, 'tmdb'), (37724, 'tmdb'), (165, 'tmdb'), (18, 'tmdb'), (218, 'tmdb'), (353081, 'tmdb'), (36657, 'tmdb'), (363676, 'tmdb'), (414906, 'tmdb'), (136799, 'tmdb'), (393, 'tmdb'), (500, 'tmdb'), (490132, 'tmdb'), (420817, 'tmdb'), (146233, 'tmdb'), (228150, 'tmdb'), (44214, 'tmdb'), (335988, 'tmdb'), (772, 'tmdb'), (370172, 'tmdb'), (9479, 'tmdb'), (524434, 'tmdb'), (56292, 'tmdb'), (404368, 'tmdb'), (600, 'tmdb'), (9487, 'tmdb'), (427641, 'tmdb'), (91314, 'tmdb'), (564, 'tmdb'), (109424, 'tmdb'), (254128, 'tmdb'), (854, 'tmdb'), (51497, 'tmdb'), (275, 'tmdb'), (105864, 'tmdb'), (624860, 'tmdb'), (8966, 'tmdb'), (173897, 'tmdb'), (10764, 'tmdb'), (8392, 'tmdb'), (399566, 'tmdb'), (423, 'tmdb'), (584, 'tmdb'), (95, 'tmdb'), (49040, 'tmdb'), (217, 'tmdb'), (9737, 'tmdb'), (8355, 'tmdb')] |
-[2022-11-23 01:02:36,830] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:02:39,300] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:39,300] [util.py:216]               [INFO]     |=============================== Adding to Trending Movies Collection ===============================|
-[2022-11-23 01:02:39,301] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:39,301] [builder.py:1709]           [INFO]     |   1/102 | Trending Movies Collection | = | Top Gun: Maverick (2022)                                |
-[2022-11-23 01:02:39,301] [builder.py:1709]           [INFO]     |   2/102 | Trending Movies Collection | = | The Woman King (2022)                                   |
-[2022-11-23 01:02:39,301] [builder.py:1709]           [INFO]     |   3/102 | Trending Movies Collection | = | Frozen (2013)                                           |
-[2022-11-23 01:02:39,302] [builder.py:1709]           [INFO]     |   4/102 | Trending Movies Collection | = | Harry Potter and the Goblet of Fire (2005)              |
-[2022-11-23 01:02:39,302] [builder.py:1709]           [INFO]     |   5/102 | Trending Movies Collection | = | Jurassic World: Dominion (2022)                         |
-[2022-11-23 01:02:39,302] [builder.py:1709]           [INFO]     |   6/102 | Trending Movies Collection | = | Harry Potter and the Chamber of Secrets (2002)          |
-[2022-11-23 01:02:39,303] [builder.py:1709]           [INFO]     |   7/102 | Trending Movies Collection | = | The Gray Man (2022)                                     |
-[2022-11-23 01:02:39,303] [builder.py:1709]           [INFO]     |   8/102 | Trending Movies Collection | = | Lightyear (2022)                                        |
-[2022-11-23 01:02:39,304] [builder.py:1709]           [INFO]     |   9/102 | Trending Movies Collection | = | Guardians of the Galaxy (2014)                          |
-[2022-11-23 01:02:39,304] [builder.py:1709]           [INFO]     |  10/102 | Trending Movies Collection | = | John Wick: Chapter 2 (2017)                             |
-[2022-11-23 01:02:39,305] [builder.py:1709]           [INFO]     |  11/102 | Trending Movies Collection | = | Knives Out (2019)                                       |
-[2022-11-23 01:02:39,305] [builder.py:1709]           [INFO]     |  12/102 | Trending Movies Collection | = | Shrek (2001)                                            |
-[2022-11-23 01:02:39,305] [builder.py:1709]           [INFO]     |  13/102 | Trending Movies Collection | = | Black Widow (2021)                                      |
-[2022-11-23 01:02:39,306] [builder.py:1709]           [INFO]     |  14/102 | Trending Movies Collection | = | Alita: Battle Angel (2019)                              |
-[2022-11-23 01:02:39,307] [builder.py:1709]           [INFO]     |  15/102 | Trending Movies Collection | = | Jumanji: The Next Level (2019)                          |
-[2022-11-23 01:02:39,307] [builder.py:1709]           [INFO]     |  16/102 | Trending Movies Collection | = | Doctor Strange in the Multiverse of Madness (2022)      |
-[2022-11-23 01:02:39,308] [builder.py:1709]           [INFO]     |  17/102 | Trending Movies Collection | = | Zack Snyder's Justice League (2021)                     |
-[2022-11-23 01:02:39,308] [builder.py:1709]           [INFO]     |  18/102 | Trending Movies Collection | = | Sonic the Hedgehog (2020)                               |
-[2022-11-23 01:02:39,309] [builder.py:1709]           [INFO]     |  19/102 | Trending Movies Collection | = | Blade (1998)                                            |
-[2022-11-23 01:02:39,310] [builder.py:1709]           [INFO]     |  20/102 | Trending Movies Collection | = | Encanto (2021)                                          |
-[2022-11-23 01:02:39,310] [builder.py:1709]           [INFO]     |  21/102 | Trending Movies Collection | + | Fantastic Four: Rise of the Silver Surfer (2007)        |
-[2022-11-23 01:02:39,381] [builder.py:1709]           [INFO]     |  22/102 | Trending Movies Collection | = | The Northman (2022)                                     |
-[2022-11-23 01:02:39,382] [builder.py:1709]           [INFO]     |  23/102 | Trending Movies Collection | = | The Lost City (2022)                                    |
-[2022-11-23 01:02:39,383] [builder.py:1709]           [INFO]     |  24/102 | Trending Movies Collection | + | The Abyss (1989)                                        |
-[2022-11-23 01:02:39,720] [builder.py:1709]           [INFO]     |  25/102 | Trending Movies Collection | = | X (2022)                                                |
-[2022-11-23 01:02:39,721] [builder.py:1709]           [INFO]     |  26/102 | Trending Movies Collection | = | Enola Holmes 2 (2022)                                   |
-[2022-11-23 01:02:39,721] [builder.py:1709]           [INFO]     |  27/102 | Trending Movies Collection | = | Bodies Bodies Bodies (2022)                             |
-[2022-11-23 01:02:39,722] [builder.py:1709]           [INFO]     |  28/102 | Trending Movies Collection | = | PAW Patrol: The Movie (2021)                            |
-[2022-11-23 01:02:39,723] [builder.py:1709]           [INFO]     |  29/102 | Trending Movies Collection | + | Amsterdam (2022)                                        |
-[2022-11-23 01:02:39,935] [builder.py:1709]           [INFO]     |  30/102 | Trending Movies Collection | = | Deadpool (2016)                                         |
-[2022-11-23 01:02:39,935] [builder.py:1709]           [INFO]     |  31/102 | Trending Movies Collection | = | Inception (2010)                                        |
-[2022-11-23 01:02:39,936] [builder.py:1709]           [INFO]     |  32/102 | Trending Movies Collection | = | Interstellar (2014)                                     |
-[2022-11-23 01:02:39,936] [builder.py:1709]           [INFO]     |  33/102 | Trending Movies Collection | = | The Avengers (2012)                                     |
-[2022-11-23 01:02:39,937] [builder.py:1709]           [INFO]     |  34/102 | Trending Movies Collection | = | Logan (2017)                                            |
-[2022-11-23 01:02:39,938] [builder.py:1709]           [INFO]     |  35/102 | Trending Movies Collection | = | Wonder Woman (2017)                                     |
-[2022-11-23 01:02:39,938] [builder.py:1709]           [INFO]     |  36/102 | Trending Movies Collection | = | Captain America: Civil War (2016)                       |
-[2022-11-23 01:02:39,939] [builder.py:1709]           [INFO]     |  37/102 | Trending Movies Collection | = | Avatar (2009)                                           |
-[2022-11-23 01:02:39,939] [builder.py:1709]           [INFO]     |  38/102 | Trending Movies Collection | = | The Lord of the Rings: The Fellowship of the Ring (2001) |
-[2022-11-23 01:02:39,940] [builder.py:1709]           [INFO]     |  39/102 | Trending Movies Collection | = | The Martian (2015)                                      |
-[2022-11-23 01:02:39,941] [builder.py:1709]           [INFO]     |  40/102 | Trending Movies Collection | = | Moana (2016)                                            |
-[2022-11-23 01:02:39,941] [builder.py:1709]           [INFO]     |  41/102 | Trending Movies Collection | = | Avengers: Endgame (2019)                                |
-[2022-11-23 01:02:39,941] [builder.py:1709]           [INFO]     |  42/102 | Trending Movies Collection | = | John Wick (2014)                                        |
-[2022-11-23 01:02:39,942] [builder.py:1709]           [INFO]     |  43/102 | Trending Movies Collection | = | Fantastic Beasts and Where to Find Them (2016)          |
-[2022-11-23 01:02:39,942] [builder.py:1709]           [INFO]     |  44/102 | Trending Movies Collection | = | Rogue One: A Star Wars Story (2016)                     |
-[2022-11-23 01:02:39,943] [builder.py:1709]           [INFO]     |  45/102 | Trending Movies Collection | = | Black Panther (2018)                                    |
-[2022-11-23 01:02:39,943] [builder.py:1709]           [INFO]     |  46/102 | Trending Movies Collection | = | Zootopia (2016)                                         |
-[2022-11-23 01:02:39,943] [builder.py:1709]           [INFO]     |  47/102 | Trending Movies Collection | = | Harry Potter and the Sorcerer's Stone (2001)            |
-[2022-11-23 01:02:39,944] [builder.py:1709]           [INFO]     |  48/102 | Trending Movies Collection | = | Django Unchained (2012)                                 |
-[2022-11-23 01:02:39,944] [builder.py:1709]           [INFO]     |  49/102 | Trending Movies Collection | = | Ant-Man (2015)                                          |
-[2022-11-23 01:02:39,945] [builder.py:1709]           [INFO]     |  50/102 | Trending Movies Collection | = | The Shawshank Redemption (1994)                         |
-[2022-11-23 01:02:39,945] [builder.py:1709]           [INFO]     |  51/102 | Trending Movies Collection | = | Batman v Superman: Dawn of Justice (2016)               |
-[2022-11-23 01:02:39,945] [builder.py:1709]           [INFO]     |  52/102 | Trending Movies Collection | = | Captain America: The First Avenger (2011)               |
-[2022-11-23 01:02:39,946] [builder.py:1709]           [INFO]     |  53/102 | Trending Movies Collection | = | Finding Nemo (2003)                                     |
-[2022-11-23 01:02:39,946] [builder.py:1709]           [INFO]     |  54/102 | Trending Movies Collection | = | Iron Man 3 (2013)                                       |
-[2022-11-23 01:02:39,947] [builder.py:1709]           [INFO]     |  55/102 | Trending Movies Collection | = | Monsters, Inc. (2001)                                   |
-[2022-11-23 01:02:39,947] [builder.py:1709]           [INFO]     |  56/102 | Trending Movies Collection | = | Harry Potter and the Deathly Hallows: Part 2 (2011)     |
-[2022-11-23 01:02:39,948] [builder.py:1709]           [INFO]     |  57/102 | Trending Movies Collection | = | Harry Potter and the Half-Blood Prince (2009)           |
-[2022-11-23 01:02:39,948] [builder.py:1709]           [INFO]     |  58/102 | Trending Movies Collection | = | Parasite (2019)                                         |
-[2022-11-23 01:02:39,949] [builder.py:1709]           [INFO]     |  59/102 | Trending Movies Collection | = | Harry Potter and the Deathly Hallows: Part 1 (2010)     |
-[2022-11-23 01:02:39,949] [builder.py:1709]           [INFO]     |  60/102 | Trending Movies Collection | = | Jurassic Park (1993)                                    |
-[2022-11-23 01:02:39,949] [builder.py:1709]           [INFO]     |  61/102 | Trending Movies Collection | = | X-Men: Days of Future Past (2014)                       |
-[2022-11-23 01:02:39,950] [builder.py:1709]           [INFO]     |  62/102 | Trending Movies Collection | = | Coco (2017)                                             |
-[2022-11-23 01:02:39,951] [builder.py:1709]           [INFO]     |  63/102 | Trending Movies Collection | = | Aquaman (2018)                                          |
-[2022-11-23 01:02:39,953] [builder.py:1709]           [INFO]     |  64/102 | Trending Movies Collection | = | Justice League (2017)                                   |
-[2022-11-23 01:02:39,953] [builder.py:1709]           [INFO]     |  65/102 | Trending Movies Collection | = | Blade Runner 2049 (2017)                                |
-[2022-11-23 01:02:39,954] [builder.py:1709]           [INFO]     |  66/102 | Trending Movies Collection | = | The Hobbit: The Desolation of Smaug (2013)              |
-[2022-11-23 01:02:39,954] [builder.py:1709]           [INFO]     |  67/102 | Trending Movies Collection | = | Home Alone (1990)                                       |
-[2022-11-23 01:02:39,955] [builder.py:1709]           [INFO]     |  68/102 | Trending Movies Collection | = | The Silence of the Lambs (1991)                         |
-[2022-11-23 01:02:39,956] [builder.py:1709]           [INFO]     |  69/102 | Trending Movies Collection | = | The Maze Runner (2014)                                  |
-[2022-11-23 01:02:39,956] [builder.py:1709]           [INFO]     |  70/102 | Trending Movies Collection | = | Dune (2021)                                             |
-[2022-11-23 01:02:39,957] [builder.py:1709]           [INFO]     |  71/102 | Trending Movies Collection | = | John Wick: Chapter 3 - Parabellum (2019)                |
-[2022-11-23 01:02:39,958] [builder.py:1709]           [INFO]     |  72/102 | Trending Movies Collection | = | Skyfall (2012)                                          |
-[2022-11-23 01:02:39,958] [builder.py:1709]           [INFO]     |  73/102 | Trending Movies Collection | = | Back to the Future Part II (1989)                       |
-[2022-11-23 01:02:39,959] [builder.py:1709]           [INFO]     |  74/102 | Trending Movies Collection | = | The Fifth Element (1997)                                |
-[2022-11-23 01:02:39,960] [builder.py:1709]           [INFO]     |  75/102 | Trending Movies Collection | = | The Terminator (1984)                                   |
-[2022-11-23 01:02:39,961] [builder.py:1709]           [INFO]     |  76/102 | Trending Movies Collection | = | Mission: Impossible - Fallout (2018)                    |
-[2022-11-23 01:02:39,961] [builder.py:1709]           [INFO]     |  77/102 | Trending Movies Collection | = | X-Men (2000)                                            |
-[2022-11-23 01:02:39,962] [builder.py:1709]           [INFO]     |  78/102 | Trending Movies Collection | = | The Batman (2022)                                       |
-[2022-11-23 01:02:39,962] [builder.py:1709]           [INFO]     |  79/102 | Trending Movies Collection | = | Kill Bill: Vol. 2 (2004)                                |
-[2022-11-23 01:02:39,962] [builder.py:1709]           [INFO]     |  80/102 | Trending Movies Collection | = | Reservoir Dogs (1992)                                   |
-[2022-11-23 01:02:39,963] [builder.py:1709]           [INFO]     |  81/102 | Trending Movies Collection | = | Aladdin (2019)                                          |
-[2022-11-23 01:02:39,964] [builder.py:1709]           [INFO]     |  82/102 | Trending Movies Collection | = | Black Swan (2010)                                       |
-[2022-11-23 01:02:39,965] [builder.py:1709]           [INFO]     |  83/102 | Trending Movies Collection | = | Transformers: The Last Knight (2017)                    |
-[2022-11-23 01:02:39,965] [builder.py:1709]           [INFO]     |  84/102 | Trending Movies Collection | = | Home Alone 2: Lost in New York (1992)                   |
-[2022-11-23 01:02:39,965] [builder.py:1709]           [INFO]     |  85/102 | Trending Movies Collection | = | No Time to Die (2021)                                   |
-[2022-11-23 01:02:39,967] [builder.py:1709]           [INFO]     |  86/102 | Trending Movies Collection | = | The Nightmare Before Christmas (1993)                   |
-[2022-11-23 01:02:39,968] [builder.py:1709]           [INFO]     |  87/102 | Trending Movies Collection | = | Eternals (2021)                                         |
-[2022-11-23 01:02:39,969] [builder.py:1709]           [INFO]     |  88/102 | Trending Movies Collection | + | Mission: Impossible - Ghost Protocol (2011)             |
-[2022-11-23 01:02:40,038] [builder.py:1709]           [INFO]     |  89/102 | Trending Movies Collection | = | Ralph Breaks the Internet (2018)                        |
-[2022-11-23 01:02:40,039] [builder.py:1709]           [INFO]     |  90/102 | Trending Movies Collection | = | Full Metal Jacket (1987)                                |
-[2022-11-23 01:02:40,040] [builder.py:1709]           [INFO]     |  91/102 | Trending Movies Collection | + | A Bug's Life (1998)                                     |
-[2022-11-23 01:02:40,106] [builder.py:1709]           [INFO]     |  92/102 | Trending Movies Collection | = | Rampage (2018)                                          |
-[2022-11-23 01:02:40,107] [builder.py:1709]           [INFO]     |  93/102 | Trending Movies Collection | = | Transformers: Age of Extinction (2014)                  |
-[2022-11-23 01:02:40,108] [builder.py:1709]           [INFO]     |  94/102 | Trending Movies Collection | = | The Mummy (1999)                                        |
-[2022-11-23 01:02:40,109] [builder.py:1709]           [INFO]     |  95/102 | Trending Movies Collection | + | The Mask (1994)                                         |
-[2022-11-23 01:02:40,174] [builder.py:1709]           [INFO]     |  96/102 | Trending Movies Collection | = | The Matrix Resurrections (2021)                         |
-[2022-11-23 01:02:40,175] [builder.py:1709]           [INFO]     |  97/102 | Trending Movies Collection | = | Quantum of Solace (2008)                                |
-[2022-11-23 01:02:40,176] [builder.py:1709]           [INFO]     |  98/102 | Trending Movies Collection | = | My Neighbor Totoro (1988)                               |
-[2022-11-23 01:02:40,176] [builder.py:1709]           [INFO]     |  99/102 | Trending Movies Collection | = | Godzilla vs. Kong (2021)                                |
-[2022-11-23 01:02:40,177] [builder.py:1709]           [INFO]     | 100/102 | Trending Movies Collection | + | The Pianist (2002)                                      |
-[2022-11-23 01:02:40,245] [builder.py:1709]           [INFO]     | 101/102 | Trending Movies Collection | = | The Bourne Legacy (2012)                                |
-[2022-11-23 01:02:40,246] [builder.py:1709]           [INFO]     | 102/102 | Trending Movies Collection | = | Indiana Jones and the Kingdom of the Crystal Skull (2008) |
-[2022-11-23 01:02:40,247] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:40,247] [builder.py:1735]           [INFO]     | 102 Movies Processed                                                                               |
-[2022-11-23 01:02:40,247] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:40,248] [util.py:216]               [INFO]     |=========================== Missing Movies from Library: Trending Movies ===========================|
-[2022-11-23 01:02:40,248] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:40,385] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Black Adam (2022) (TMDb: 436270)                                  |
-[2022-11-23 01:02:40,567] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)              |
-[2022-11-23 01:02:40,792] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Slumberland (2022) (TMDb: 668461)                                 |
-[2022-11-23 01:02:40,907] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Triangle of Sadness (2022) (TMDb: 497828)                         |
-[2022-11-23 01:02:41,035] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Smile (2022) (TMDb: 882598)                                       |
-[2022-11-23 01:02:41,414] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Spirited (2022) (TMDb: 632856)                                    |
-[2022-11-23 01:02:41,569] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Disenchanted (2022) (TMDb: 338958)                                |
-[2022-11-23 01:02:41,696] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                      |
-[2022-11-23 01:02:41,812] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                |
-[2022-11-23 01:02:41,913] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Menu (2022) (TMDb: 593643)                                    |
-[2022-11-23 01:02:42,074] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Day After Tomorrow (2004) (TMDb: 435)                         |
-[2022-11-23 01:02:42,295] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Bullet Train (2022) (TMDb: 718930)                                |
-[2022-11-23 01:02:42,563] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Nope (2022) (TMDb: 762504)                                        |
-[2022-11-23 01:02:42,743] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Hitman's Wife's Bodyguard (2021) (TMDb: 522931)                   |
-[2022-11-23 01:02:42,872] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Grinch (2018) (TMDb: 360920)                                  |
-[2022-11-23 01:02:42,992] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)               |
-[2022-11-23 01:02:43,126] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Three Thousand Years of Longing (2022) (TMDb: 556694)             |
-[2022-11-23 01:02:43,261] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | See How They Run (2022) (TMDb: 766475)                            |
-[2022-11-23 01:02:43,362] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Medieval (2022) (TMDb: 551271)                                    |
-[2022-11-23 01:02:43,501] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)             |
-[2022-11-23 01:02:43,629] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Poker Face (2022) (TMDb: 842934)                                  |
-[2022-11-23 01:02:43,817] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Paradise City (2022) (TMDb: 829799)                               |
-[2022-11-23 01:02:43,945] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Armageddon Time (2022) (TMDb: 615952)                             |
-[2022-11-23 01:02:44,054] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Till (2022) (TMDb: 854239)                                        |
-[2022-11-23 01:02:44,166] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Christmas at the Golden Dragon (2022) (TMDb: 1028186)             |
-[2022-11-23 01:02:44,290] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Trevor Noah: I Wish You Would (2022) (TMDb: 1040533)              |
-[2022-11-23 01:02:44,425] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Blood Relatives (2022) (TMDb: 1013599)                            |
-[2022-11-23 01:02:44,548] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Kingsman: The Secret Service (2015) (TMDb: 207703)                |
-[2022-11-23 01:02:44,672] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Now You See Me (2013) (TMDb: 75656)                               |
-[2022-11-23 01:02:45,123] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Secret Life of Pets (2016) (TMDb: 328111)                     |
-[2022-11-23 01:02:45,265] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Lucy (2014) (TMDb: 240832)                                        |
-[2022-11-23 01:02:45,391] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Despicable Me 2 (2013) (TMDb: 93456)                              |
-[2022-11-23 01:02:45,578] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Sully (2016) (TMDb: 363676)                                       |
-[2022-11-23 01:02:45,706] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Trolls (2016) (TMDb: 136799)                                      |
-[2022-11-23 01:02:45,866] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Green Book (2018) (TMDb: 490132)                                  |
-[2022-11-23 01:02:45,869] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Prisoners (2013) (TMDb: 146233)                                   |
-[2022-11-23 01:02:46,039] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Fury (2014) (TMDb: 228150)                                        |
-[2022-11-23 01:02:46,211] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Captain Phillips (2013) (TMDb: 109424)                            |
-[2022-11-23 01:02:46,499] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | San Andreas (2015) (TMDb: 254128)                                 |
-[2022-11-23 01:02:46,662] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Fast Five (2011) (TMDb: 51497)                                    |
-[2022-11-23 01:02:46,807] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Fargo (1996) (TMDb: 275)                                          |
-[2022-11-23 01:02:46,946] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Good Dinosaur (2015) (TMDb: 105864)                           |
-[2022-11-23 01:02:47,077] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Twilight (2008) (TMDb: 8966)                                      |
-[2022-11-23 01:02:47,233] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Resident Evil: The Final Chapter (2016) (TMDb: 173897)            |
-[2022-11-23 01:02:47,359] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | 2 Fast 2 Furious (2003) (TMDb: 584)                               |
-[2022-11-23 01:02:47,607] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Armageddon (1998) (TMDb: 95)                                      |
-[2022-11-23 01:02:47,805] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Bad Boys (1995) (TMDb: 9737)                                      |
-[2022-11-23 01:02:47,953] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Ice Age: Dawn of the Dinosaurs (2009) (TMDb: 8355)                |
-[2022-11-23 01:02:47,954] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:47,954] [builder.py:1948]           [INFO]     | 48 Movies Missing                                                                                  |
-[2022-11-23 01:02:47,980] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:47,980] [util.py:216]               [INFO]     |========================== Updating Details of Trending Movies Collection ==========================|
-[2022-11-23 01:02:47,980] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 01:02:47,980] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-23 01:02:47,981] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 01:02:47,982] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/LFJnVzC.jpg                                         |
-[2022-11-23 01:02:47,982] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-23 01:02:48,074] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/LFJnVzC.jpg                         |
-[2022-11-23 01:02:49,533] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:02:49,533] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:02:49,533] [util.py:216]               [INFO]     |                                Finished Trending Movies Collection                                 |
-[2022-11-23 01:02:49,534] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:14                                    |
-[2022-11-23 01:02:49,534] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:32:52,010] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:32:52,010] [util.py:216]               [INFO]     |                                Trending Movies Collection in Movies                                |
+[2022-11-23 17:32:52,011] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 17:32:52,011] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 17:32:52,012] [util.py:216]               [INFO]     |============================== Validating Trending Movies Attributes ===============================|
+[2022-11-23 17:32:52,012] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:52,012] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 17:32:52,013] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-23 17:32:52,013] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:52,013] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 17:32:52,013] [builder.py:474]            [DEBUG]    | Value: 00000b_2                                                                                    |
+[2022-11-23 17:32:52,013] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:52,014] [builder.py:473]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2022-11-23 17:32:52,014] [builder.py:474]            [DEBUG]    | Value: 75                                                                                          |
+[2022-11-23 17:32:52,014] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:52,014] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 17:32:52,014] [builder.py:474]            [DEBUG]    | Value: A collection of movies trending across the internet                                         |
+[2022-11-23 17:32:52,015] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:52,015] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 17:32:52,015] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/LFJnVzC.jpg                                                             |
+[2022-11-23 17:32:53,491] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 17:32:53,492] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 17:32:53,492] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 17:32:53,492] [util.py:216]               [INFO]     |================================ Running Trending Movies Collection ================================|
+[2022-11-23 17:32:53,493] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 17:32:53,493] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 17:32:53,493] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:53,493] [builder.py:1276]           [DEBUG]    | Builder: trakt_trending: 75                                                                        |
+[2022-11-23 17:32:53,494] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:53,494] [trakt.py:236]              [INFO]     | Processing Trakt Trending: 75 Movies                                                               |
+[2022-11-23 17:32:53,642] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:53,643] [builder.py:1283]           [DEBUG]    | 75 IDs Found: [(436270, 'tmdb'), (632856, 'tmdb'), (497828, 'tmdb'), (505642, 'tmdb'), (830784, 'tmdb'), (724495, 'tmdb'), (361743, 'tmdb'), (882598, 'tmdb'), (800939, 'tmdb'), (1013860, 'tmdb'), (2609, 'tmdb'), (338958, 'tmdb'), (829280, 'tmdb'), (718930, 'tmdb'), (619730, 'tmdb'), (842934, 'tmdb'), (854239, 'tmdb'), (49046, 'tmdb'), (862965, 'tmdb'), (928344, 'tmdb'), (668461, 'tmdb'), (929340, 'tmdb'), (661374, 'tmdb'), (979924, 'tmdb'), (829799, 'tmdb'), (762504, 'tmdb'), (614934, 'tmdb'), (913290, 'tmdb'), (664469, 'tmdb'), (615952, 'tmdb'), (910858, 'tmdb'), (771, 'tmdb'), (850, 'tmdb'), (985939, 'tmdb'), (593643, 'tmdb'), (802372, 'tmdb'), (562, 'tmdb'), (438631, 'tmdb'), (10719, 'tmdb'), (335787, 'tmdb'), (5825, 'tmdb'), (725201, 'tmdb'), (360920, 'tmdb'), (438148, 'tmdb'), (682507, 'tmdb'), (616820, 'tmdb'), (556694, 'tmdb'), (175574, 'tmdb'), (520023, 'tmdb'), (13479, 'tmdb'), (457232, 'tmdb'), (293660, 'tmdb'), (263115, 'tmdb'), (259316, 'tmdb'), (324552, 'tmdb'), (76341, 'tmdb'), (284054, 'tmdb'), (137113, 'tmdb'), (324857, 'tmdb'), (807, 'tmdb'), (634649, 'tmdb'), (22538, 'tmdb'), (524434, 'tmdb'), (8871, 'tmdb'), (686, 'tmdb'), (508947, 'tmdb'), (49524, 'tmdb'), (756999, 'tmdb'), (581726, 'tmdb'), (11395, 'tmdb'), (675353, 'tmdb'), (1621, 'tmdb'), (9489, 'tmdb'), (760104, 'tmdb'), (539681, 'tmdb')] |
+[2022-11-23 17:32:53,643] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 17:32:54,464] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:54,464] [util.py:216]               [INFO]     |=============================== Adding to Trending Movies Collection ===============================|
+[2022-11-23 17:32:54,464] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:54,465] [builder.py:1709]           [INFO]     |  1/36 | Trending Movies Collection | = | Black Adam (2022)                                         |
+[2022-11-23 17:32:54,465] [builder.py:1709]           [INFO]     |  2/36 | Trending Movies Collection | = | The Woman King (2022)                                     |
+[2022-11-23 17:32:54,465] [builder.py:1709]           [INFO]     |  3/36 | Trending Movies Collection | = | Top Gun: Maverick (2022)                                  |
+[2022-11-23 17:32:54,466] [builder.py:1709]           [INFO]     |  4/36 | Trending Movies Collection | = | Enola Holmes 2 (2022)                                     |
+[2022-11-23 17:32:54,466] [builder.py:1709]           [INFO]     |  5/36 | Trending Movies Collection | = | Emily the Criminal (2022)                                 |
+[2022-11-23 17:32:54,467] [builder.py:1709]           [INFO]     |  6/36 | Trending Movies Collection | = | Elvis (2022)                                              |
+[2022-11-23 17:32:54,467] [builder.py:1709]           [INFO]     |  7/36 | Trending Movies Collection | = | Barbarian (2022)                                          |
+[2022-11-23 17:32:54,468] [builder.py:1709]           [INFO]     |  8/36 | Trending Movies Collection | = | Amsterdam (2022)                                          |
+[2022-11-23 17:32:54,468] [builder.py:1709]           [INFO]     |  9/36 | Trending Movies Collection | = | Armageddon Time (2022)                                    |
+[2022-11-23 17:32:54,469] [builder.py:1709]           [INFO]     | 10/36 | Trending Movies Collection | = | Home Alone (1990)                                         |
+[2022-11-23 17:32:54,470] [builder.py:1709]           [INFO]     | 11/36 | Trending Movies Collection | = | Fall (2022)                                               |
+[2022-11-23 17:32:54,470] [builder.py:1709]           [INFO]     | 12/36 | Trending Movies Collection | = | Die Hard (1988)                                           |
+[2022-11-23 17:32:54,471] [builder.py:1709]           [INFO]     | 13/36 | Trending Movies Collection | = | Dune (2021)                                               |
+[2022-11-23 17:32:54,471] [builder.py:1709]           [INFO]     | 14/36 | Trending Movies Collection | = | Uncharted (2022)                                          |
+[2022-11-23 17:32:54,472] [builder.py:1709]           [INFO]     | 15/36 | Trending Movies Collection | = | The Gray Man (2022)                                       |
+[2022-11-23 17:32:54,472] [builder.py:1709]           [INFO]     | 16/36 | Trending Movies Collection | = | Minions: The Rise of Gru (2022)                           |
+[2022-11-23 17:32:54,473] [builder.py:1709]           [INFO]     | 17/36 | Trending Movies Collection | = | Halloween Ends (2022)                                     |
+[2022-11-23 17:32:54,473] [builder.py:1709]           [INFO]     | 18/36 | Trending Movies Collection | = | Bodies Bodies Bodies (2022)                               |
+[2022-11-23 17:32:54,473] [builder.py:1709]           [INFO]     | 19/36 | Trending Movies Collection | = | A Charlie Brown Thanksgiving (1973)                       |
+[2022-11-23 17:32:54,474] [builder.py:1709]           [INFO]     | 20/36 | Trending Movies Collection | = | Deadpool (2016)                                           |
+[2022-11-23 17:32:54,474] [builder.py:1709]           [INFO]     | 21/36 | Trending Movies Collection | = | Logan (2017)                                              |
+[2022-11-23 17:32:54,474] [builder.py:1709]           [INFO]     | 22/36 | Trending Movies Collection | = | Fantastic Beasts and Where to Find Them (2016)            |
+[2022-11-23 17:32:54,475] [builder.py:1709]           [INFO]     | 23/36 | Trending Movies Collection | = | John Wick: Chapter 2 (2017)                               |
+[2022-11-23 17:32:54,475] [builder.py:1709]           [INFO]     | 24/36 | Trending Movies Collection | = | Mad Max: Fury Road (2015)                                 |
+[2022-11-23 17:32:54,477] [builder.py:1709]           [INFO]     | 25/36 | Trending Movies Collection | = | Black Panther (2018)                                      |
+[2022-11-23 17:32:54,478] [builder.py:1709]           [INFO]     | 26/36 | Trending Movies Collection | = | Edge of Tomorrow (2014)                                   |
+[2022-11-23 17:32:54,478] [builder.py:1709]           [INFO]     | 27/36 | Trending Movies Collection | = | Spider-Man: Into the Spider-Verse (2018)                  |
+[2022-11-23 17:32:54,479] [builder.py:1709]           [INFO]     | 28/36 | Trending Movies Collection | = | Se7en (1995)                                              |
+[2022-11-23 17:32:54,480] [builder.py:1709]           [INFO]     | 29/36 | Trending Movies Collection | = | Spider-Man: No Way Home (2021)                            |
+[2022-11-23 17:32:54,481] [builder.py:1709]           [INFO]     | 30/36 | Trending Movies Collection | = | Scott Pilgrim vs. the World (2010)                        |
+[2022-11-23 17:32:54,482] [builder.py:1709]           [INFO]     | 31/36 | Trending Movies Collection | = | Eternals (2021)                                           |
+[2022-11-23 17:32:54,482] [builder.py:1709]           [INFO]     | 32/36 | Trending Movies Collection | = | Contact (1997)                                            |
+[2022-11-23 17:32:54,483] [builder.py:1709]           [INFO]     | 33/36 | Trending Movies Collection | = | Turning Red (2022)                                        |
+[2022-11-23 17:32:54,484] [builder.py:1709]           [INFO]     | 34/36 | Trending Movies Collection | = | The Black Phone (2022)                                    |
+[2022-11-23 17:32:54,485] [builder.py:1709]           [INFO]     | 35/36 | Trending Movies Collection | = | Sonic the Hedgehog 2 (2022)                               |
+[2022-11-23 17:32:54,485] [builder.py:1709]           [INFO]     | 36/36 | Trending Movies Collection | = | X (2022)                                                  |
+[2022-11-23 17:32:54,485] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:54,486] [builder.py:1735]           [INFO]     | 36 Movies Processed                                                                                |
+[2022-11-23 17:32:54,486] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:54,486] [util.py:216]               [INFO]     |=========================== Missing Movies from Library: Trending Movies ===========================|
+[2022-11-23 17:32:54,487] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:54,524] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Spirited (2022) (TMDb: 632856)                                    |
+[2022-11-23 17:32:54,562] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Triangle of Sadness (2022) (TMDb: 497828)                         |
+[2022-11-23 17:32:54,592] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Black Panther: Wakanda Forever (2022) (TMDb: 505642)              |
+[2022-11-23 17:32:54,620] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Lyle, Lyle, Crocodile (2022) (TMDb: 830784)                       |
+[2022-11-23 17:32:54,655] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Smile (2022) (TMDb: 882598)                                       |
+[2022-11-23 17:32:54,693] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Ticket to Paradise (2022) (TMDb: 800939)                          |
+[2022-11-23 17:32:54,773] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)             |
+[2022-11-23 17:32:54,775] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Planes, Trains and Automobiles (1987) (TMDb: 2609)                |
+[2022-11-23 17:32:54,820] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Disenchanted (2022) (TMDb: 338958)                                |
+[2022-11-23 17:32:54,865] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Bullet Train (2022) (TMDb: 718930)                                |
+[2022-11-23 17:32:54,908] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                         |
+[2022-11-23 17:32:55,941] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Poker Face (2022) (TMDb: 842934)                                  |
+[2022-11-23 17:32:55,969] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Till (2022) (TMDb: 854239)                                        |
+[2022-11-23 17:32:56,013] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)               |
+[2022-11-23 17:32:56,066] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                |
+[2022-11-23 17:32:56,095] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Slumberland (2022) (TMDb: 668461)                                 |
+[2022-11-23 17:32:56,134] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | A Christmas Story Christmas (2022) (TMDb: 929340)                 |
+[2022-11-23 17:32:56,219] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Glass Onion: A Knives Out Mystery (2022) (TMDb: 661374)           |
+[2022-11-23 17:32:56,257] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | On the Line (2022) (TMDb: 979924)                                 |
+[2022-11-23 17:32:56,299] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Paradise City (2022) (TMDb: 829799)                               |
+[2022-11-23 17:32:56,363] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Nope (2022) (TMDb: 762504)                                        |
+[2022-11-23 17:32:56,399] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Estate (2022) (TMDb: 910858)                                  |
+[2022-11-23 17:32:56,429] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | A Christmas Story (1983) (TMDb: 850)                              |
+[2022-11-23 17:32:56,460] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Menu (2022) (TMDb: 593643)                                    |
+[2022-11-23 17:32:56,491] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The People We Hate at the Wedding (2022) (TMDb: 802372)           |
+[2022-11-23 17:32:56,524] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Elf (2003) (TMDb: 10719)                                          |
+[2022-11-23 17:32:56,554] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | National Lampoon's Christmas Vacation (1989) (TMDb: 5825)         |
+[2022-11-23 17:32:56,592] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Grinch (2018) (TMDb: 360920)                                  |
+[2022-11-23 17:32:56,629] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Where the Crawdads Sing (2022) (TMDb: 682507)                     |
+[2022-11-23 17:32:56,665] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Three Thousand Years of Longing (2022) (TMDb: 556694)             |
+[2022-11-23 17:32:56,666] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Free Birds (2013) (TMDb: 175574)                                  |
+[2022-11-23 17:32:56,697] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Lamborghini: The Man Behind the Legend (2022) (TMDb: 457232)      |
+[2022-11-23 17:32:56,730] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | How the Grinch Stole Christmas (2000) (TMDb: 8871)                |
+[2022-11-23 17:32:56,770] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | R.I.P.D. (2013) (TMDb: 49524)                                     |
+[2022-11-23 17:32:56,808] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Infinite (2021) (TMDb: 581726)                                    |
+[2022-11-23 17:32:56,840] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | The Santa Clause (1994) (TMDb: 11395)                             |
+[2022-11-23 17:32:56,986] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | Trading Places (1983) (TMDb: 1621)                                |
+[2022-11-23 17:32:56,987] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | You've Got Mail (1998) (TMDb: 9489)                               |
+[2022-11-23 17:32:57,021] [builder.py:1943]           [INFO]     | Trending Movies Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                     |
+[2022-11-23 17:32:57,022] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:57,022] [builder.py:1948]           [INFO]     | 39 Movies Missing                                                                                  |
+[2022-11-23 17:32:57,050] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:57,050] [util.py:216]               [INFO]     |========================== Updating Details of Trending Movies Collection ==========================|
+[2022-11-23 17:32:57,051] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 17:32:57,051] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 17:32:57,052] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 17:32:57,052] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/LFJnVzC.jpg                                         |
+[2022-11-23 17:32:57,053] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 17:32:57,054] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-23 17:32:58,580] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 17:32:58,580] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 17:32:58,581] [util.py:216]               [INFO]     |                                Finished Trending Movies Collection                                 |
+[2022-11-23 17:32:58,581] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2022-11-23 17:32:58,581] [util.py:220]               [INFO]     |====================================================================================================|
