@@ -1,56 +1,56 @@
-[2022-11-06 10:51:12,606] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:51:12,607] [util.py:216]               [INFO]     |                                   Girls Love Collection in Anime                                   |
-[2022-11-06 10:51:12,607] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 10:51:12,607] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 10:51:12,608] [util.py:216]               [INFO]     |================================= Validating Girls Love Attributes =================================|
-[2022-11-06 10:51:12,608] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,608] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 10:51:12,608] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 26), ('poster', 'https://theposterdb.com/api/assets/240152')]) |
-[2022-11-06 10:51:12,609] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,609] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 10:51:12,609] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 10:51:12,609] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,610] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 10:51:12,610] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-06 10:51:12,610] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,610] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-06 10:51:12,611] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 26, 'limit': 999}                                                              |
-[2022-11-06 10:51:12,611] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,611] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 10:51:12,611] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240152                                                   |
-[2022-11-06 10:51:12,612] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,612] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 10:51:12,612] [builder.py:474]            [DEBUG]    | Value: +++_Girls Love                                                                              |
-[2022-11-06 10:51:12,612] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,612] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-06 10:51:12,613] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 10:51:12,616] [plex.py:687]               [DEBUG]    | Looking for: Girls Love                                                                            |
-[2022-11-06 10:51:12,616] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 10:51:12,617] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 10:51:12,617] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 10:51:12,617] [util.py:216]               [INFO]     |================================== Running Girls Love Collection ===================================|
-[2022-11-06 10:51:12,617] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 10:51:12,618] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 10:51:12,618] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:12,618] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 26, 'limit': 999}                                                 |
-[2022-11-06 10:51:12,619] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 10:51:12,619] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 26                                                                |
-[2022-11-06 10:51:14,798] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-06 10:51:14,799] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-06 10:51:14,799] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-06 10:51:14,799] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-06 10:51:14,799] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-06 10:51:14,799] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-06 10:51:14,800] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-06 10:51:14,800] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-06 10:51:14,800] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-06 10:51:14,800] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-06 10:51:14,800] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-06 10:51:14,801] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 26                        |
-[2022-11-06 10:51:14,801] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-06 10:51:14,801] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 26                                             |
-[2022-11-06 10:51:14,802] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 10:51:14,802] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:51:14,802] [util.py:216]               [INFO]     |                                   Finished Girls Love Collection                                   |
-[2022-11-06 10:51:14,802] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-06 10:51:14,803] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:26:18,853] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:26:18,853] [util.py:216]               [INFO]     |                                   Girls Love Collection in Anime                                   |
+[2022-11-23 01:26:18,854] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:26:18,854] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 01:26:18,854] [util.py:216]               [INFO]     |================================= Validating Girls Love Attributes =================================|
+[2022-11-23 01:26:18,855] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,855] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 01:26:18,856] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 26), ('poster', 'https://theposterdb.com/api/assets/240152')]) |
+[2022-11-23 01:26:18,856] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,856] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-23 01:26:18,857] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-23 01:26:18,857] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,857] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 01:26:18,858] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 01:26:18,858] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,858] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-23 01:26:18,859] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 26, 'limit': 999}                                                              |
+[2022-11-23 01:26:18,859] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,859] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 01:26:18,859] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240152                                                   |
+[2022-11-23 01:26:18,860] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,860] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 01:26:18,860] [builder.py:474]            [DEBUG]    | Value: +++_Girls Love                                                                              |
+[2022-11-23 01:26:18,860] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,860] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-23 01:26:18,861] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 01:26:18,864] [plex.py:687]               [DEBUG]    | Looking for: Girls Love                                                                            |
+[2022-11-23 01:26:18,864] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 01:26:18,865] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 01:26:18,865] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 01:26:18,865] [util.py:216]               [INFO]     |================================== Running Girls Love Collection ===================================|
+[2022-11-23 01:26:18,865] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 01:26:18,866] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-23 01:26:18,866] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:18,866] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 26, 'limit': 999}                                                 |
+[2022-11-23 01:26:18,866] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:26:18,867] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 26                                                                |
+[2022-11-23 01:26:21,038] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-23 01:26:21,039] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-23 01:26:21,039] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-23 01:26:21,039] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-23 01:26:21,039] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
+[2022-11-23 01:26:21,040] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-23 01:26:21,041] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 26                        |
+[2022-11-23 01:26:21,041] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-23 01:26:21,041] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 26                                             |
+[2022-11-23 01:26:21,041] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 01:26:21,042] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:26:21,042] [util.py:216]               [INFO]     |                                   Finished Girls Love Collection                                   |
+[2022-11-23 01:26:21,042] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-23 01:26:21,043] [util.py:220]               [INFO]     |====================================================================================================|

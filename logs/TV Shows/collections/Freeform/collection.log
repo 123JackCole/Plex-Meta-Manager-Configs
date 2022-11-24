@@ -1,95 +1,95 @@
-[2022-11-06 12:27:05,773] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:27:05,773] [util.py:216]               [INFO]     |                                  Freeform Collection in TV Shows                                   |
-[2022-11-06 12:27:05,774] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 12:27:05,774] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 12:27:05,774] [util.py:216]               [INFO]     |================================== Validating Freeform Attributes ==================================|
-[2022-11-06 12:27:05,775] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,775] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 12:27:05,775] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 1267), ('poster', 'https://theposterdb.com/api/assets/207424')]) |
-[2022-11-06 12:27:05,775] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,776] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 12:27:05,776] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 12:27:05,776] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,777] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 12:27:05,777] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-06 12:27:05,777] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,777] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-11-06 12:27:05,778] [builder.py:474]            [DEBUG]    | Value: 1267                                                                                        |
-[2022-11-06 12:27:05,912] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,913] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 12:27:05,913] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/207424                                                   |
-[2022-11-06 12:27:05,913] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,913] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 12:27:05,913] [builder.py:474]            [DEBUG]    | Value: +2_Freeform                                                                                 |
-[2022-11-06 12:27:05,916] [plex.py:687]               [DEBUG]    | Looking for: Freeform                                                                              |
-[2022-11-06 12:27:05,917] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 12:27:05,917] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 12:27:05,918] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 12:27:05,918] [util.py:216]               [INFO]     |=================================== Running Freeform Collection ====================================|
-[2022-11-06 12:27:05,918] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 12:27:05,919] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 12:27:05,919] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:05,919] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 1267                                                                        |
-[2022-11-06 12:27:05,919] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 12:27:06,470] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (1267) Freeform (46 Shows)                                                |
-[2022-11-06 12:27:06,470] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:06,470] [builder.py:1283]           [DEBUG]    | 46 IDs Found: [(31917, 'tmdb_show'), (98201, 'tmdb_show'), (71886, 'tmdb_show'), (63210, 'tmdb_show'), (46880, 'tmdb_show'), (80006, 'tmdb_show'), (37632, 'tmdb_show'), (42272, 'tmdb_show'), (69630, 'tmdb_show'), (91977, 'tmdb_show'), (60888, 'tmdb_show'), (66190, 'tmdb_show'), (71885, 'tmdb_show'), (79863, 'tmdb_show'), (661, 'tmdb_show'), (62196, 'tmdb_show'), (67726, 'tmdb_show'), (67725, 'tmdb_show'), (71884, 'tmdb_show'), (66489, 'tmdb_show'), (66490, 'tmdb_show'), (92524, 'tmdb_show'), (64673, 'tmdb_show'), (106567, 'tmdb_show'), (136739, 'tmdb_show'), (91980, 'tmdb_show'), (87890, 'tmdb_show'), (135312, 'tmdb_show'), (76388, 'tmdb_show'), (205440, 'tmdb_show'), (196965, 'tmdb_show'), (71547, 'tmdb_show'), (67528, 'tmdb_show'), (210114, 'tmdb_show'), (72846, 'tmdb_show'), (67829, 'tmdb_show'), (72850, 'tmdb_show'), (206594, 'tmdb_show'), (69582, 'tmdb_show'), (126159, 'tmdb_show'), (70619, 'tmdb_show'), (110315, 'tmdb_show'), (96090, 'tmdb_show'), (72849, 'tmdb_show'), (72848, 'tmdb_show'), (68216, 'tmdb_show')] |
-[2022-11-06 12:27:06,471] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:27:06,585] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205440                                                |
-[2022-11-06 12:27:06,908] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72846                                                 |
-[2022-11-06 12:27:07,053] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72850                                                 |
-[2022-11-06 12:27:07,162] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206594                                                |
-[2022-11-06 12:27:07,326] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 126159                                                |
-[2022-11-06 12:27:07,434] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 70619                                                 |
-[2022-11-06 12:27:07,543] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96090                                                 |
-[2022-11-06 12:27:07,647] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72849                                                 |
-[2022-11-06 12:27:07,789] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72848                                                 |
-[2022-11-06 12:27:07,791] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2022-11-06 12:27:07,791] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Freeform Collection                                              |
-[2022-11-06 12:27:07,791] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-06 12:27:07,792] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Freeform ===============================|
-[2022-11-06 12:27:07,792] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-06 12:27:08,339] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Pretty Little Liars (TVDB: 146711)                                       |
-[2022-11-06 12:27:08,612] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Cruel Summer (TVDB: 382556)                                              |
-[2022-11-06 12:27:08,903] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Siren (2018) (TVDB: 335982)                                              |
-[2022-11-06 12:27:09,231] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Shadowhunters (TVDB: 295837)                                             |
-[2022-11-06 12:27:09,660] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Fosters (2013) (TVDB: 267907)                                        |
-[2022-11-06 12:27:09,973] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Good Trouble (TVDB: 351504)                                              |
-[2022-11-06 12:27:10,243] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Switched at Birth (TVDB: 247773)                                         |
-[2022-11-06 12:27:10,555] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Baby Daddy (TVDB: 258602)                                                |
-[2022-11-06 12:27:10,863] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Bold Type (TVDB: 323385)                                             |
-[2022-11-06 12:27:11,149] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Motherland: Fort Salem (TVDB: 364047)                                    |
-[2022-11-06 12:27:11,437] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Young & Hungry (TVDB: 277021)                                            |
-[2022-11-06 12:27:11,754] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Marvel's Cloak & Dagger (TVDB: 341455)                                   |
-[2022-11-06 12:27:12,072] [builder.py:1982]           [INFO]     | Freeform Collection | ? | grown-ish (TVDB: 332802)                                                 |
-[2022-11-06 12:27:12,316] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Pretty Little Liars: The Perfectionists (TVDB: 358590)                   |
-[2022-11-06 12:27:12,605] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Young Indiana Jones Chronicles (TVDB: 72452)                         |
-[2022-11-06 12:27:12,869] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Stitchers (TVDB: 292745)                                                 |
-[2022-11-06 12:27:13,150] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Beyond (TVDB: 318106)                                                    |
-[2022-11-06 12:27:13,402] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Famous in Love (TVDB: 315741)                                            |
-[2022-11-06 12:27:13,621] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Alone Together (TVDB: 336604)                                            |
-[2022-11-06 12:27:13,852] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Dead of Summer (TVDB: 309992)                                            |
-[2022-11-06 12:27:14,077] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Guilt (TVDB: 309990)                                                     |
-[2022-11-06 12:27:14,296] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Disney's Fairy Tale Weddings (TVDB: 328616)                              |
-[2022-11-06 12:27:14,519] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Recovery Road (TVDB: 294882)                                             |
-[2022-11-06 12:27:14,709] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Love in the Time of Corona (TVDB: 382037)                                |
-[2022-11-06 12:27:14,923] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Single Drunk Female (TVDB: 397566)                                       |
-[2022-11-06 12:27:15,160] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Everything's Gonna Be Okay (TVDB: 364109)                                |
-[2022-11-06 12:27:15,371] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Party of Five (2020) (TVDB: 361187)                                      |
-[2022-11-06 12:27:15,597] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Everything's Trash (TVDB: 411378)                                        |
-[2022-11-06 12:27:15,771] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Movie Night with Karlie Kloss (TVDB: 380715)                             |
-[2022-11-06 12:27:15,947] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Deep End (2022) (TVDB: 420095)                                       |
-[2022-11-06 12:27:16,110] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Truth & Iliza (TVDB: 327469)                                             |
-[2022-11-06 12:27:16,284] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Cheer Squad (TVDB: 310213)                                               |
-[2022-11-06 12:27:16,512] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Come Up (TVDB: 423069)                                               |
-[2022-11-06 12:27:16,691] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Happily Ever After? (TVDB: 316402)                                       |
-[2022-11-06 12:27:16,908] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Party Girl (2016) (TVDB: 321208)                                         |
-[2022-11-06 12:27:17,088] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Kal Penn Approves This Message (TVDB: 388284)                            |
-[2022-11-06 12:27:17,255] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Letter (TVDB: 317811)                                                |
-[2022-11-06 12:27:17,256] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-06 12:27:17,256] [builder.py:1987]           [INFO]     | 37 Shows Missing                                                                                   |
-[2022-11-06 12:27:17,607] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 12:27:17,607] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:27:17,608] [util.py:216]               [INFO]     |                                    Finished Freeform Collection                                    |
-[2022-11-06 12:27:17,608] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
-[2022-11-06 12:27:17,608] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:01:21,959] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:01:21,960] [util.py:216]               [INFO]     |                                  Freeform Collection in TV Shows                                   |
+[2022-11-23 02:01:21,960] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:01:21,960] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 02:01:21,961] [util.py:216]               [INFO]     |================================== Validating Freeform Attributes ==================================|
+[2022-11-23 02:01:21,961] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:21,961] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 02:01:21,962] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 1267), ('poster', 'https://theposterdb.com/api/assets/207424')]) |
+[2022-11-23 02:01:21,962] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:21,962] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-23 02:01:21,962] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-23 02:01:21,963] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:21,963] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 02:01:21,963] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 02:01:21,963] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:21,963] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-23 02:01:21,964] [builder.py:474]            [DEBUG]    | Value: 1267                                                                                        |
+[2022-11-23 02:01:22,096] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:22,097] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 02:01:22,097] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/207424                                                   |
+[2022-11-23 02:01:22,097] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:22,097] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 02:01:22,097] [builder.py:474]            [DEBUG]    | Value: +2_Freeform                                                                                 |
+[2022-11-23 02:01:22,100] [plex.py:687]               [DEBUG]    | Looking for: Freeform                                                                              |
+[2022-11-23 02:01:22,101] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 02:01:22,101] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 02:01:22,102] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 02:01:22,102] [util.py:216]               [INFO]     |=================================== Running Freeform Collection ====================================|
+[2022-11-23 02:01:22,102] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 02:01:22,103] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-23 02:01:22,103] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:22,103] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 1267                                                                        |
+[2022-11-23 02:01:22,103] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 02:01:22,664] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (1267) Freeform (46 Shows)                                                |
+[2022-11-23 02:01:22,665] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:22,665] [builder.py:1283]           [DEBUG]    | 46 IDs Found: [(31917, 'tmdb_show'), (71886, 'tmdb_show'), (98201, 'tmdb_show'), (63210, 'tmdb_show'), (46880, 'tmdb_show'), (80006, 'tmdb_show'), (42272, 'tmdb_show'), (37632, 'tmdb_show'), (71885, 'tmdb_show'), (69630, 'tmdb_show'), (66190, 'tmdb_show'), (91977, 'tmdb_show'), (60888, 'tmdb_show'), (62196, 'tmdb_show'), (67726, 'tmdb_show'), (79863, 'tmdb_show'), (661, 'tmdb_show'), (67725, 'tmdb_show'), (71884, 'tmdb_show'), (66490, 'tmdb_show'), (66489, 'tmdb_show'), (64673, 'tmdb_show'), (87890, 'tmdb_show'), (91980, 'tmdb_show'), (92524, 'tmdb_show'), (210114, 'tmdb_show'), (136739, 'tmdb_show'), (67528, 'tmdb_show'), (106567, 'tmdb_show'), (205440, 'tmdb_show'), (206594, 'tmdb_show'), (135312, 'tmdb_show'), (196965, 'tmdb_show'), (76388, 'tmdb_show'), (71547, 'tmdb_show'), (67829, 'tmdb_show'), (126159, 'tmdb_show'), (96090, 'tmdb_show'), (72850, 'tmdb_show'), (72848, 'tmdb_show'), (68216, 'tmdb_show'), (110315, 'tmdb_show'), (72849, 'tmdb_show'), (69582, 'tmdb_show'), (72846, 'tmdb_show'), (70619, 'tmdb_show')] |
+[2022-11-23 02:01:22,665] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:01:22,950] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206594                                                |
+[2022-11-23 02:01:23,061] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 126159                                                |
+[2022-11-23 02:01:23,169] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96090                                                 |
+[2022-11-23 02:01:23,281] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72850                                                 |
+[2022-11-23 02:01:23,392] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72848                                                 |
+[2022-11-23 02:01:23,498] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72849                                                 |
+[2022-11-23 02:01:23,613] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 72846                                                 |
+[2022-11-23 02:01:23,746] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 70619                                                 |
+[2022-11-23 02:01:23,746] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-23 02:01:23,747] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Freeform Collection                                              |
+[2022-11-23 02:01:23,747] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-23 02:01:23,747] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Freeform ===============================|
+[2022-11-23 02:01:23,748] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-23 02:01:24,262] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Pretty Little Liars (TVDB: 146711)                                       |
+[2022-11-23 02:01:24,561] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Siren (2018) (TVDB: 335982)                                              |
+[2022-11-23 02:01:24,810] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Cruel Summer (TVDB: 382556)                                              |
+[2022-11-23 02:01:25,136] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Shadowhunters (TVDB: 295837)                                             |
+[2022-11-23 02:01:25,551] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Fosters (2013) (TVDB: 267907)                                        |
+[2022-11-23 02:01:25,866] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Good Trouble (TVDB: 351504)                                              |
+[2022-11-23 02:01:26,157] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Baby Daddy (TVDB: 258602)                                                |
+[2022-11-23 02:01:26,439] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Switched at Birth (TVDB: 247773)                                         |
+[2022-11-23 02:01:26,752] [builder.py:1982]           [INFO]     | Freeform Collection | ? | grown-ish (TVDB: 332802)                                                 |
+[2022-11-23 02:01:27,064] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Bold Type (TVDB: 323385)                                             |
+[2022-11-23 02:01:27,389] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Marvel's Cloak & Dagger (TVDB: 341455)                                   |
+[2022-11-23 02:01:27,712] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Motherland: Fort Salem (TVDB: 364047)                                    |
+[2022-11-23 02:01:28,021] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Young & Hungry (TVDB: 277021)                                            |
+[2022-11-23 02:01:28,295] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Stitchers (TVDB: 292745)                                                 |
+[2022-11-23 02:01:28,577] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Beyond (TVDB: 318106)                                                    |
+[2022-11-23 02:01:28,822] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Pretty Little Liars: The Perfectionists (TVDB: 358590)                   |
+[2022-11-23 02:01:29,134] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Young Indiana Jones Chronicles (TVDB: 72452)                         |
+[2022-11-23 02:01:29,385] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Famous in Love (TVDB: 315741)                                            |
+[2022-11-23 02:01:29,606] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Alone Together (TVDB: 336604)                                            |
+[2022-11-23 02:01:29,819] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Guilt (TVDB: 309990)                                                     |
+[2022-11-23 02:01:30,060] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Dead of Summer (TVDB: 309992)                                            |
+[2022-11-23 02:01:30,285] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Recovery Road (TVDB: 294882)                                             |
+[2022-11-23 02:01:30,487] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Party of Five (2020) (TVDB: 361187)                                      |
+[2022-11-23 02:01:30,742] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Everything's Gonna Be Okay (TVDB: 364109)                                |
+[2022-11-23 02:01:30,950] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Disney's Fairy Tale Weddings (TVDB: 328616)                              |
+[2022-11-23 02:01:31,140] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Come Up (TVDB: 423069)                                               |
+[2022-11-23 02:01:31,352] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Single Drunk Female (TVDB: 397566)                                       |
+[2022-11-23 02:01:31,561] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Cheer Squad (TVDB: 310213)                                               |
+[2022-11-23 02:01:31,833] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Love in the Time of Corona (TVDB: 382037)                                |
+[2022-11-23 02:01:32,007] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Watchful Eye (TVDB: 421903)                                          |
+[2022-11-23 02:01:32,190] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Everything's Trash (TVDB: 411378)                                        |
+[2022-11-23 02:01:32,390] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Deep End (2022) (TVDB: 420095)                                       |
+[2022-11-23 02:01:32,580] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Movie Night with Karlie Kloss (TVDB: 380715)                             |
+[2022-11-23 02:01:32,740] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Truth & Iliza (TVDB: 327469)                                             |
+[2022-11-23 02:01:32,981] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Happily Ever After? (TVDB: 316402)                                       |
+[2022-11-23 02:01:33,151] [builder.py:1982]           [INFO]     | Freeform Collection | ? | The Letter (TVDB: 317811)                                                |
+[2022-11-23 02:01:33,306] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Kal Penn Approves This Message (TVDB: 388284)                            |
+[2022-11-23 02:01:33,480] [builder.py:1982]           [INFO]     | Freeform Collection | ? | Party Girl (2016) (TVDB: 321208)                                         |
+[2022-11-23 02:01:33,481] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-23 02:01:33,481] [builder.py:1987]           [INFO]     | 38 Shows Missing                                                                                   |
+[2022-11-23 02:01:33,838] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 02:01:33,838] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:01:33,839] [util.py:216]               [INFO]     |                                    Finished Freeform Collection                                    |
+[2022-11-23 02:01:33,839] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-23 02:01:33,839] [util.py:220]               [INFO]     |====================================================================================================|

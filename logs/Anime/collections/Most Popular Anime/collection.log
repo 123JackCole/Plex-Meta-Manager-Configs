@@ -1,183 +1,183 @@
-[2022-11-06 10:50:30,718] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:50:30,718] [util.py:216]               [INFO]     |                               Most Popular Anime Collection in Anime                               |
-[2022-11-06 10:50:30,719] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 10:50:30,719] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 10:50:30,727] [util.py:216]               [INFO]     |============================= Validating Most Popular Anime Attributes =============================|
-[2022-11-06 10:50:30,727] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,728] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 10:50:30,728] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 10:50:30,728] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,728] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 10:50:30,729] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-11-06 10:50:30,729] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,729] [builder.py:473]            [DEBUG]    | Validating Method: mal_popular                                                                     |
-[2022-11-06 10:50:30,729] [builder.py:474]            [DEBUG]    | Value: 50                                                                                          |
-[2022-11-06 10:50:30,730] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,730] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 10:50:30,730] [builder.py:474]            [DEBUG]    | Value: ++++++++_Most_Popular                                                                       |
-[2022-11-06 10:50:30,731] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,731] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-06 10:50:30,731] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 10:50:30,731] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,731] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-11-06 10:50:30,732] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 10:50:30,761] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 10:50:30,762] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 10:50:30,762] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 10:50:30,762] [util.py:216]               [INFO]     |============================== Running Most Popular Anime Collection ===============================|
-[2022-11-06 10:50:30,762] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 10:50:30,763] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 10:50:30,763] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,763] [builder.py:1276]           [DEBUG]    | Builder: mal_popular: 50                                                                           |
-[2022-11-06 10:50:30,764] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:30,764] [mal.py:222]                [INFO]     | Processing MyAnimeList Popular: 50 Anime                                                           |
-[2022-11-06 10:50:30,904] [mal.py:241]                [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,904] [mal.py:242]                [DEBUG]    | 50 MyAnimeList IDs Found: [16498, 1535, 5114, 30276, 11757, 31964, 38000, 20, 22319, 11061, 32281, 25777, 9253, 33486, 19815, 1735, 35760, 28851, 1575, 4224, 40748, 23273, 21, 20507, 31240, 36456, 38524, 6547, 22199, 31043, 23755, 10620, 21881, 32182, 24833, 9919, 20583, 37779, 30831, 269, 40028, 22535, 1, 199, 27899, 30, 2904, 6702, 28223, 18679] |
-[2022-11-06 10:50:30,906] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:30,906] [builder.py:1283]           [DEBUG]    | 50 IDs Found: [(267440, 'tvdb'), (102918, 'ratingKey'), (103082, 'ratingKey'), (293088, 'tvdb'), (259640, 'tvdb'), (105253, 'ratingKey'), (348545, 'tvdb'), (78857, 'tvdb'), (281249, 'tvdb'), (105612, 'ratingKey'), (372058, 'tmdb'), (267440, 'tvdb'), (104627, 'ratingKey'), (305074, 'tvdb'), (102693, 'ratingKey'), (79824, 'tvdb'), (267440, 'tvdb'), (378064, 'tmdb'), (79525, 'tvdb'), (105010, 'ratingKey'), (103162, 'ratingKey'), (105047, 'ratingKey'), (81797, 'tvdb'), (275610, 'tvdb'), (305089, 'tvdb'), (305074, 'tvdb'), (267440, 'tvdb'), (102444, 'ratingKey'), (102707, 'ratingKey'), (105083, 'ratingKey'), (284131, 'tvdb'), (249827, 'tvdb'), (259640, 'tvdb'), (111197, 'ratingKey'), (283947, 'tvdb'), (248035, 'tvdb'), (278157, 'tvdb'), (348002, 'tvdb'), (303867, 'tvdb'), (74796, 'tvdb'), (267440, 'tvdb'), (118772, 'ratingKey'), (102957, 'ratingKey'), (129, 'tmdb'), (281249, 'tvdb'), (104645, 'ratingKey'), (79525, 'tvdb'), (114801, 'tvdb'), (289177, 'tvdb'), (104758, 'ratingKey')] |
-[2022-11-06 10:50:30,907] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:31,165] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,165] [util.py:216]               [INFO]     |============================= Adding to Most Popular Anime Collection ==============================|
-[2022-11-06 10:50:31,166] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,166] [builder.py:1709]           [INFO]     |  1/26 | Most Popular Anime Collection | = | Shingeki no Kyojin                                     |
-[2022-11-06 10:50:31,167] [builder.py:1709]           [INFO]     |  2/26 | Most Popular Anime Collection | = | Death Note                                             |
-[2022-11-06 10:50:31,167] [builder.py:1709]           [INFO]     |  3/26 | Most Popular Anime Collection | = | Hagane no Renkinjutsushi (2009)                        |
-[2022-11-06 10:50:31,167] [builder.py:1709]           [INFO]     |  4/26 | Most Popular Anime Collection | = | One Punch Man                                          |
-[2022-11-06 10:50:31,167] [builder.py:1709]           [INFO]     |  5/26 | Most Popular Anime Collection | = | Boku no Hero Academia                                  |
-[2022-11-06 10:50:31,168] [builder.py:1709]           [INFO]     |  6/26 | Most Popular Anime Collection | = | Kimetsu no Yaiba                                       |
-[2022-11-06 10:50:31,168] [builder.py:1709]           [INFO]     |  7/26 | Most Popular Anime Collection | = | Tokyo Ghoul                                            |
-[2022-11-06 10:50:31,168] [builder.py:1709]           [INFO]     |  8/26 | Most Popular Anime Collection | = | Hunter x Hunter (2011)                                 |
-[2022-11-06 10:50:31,169] [builder.py:1709]           [INFO]     |  9/26 | Most Popular Anime Collection | = | Steins;Gate                                            |
-[2022-11-06 10:50:31,169] [builder.py:1709]           [INFO]     | 10/26 | Most Popular Anime Collection | = | No Game No Life                                        |
-[2022-11-06 10:50:31,169] [builder.py:1709]           [INFO]     | 11/26 | Most Popular Anime Collection | = | Code Geass: Hangyaku no Lelouch                        |
-[2022-11-06 10:50:31,170] [builder.py:1709]           [INFO]     | 12/26 | Most Popular Anime Collection | = | Toradora!                                              |
-[2022-11-06 10:50:31,170] [builder.py:1709]           [INFO]     | 13/26 | Most Popular Anime Collection | = | Jujutsu Kaisen                                         |
-[2022-11-06 10:50:31,170] [builder.py:1709]           [INFO]     | 14/26 | Most Popular Anime Collection | = | Shigatsu wa Kimi no Uso                                |
-[2022-11-06 10:50:31,171] [builder.py:1709]           [INFO]     | 15/26 | Most Popular Anime Collection | = | Re:Zero kara Hajimeru Isekai Seikatsu (2021)           |
-[2022-11-06 10:50:31,171] [builder.py:1709]           [INFO]     | 16/26 | Most Popular Anime Collection | = | Angel Beats!                                           |
-[2022-11-06 10:50:31,171] [builder.py:1709]           [INFO]     | 17/26 | Most Popular Anime Collection | = | Akame ga Kill!                                         |
-[2022-11-06 10:50:31,171] [builder.py:1709]           [INFO]     | 18/26 | Most Popular Anime Collection | = | Boku dake ga Inai Machi                                |
-[2022-11-06 10:50:31,172] [builder.py:1709]           [INFO]     | 19/26 | Most Popular Anime Collection | = | Mob Psycho 100                                         |
-[2022-11-06 10:50:31,172] [builder.py:1709]           [INFO]     | 20/26 | Most Popular Anime Collection | = | Haikyuu!!                                              |
-[2022-11-06 10:50:31,172] [builder.py:1709]           [INFO]     | 21/26 | Most Popular Anime Collection | = | Yakusoku no Neverland                                  |
-[2022-11-06 10:50:31,173] [builder.py:1709]           [INFO]     | 22/26 | Most Popular Anime Collection | = | Kono Subarashii Sekai ni Shukufuku o!                  |
-[2022-11-06 10:50:31,173] [builder.py:1709]           [INFO]     | 23/26 | Most Popular Anime Collection | = | Kiseijuu: Sei no Kakuritsu                             |
-[2022-11-06 10:50:31,173] [builder.py:1709]           [INFO]     | 24/26 | Most Popular Anime Collection | = | Cowboy Bebop                                           |
-[2022-11-06 10:50:31,174] [builder.py:1709]           [INFO]     | 25/26 | Most Popular Anime Collection | = | Shinseiki Evangelion                                   |
-[2022-11-06 10:50:31,174] [builder.py:1709]           [INFO]     | 26/26 | Most Popular Anime Collection | = | Kill la Kill                                           |
-[2022-11-06 10:50:31,174] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,175] [builder.py:1735]           [INFO]     | 26 Shows Processed                                                                                 |
-[2022-11-06 10:50:31,176] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,177] [util.py:216]               [INFO]     |========================= Missing Movies from Library: Most Popular Anime ==========================|
-[2022-11-06 10:50:31,177] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,180] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | Your Name. (2016) (TMDb: 372058)                               |
-[2022-11-06 10:50:31,182] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | A Silent Voice: The Movie (2016) (TMDb: 378064)                |
-[2022-11-06 10:50:31,183] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | Spirited Away (2001) (TMDb: 129)                               |
-[2022-11-06 10:50:31,183] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,184] [builder.py:1948]           [INFO]     | 3 Movies Missing                                                                                   |
-[2022-11-06 10:50:31,194] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,194] [util.py:216]               [INFO]     |========================== Missing Shows from Library: Most Popular Anime ==========================|
-[2022-11-06 10:50:31,195] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:31,631] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Sword Art Online (TVDB: 259640)                                |
-[2022-11-06 10:50:32,321] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Naruto (TVDB: 78857)                                           |
-[2022-11-06 10:50:33,252] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Naruto Shippuden (TVDB: 79824)                                 |
-[2022-11-06 10:50:34,732] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | One Piece (TVDB: 81797)                                        |
-[2022-11-06 10:50:35,064] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Noragami (TVDB: 275610)                                        |
-[2022-11-06 10:50:35,681] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | The Seven Deadly Sins (TVDB: 284131)                           |
-[2022-11-06 10:50:35,994] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | The Future Diary (TVDB: 249827)                                |
-[2022-11-06 10:50:36,271] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Assassination Classroom (TVDB: 283947)                         |
-[2022-11-06 10:50:36,809] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Blue Exorcist (TVDB: 248035)                                   |
-[2022-11-06 10:50:37,539] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Bleach (TVDB: 74796)                                           |
-[2022-11-06 10:50:38,049] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Fairy Tail (TVDB: 114801)                                      |
-[2022-11-06 10:50:38,335] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Death Parade (TVDB: 289177)                                    |
-[2022-11-06 10:50:38,335] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,335] [builder.py:1987]           [INFO]     | 12 Shows Missing                                                                                   |
-[2022-11-06 10:50:38,346] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,347] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2022-11-06 10:50:38,347] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:38,347] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [259640, 78857, 79824, 81797, 275610, 284131, 249827, 283947, 248035, 74796, 114801, 289177] |
-[2022-11-06 10:50:38,602] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,602] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 259640                                                                         |
-[2022-11-06 10:50:38,602] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78857                                                                          |
-[2022-11-06 10:50:38,603] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79824                                                                          |
-[2022-11-06 10:50:38,603] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 81797                                                                          |
-[2022-11-06 10:50:38,603] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 275610                                                                         |
-[2022-11-06 10:50:38,604] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 284131                                                                         |
-[2022-11-06 10:50:38,604] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 249827                                                                         |
-[2022-11-06 10:50:38,604] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 283947                                                                         |
-[2022-11-06 10:50:38,604] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248035                                                                         |
-[2022-11-06 10:50:38,605] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74796                                                                          |
-[2022-11-06 10:50:38,605] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 114801                                                                         |
-[2022-11-06 10:50:38,605] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 289177                                                                         |
-[2022-11-06 10:50:38,605] [sonarr.py:174]             [INFO]     | 12 Series already exist in Sonarr                                                                  |
-[2022-11-06 10:50:38,610] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,610] [util.py:216]               [INFO]     |======================== Updating Details of Most Popular Anime Collection =========================|
-[2022-11-06 10:50:38,611] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,611] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
-[2022-11-06 10:50:38,612] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-06 10:50:38,637] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:38,637] [util.py:216]               [INFO]     |================== Updating Details of the Items in Most Popular Anime Collection ==================|
-[2022-11-06 10:50:38,637] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-11-06 10:50:42,421] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2022-11-06 10:50:42,422] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2022-11-06 10:50:42,422] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2022-11-06 10:50:42,422] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2022-11-06 10:50:42,422] [sonarr.py:74]              [DEBUG]    | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                                        |
-[2022-11-06 10:50:42,423] [sonarr.py:74]              [DEBUG]    | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                                               |
-[2022-11-06 10:50:42,423] [sonarr.py:74]              [DEBUG]    | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')                        |
-[2022-11-06 10:50:42,423] [sonarr.py:74]              [DEBUG]    | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                                          |
-[2022-11-06 10:50:42,423] [sonarr.py:74]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
-[2022-11-06 10:50:42,423] [sonarr.py:74]              [DEBUG]    | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')                        |
-[2022-11-06 10:50:42,424] [sonarr.py:74]              [DEBUG]    | (281249, 'F:\\Anime\\Tokyo Ghoul (2014) [tvdb-281249]')                                            |
-[2022-11-06 10:50:42,424] [sonarr.py:74]              [DEBUG]    | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                                        |
-[2022-11-06 10:50:42,424] [sonarr.py:74]              [DEBUG]    | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                                            |
-[2022-11-06 10:50:42,424] [sonarr.py:74]              [DEBUG]    | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                                       |
-[2022-11-06 10:50:42,425] [sonarr.py:74]              [DEBUG]    | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]')                    |
-[2022-11-06 10:50:42,425] [sonarr.py:74]              [DEBUG]    | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                                                |
-[2022-11-06 10:50:42,425] [sonarr.py:74]              [DEBUG]    | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                                         |
-[2022-11-06 10:50:42,425] [sonarr.py:74]              [DEBUG]    | (279830, 'F:\\Anime\\Your Lie in April (2014) [tvdb-279830]')                                      |
-[2022-11-06 10:50:42,426] [sonarr.py:74]              [DEBUG]    | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]')              |
-[2022-11-06 10:50:42,426] [sonarr.py:74]              [DEBUG]    | (150471, 'F:\\Anime\\Angel Beats! (2010) [tvdb-150471]')                                           |
-[2022-11-06 10:50:42,426] [sonarr.py:74]              [DEBUG]    | (280329, 'F:\\Anime\\Akame ga Kill! (2014) [tvdb-280329]')                                         |
-[2022-11-06 10:50:42,426] [sonarr.py:74]              [DEBUG]    | (303071, 'F:\\Anime\\Erased (2016) [tvdb-303071]')                                                 |
-[2022-11-06 10:50:42,426] [sonarr.py:74]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
-[2022-11-06 10:50:42,427] [sonarr.py:74]              [DEBUG]    | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                                               |
-[2022-11-06 10:50:42,427] [sonarr.py:74]              [DEBUG]    | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')                                |
-[2022-11-06 10:50:42,427] [sonarr.py:74]              [DEBUG]    | (303867, "F:\\Anime\\KonoSuba – God's blessing on this wonderful world!! (2016) [tvdb-303867]")    |
-[2022-11-06 10:50:42,427] [sonarr.py:74]              [DEBUG]    | (279831, 'F:\\Anime\\Parasyte -the maxim- (2014) [tvdb-279831]')                                   |
-[2022-11-06 10:50:42,428] [sonarr.py:74]              [DEBUG]    | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                                             |
-[2022-11-06 10:50:42,428] [sonarr.py:74]              [DEBUG]    | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')                                  |
-[2022-11-06 10:50:42,428] [sonarr.py:74]              [DEBUG]    | (272074, 'F:\\Anime\\Kill la Kill (2013) [tvdb-272074]')                                           |
-[2022-11-06 10:50:42,678] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2022-11-06 10:50:42,678] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                    |
-[2022-11-06 10:50:42,679] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                           |
-[2022-11-06 10:50:42,679] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')    |
-[2022-11-06 10:50:42,679] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                      |
-[2022-11-06 10:50:42,680] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
-[2022-11-06 10:50:42,680] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')    |
-[2022-11-06 10:50:42,680] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (281249, 'F:\\Anime\\Tokyo Ghoul (2014) [tvdb-281249]')                        |
-[2022-11-06 10:50:42,680] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                    |
-[2022-11-06 10:50:42,681] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                        |
-[2022-11-06 10:50:42,681] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                   |
-[2022-11-06 10:50:42,681] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]') |
-[2022-11-06 10:50:42,682] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                            |
-[2022-11-06 10:50:42,682] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                     |
-[2022-11-06 10:50:42,682] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (279830, 'F:\\Anime\\Your Lie in April (2014) [tvdb-279830]')                  |
-[2022-11-06 10:50:42,683] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]') |
-[2022-11-06 10:50:42,683] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (150471, 'F:\\Anime\\Angel Beats! (2010) [tvdb-150471]')                       |
-[2022-11-06 10:50:42,683] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (280329, 'F:\\Anime\\Akame ga Kill! (2014) [tvdb-280329]')                     |
-[2022-11-06 10:50:42,684] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (303071, 'F:\\Anime\\Erased (2016) [tvdb-303071]')                             |
-[2022-11-06 10:50:42,684] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
-[2022-11-06 10:50:42,684] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                           |
-[2022-11-06 10:50:42,686] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')            |
-[2022-11-06 10:50:42,686] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (303867, "F:\\Anime\\KonoSuba – God's blessing on this wonderful world!! (2016) [tvdb-303867]") |
-[2022-11-06 10:50:42,686] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (279831, 'F:\\Anime\\Parasyte -the maxim- (2014) [tvdb-279831]')               |
-[2022-11-06 10:50:42,687] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                         |
-[2022-11-06 10:50:42,687] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')              |
-[2022-11-06 10:50:42,687] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (272074, 'F:\\Anime\\Kill la Kill (2013) [tvdb-272074]')                       |
-[2022-11-06 10:50:42,688] [sonarr.py:174]             [INFO]     | 26 Series already exist in Sonarr                                                                  |
-[2022-11-06 10:50:42,689] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 10:50:42,689] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 10:50:42,690] [util.py:216]               [INFO]     |                               Finished Most Popular Anime Collection                               |
-[2022-11-06 10:50:42,690] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
-[2022-11-06 10:50:42,690] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:25:37,555] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:25:37,556] [util.py:216]               [INFO]     |                               Most Popular Anime Collection in Anime                               |
+[2022-11-23 01:25:37,556] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:25:37,556] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,557] [util.py:216]               [INFO]     |============================= Validating Most Popular Anime Attributes =============================|
+[2022-11-23 01:25:37,558] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,558] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-23 01:25:37,558] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-23 01:25:37,558] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,559] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 01:25:37,559] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2022-11-23 01:25:37,559] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,559] [builder.py:473]            [DEBUG]    | Validating Method: mal_popular                                                                     |
+[2022-11-23 01:25:37,560] [builder.py:474]            [DEBUG]    | Value: 50                                                                                          |
+[2022-11-23 01:25:37,560] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,560] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 01:25:37,560] [builder.py:474]            [DEBUG]    | Value: ++++++++_Most_Popular                                                                       |
+[2022-11-23 01:25:37,560] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,561] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-23 01:25:37,561] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 01:25:37,561] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,561] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2022-11-23 01:25:37,562] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 01:25:37,592] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,592] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 01:25:37,593] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,593] [util.py:216]               [INFO]     |============================== Running Most Popular Anime Collection ===============================|
+[2022-11-23 01:25:37,593] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,593] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-23 01:25:37,594] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,594] [builder.py:1276]           [DEBUG]    | Builder: mal_popular: 50                                                                           |
+[2022-11-23 01:25:37,594] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,595] [mal.py:222]                [INFO]     | Processing MyAnimeList Popular: 50 Anime                                                           |
+[2022-11-23 01:25:37,679] [mal.py:241]                [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,679] [mal.py:242]                [DEBUG]    | 50 MyAnimeList IDs Found: [16498, 1535, 5114, 30276, 11757, 31964, 38000, 20, 22319, 11061, 32281, 25777, 9253, 33486, 1735, 19815, 35760, 28851, 1575, 40748, 4224, 23273, 21, 20507, 31240, 36456, 38524, 6547, 22199, 31043, 23755, 10620, 32182, 21881, 24833, 9919, 20583, 37779, 30831, 269, 40028, 22535, 1, 199, 27899, 30, 2904, 6702, 28223, 18679] |
+[2022-11-23 01:25:37,684] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,685] [builder.py:1283]           [DEBUG]    | 50 IDs Found: [(267440, 'tvdb'), (102918, 'ratingKey'), (103082, 'ratingKey'), (293088, 'tvdb'), (259640, 'tvdb'), (105253, 'ratingKey'), (348545, 'tvdb'), (78857, 'tvdb'), (281249, 'tvdb'), (105612, 'ratingKey'), (372058, 'tmdb'), (267440, 'tvdb'), (104627, 'ratingKey'), (305074, 'tvdb'), (79824, 'tvdb'), (102693, 'ratingKey'), (267440, 'tvdb'), (378064, 'tmdb'), (79525, 'tvdb'), (103162, 'ratingKey'), (105010, 'ratingKey'), (105047, 'ratingKey'), (81797, 'tvdb'), (275610, 'tvdb'), (305089, 'tvdb'), (305074, 'tvdb'), (267440, 'tvdb'), (102444, 'ratingKey'), (102707, 'ratingKey'), (105083, 'ratingKey'), (284131, 'tvdb'), (249827, 'tvdb'), (111197, 'ratingKey'), (259640, 'tvdb'), (283947, 'tvdb'), (248035, 'tvdb'), (278157, 'tvdb'), (348002, 'tvdb'), (303867, 'tvdb'), (74796, 'tvdb'), (267440, 'tvdb'), (118772, 'ratingKey'), (102957, 'ratingKey'), (129, 'tmdb'), (281249, 'tvdb'), (104645, 'ratingKey'), (79525, 'tvdb'), (114801, 'tvdb'), (289177, 'tvdb'), (104758, 'ratingKey')] |
+[2022-11-23 01:25:37,685] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:37,935] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,936] [util.py:216]               [INFO]     |============================= Adding to Most Popular Anime Collection ==============================|
+[2022-11-23 01:25:37,936] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,936] [builder.py:1709]           [INFO]     |  1/26 | Most Popular Anime Collection | = | Shingeki no Kyojin                                     |
+[2022-11-23 01:25:37,937] [builder.py:1709]           [INFO]     |  2/26 | Most Popular Anime Collection | = | Death Note                                             |
+[2022-11-23 01:25:37,937] [builder.py:1709]           [INFO]     |  3/26 | Most Popular Anime Collection | = | Hagane no Renkinjutsushi (2009)                        |
+[2022-11-23 01:25:37,937] [builder.py:1709]           [INFO]     |  4/26 | Most Popular Anime Collection | = | One Punch Man                                          |
+[2022-11-23 01:25:37,938] [builder.py:1709]           [INFO]     |  5/26 | Most Popular Anime Collection | = | Boku no Hero Academia                                  |
+[2022-11-23 01:25:37,938] [builder.py:1709]           [INFO]     |  6/26 | Most Popular Anime Collection | = | Kimetsu no Yaiba                                       |
+[2022-11-23 01:25:37,938] [builder.py:1709]           [INFO]     |  7/26 | Most Popular Anime Collection | = | Tokyo Ghoul                                            |
+[2022-11-23 01:25:37,938] [builder.py:1709]           [INFO]     |  8/26 | Most Popular Anime Collection | = | Hunter x Hunter (2011)                                 |
+[2022-11-23 01:25:37,939] [builder.py:1709]           [INFO]     |  9/26 | Most Popular Anime Collection | = | Steins;Gate                                            |
+[2022-11-23 01:25:37,939] [builder.py:1709]           [INFO]     | 10/26 | Most Popular Anime Collection | = | No Game No Life                                        |
+[2022-11-23 01:25:37,939] [builder.py:1709]           [INFO]     | 11/26 | Most Popular Anime Collection | = | Code Geass: Hangyaku no Lelouch                        |
+[2022-11-23 01:25:37,939] [builder.py:1709]           [INFO]     | 12/26 | Most Popular Anime Collection | = | Jujutsu Kaisen                                         |
+[2022-11-23 01:25:37,940] [builder.py:1709]           [INFO]     | 13/26 | Most Popular Anime Collection | = | Toradora!                                              |
+[2022-11-23 01:25:37,940] [builder.py:1709]           [INFO]     | 14/26 | Most Popular Anime Collection | = | Shigatsu wa Kimi no Uso                                |
+[2022-11-23 01:25:37,940] [builder.py:1709]           [INFO]     | 15/26 | Most Popular Anime Collection | = | Re:Zero kara Hajimeru Isekai Seikatsu (2021)           |
+[2022-11-23 01:25:37,941] [builder.py:1709]           [INFO]     | 16/26 | Most Popular Anime Collection | = | Angel Beats!                                           |
+[2022-11-23 01:25:37,941] [builder.py:1709]           [INFO]     | 17/26 | Most Popular Anime Collection | = | Akame ga Kill!                                         |
+[2022-11-23 01:25:37,941] [builder.py:1709]           [INFO]     | 18/26 | Most Popular Anime Collection | = | Boku dake ga Inai Machi                                |
+[2022-11-23 01:25:37,942] [builder.py:1709]           [INFO]     | 19/26 | Most Popular Anime Collection | = | Mob Psycho 100                                         |
+[2022-11-23 01:25:37,942] [builder.py:1709]           [INFO]     | 20/26 | Most Popular Anime Collection | = | Haikyuu!!                                              |
+[2022-11-23 01:25:37,942] [builder.py:1709]           [INFO]     | 21/26 | Most Popular Anime Collection | = | Yakusoku no Neverland                                  |
+[2022-11-23 01:25:37,942] [builder.py:1709]           [INFO]     | 22/26 | Most Popular Anime Collection | = | Kono Subarashii Sekai ni Shukufuku o!                  |
+[2022-11-23 01:25:37,943] [builder.py:1709]           [INFO]     | 23/26 | Most Popular Anime Collection | = | Kiseijuu: Sei no Kakuritsu                             |
+[2022-11-23 01:25:37,943] [builder.py:1709]           [INFO]     | 24/26 | Most Popular Anime Collection | = | Cowboy Bebop                                           |
+[2022-11-23 01:25:37,943] [builder.py:1709]           [INFO]     | 25/26 | Most Popular Anime Collection | = | Shinseiki Evangelion                                   |
+[2022-11-23 01:25:37,944] [builder.py:1709]           [INFO]     | 26/26 | Most Popular Anime Collection | = | Kill la Kill                                           |
+[2022-11-23 01:25:37,944] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,944] [builder.py:1735]           [INFO]     | 26 Shows Processed                                                                                 |
+[2022-11-23 01:25:37,946] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,946] [util.py:216]               [INFO]     |========================= Missing Movies from Library: Most Popular Anime ==========================|
+[2022-11-23 01:25:37,946] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,949] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | Your Name. (2016) (TMDb: 372058)                               |
+[2022-11-23 01:25:37,950] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | A Silent Voice: The Movie (2016) (TMDb: 378064)                |
+[2022-11-23 01:25:37,952] [builder.py:1943]           [INFO]     | Most Popular Anime Collection | ? | Spirited Away (2001) (TMDb: 129)                               |
+[2022-11-23 01:25:37,952] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,952] [builder.py:1948]           [INFO]     | 3 Movies Missing                                                                                   |
+[2022-11-23 01:25:37,963] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:37,963] [util.py:216]               [INFO]     |========================== Missing Shows from Library: Most Popular Anime ==========================|
+[2022-11-23 01:25:37,963] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:38,407] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Sword Art Online (TVDB: 259640)                                |
+[2022-11-23 01:25:38,960] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Naruto (TVDB: 78857)                                           |
+[2022-11-23 01:25:39,812] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Naruto Shippuden (TVDB: 79824)                                 |
+[2022-11-23 01:25:41,193] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | One Piece (TVDB: 81797)                                        |
+[2022-11-23 01:25:41,564] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Noragami (TVDB: 275610)                                        |
+[2022-11-23 01:25:42,099] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | The Seven Deadly Sins (TVDB: 284131)                           |
+[2022-11-23 01:25:42,393] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | The Future Diary (TVDB: 249827)                                |
+[2022-11-23 01:25:42,677] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Assassination Classroom (TVDB: 283947)                         |
+[2022-11-23 01:25:43,010] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Blue Exorcist (TVDB: 248035)                                   |
+[2022-11-23 01:25:43,789] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Bleach (TVDB: 74796)                                           |
+[2022-11-23 01:25:44,331] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Fairy Tail (TVDB: 114801)                                      |
+[2022-11-23 01:25:44,609] [builder.py:1982]           [INFO]     | Most Popular Anime Collection | ? | Death Parade (TVDB: 289177)                                    |
+[2022-11-23 01:25:44,610] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,610] [builder.py:1987]           [INFO]     | 12 Shows Missing                                                                                   |
+[2022-11-23 01:25:44,621] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,621] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2022-11-23 01:25:44,621] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:44,621] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [259640, 78857, 79824, 81797, 275610, 284131, 249827, 283947, 248035, 74796, 114801, 289177] |
+[2022-11-23 01:25:44,874] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,874] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 259640                                                                         |
+[2022-11-23 01:25:44,874] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78857                                                                          |
+[2022-11-23 01:25:44,874] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79824                                                                          |
+[2022-11-23 01:25:44,875] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 81797                                                                          |
+[2022-11-23 01:25:44,875] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 275610                                                                         |
+[2022-11-23 01:25:44,875] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 284131                                                                         |
+[2022-11-23 01:25:44,875] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 249827                                                                         |
+[2022-11-23 01:25:44,876] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 283947                                                                         |
+[2022-11-23 01:25:44,876] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248035                                                                         |
+[2022-11-23 01:25:44,876] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74796                                                                          |
+[2022-11-23 01:25:44,877] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 114801                                                                         |
+[2022-11-23 01:25:44,877] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 289177                                                                         |
+[2022-11-23 01:25:44,877] [sonarr.py:174]             [INFO]     | 12 Series already exist in Sonarr                                                                  |
+[2022-11-23 01:25:44,882] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,882] [util.py:216]               [INFO]     |======================== Updating Details of Most Popular Anime Collection =========================|
+[2022-11-23 01:25:44,882] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,883] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2022-11-23 01:25:44,883] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 01:25:44,908] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:44,908] [util.py:216]               [INFO]     |================== Updating Details of the Items in Most Popular Anime Collection ==================|
+[2022-11-23 01:25:44,908] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-23 01:25:49,024] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2022-11-23 01:25:49,025] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2022-11-23 01:25:49,025] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2022-11-23 01:25:49,025] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                                        |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                                               |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')                        |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                                          |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2022-11-23 01:25:49,026] [sonarr.py:74]              [DEBUG]    | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')                        |
+[2022-11-23 01:25:49,027] [sonarr.py:74]              [DEBUG]    | (281249, 'F:\\Anime\\Tokyo Ghoul (2014) [tvdb-281249]')                                            |
+[2022-11-23 01:25:49,027] [sonarr.py:74]              [DEBUG]    | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                                        |
+[2022-11-23 01:25:49,027] [sonarr.py:74]              [DEBUG]    | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                                            |
+[2022-11-23 01:25:49,027] [sonarr.py:74]              [DEBUG]    | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                                       |
+[2022-11-23 01:25:49,027] [sonarr.py:74]              [DEBUG]    | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]')                    |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                                         |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                                                |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (279830, 'F:\\Anime\\Your Lie in April (2014) [tvdb-279830]')                                      |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]')              |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (150471, 'F:\\Anime\\Angel Beats! (2010) [tvdb-150471]')                                           |
+[2022-11-23 01:25:49,028] [sonarr.py:74]              [DEBUG]    | (280329, 'F:\\Anime\\Akame ga Kill! (2014) [tvdb-280329]')                                         |
+[2022-11-23 01:25:49,029] [sonarr.py:74]              [DEBUG]    | (303071, 'F:\\Anime\\Erased (2016) [tvdb-303071]')                                                 |
+[2022-11-23 01:25:49,029] [sonarr.py:74]              [DEBUG]    | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                                         |
+[2022-11-23 01:25:49,029] [sonarr.py:74]              [DEBUG]    | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                                               |
+[2022-11-23 01:25:49,030] [sonarr.py:74]              [DEBUG]    | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')                                |
+[2022-11-23 01:25:49,030] [sonarr.py:74]              [DEBUG]    | (303867, "F:\\Anime\\KonoSuba – God's blessing on this wonderful world!! (2016) [tvdb-303867]")    |
+[2022-11-23 01:25:49,030] [sonarr.py:74]              [DEBUG]    | (279831, 'F:\\Anime\\Parasyte -the maxim- (2014) [tvdb-279831]')                                   |
+[2022-11-23 01:25:49,030] [sonarr.py:74]              [DEBUG]    | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                                             |
+[2022-11-23 01:25:49,031] [sonarr.py:74]              [DEBUG]    | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')                                  |
+[2022-11-23 01:25:49,031] [sonarr.py:74]              [DEBUG]    | (272074, 'F:\\Anime\\Kill la Kill (2013) [tvdb-272074]')                                           |
+[2022-11-23 01:25:49,284] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2022-11-23 01:25:49,284] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                    |
+[2022-11-23 01:25:49,285] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79481, 'F:\\Anime\\Death Note (2006) [tvdb-79481]')                           |
+[2022-11-23 01:25:49,285] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (85249, 'F:\\Anime\\Fullmetal Alchemist - Brotherhood (2009) [tvdb-85249]')    |
+[2022-11-23 01:25:49,285] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (293088, 'F:\\Anime\\One-Punch Man (2015) [tvdb-293088]')                      |
+[2022-11-23 01:25:49,286] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2022-11-23 01:25:49,286] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')    |
+[2022-11-23 01:25:49,286] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (281249, 'F:\\Anime\\Tokyo Ghoul (2014) [tvdb-281249]')                        |
+[2022-11-23 01:25:49,286] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (252322, 'F:\\Anime\\Hunter x Hunter (2011) [tvdb-252322]')                    |
+[2022-11-23 01:25:49,286] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (244061, 'F:\\Anime\\Steins;Gate (2011) [tvdb-244061]')                        |
+[2022-11-23 01:25:49,287] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278155, 'F:\\Anime\\No Game, No Life (2014) [tvdb-278155]')                   |
+[2022-11-23 01:25:49,287] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79525, 'F:\\Anime\\Code Geass - Lelouch of the Rebellion (2006) [tvdb-79525]') |
+[2022-11-23 01:25:49,287] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (377543, 'F:\\Anime\\Jujutsu Kaisen (2020) [tvdb-377543]')                     |
+[2022-11-23 01:25:49,287] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (83277, 'F:\\Anime\\Toradora! (2008) [tvdb-83277]')                            |
+[2022-11-23 01:25:49,287] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (279830, 'F:\\Anime\\Your Lie in April (2014) [tvdb-279830]')                  |
+[2022-11-23 01:25:49,288] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305089, 'F:\\Anime\\Re - ZERO, Starting Life in Another World (2016) [tvdb-305089]') |
+[2022-11-23 01:25:49,288] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (150471, 'F:\\Anime\\Angel Beats! (2010) [tvdb-150471]')                       |
+[2022-11-23 01:25:49,288] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (280329, 'F:\\Anime\\Akame ga Kill! (2014) [tvdb-280329]')                     |
+[2022-11-23 01:25:49,288] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (303071, 'F:\\Anime\\Erased (2016) [tvdb-303071]')                             |
+[2022-11-23 01:25:49,289] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (307375, 'F:\\Anime\\Mob Psycho 100 (2016) [tvdb-307375]')                     |
+[2022-11-23 01:25:49,289] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (278157, 'F:\\Anime\\Haikyu!! (2014) [tvdb-278157]')                           |
+[2022-11-23 01:25:49,289] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (348002, 'F:\\Anime\\Promised Neverland, The (2019) [tvdb-348002]')            |
+[2022-11-23 01:25:49,289] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (303867, "F:\\Anime\\KonoSuba – God's blessing on this wonderful world!! (2016) [tvdb-303867]") |
+[2022-11-23 01:25:49,290] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (279831, 'F:\\Anime\\Parasyte -the maxim- (2014) [tvdb-279831]')               |
+[2022-11-23 01:25:49,290] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (76885, 'F:\\Anime\\Cowboy Bebop (1998) [tvdb-76885]')                         |
+[2022-11-23 01:25:49,290] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (70350, 'F:\\Anime\\Neon Genesis Evangelion (1995) [tvdb-70350]')              |
+[2022-11-23 01:25:49,290] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (272074, 'F:\\Anime\\Kill la Kill (2013) [tvdb-272074]')                       |
+[2022-11-23 01:25:49,290] [sonarr.py:174]             [INFO]     | 26 Series already exist in Sonarr                                                                  |
+[2022-11-23 01:25:49,292] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 01:25:49,292] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:25:49,292] [util.py:216]               [INFO]     |                               Finished Most Popular Anime Collection                               |
+[2022-11-23 01:25:49,293] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2022-11-23 01:25:49,294] [util.py:220]               [INFO]     |====================================================================================================|

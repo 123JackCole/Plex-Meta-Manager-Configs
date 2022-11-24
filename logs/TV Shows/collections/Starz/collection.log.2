@@ -1,120 +1,121 @@
-[2022-10-26 02:12:17,331] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-26 02:12:17,331] [util.py:216]               [INFO]     |                                    Starz Collection in TV Shows                                    |
-[2022-10-26 02:12:17,332] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-10-26 02:12:17,332] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-10-26 02:12:17,333] [util.py:216]               [INFO]     |=================================== Validating Starz Attributes ====================================|
-[2022-10-26 02:12:17,333] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,333] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-10-26 02:12:17,334] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '318, 758, 4906'), ('poster', 'https://theposterdb.com/api/assets/81775')]) |
-[2022-10-26 02:12:17,334] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,334] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-10-26 02:12:17,334] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-10-26 02:12:17,335] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,335] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-10-26 02:12:17,335] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-10-26 02:12:17,335] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,335] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-10-26 02:12:17,336] [builder.py:474]            [DEBUG]    | Value: 318, 758, 4906                                                                              |
-[2022-10-26 02:12:17,672] [tmdb.py:240]               [ERROR]    | TMDb Error: No Network found for TMDb ID 4906: The resource you requested could not be found.      |
-[2022-10-26 02:12:17,672] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,673] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-10-26 02:12:17,673] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/81775                                                    |
-[2022-10-26 02:12:17,673] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,673] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-10-26 02:12:17,673] [builder.py:474]            [DEBUG]    | Value: +2_Starz                                                                                    |
-[2022-10-26 02:12:17,676] [plex.py:685]               [DEBUG]    | Looking for: Starz                                                                                 |
-[2022-10-26 02:12:17,677] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-10-26 02:12:17,677] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-10-26 02:12:17,677] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-10-26 02:12:17,677] [util.py:216]               [INFO]     |===================================== Running Starz Collection =====================================|
-[2022-10-26 02:12:17,678] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-10-26 02:12:17,678] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-10-26 02:12:17,678] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:17,678] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 318                                                                         |
-[2022-10-26 02:12:17,679] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-26 02:12:18,230] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (318) Starz (61 Shows)                                                    |
-[2022-10-26 02:12:18,231] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:18,231] [builder.py:1283]           [DEBUG]    | 61 IDs Found: [(46296, 'tmdb_show'), (124394, 'tmdb_show'), (56570, 'tmdb_show'), (46639, 'tmdb_show'), (47665, 'tmdb_show'), (118189, 'tmdb_show'), (54650, 'tmdb_show'), (33234, 'tmdb_show'), (75379, 'tmdb_show'), (62264, 'tmdb_show'), (70215, 'tmdb_show'), (92553, 'tmdb_show'), (86428, 'tmdb_show'), (64387, 'tmdb_show'), (97890, 'tmdb_show'), (40293, 'tmdb_show'), (33958, 'tmdb_show'), (87017, 'tmdb_show'), (101591, 'tmdb_show'), (86588, 'tmdb_show'), (63646, 'tmdb_show'), (119845, 'tmdb_show'), (212109, 'tmdb_show'), (17287, 'tmdb_show'), (38922, 'tmdb_show'), (107407, 'tmdb_show'), (62516, 'tmdb_show'), (77031, 'tmdb_show'), (136745, 'tmdb_show'), (84880, 'tmdb_show'), (77032, 'tmdb_show'), (79272, 'tmdb_show'), (38967, 'tmdb_show'), (74630, 'tmdb_show'), (198085, 'tmdb_show'), (5194, 'tmdb_show'), (155278, 'tmdb_show'), (111647, 'tmdb_show'), (109373, 'tmdb_show'), (123084, 'tmdb_show'), (61469, 'tmdb_show'), (82049, 'tmdb_show'), (132846, 'tmdb_show'), (62238, 'tmdb_show'), (104712, 'tmdb_show'), (8016, 'tmdb_show'), (93433, 'tmdb_show'), (31393, 'tmdb_show'), (29572, 'tmdb_show'), (7089, 'tmdb_show'), (39797, 'tmdb_show'), (79471, 'tmdb_show'), (120984, 'tmdb_show'), (205751, 'tmdb_show'), (82427, 'tmdb_show'), (58876, 'tmdb_show'), (3134, 'tmdb_show'), (94635, 'tmdb_show'), (207484, 'tmdb_show'), (22748, 'tmdb_show'), (61566, 'tmdb_show')] |
-[2022-10-26 02:12:18,231] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:18,626] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93433                                                 |
-[2022-10-26 02:12:18,855] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 39797                                                 |
-[2022-10-26 02:12:18,858] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 58876                                                 |
-[2022-10-26 02:12:18,962] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207484                                                |
-[2022-10-26 02:12:18,964] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:18,964] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 758                                                                         |
-[2022-10-26 02:12:18,964] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-10-26 02:12:19,182] [tmdb.py:280]               [INFO]     | Processing TMDb Network: (758) Starz Encore (2 Shows)                                              |
-[2022-10-26 02:12:19,183] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:19,183] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(39803, 'tmdb_show'), (23726, 'tmdb_show')]                                          |
-[2022-10-26 02:12:19,183] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-10-26 02:12:19,184] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2022-10-26 02:12:19,185] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Starz Collection                                                 |
-[2022-10-26 02:12:19,185] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-10-26 02:12:19,185] [util.py:216]               [INFO]     |================================ Missing Shows from Library: Starz =================================|
-[2022-10-26 02:12:19,185] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-10-26 02:12:19,618] [builder.py:1982]           [INFO]     | Starz Collection | ? | Spartacus (TVDB: 129261)                                                    |
-[2022-10-26 02:12:19,880] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book III: Raising Kanan (TVDB: 377332)                                |
-[2022-10-26 02:12:20,344] [builder.py:1982]           [INFO]     | Starz Collection | ? | Outlander (TVDB: 270408)                                                    |
-[2022-10-26 02:12:20,676] [builder.py:1982]           [INFO]     | Starz Collection | ? | American Gods (TVDB: 253573)                                                |
-[2022-10-26 02:12:21,027] [builder.py:1982]           [INFO]     | Starz Collection | ? | Black Sails (TVDB: 262407)                                                  |
-[2022-10-26 02:12:21,238] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Serpent Queen (TVDB: 396325)                                            |
-[2022-10-26 02:12:21,669] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power (TVDB: 276562)                                                        |
-[2022-10-26 02:12:21,964] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Pillars of the Earth (TVDB: 159431)                                     |
-[2022-10-26 02:12:22,253] [builder.py:1982]           [INFO]     | Starz Collection | ? | Step Up (TVDB: 339544)                                                      |
-[2022-10-26 02:12:22,591] [builder.py:1982]           [INFO]     | Starz Collection | ? | Ash vs Evil Dead (TVDB: 296295)                                             |
-[2022-10-26 02:12:22,836] [builder.py:1982]           [INFO]     | Starz Collection | ? | The White Princess (TVDB: 322212)                                           |
-[2022-10-26 02:12:23,133] [builder.py:1982]           [INFO]     | Starz Collection | ? | Heels (TVDB: 349345)                                                        |
-[2022-10-26 02:12:23,383] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Spanish Princess (TVDB: 360667)                                         |
-[2022-10-26 02:12:23,705] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Girlfriend Experience (TVDB: 297346)                                    |
-[2022-10-26 02:12:23,955] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book II: Ghost (TVDB: 376837)                                         |
-[2022-10-26 02:12:24,227] [builder.py:1982]           [INFO]     | Starz Collection | ? | Da Vinci's Demons (TVDB: 259669)                                            |
-[2022-10-26 02:12:24,438] [builder.py:1982]           [INFO]     | Starz Collection | ? | Camelot (TVDB: 208791)                                                      |
-[2022-10-26 02:12:24,690] [builder.py:1982]           [INFO]     | Starz Collection | ? | P-Valley (TVDB: 356405)                                                     |
-[2022-10-26 02:12:24,895] [builder.py:1982]           [INFO]     | Starz Collection | ? | BMF (TVDB: 383658)                                                          |
-[2022-10-26 02:12:25,134] [builder.py:1982]           [INFO]     | Starz Collection | ? | Hightown (TVDB: 366172)                                                     |
-[2022-10-26 02:12:25,404] [builder.py:1982]           [INFO]     | Starz Collection | ? | Counterpart (TVDB: 337302)                                                  |
-[2022-10-26 02:12:25,637] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book IV: Force (TVDB: 377593)                                         |
-[2022-10-26 02:12:25,818] [builder.py:1982]           [INFO]     | Starz Collection | ? | The BMF Documentary: Blowing Money Fast (TVDB: 425905)                      |
-[2022-10-26 02:12:26,130] [builder.py:1982]           [INFO]     | Starz Collection | ? | Party Down (TVDB: 83616)                                                    |
-[2022-10-26 02:12:26,382] [builder.py:1982]           [INFO]     | Starz Collection | ? | Boss (TVDB: 249361)                                                         |
-[2022-10-26 02:12:26,599] [builder.py:1982]           [INFO]     | Starz Collection | ? | Gaslit (TVDB: 415658)                                                       |
-[2022-10-26 02:12:26,821] [builder.py:1982]           [INFO]     | Starz Collection | ? | Flesh and Bone (TVDB: 282400)                                               |
-[2022-10-26 02:12:27,125] [builder.py:1982]           [INFO]     | Starz Collection | ? | Vida (TVDB: 340976)                                                         |
-[2022-10-26 02:12:27,320] [builder.py:1982]           [INFO]     | Starz Collection | ? | Shining Vale (TVDB: 349342)                                                 |
-[2022-10-26 02:12:27,536] [builder.py:1982]           [INFO]     | Starz Collection | ? | Now Apocalypse (TVDB: 354336)                                               |
-[2022-10-26 02:12:27,781] [builder.py:1982]           [INFO]     | Starz Collection | ? | Sweetbitter (TVDB: 339512)                                                  |
-[2022-10-26 02:12:28,022] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Rook (TVDB: 360927)                                                     |
-[2022-10-26 02:12:28,245] [builder.py:1982]           [INFO]     | Starz Collection | ? | Magic City (TVDB: 210961)                                                   |
-[2022-10-26 02:12:28,448] [builder.py:1982]           [INFO]     | Starz Collection | ? | Howards End (TVDB: 334451)                                                  |
-[2022-10-26 02:12:28,644] [builder.py:1982]           [INFO]     | Starz Collection | ? | Becoming Elizabeth (TVDB: 373873)                                           |
-[2022-10-26 02:12:28,827] [builder.py:1982]           [INFO]     | Starz Collection | ? | Me, Eloise (TVDB: 264340)                                                   |
-[2022-10-26 02:12:29,010] [builder.py:1982]           [INFO]     | Starz Collection | ? | Dangerous Liaisons (TVDB: 421025)                                           |
-[2022-10-26 02:12:29,177] [builder.py:1982]           [INFO]     | Starz Collection | ? | Seduced: Inside The NXIVM Cult (TVDB: 390138)                               |
-[2022-10-26 02:12:29,411] [builder.py:1982]           [INFO]     | Starz Collection | ? | Blindspotting (TVDB: 392720)                                                |
-[2022-10-26 02:12:29,615] [builder.py:1982]           [INFO]     | Starz Collection | ? | Run the World (TVDB: 376451)                                                |
-[2022-10-26 02:12:29,866] [builder.py:1982]           [INFO]     | Starz Collection | ? | Survivor's Remorse (TVDB: 282402)                                           |
-[2022-10-26 02:12:30,043] [builder.py:1982]           [INFO]     | Starz Collection | ? | America to Me (TVDB: 349870)                                                |
-[2022-10-26 02:12:30,216] [builder.py:1982]           [INFO]     | Starz Collection | ? | Spartacus: Blood and Sand - The Motion Comic (TVDB: 178691)                 |
-[2022-10-26 02:12:30,474] [builder.py:1982]           [INFO]     | Starz Collection | ? | Blunt Talk (TVDB: 281181)                                                   |
-[2022-10-26 02:12:30,677] [builder.py:1982]           [INFO]     | Starz Collection | ? | Men in Kilts: A Roadtrip with Sam and Graham (TVDB: 383753)                 |
-[2022-10-26 02:12:30,897] [builder.py:1982]           [INFO]     | Starz Collection | ? | Crash (TVDB: 83266)                                                         |
-[2022-10-26 02:12:31,172] [builder.py:1982]           [INFO]     | Starz Collection | ? | Gravity (TVDB: 142861)                                                      |
-[2022-10-26 02:12:31,400] [builder.py:1982]           [INFO]     | Starz Collection | ? | Martin Lawrence Presents 1st Amendment Stand-Up (TVDB: 84209)               |
-[2022-10-26 02:12:31,653] [builder.py:1982]           [INFO]     | Starz Collection | ? | Head Case (TVDB: 81414)                                                     |
-[2022-10-26 02:12:31,842] [builder.py:1982]           [INFO]     | Starz Collection | ? | Wrong Man (TVDB: 345189)                                                    |
-[2022-10-26 02:12:32,025] [builder.py:1982]           [INFO]     | Starz Collection | ? | Confronting a Serial Killer (TVDB: 395417)                                  |
-[2022-10-26 02:12:32,186] [builder.py:1982]           [INFO]     | Starz Collection | ? | Who is Ghislaine Maxwell? (TVDB: 421803)                                    |
-[2022-10-26 02:12:32,423] [builder.py:1982]           [INFO]     | Starz Collection | ? | Warriors of Liberty City (TVDB: 352472)                                     |
-[2022-10-26 02:12:32,616] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Bronx Bunny Show (US) (TVDB: 260945)                                    |
-[2022-10-26 02:12:32,796] [builder.py:1982]           [INFO]     | Starz Collection | ? | Leavenworth (TVDB: 368901)                                                  |
-[2022-10-26 02:12:32,977] [builder.py:1982]           [INFO]     | Starz Collection | ? | Hollywood Residential (TVDB: 96201)                                         |
-[2022-10-26 02:12:33,158] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Chair (2014) (TVDB: 284458)                                             |
-[2022-10-26 02:12:33,416] [builder.py:1982]           [INFO]     | Starz Collection | ? | Moby Dick (2011) (TVDB: 248601)                                             |
-[2022-10-26 02:12:33,623] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Directors (TVDB: 77753)                                                 |
-[2022-10-26 02:12:33,624] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-10-26 02:12:33,624] [builder.py:1987]           [INFO]     | 59 Shows Missing                                                                                   |
-[2022-10-26 02:12:34,142] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-10-26 02:12:34,142] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-10-26 02:12:34,143] [util.py:216]               [INFO]     |                                     Finished Starz Collection                                      |
-[2022-10-26 02:12:34,143] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:16                                    |
-[2022-10-26 02:12:34,143] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-21 02:20:35,469] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-21 02:20:35,469] [util.py:216]               [INFO]     |                                    Starz Collection in TV Shows                                    |
+[2022-11-21 02:20:35,470] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-21 02:20:35,470] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-21 02:20:35,470] [util.py:216]               [INFO]     |=================================== Validating Starz Attributes ====================================|
+[2022-11-21 02:20:35,471] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,471] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-21 02:20:35,471] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '318, 758, 4906'), ('poster', 'https://theposterdb.com/api/assets/81775')]) |
+[2022-11-21 02:20:35,471] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,471] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-21 02:20:35,472] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-21 02:20:35,472] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,472] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-21 02:20:35,472] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-21 02:20:35,472] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,473] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-21 02:20:35,473] [builder.py:474]            [DEBUG]    | Value: 318, 758, 4906                                                                              |
+[2022-11-21 02:20:35,792] [tmdb.py:242]               [ERROR]    | TMDb Error: No Network found for TMDb ID 4906: The resource you requested could not be found.      |
+[2022-11-21 02:20:35,792] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,792] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-21 02:20:35,792] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/81775                                                    |
+[2022-11-21 02:20:35,793] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,793] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-21 02:20:35,793] [builder.py:474]            [DEBUG]    | Value: +2_Starz                                                                                    |
+[2022-11-21 02:20:35,796] [plex.py:687]               [DEBUG]    | Looking for: Starz                                                                                 |
+[2022-11-21 02:20:35,797] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-21 02:20:35,797] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-21 02:20:35,797] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-21 02:20:35,797] [util.py:216]               [INFO]     |===================================== Running Starz Collection =====================================|
+[2022-11-21 02:20:35,798] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-21 02:20:35,798] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-21 02:20:35,798] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:35,798] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 318                                                                         |
+[2022-11-21 02:20:35,799] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-21 02:20:36,377] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (318) Starz (62 Shows)                                                    |
+[2022-11-21 02:20:36,377] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:36,377] [builder.py:1283]           [DEBUG]    | 62 IDs Found: [(46296, 'tmdb_show'), (56570, 'tmdb_show'), (46639, 'tmdb_show'), (47665, 'tmdb_show'), (54650, 'tmdb_show'), (155278, 'tmdb_show'), (33234, 'tmdb_show'), (62264, 'tmdb_show'), (124394, 'tmdb_show'), (70215, 'tmdb_show'), (40293, 'tmdb_show'), (64387, 'tmdb_show'), (86428, 'tmdb_show'), (33958, 'tmdb_show'), (92553, 'tmdb_show'), (212109, 'tmdb_show'), (63646, 'tmdb_show'), (97890, 'tmdb_show'), (87017, 'tmdb_show'), (118189, 'tmdb_show'), (75379, 'tmdb_show'), (86588, 'tmdb_show'), (38922, 'tmdb_show'), (119845, 'tmdb_show'), (101591, 'tmdb_show'), (17287, 'tmdb_show'), (77031, 'tmdb_show'), (74630, 'tmdb_show'), (84880, 'tmdb_show'), (77032, 'tmdb_show'), (62516, 'tmdb_show'), (136745, 'tmdb_show'), (62238, 'tmdb_show'), (107407, 'tmdb_show'), (38967, 'tmdb_show'), (61469, 'tmdb_show'), (79272, 'tmdb_show'), (109373, 'tmdb_show'), (5194, 'tmdb_show'), (198085, 'tmdb_show'), (132846, 'tmdb_show'), (8016, 'tmdb_show'), (111647, 'tmdb_show'), (123084, 'tmdb_show'), (93433, 'tmdb_show'), (31393, 'tmdb_show'), (61566, 'tmdb_show'), (29572, 'tmdb_show'), (82049, 'tmdb_show'), (104712, 'tmdb_show'), (120984, 'tmdb_show'), (94635, 'tmdb_show'), (39797, 'tmdb_show'), (7089, 'tmdb_show'), (207484, 'tmdb_show'), (79471, 'tmdb_show'), (82427, 'tmdb_show'), (205751, 'tmdb_show'), (22748, 'tmdb_show'), (3134, 'tmdb_show'), (58876, 'tmdb_show'), (211781, 'tmdb_show')] |
+[2022-11-21 02:20:36,378] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:36,611] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93433                                                 |
+[2022-11-21 02:20:36,831] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 39797                                                 |
+[2022-11-21 02:20:36,933] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207484                                                |
+[2022-11-21 02:20:37,043] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211781                                                |
+[2022-11-21 02:20:37,043] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:37,044] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 758                                                                         |
+[2022-11-21 02:20:37,044] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-21 02:20:37,252] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (758) Starz Encore (2 Shows)                                              |
+[2022-11-21 02:20:37,253] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:37,253] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(39803, 'tmdb_show'), (23726, 'tmdb_show')]                                          |
+[2022-11-21 02:20:37,253] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-21 02:20:37,261] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-21 02:20:37,261] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Starz Collection                                                 |
+[2022-11-21 02:20:37,262] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-21 02:20:37,262] [util.py:216]               [INFO]     |================================ Missing Shows from Library: Starz =================================|
+[2022-11-21 02:20:37,262] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-21 02:20:37,723] [builder.py:1982]           [INFO]     | Starz Collection | ? | Spartacus (TVDB: 129261)                                                    |
+[2022-11-21 02:20:38,238] [builder.py:1982]           [INFO]     | Starz Collection | ? | Outlander (TVDB: 270408)                                                    |
+[2022-11-21 02:20:38,541] [builder.py:1982]           [INFO]     | Starz Collection | ? | American Gods (TVDB: 253573)                                                |
+[2022-11-21 02:20:38,914] [builder.py:1982]           [INFO]     | Starz Collection | ? | Black Sails (TVDB: 262407)                                                  |
+[2022-11-21 02:20:39,455] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power (TVDB: 276562)                                                        |
+[2022-11-21 02:20:39,675] [builder.py:1982]           [INFO]     | Starz Collection | ? | Dangerous Liaisons (2022) (TVDB: 421025)                                    |
+[2022-11-21 02:20:40,013] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Pillars of the Earth (TVDB: 159431)                                     |
+[2022-11-21 02:20:40,364] [builder.py:1982]           [INFO]     | Starz Collection | ? | Ash vs Evil Dead (TVDB: 296295)                                             |
+[2022-11-21 02:20:40,660] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book III: Raising Kanan (TVDB: 377332)                                |
+[2022-11-21 02:20:40,897] [builder.py:1982]           [INFO]     | Starz Collection | ? | The White Princess (TVDB: 322212)                                           |
+[2022-11-21 02:20:41,173] [builder.py:1982]           [INFO]     | Starz Collection | ? | Da Vinci's Demons (TVDB: 259669)                                            |
+[2022-11-21 02:20:41,468] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Girlfriend Experience (TVDB: 297346)                                    |
+[2022-11-21 02:20:41,724] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Spanish Princess (TVDB: 360667)                                         |
+[2022-11-21 02:20:41,948] [builder.py:1982]           [INFO]     | Starz Collection | ? | Camelot (TVDB: 208791)                                                      |
+[2022-11-21 02:20:42,164] [builder.py:1982]           [INFO]     | Starz Collection | ? | Heels (TVDB: 349345)                                                        |
+[2022-11-21 02:20:42,335] [builder.py:1982]           [INFO]     | Starz Collection | ? | The BMF Documentary: Blowing Money Fast (TVDB: 425905)                      |
+[2022-11-21 02:20:42,638] [builder.py:1982]           [INFO]     | Starz Collection | ? | Counterpart (TVDB: 337302)                                                  |
+[2022-11-21 02:20:42,906] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book II: Ghost (TVDB: 376837)                                         |
+[2022-11-21 02:20:43,176] [builder.py:1982]           [INFO]     | Starz Collection | ? | P-Valley (TVDB: 356405)                                                     |
+[2022-11-21 02:20:43,382] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Serpent Queen (TVDB: 396325)                                            |
+[2022-11-21 02:20:43,671] [builder.py:1982]           [INFO]     | Starz Collection | ? | Step Up (TVDB: 339544)                                                      |
+[2022-11-21 02:20:43,935] [builder.py:1982]           [INFO]     | Starz Collection | ? | Hightown (TVDB: 366172)                                                     |
+[2022-11-21 02:20:44,176] [builder.py:1982]           [INFO]     | Starz Collection | ? | Boss (TVDB: 249361)                                                         |
+[2022-11-21 02:20:44,411] [builder.py:1982]           [INFO]     | Starz Collection | ? | Power Book IV: Force (TVDB: 377593)                                         |
+[2022-11-21 02:20:44,639] [builder.py:1982]           [INFO]     | Starz Collection | ? | BMF (TVDB: 383658)                                                          |
+[2022-11-21 02:20:44,924] [builder.py:1982]           [INFO]     | Starz Collection | ? | Party Down (TVDB: 83616)                                                    |
+[2022-11-21 02:20:45,206] [builder.py:1982]           [INFO]     | Starz Collection | ? | Vida (TVDB: 340976)                                                         |
+[2022-11-21 02:20:45,469] [builder.py:1982]           [INFO]     | Starz Collection | ? | Howards End (TVDB: 334451)                                                  |
+[2022-11-21 02:20:45,687] [builder.py:1982]           [INFO]     | Starz Collection | ? | Now Apocalypse (TVDB: 354336)                                               |
+[2022-11-21 02:20:45,921] [builder.py:1982]           [INFO]     | Starz Collection | ? | Sweetbitter (TVDB: 339512)                                                  |
+[2022-11-21 02:20:46,139] [builder.py:1982]           [INFO]     | Starz Collection | ? | Flesh and Bone (TVDB: 282400)                                               |
+[2022-11-21 02:20:46,339] [builder.py:1982]           [INFO]     | Starz Collection | ? | Shining Vale (TVDB: 349342)                                                 |
+[2022-11-21 02:20:46,590] [builder.py:1982]           [INFO]     | Starz Collection | ? | Blunt Talk (TVDB: 281181)                                                   |
+[2022-11-21 02:20:46,832] [builder.py:1982]           [INFO]     | Starz Collection | ? | Gaslit (TVDB: 415658)                                                       |
+[2022-11-21 02:20:47,052] [builder.py:1982]           [INFO]     | Starz Collection | ? | Magic City (TVDB: 210961)                                                   |
+[2022-11-21 02:20:47,369] [builder.py:1982]           [INFO]     | Starz Collection | ? | Survivor's Remorse (TVDB: 282402)                                           |
+[2022-11-21 02:20:47,598] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Rook (TVDB: 360927)                                                     |
+[2022-11-21 02:20:47,818] [builder.py:1982]           [INFO]     | Starz Collection | ? | Blindspotting (TVDB: 392720)                                                |
+[2022-11-21 02:20:47,997] [builder.py:1982]           [INFO]     | Starz Collection | ? | Me, Eloise (TVDB: 264340)                                                   |
+[2022-11-21 02:20:48,209] [builder.py:1982]           [INFO]     | Starz Collection | ? | Becoming Elizabeth (TVDB: 373873)                                           |
+[2022-11-21 02:20:48,394] [builder.py:1982]           [INFO]     | Starz Collection | ? | Spartacus: Blood and Sand - The Motion Comic (TVDB: 178691)                 |
+[2022-11-21 02:20:48,613] [builder.py:1982]           [INFO]     | Starz Collection | ? | Crash (TVDB: 83266)                                                         |
+[2022-11-21 02:20:48,796] [builder.py:1982]           [INFO]     | Starz Collection | ? | Seduced: Inside The NXIVM Cult (TVDB: 390138)                               |
+[2022-11-21 02:20:48,981] [builder.py:1982]           [INFO]     | Starz Collection | ? | Run the World (TVDB: 376451)                                                |
+[2022-11-21 02:20:49,192] [builder.py:1982]           [INFO]     | Starz Collection | ? | Gravity (TVDB: 142861)                                                      |
+[2022-11-21 02:20:49,383] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Chair (2014) (TVDB: 284458)                                             |
+[2022-11-21 02:20:49,618] [builder.py:1982]           [INFO]     | Starz Collection | ? | Martin Lawrence Presents 1st Amendment Stand-Up (TVDB: 84209)               |
+[2022-11-21 02:20:49,794] [builder.py:1982]           [INFO]     | Starz Collection | ? | America to Me (TVDB: 349870)                                                |
+[2022-11-21 02:20:49,999] [builder.py:1982]           [INFO]     | Starz Collection | ? | Men in Kilts: A Roadtrip with Sam and Graham (TVDB: 383753)                 |
+[2022-11-21 02:20:50,199] [builder.py:1982]           [INFO]     | Starz Collection | ? | Confronting a Serial Killer (TVDB: 395417)                                  |
+[2022-11-21 02:20:50,389] [builder.py:1982]           [INFO]     | Starz Collection | ? | Leavenworth (TVDB: 368901)                                                  |
+[2022-11-21 02:20:50,613] [builder.py:1982]           [INFO]     | Starz Collection | ? | Head Case (TVDB: 81414)                                                     |
+[2022-11-21 02:20:50,808] [builder.py:1982]           [INFO]     | Starz Collection | ? | Wrong Man (TVDB: 345189)                                                    |
+[2022-11-21 02:20:50,969] [builder.py:1982]           [INFO]     | Starz Collection | ? | Warriors of Liberty City (TVDB: 352472)                                     |
+[2022-11-21 02:20:51,165] [builder.py:1982]           [INFO]     | Starz Collection | ? | Who is Ghislaine Maxwell? (TVDB: 421803)                                    |
+[2022-11-21 02:20:51,347] [builder.py:1982]           [INFO]     | Starz Collection | ? | Hollywood Residential (TVDB: 96201)                                         |
+[2022-11-21 02:20:51,528] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Bronx Bunny Show (US) (TVDB: 260945)                                    |
+[2022-11-21 02:20:51,723] [builder.py:1982]           [INFO]     | Starz Collection | ? | Brambly Hedge (TVDB: 254401)                                                |
+[2022-11-21 02:20:51,950] [builder.py:1982]           [INFO]     | Starz Collection | ? | Moby Dick (2011) (TVDB: 248601)                                             |
+[2022-11-21 02:20:52,155] [builder.py:1982]           [INFO]     | Starz Collection | ? | The Directors (TVDB: 77753)                                                 |
+[2022-11-21 02:20:52,155] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-21 02:20:52,156] [builder.py:1987]           [INFO]     | 60 Shows Missing                                                                                   |
+[2022-11-21 02:20:52,790] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-21 02:20:52,790] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-21 02:20:52,791] [util.py:216]               [INFO]     |                                     Finished Starz Collection                                      |
+[2022-11-21 02:20:52,791] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:17                                    |
+[2022-11-21 02:20:52,791] [util.py:220]               [INFO]     |====================================================================================================|

@@ -1,42 +1,508 @@
-[2022-11-05 19:37:10,650] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:37:10,651] [util.py:216]               [INFO]     |                                Latest releases Collection in Movies                                |
-[2022-11-05 19:37:10,651] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-05 19:37:10,651] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-05 19:37:10,652] [util.py:216]               [INFO]     |============================== Validating Latest releases Attributes ===============================|
-[2022-11-05 19:37:10,652] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:10,652] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-05 19:37:10,653] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Special Genre')])                                                    |
-[2022-11-05 19:37:10,653] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:10,653] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-05 19:37:10,653] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-05 19:37:10,654] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:10,654] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-05 19:37:10,654] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-11-05 19:37:10,655] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:10,655] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-05 19:37:10,655] [builder.py:474]            [DEBUG]    | Value: 00000b_3                                                                                    |
-[2022-11-05 19:37:10,655] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:10,655] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2022-11-05 19:37:10,656] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/garycrawfordgc/lists/latest-releases', 'https://trakt.tv/users/giladg/lists/latest-releases'] |
-[2022-11-05 19:37:11,047] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:11,048] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-05 19:37:11,048] [builder.py:474]            [DEBUG]    | Value: Latest releases                                                                             |
-[2022-11-05 19:37:11,048] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:11,049] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-05 19:37:11,049] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/D62EdJd.jpg                                                             |
-[2022-11-05 19:37:11,049] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:11,049] [builder.py:473]            [DEBUG]    | Validating Method: limit                                                                           |
-[2022-11-05 19:37:11,050] [builder.py:474]            [DEBUG]    | Value: 100                                                                                         |
-[2022-11-05 19:37:11,050] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-05 19:37:11,050] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
-[2022-11-05 19:37:11,050] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
-[2022-11-05 19:37:11,051] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 557, in __init__                 |
-[2022-11-05 19:37:11,051] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: {method_final} attribute not supported")                     |
-[2022-11-05 19:37:11,051] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: limit attribute not supported                               |
-[2022-11-05 19:37:11,051] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-05 19:37:11,051] [util.py:159]               [ERROR]    | Collection Error: limit attribute not supported                                                    |
-[2022-11-05 19:37:11,052] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-05 19:37:11,052] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-05 19:37:11,052] [util.py:216]               [INFO]     |                                Finished Latest releases Collection                                 |
-[2022-11-05 19:37:11,053] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-05 19:37:11,053] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-19 12:46:19,851] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-19 12:46:19,851] [util.py:216]               [INFO]     |                                Latest releases Collection in Movies                                |
+[2022-11-19 12:46:19,852] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-19 12:46:19,852] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-19 12:46:19,853] [util.py:216]               [INFO]     |============================== Validating Latest releases Attributes ===============================|
+[2022-11-19 12:46:19,853] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:19,853] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-19 12:46:19,854] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Special Genre')])                                                    |
+[2022-11-19 12:46:19,854] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:19,854] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-19 12:46:19,855] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-19 12:46:19,855] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:19,855] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-19 12:46:19,855] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2022-11-19 12:46:19,856] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:19,856] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-19 12:46:19,856] [builder.py:474]            [DEBUG]    | Value: 00000b_3                                                                                    |
+[2022-11-19 12:46:19,856] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:19,857] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2022-11-19 12:46:19,857] [builder.py:474]            [DEBUG]    | Value: ['https://trakt.tv/users/garycrawfordgc/lists/latest-releases', 'https://trakt.tv/users/giladg/lists/latest-releases'] |
+[2022-11-19 12:46:20,193] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,194] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-19 12:46:20,194] [builder.py:474]            [DEBUG]    | Value: Latest releases                                                                             |
+[2022-11-19 12:46:20,194] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,194] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-19 12:46:20,195] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/D62EdJd.jpg                                                             |
+[2022-11-19 12:46:20,195] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,195] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2022-11-19 12:46:20,195] [builder.py:474]            [DEBUG]    | Value: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg    |
+[2022-11-19 12:46:20,195] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,196] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2022-11-19 12:46:20,196] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-19 12:46:20,196] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,196] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2022-11-19 12:46:20,197] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-19 12:46:20,197] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,197] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2022-11-19 12:46:20,197] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-19 12:46:20,445] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-19 12:46:20,446] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-19 12:46:20,446] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-19 12:46:20,446] [util.py:216]               [INFO]     |================================ Running Latest releases Collection ================================|
+[2022-11-19 12:46:20,447] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-19 12:46:20,447] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-19 12:46:20,447] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,448] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/garycrawfordgc/lists/latest-releases                   |
+[2022-11-19 12:46:20,448] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:20,448] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/garycrawfordgc/lists/latest-releases                 |
+[2022-11-19 12:46:20,592] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:20,592] [builder.py:1283]           [DEBUG]    | 216 IDs Found: [(698128, 'tmdb'), (420821, 'tmdb'), (651610, 'tmdb'), (790386, 'tmdb'), (628878, 'tmdb'), (809140, 'tmdb'), (793269, 'tmdb'), (926676, 'tmdb'), (819309, 'tmdb'), (974691, 'tmdb'), (961484, 'tmdb'), (607259, 'tmdb'), (648579, 'tmdb'), (623511, 'tmdb'), (681355, 'tmdb'), (619443, 'tmdb'), (762968, 'tmdb'), (380097, 'tmdb'), (789171, 'tmdb'), (627915, 'tmdb'), (852046, 'tmdb'), (777831, 'tmdb'), (429473, 'tmdb'), (880313, 'tmdb'), (916605, 'tmdb'), (615469, 'tmdb'), (718930, 'tmdb'), (843847, 'tmdb'), (606870, 'tmdb'), (893086, 'tmdb'), (1007401, 'tmdb'), (758330, 'tmdb'), (520023, 'tmdb'), (814340, 'tmdb'), (301502, 'tmdb'), (820446, 'tmdb'), (934207, 'tmdb'), (399178, 'tmdb'), (1027014, 'tmdb'), (453395, 'tmdb'), (642885, 'tmdb'), (819876, 'tmdb'), (597922, 'tmdb'), (807356, 'tmdb'), (843380, 'tmdb'), (828947, 'tmdb'), (976720, 'tmdb'), (795526, 'tmdb'), (893338, 'tmdb'), (872170, 'tmdb'), (723419, 'tmdb'), (759054, 'tmdb'), (894205, 'tmdb'), (974961, 'tmdb'), (799546, 'tmdb'), (667739, 'tmdb'), (338947, 'tmdb'), (660120, 'tmdb'), (598331, 'tmdb'), (953079, 'tmdb'), (660262, 'tmdb'), (884315, 'tmdb'), (1031206, 'tmdb'), (776561, 'tmdb'), (759175, 'tmdb'), (551271, 'tmdb'), (728118, 'tmdb'), (635891, 'tmdb'), (722800, 'tmdb'), (848058, 'tmdb'), (507086, 'tmdb'), (616820, 'tmdb'), (913814, 'tmdb'), (839678, 'tmdb'), (894169, 'tmdb'), (633657, 'tmdb'), (864370, 'tmdb'), (779782, 'tmdb'), (717151, 'tmdb'), (848791, 'tmdb'), (504827, 'tmdb'), (869025, 'tmdb'), (887357, 'tmdb'), (949423, 'tmdb'), (848123, 'tmdb'), (663712, 'tmdb'), (756999, 'tmdb'), (619730, 'tmdb'), (718789, 'tmdb'), (1027338, 'tmdb'), (733209, 'tmdb'), (800939, 'tmdb'), (780609, 'tmdb'), (913290, 'tmdb'), (522927, 'tmdb'), (541134, 'tmdb'), (716532, 'tmdb'), (774301, 'tmdb'), (959558, 'tmdb'), (841733, 'tmdb'), (725201, 'tmdb'), (511817, 'tmdb'), (943822, 'tmdb'), (49046, 'tmdb'), (929170, 'tmdb'), (886083, 'tmdb'), (838330, 'tmdb'), (766220, 'tmdb'), (762975, 'tmdb'), (823147, 'tmdb'), (939979, 'tmdb'), (615173, 'tmdb'), (826113, 'tmdb'), (766475, 'tmdb'), (438148, 'tmdb'), (846433, 'tmdb'), (874355, 'tmdb'), (948333, 'tmdb'), (724495, 'tmdb'), (964909, 'tmdb'), (449406, 'tmdb'), (744114, 'tmdb'), (696605, 'tmdb'), (595586, 'tmdb'), (765172, 'tmdb'), (829280, 'tmdb'), (816977, 'tmdb'), (979924, 'tmdb'), (872497, 'tmdb'), (928344, 'tmdb'), (585511, 'tmdb'), (600583, 'tmdb'), (657826, 'tmdb'), (914216, 'tmdb'), (698948, 'tmdb'), (1013860, 'tmdb'), (766507, 'tmdb'), (833097, 'tmdb'), (846956, 'tmdb'), (852485, 'tmdb'), (614934, 'tmdb'), (664469, 'tmdb'), (820967, 'tmdb'), (913823, 'tmdb'), (503017, 'tmdb'), (829799, 'tmdb'), (791155, 'tmdb'), (842934, 'tmdb'), (755566, 'tmdb'), (882598, 'tmdb'), (795778, 'tmdb'), (707103, 'tmdb'), (876825, 'tmdb'), (817758, 'tmdb'), (1001925, 'tmdb'), (436270, 'tmdb'), (800345, 'tmdb'), (823766, 'tmdb'), (676705, 'tmdb'), (579496, 'tmdb'), (366672, 'tmdb'), (626872, 'tmdb'), (361743, 'tmdb'), (632856, 'tmdb'), (805327, 'tmdb'), (929340, 'tmdb'), (683340, 'tmdb'), (844404, 'tmdb'), (939914, 'tmdb'), (668461, 'tmdb'), (806929, 'tmdb'), (338958, 'tmdb'), (826942, 'tmdb'), (760161, 'tmdb'), (982752, 'tmdb'), (539681, 'tmdb'), (762504, 'tmdb'), (629176, 'tmdb'), (862551, 'tmdb'), (583095, 'tmdb'), (754609, 'tmdb'), (756942, 'tmdb'), (762361, 'tmdb'), (809107, 'tmdb'), (673121, 'tmdb'), (985939, 'tmdb'), (931346, 'tmdb'), (1005772, 'tmdb'), (808087, 'tmdb'), (821427, 'tmdb'), (793961, 'tmdb'), (747803, 'tmdb'), (616037, 'tmdb'), (682507, 'tmdb'), (869626, 'tmdb'), (821489, 'tmdb'), (532639, 'tmdb'), (760741, 'tmdb'), (1015172, 'tmdb'), (921353, 'tmdb'), (797838, 'tmdb'), (864866, 'tmdb'), (942890, 'tmdb'), (801965, 'tmdb'), (862965, 'tmdb'), (556694, 'tmdb'), (724665, 'tmdb'), (1013228, 'tmdb'), (814800, 'tmdb'), (830788, 'tmdb'), (993145, 'tmdb'), (522526, 'tmdb'), (804413, 'tmdb'), (916405, 'tmdb'), (821390, 'tmdb'), (730167, 'tmdb')] |
+[2022-11-19 12:46:20,593] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:21,561] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:21,561] [builder.py:1276]           [DEBUG]    | Builder: trakt_list: https://trakt.tv/users/giladg/lists/latest-releases                           |
+[2022-11-19 12:46:21,561] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:21,562] [trakt.py:233]              [INFO]     | Processing Trakt List: https://trakt.tv/users/giladg/lists/latest-releases                         |
+[2022-11-19 12:46:21,723] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:21,723] [builder.py:1283]           [DEBUG]    | 300 IDs Found: [(560052, 'tmdb'), (804413, 'tmdb'), (991247, 'tmdb'), (824281, 'tmdb'), (361743, 'tmdb'), (718930, 'tmdb'), (604571, 'tmdb'), (985939, 'tmdb'), (1007401, 'tmdb'), (884315, 'tmdb'), (795109, 'tmdb'), (846433, 'tmdb'), (766475, 'tmdb'), (913823, 'tmdb'), (913851, 'tmdb'), (980083, 'tmdb'), (301502, 'tmdb'), (978651, 'tmdb'), (770156, 'tmdb'), (1010830, 'tmdb'), (884363, 'tmdb'), (941053, 'tmdb'), (520023, 'tmdb'), (808087, 'tmdb'), (366672, 'tmdb'), (760161, 'tmdb'), (635891, 'tmdb'), (934205, 'tmdb'), (1018133, 'tmdb'), (992277, 'tmdb'), (1005776, 'tmdb'), (696372, 'tmdb'), (663712, 'tmdb'), (1004466, 'tmdb'), (873125, 'tmdb'), (801965, 'tmdb'), (1014024, 'tmdb'), (852917, 'tmdb'), (1037125, 'tmdb'), (1036350, 'tmdb'), (942624, 'tmdb'), (724495, 'tmdb'), (828595, 'tmdb'), (600583, 'tmdb'), (556694, 'tmdb'), (1032459, 'tmdb'), (767254, 'tmdb'), (676701, 'tmdb'), (588108, 'tmdb'), (744276, 'tmdb'), (710217, 'tmdb'), (664469, 'tmdb'), (768757, 'tmdb'), (1029773, 'tmdb'), (436270, 'tmdb'), (1028180, 'tmdb'), (626872, 'tmdb'), (939210, 'tmdb'), (1028955, 'tmdb'), (934207, 'tmdb'), (760741, 'tmdb'), (512198, 'tmdb'), (749550, 'tmdb'), (764086, 'tmdb'), (598331, 'tmdb'), (864959, 'tmdb'), (739901, 'tmdb'), (633657, 'tmdb'), (848791, 'tmdb'), (863814, 'tmdb'), (960233, 'tmdb'), (714888, 'tmdb'), (896634, 'tmdb'), (897338, 'tmdb'), (925457, 'tmdb'), (338947, 'tmdb'), (996720, 'tmdb'), (894169, 'tmdb'), (759507, 'tmdb'), (717728, 'tmdb'), (615173, 'tmdb'), (944864, 'tmdb'), (844547, 'tmdb'), (932105, 'tmdb'), (942892, 'tmdb'), (1012042, 'tmdb'), (1032489, 'tmdb'), (1037858, 'tmdb'), (852485, 'tmdb'), (862553, 'tmdb'), (980168, 'tmdb'), (829799, 'tmdb'), (817758, 'tmdb'), (882598, 'tmdb'), (820880, 'tmdb'), (844404, 'tmdb'), (831410, 'tmdb'), (985890, 'tmdb'), (972313, 'tmdb'), (860854, 'tmdb'), (660262, 'tmdb'), (848058, 'tmdb'), (785759, 'tmdb'), (762504, 'tmdb'), (779782, 'tmdb'), (851644, 'tmdb'), (977866, 'tmdb'), (848331, 'tmdb'), (935999, 'tmdb'), (873529, 'tmdb'), (541134, 'tmdb'), (1033107, 'tmdb'), (974213, 'tmdb'), (889418, 'tmdb'), (883901, 'tmdb'), (896485, 'tmdb'), (1027439, 'tmdb'), (1027369, 'tmdb'), (949423, 'tmdb'), (1018494, 'tmdb'), (898798, 'tmdb'), (1047431, 'tmdb'), (1018403, 'tmdb'), (579496, 'tmdb'), (936960, 'tmdb'), (802372, 'tmdb'), (844380, 'tmdb'), (812025, 'tmdb'), (723419, 'tmdb'), (934198, 'tmdb'), (888479, 'tmdb'), (732459, 'tmdb'), (793961, 'tmdb'), (886396, 'tmdb'), (1036413, 'tmdb'), (1035462, 'tmdb'), (974604, 'tmdb'), (913290, 'tmdb'), (532870, 'tmdb'), (1027358, 'tmdb'), (616820, 'tmdb'), (1035916, 'tmdb'), (1041485, 'tmdb'), (1041446, 'tmdb'), (800282, 'tmdb'), (1027351, 'tmdb'), (1036561, 'tmdb'), (948276, 'tmdb'), (1037391, 'tmdb'), (842934, 'tmdb'), (619730, 'tmdb'), (762895, 'tmdb'), (823766, 'tmdb'), (929340, 'tmdb'), (992499, 'tmdb'), (924482, 'tmdb'), (934197, 'tmdb'), (674255, 'tmdb'), (994441, 'tmdb'), (853867, 'tmdb'), (815144, 'tmdb'), (854207, 'tmdb'), (421918, 'tvdb'), (774301, 'tmdb'), (599019, 'tmdb'), (885903, 'tmdb'), (846284, 'tmdb'), (997669, 'tmdb'), (961769, 'tmdb'), (1032124, 'tmdb'), (615666, 'tmdb'), (843847, 'tmdb'), (614939, 'tmdb'), (754452, 'tmdb'), (955644, 'tmdb'), (335795, 'tmdb'), (1004130, 'tmdb'), (603204, 'tmdb'), (854529, 'tmdb'), (1027385, 'tmdb'), (1027338, 'tmdb'), (760204, 'tmdb'), (988233, 'tmdb'), (903040, 'tmdb'), (951446, 'tmdb'), (646473, 'tmdb'), (1027442, 'tmdb'), (730254, 'tmdb'), (833097, 'tmdb'), (893228, 'tmdb'), (668461, 'tmdb'), (969701, 'tmdb'), (856290, 'tmdb'), (952780, 'tmdb'), (1012661, 'tmdb'), (893338, 'tmdb'), (936061, 'tmdb'), (803404, 'tmdb'), (1015724, 'tmdb'), (901454, 'tmdb'), (1026377, 'tmdb'), (1024530, 'tmdb'), (852252, 'tmdb'), (1019105, 'tmdb'), (770684, 'tmdb'), (830788, 'tmdb'), (1027329, 'tmdb'), (511817, 'tmdb'), (826777, 'tmdb'), (873904, 'tmdb'), (934131, 'tmdb'), (964909, 'tmdb'), (1026605, 'tmdb'), (1013860, 'tmdb'), (1041784, 'tmdb'), (888820, 'tmdb'), (338958, 'tmdb'), (539681, 'tmdb'), (921360, 'tmdb'), (1017189, 'tmdb'), (901418, 'tmdb'), (823147, 'tmdb'), (1018247, 'tmdb'), (766220, 'tmdb'), (839678, 'tmdb'), (942921, 'tmdb'), (934641, 'tmdb'), (795652, 'tmdb'), (1035658, 'tmdb'), (1012288, 'tmdb'), (772973, 'tmdb'), (457232, 'tmdb'), (477462, 'tmdb'), (948333, 'tmdb'), (1023086, 'tmdb'), (522526, 'tmdb'), (942894, 'tmdb'), (894205, 'tmdb'), (786415, 'tmdb'), (879444, 'tmdb'), (877291, 'tmdb'), (800939, 'tmdb'), (841733, 'tmdb'), (878183, 'tmdb'), (874891, 'tmdb'), (1040961, 'tmdb'), (1041623, 'tmdb'), (632856, 'tmdb'), (606870, 'tmdb'), (816952, 'tmdb'), (850099, 'tmdb'), (1020489, 'tmdb'), (1028703, 'tmdb'), (49046, 'tmdb'), (551271, 'tmdb'), (1022181, 'tmdb'), (986088, 'tmdb'), (1027014, 'tmdb'), (828558, 'tmdb'), (597922, 'tmdb'), (843380, 'tmdb'), (642885, 'tmdb'), (976720, 'tmdb'), (879990, 'tmdb'), (961427, 'tmdb'), (826769, 'tmdb'), (824119, 'tmdb'), (1008366, 'tmdb'), (1031518, 'tmdb'), (913740, 'tmdb'), (1007753, 'tmdb'), (684006, 'tmdb'), (1031206, 'tmdb'), (972731, 'tmdb'), (828900, 'tmdb'), (914216, 'tmdb'), (707103, 'tmdb'), (963930, 'tmdb'), (901385, 'tmdb'), (1017335, 'tmdb'), (934222, 'tmdb'), (1024535, 'tmdb'), (869025, 'tmdb'), (1024546, 'tmdb'), (888097, 'tmdb'), (844396, 'tmdb'), (1006306, 'tmdb'), (881487, 'tmdb'), (799546, 'tmdb'), (995528, 'tmdb'), (1006314, 'tmdb'), (1001789, 'tmdb'), (933138, 'tmdb'), (829503, 'tmdb'), (1024627, 'tmdb'), (744114, 'tmdb'), (595586, 'tmdb'), (979924, 'tmdb'), (829280, 'tmdb'), (928344, 'tmdb')] |
+[2022-11-19 12:46:21,724] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-19 12:46:21,996] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:21,997] [util.py:216]               [INFO]     |=============================== Adding to Latest releases Collection ===============================|
+[2022-11-19 12:46:21,997] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:21,997] [builder.py:1709]           [INFO]     |  1/56 | Latest releases Collection | = | Dual (2022)                                               |
+[2022-11-19 12:46:21,998] [builder.py:1709]           [INFO]     |  2/56 | Latest releases Collection | = | Chip 'n Dale: Rescue Rangers (2022)                       |
+[2022-11-19 12:46:21,998] [builder.py:1709]           [INFO]     |  3/56 | Latest releases Collection | = | Father Stu (2022)                                         |
+[2022-11-19 12:46:21,998] [builder.py:1709]           [INFO]     |  4/56 | Latest releases Collection | = | Emergency (2022)                                          |
+[2022-11-19 12:46:21,999] [builder.py:1709]           [INFO]     |  5/56 | Latest releases Collection | = | South Park the Streaming Wars (2022)                      |
+[2022-11-19 12:46:21,999] [builder.py:1709]           [INFO]     |  6/56 | Latest releases Collection | = | Last Seen Alive (2022)                                    |
+[2022-11-19 12:46:21,999] [builder.py:1709]           [INFO]     |  7/56 | Latest releases Collection | = | The Unbearable Weight of Massive Talent (2022)            |
+[2022-11-19 12:46:22,000] [builder.py:1709]           [INFO]     |  8/56 | Latest releases Collection | = | The Burning Sea (2021)                                    |
+[2022-11-19 12:46:22,000] [builder.py:1709]           [INFO]     |  9/56 | Latest releases Collection | = | Spiderhead (2022)                                         |
+[2022-11-19 12:46:22,000] [builder.py:1709]           [INFO]     | 10/56 | Latest releases Collection | = | Jerry and Marge Go Large (2022)                           |
+[2022-11-19 12:46:22,001] [builder.py:1709]           [INFO]     | 11/56 | Latest releases Collection | = | Good Luck to You, Leo Grande (2022)                       |
+[2022-11-19 12:46:22,001] [builder.py:1709]           [INFO]     | 12/56 | Latest releases Collection | = | Bodies Bodies Bodies (2022)                               |
+[2022-11-19 12:46:22,002] [builder.py:1709]           [INFO]     | 13/56 | Latest releases Collection | = | Cha Cha Real Smooth (2022)                                |
+[2022-11-19 12:46:22,002] [builder.py:1709]           [INFO]     | 14/56 | Latest releases Collection | = | Downton Abbey: A New Era (2022)                           |
+[2022-11-19 12:46:22,002] [builder.py:1709]           [INFO]     | 15/56 | Latest releases Collection | = | Doctor Strange in the Multiverse of Madness (2022)        |
+[2022-11-19 12:46:22,003] [builder.py:1709]           [INFO]     | 16/56 | Latest releases Collection | = | Hocus Pocus 2 (2022)                                      |
+[2022-11-19 12:46:22,003] [builder.py:1709]           [INFO]     | 17/56 | Latest releases Collection | = | Crimes of the Future (2022)                               |
+[2022-11-19 12:46:22,003] [builder.py:1709]           [INFO]     | 18/56 | Latest releases Collection | = | Watcher (2022)                                            |
+[2022-11-19 12:46:22,004] [builder.py:1709]           [INFO]     | 19/56 | Latest releases Collection | = | Beavis and Butt-Head Do the Universe (2022)               |
+[2022-11-19 12:46:22,004] [builder.py:1709]           [INFO]     | 20/56 | Latest releases Collection | = | Rise (2022)                                               |
+[2022-11-19 12:46:22,005] [builder.py:1709]           [INFO]     | 21/56 | Latest releases Collection | = | Werewolf by Night (2022)                                  |
+[2022-11-19 12:46:22,005] [builder.py:1709]           [INFO]     | 22/56 | Latest releases Collection | = | The Man from Toronto (2022)                               |
+[2022-11-19 12:46:22,005] [builder.py:1709]           [INFO]     | 23/56 | Latest releases Collection | = | The Worst Person in the World (2021)                      |
+[2022-11-19 12:46:22,006] [builder.py:1709]           [INFO]     | 24/56 | Latest releases Collection | = | Terror on the Prairie (2022)                              |
+[2022-11-19 12:46:22,006] [builder.py:1709]           [INFO]     | 25/56 | Latest releases Collection | = | The Princess (2022)                                       |
+[2022-11-19 12:46:22,006] [builder.py:1709]           [INFO]     | 26/56 | Latest releases Collection | = | Quo Vadis, Aida? (2021)                                   |
+[2022-11-19 12:46:22,006] [builder.py:1709]           [INFO]     | 27/56 | Latest releases Collection | = | Jurassic World: Dominion (2022)                           |
+[2022-11-19 12:46:22,007] [builder.py:1709]           [INFO]     | 28/56 | Latest releases Collection | = | Halloween Ends (2022)                                     |
+[2022-11-19 12:46:22,007] [builder.py:1709]           [INFO]     | 29/56 | Latest releases Collection | = | Brian and Charles (2022)                                  |
+[2022-11-19 12:46:22,007] [builder.py:1709]           [INFO]     | 30/56 | Latest releases Collection | = | Incantation (2022)                                        |
+[2022-11-19 12:46:22,008] [builder.py:1709]           [INFO]     | 31/56 | Latest releases Collection | = | The Phantom of the Open (2022)                            |
+[2022-11-19 12:46:22,008] [builder.py:1709]           [INFO]     | 32/56 | Latest releases Collection | = | The Bob's Burgers Movie (2022)                            |
+[2022-11-19 12:46:22,008] [builder.py:1709]           [INFO]     | 33/56 | Latest releases Collection | = | The Black Phone (2022)                                    |
+[2022-11-19 12:46:22,009] [builder.py:1709]           [INFO]     | 34/56 | Latest releases Collection | = | Lightyear (2022)                                          |
+[2022-11-19 12:46:22,009] [builder.py:1709]           [INFO]     | 35/56 | Latest releases Collection | = | Men (2022)                                                |
+[2022-11-19 12:46:22,009] [builder.py:1709]           [INFO]     | 36/56 | Latest releases Collection | = | Barbarian (2022)                                          |
+[2022-11-19 12:46:22,010] [builder.py:1709]           [INFO]     | 37/56 | Latest releases Collection | = | The Gray Man (2022)                                       |
+[2022-11-19 12:46:22,010] [builder.py:1709]           [INFO]     | 38/56 | Latest releases Collection | = | Honor Society (2022)                                      |
+[2022-11-19 12:46:22,010] [builder.py:1709]           [INFO]     | 39/56 | Latest releases Collection | = | Not Okay (2022)                                           |
+[2022-11-19 12:46:22,011] [builder.py:1709]           [INFO]     | 40/56 | Latest releases Collection | = | Purple Hearts (2022)                                      |
+[2022-11-19 12:46:22,011] [builder.py:1709]           [INFO]     | 41/56 | Latest releases Collection | = | Minions: The Rise of Gru (2022)                           |
+[2022-11-19 12:46:22,012] [builder.py:1709]           [INFO]     | 42/56 | Latest releases Collection | = | The Woman King (2022)                                     |
+[2022-11-19 12:46:22,014] [builder.py:1709]           [INFO]     | 43/56 | Latest releases Collection | = | What Josiah Saw (2022)                                    |
+[2022-11-19 12:46:22,014] [builder.py:1709]           [INFO]     | 44/56 | Latest releases Collection | = | Enola Holmes 2 (2022)                                     |
+[2022-11-19 12:46:22,015] [builder.py:1709]           [INFO]     | 45/56 | Latest releases Collection | = | The Power of the Dog (2021)                               |
+[2022-11-19 12:46:22,015] [builder.py:1709]           [INFO]     | 46/56 | Latest releases Collection | = | Elvis (2022)                                              |
+[2022-11-19 12:46:22,016] [builder.py:1709]           [INFO]     | 47/56 | Latest releases Collection | = | Day Shift (2022)                                          |
+[2022-11-19 12:46:22,016] [builder.py:1709]           [INFO]     | 48/56 | Latest releases Collection | = | Paws of Fury: The Legend of Hank (2022)                   |
+[2022-11-19 12:46:22,017] [builder.py:1709]           [INFO]     | 49/56 | Latest releases Collection | = | Top Gun: Maverick (2022)                                  |
+[2022-11-19 12:46:22,017] [builder.py:1709]           [INFO]     | 50/56 | Latest releases Collection | = | Z-O-M-B-I-E-S 3 (2022)                                    |
+[2022-11-19 12:46:22,017] [builder.py:1709]           [INFO]     | 51/56 | Latest releases Collection | = | Fall (2022)                                               |
+[2022-11-19 12:46:22,018] [builder.py:1709]           [INFO]     | 52/56 | Latest releases Collection | = | Rubikon (2022)                                            |
+[2022-11-19 12:46:22,018] [builder.py:1709]           [INFO]     | 53/56 | Latest releases Collection | = | Marcel the Shell with Shoes On (2022)                     |
+[2022-11-19 12:46:22,019] [builder.py:1709]           [INFO]     | 54/56 | Latest releases Collection | = | Breaking (2022)                                           |
+[2022-11-19 12:46:22,019] [builder.py:1709]           [INFO]     | 55/56 | Latest releases Collection | = | Emily the Criminal (2022)                                 |
+[2022-11-19 12:46:22,019] [builder.py:1709]           [INFO]     | 56/56 | Latest releases Collection | = | Accident Man: Hitman's Holiday (2022)                     |
+[2022-11-19 12:46:22,020] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:22,020] [builder.py:1735]           [INFO]     | 56 Movies Processed                                                                                |
+[2022-11-19 12:46:22,020] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:22,021] [util.py:216]               [INFO]     |=========================== Missing Movies from Library: Latest releases ===========================|
+[2022-11-19 12:46:22,021] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2022-11-19 12:46:22,218] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Pixie (2020) (TMDb: 651610)                                       |
+[2022-11-19 12:46:22,419] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Save the Cinema (2022) (TMDb: 790386)                             |
+[2022-11-19 12:46:22,553] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Panama (2022) (TMDb: 628878)                                      |
+[2022-11-19 12:46:22,670] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Tiger Rising (2022) (TMDb: 793269)                            |
+[2022-11-19 12:46:22,825] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Navalny (2022) (TMDb: 926676)                                     |
+[2022-11-19 12:46:22,954] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Fatherhood (2021) (TMDb: 607259)                                  |
+[2022-11-19 12:46:23,122] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | North Hollywood (2021) (TMDb: 681355)                             |
+[2022-11-19 12:46:23,312] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Schoolgirls (2020) (TMDb: 619443)                                 |
+[2022-11-19 12:46:23,448] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Do Revenge (2022) (TMDb: 762968)                                  |
+[2022-11-19 12:46:23,584] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | I'm Charlie Walker (2022) (TMDb: 380097)                          |
+[2022-11-19 12:46:23,717] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Last Survivors (2022) (TMDb: 789171)                              |
+[2022-11-19 12:46:23,985] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Score (2022) (TMDb: 627915)                                   |
+[2022-11-19 12:46:24,108] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Athena (2022) (TMDb: 852046)                                      |
+[2022-11-19 12:46:24,271] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | 9 Bullets (2022) (TMDb: 777831)                                   |
+[2022-11-19 12:46:24,272] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lou (2022) (TMDb: 429473)                                         |
+[2022-11-19 12:46:24,388] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Wrath of God (2022) (TMDb: 880313)                            |
+[2022-11-19 12:46:24,512] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Infernal Machine (2022) (TMDb: 916605)                        |
+[2022-11-19 12:46:24,515] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bullet Train (2022) (TMDb: 718930)                                |
+[2022-11-19 12:46:24,636] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Survivor (2022) (TMDb: 606870)                                |
+[2022-11-19 12:46:24,773] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Good Neighbor (2022) (TMDb: 893086)                           |
+[2022-11-19 12:46:24,900] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mortal Kombat Legends: Snow Blind (2022) (TMDb: 1007401)          |
+[2022-11-19 12:46:25,049] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blonde (2022) (TMDb: 301502)                                      |
+[2022-11-19 12:46:25,185] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sissy (2022) (TMDb: 934207)                                       |
+[2022-11-19 12:46:25,320] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Benediction (2022) (TMDb: 399178)                                 |
+[2022-11-19 12:46:25,449] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Entergalactic (2022) (TMDb: 1027014)                              |
+[2022-11-19 12:46:25,450] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Greatest Beer Run Ever (2022) (TMDb: 597922)                  |
+[2022-11-19 12:46:25,568] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Dead for a Dollar (2022) (TMDb: 843380)                           |
+[2022-11-19 12:46:25,570] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Vesper (2022) (TMDb: 976720)                                      |
+[2022-11-19 12:46:25,716] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Paul Dood’s Deadly Lunch Break (2021) (TMDb: 795526)              |
+[2022-11-19 12:46:25,861] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Gatlopp: Hell of a Game (2022) (TMDb: 893338)                     |
+[2022-11-19 12:46:25,989] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Zero Contact (2022) (TMDb: 872170)                                |
+[2022-11-19 12:46:26,104] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mr. Harrigan's Phone (2022) (TMDb: 723419)                        |
+[2022-11-19 12:46:26,215] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Murder at Yellowstone City (2022) (TMDb: 974961)                  |
+[2022-11-19 12:46:26,334] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Luckiest Girl Alive (2022) (TMDb: 799546)                         |
+[2022-11-19 12:46:26,335] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hellraiser (2022) (TMDb: 338947)                                  |
+[2022-11-19 12:46:26,518] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Rumble (2021) (TMDb: 598331)                                      |
+[2022-11-19 12:46:26,680] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Green Ghost and the Masters of the Stone (2022) (TMDb: 953079)    |
+[2022-11-19 12:46:26,852] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Three Wishes for Cinderella (2021) (TMDb: 660262)                 |
+[2022-11-19 12:46:27,984] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Cursed Friends (2022) (TMDb: 1031206)                             |
+[2022-11-19 12:46:28,127] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Strawberry Mansion (2021) (TMDb: 776561)                          |
+[2022-11-19 12:46:28,128] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Medieval (2022) (TMDb: 551271)                                    |
+[2022-11-19 12:46:28,257] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Clerks III (2022) (TMDb: 635891)                                  |
+[2022-11-19 12:46:28,379] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Drover's Wife: The Legend of Molly Johnson (2022) (TMDb: 722800) |
+[2022-11-19 12:46:28,492] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Piggy (2022) (TMDb: 848058)                                       |
+[2022-11-19 12:46:28,604] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Unhuman (2022) (TMDb: 839678)                                     |
+[2022-11-19 12:46:28,726] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Vendetta (2022) (TMDb: 894169)                                    |
+[2022-11-19 12:46:28,872] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Good House (2022) (TMDb: 633657)                              |
+[2022-11-19 12:46:28,873] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The School for Good and Evil (2022) (TMDb: 779782)                |
+[2022-11-19 12:46:28,874] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Stranger (2022) (TMDb: 848791)                                |
+[2022-11-19 12:46:28,993] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Raymond & Ray (2022) (TMDb: 869025)                               |
+[2022-11-19 12:46:29,108] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Green Lantern: Beware My Power (2022) (TMDb: 887357)              |
+[2022-11-19 12:46:29,110] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Pearl (2022) (TMDb: 949423)                                       |
+[2022-11-19 12:46:29,229] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Black Site (2022) (TMDb: 848123)                                  |
+[2022-11-19 12:46:29,231] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Terrifier 2 (2022) (TMDb: 663712)                                 |
+[2022-11-19 12:46:29,233] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Don't Worry Darling (2022) (TMDb: 619730)                         |
+[2022-11-19 12:46:29,353] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | We Wish You a Married Christmas (2022) (TMDb: 1027338)            |
+[2022-11-19 12:46:29,486] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Man of God (2021) (TMDb: 733209)                                  |
+[2022-11-19 12:46:29,487] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Ticket to Paradise (2022) (TMDb: 800939)                          |
+[2022-11-19 12:46:29,673] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Forgiven (2022) (TMDb: 522927)                                |
+[2022-11-19 12:46:29,674] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Good Nurse (2022) (TMDb: 541134)                              |
+[2022-11-19 12:46:29,781] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mr. Malcolm's List (2022) (TMDb: 716532)                          |
+[2022-11-19 12:46:29,887] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | American Murderer (2022) (TMDb: 774301)                           |
+[2022-11-19 12:46:30,025] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Moloch (2022) (TMDb: 959558)                                      |
+[2022-11-19 12:46:30,163] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Storied Life of A.J. Fikry (2022) (TMDb: 841733)              |
+[2022-11-19 12:46:30,344] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wendell & Wild (2022) (TMDb: 511817)                              |
+[2022-11-19 12:46:30,472] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Prizefighter: The Life of Jem Belcher (2022) (TMDb: 943822)       |
+[2022-11-19 12:46:30,474] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | All Quiet on the Western Front (2022) (TMDb: 49046)               |
+[2022-11-19 12:46:30,585] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Deadstream (2022) (TMDb: 886083)                                  |
+[2022-11-19 12:46:30,746] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Old Man (2022) (TMDb: 766220)                                     |
+[2022-11-19 12:46:30,859] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | To Leslie (2022) (TMDb: 823147)                                   |
+[2022-11-19 12:46:30,981] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Paradise Highway (2022) (TMDb: 939979)                            |
+[2022-11-19 12:46:31,128] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Witch: Part 2. The Other One (2022) (TMDb: 615173)            |
+[2022-11-19 12:46:31,259] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Alone Together (2022) (TMDb: 826113)                              |
+[2022-11-19 12:46:31,261] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | See How They Run (2022) (TMDb: 766475)                            |
+[2022-11-19 12:46:31,424] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Enforcer (2022) (TMDb: 846433)                                |
+[2022-11-19 12:46:31,548] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Gone in the Night (2022) (TMDb: 874355)                           |
+[2022-11-19 12:46:31,721] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Into the Deep (2022) (TMDb: 948333)                               |
+[2022-11-19 12:46:31,844] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Next Exit (2022) (TMDb: 964909)                                   |
+[2022-11-19 12:46:31,963] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Vivo (2021) (TMDb: 449406)                                        |
+[2022-11-19 12:46:31,965] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | My Policeman (2022) (TMDb: 744114)                                |
+[2022-11-19 12:46:32,113] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Causeway (2022) (TMDb: 595586)                                    |
+[2022-11-19 12:46:32,236] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Rise of the Teenage Mutant Ninja Turtles: The Movie (2022) (TMDb: 765172) |
+[2022-11-19 12:46:32,346] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | They/Them (2022) (TMDb: 816977)                                   |
+[2022-11-19 12:46:32,346] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | On the Line (2022) (TMDb: 979924)                                 |
+[2022-11-19 12:46:32,503] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Resurrection (2022) (TMDb: 872497)                                |
+[2022-11-19 12:46:32,505] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Weird: The Al Yankovic Story (2022) (TMDb: 928344)                |
+[2022-11-19 12:46:32,506] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Luck (2022) (TMDb: 585511)                                        |
+[2022-11-19 12:46:32,636] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Earwig (2022) (TMDb: 657826)                                      |
+[2022-11-19 12:46:32,747] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Lost King (2022) (TMDb: 914216)                               |
+[2022-11-19 12:46:32,937] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Thirteen Lives (2022) (TMDb: 698948)                              |
+[2022-11-19 12:46:32,938] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | R.I.P.D. 2: Rise of the Damned (2022) (TMDb: 1013860)             |
+[2022-11-19 12:46:32,940] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Prey (2022) (TMDb: 766507)                                        |
+[2022-11-19 12:46:32,941] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Falling for Christmas (2022) (TMDb: 833097)                       |
+[2022-11-19 12:46:33,055] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Rogue Agent (2022) (TMDb: 846956)                                 |
+[2022-11-19 12:46:33,202] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | She Will (2022) (TMDb: 852485)                                    |
+[2022-11-19 12:46:33,204] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Amsterdam (2022) (TMDb: 664469)                                   |
+[2022-11-19 12:46:33,329] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Poser (2021) (TMDb: 820967)                                       |
+[2022-11-19 12:46:33,448] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Fire of Love (2022) (TMDb: 913823)                                |
+[2022-11-19 12:46:33,568] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Dunes (2021) (TMDb: 503017)                                   |
+[2022-11-19 12:46:33,568] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Paradise City (2022) (TMDb: 829799)                               |
+[2022-11-19 12:46:33,686] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Secret Headquarters (2022) (TMDb: 791155)                         |
+[2022-11-19 12:46:33,687] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Poker Face (2022) (TMDb: 842934)                                  |
+[2022-11-19 12:46:33,689] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Smile (2022) (TMDb: 882598)                                       |
+[2022-11-19 12:46:33,811] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Night Raiders (2021) (TMDb: 795778)                               |
+[2022-11-19 12:46:33,930] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Emily (2022) (TMDb: 707103)                                       |
+[2022-11-19 12:46:34,077] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | I Love My Dad (2022) (TMDb: 876825)                               |
+[2022-11-19 12:46:34,078] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | TÁR (2022) (TMDb: 817758)                                         |
+[2022-11-19 12:46:34,205] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Collide (2022) (TMDb: 1001925)                                    |
+[2022-11-19 12:46:34,208] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Black Adam (2022) (TMDb: 436270)                                  |
+[2022-11-19 12:46:34,344] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Carter (2022) (TMDb: 800345)                                      |
+[2022-11-19 12:46:34,346] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Wonder (2022) (TMDb: 823766)                                  |
+[2022-11-19 12:46:34,502] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Pil's Adventures (2021) (TMDb: 676705)                            |
+[2022-11-19 12:46:34,623] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Call Jane (2022) (TMDb: 579496)                                   |
+[2022-11-19 12:46:34,790] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Emergency Declaration (2022) (TMDb: 626872)                       |
+[2022-11-19 12:46:34,791] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Spirited (2022) (TMDb: 632856)                                    |
+[2022-11-19 12:46:34,930] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Look Both Ways (2022) (TMDb: 805327)                              |
+[2022-11-19 12:46:35,053] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Christmas Story Christmas (2022) (TMDb: 929340)                 |
+[2022-11-19 12:46:35,172] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Vengeance (2022) (TMDb: 683340)                                   |
+[2022-11-19 12:46:35,173] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sam & Kate (2022) (TMDb: 844404)                                  |
+[2022-11-19 12:46:35,307] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Glorious (2022) (TMDb: 939914)                                    |
+[2022-11-19 12:46:35,308] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Slumberland (2022) (TMDb: 668461)                                 |
+[2022-11-19 12:46:35,418] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Immaculate Room (2022) (TMDb: 806929)                         |
+[2022-11-19 12:46:35,419] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Disenchanted (2022) (TMDb: 338958)                                |
+[2022-11-19 12:46:35,539] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Spin Me Round (2022) (TMDb: 826942)                               |
+[2022-11-19 12:46:35,666] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Orphan: First Kill (2022) (TMDb: 760161)                          |
+[2022-11-19 12:46:35,864] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | American Carnage (2022) (TMDb: 982752)                            |
+[2022-11-19 12:46:35,866] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | DC League of Super-Pets (2022) (TMDb: 539681)                     |
+[2022-11-19 12:46:35,867] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Nope (2022) (TMDb: 762504)                                        |
+[2022-11-19 12:46:35,868] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Samaritan (2022) (TMDb: 629176)                                   |
+[2022-11-19 12:46:35,986] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Me Time (2022) (TMDb: 862551)                                     |
+[2022-11-19 12:46:36,127] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Funny Pages (2022) (TMDb: 583095)                                 |
+[2022-11-19 12:46:36,248] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mrs. Harris Goes to Paris (2022) (TMDb: 754609)                   |
+[2022-11-19 12:46:36,376] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Adopting Audrey (2022) (TMDb: 756942)                             |
+[2022-11-19 12:46:36,505] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Joyride (2022) (TMDb: 762361)                                     |
+[2022-11-19 12:46:36,638] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wolf (2021) (TMDb: 673121)                                        |
+[2022-11-19 12:46:36,811] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Who Invited Them (2022) (TMDb: 931346)                            |
+[2022-11-19 12:46:36,936] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Jikirag (2022) (TMDb: 1005772)                                    |
+[2022-11-19 12:46:37,103] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mack & Rita (2022) (TMDb: 808087)                                 |
+[2022-11-19 12:46:37,243] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Novice (2021) (TMDb: 821427)                                  |
+[2022-11-19 12:46:37,360] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | One Way (2022) (TMDb: 747803)                                     |
+[2022-11-19 12:46:37,363] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Thor: Love and Thunder (2022) (TMDb: 616037)                      |
+[2022-11-19 12:46:37,365] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Where the Crawdads Sing (2022) (TMDb: 682507)                     |
+[2022-11-19 12:46:37,481] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | All My Friends Hate Me (2022) (TMDb: 821489)                      |
+[2022-11-19 12:46:37,589] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Pinocchio (2022) (TMDb: 532639)                                   |
+[2022-11-19 12:46:37,732] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Beast (2022) (TMDb: 760741)                                       |
+[2022-11-19 12:46:38,196] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Out of Office (2022) (TMDb: 1015172)                              |
+[2022-11-19 12:46:38,300] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wrong Place (2022) (TMDb: 921353)                                 |
+[2022-11-19 12:46:38,422] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Firebird (2021) (TMDb: 797838)                                    |
+[2022-11-19 12:46:38,554] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Road Dance (2022) (TMDb: 864866)                              |
+[2022-11-19 12:46:38,718] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | House of Darkness (2022) (TMDb: 942890)                           |
+[2022-11-19 12:46:38,720] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Three Thousand Years of Longing (2022) (TMDb: 556694)             |
+[2022-11-19 12:46:38,849] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Confess, Fletch (2022) (TMDb: 724665)                             |
+[2022-11-19 12:46:38,973] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | I Used to Be Famous (2022) (TMDb: 1013228)                        |
+[2022-11-19 12:46:39,112] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Goodnight Mommy (2022) (TMDb: 814800)                             |
+[2022-11-19 12:46:39,297] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Invitation (2022) (TMDb: 830788)                              |
+[2022-11-19 12:46:39,414] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bullet Proof (2022) (TMDb: 993145)                                |
+[2022-11-19 12:46:39,530] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mona Lisa and the Blood Moon (2022) (TMDb: 522526)                |
+[2022-11-19 12:46:39,682] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Munsters (2022) (TMDb: 804413)                                |
+[2022-11-19 12:46:39,821] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Quiet Girl (2022) (TMDb: 916405)                              |
+[2022-11-19 12:46:39,973] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Retreat (2021) (TMDb: 821390)                                 |
+[2022-11-19 12:46:40,116] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Reef: Stalked (2022) (TMDb: 730167)                           |
+[2022-11-19 12:46:40,245] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | My Father's Dragon (2022) (TMDb: 560052)                          |
+[2022-11-19 12:46:40,401] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Kingslayer (2022) (TMDb: 991247)                                  |
+[2022-11-19 12:46:40,582] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Easter Sunday (2022) (TMDb: 824281)                               |
+[2022-11-19 12:46:40,698] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Deus (2022) (TMDb: 604571)                                        |
+[2022-11-19 12:46:40,823] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Catherine Called Birdy (2022) (TMDb: 795109)                      |
+[2022-11-19 12:46:40,951] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Love Song (2022) (TMDb: 913851)                                 |
+[2022-11-19 12:46:41,124] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Top Gunner: Danger Zone (2022) (TMDb: 980083)                     |
+[2022-11-19 12:46:41,247] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Razing (2022) (TMDb: 978651)                                  |
+[2022-11-19 12:46:41,372] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lucy Shimmers And The Prince Of Peace (2020) (TMDb: 770156)       |
+[2022-11-19 12:46:41,498] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Batman: The Long Halloween Deluxe Edition (2022) (TMDb: 1010830)  |
+[2022-11-19 12:46:41,635] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Togo (2022) (TMDb: 884363)                                        |
+[2022-11-19 12:46:41,746] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Girl in the Shed: The Kidnapping of Abby Hernandez (2022) (TMDb: 941053) |
+[2022-11-19 12:46:41,870] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bitch Ass (2022) (TMDb: 934205)                                   |
+[2022-11-19 12:46:42,008] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Astonishing Tales of Terror: Rocktapussy! (2022) (TMDb: 1018133)  |
+[2022-11-19 12:46:42,127] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Loneliest Boy In The World (2022) (TMDb: 992277)              |
+[2022-11-19 12:46:42,262] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | V/H/S/99 (2022) (TMDb: 1005776)                                   |
+[2022-11-19 12:46:42,409] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Chance Encounter (2022) (TMDb: 696372)                          |
+[2022-11-19 12:46:42,591] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Headless Horseman (2022) (TMDb: 1004466)                          |
+[2022-11-19 12:46:42,715] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Robbing Mussolini (2022) (TMDb: 873125)                           |
+[2022-11-19 12:46:42,821] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wickensburg (2023) (TMDb: 1014024)                                |
+[2022-11-19 12:46:42,945] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Savannah Haunting (2022) (TMDb: 852917)                         |
+[2022-11-19 12:46:43,075] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Live Escape (2022) (TMDb: 1037125)                                |
+[2022-11-19 12:46:43,196] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | An Amish Sin (2022) (TMDb: 1036350)                               |
+[2022-11-19 12:46:43,303] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Running the Bases (2022) (TMDb: 942624)                           |
+[2022-11-19 12:46:43,442] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Good Witch of Christmas (2022) (TMDb: 828595)                 |
+[2022-11-19 12:46:43,565] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Santa Games (2022) (TMDb: 1032459)                                |
+[2022-11-19 12:46:43,723] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blaze (2022) (TMDb: 767254)                                       |
+[2022-11-19 12:46:43,724] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Tad the Lost Explorer and the Emerald Tablet (2022) (TMDb: 676701) |
+[2022-11-19 12:46:43,862] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hansan: Rising Dragon (2022) (TMDb: 588108)                       |
+[2022-11-19 12:46:43,995] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | After Ever Happy (2022) (TMDb: 744276)                            |
+[2022-11-19 12:46:44,111] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Werewolf in England (2020) (TMDb: 710217)                       |
+[2022-11-19 12:46:44,224] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Both Sides of the Blade (2022) (TMDb: 768757)                     |
+[2022-11-19 12:46:44,336] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Final Rose (2022) (TMDb: 1029773)                             |
+[2022-11-19 12:46:44,449] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | In Merry Measure (2022) (TMDb: 1028180)                           |
+[2022-11-19 12:46:44,561] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blue's Big City Adventure (2022) (TMDb: 939210)                   |
+[2022-11-19 12:46:44,714] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | In Isolation (2022) (TMDb: 1028955)                               |
+[2022-11-19 12:46:44,861] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Dead Bride (2022) (TMDb: 512198)                                  |
+[2022-11-19 12:46:44,986] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | An Organized Killer (2021) (TMDb: 749550)                         |
+[2022-11-19 12:46:45,110] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Masking Threshold (2022) (TMDb: 764086)                           |
+[2022-11-19 12:46:45,222] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Curse of Bridge Hollow (2022) (TMDb: 864959)                  |
+[2022-11-19 12:46:45,359] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Possessed (2021) (TMDb: 739901)                               |
+[2022-11-19 12:46:45,471] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bosch & Rockit (2022) (TMDb: 863814)                              |
+[2022-11-19 12:46:45,608] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Safe House (2021) (TMDb: 960233)                                  |
+[2022-11-19 12:46:45,725] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Argentina, 1985 (2022) (TMDb: 714888)                             |
+[2022-11-19 12:46:45,863] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Silent River (2022) (TMDb: 896634)                                |
+[2022-11-19 12:46:46,039] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Bad Seed Returns (2022) (TMDb: 897338)                        |
+[2022-11-19 12:46:46,182] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sinphony: A Clubhouse Horror Anthology (2022) (TMDb: 925457)      |
+[2022-11-19 12:46:46,300] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Feed Me (2022) (TMDb: 996720)                                     |
+[2022-11-19 12:46:46,415] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blackout (2022) (TMDb: 759507)                                    |
+[2022-11-19 12:46:46,522] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Jeepers Creepers: Reborn (2022) (TMDb: 717728)                    |
+[2022-11-19 12:46:46,653] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Takeover (2022) (TMDb: 944864)                                |
+[2022-11-19 12:46:47,028] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Taurus (2022) (TMDb: 844547)                                      |
+[2022-11-19 12:46:47,164] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Maltese Holiday (2021) (TMDb: 932105)                         |
+[2022-11-19 12:46:47,306] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | 1-800-Hot-Nite (2022) (TMDb: 942892)                              |
+[2022-11-19 12:46:47,419] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Merry Swissmas (2022) (TMDb: 1012042)                             |
+[2022-11-19 12:46:47,542] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | My Christmas Fiancé (2022) (TMDb: 1032489)                        |
+[2022-11-19 12:46:47,653] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Soccer Football Movie (2022) (TMDb: 1037858)                  |
+[2022-11-19 12:46:47,769] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bar Fight (2022) (TMDb: 862553)                                   |
+[2022-11-19 12:46:47,895] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Cult of Humpty Dumpty (2022) (TMDb: 980168)                   |
+[2022-11-19 12:46:48,001] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Aisha (2022) (TMDb: 820880)                                       |
+[2022-11-19 12:46:48,148] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bring It On: Cheer or Die (2022) (TMDb: 831410)                   |
+[2022-11-19 12:46:48,291] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Among the Living (2022) (TMDb: 985890)                            |
+[2022-11-19 12:46:48,396] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blowback (2022) (TMDb: 972313)                                    |
+[2022-11-19 12:46:48,527] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bromates (2022) (TMDb: 860854)                                    |
+[2022-11-19 12:46:48,634] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Two Witches (2022) (TMDb: 785759)                                 |
+[2022-11-19 12:46:48,769] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | 20th Century Girl (2022) (TMDb: 851644)                           |
+[2022-11-19 12:46:48,904] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Ghosts of Monday (2022) (TMDb: 977866)                        |
+[2022-11-19 12:46:49,025] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Honk for Jesus. Save Your Soul. (2022) (TMDb: 848331)             |
+[2022-11-19 12:46:49,158] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hounded (2022) (TMDb: 935999)                                     |
+[2022-11-19 12:46:49,326] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Shady Grove (2022) (TMDb: 873529)                                 |
+[2022-11-19 12:46:49,456] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wild Is the Wind (2022) (TMDb: 1033107)                           |
+[2022-11-19 12:46:49,558] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Jolly Good Christmas (2022) (TMDb: 974213)                        |
+[2022-11-19 12:46:49,693] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Love Hurts (2021) (TMDb: 889418)                                  |
+[2022-11-19 12:46:49,849] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Christmas Lover's Anonymous (2021) (TMDb: 883901)                 |
+[2022-11-19 12:46:49,968] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Overdose (2022) (TMDb: 896485)                                    |
+[2022-11-19 12:46:50,087] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lights, Camera, Christmas! (2022) (TMDb: 1027439)                 |
+[2022-11-19 12:46:50,238] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Christmas on Repeat (2022) (TMDb: 1027369)                        |
+[2022-11-19 12:46:50,359] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Operation Seawolf (2022) (TMDb: 1018494)                          |
+[2022-11-19 12:46:50,531] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mandrake (2022) (TMDb: 898798)                                    |
+[2022-11-19 12:46:50,657] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Prancer: A Christmas Tale (2022) (TMDb: 1047431)                  |
+[2022-11-19 12:46:50,658] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Tom and Jerry Snowman's Land (2022) (TMDb: 1018403)               |
+[2022-11-19 12:46:50,659] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Christmas with You (2022) (TMDb: 936960)                          |
+[2022-11-19 12:46:50,660] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The People We Hate at the Wedding (2022) (TMDb: 802372)           |
+[2022-11-19 12:46:50,845] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Nix (2022) (TMDb: 844380)                                         |
+[2022-11-19 12:46:50,948] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Silent Twins (2022) (TMDb: 812025)                            |
+[2022-11-19 12:46:51,090] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Stay the Night (2022) (TMDb: 934198)                              |
+[2022-11-19 12:46:51,232] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Game of Love (2022) (TMDb: 888479)                                |
+[2022-11-19 12:46:51,342] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Blade of the 47 Ronin (2022) (TMDb: 732459)                       |
+[2022-11-19 12:46:51,456] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Batman and Superman: Battle of the Super Sons (2022) (TMDb: 886396) |
+[2022-11-19 12:46:51,622] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bitcon (2022) (TMDb: 1036413)                                     |
+[2022-11-19 12:46:51,768] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Domestic (2022) (TMDb: 1035462)                               |
+[2022-11-19 12:46:51,890] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Terror Train (2022) (TMDb: 974604)                                |
+[2022-11-19 12:46:52,011] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Run Sweetheart Run (2020) (TMDb: 532870)                          |
+[2022-11-19 12:46:52,153] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | We Need a Little Christmas (2022) (TMDb: 1027358)                 |
+[2022-11-19 12:46:52,289] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Deborah (2022) (TMDb: 1035916)                                    |
+[2022-11-19 12:46:52,430] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Torn (2022) (TMDb: 1041485)                                       |
+[2022-11-19 12:46:52,578] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Blackwell Ghost 7 (2022) (TMDb: 1041446)                      |
+[2022-11-19 12:46:52,695] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | I'm Totally Fine (2022) (TMDb: 800282)                            |
+[2022-11-19 12:46:52,889] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Kismet Christmas (2022) (TMDb: 1027351)                         |
+[2022-11-19 12:46:53,002] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hanuman: Shadow Master (2022) (TMDb: 1036561)                     |
+[2022-11-19 12:46:53,004] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lost Bullet 2 (2022) (TMDb: 948276)                               |
+[2022-11-19 12:46:53,122] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Christmas in Paradise (2022) (TMDb: 1037391)                      |
+[2022-11-19 12:46:53,232] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Manifest West (2022) (TMDb: 762895)                               |
+[2022-11-19 12:46:53,427] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Ash and Bone (2022) (TMDb: 992499)                                |
+[2022-11-19 12:46:53,554] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Ledge (2022) (TMDb: 924482)                                   |
+[2022-11-19 12:46:53,679] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Pretty Problems (2022) (TMDb: 934197)                             |
+[2022-11-19 12:46:53,811] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Vengeance Is Mine, All Others Pay Cash (2021) (TMDb: 674255)      |
+[2022-11-19 12:46:53,954] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Summit Fever (2022) (TMDb: 994441)                                |
+[2022-11-19 12:46:54,068] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Jane (2022) (TMDb: 853867)                                        |
+[2022-11-19 12:46:54,226] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Where Are You (2022) (TMDb: 815144)                               |
+[2022-11-19 12:46:54,387] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Love Afloat (2022) (TMDb: 854207)                                 |
+[2022-11-19 12:46:54,549] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Big Trip 2: Special Delivery (2022) (TMDb: 599019)                |
+[2022-11-19 12:46:54,665] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Survivor's Choice (2022) (TMDb: 885903)                           |
+[2022-11-19 12:46:54,833] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Amityville Scarecrow (2021) (TMDb: 846284)                        |
+[2022-11-19 12:46:54,960] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | My Neighbor Adolf (2022) (TMDb: 997669)                           |
+[2022-11-19 12:46:55,079] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Catering Christmas (2022) (TMDb: 961769)                          |
+[2022-11-19 12:46:55,201] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Ask Me to Dance (2022) (TMDb: 1032124)                            |
+[2022-11-19 12:46:55,321] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Boy Called Christmas (2021) (TMDb: 615666)                      |
+[2022-11-19 12:46:55,449] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Bros (2022) (TMDb: 614939)                                        |
+[2022-11-19 12:46:55,450] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Last Manhunt (2022) (TMDb: 754452)                            |
+[2022-11-19 12:46:55,570] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mia and Me: The Hero of Centopia (2022) (TMDb: 955644)            |
+[2022-11-19 12:46:55,699] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Monster High: The Movie (2022) (TMDb: 335795)                     |
+[2022-11-19 12:46:55,871] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Stalker (2022) (TMDb: 1004130)                                    |
+[2022-11-19 12:46:56,005] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Stars at Noon (2022) (TMDb: 603204)                               |
+[2022-11-19 12:46:56,185] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Night at the Eagle Inn (2021) (TMDb: 854529)                      |
+[2022-11-19 12:46:56,306] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Dangerous Game: The Legacy Murders (2022) (TMDb: 1027385)         |
+[2022-11-19 12:46:56,426] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Lair (2022) (TMDb: 760204)                                    |
+[2022-11-19 12:46:56,537] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hex (2022) (TMDb: 988233)                                         |
+[2022-11-19 12:46:56,659] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Holes In The Sky: The Sean Miller Story (2021) (TMDb: 903040)     |
+[2022-11-19 12:46:56,785] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Art of Love (2022) (TMDb: 951446)                             |
+[2022-11-19 12:46:56,950] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Dear Zoe (2022) (TMDb: 646473)                                    |
+[2022-11-19 12:46:57,126] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Maple Valley Christmas (2022) (TMDb: 1027442)                   |
+[2022-11-19 12:46:57,276] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | We're All in This Together (2022) (TMDb: 730254)                  |
+[2022-11-19 12:46:57,490] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Section 8 (2022) (TMDb: 893228)                                   |
+[2022-11-19 12:46:57,619] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | They Crawl Beneath (2022) (TMDb: 969701)                          |
+[2022-11-19 12:46:57,785] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | After She Died (2022) (TMDb: 856290)                              |
+[2022-11-19 12:46:57,926] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Painted in Blood (2022) (TMDb: 952780)                            |
+[2022-11-19 12:46:58,067] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Gabby Petito Story (2022) (TMDb: 1012661)                     |
+[2022-11-19 12:46:58,248] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Under Wraps 2 (2022) (TMDb: 936061)                               |
+[2022-11-19 12:46:58,481] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Runner (2022) (TMDb: 803404)                                  |
+[2022-11-19 12:46:58,596] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Trick or Treat Scooby-Doo! (2022) (TMDb: 1015724)                 |
+[2022-11-19 12:46:58,718] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Dirty Games (2022) (TMDb: 901454)                                 |
+[2022-11-19 12:46:58,853] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sanctioning Evil (2022) (TMDb: 1026377)                           |
+[2022-11-19 12:46:58,854] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Grimcutty (2022) (TMDb: 1024530)                                  |
+[2022-11-19 12:46:58,967] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Accursed (2022) (TMDb: 852252)                                |
+[2022-11-19 12:46:59,089] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Paloni Show! Halloween Special! (2022) (TMDb: 1019105)        |
+[2022-11-19 12:46:59,301] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Retaliators (2022) (TMDb: 770684)                             |
+[2022-11-19 12:46:59,413] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Noel Next Door (2022) (TMDb: 1027329)                             |
+[2022-11-19 12:46:59,529] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Sleep Experiment (2022) (TMDb: 826777)                        |
+[2022-11-19 12:46:59,665] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Monsters of War (2021) (TMDb: 873904)                             |
+[2022-11-19 12:46:59,782] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Soft & Quiet (2022) (TMDb: 934131)                                |
+[2022-11-19 12:46:59,911] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | A Magical Christmas Village (2022) (TMDb: 1026605)                |
+[2022-11-19 12:47:00,056] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Hello from Nowhere (2021) (TMDb: 1041784)                         |
+[2022-11-19 12:47:00,157] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 888820: The resource you requested could not be found.      |
+[2022-11-19 12:47:00,268] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Wire Room (2022) (TMDb: 921360)                                   |
+[2022-11-19 12:47:00,397] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Other Monsters (2022) (TMDb: 1017189)                             |
+[2022-11-19 12:47:00,539] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Croc! (2022) (TMDb: 901418)                                       |
+[2022-11-19 12:47:00,709] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | MK Ultra (2022) (TMDb: 1018247)                                   |
+[2022-11-19 12:47:00,826] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Call of the Unseen (2022) (TMDb: 942921)                          |
+[2022-11-19 12:47:00,942] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Minute You Wake Up Dead (2022) (TMDb: 934641)                 |
+[2022-11-19 12:47:01,069] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Cosmic Dawn (2022) (TMDb: 795652)                                 |
+[2022-11-19 12:47:01,210] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Willowbrook (2022) (TMDb: 1035658)                            |
+[2022-11-19 12:47:01,335] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Reindeer Games Homecoming (2022) (TMDb: 1012288)                  |
+[2022-11-19 12:47:01,448] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Inhabitant (2022) (TMDb: 772973)                              |
+[2022-11-19 12:47:01,449] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lamborghini: The Man Behind the Legend (2022) (TMDb: 457232)      |
+[2022-11-19 12:47:01,573] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Twin (2022) (TMDb: 477462)                                    |
+[2022-11-19 12:47:01,719] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Devil's Workshop (2022) (TMDb: 1023086)                           |
+[2022-11-19 12:47:01,846] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Avarice (2022) (TMDb: 942894)                                     |
+[2022-11-19 12:47:01,977] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Iké Boys (2022) (TMDb: 786415)                                    |
+[2022-11-19 12:47:02,131] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Huns (2021) (TMDb: 877291)                                    |
+[2022-11-19 12:47:02,271] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Independent (2022) (TMDb: 878183)                             |
+[2022-11-19 12:47:02,393] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Family (2021) (TMDb: 874891)                                  |
+[2022-11-19 12:47:02,525] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Lost Vegas (2022) (TMDb: 1040961)                                 |
+[2022-11-19 12:47:02,639] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sugar (2022) (TMDb: 1041623)                                      |
+[2022-11-19 12:47:02,767] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | My Best Friend's Exorcism (2022) (TMDb: 816952)                   |
+[2022-11-19 12:47:02,881] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Risen (2021) (TMDb: 850099)                                       |
+[2022-11-19 12:47:03,011] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Autumn in the City (2022) (TMDb: 1020489)                         |
+[2022-11-19 12:47:03,201] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The OctoGames (2022) (TMDb: 1028703)                              |
+[2022-11-19 12:47:03,328] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Stalked Within (2022) (TMDb: 1022181)                             |
+[2022-11-19 12:47:03,458] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Control (2022) (TMDb: 986088)                                     |
+[2022-11-19 12:47:03,596] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | God's Creatures (2022) (TMDb: 828558)                             |
+[2022-11-19 12:47:03,721] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | God's Country (2022) (TMDb: 879990)                               |
+[2022-11-19 12:47:03,868] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Spirit Halloween: The Movie (2022) (TMDb: 961427)                 |
+[2022-11-19 12:47:04,008] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Rosaline (2022) (TMDb: 826769)                                    |
+[2022-11-19 12:47:04,147] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | It Is in Us All (2022) (TMDb: 824119)                             |
+[2022-11-19 12:47:04,311] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Six Degrees of Santa (2022) (TMDb: 1008366)                       |
+[2022-11-19 12:47:04,484] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Who Killed Cooper Dunn? (2022) (TMDb: 1031518)                    |
+[2022-11-19 12:47:04,614] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Guardians of Time (2022) (TMDb: 913740)                           |
+[2022-11-19 12:47:04,754] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Sheltering Season (2022) (TMDb: 1007753)                          |
+[2022-11-19 12:47:04,906] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Fisherman's Friends: One and All (2022) (TMDb: 684006)            |
+[2022-11-19 12:47:05,020] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | 2025: Blood, White & Blue (2022) (TMDb: 972731)                   |
+[2022-11-19 12:47:05,183] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Aqua Teen Forever: Plantasm (2022) (TMDb: 828900)                 |
+[2022-11-19 12:47:05,302] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Curious Case of Dolphin Bay (2022) (TMDb: 963930)             |
+[2022-11-19 12:47:05,429] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Significant Other (2022) (TMDb: 901385)                           |
+[2022-11-19 12:47:05,553] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Project Legion (2022) (TMDb: 1017335)                             |
+[2022-11-19 12:47:05,674] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Pez Outlaw (2022) (TMDb: 934222)                              |
+[2022-11-19 12:47:05,809] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Matriarch (2022) (TMDb: 1024535)                                  |
+[2022-11-19 12:47:05,923] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Detective Knight: Rogue (2022) (TMDb: 1024546)                    |
+[2022-11-19 12:47:06,068] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Slayers (2022) (TMDb: 888097)                                     |
+[2022-11-19 12:47:06,181] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Friendship Game (2022) (TMDb: 844396)                         |
+[2022-11-19 12:47:06,330] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Fly Away With Me (2022) (TMDb: 1006306)                           |
+[2022-11-19 12:47:06,454] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Visitor (2022) (TMDb: 881487)                                 |
+[2022-11-19 12:47:06,568] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Root Letter (2022) (TMDb: 995528)                                 |
+[2022-11-19 12:47:06,684] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The Secrets of Bella Vista (2022) (TMDb: 1006314)                 |
+[2022-11-19 12:47:06,829] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Run (2021) (TMDb: 1001789)                                        |
+[2022-11-19 12:47:06,949] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Mantra (2022) (TMDb: 933138)                                      |
+[2022-11-19 12:47:07,064] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | Gigi & Nate (2022) (TMDb: 829503)                                 |
+[2022-11-19 12:47:07,187] [builder.py:1943]           [INFO]     | Latest releases Collection | ? | The System (2022) (TMDb: 1024627)                                 |
+[2022-11-19 12:47:07,188] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2022-11-19 12:47:07,188] [builder.py:1948]           [INFO]     | 368 Movies Missing                                                                                 |
+[2022-11-19 12:47:07,230] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-19 12:47:07,230] [util.py:216]               [INFO]     |========================== Updating Details of Latest releases Collection ==========================|
+[2022-11-19 12:47:07,231] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-19 12:47:07,231] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-19 12:47:07,233] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-19 12:47:07,233] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/D62EdJd.jpg                                         |
+[2022-11-19 12:47:07,234] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
+[2022-11-19 12:47:07,234] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg |
+[2022-11-19 12:47:07,247] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-19 12:47:07,247] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
+[2022-11-19 12:47:07,494] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-19 12:47:07,494] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-19 12:47:07,495] [util.py:216]               [INFO]     |                                Finished Latest releases Collection                                 |
+[2022-11-19 12:47:07,495] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:47                                    |
+[2022-11-19 12:47:07,495] [util.py:220]               [INFO]     |====================================================================================================|

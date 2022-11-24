@@ -1,159 +1,163 @@
-[2022-11-06 12:45:56,453] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:45:56,453] [util.py:216]               [INFO]     |                                   Peacock Collection in TV Shows                                   |
-[2022-11-06 12:45:56,454] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 12:45:56,454] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 12:45:56,454] [util.py:216]               [INFO]     |================================== Validating Peacock Attributes ===================================|
-[2022-11-06 12:45:56,455] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,455] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 12:45:56,455] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 3353), ('poster', 'https://theposterdb.com/api/assets/205411')]) |
-[2022-11-06 12:45:56,456] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,456] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 12:45:56,456] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 12:45:56,456] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,457] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 12:45:56,457] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-06 12:45:56,457] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,457] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-11-06 12:45:56,458] [builder.py:474]            [DEBUG]    | Value: 3353                                                                                        |
-[2022-11-06 12:45:56,601] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,601] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 12:45:56,601] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/205411                                                   |
-[2022-11-06 12:45:56,602] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,602] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 12:45:56,602] [builder.py:474]            [DEBUG]    | Value: +2_Peacock                                                                                  |
-[2022-11-06 12:45:56,605] [plex.py:687]               [DEBUG]    | Looking for: Peacock                                                                               |
-[2022-11-06 12:45:56,605] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 12:45:56,606] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 12:45:56,606] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 12:45:56,607] [util.py:216]               [INFO]     |==================================== Running Peacock Collection ====================================|
-[2022-11-06 12:45:56,607] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 12:45:56,607] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 12:45:56,608] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:56,608] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 3353                                                                        |
-[2022-11-06 12:45:56,608] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 12:45:57,904] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (3353) Peacock (110 Shows)                                                |
-[2022-11-06 12:45:57,904] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:57,904] [builder.py:1283]           [DEBUG]    | 110 IDs Found: [(125940, 'tmdb_show'), (881, 'tmdb_show'), (118958, 'tmdb_show'), (120452, 'tmdb_show'), (656, 'tmdb_show'), (107365, 'tmdb_show'), (132559, 'tmdb_show'), (136322, 'tmdb_show'), (109330, 'tmdb_show'), (91552, 'tmdb_show'), (93749, 'tmdb_show'), (71737, 'tmdb_show'), (93289, 'tmdb_show'), (197434, 'tmdb_show'), (90521, 'tmdb_show'), (113378, 'tmdb_show'), (195821, 'tmdb_show'), (157756, 'tmdb_show'), (93825, 'tmdb_show'), (156473, 'tmdb_show'), (134967, 'tmdb_show'), (121718, 'tmdb_show'), (194728, 'tmdb_show'), (107314, 'tmdb_show'), (136738, 'tmdb_show'), (134180, 'tmdb_show'), (72710, 'tmdb_show'), (93751, 'tmdb_show'), (156332, 'tmdb_show'), (105348, 'tmdb_show'), (156989, 'tmdb_show'), (129277, 'tmdb_show'), (112063, 'tmdb_show'), (157433, 'tmdb_show'), (204349, 'tmdb_show'), (105349, 'tmdb_show'), (203417, 'tmdb_show'), (100350, 'tmdb_show'), (136105, 'tmdb_show'), (109957, 'tmdb_show'), (213372, 'tmdb_show'), (138955, 'tmdb_show'), (13975, 'tmdb_show'), (211188, 'tmdb_show'), (34268, 'tmdb_show'), (153268, 'tmdb_show'), (130060, 'tmdb_show'), (103404, 'tmdb_show'), (93748, 'tmdb_show'), (207037, 'tmdb_show'), (135187, 'tmdb_show'), (120998, 'tmdb_show'), (123810, 'tmdb_show'), (156575, 'tmdb_show'), (129915, 'tmdb_show'), (125506, 'tmdb_show'), (129899, 'tmdb_show'), (95192, 'tmdb_show'), (197801, 'tmdb_show'), (109814, 'tmdb_show'), (137678, 'tmdb_show'), (109608, 'tmdb_show'), (213463, 'tmdb_show'), (208953, 'tmdb_show'), (133748, 'tmdb_show'), (126390, 'tmdb_show'), (156878, 'tmdb_show'), (133215, 'tmdb_show'), (199960, 'tmdb_show'), (213562, 'tmdb_show'), (130074, 'tmdb_show'), (139004, 'tmdb_show'), (200986, 'tmdb_show'), (105344, 'tmdb_show'), (205155, 'tmdb_show'), (127562, 'tmdb_show'), (128393, 'tmdb_show'), (158547, 'tmdb_show'), (206763, 'tmdb_show'), (209738, 'tmdb_show'), (197373, 'tmdb_show'), (134355, 'tmdb_show'), (133059, 'tmdb_show'), (153682, 'tmdb_show'), (116619, 'tmdb_show'), (206382, 'tmdb_show'), (210684, 'tmdb_show'), (155989, 'tmdb_show'), (201779, 'tmdb_show'), (132185, 'tmdb_show'), (155343, 'tmdb_show'), (154878, 'tmdb_show'), (155990, 'tmdb_show'), (22617, 'tmdb_show'), (132635, 'tmdb_show'), (133962, 'tmdb_show'), (197548, 'tmdb_show'), (158241, 'tmdb_show'), (212136, 'tmdb_show'), (208943, 'tmdb_show'), (157478, 'tmdb_show'), (157435, 'tmdb_show'), (157432, 'tmdb_show'), (134934, 'tmdb_show'), (132566, 'tmdb_show'), (130138, 'tmdb_show'), (126783, 'tmdb_show'), (125956, 'tmdb_show'), (112076, 'tmdb_show'), (93801, 'tmdb_show')] |
-[2022-11-06 12:45:57,905] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:45:58,040] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 129277                                                |
-[2022-11-06 12:45:58,262] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138955                                                |
-[2022-11-06 12:45:58,361] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 103404                                                |
-[2022-11-06 12:45:58,513] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213463                                                |
-[2022-11-06 12:45:58,618] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208953                                                |
-[2022-11-06 12:45:58,732] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 126390                                                |
-[2022-11-06 12:45:58,999] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205155                                                |
-[2022-11-06 12:45:59,129] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197373                                                |
-[2022-11-06 12:45:59,253] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116619                                                |
-[2022-11-06 12:45:59,362] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 132635                                                |
-[2022-11-06 12:45:59,463] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212136                                                |
-[2022-11-06 12:45:59,569] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208943                                                |
-[2022-11-06 12:45:59,680] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157478                                                |
-[2022-11-06 12:45:59,795] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157435                                                |
-[2022-11-06 12:45:59,910] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157432                                                |
-[2022-11-06 12:46:00,018] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 134934                                                |
-[2022-11-06 12:46:00,131] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 130138                                                |
-[2022-11-06 12:46:00,247] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112076                                                |
-[2022-11-06 12:46:00,372] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93801                                                 |
-[2022-11-06 12:46:00,372] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2022-11-06 12:46:00,372] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Peacock Collection                                               |
-[2022-11-06 12:46:00,373] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-06 12:46:00,373] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Peacock ================================|
-[2022-11-06 12:46:00,373] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-06 12:46:00,650] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Vampire Academy (TVDB: 403187)                                            |
-[2022-11-06 12:46:02,075] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Days of Our Lives (TVDB: 70366)                                           |
-[2022-11-06 12:46:02,303] [builder.py:1982]           [INFO]     | Peacock Collection | ? | One of Us Is Lying (TVDB: 380210)                                         |
-[2022-11-06 12:46:02,543] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dan Brown's The Lost Symbol (TVDB: 365190)                                |
-[2022-11-06 12:46:03,355] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Curious George (TVDB: 79429)                                              |
-[2022-11-06 12:46:03,600] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Bel-Air (TVDB: 388151)                                                    |
-[2022-11-06 12:46:03,842] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Croods: Family Tree (TVDB: 409654)                                    |
-[2022-11-06 12:46:04,126] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dragons: The Nine Realms (TVDB: 411408)                                   |
-[2022-11-06 12:46:04,466] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Madagascar: A Little Wild (TVDB: 387162)                                  |
-[2022-11-06 12:46:04,697] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Departure (TVDB: 365676)                                                  |
-[2022-11-06 12:46:04,892] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dr. Death (TVDB: 371929)                                                  |
-[2022-11-06 12:46:05,236] [builder.py:1982]           [INFO]     | Peacock Collection | ? | A.P. Bio (TVDB: 328534)                                                   |
-[2022-11-06 12:46:05,443] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Brave New World (2020) (TVDB: 359606)                                     |
-[2022-11-06 12:46:05,683] [builder.py:1982]           [INFO]     | Peacock Collection | ? | A Friend of the Family (TVDB: 417373)                                     |
-[2022-11-06 12:46:05,950] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Love Island (US) (TVDB: 364107)                                           |
-[2022-11-06 12:46:06,196] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Trolls: TrollsTopia (TVDB: 391482)                                        |
-[2022-11-06 12:46:06,396] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Last Light (TVDB: 410143)                                                 |
-[2022-11-06 12:46:06,635] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE NXT: Level Up (TVDB: 416501)                                          |
-[2022-11-06 12:46:06,892] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Saved by the Bell (2020) (TVDB: 380213)                                   |
-[2022-11-06 12:46:07,081] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Calling (TVDB: 411867)                                                |
-[2022-11-06 12:46:07,292] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Queer as Folk (2022) (TVDB: 400733)                                       |
-[2022-11-06 12:46:07,459] [builder.py:1982]           [INFO]     | Peacock Collection | ? | John Wayne Gacy: Devil in Disguise (TVDB: 397046)                         |
-[2022-11-06 12:46:07,705] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Resort (TVDB: 404179)                                                 |
-[2022-11-06 12:46:07,966] [builder.py:1982]           [INFO]     | Peacock Collection | ? | MacGruber (TVDB: 386669)                                                  |
-[2022-11-06 12:46:08,132] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Wolf Like Me (TVDB: 401966)                                               |
-[2022-11-06 12:46:08,299] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE Evil (TVDB: 403088)                                                   |
-[2022-11-06 12:46:08,489] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Continental (TVDB: 414734)                                            |
-[2022-11-06 12:46:08,690] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Angelyne (TVDB: 380209)                                                   |
-[2022-11-06 12:46:08,874] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Pitch Perfect: Bumper in Berlin (TVDB: 363895)                            |
-[2022-11-06 12:46:09,171] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Where's Waldo? (2019) (TVDB: 367041)                                      |
-[2022-11-06 12:46:09,355] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Irreverent (TVDB: 410475)                                                 |
-[2022-11-06 12:46:09,569] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Mighty Ones (TVDB: 389305)                                            |
-[2022-11-06 12:46:09,779] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Abominable and the Invisible City (TVDB: 416373)                          |
-[2022-11-06 12:46:09,954] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE: The SmackDown LowDown (TVDB: 421428)                                 |
-[2022-11-06 12:46:10,166] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Cleopatra in Space (TVDB: 373167)                                         |
-[2022-11-06 12:46:10,341] [builder.py:1982]           [INFO]     | Peacock Collection | ? | ‘Til Jail Do Us Part (TVDB: 380216)                                       |
-[2022-11-06 12:46:10,650] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Girls5eva (TVDB: 380218)                                                  |
-[2022-11-06 12:46:10,891] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Real Housewives Ultimate Girls Trip (TVDB: 409671)                    |
-[2022-11-06 12:46:11,138] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Amber Ruffin Show (TVDB: 380214)                                      |
-[2022-11-06 12:46:11,453] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Men In Blazers Show (TVDB: 335243)                                    |
-[2022-11-06 12:46:11,634] [builder.py:1982]           [INFO]     | Peacock Collection | ? | New Year's Eve with Carson Daly (TVDB: 265327)                            |
-[2022-11-06 12:46:11,800] [builder.py:1982]           [INFO]     | Peacock Collection | ? | I Love You, You Hate Me (TVDB: 424001)                                    |
-[2022-11-06 12:46:12,150] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Real Housewives of Miami (TVDB: 228691)                               |
-[2022-11-06 12:46:12,358] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Supernatural Academy (TVDB: 413164)                                       |
-[2022-11-06 12:46:12,543] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Olympic Highlights with Kevin Hart and Snoop Dogg (TVDB: 405914)          |
-[2022-11-06 12:46:12,766] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Rutherford Falls (TVDB: 380211)                                           |
-[2022-11-06 12:46:12,950] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE This is Awesome (TVDB: 422762)                                        |
-[2022-11-06 12:46:13,154] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Girl in the Woods (TVDB: 401975)                                      |
-[2022-11-06 12:46:13,353] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Poker Face (TVDB: 398822)                                                 |
-[2022-11-06 12:46:13,572] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Joe vs. Carole (TVDB: 405727)                                             |
-[2022-11-06 12:46:13,762] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Bust Down (TVDB: 404474)                                                  |
-[2022-11-06 12:46:14,008] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Hart to Heart (TVDB: 380219)                                              |
-[2022-11-06 12:46:14,268] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Below Deck Down Under (TVDB: 402811)                                      |
-[2022-11-06 12:46:14,594] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Days of Our Lives: Beyond Salem (TVDB: 407484)                            |
-[2022-11-06 12:46:14,830] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Punky Brewster (2021) (TVDB: 380300)                                      |
-[2022-11-06 12:46:15,013] [builder.py:1982]           [INFO]     | Peacock Collection | ? | So Dumb It's Criminal hosted by Snoop Dogg (TVDB: 419188)                 |
-[2022-11-06 12:46:15,225] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Wilmore (TVDB: 387995)                                                    |
-[2022-11-06 12:46:15,436] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Paris in Love (TVDB: 411864)                                              |
-[2022-11-06 12:46:15,625] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Connecting... (TVDB: 387567)                                              |
-[2022-11-06 12:46:15,797] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Twisted Metal (TVDB: 366532)                                              |
-[2022-11-06 12:46:15,976] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Killing It (TVDB: 415696)                                                 |
-[2022-11-06 12:46:16,145] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Unidentified with Demi Lovato (TVDB: 402603)                              |
-[2022-11-06 12:46:16,305] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Preaching Evil: A Wife on the Run with Warren Jeffs (TVDB: 418673)        |
-[2022-11-06 12:46:16,482] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Crystal Lake (TVDB: 426669)                                               |
-[2022-11-06 12:46:16,678] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dr. Death: The Undoctored Story (TVDB: 407043)                            |
-[2022-11-06 12:46:16,883] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Baking It (TVDB: 402814)                                                  |
-[2022-11-06 12:46:17,060] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dateline: The Last Day (TVDB: 421245)                                     |
-[2022-11-06 12:46:17,264] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Lost Speedways (TVDB: 382349)                                             |
-[2022-11-06 12:46:17,493] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Epstein's Shadow: Ghislaine Maxwell (TVDB: 403500)                        |
-[2022-11-06 12:46:17,680] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Golden: The Journey of USA's Elite Gymnasts (TVDB: 401419)                |
-[2022-11-06 12:46:17,886] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Perfect World: A Deadly Game (TVDB: 417639)                               |
-[2022-11-06 12:46:18,066] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The End Is Nye (TVDB: 421396)                                             |
-[2022-11-06 12:46:18,234] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Shadowland (TVDB: 424000)                                                 |
-[2022-11-06 12:46:18,430] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Kids Tonight Show (TVDB: 380222)                                      |
-[2022-11-06 12:46:18,638] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Top Chef Family Style (TVDB: 402813)                                      |
-[2022-11-06 12:46:18,815] [builder.py:1982]           [INFO]     | Peacock Collection | ? | True Story with Ed and Randall (TVDB: 413412)                             |
-[2022-11-06 12:46:19,012] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Hillside Strangler: Devil in Disguise (TVDB: 423017)                  |
-[2022-11-06 12:46:19,172] [builder.py:1982]           [INFO]     | Peacock Collection | ? | In The Know (TVDB: 425129)                                                |
-[2022-11-06 12:46:19,340] [builder.py:1982]           [INFO]     | Peacock Collection | ? | American Rock Stars (TVDB: 415210)                                        |
-[2022-11-06 12:46:19,494] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Sins Of The Amish (TVDB: 418674)                                          |
-[2022-11-06 12:46:19,664] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Monster in the Shadows (TVDB: 408824)                                     |
-[2022-11-06 12:46:19,848] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Meddling (TVDB: 414349)                                                   |
-[2022-11-06 12:46:20,029] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Joe Montana: Cool Under Pressure (TVDB: 413868)                           |
-[2022-11-06 12:46:20,218] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Earnin' It: The NFL's Forward Progress (TVDB: 415139)                     |
-[2022-11-06 12:46:20,422] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Ex-Rated (TVDB: 408858)                                                   |
-[2022-11-06 12:46:20,633] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Create the Escape (TVDB: 401100)                                          |
-[2022-11-06 12:46:20,822] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Mrs. Davis (TVDB: 403623)                                                 |
-[2022-11-06 12:46:21,006] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Take Note (TVDB: 404698)                                                  |
-[2022-11-06 12:46:21,178] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Frogger (2021) (TVDB: 397499)                                             |
-[2022-11-06 12:46:21,359] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Vanderpump Dogs (TVDB: 404095)                                            |
-[2022-11-06 12:46:21,523] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Siwas Dance Pop Revolution (TVDB: 412184)                                 |
-[2022-11-06 12:46:21,523] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-06 12:46:21,524] [builder.py:1987]           [INFO]     | 91 Shows Missing                                                                                   |
-[2022-11-06 12:46:22,084] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 12:46:22,084] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:46:22,085] [util.py:216]               [INFO]     |                                    Finished Peacock Collection                                     |
-[2022-11-06 12:46:22,085] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:25                                    |
-[2022-11-06 12:46:22,085] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:20:40,972] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:20:40,972] [util.py:216]               [INFO]     |                                   Peacock Collection in TV Shows                                   |
+[2022-11-23 02:20:40,973] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:20:40,973] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 02:20:40,973] [util.py:216]               [INFO]     |================================== Validating Peacock Attributes ===================================|
+[2022-11-23 02:20:40,973] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:40,974] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 02:20:40,974] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 3353), ('poster', 'https://theposterdb.com/api/assets/205411')]) |
+[2022-11-23 02:20:40,974] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:40,974] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-23 02:20:40,975] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-23 02:20:40,975] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:40,975] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 02:20:40,975] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 02:20:40,975] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:40,976] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-23 02:20:40,976] [builder.py:474]            [DEBUG]    | Value: 3353                                                                                        |
+[2022-11-23 02:20:41,126] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:41,126] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 02:20:41,126] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/205411                                                   |
+[2022-11-23 02:20:41,126] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:41,127] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 02:20:41,127] [builder.py:474]            [DEBUG]    | Value: +2_Peacock                                                                                  |
+[2022-11-23 02:20:41,130] [plex.py:687]               [DEBUG]    | Looking for: Peacock                                                                               |
+[2022-11-23 02:20:41,130] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 02:20:41,130] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 02:20:41,131] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 02:20:41,131] [util.py:216]               [INFO]     |==================================== Running Peacock Collection ====================================|
+[2022-11-23 02:20:41,131] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 02:20:41,132] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-23 02:20:41,132] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:41,132] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 3353                                                                        |
+[2022-11-23 02:20:41,132] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 02:20:42,056] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (3353) Peacock (114 Shows)                                                |
+[2022-11-23 02:20:42,057] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:42,057] [builder.py:1283]           [DEBUG]    | 114 IDs Found: [(125940, 'tmdb_show'), (881, 'tmdb_show'), (118958, 'tmdb_show'), (136322, 'tmdb_show'), (107365, 'tmdb_show'), (120452, 'tmdb_show'), (132559, 'tmdb_show'), (136748, 'tmdb_show'), (656, 'tmdb_show'), (214188, 'tmdb_show'), (156332, 'tmdb_show'), (91552, 'tmdb_show'), (93289, 'tmdb_show'), (109330, 'tmdb_show'), (93749, 'tmdb_show'), (204349, 'tmdb_show'), (71737, 'tmdb_show'), (90521, 'tmdb_show'), (157756, 'tmdb_show'), (113378, 'tmdb_show'), (213372, 'tmdb_show'), (156473, 'tmdb_show'), (156989, 'tmdb_show'), (197434, 'tmdb_show'), (93825, 'tmdb_show'), (194728, 'tmdb_show'), (134967, 'tmdb_show'), (121718, 'tmdb_show'), (136738, 'tmdb_show'), (195821, 'tmdb_show'), (157433, 'tmdb_show'), (93751, 'tmdb_show'), (138955, 'tmdb_show'), (107314, 'tmdb_show'), (105349, 'tmdb_show'), (34268, 'tmdb_show'), (109957, 'tmdb_show'), (129277, 'tmdb_show'), (100350, 'tmdb_show'), (203417, 'tmdb_show'), (200986, 'tmdb_show'), (135187, 'tmdb_show'), (105348, 'tmdb_show'), (129899, 'tmdb_show'), (112063, 'tmdb_show'), (136105, 'tmdb_show'), (72710, 'tmdb_show'), (93748, 'tmdb_show'), (153268, 'tmdb_show'), (139004, 'tmdb_show'), (95192, 'tmdb_show'), (120998, 'tmdb_show'), (125506, 'tmdb_show'), (153682, 'tmdb_show'), (197801, 'tmdb_show'), (129915, 'tmdb_show'), (103404, 'tmdb_show'), (109814, 'tmdb_show'), (123810, 'tmdb_show'), (134180, 'tmdb_show'), (156878, 'tmdb_show'), (213463, 'tmdb_show'), (156575, 'tmdb_show'), (211188, 'tmdb_show'), (209738, 'tmdb_show'), (134355, 'tmdb_show'), (207037, 'tmdb_show'), (214862, 'tmdb_show'), (128393, 'tmdb_show'), (130060, 'tmdb_show'), (109608, 'tmdb_show'), (205155, 'tmdb_show'), (158241, 'tmdb_show'), (130074, 'tmdb_show'), (127562, 'tmdb_show'), (213562, 'tmdb_show'), (210684, 'tmdb_show'), (208943, 'tmdb_show'), (133748, 'tmdb_show'), (206763, 'tmdb_show'), (133215, 'tmdb_show'), (155343, 'tmdb_show'), (125956, 'tmdb_show'), (126390, 'tmdb_show'), (137678, 'tmdb_show'), (116619, 'tmdb_show'), (197373, 'tmdb_show'), (126783, 'tmdb_show'), (158547, 'tmdb_show'), (201779, 'tmdb_show'), (154878, 'tmdb_show'), (133059, 'tmdb_show'), (132635, 'tmdb_show'), (134934, 'tmdb_show'), (132185, 'tmdb_show'), (112076, 'tmdb_show'), (105344, 'tmdb_show'), (206382, 'tmdb_show'), (208953, 'tmdb_show'), (155989, 'tmdb_show'), (199960, 'tmdb_show'), (132566, 'tmdb_show'), (155990, 'tmdb_show'), (212136, 'tmdb_show'), (197548, 'tmdb_show'), (195257, 'tmdb_show'), (157478, 'tmdb_show'), (157435, 'tmdb_show'), (157432, 'tmdb_show'), (133962, 'tmdb_show'), (130138, 'tmdb_show'), (93801, 'tmdb_show'), (22617, 'tmdb_show'), (214955, 'tmdb_show')] |
+[2022-11-23 02:20:42,057] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:20:42,330] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138955                                                |
+[2022-11-23 02:20:42,443] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 129277                                                |
+[2022-11-23 02:20:42,567] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 103404                                                |
+[2022-11-23 02:20:42,718] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213463                                                |
+[2022-11-23 02:20:42,939] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205155                                                |
+[2022-11-23 02:20:43,096] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208943                                                |
+[2022-11-23 02:20:43,206] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 126390                                                |
+[2022-11-23 02:20:43,313] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 116619                                                |
+[2022-11-23 02:20:43,419] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197373                                                |
+[2022-11-23 02:20:43,527] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 132635                                                |
+[2022-11-23 02:20:43,638] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 134934                                                |
+[2022-11-23 02:20:43,740] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112076                                                |
+[2022-11-23 02:20:43,848] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208953                                                |
+[2022-11-23 02:20:43,956] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212136                                                |
+[2022-11-23 02:20:44,072] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195257                                                |
+[2022-11-23 02:20:44,193] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157478                                                |
+[2022-11-23 02:20:44,303] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157435                                                |
+[2022-11-23 02:20:44,411] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157432                                                |
+[2022-11-23 02:20:44,538] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 130138                                                |
+[2022-11-23 02:20:44,641] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93801                                                 |
+[2022-11-23 02:20:44,753] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 214955                                                |
+[2022-11-23 02:20:44,754] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2022-11-23 02:20:44,754] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for Peacock Collection                                               |
+[2022-11-23 02:20:44,754] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-23 02:20:44,754] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Peacock ================================|
+[2022-11-23 02:20:44,755] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-23 02:20:45,021] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Vampire Academy (TVDB: 403187)                                            |
+[2022-11-23 02:20:46,477] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Days of Our Lives (TVDB: 70366)                                           |
+[2022-11-23 02:20:46,800] [builder.py:1982]           [INFO]     | Peacock Collection | ? | One of Us Is Lying (TVDB: 380210)                                         |
+[2022-11-23 02:20:47,113] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dragons: The Nine Realms (TVDB: 411408)                                   |
+[2022-11-23 02:20:47,404] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Bel-Air (TVDB: 388151)                                                    |
+[2022-11-23 02:20:47,668] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dan Brown's The Lost Symbol (TVDB: 365190)                                |
+[2022-11-23 02:20:47,928] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Croods: Family Tree (TVDB: 409654)                                    |
+[2022-11-23 02:20:48,149] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Leopard Skin (TVDB: 396783)                                               |
+[2022-11-23 02:20:48,869] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Curious George (TVDB: 79429)                                              |
+[2022-11-23 02:20:49,073] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dangerous Breed: Crime. Cons. Cats. (TVDB: 427414)                        |
+[2022-11-23 02:20:49,294] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Pitch Perfect: Bumper in Berlin (TVDB: 363895)                            |
+[2022-11-23 02:20:49,544] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Departure (TVDB: 365676)                                                  |
+[2022-11-23 02:20:49,752] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Brave New World (2020) (TVDB: 359606)                                     |
+[2022-11-23 02:20:50,085] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Madagascar: A Little Wild (TVDB: 387162)                                  |
+[2022-11-23 02:20:50,277] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dr. Death (TVDB: 371929)                                                  |
+[2022-11-23 02:20:50,492] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE: The SmackDown LowDown (TVDB: 421428)                                 |
+[2022-11-23 02:20:50,872] [builder.py:1982]           [INFO]     | Peacock Collection | ? | A.P. Bio (TVDB: 328534)                                                   |
+[2022-11-23 02:20:51,187] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Love Island (US) (TVDB: 364107)                                           |
+[2022-11-23 02:20:51,438] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE NXT: Level Up (TVDB: 416501)                                          |
+[2022-11-23 02:20:51,735] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Trolls: TrollsTopia (TVDB: 391482)                                        |
+[2022-11-23 02:20:52,030] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Men In Blazers Show (TVDB: 335243)                                    |
+[2022-11-23 02:20:52,245] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Calling (TVDB: 411867)                                                |
+[2022-11-23 02:20:52,424] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Irreverent (TVDB: 410475)                                                 |
+[2022-11-23 02:20:52,635] [builder.py:1982]           [INFO]     | Peacock Collection | ? | A Friend of the Family (TVDB: 417373)                                     |
+[2022-11-23 02:20:52,881] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Saved by the Bell (2020) (TVDB: 380213)                                   |
+[2022-11-23 02:20:53,204] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Resort (TVDB: 404179)                                                 |
+[2022-11-23 02:20:53,420] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Queer as Folk (2022) (TVDB: 400733)                                       |
+[2022-11-23 02:20:53,590] [builder.py:1982]           [INFO]     | Peacock Collection | ? | John Wayne Gacy: Devil in Disguise (TVDB: 397046)                         |
+[2022-11-23 02:20:53,760] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Wolf Like Me (TVDB: 401966)                                               |
+[2022-11-23 02:20:53,952] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Last Light (TVDB: 410143)                                                 |
+[2022-11-23 02:20:54,144] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Abominable and the Invisible City (TVDB: 416373)                          |
+[2022-11-23 02:20:54,328] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Angelyne (TVDB: 380209)                                                   |
+[2022-11-23 02:20:54,539] [builder.py:1982]           [INFO]     | Peacock Collection | ? | MacGruber (TVDB: 386669)                                                  |
+[2022-11-23 02:20:54,750] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Cleopatra in Space (TVDB: 373167)                                         |
+[2022-11-23 02:20:55,018] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Real Housewives of Miami (TVDB: 228691)                               |
+[2022-11-23 02:20:55,264] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Amber Ruffin Show (TVDB: 380214)                                      |
+[2022-11-23 02:20:55,492] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Girls5eva (TVDB: 380218)                                                  |
+[2022-11-23 02:20:55,658] [builder.py:1982]           [INFO]     | Peacock Collection | ? | ‘Til Jail Do Us Part (TVDB: 380216)                                       |
+[2022-11-23 02:20:55,848] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dateline: The Last Day (TVDB: 421245)                                     |
+[2022-11-23 02:20:56,042] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Girl in the Woods (TVDB: 401975)                                      |
+[2022-11-23 02:20:56,282] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Where's Waldo? (2019) (TVDB: 367041)                                      |
+[2022-11-23 02:20:56,549] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Days of Our Lives: Beyond Salem (TVDB: 407484)                            |
+[2022-11-23 02:20:56,804] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Mighty Ones (TVDB: 389305)                                            |
+[2022-11-23 02:20:57,066] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Real Housewives Ultimate Girls Trip (TVDB: 409671)                    |
+[2022-11-23 02:20:57,258] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Continental (TVDB: 414734)                                            |
+[2022-11-23 02:20:57,494] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Rutherford Falls (TVDB: 380211)                                           |
+[2022-11-23 02:20:57,695] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Supernatural Academy (TVDB: 413164)                                       |
+[2022-11-23 02:20:57,916] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Baking It (TVDB: 402814)                                                  |
+[2022-11-23 02:20:58,128] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Punky Brewster (2021) (TVDB: 380300)                                      |
+[2022-11-23 02:20:58,309] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Poker Face (TVDB: 398822)                                                 |
+[2022-11-23 02:20:58,514] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Below Deck Down Under (TVDB: 402811)                                      |
+[2022-11-23 02:20:58,693] [builder.py:1982]           [INFO]     | Peacock Collection | ? | True Story with Ed and Randall (TVDB: 413412)                             |
+[2022-11-23 02:20:58,885] [builder.py:1982]           [INFO]     | Peacock Collection | ? | So Dumb It's Criminal hosted by Snoop Dogg (TVDB: 419188)                 |
+[2022-11-23 02:20:59,082] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Hart to Heart (TVDB: 380219)                                              |
+[2022-11-23 02:20:59,271] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Wilmore (TVDB: 387995)                                                    |
+[2022-11-23 02:20:59,471] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Joe vs. Carole (TVDB: 405727)                                             |
+[2022-11-23 02:20:59,644] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE Evil (TVDB: 403088)                                                   |
+[2022-11-23 02:20:59,841] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Killing It (TVDB: 415696)                                                 |
+[2022-11-23 02:21:00,018] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Bust Down (TVDB: 404474)                                                  |
+[2022-11-23 02:21:00,185] [builder.py:1982]           [INFO]     | Peacock Collection | ? | I Love You, You Hate Me (TVDB: 424001)                                    |
+[2022-11-23 02:21:00,359] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Shadowland (TVDB: 424000)                                                 |
+[2022-11-23 02:21:00,526] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Kids Tonight Show (TVDB: 380222)                                      |
+[2022-11-23 02:21:00,748] [builder.py:1982]           [INFO]     | Peacock Collection | ? | WWE This is Awesome (TVDB: 422762)                                        |
+[2022-11-23 02:21:00,917] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Casey Anthony: Where The Truth Lies (TVDB: 426969)                        |
+[2022-11-23 02:21:01,094] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Golden: The Journey of USA's Elite Gymnasts (TVDB: 401419)                |
+[2022-11-23 02:21:01,269] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Olympic Highlights with Kevin Hart and Snoop Dogg (TVDB: 405914)          |
+[2022-11-23 02:21:01,458] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Connecting... (TVDB: 387567)                                              |
+[2022-11-23 02:21:01,636] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Take Note (TVDB: 404698)                                                  |
+[2022-11-23 02:21:01,859] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Dr. Death: The Undoctored Story (TVDB: 407043)                            |
+[2022-11-23 02:21:02,033] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Epstein's Shadow: Ghislaine Maxwell (TVDB: 403500)                        |
+[2022-11-23 02:21:02,199] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Crystal Lake (TVDB: 426669)                                               |
+[2022-11-23 02:21:02,355] [builder.py:1982]           [INFO]     | Peacock Collection | ? | In The Know (TVDB: 425129)                                                |
+[2022-11-23 02:21:02,514] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Twisted Metal (TVDB: 366532)                                              |
+[2022-11-23 02:21:02,686] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The End Is Nye (TVDB: 421396)                                             |
+[2022-11-23 02:21:02,895] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Unidentified with Demi Lovato (TVDB: 402603)                              |
+[2022-11-23 02:21:03,070] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Meddling (TVDB: 414349)                                                   |
+[2022-11-23 02:21:03,232] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Siwas Dance Pop Revolution (TVDB: 412184)                                 |
+[2022-11-23 02:21:03,422] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Paris in Love (TVDB: 411864)                                              |
+[2022-11-23 02:21:03,599] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Vanderpump Dogs (TVDB: 404095)                                            |
+[2022-11-23 02:21:03,764] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Perfect World: A Deadly Game (TVDB: 417639)                               |
+[2022-11-23 02:21:03,934] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Sins Of The Amish (TVDB: 418674)                                          |
+[2022-11-23 02:21:04,131] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Joe Montana: Cool Under Pressure (TVDB: 413868)                           |
+[2022-11-23 02:21:04,337] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Top Chef Family Style (TVDB: 402813)                                      |
+[2022-11-23 02:21:04,542] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Monster in the Shadows (TVDB: 408824)                                     |
+[2022-11-23 02:21:04,721] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Lost Speedways (TVDB: 382349)                                             |
+[2022-11-23 02:21:04,886] [builder.py:1982]           [INFO]     | Peacock Collection | ? | The Hillside Strangler: Devil in Disguise (TVDB: 423017)                  |
+[2022-11-23 02:21:05,055] [builder.py:1982]           [INFO]     | Peacock Collection | ? | American Rock Stars (TVDB: 415210)                                        |
+[2022-11-23 02:21:05,476] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Preaching Evil: A Wife on the Run with Warren Jeffs (TVDB: 418673)        |
+[2022-11-23 02:21:05,649] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Frogger (2021) (TVDB: 397499)                                             |
+[2022-11-23 02:21:05,811] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Earnin' It: The NFL's Forward Progress (TVDB: 415139)                     |
+[2022-11-23 02:21:05,968] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Mrs. Davis (TVDB: 403623)                                                 |
+[2022-11-23 02:21:06,170] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Create the Escape (TVDB: 401100)                                          |
+[2022-11-23 02:21:06,385] [builder.py:1982]           [INFO]     | Peacock Collection | ? | Ex-Rated (TVDB: 408858)                                                   |
+[2022-11-23 02:21:06,386] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-23 02:21:06,386] [builder.py:1987]           [INFO]     | 93 Shows Missing                                                                                   |
+[2022-11-23 02:21:06,954] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 02:21:06,955] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:21:06,955] [util.py:216]               [INFO]     |                                    Finished Peacock Collection                                     |
+[2022-11-23 02:21:06,955] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2022-11-23 02:21:06,956] [util.py:220]               [INFO]     |====================================================================================================|

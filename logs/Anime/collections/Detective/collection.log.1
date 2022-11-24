@@ -1,56 +1,56 @@
-[2022-11-06 01:12:39,128] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:12:39,128] [util.py:216]               [INFO]     |                                   Detective Collection in Anime                                    |
-[2022-11-06 01:12:39,128] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 01:12:39,129] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 01:12:39,152] [util.py:216]               [INFO]     |================================= Validating Detective Attributes ==================================|
-[2022-11-06 01:12:39,153] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,153] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 01:12:39,153] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 39), ('poster', 'https://theposterdb.com/api/assets/240149')]) |
-[2022-11-06 01:12:39,153] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,154] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 01:12:39,154] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 01:12:39,154] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,154] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 01:12:39,154] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-06 01:12:39,155] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,155] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-06 01:12:39,155] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 39, 'limit': 999}                                                              |
-[2022-11-06 01:12:39,155] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,156] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 01:12:39,156] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240149                                                   |
-[2022-11-06 01:12:39,156] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,156] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 01:12:39,157] [builder.py:474]            [DEBUG]    | Value: +++_Detective                                                                               |
-[2022-11-06 01:12:39,157] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,157] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-06 01:12:39,157] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-06 01:12:39,160] [plex.py:687]               [DEBUG]    | Looking for: Detective                                                                             |
-[2022-11-06 01:12:39,160] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 01:12:39,161] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 01:12:39,161] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 01:12:39,161] [util.py:216]               [INFO]     |=================================== Running Detective Collection ===================================|
-[2022-11-06 01:12:39,161] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 01:12:39,162] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 01:12:39,162] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:39,162] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 39, 'limit': 999}                                                 |
-[2022-11-06 01:12:39,162] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 01:12:39,163] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 39                                                                |
-[2022-11-06 01:12:41,324] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-06 01:12:41,325] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-06 01:12:41,325] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-06 01:12:41,325] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-06 01:12:41,325] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-06 01:12:41,326] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-06 01:12:41,326] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-06 01:12:41,326] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-06 01:12:41,326] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-06 01:12:41,326] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-06 01:12:41,327] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-06 01:12:41,327] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 39                        |
-[2022-11-06 01:12:41,327] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-06 01:12:41,327] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 39                                             |
-[2022-11-06 01:12:41,328] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 01:12:41,328] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 01:12:41,328] [util.py:216]               [INFO]     |                                   Finished Detective Collection                                    |
-[2022-11-06 01:12:41,329] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-06 01:12:41,329] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-22 01:21:41,135] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-22 01:21:41,136] [util.py:216]               [INFO]     |                                   Detective Collection in Anime                                    |
+[2022-11-22 01:21:41,136] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-22 01:21:41,137] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-22 01:21:41,137] [util.py:216]               [INFO]     |================================= Validating Detective Attributes ==================================|
+[2022-11-22 01:21:41,137] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,137] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-22 01:21:41,138] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 39), ('poster', 'https://theposterdb.com/api/assets/240149')]) |
+[2022-11-22 01:21:41,138] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,138] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-22 01:21:41,138] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-22 01:21:41,139] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,139] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-22 01:21:41,139] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-22 01:21:41,139] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,139] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
+[2022-11-22 01:21:41,139] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 39, 'limit': 999}                                                              |
+[2022-11-22 01:21:41,140] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,140] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-22 01:21:41,140] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240149                                                   |
+[2022-11-22 01:21:41,140] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,140] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-22 01:21:41,141] [builder.py:474]            [DEBUG]    | Value: +++_Detective                                                                               |
+[2022-11-22 01:21:41,141] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,141] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2022-11-22 01:21:41,141] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-22 01:21:41,144] [plex.py:687]               [DEBUG]    | Looking for: Detective                                                                             |
+[2022-11-22 01:21:41,144] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-22 01:21:41,145] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-22 01:21:41,145] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-22 01:21:41,145] [util.py:216]               [INFO]     |=================================== Running Detective Collection ===================================|
+[2022-11-22 01:21:41,145] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-22 01:21:41,146] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-22 01:21:41,146] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:41,146] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 39, 'limit': 999}                                                 |
+[2022-11-22 01:21:41,147] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-22 01:21:41,147] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 39                                                                |
+[2022-11-22 01:21:43,321] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2022-11-22 01:21:43,322] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
+[2022-11-22 01:21:43,322] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
+[2022-11-22 01:21:43,322] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
+[2022-11-22 01:21:43,322] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
+[2022-11-22 01:21:43,323] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
+[2022-11-22 01:21:43,323] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
+[2022-11-22 01:21:43,323] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
+[2022-11-22 01:21:43,323] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
+[2022-11-22 01:21:43,323] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
+[2022-11-22 01:21:43,324] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
+[2022-11-22 01:21:43,324] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 39                        |
+[2022-11-22 01:21:43,324] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2022-11-22 01:21:43,324] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 39                                             |
+[2022-11-22 01:21:43,324] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-22 01:21:43,325] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-22 01:21:43,325] [util.py:216]               [INFO]     |                                   Finished Detective Collection                                    |
+[2022-11-22 01:21:43,325] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-22 01:21:43,326] [util.py:220]               [INFO]     |====================================================================================================|

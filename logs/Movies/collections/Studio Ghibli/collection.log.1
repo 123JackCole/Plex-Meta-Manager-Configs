@@ -1,77 +1,87 @@
-[2022-11-07 00:10:18,424] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:10:18,424] [util.py:216]               [INFO]     |                                 Studio Ghibli Collection in Movies                                 |
-[2022-11-07 00:10:18,425] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-07 00:10:18,425] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,425] [util.py:216]               [INFO]     |=============================== Validating Studio Ghibli Attributes ================================|
-[2022-11-07 00:10:18,426] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,426] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-07 00:10:18,426] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Studio Ghibli'), ('poster', 'https://theposterdb.com/api/assets/32223')]) |
-[2022-11-07 00:10:18,427] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,427] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-07 00:10:18,427] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-07 00:10:18,428] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,428] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-07 00:10:18,428] [builder.py:474]            [DEBUG]    | Value: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. |
-[2022-11-07 00:10:18,428] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,428] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-07 00:10:18,429] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-07 00:10:18,429] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,429] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-07 00:10:18,430] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Studio Ghibli'}                                                                 |
-[2022-11-07 00:10:18,430] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,430] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-07 00:10:18,430] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/32223                                                    |
-[2022-11-07 00:10:18,431] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,431] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-07 00:10:18,431] [builder.py:474]            [DEBUG]    | Value: 00000e_Studio Ghibli                                                                        |
-[2022-11-07 00:10:18,602] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,602] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-07 00:10:18,603] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,603] [util.py:216]               [INFO]     |================================= Running Studio Ghibli Collection =================================|
-[2022-11-07 00:10:18,603] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,604] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-07 00:10:18,604] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,604] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Studio Ghibli', '?type=1&sort=titleSort&push=1&studio=Studio%20Ghibli&pop=1') |
-[2022-11-07 00:10:18,604] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,605] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-07 00:10:18,605] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-07 00:10:18,605] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-07 00:10:18,606] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-07 00:10:18,606] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-07 00:10:18,606] [util.py:161]               [INFO]     |       Studio contains Studio Ghibli                                                                |
-[2022-11-07 00:10:18,643] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,644] [plex.py:749]               [DEBUG]    | 13 Keys Found: [(99018, 'ratingKey'), (100167, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100527, 'ratingKey'), (102159, 'ratingKey'), (102330, 'ratingKey')] |
-[2022-11-07 00:10:18,644] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,644] [builder.py:1283]           [DEBUG]    | 13 IDs Found: [(99018, 'ratingKey'), (100167, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100527, 'ratingKey'), (102159, 'ratingKey'), (102330, 'ratingKey')] |
-[2022-11-07 00:10:18,644] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:10:18,840] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,841] [util.py:216]               [INFO]     |================================ Adding to Studio Ghibli Collection ================================|
-[2022-11-07 00:10:18,841] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,841] [builder.py:1709]           [INFO]     |  1/13 | Studio Ghibli Collection | = | Castle in the Sky (1986)                                    |
-[2022-11-07 00:10:18,842] [builder.py:1709]           [INFO]     |  2/13 | Studio Ghibli Collection | = | From Up on Poppy Hill (2011)                                |
-[2022-11-07 00:10:18,842] [builder.py:1709]           [INFO]     |  3/13 | Studio Ghibli Collection | = | Grave of the Fireflies (1988)                               |
-[2022-11-07 00:10:18,842] [builder.py:1709]           [INFO]     |  4/13 | Studio Ghibli Collection | = | Howl's Moving Castle (2004)                                 |
-[2022-11-07 00:10:18,843] [builder.py:1709]           [INFO]     |  5/13 | Studio Ghibli Collection | = | Kiki's Delivery Service (1989)                              |
-[2022-11-07 00:10:18,843] [builder.py:1709]           [INFO]     |  6/13 | Studio Ghibli Collection | = | My Neighbor Totoro (1988)                                   |
-[2022-11-07 00:10:18,843] [builder.py:1709]           [INFO]     |  7/13 | Studio Ghibli Collection | = | My Neighbors the Yamadas (1999)                             |
-[2022-11-07 00:10:18,844] [builder.py:1709]           [INFO]     |  8/13 | Studio Ghibli Collection | = | Ocean Waves (1993)                                          |
-[2022-11-07 00:10:18,844] [builder.py:1709]           [INFO]     |  9/13 | Studio Ghibli Collection | = | Only Yesterday (1991)                                       |
-[2022-11-07 00:10:18,844] [builder.py:1709]           [INFO]     | 10/13 | Studio Ghibli Collection | = | Pom Poko (1994)                                             |
-[2022-11-07 00:10:18,844] [builder.py:1709]           [INFO]     | 11/13 | Studio Ghibli Collection | = | Porco Rosso (1992)                                          |
-[2022-11-07 00:10:18,845] [builder.py:1709]           [INFO]     | 12/13 | Studio Ghibli Collection | = | Spirited Away (2001)                                        |
-[2022-11-07 00:10:18,846] [builder.py:1709]           [INFO]     | 13/13 | Studio Ghibli Collection | = | Tales from Earthsea (2006)                                  |
-[2022-11-07 00:10:18,846] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,846] [builder.py:1735]           [INFO]     | 13 Movies Processed                                                                                |
-[2022-11-07 00:10:18,850] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,851] [util.py:216]               [INFO]     |=========================== Updating Details of Studio Ghibli Collection ===========================|
-[2022-11-07 00:10:18,851] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-07 00:10:18,851] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-07 00:10:18,852] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-07 00:10:18,852] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/32223                                |
-[2022-11-07 00:10:18,853] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-07 00:10:18,854] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-07 00:10:19,010] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-07 00:10:19,011] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:10:19,011] [util.py:216]               [INFO]     |                                 Finished Studio Ghibli Collection                                  |
-[2022-11-07 00:10:19,011] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-07 00:10:19,012] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-22 01:10:32,386] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-22 01:10:32,387] [util.py:216]               [INFO]     |                                 Studio Ghibli Collection in Movies                                 |
+[2022-11-22 01:10:32,387] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-22 01:10:32,388] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,388] [util.py:216]               [INFO]     |=============================== Validating Studio Ghibli Attributes ================================|
+[2022-11-22 01:10:32,388] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,389] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-22 01:10:32,389] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Studio Ghibli'), ('poster', 'https://theposterdb.com/api/assets/32223')]) |
+[2022-11-22 01:10:32,389] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,389] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-22 01:10:32,390] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-22 01:10:32,390] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,390] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-22 01:10:32,390] [builder.py:474]            [DEBUG]    | Value: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. |
+[2022-11-22 01:10:32,390] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,391] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-22 01:10:32,391] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-22 01:10:32,391] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,391] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-22 01:10:32,392] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Studio Ghibli'}                                                                 |
+[2022-11-22 01:10:32,392] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,392] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-22 01:10:32,392] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/32223                                                    |
+[2022-11-22 01:10:32,393] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,393] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-22 01:10:32,393] [builder.py:474]            [DEBUG]    | Value: 00000e_Studio Ghibli                                                                        |
+[2022-11-22 01:10:32,562] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,562] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-22 01:10:32,563] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,563] [util.py:216]               [INFO]     |================================= Running Studio Ghibli Collection =================================|
+[2022-11-22 01:10:32,563] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,564] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-22 01:10:32,564] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,564] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Studio Ghibli', '?type=1&sort=titleSort&push=1&studio=Studio%20Ghibli&pop=1') |
+[2022-11-22 01:10:32,564] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2022-11-22 01:10:32,566] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
+[2022-11-22 01:10:32,566] [util.py:161]               [INFO]     |       Studio contains Studio Ghibli                                                                |
+[2022-11-22 01:10:32,618] [plex.py:748]               [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,619] [plex.py:749]               [DEBUG]    | 23 Keys Found: [(99018, 'ratingKey'), (121295, 'ratingKey'), (121083, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (100355, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100356, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100339, 'ratingKey'), (100527, 'ratingKey'), (101717, 'ratingKey'), (105933, 'ratingKey'), (102159, 'ratingKey'), (101947, 'ratingKey'), (102330, 'ratingKey'), (100913, 'ratingKey'), (100915, 'ratingKey'), (102172, 'ratingKey')] |
+[2022-11-22 01:10:32,619] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,619] [builder.py:1283]           [DEBUG]    | 23 IDs Found: [(99018, 'ratingKey'), (121295, 'ratingKey'), (121083, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (100355, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100356, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100339, 'ratingKey'), (100527, 'ratingKey'), (101717, 'ratingKey'), (105933, 'ratingKey'), (102159, 'ratingKey'), (101947, 'ratingKey'), (102330, 'ratingKey'), (100913, 'ratingKey'), (100915, 'ratingKey'), (102172, 'ratingKey')] |
+[2022-11-22 01:10:32,619] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-22 01:10:32,935] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,935] [util.py:216]               [INFO]     |================================ Adding to Studio Ghibli Collection ================================|
+[2022-11-22 01:10:32,936] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:32,936] [builder.py:1709]           [INFO]     |  1/23 | Studio Ghibli Collection | = | Castle in the Sky (1986)                                    |
+[2022-11-22 01:10:32,936] [builder.py:1709]           [INFO]     |  2/23 | Studio Ghibli Collection | + | The Cat Returns (2002)                                      |
+[2022-11-22 01:10:33,091] [builder.py:1709]           [INFO]     |  3/23 | Studio Ghibli Collection | = | From Up on Poppy Hill (2011)                                |
+[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  4/23 | Studio Ghibli Collection | = | Grave of the Fireflies (1988)                               |
+[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  5/23 | Studio Ghibli Collection | = | Howl's Moving Castle (2004)                                 |
+[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  6/23 | Studio Ghibli Collection | = | Kiki's Delivery Service (1989)                              |
+[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  7/23 | Studio Ghibli Collection | = | Lupin the Third: The Castle of Cagliostro (1979)            |
+[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  8/23 | Studio Ghibli Collection | = | My Neighbor Totoro (1988)                                   |
+[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  9/23 | Studio Ghibli Collection | = | My Neighbors the Yamadas (1999)                             |
+[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 10/23 | Studio Ghibli Collection | = | Nausicaä of the Valley of the Wind (1984)                   |
+[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 11/23 | Studio Ghibli Collection | = | Ocean Waves (1993)                                          |
+[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 12/23 | Studio Ghibli Collection | = | Only Yesterday (1991)                                       |
+[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 13/23 | Studio Ghibli Collection | = | Pom Poko (1994)                                             |
+[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 14/23 | Studio Ghibli Collection | = | Ponyo (2008)                                                |
+[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 15/23 | Studio Ghibli Collection | = | Porco Rosso (1992)                                          |
+[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 16/23 | Studio Ghibli Collection | = | Princess Mononoke (1997)                                    |
+[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 17/23 | Studio Ghibli Collection | = | The Secret World of Arrietty (2010)                         |
+[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 18/23 | Studio Ghibli Collection | = | Spirited Away (2001)                                        |
+[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 19/23 | Studio Ghibli Collection | = | The Tale of The Princess Kaguya (2013)                      |
+[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 20/23 | Studio Ghibli Collection | = | Tales from Earthsea (2006)                                  |
+[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 21/23 | Studio Ghibli Collection | = | When Marnie Was There (2014)                                |
+[2022-11-22 01:10:33,098] [builder.py:1709]           [INFO]     | 22/23 | Studio Ghibli Collection | = | Whisper of the Heart (1995)                                 |
+[2022-11-22 01:10:33,098] [builder.py:1709]           [INFO]     | 23/23 | Studio Ghibli Collection | = | The Wind Rises (2013)                                       |
+[2022-11-22 01:10:33,098] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:33,098] [builder.py:1735]           [INFO]     | 23 Movies Processed                                                                                |
+[2022-11-22 01:10:33,103] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:33,103] [util.py:216]               [INFO]     |=========================== Updating Details of Studio Ghibli Collection ===========================|
+[2022-11-22 01:10:33,103] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-22 01:10:33,103] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-22 01:10:33,104] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-22 01:10:33,104] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/32223                                |
+[2022-11-22 01:10:33,104] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-22 01:10:33,937] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/32223                |
+[2022-11-22 01:10:34,117] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-22 01:10:34,118] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-22 01:10:34,118] [util.py:216]               [INFO]     |                                 Finished Studio Ghibli Collection                                  |
+[2022-11-22 01:10:34,118] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2022-11-22 01:10:34,119] [util.py:220]               [INFO]     |====================================================================================================|

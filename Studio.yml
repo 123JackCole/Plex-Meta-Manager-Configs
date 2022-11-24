@@ -1,10 +1,11 @@
 templates:
     Studio:
-        plex_search:
-          studio: <<studio>>
+        optional:
+          - company
+        tmdb_company: <<company>>
         url_poster: <<poster>>
         sort_title: 00000e_<<collection_name>>
-        collection_order: alpha
+        collection_order: release
 collections:
 
 ###########################
@@ -12,43 +13,52 @@ collections:
 ###########################
 
   Aardman:
-    template: {name: Studio, studio: Aardman, poster: https://theposterdb.com/api/assets/26074}
+    template: {name: Studio, company: 297, poster: https://theposterdb.com/api/assets/26074}
     summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
     radarr_add_missing: true
-  Studio Ghibli:
-    template: {name: Studio, studio: "Studio Ghibli", poster: https://theposterdb.com/api/assets/32223}
-    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
-    radarr_add_missing: true
+  Blue Sky Animation:
+    template: {name: Studio, company: 9383, poster: https://theposterdb.com/poster/33753}
+    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
   DC Extended Universe:
-    template: {name: Studio, studio: "DC Extended Universe", poster: https://theposterdb.com/api/assets/92689}
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/92689}
+    trakt_list: https://trakt.tv/users/donxy/lists/dc-extended-universe
     summary: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. 
     radarr_add_missing: true
-  Marvel Cinematic Universe:
-    template: {name: Studio, studio: "Marvel Studios, Marvel Enterprise, Marvel Entertainment", poster: https://theposterdb.com/api/assets/5912}
-    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023).
-    radarr_add_missing: true
-  Blue Sky Animation:
-    template: {name: Studio, studio: "Blue Sky Animation", poster: https://theposterdb.com/poster/33753}
-    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
   DreamWorks:
-    template: {name: Studio, studio: "DreamWorks Animation, DreamWorks Pictures", poster: https://theposterdb.com/api/assets/52723}
+    template: {name: Studio, company: 521, poster: https://theposterdb.com/api/assets/52723}
+    filters:
+      collection.not: Aardman
     summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
   Illumination Entertainment:
-    template: {name: Studio, studio: "Illumination Entertainment", poster: https://theposterdb.com/api/assets/8158}
+    template: {name: Studio, company: 6704, poster: https://theposterdb.com/api/assets/8158}
     summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+  Laika:
+    template: {name: Studio, company: 11537, poster: https://theposterdb.com/api/assets/290124}
+    summary: Laika is an American stop-motion animation studio specializing in feature films, commercial content for all media, music videos, and short films. The studio is best known for its stop-motion feature films Coraline, ParaNorman, The Boxtrolls, Kubo and the Two Strings and Missing Link.
+    radarr_add_missing: true
+  Marvel Cinematic Universe:
+    template: {name: Studio, company: "Marvel Studios, Marvel Enterprise, Marvel Entertainment", poster: https://theposterdb.com/api/assets/5912}
+    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023).
+    radarr_add_missing: true
   Pixar:
-    template: {name: Studio, studio: "Pixar", poster: https://theposterdb.com/api/assets/18894}
+    template: {name: Studio, company: 3, poster: https://theposterdb.com/api/assets/18894}
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
     radarr_add_missing: true
   Sony Pictures Animation:
-    template: {name: Studio, studio: "Sony Pictures, Sony Pictures Television", poster: https://theposterdb.com/api/assets/131749}
+    template: {name: Studio, company: 2251, poster: https://theposterdb.com/api/assets/131749}
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+  Studio Ghibli:
+    template: {name: Studio, company: 10342, poster: https://theposterdb.com/api/assets/32223}
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+    radarr_add_missing: true
+  Warner Bros.:
+    template: {name: Studio, company: 25120, poster: https://theposterdb.com/api/assets/47604}
+    summary: Warner Bros.is the third-oldest American movie studio in continuous operation, after Paramount Pictures was founded on May 8, 1912 as Famous Players Film Corporation, and Universal Studios founded on June 8, 1912. Warner Bros. incorporated on April 4, 1923.
   Walt Disney Animation Studios:
-    template: {name: Studio, studio: "Walt Disney Animation Studios", poster: https://theposterdb.com/api/assets/98903}
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/98903}
+    trakt_list: https://trakt.tv/users/asterlea/lists/walt-disney-animation-studios
     summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
   Walt Disney Pictures:
-    template: {name: Studio, studio: "Walt Disney Pictures", poster: https://theposterdb.com/api/assets/16549}
+    template: {name: Studio, poster: https://theposterdb.com/api/assets/16549}
+    trakt_list: https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2
     summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
-  Warner Bros.:
-    template: {name: Studio, studio: "Warner Bros. Pictures, Warner Animation Group, Warner Bros., Warner Bros. Animation, Warner Independent Pictures (WIP)", poster: https://theposterdb.com/api/assets/47604}
-    summary: Warner Bros.is the third-oldest American movie studio in continuous operation, after Paramount Pictures was founded on May 8, 1912 as Famous Players Film Corporation, and Universal Studios founded on June 8, 1912. Warner Bros. incorporated on April 4, 1923.

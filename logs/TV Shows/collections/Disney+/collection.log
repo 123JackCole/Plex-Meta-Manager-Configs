@@ -1,334 +1,335 @@
-[2022-11-06 12:23:48,938] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:23:48,938] [util.py:216]               [INFO]     |                                   Disney+ Collection in TV Shows                                   |
-[2022-11-06 12:23:48,938] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 12:23:48,939] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 12:23:48,939] [util.py:216]               [INFO]     |================================== Validating Disney+ Attributes ===================================|
-[2022-11-06 12:23:48,940] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:48,940] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-06 12:23:48,940] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '2739, 2919'), ('poster', 'https://theposterdb.com/api/assets/120939')]) |
-[2022-11-06 12:23:48,940] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:48,941] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-06 12:23:48,941] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-06 12:23:48,941] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:48,941] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-06 12:23:48,942] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-06 12:23:48,942] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:48,942] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2022-11-06 12:23:48,942] [builder.py:474]            [DEBUG]    | Value: 2739, 2919                                                                                  |
-[2022-11-06 12:23:49,234] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:49,235] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-06 12:23:49,235] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/120939                                                   |
-[2022-11-06 12:23:49,235] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:49,235] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-06 12:23:49,235] [builder.py:474]            [DEBUG]    | Value: +2_Disney+                                                                                  |
-[2022-11-06 12:23:49,300] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 12:23:49,300] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 12:23:49,300] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 12:23:49,301] [util.py:216]               [INFO]     |==================================== Running Disney+ Collection ====================================|
-[2022-11-06 12:23:49,301] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 12:23:49,301] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-06 12:23:49,302] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:49,302] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2739                                                                        |
-[2022-11-06 12:23:49,302] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 12:23:51,001] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2739) Disney+ (262 Shows)                                                |
-[2022-11-06 12:23:51,001] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:51,001] [builder.py:1283]           [DEBUG]    | 262 IDs Found: [(92783, 'tmdb_show'), (83867, 'tmdb_show'), (92749, 'tmdb_show'), (203085, 'tmdb_show'), (88329, 'tmdb_show'), (84958, 'tmdb_show'), (128384, 'tmdb_show'), (4194, 'tmdb_show'), (92782, 'tmdb_show'), (92830, 'tmdb_show'), (82856, 'tmdb_show'), (114502, 'tmdb_show'), (85271, 'tmdb_show'), (115036, 'tmdb_show'), (88396, 'tmdb_show'), (114695, 'tmdb_show'), (91363, 'tmdb_show'), (196749, 'tmdb_show'), (114138, 'tmdb_show'), (1508, 'tmdb_show'), (105971, 'tmdb_show'), (114466, 'tmdb_show'), (158307, 'tmdb_show'), (90461, 'tmdb_show'), (118924, 'tmdb_show'), (96716, 'tmdb_show'), (114621, 'tmdb_show'), (97186, 'tmdb_show'), (85801, 'tmdb_show'), (115304, 'tmdb_show'), (157161, 'tmdb_show'), (109930, 'tmdb_show'), (130372, 'tmdb_show'), (155631, 'tmdb_show'), (120734, 'tmdb_show'), (104359, 'tmdb_show'), (114503, 'tmdb_show'), (202017, 'tmdb_show'), (114463, 'tmdb_show'), (36189, 'tmdb_show'), (114501, 'tmdb_show'), (210229, 'tmdb_show'), (114478, 'tmdb_show'), (203741, 'tmdb_show'), (138505, 'tmdb_show'), (135894, 'tmdb_show'), (101978, 'tmdb_show'), (93786, 'tmdb_show'), (103540, 'tmdb_show'), (200945, 'tmdb_show'), (122053, 'tmdb_show'), (103465, 'tmdb_show'), (111837, 'tmdb_show'), (210345, 'tmdb_show'), (128876, 'tmdb_show'), (125438, 'tmdb_show'), (201897, 'tmdb_show'), (204667, 'tmdb_show'), (137872, 'tmdb_show'), (114465, 'tmdb_show'), (135895, 'tmdb_show'), (114505, 'tmdb_show'), (202188, 'tmdb_show'), (126484, 'tmdb_show'), (127241, 'tmdb_show'), (94761, 'tmdb_show'), (138501, 'tmdb_show'), (208336, 'tmdb_show'), (134297, 'tmdb_show'), (136135, 'tmdb_show'), (114472, 'tmdb_show'), (127700, 'tmdb_show'), (100802, 'tmdb_show'), (118906, 'tmdb_show'), (115996, 'tmdb_show'), (96715, 'tmdb_show'), (157202, 'tmdb_show'), (92824, 'tmdb_show'), (122226, 'tmdb_show'), (92807, 'tmdb_show'), (204070, 'tmdb_show'), (198109, 'tmdb_show'), (102693, 'tmdb_show'), (138502, 'tmdb_show'), (98566, 'tmdb_show'), (129902, 'tmdb_show'), (103822, 'tmdb_show'), (156866, 'tmdb_show'), (114461, 'tmdb_show'), (114471, 'tmdb_show'), (202018, 'tmdb_show'), (135211, 'tmdb_show'), (131836, 'tmdb_show'), (138503, 'tmdb_show'), (114105, 'tmdb_show'), (130996, 'tmdb_show'), (92524, 'tmdb_show'), (157215, 'tmdb_show'), (202210, 'tmdb_show'), (95029, 'tmdb_show'), (93268, 'tmdb_show'), (95731, 'tmdb_show'), (156868, 'tmdb_show'), (158900, 'tmdb_show'), (119069, 'tmdb_show'), (119026, 'tmdb_show'), (95632, 'tmdb_show'), (115991, 'tmdb_show'), (111815, 'tmdb_show'), (95738, 'tmdb_show'), (114841, 'tmdb_show'), (95339, 'tmdb_show'), (137871, 'tmdb_show'), (202555, 'tmdb_show'), (124734, 'tmdb_show'), (94883, 'tmdb_show'), (106899, 'tmdb_show'), (99874, 'tmdb_show'), (95313, 'tmdb_show'), (119060, 'tmdb_show'), (114479, 'tmdb_show'), (135720, 'tmdb_show'), (137437, 'tmdb_show'), (212294, 'tmdb_show'), (198189, 'tmdb_show'), (112132, 'tmdb_show'), (101699, 'tmdb_show'), (118904, 'tmdb_show'), (124958, 'tmdb_show'), (201285, 'tmdb_show'), (114464, 'tmdb_show'), (110119, 'tmdb_show'), (112486, 'tmdb_show'), (102845, 'tmdb_show'), (117985, 'tmdb_show'), (95432, 'tmdb_show'), (133637, 'tmdb_show'), (157210, 'tmdb_show'), (156837, 'tmdb_show'), (158520, 'tmdb_show'), (137043, 'tmdb_show'), (126794, 'tmdb_show'), (112804, 'tmdb_show'), (211301, 'tmdb_show'), (202162, 'tmdb_show'), (111442, 'tmdb_show'), (198178, 'tmdb_show'), (124965, 'tmdb_show'), (105157, 'tmdb_show'), (157205, 'tmdb_show'), (102847, 'tmdb_show'), (119063, 'tmdb_show'), (113129, 'tmdb_show'), (120907, 'tmdb_show'), (135615, 'tmdb_show'), (126485, 'tmdb_show'), (105229, 'tmdb_show'), (128188, 'tmdb_show'), (122047, 'tmdb_show'), (107634, 'tmdb_show'), (99884, 'tmdb_show'), (114480, 'tmdb_show'), (127573, 'tmdb_show'), (202209, 'tmdb_show'), (121183, 'tmdb_show'), (114462, 'tmdb_show'), (153784, 'tmdb_show'), (157194, 'tmdb_show'), (138492, 'tmdb_show'), (114500, 'tmdb_show'), (125462, 'tmdb_show'), (208921, 'tmdb_show'), (112514, 'tmdb_show'), (202879, 'tmdb_show'), (201076, 'tmdb_show'), (157004, 'tmdb_show'), (104287, 'tmdb_show'), (114476, 'tmdb_show'), (204640, 'tmdb_show'), (101097, 'tmdb_show'), (195292, 'tmdb_show'), (155592, 'tmdb_show'), (206800, 'tmdb_show'), (113879, 'tmdb_show'), (201838, 'tmdb_show'), (210213, 'tmdb_show'), (157198, 'tmdb_show'), (213375, 'tmdb_show'), (131433, 'tmdb_show'), (203749, 'tmdb_show'), (197294, 'tmdb_show'), (137430, 'tmdb_show'), (157212, 'tmdb_show'), (210704, 'tmdb_show'), (202998, 'tmdb_show'), (157199, 'tmdb_show'), (157160, 'tmdb_show'), (157200, 'tmdb_show'), (210315, 'tmdb_show'), (208920, 'tmdb_show'), (157569, 'tmdb_show'), (208851, 'tmdb_show'), (202208, 'tmdb_show'), (201203, 'tmdb_show'), (204353, 'tmdb_show'), (114024, 'tmdb_show'), (212423, 'tmdb_show'), (204136, 'tmdb_show'), (153577, 'tmdb_show'), (112605, 'tmdb_show'), (213668, 'tmdb_show'), (205179, 'tmdb_show'), (212250, 'tmdb_show'), (211036, 'tmdb_show'), (211020, 'tmdb_show'), (207311, 'tmdb_show'), (206017, 'tmdb_show'), (205482, 'tmdb_show'), (205210, 'tmdb_show'), (204362, 'tmdb_show'), (204332, 'tmdb_show'), (204324, 'tmdb_show'), (204137, 'tmdb_show'), (204135, 'tmdb_show'), (202782, 'tmdb_show'), (202360, 'tmdb_show'), (202212, 'tmdb_show'), (202190, 'tmdb_show'), (202187, 'tmdb_show'), (197454, 'tmdb_show'), (196308, 'tmdb_show'), (196214, 'tmdb_show'), (194573, 'tmdb_show'), (158902, 'tmdb_show'), (157211, 'tmdb_show'), (157207, 'tmdb_show'), (157204, 'tmdb_show'), (157201, 'tmdb_show'), (157197, 'tmdb_show'), (157195, 'tmdb_show'), (156929, 'tmdb_show'), (156616, 'tmdb_show'), (156610, 'tmdb_show'), (155683, 'tmdb_show'), (153272, 'tmdb_show'), (138764, 'tmdb_show'), (138498, 'tmdb_show'), (137062, 'tmdb_show'), (136522, 'tmdb_show'), (136396, 'tmdb_show'), (135240, 'tmdb_show'), (132503, 'tmdb_show'), (131835, 'tmdb_show'), (119130, 'tmdb_show'), (119068, 'tmdb_show'), (119066, 'tmdb_show'), (119064, 'tmdb_show'), (115999, 'tmdb_show'), (114820, 'tmdb_show'), (114481, 'tmdb_show'), (114023, 'tmdb_show'), (47907, 'tmdb_show')] |
-[2022-11-06 12:23:51,002] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:23:51,309] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210229                                                |
-[2022-11-06 12:23:51,437] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201897                                                |
-[2022-11-06 12:23:51,556] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114465                                                |
-[2022-11-06 12:23:51,930] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157215                                                |
-[2022-11-06 12:23:52,043] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 135720                                                |
-[2022-11-06 12:23:52,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212294                                                |
-[2022-11-06 12:23:52,258] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112132                                                |
-[2022-11-06 12:23:52,402] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112486                                                |
-[2022-11-06 12:23:52,509] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117985                                                |
-[2022-11-06 12:23:52,616] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 158520                                                |
-[2022-11-06 12:23:52,887] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211301                                                |
-[2022-11-06 12:23:52,993] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202162                                                |
-[2022-11-06 12:23:53,095] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 198178                                                |
-[2022-11-06 12:23:53,198] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105157                                                |
-[2022-11-06 12:23:53,314] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157205                                                |
-[2022-11-06 12:23:53,419] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 113129                                                |
-[2022-11-06 12:23:53,546] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 122047                                                |
-[2022-11-06 12:23:53,646] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 127573                                                |
-[2022-11-06 12:23:53,752] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121183                                                |
-[2022-11-06 12:23:53,853] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153784                                                |
-[2022-11-06 12:23:53,959] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157194                                                |
-[2022-11-06 12:23:54,063] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 125462                                                |
-[2022-11-06 12:23:54,190] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208921                                                |
-[2022-11-06 12:23:54,324] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204640                                                |
-[2022-11-06 12:23:54,439] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155592                                                |
-[2022-11-06 12:23:54,555] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206800                                                |
-[2022-11-06 12:23:54,658] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201838                                                |
-[2022-11-06 12:23:54,772] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210213                                                |
-[2022-11-06 12:23:54,886] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157198                                                |
-[2022-11-06 12:23:54,992] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213375                                                |
-[2022-11-06 12:23:55,102] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131433                                                |
-[2022-11-06 12:23:55,211] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203749                                                |
-[2022-11-06 12:23:55,311] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197294                                                |
-[2022-11-06 12:23:55,416] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 137430                                                |
-[2022-11-06 12:23:55,551] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157212                                                |
-[2022-11-06 12:23:55,677] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210704                                                |
-[2022-11-06 12:23:55,806] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157199                                                |
-[2022-11-06 12:23:55,909] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157160                                                |
-[2022-11-06 12:23:56,013] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157200                                                |
-[2022-11-06 12:23:56,112] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210315                                                |
-[2022-11-06 12:23:56,220] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208920                                                |
-[2022-11-06 12:23:56,329] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208851                                                |
-[2022-11-06 12:23:56,440] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202208                                                |
-[2022-11-06 12:23:56,566] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201203                                                |
-[2022-11-06 12:23:56,677] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204353                                                |
-[2022-11-06 12:23:56,805] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114024                                                |
-[2022-11-06 12:23:56,934] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212423                                                |
-[2022-11-06 12:23:57,066] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204136                                                |
-[2022-11-06 12:23:57,201] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153577                                                |
-[2022-11-06 12:23:57,307] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213668                                                |
-[2022-11-06 12:23:57,412] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205179                                                |
-[2022-11-06 12:23:57,530] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212250                                                |
-[2022-11-06 12:23:57,632] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211036                                                |
-[2022-11-06 12:23:57,736] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211020                                                |
-[2022-11-06 12:23:57,840] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207311                                                |
-[2022-11-06 12:23:57,947] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206017                                                |
-[2022-11-06 12:23:58,058] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205482                                                |
-[2022-11-06 12:23:58,157] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205210                                                |
-[2022-11-06 12:23:58,308] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204362                                                |
-[2022-11-06 12:23:58,439] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204332                                                |
-[2022-11-06 12:23:58,570] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204324                                                |
-[2022-11-06 12:23:58,684] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204137                                                |
-[2022-11-06 12:23:58,789] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204135                                                |
-[2022-11-06 12:23:58,896] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202360                                                |
-[2022-11-06 12:23:59,000] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202212                                                |
-[2022-11-06 12:23:59,107] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202190                                                |
-[2022-11-06 12:23:59,214] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202187                                                |
-[2022-11-06 12:23:59,313] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197454                                                |
-[2022-11-06 12:23:59,413] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 196308                                                |
-[2022-11-06 12:23:59,521] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 158902                                                |
-[2022-11-06 12:23:59,615] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157211                                                |
-[2022-11-06 12:23:59,731] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157207                                                |
-[2022-11-06 12:23:59,861] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157204                                                |
-[2022-11-06 12:23:59,990] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157201                                                |
-[2022-11-06 12:24:00,098] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157197                                                |
-[2022-11-06 12:24:00,195] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157195                                                |
-[2022-11-06 12:24:00,304] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156616                                                |
-[2022-11-06 12:24:00,408] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156610                                                |
-[2022-11-06 12:24:00,519] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155683                                                |
-[2022-11-06 12:24:00,620] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153272                                                |
-[2022-11-06 12:24:00,719] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138764                                                |
-[2022-11-06 12:24:00,819] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138498                                                |
-[2022-11-06 12:24:00,920] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 137062                                                |
-[2022-11-06 12:24:01,024] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 136522                                                |
-[2022-11-06 12:24:01,148] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 136396                                                |
-[2022-11-06 12:24:01,261] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 135240                                                |
-[2022-11-06 12:24:01,386] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 132503                                                |
-[2022-11-06 12:24:01,497] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131835                                                |
-[2022-11-06 12:24:01,597] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119130                                                |
-[2022-11-06 12:24:01,711] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119068                                                |
-[2022-11-06 12:24:01,825] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119066                                                |
-[2022-11-06 12:24:01,926] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119064                                                |
-[2022-11-06 12:24:02,037] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114023                                                |
-[2022-11-06 12:24:02,038] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:24:02,039] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2919                                                                        |
-[2022-11-06 12:24:02,039] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:02,281] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2919) unis.ca (7 Shows)                                                  |
-[2022-11-06 12:24:02,282] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:24:02,282] [builder.py:1283]           [DEBUG]    | 7 IDs Found: [(86243, 'tmdb_show'), (103690, 'tmdb_show'), (114676, 'tmdb_show'), (93671, 'tmdb_show'), (131302, 'tmdb_show'), (103008, 'tmdb_show'), (94383, 'tmdb_show')] |
-[2022-11-06 12:24:02,282] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:24:02,385] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 86243                                                 |
-[2022-11-06 12:24:02,489] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114676                                                |
-[2022-11-06 12:24:02,637] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93671                                                 |
-[2022-11-06 12:24:02,765] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131302                                                |
-[2022-11-06 12:24:02,870] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 103008                                                |
-[2022-11-06 12:24:02,972] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 94383                                                 |
-[2022-11-06 12:24:02,972] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:02,972] [util.py:216]               [INFO]     |=================================== Adding to Disney+ Collection ===================================|
-[2022-11-06 12:24:02,973] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:02,973] [builder.py:1709]           [INFO]     | 1/4 | Disney+ Collection | = | Andor                                                               |
-[2022-11-06 12:24:02,973] [builder.py:1709]           [INFO]     | 2/4 | Disney+ Collection | = | Loki                                                                |
-[2022-11-06 12:24:02,974] [builder.py:1709]           [INFO]     | 3/4 | Disney+ Collection | = | Obi-Wan Kenobi                                                      |
-[2022-11-06 12:24:02,974] [builder.py:1709]           [INFO]     | 4/4 | Disney+ Collection | = | The Mandalorian                                                     |
-[2022-11-06 12:24:02,974] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:02,975] [builder.py:1735]           [INFO]     | 4 Shows Processed                                                                                  |
-[2022-11-06 12:24:02,975] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:02,975] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Disney+ ================================|
-[2022-11-06 12:24:02,975] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:03,241] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | She-Hulk: Attorney at Law (TVDB: 368613)                                  |
-[2022-11-06 12:24:03,578] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Moon Knight (TVDB: 368611)                                                |
-[2022-11-06 12:24:03,787] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Tales of the Jedi (TVDB: 420659)                               |
-[2022-11-06 12:24:04,116] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Hawkeye (2021) (TVDB: 367146)                                             |
-[2022-11-06 12:24:04,349] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tierra Incógnita (TVDB: 423217)                                           |
-[2022-11-06 12:24:04,999] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: The Clone Wars (TVDB: 83268)                                   |
-[2022-11-06 12:24:05,278] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ms. Marvel (TVDB: 368612)                                                 |
-[2022-11-06 12:24:05,500] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Cars on the Road (TVDB: 412436)                                           |
-[2022-11-06 12:24:05,853] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | WandaVision (TVDB: 362392)                                                |
-[2022-11-06 12:24:06,120] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Book of Boba Fett (TVDB: 393589)                                      |
-[2022-11-06 12:24:06,497] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Falcon and The Winter Soldier (TVDB: 362496)                          |
-[2022-11-06 12:24:06,716] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Studios: Legends (TVDB: 393438)                                    |
-[2022-11-06 12:24:06,987] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | What If…? (TVDB: 367147)                                                  |
-[2022-11-06 12:24:07,174] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Quest (2022) (TVDB: 418549)                                           |
-[2022-11-06 12:24:07,353] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Daddies on Request (TVDB: 419528)                                         |
-[2022-11-06 12:24:08,043] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Dancing with the Stars (TVDB: 79590)                                      |
-[2022-11-06 12:24:08,433] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: The Bad Batch (TVDB: 385376)                                   |
-[2022-11-06 12:24:08,625] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Baymax! (TVDB: 393207)                                                    |
-[2022-11-06 12:24:08,901] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ice Age: Scrat Tales (TVDB: 416952)                                       |
-[2022-11-06 12:24:09,132] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Monsters at Work (TVDB: 362280)                                           |
-[2022-11-06 12:24:09,328] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Studios: Assembled (TVDB: 396948)                                  |
-[2022-11-06 12:24:09,597] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Big Shot (TVDB: 382154)                                                   |
-[2022-11-06 12:24:09,872] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Mighty Ducks: Game Changers (TVDB: 382153)                            |
-[2022-11-06 12:24:10,177] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Love, Victor (TVDB: 368188)                                               |
-[2022-11-06 12:24:10,470] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | High School Musical: The Musical: The Series (TVDB: 359728)               |
-[2022-11-06 12:24:10,697] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Intertwined (TVDB: 410659)                                                |
-[2022-11-06 12:24:10,898] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shadow Detective (TVDB: 425933)                                           |
-[2022-11-06 12:24:11,136] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Wonderful World of Mickey Mouse (TVDB: 388436)                        |
-[2022-11-06 12:24:11,374] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Doogie Kamealoha, M.D. (TVDB: 395130)                                     |
-[2022-11-06 12:24:11,574] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Santa Clauses (TVDB: 414682)                                          |
-[2022-11-06 12:24:11,746] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Just Beyond (TVDB: 382152)                                                |
-[2022-11-06 12:24:11,988] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Mysterious Benedict Society (TVDB: 387958)                            |
-[2022-11-06 12:24:12,198] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Turner & Hooch (TVDB: 393235)                                             |
-[2022-11-06 12:24:12,435] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Women in Taipei (TVDB: 425070)                                            |
-[2022-11-06 12:24:12,642] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Zootopia+ (TVDB: 393206)                                                  |
-[2022-11-06 12:24:12,941] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Boris (TVDB: 82276)                                                       |
-[2022-11-06 12:24:13,151] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Dug Days (TVDB: 393210)                                                   |
-[2022-11-06 12:24:13,387] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Visions (TVDB: 393190)                                         |
-[2022-11-06 12:24:13,598] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Between The World And Us (TVDB: 421064)                                   |
-[2022-11-06 12:24:13,796] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Zombies (TVDB: 412428)                                             |
-[2022-11-06 12:24:14,025] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Grid (TVDB: 415351)                                                       |
-[2022-11-06 12:24:14,247] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Gallery: The Mandalorian (TVDB: 380352)                            |
-[2022-11-06 12:24:14,477] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Right Stuff (TVDB: 362576)                                            |
-[2022-11-06 12:24:14,666] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Percy Jackson and the Olympians (TVDB: 415151)                            |
-[2022-11-06 12:24:14,877] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | May It Please The Court (TVDB: 424110)                                    |
-[2022-11-06 12:24:15,065] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | It Was Always Me (TVDB: 419312)                                           |
-[2022-11-06 12:24:15,270] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Into the Unknown: Making Frozen II (TVDB: 368114)                         |
-[2022-11-06 12:24:15,479] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Willow (TVDB: 393192)                                                     |
-[2022-11-06 12:24:15,688] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Sumo Do, Sumo Don't (TVDB: 426468)                                        |
-[2022-11-06 12:24:15,922] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Beatles: Get Back (TVDB: 405144)                                      |
-[2022-11-06 12:24:16,164] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Proud Family: Louder and Prouder (TVDB: 368206)                       |
-[2022-11-06 12:24:16,328] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Save Our Squad with David Beckham (TVDB: 401009)                          |
-[2022-11-06 12:24:16,558] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Soundtrack #1 (TVDB: 413010)                                              |
-[2022-11-06 12:24:16,762] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Kiss Sixth Sense (TVDB: 409595)                                           |
-[2022-11-06 12:24:17,013] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pixar Popcorn (TVDB: 393212)                                              |
-[2022-11-06 12:24:17,207] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Donna Hay Christmas (TVDB: 426551)                                        |
-[2022-11-06 12:24:17,409] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rookie Cops (TVDB: 398154)                                                |
-[2022-11-06 12:24:17,622] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Violetta: Favorite Moments (TVDB: 405737)                                 |
-[2022-11-06 12:24:17,856] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Diary of a Future President (TVDB: 368111)                                |
-[2022-11-06 12:24:18,072] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Agatha: Coven of Chaos (TVDB: 412429)                                     |
-[2022-11-06 12:24:18,240] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Revenge Of Others (TVDB: 424417)                                          |
-[2022-11-06 12:24:18,436] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Olaf Presents (TVDB: 404155)                                              |
-[2022-11-06 12:24:18,648] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The French Mans (TVDB: 417086)                                            |
-[2022-11-06 12:24:18,864] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Secret Invasion (TVDB: 393203)                                            |
-[2022-11-06 12:24:19,048] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Welcome to Earth (TVDB: 393216)                                           |
-[2022-11-06 12:24:19,222] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Insider (TVDB: 377938)                                             |
-[2022-11-06 12:24:19,417] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Parallels (TVDB: 396967)                                                  |
-[2022-11-06 12:24:19,594] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Limitless with Chris Hemsworth (TVDB: 393215)                             |
-[2022-11-06 12:24:19,847] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Chip ‘N’ Dale: Park Life (TVDB: 387210)                                   |
-[2022-11-06 12:24:20,047] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Super/Natural (TVDB: 423144)                                              |
-[2022-11-06 12:24:20,320] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Muppets Now (TVDB: 368781)                                                |
-[2022-11-06 12:24:20,518] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Echo (TVDB: 412431)                                                       |
-[2022-11-06 12:24:20,732] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The World According to Jeff Goldblum (TVDB: 362437)                       |
-[2022-11-06 12:24:20,891] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Because We Forget Everything (TVDB: 424838)                               |
-[2022-11-06 12:24:21,071] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Gallery: The Book of Boba Fett (TVDB: 419714)                      |
-[2022-11-06 12:24:21,249] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel's 616 (TVDB: 367227)                                               |
-[2022-11-06 12:24:21,504] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | X-Men '97 (TVDB: 412432)                                                  |
-[2022-11-06 12:24:21,691] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Short Circuit (TVDB: 376147)                                              |
-[2022-11-06 12:24:21,879] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | How to Stay at Home (TVDB: 407508)                                        |
-[2022-11-06 12:24:22,085] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Zenimation (TVDB: 382798)                                                 |
-[2022-11-06 12:24:22,305] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Ignorant Angels (TVDB: 396976)                                        |
-[2022-11-06 12:24:22,537] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ahsoka (TVDB: 393187)                                                     |
-[2022-11-06 12:24:22,726] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ironheart (TVDB: 393204)                                                  |
-[2022-11-06 12:24:22,957] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Small & Mighty (TVDB: 420934)                                             |
-[2022-11-06 12:24:23,121] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Galaxy of Sounds (TVDB: 410728)                                |
-[2022-11-06 12:24:23,297] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Wedding Season (TVDB: 423023)                                             |
-[2022-11-06 12:24:23,533] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Spider-Man: Freshman Year (TVDB: 412427)                                  |
-[2022-11-06 12:24:23,752] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | All the Same… or Not (TVDB: 404170)                                       |
-[2022-11-06 12:24:23,805] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 408631                              |
-[2022-11-06 12:24:24,015] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney's Fairy Tale Weddings (TVDB: 328616)                               |
-[2022-11-06 12:24:24,206] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Fearless: The Inside Story of the AFLW (TVDB: 423722)                     |
-[2022-11-06 12:24:24,453] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pixar In Real Life (TVDB: 371609)                                         |
-[2022-11-06 12:24:24,666] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | One Day at Disney Shorts (TVDB: 368581)                                   |
-[2022-11-06 12:24:24,838] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Magic of Disney’s Animal Kingdom (TVDB: 385800)                           |
-[2022-11-06 12:24:25,013] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Last One (TVDB: 415586)                                               |
-[2022-11-06 12:24:25,196] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Zone: Survival Mission (TVDB: 423226)                                 |
-[2022-11-06 12:24:25,379] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | That One Word – Feyenoord (TVDB: 404877)                                  |
-[2022-11-06 12:24:25,580] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Foodtastic (TVDB: 395974)                                                 |
-[2022-11-06 12:24:25,787] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pick of the Litter (TVDB: 369962)                                         |
-[2022-11-06 12:24:25,953] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | America the Beautiful (2022) (TVDB: 393227)                               |
-[2022-11-06 12:24:26,170] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Inside Pixar (TVDB: 391109)                                               |
-[2022-11-06 12:24:26,352] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Behind the Attraction (TVDB: 404205)                                      |
-[2022-11-06 12:24:26,533] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Blowing Kisses (TVDB: 389493)                                             |
-[2022-11-06 12:24:26,714] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Imagineering Story (TVDB: 371058)                                     |
-[2022-11-06 12:24:26,903] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Outrun by Running Man (TVDB: 412347)                                      |
-[2022-11-06 12:24:27,095] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Daredevil: Born Again (TVDB: 422712)                                      |
-[2022-11-06 12:24:27,285] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars Vehicle Flythroughs (TVDB: 402177)                              |
-[2022-11-06 12:24:27,508] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Earth to Ned (TVDB: 387006)                                               |
-[2022-11-06 12:24:27,707] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Secrets of the Whales (TVDB: 393225)                                      |
-[2022-11-06 12:24:27,887] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shop Class (TVDB: 376537)                                                 |
-[2022-11-06 12:24:28,064] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel's Hero Project (TVDB: 362439)                                      |
-[2022-11-06 12:24:28,246] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Oussekine (TVDB: 396963)                                                  |
-[2022-11-06 12:24:28,463] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: The Acolyte (TVDB: 393197)                                     |
-[2022-11-06 12:24:28,680] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | National Treasure: Edge of History (TVDB: 382210)                         |
-[2022-11-06 12:24:28,734] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 5885                                |
-[2022-11-06 12:24:28,904] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Prop Culture (TVDB: 379902)                                               |
-[2022-11-06 12:24:29,074] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Weekend Family (TVDB: 396965)                                             |
-[2022-11-06 12:24:29,233] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shipwreck Hunters Australia (TVDB: 425166)                                |
-[2022-11-06 12:24:29,402] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Light & Magic (TVDB: 419829)                                              |
-[2022-11-06 12:24:29,581] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tiana (TVDB: 393208)                                                      |
-[2022-11-06 12:24:29,753] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Meet the Chimps (TVDB: 388594)                                            |
-[2022-11-06 12:24:29,932] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | It's a Dog's Life With Bill Farmer (TVDB: 380281)                         |
-[2022-11-06 12:24:30,164] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Encore! (TVDB: 337854)                                                    |
-[2022-11-06 12:24:30,344] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Among the Stars (TVDB: 410155)                                            |
-[2022-11-06 12:24:30,508] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Growing Up (TVDB: 423775)                                                 |
-[2022-11-06 12:24:30,673] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Anita (Director’s Cut) (TVDB: 414315)                                     |
-[2022-11-06 12:24:30,844] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Connect (TVDB: 415190)                                                    |
-[2022-11-06 12:24:31,010] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Growing Up Animal (TVDB: 408873)                                          |
-[2022-11-06 12:24:31,175] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | On Pointe (TVDB: 391627)                                                  |
-[2022-11-06 12:24:31,683] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Knights of Castelcorvo (TVDB: 389554)                                 |
-[2022-11-06 12:24:31,898] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Turning the Tables with Robin Roberts (TVDB: 403377)                      |
-[2022-11-06 12:24:32,112] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Big Fib (TVDB: 380497)                                                |
-[2022-11-06 12:24:32,297] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Soprano: Sing or Die (TVDB: 396964)                                       |
-[2022-11-06 12:24:32,455] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Earth Moods (TVDB: 398721)                                                |
-[2022-11-06 12:24:32,617] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | American Born Chinese (TVDB: 410920)                                      |
-[2022-11-06 12:24:32,815] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | MOVING (2022) (TVDB: 411944)                                              |
-[2022-11-06 12:24:33,014] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rogue Trip (TVDB: 384217)                                                 |
-[2022-11-06 12:24:33,202] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Chorus: Success, Here I Go (TVDB: 412553)                             |
-[2022-11-06 12:24:33,378] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Becoming (TVDB: 387110)                                                   |
-[2022-11-06 12:24:33,572] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Family Sundays (TVDB: 372438)                                      |
-[2022-11-06 12:24:33,718] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: A Droid Story (TVDB: 393214)                                   |
-[2022-11-06 12:24:33,864] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Last Days of the Space Age (TVDB: 423036)                                 |
-[2022-11-06 12:24:34,063] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rangers of the New Republic (TVDB: 393188)                                |
-[2022-11-06 12:24:34,231] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Spiderwick Chronicles (TVDB: 412426)                                  |
-[2022-11-06 12:24:34,411] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Win or Lose (TVDB: 393242)                                                |
-[2022-11-06 12:24:34,596] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Latin America from Above (TVDB: 391329)                                   |
-[2022-11-06 12:24:34,756] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Skeleton Crew (TVDB: 420600)                                   |
-[2022-11-06 12:24:34,922] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Culprits (TVDB: 401146)                                                   |
-[2022-11-06 12:24:35,072] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Goosebumps (2022) (TVDB: 415840)                                          |
-[2022-11-06 12:24:35,289] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Weird But True! (TVDB: 386989)                                            |
-[2022-11-06 12:24:35,481] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Lando (TVDB: 393218)                                           |
-[2022-11-06 12:24:35,690] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Be Our Chef (TVDB: 367529)                                                |
-[2022-11-06 12:24:35,884] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Sketchbook (TVDB: 417862)                                                 |
-[2022-11-06 12:24:36,064] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Beyond the Clouds (2020) (TVDB: 392337)                                   |
-[2022-11-06 12:24:36,230] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Young Jedi Adventures (TVDB: 420658)                           |
-[2022-11-06 12:24:36,377] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Ballad of Renegade Nell (TVDB: 401145)                                |
-[2022-11-06 12:24:36,425] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 395860                              |
-[2022-11-06 12:24:36,600] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tarã (TVDB: 420547)                                                       |
-[2022-11-06 12:24:36,739] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Full Monty (TVDB: 418355)                                             |
-[2022-11-06 12:24:36,948] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Muppets Mayhem (TVDB: 417543)                                         |
-[2022-11-06 12:24:37,168] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | 4Ever (2022) (TVDB: 415742)                                               |
-[2022-11-06 12:24:37,309] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | A Real Bug's Life (TVDB: 393226)                                          |
-[2022-11-06 12:24:37,460] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Parks Sunrise Series (TVDB: 393993)                                |
-[2022-11-06 12:24:37,606] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Iwájú (TVDB: 393219)                                                      |
-[2022-11-06 12:24:37,746] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Extraordinary (TVDB: 401147)                                              |
-[2022-11-06 12:24:37,914] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Le temps des chenilles (TVDB: 387171)                                     |
-[2022-11-06 12:24:37,915] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:37,915] [builder.py:1987]           [INFO]     | 163 Shows Missing                                                                                  |
-[2022-11-06 12:24:38,233] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:38,233] [util.py:216]               [INFO]     |============================== Updating Details of Disney+ Collection ==============================|
-[2022-11-06 12:24:38,234] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-06 12:24:38,234] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-06 12:24:38,235] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/120939                               |
-[2022-11-06 12:24:38,235] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-06 12:24:38,236] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-06 12:24:38,297] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 12:24:38,297] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:24:38,298] [util.py:216]               [INFO]     |                                    Finished Disney+ Collection                                     |
-[2022-11-06 12:24:38,298] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:49                                    |
-[2022-11-06 12:24:38,298] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:58:02,883] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:58:02,883] [util.py:216]               [INFO]     |                                   Disney+ Collection in TV Shows                                   |
+[2022-11-23 01:58:02,883] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:58:02,884] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 01:58:02,884] [util.py:216]               [INFO]     |================================== Validating Disney+ Attributes ===================================|
+[2022-11-23 01:58:02,884] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:02,885] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 01:58:02,885] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '2739, 2919'), ('poster', 'https://theposterdb.com/api/assets/120939')]) |
+[2022-11-23 01:58:02,885] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:02,885] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2022-11-23 01:58:02,886] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2022-11-23 01:58:02,886] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:02,886] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 01:58:02,886] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 01:58:02,887] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:02,887] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2022-11-23 01:58:02,887] [builder.py:474]            [DEBUG]    | Value: 2739, 2919                                                                                  |
+[2022-11-23 01:58:03,119] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:03,120] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 01:58:03,120] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/120939                                                   |
+[2022-11-23 01:58:03,120] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:03,121] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 01:58:03,121] [builder.py:474]            [DEBUG]    | Value: +2_Disney+                                                                                  |
+[2022-11-23 01:58:03,189] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 01:58:03,190] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 01:58:03,190] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 01:58:03,191] [util.py:216]               [INFO]     |==================================== Running Disney+ Collection ====================================|
+[2022-11-23 01:58:03,191] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 01:58:03,191] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2022-11-23 01:58:03,191] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:03,192] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2739                                                                        |
+[2022-11-23 01:58:03,192] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:04,959] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2739) Disney+ (263 Shows)                                                |
+[2022-11-23 01:58:04,959] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:04,960] [builder.py:1283]           [DEBUG]    | 263 IDs Found: [(83867, 'tmdb_show'), (92783, 'tmdb_show'), (114463, 'tmdb_show'), (92749, 'tmdb_show'), (208336, 'tmdb_show'), (84958, 'tmdb_show'), (114695, 'tmdb_show'), (203085, 'tmdb_show'), (88329, 'tmdb_show'), (82856, 'tmdb_show'), (92782, 'tmdb_show'), (114502, 'tmdb_show'), (128384, 'tmdb_show'), (92830, 'tmdb_show'), (85271, 'tmdb_show'), (4194, 'tmdb_show'), (201897, 'tmdb_show'), (91363, 'tmdb_show'), (115036, 'tmdb_show'), (155631, 'tmdb_show'), (88396, 'tmdb_show'), (115996, 'tmdb_show'), (1508, 'tmdb_show'), (196749, 'tmdb_show'), (114138, 'tmdb_show'), (114621, 'tmdb_show'), (158307, 'tmdb_show'), (105971, 'tmdb_show'), (114466, 'tmdb_show'), (97186, 'tmdb_show'), (104359, 'tmdb_show'), (212294, 'tmdb_show'), (96716, 'tmdb_show'), (202017, 'tmdb_show'), (120734, 'tmdb_show'), (118924, 'tmdb_show'), (85801, 'tmdb_show'), (210229, 'tmdb_show'), (115304, 'tmdb_show'), (90461, 'tmdb_show'), (114503, 'tmdb_show'), (130372, 'tmdb_show'), (157161, 'tmdb_show'), (36189, 'tmdb_show'), (204667, 'tmdb_show'), (109930, 'tmdb_show'), (114501, 'tmdb_show'), (138505, 'tmdb_show'), (135895, 'tmdb_show'), (114478, 'tmdb_show'), (210345, 'tmdb_show'), (93786, 'tmdb_show'), (114465, 'tmdb_show'), (111837, 'tmdb_show'), (117985, 'tmdb_show'), (135894, 'tmdb_show'), (203741, 'tmdb_show'), (103465, 'tmdb_show'), (122053, 'tmdb_show'), (127241, 'tmdb_show'), (101978, 'tmdb_show'), (103540, 'tmdb_show'), (114472, 'tmdb_show'), (102693, 'tmdb_show'), (125438, 'tmdb_show'), (134297, 'tmdb_show'), (118906, 'tmdb_show'), (204070, 'tmdb_show'), (114505, 'tmdb_show'), (128876, 'tmdb_show'), (94761, 'tmdb_show'), (127700, 'tmdb_show'), (202018, 'tmdb_show'), (200945, 'tmdb_show'), (202555, 'tmdb_show'), (202188, 'tmdb_show'), (126484, 'tmdb_show'), (114461, 'tmdb_show'), (96715, 'tmdb_show'), (98566, 'tmdb_show'), (92807, 'tmdb_show'), (137872, 'tmdb_show'), (122047, 'tmdb_show'), (138501, 'tmdb_show'), (156868, 'tmdb_show'), (130996, 'tmdb_show'), (137437, 'tmdb_show'), (114471, 'tmdb_show'), (122226, 'tmdb_show'), (100802, 'tmdb_show'), (103822, 'tmdb_show'), (198109, 'tmdb_show'), (157202, 'tmdb_show'), (135211, 'tmdb_show'), (138502, 'tmdb_show'), (93268, 'tmdb_show'), (92824, 'tmdb_show'), (137043, 'tmdb_show'), (129902, 'tmdb_show'), (114841, 'tmdb_show'), (156866, 'tmdb_show'), (112486, 'tmdb_show'), (101699, 'tmdb_show'), (95339, 'tmdb_show'), (114105, 'tmdb_show'), (137871, 'tmdb_show'), (119060, 'tmdb_show'), (135720, 'tmdb_show'), (115991, 'tmdb_show'), (95731, 'tmdb_show'), (201285, 'tmdb_show'), (95632, 'tmdb_show'), (94883, 'tmdb_show'), (106899, 'tmdb_show'), (138503, 'tmdb_show'), (92524, 'tmdb_show'), (210213, 'tmdb_show'), (158900, 'tmdb_show'), (126794, 'tmdb_show'), (202210, 'tmdb_show'), (157215, 'tmdb_show'), (112804, 'tmdb_show'), (131836, 'tmdb_show'), (119063, 'tmdb_show'), (198189, 'tmdb_show'), (95738, 'tmdb_show'), (195292, 'tmdb_show'), (113879, 'tmdb_show'), (102845, 'tmdb_show'), (107634, 'tmdb_show'), (95029, 'tmdb_show'), (124958, 'tmdb_show'), (133637, 'tmdb_show'), (136135, 'tmdb_show'), (114464, 'tmdb_show'), (124965, 'tmdb_show'), (102847, 'tmdb_show'), (111815, 'tmdb_show'), (110119, 'tmdb_show'), (95313, 'tmdb_show'), (104287, 'tmdb_show'), (119069, 'tmdb_show'), (114462, 'tmdb_show'), (119026, 'tmdb_show'), (118904, 'tmdb_show'), (111442, 'tmdb_show'), (114479, 'tmdb_show'), (157210, 'tmdb_show'), (105229, 'tmdb_show'), (99884, 'tmdb_show'), (156837, 'tmdb_show'), (157205, 'tmdb_show'), (114476, 'tmdb_show'), (213668, 'tmdb_show'), (211301, 'tmdb_show'), (112605, 'tmdb_show'), (99874, 'tmdb_show'), (128188, 'tmdb_show'), (114480, 'tmdb_show'), (158520, 'tmdb_show'), (95432, 'tmdb_show'), (101097, 'tmdb_show'), (121183, 'tmdb_show'), (198178, 'tmdb_show'), (124734, 'tmdb_show'), (120907, 'tmdb_show'), (201838, 'tmdb_show'), (105157, 'tmdb_show'), (126485, 'tmdb_show'), (202209, 'tmdb_show'), (114024, 'tmdb_show'), (212250, 'tmdb_show'), (204353, 'tmdb_show'), (197294, 'tmdb_show'), (213375, 'tmdb_show'), (204362, 'tmdb_show'), (196214, 'tmdb_show'), (157204, 'tmdb_show'), (155592, 'tmdb_show'), (153272, 'tmdb_show'), (119064, 'tmdb_show'), (201076, 'tmdb_show'), (207311, 'tmdb_show'), (155683, 'tmdb_show'), (204332, 'tmdb_show'), (112132, 'tmdb_show'), (112514, 'tmdb_show'), (114820, 'tmdb_show'), (206017, 'tmdb_show'), (202879, 'tmdb_show'), (157194, 'tmdb_show'), (211020, 'tmdb_show'), (113129, 'tmdb_show'), (135615, 'tmdb_show'), (114481, 'tmdb_show'), (157004, 'tmdb_show'), (157569, 'tmdb_show'), (210315, 'tmdb_show'), (202782, 'tmdb_show'), (212423, 'tmdb_show'), (203749, 'tmdb_show'), (204136, 'tmdb_show'), (137062, 'tmdb_show'), (204137, 'tmdb_show'), (202187, 'tmdb_show'), (157200, 'tmdb_show'), (208920, 'tmdb_show'), (205482, 'tmdb_show'), (202162, 'tmdb_show'), (194573, 'tmdb_show'), (157199, 'tmdb_show'), (153577, 'tmdb_show'), (119130, 'tmdb_show'), (205179, 'tmdb_show'), (114500, 'tmdb_show'), (211036, 'tmdb_show'), (131433, 'tmdb_show'), (208851, 'tmdb_show'), (157212, 'tmdb_show'), (157160, 'tmdb_show'), (135240, 'tmdb_show'), (210704, 'tmdb_show'), (208921, 'tmdb_show'), (206800, 'tmdb_show'), (205210, 'tmdb_show'), (204640, 'tmdb_show'), (204324, 'tmdb_show'), (204135, 'tmdb_show'), (202998, 'tmdb_show'), (202360, 'tmdb_show'), (202212, 'tmdb_show'), (202208, 'tmdb_show'), (202190, 'tmdb_show'), (201203, 'tmdb_show'), (197454, 'tmdb_show'), (196308, 'tmdb_show'), (158902, 'tmdb_show'), (157211, 'tmdb_show'), (157207, 'tmdb_show'), (157201, 'tmdb_show'), (157198, 'tmdb_show'), (157197, 'tmdb_show'), (157195, 'tmdb_show'), (156929, 'tmdb_show'), (156616, 'tmdb_show'), (156610, 'tmdb_show'), (153784, 'tmdb_show'), (138764, 'tmdb_show'), (138498, 'tmdb_show'), (138492, 'tmdb_show'), (137430, 'tmdb_show'), (136522, 'tmdb_show'), (136396, 'tmdb_show'), (132503, 'tmdb_show'), (131835, 'tmdb_show'), (127573, 'tmdb_show'), (125462, 'tmdb_show'), (119068, 'tmdb_show'), (119066, 'tmdb_show'), (115999, 'tmdb_show'), (114023, 'tmdb_show'), (47907, 'tmdb_show'), (214891, 'tmdb_show')] |
+[2022-11-23 01:58:04,960] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:05,148] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201897                                                |
+[2022-11-23 01:58:05,273] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114465                                                |
+[2022-11-23 01:58:05,365] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117985                                                |
+[2022-11-23 01:58:05,487] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 122047                                                |
+[2022-11-23 01:58:05,607] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112486                                                |
+[2022-11-23 01:58:05,709] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 135720                                                |
+[2022-11-23 01:58:05,819] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210213                                                |
+[2022-11-23 01:58:05,937] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157205                                                |
+[2022-11-23 01:58:06,040] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 213668                                                |
+[2022-11-23 01:58:06,138] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211301                                                |
+[2022-11-23 01:58:06,240] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 158520                                                |
+[2022-11-23 01:58:06,332] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 121183                                                |
+[2022-11-23 01:58:06,440] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 198178                                                |
+[2022-11-23 01:58:06,542] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201838                                                |
+[2022-11-23 01:58:06,656] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105157                                                |
+[2022-11-23 01:58:06,766] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114024                                                |
+[2022-11-23 01:58:06,875] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212250                                                |
+[2022-11-23 01:58:06,982] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204353                                                |
+[2022-11-23 01:58:07,073] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197294                                                |
+[2022-11-23 01:58:07,177] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204362                                                |
+[2022-11-23 01:58:07,284] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157204                                                |
+[2022-11-23 01:58:07,392] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155592                                                |
+[2022-11-23 01:58:07,483] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153272                                                |
+[2022-11-23 01:58:07,589] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119064                                                |
+[2022-11-23 01:58:07,686] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 207311                                                |
+[2022-11-23 01:58:07,795] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 155683                                                |
+[2022-11-23 01:58:07,891] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204332                                                |
+[2022-11-23 01:58:07,984] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 112132                                                |
+[2022-11-23 01:58:08,091] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206017                                                |
+[2022-11-23 01:58:08,185] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157194                                                |
+[2022-11-23 01:58:08,288] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211020                                                |
+[2022-11-23 01:58:08,387] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 113129                                                |
+[2022-11-23 01:58:08,537] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210315                                                |
+[2022-11-23 01:58:08,669] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 212423                                                |
+[2022-11-23 01:58:08,797] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 203749                                                |
+[2022-11-23 01:58:08,895] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204136                                                |
+[2022-11-23 01:58:08,992] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 137062                                                |
+[2022-11-23 01:58:09,105] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204137                                                |
+[2022-11-23 01:58:09,201] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202187                                                |
+[2022-11-23 01:58:09,336] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157200                                                |
+[2022-11-23 01:58:09,473] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208920                                                |
+[2022-11-23 01:58:09,574] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205482                                                |
+[2022-11-23 01:58:09,676] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202162                                                |
+[2022-11-23 01:58:09,771] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157199                                                |
+[2022-11-23 01:58:09,875] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153577                                                |
+[2022-11-23 01:58:09,964] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119130                                                |
+[2022-11-23 01:58:10,059] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205179                                                |
+[2022-11-23 01:58:10,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 211036                                                |
+[2022-11-23 01:58:10,251] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131433                                                |
+[2022-11-23 01:58:10,360] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208851                                                |
+[2022-11-23 01:58:10,454] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157212                                                |
+[2022-11-23 01:58:10,559] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157160                                                |
+[2022-11-23 01:58:10,674] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 135240                                                |
+[2022-11-23 01:58:10,778] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 210704                                                |
+[2022-11-23 01:58:10,916] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 208921                                                |
+[2022-11-23 01:58:11,044] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206800                                                |
+[2022-11-23 01:58:11,133] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 205210                                                |
+[2022-11-23 01:58:11,229] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204640                                                |
+[2022-11-23 01:58:11,333] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204324                                                |
+[2022-11-23 01:58:11,433] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 204135                                                |
+[2022-11-23 01:58:11,658] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202360                                                |
+[2022-11-23 01:58:11,751] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202212                                                |
+[2022-11-23 01:58:11,866] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202208                                                |
+[2022-11-23 01:58:11,973] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 202190                                                |
+[2022-11-23 01:58:12,091] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 201203                                                |
+[2022-11-23 01:58:12,187] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 197454                                                |
+[2022-11-23 01:58:12,283] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 196308                                                |
+[2022-11-23 01:58:12,385] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 158902                                                |
+[2022-11-23 01:58:12,494] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157211                                                |
+[2022-11-23 01:58:12,595] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157207                                                |
+[2022-11-23 01:58:12,693] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157201                                                |
+[2022-11-23 01:58:12,802] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157198                                                |
+[2022-11-23 01:58:12,905] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157197                                                |
+[2022-11-23 01:58:13,028] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 157195                                                |
+[2022-11-23 01:58:13,141] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156616                                                |
+[2022-11-23 01:58:13,246] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156610                                                |
+[2022-11-23 01:58:13,383] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 153784                                                |
+[2022-11-23 01:58:13,486] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138764                                                |
+[2022-11-23 01:58:13,594] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138498                                                |
+[2022-11-23 01:58:13,697] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 137430                                                |
+[2022-11-23 01:58:13,793] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 136522                                                |
+[2022-11-23 01:58:13,897] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 136396                                                |
+[2022-11-23 01:58:13,996] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 132503                                                |
+[2022-11-23 01:58:14,087] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131835                                                |
+[2022-11-23 01:58:14,180] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 127573                                                |
+[2022-11-23 01:58:14,268] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 125462                                                |
+[2022-11-23 01:58:14,369] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119068                                                |
+[2022-11-23 01:58:14,472] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 119066                                                |
+[2022-11-23 01:58:14,573] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114023                                                |
+[2022-11-23 01:58:14,674] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 214891                                                |
+[2022-11-23 01:58:14,675] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:14,675] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2919                                                                        |
+[2022-11-23 01:58:14,675] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:14,893] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2919) unis.ca (7 Shows)                                                  |
+[2022-11-23 01:58:14,894] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:14,894] [builder.py:1283]           [DEBUG]    | 7 IDs Found: [(114676, 'tmdb_show'), (93671, 'tmdb_show'), (86243, 'tmdb_show'), (131302, 'tmdb_show'), (103690, 'tmdb_show'), (103008, 'tmdb_show'), (94383, 'tmdb_show')] |
+[2022-11-23 01:58:14,894] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:58:14,991] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 114676                                                |
+[2022-11-23 01:58:15,090] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93671                                                 |
+[2022-11-23 01:58:15,210] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 86243                                                 |
+[2022-11-23 01:58:15,329] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 131302                                                |
+[2022-11-23 01:58:15,439] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 103008                                                |
+[2022-11-23 01:58:15,540] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 94383                                                 |
+[2022-11-23 01:58:15,541] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:15,541] [util.py:216]               [INFO]     |=================================== Adding to Disney+ Collection ===================================|
+[2022-11-23 01:58:15,541] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:15,541] [builder.py:1709]           [INFO]     | 1/7 | Disney+ Collection | = | Andor                                                               |
+[2022-11-23 01:58:15,542] [builder.py:1709]           [INFO]     | 2/7 | Disney+ Collection | = | Star Wars: Tales of the Jedi                                        |
+[2022-11-23 01:58:15,542] [builder.py:1709]           [INFO]     | 3/7 | Disney+ Collection | = | The Mandalorian                                                     |
+[2022-11-23 01:58:15,542] [builder.py:1709]           [INFO]     | 4/7 | Disney+ Collection | = | Obi-Wan Kenobi                                                      |
+[2022-11-23 01:58:15,543] [builder.py:1709]           [INFO]     | 5/7 | Disney+ Collection | = | Star Wars: The Clone Wars                                           |
+[2022-11-23 01:58:15,543] [builder.py:1709]           [INFO]     | 6/7 | Disney+ Collection | = | The Beatles: Get Back                                               |
+[2022-11-23 01:58:15,543] [builder.py:1709]           [INFO]     | 7/7 | Disney+ Collection | = | Pixar In Real Life                                                  |
+[2022-11-23 01:58:15,544] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:15,544] [builder.py:1735]           [INFO]     | 7 Shows Processed                                                                                  |
+[2022-11-23 01:58:15,544] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:15,544] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Disney+ ================================|
+[2022-11-23 01:58:15,544] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:15,822] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | She-Hulk: Attorney at Law (TVDB: 368613)                                  |
+[2022-11-23 01:58:16,014] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Zootopia+ (TVDB: 393206)                                                  |
+[2022-11-23 01:58:16,298] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Moon Knight (TVDB: 368611)                                                |
+[2022-11-23 01:58:16,517] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Revenge of Others (TVDB: 424417)                                          |
+[2022-11-23 01:58:16,869] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Loki (TVDB: 362472)                                                       |
+[2022-11-23 01:58:17,105] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Studios: Legends (TVDB: 393438)                                    |
+[2022-11-23 01:58:17,478] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Hawkeye (2021) (TVDB: 367146)                                             |
+[2022-11-23 01:58:17,822] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ms. Marvel (TVDB: 368612)                                                 |
+[2022-11-23 01:58:18,030] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Cars on the Road (TVDB: 412436)                                           |
+[2022-11-23 01:58:18,264] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tierra Incógnita (TVDB: 423217)                                           |
+[2022-11-23 01:58:18,595] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | WandaVision (TVDB: 362392)                                                |
+[2022-11-23 01:58:18,859] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | What If…? (TVDB: 367147)                                                  |
+[2022-11-23 01:58:19,129] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Book of Boba Fett (TVDB: 393589)                                      |
+[2022-11-23 01:58:19,341] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Santa Clauses (TVDB: 414682)                                          |
+[2022-11-23 01:58:19,682] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Falcon and The Winter Soldier (TVDB: 362496)                          |
+[2022-11-23 01:58:19,878] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Limitless with Chris Hemsworth (TVDB: 393215)                             |
+[2022-11-23 01:58:20,580] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Dancing with the Stars (TVDB: 79590)                                      |
+[2022-11-23 01:58:20,829] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Quest (2022) (TVDB: 418549)                                           |
+[2022-11-23 01:58:21,018] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Daddies on Request (TVDB: 419528)                                         |
+[2022-11-23 01:58:21,301] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Mighty Ducks: Game Changers (TVDB: 382153)                            |
+[2022-11-23 01:58:21,486] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ice Age: Scrat Tales (TVDB: 416952)                                       |
+[2022-11-23 01:58:21,874] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: The Bad Batch (TVDB: 385376)                                   |
+[2022-11-23 01:58:22,100] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Baymax! (TVDB: 393207)                                                    |
+[2022-11-23 01:58:22,404] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Love, Victor (TVDB: 368188)                                               |
+[2022-11-23 01:58:22,650] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Mysterious Benedict Society (TVDB: 387958)                            |
+[2022-11-23 01:58:22,872] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Choice (TVDB: 426196)                                                 |
+[2022-11-23 01:58:23,106] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Big Shot (TVDB: 382154)                                                   |
+[2022-11-23 01:58:23,307] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Women in Taipei (TVDB: 425070)                                            |
+[2022-11-23 01:58:23,513] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Just Beyond (TVDB: 382152)                                                |
+[2022-11-23 01:58:23,712] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Studios: Assembled (TVDB: 396948)                                  |
+[2022-11-23 01:58:23,977] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | High School Musical: The Musical: The Series (TVDB: 359728)               |
+[2022-11-23 01:58:24,162] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pink Lie (TVDB: 425384)                                                   |
+[2022-11-23 01:58:24,366] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Intertwined (TVDB: 410659)                                                |
+[2022-11-23 01:58:24,602] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Monsters at Work (TVDB: 362280)                                           |
+[2022-11-23 01:58:24,801] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Turner & Hooch (TVDB: 393235)                                             |
+[2022-11-23 01:58:25,049] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Doogie Kamealoha, M.D. (TVDB: 395130)                                     |
+[2022-11-23 01:58:25,238] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shadow Detective (TVDB: 425933)                                           |
+[2022-11-23 01:58:25,537] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Boris (TVDB: 82276)                                                       |
+[2022-11-23 01:58:25,705] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Save Our Squad with David Beckham (TVDB: 401009)                          |
+[2022-11-23 01:58:25,924] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Wonderful World of Mickey Mouse (TVDB: 388436)                        |
+[2022-11-23 01:58:26,117] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Dug Days (TVDB: 393210)                                                   |
+[2022-11-23 01:58:26,300] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel Zombies (TVDB: 412428)                                             |
+[2022-11-23 01:58:26,524] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Kiss Sixth Sense (TVDB: 409595)                                           |
+[2022-11-23 01:58:26,801] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Visions (TVDB: 393190)                                         |
+[2022-11-23 01:58:26,976] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Sumo Do, Sumo Don't (TVDB: 426468)                                        |
+[2022-11-23 01:58:27,217] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Right Stuff (TVDB: 362576)                                            |
+[2022-11-23 01:58:27,424] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Willow (TVDB: 393192)                                                     |
+[2022-11-23 01:58:27,609] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Grid (TVDB: 415351)                                                       |
+[2022-11-23 01:58:27,801] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Between The World And Us (TVDB: 421064)                                   |
+[2022-11-23 01:58:28,001] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Into the Unknown: Making Frozen II (TVDB: 368114)                         |
+[2022-11-23 01:58:28,198] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | It Was Always Me (TVDB: 419312)                                           |
+[2022-11-23 01:58:28,426] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Violetta: Favorite Moments (TVDB: 405737)                                 |
+[2022-11-23 01:58:28,714] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Gallery: The Mandalorian (TVDB: 380352)                            |
+[2022-11-23 01:58:28,899] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Percy Jackson and the Olympians (TVDB: 415151)                            |
+[2022-11-23 01:58:29,097] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Secret Invasion (TVDB: 393203)                                            |
+[2022-11-23 01:58:29,286] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel's 616 (TVDB: 367227)                                               |
+[2022-11-23 01:58:29,524] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Proud Family: Louder and Prouder (TVDB: 368206)                       |
+[2022-11-23 01:58:29,762] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Olaf Presents (TVDB: 404155)                                              |
+[2022-11-23 01:58:29,953] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Parallels (TVDB: 396967)                                                  |
+[2022-11-23 01:58:30,146] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Because We Forget Everything (TVDB: 424838)                               |
+[2022-11-23 01:58:30,381] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pixar Popcorn (TVDB: 393212)                                              |
+[2022-11-23 01:58:30,590] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Diary of a Future President (TVDB: 368111)                                |
+[2022-11-23 01:58:30,796] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Welcome to Earth (TVDB: 393216)                                           |
+[2022-11-23 01:58:31,002] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Small & Mighty (TVDB: 420934)                                             |
+[2022-11-23 01:58:31,206] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | May It Please The Court (TVDB: 424110)                                    |
+[2022-11-23 01:58:31,401] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Daredevil: Born Again (TVDB: 422712)                                      |
+[2022-11-23 01:58:31,579] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Donna Hay Christmas (TVDB: 426551)                                        |
+[2022-11-23 01:58:31,781] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rookie Cops (TVDB: 398154)                                                |
+[2022-11-23 01:58:31,987] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ahsoka (TVDB: 393187)                                                     |
+[2022-11-23 01:58:32,249] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Chip 'n' Dale: Park Life (TVDB: 387210)                                   |
+[2022-11-23 01:58:32,459] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Short Circuit (TVDB: 376147)                                              |
+[2022-11-23 01:58:32,712] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The World According to Jeff Goldblum (TVDB: 362437)                       |
+[2022-11-23 01:58:32,890] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Soundtrack #1 (TVDB: 413010)                                              |
+[2022-11-23 01:58:33,095] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Agatha: Coven of Chaos (TVDB: 412429)                                     |
+[2022-11-23 01:58:33,279] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Our Only Chance (TVDB: 415586)                                            |
+[2022-11-23 01:58:33,324] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 408631                              |
+[2022-11-23 01:58:33,547] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | National Treasure: Edge of History (TVDB: 382210)                         |
+[2022-11-23 01:58:33,752] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Ironheart (TVDB: 393204)                                                  |
+[2022-11-23 01:58:33,952] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Echo (TVDB: 412431)                                                       |
+[2022-11-23 01:58:34,126] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Insider (TVDB: 377938)                                             |
+[2022-11-23 01:58:34,326] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Zenimation (TVDB: 382798)                                                 |
+[2022-11-23 01:58:34,508] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Gallery: The Book of Boba Fett (TVDB: 419714)                      |
+[2022-11-23 01:58:34,726] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Super/Natural (TVDB: 423144)                                              |
+[2022-11-23 01:58:34,933] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Galaxy of Sounds (TVDB: 410728)                                |
+[2022-11-23 01:58:35,173] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | X-Men '97 (TVDB: 412432)                                                  |
+[2022-11-23 01:58:35,363] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | One Day at Disney Shorts (TVDB: 368581)                                   |
+[2022-11-23 01:58:35,625] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Muppets Now (TVDB: 368781)                                                |
+[2022-11-23 01:58:35,817] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Connect (TVDB: 415190)                                                    |
+[2022-11-23 01:58:35,999] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | How to Stay at Home (TVDB: 407508)                                        |
+[2022-11-23 01:58:36,175] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Blowing Kisses (TVDB: 389493)                                             |
+[2022-11-23 01:58:36,441] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Ignorant Angels (TVDB: 396976)                                        |
+[2022-11-23 01:58:36,625] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Prop Culture (TVDB: 379902)                                               |
+[2022-11-23 01:58:36,824] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Imagineering Story (TVDB: 371058)                                     |
+[2022-11-23 01:58:37,360] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | All the Same… or Not (TVDB: 404170)                                       |
+[2022-11-23 01:58:37,547] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Outrun by Running Man (TVDB: 412347)                                      |
+[2022-11-23 01:58:37,723] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Oussekine (TVDB: 396963)                                                  |
+[2022-11-23 01:58:37,902] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | America the Beautiful (2022) (TVDB: 393227)                               |
+[2022-11-23 01:58:38,097] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Magic of Disney’s Animal Kingdom (TVDB: 385800)                           |
+[2022-11-23 01:58:38,297] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Light & Magic (TVDB: 419829)                                              |
+[2022-11-23 01:58:38,540] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Pick of the Litter (TVDB: 369962)                                         |
+[2022-11-23 01:58:38,730] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Earth to Ned (TVDB: 387006)                                               |
+[2022-11-23 01:58:38,916] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Secrets of the Whales (TVDB: 393225)                                      |
+[2022-11-23 01:58:39,129] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Spider-Man: Freshman Year (TVDB: 412427)                                  |
+[2022-11-23 01:58:39,328] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney's Fairy Tale Weddings (TVDB: 328616)                               |
+[2022-11-23 01:58:39,518] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Zone: Survival Mission (TVDB: 423226)                                 |
+[2022-11-23 01:58:39,709] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Growing Up Animal (TVDB: 408873)                                          |
+[2022-11-23 01:58:39,888] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Fearless: The Inside Story of the AFLW (TVDB: 423722)                     |
+[2022-11-23 01:58:40,081] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Epic Adventures with Bertie Gregory (TVDB: 423860)                        |
+[2022-11-23 01:58:40,266] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | On Pointe (TVDB: 391627)                                                  |
+[2022-11-23 01:58:40,440] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Wedding Season (TVDB: 423023)                                             |
+[2022-11-23 01:58:40,639] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Soprano: Sing or Die (TVDB: 396964)                                       |
+[2022-11-23 01:58:40,689] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 5885                                |
+[2022-11-23 01:58:40,874] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Behind the Attraction (TVDB: 404205)                                      |
+[2022-11-23 01:58:41,037] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Sketchbook (TVDB: 417862)                                                 |
+[2022-11-23 01:58:41,212] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Beyond the Clouds (2020) (TVDB: 392337)                                   |
+[2022-11-23 01:58:41,383] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | It's a Dog's Life With Bill Farmer (TVDB: 380281)                         |
+[2022-11-23 01:58:41,572] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Becoming (TVDB: 387110)                                                   |
+[2022-11-23 01:58:41,744] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shipwreck Hunters Australia (TVDB: 425166)                                |
+[2022-11-23 01:58:41,916] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Among the Stars (TVDB: 410155)                                            |
+[2022-11-23 01:58:42,115] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The French Mans (TVDB: 417086)                                            |
+[2022-11-23 01:58:42,258] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tiana (TVDB: 393208)                                                      |
+[2022-11-23 01:58:42,430] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Turning the Tables with Robin Roberts (TVDB: 403377)                      |
+[2022-11-23 01:58:42,660] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Big Fib (TVDB: 380497)                                                |
+[2022-11-23 01:58:42,841] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Inside Pixar (TVDB: 391109)                                               |
+[2022-11-23 01:58:43,004] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Meet the Chimps (TVDB: 388594)                                            |
+[2022-11-23 01:58:43,177] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Marvel's Hero Project (TVDB: 362439)                                      |
+[2022-11-23 01:58:43,392] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Weird But True! (TVDB: 386989)                                            |
+[2022-11-23 01:58:43,609] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | That One Word – Feyenoord (TVDB: 404877)                                  |
+[2022-11-23 01:58:43,797] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rangers of the New Republic (TVDB: 393188)                                |
+[2022-11-23 01:58:43,996] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Foodtastic (TVDB: 395974)                                                 |
+[2022-11-23 01:58:44,187] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Weekend Family (TVDB: 396965)                                             |
+[2022-11-23 01:58:44,349] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Knights of Castelcorvo (TVDB: 389554)                                 |
+[2022-11-23 01:58:44,582] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: The Acolyte (TVDB: 393197)                                     |
+[2022-11-23 01:58:44,755] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Growing Up (TVDB: 423775)                                                 |
+[2022-11-23 01:58:44,918] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Rogue Trip (TVDB: 384217)                                                 |
+[2022-11-23 01:58:45,094] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Family Sundays (TVDB: 372438)                                      |
+[2022-11-23 01:58:45,264] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Anita (Director’s Cut) (TVDB: 414315)                                     |
+[2022-11-23 01:58:45,438] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Lando (TVDB: 393218)                                           |
+[2022-11-23 01:58:45,488] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 395860                              |
+[2022-11-23 01:58:45,661] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Shop Class (TVDB: 376537)                                                 |
+[2022-11-23 01:58:45,859] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Chorus: Success, Here I Go (TVDB: 412553)                             |
+[2022-11-23 01:58:46,025] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: A Droid Story (TVDB: 393214)                                   |
+[2022-11-23 01:58:46,236] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Encore! (TVDB: 337854)                                                    |
+[2022-11-23 01:58:46,404] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Be Our Chef (TVDB: 367529)                                                |
+[2022-11-23 01:58:46,577] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars Vehicle Flythroughs (TVDB: 402177)                              |
+[2022-11-23 01:58:46,755] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Earth Moods (TVDB: 398721)                                                |
+[2022-11-23 01:58:46,957] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | MOVING (2023) (TVDB: 411944)                                              |
+[2022-11-23 01:58:47,113] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Last Days of the Space Age (TVDB: 423036)                                 |
+[2022-11-23 01:58:47,261] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Vision Quest (TVDB: 426606)                                               |
+[2022-11-23 01:58:47,412] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Full Monty (TVDB: 418355)                                             |
+[2022-11-23 01:58:47,563] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Culprits (TVDB: 401146)                                                   |
+[2022-11-23 01:58:47,771] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Latin America from Above (TVDB: 391329)                                   |
+[2022-11-23 01:58:47,937] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Disney Parks Sunrise Series (TVDB: 393993)                                |
+[2022-11-23 01:58:48,114] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Skeleton Crew (TVDB: 420600)                                   |
+[2022-11-23 01:58:48,274] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | American Born Chinese (TVDB: 410920)                                      |
+[2022-11-23 01:58:48,450] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Iwájú (TVDB: 393219)                                                      |
+[2022-11-23 01:58:48,603] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Goosebumps (2022) (TVDB: 415840)                                          |
+[2022-11-23 01:58:48,743] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Ballad of Renegade Nell (TVDB: 401145)                                |
+[2022-11-23 01:58:48,917] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Tarã (TVDB: 420547)                                                       |
+[2022-11-23 01:58:49,135] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Muppets Mayhem (TVDB: 417543)                                         |
+[2022-11-23 01:58:49,303] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Win or Lose (TVDB: 393242)                                                |
+[2022-11-23 01:58:49,457] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Star Wars: Young Jedi Adventures (TVDB: 420658)                           |
+[2022-11-23 01:58:49,650] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | 4Ever (2022) (TVDB: 415742)                                               |
+[2022-11-23 01:58:49,806] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | The Spiderwick Chronicles (TVDB: 412426)                                  |
+[2022-11-23 01:58:49,956] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | A Real Bug's Life (TVDB: 393226)                                          |
+[2022-11-23 01:58:50,100] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Extraordinary (TVDB: 401147)                                              |
+[2022-11-23 01:58:50,266] [builder.py:1982]           [INFO]     | Disney+ Collection | ? | Le temps des chenilles (TVDB: 387171)                                     |
+[2022-11-23 01:58:50,267] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:50,267] [builder.py:1987]           [INFO]     | 164 Shows Missing                                                                                  |
+[2022-11-23 01:58:50,594] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:50,595] [util.py:216]               [INFO]     |============================== Updating Details of Disney+ Collection ==============================|
+[2022-11-23 01:58:50,595] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 01:58:50,604] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 01:58:50,604] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/120939                               |
+[2022-11-23 01:58:50,604] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 01:58:50,605] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-23 01:58:50,668] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 01:58:50,669] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:58:50,669] [util.py:216]               [INFO]     |                                    Finished Disney+ Collection                                     |
+[2022-11-23 01:58:50,669] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:47                                    |
+[2022-11-23 01:58:50,669] [util.py:220]               [INFO]     |====================================================================================================|

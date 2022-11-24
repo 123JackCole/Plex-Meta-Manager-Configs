@@ -1,48 +1,50 @@
-[2022-11-06 12:56:56,913] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:56:56,914] [util.py:216]               [INFO]     |                                 4K Overlay Collection in TV Shows                                  |
-[2022-11-06 12:56:56,914] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-06 12:56:56,914] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-06 12:56:56,915] [util.py:216]               [INFO]     |================================= Validating 4K Overlay Attributes =================================|
-[2022-11-06 12:56:56,915] [builder.py:323]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,915] [builder.py:324]            [DEBUG]    | Validating Method: build_collection                                                                |
-[2022-11-06 12:56:56,915] [builder.py:325]            [DEBUG]    | Value: False                                                                                       |
-[2022-11-06 12:56:56,916] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,916] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-06 12:56:56,916] [builder.py:474]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution', '4K'), ('hdr', False)]))])                 |
-[2022-11-06 12:56:56,926] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,926] [builder.py:473]            [DEBUG]    | Validating Method: item_overlay                                                                    |
-[2022-11-06 12:56:56,926] [builder.py:474]            [DEBUG]    | Value: 4K                                                                                          |
-[2022-11-06 12:56:56,927] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,927] [builder.py:473]            [DEBUG]    | Validating Method: create_asset_folders                                                            |
-[2022-11-06 12:56:56,927] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
-[2022-11-06 12:56:56,927] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-06 12:56:56,928] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-06 12:56:56,928] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-06 12:56:56,928] [util.py:216]               [INFO]     |================================== Running 4K Overlay Collection ===================================|
-[2022-11-06 12:56:56,929] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-06 12:56:56,929] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-06 12:56:56,929] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,929] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 4K\n    HDR is false', '?type=2&sort=titleSort&episode.resolution=4k&and=1&episode.hdr!=1') |
-[2022-11-06 12:56:56,930] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-06 12:56:56,930] [util.py:161]               [INFO]     | Plex Show Search                                                                                   |
-[2022-11-06 12:56:56,930] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-06 12:56:56,930] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-06 12:56:56,931] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-06 12:56:56,931] [util.py:161]               [INFO]     |     Resolution is 4K                                                                               |
-[2022-11-06 12:56:56,931] [util.py:161]               [INFO]     |     HDR is false                                                                                   |
-[2022-11-06 12:56:56,960] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,961] [plex.py:749]               [DEBUG]    | 8 Keys Found: [(109512, 'ratingKey'), (111599, 'ratingKey'), (107106, 'ratingKey'), (106461, 'ratingKey'), (106574, 'ratingKey'), (109107, 'ratingKey'), (109087, 'ratingKey'), (106556, 'ratingKey')] |
-[2022-11-06 12:56:56,961] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:56,961] [builder.py:1283]           [DEBUG]    | 8 IDs Found: [(109512, 'ratingKey'), (111599, 'ratingKey'), (107106, 'ratingKey'), (106461, 'ratingKey'), (106574, 'ratingKey'), (109107, 'ratingKey'), (109087, 'ratingKey'), (106556, 'ratingKey')] |
-[2022-11-06 12:56:56,961] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-06 12:56:57,103] [builder.py:2015]           [INFO]     |                                                                                                    |
-[2022-11-06 12:56:57,104] [util.py:216]               [INFO]     |============================== Items Found for 4K Overlay Collection ===============================|
-[2022-11-06 12:56:57,104] [builder.py:2017]           [INFO]     |                                                                                                    |
-[2022-11-06 12:56:57,104] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-11-06 12:56:57,104] [util.py:216]               [INFO]     |====================== Updating Details of the Items in 4K Overlay Collection ======================|
-[2022-11-06 12:56:57,105] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-11-06 12:56:57,916] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-06 12:56:57,916] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-06 12:56:57,917] [util.py:216]               [INFO]     |                                   Finished 4K Overlay Collection                                   |
-[2022-11-06 12:56:57,917] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
-[2022-11-06 12:56:57,917] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:32:06,972] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:32:06,972] [util.py:216]               [INFO]     |                                 4K Overlay Collection in TV Shows                                  |
+[2022-11-23 02:32:06,973] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 02:32:06,973] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 02:32:06,973] [util.py:216]               [INFO]     |================================= Validating 4K Overlay Attributes =================================|
+[2022-11-23 02:32:06,974] [builder.py:323]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:06,974] [builder.py:324]            [DEBUG]    | Validating Method: build_collection                                                                |
+[2022-11-23 02:32:06,974] [builder.py:325]            [DEBUG]    | Value: False                                                                                       |
+[2022-11-23 02:32:06,975] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:06,975] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-23 02:32:06,975] [builder.py:474]            [DEBUG]    | Value: ordereddict([('all', ordereddict([('resolution', '4K'), ('hdr', False)]))])                 |
+[2022-11-23 02:32:07,001] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,001] [builder.py:473]            [DEBUG]    | Validating Method: item_overlay                                                                    |
+[2022-11-23 02:32:07,002] [builder.py:474]            [DEBUG]    | Value: 4K                                                                                          |
+[2022-11-23 02:32:07,002] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,002] [builder.py:473]            [DEBUG]    | Validating Method: create_asset_folders                                                            |
+[2022-11-23 02:32:07,002] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
+[2022-11-23 02:32:07,003] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,003] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 02:32:07,003] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,004] [util.py:216]               [INFO]     |================================== Running 4K Overlay Collection ===================================|
+[2022-11-23 02:32:07,004] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,004] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 02:32:07,005] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,005] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (2, 'Plex Show Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Resolution is 4K\n    HDR is false', '?type=2&sort=titleSort&episode.resolution=4k&and=1&episode.hdr!=1') |
+[2022-11-23 02:32:07,005] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,005] [util.py:161]               [INFO]     | Plex Show Search                                                                                   |
+[2022-11-23 02:32:07,006] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-11-23 02:32:07,006] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-11-23 02:32:07,006] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2022-11-23 02:32:07,007] [util.py:161]               [INFO]     |     Resolution is 4K                                                                               |
+[2022-11-23 02:32:07,007] [util.py:161]               [INFO]     |     HDR is false                                                                                   |
+[2022-11-23 02:32:07,053] [plex.py:748]               [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,053] [plex.py:749]               [DEBUG]    | 19 Keys Found: [(109512, 'ratingKey'), (111599, 'ratingKey'), (107106, 'ratingKey'), (120228, 'ratingKey'), (106461, 'ratingKey'), (106574, 'ratingKey'), (109107, 'ratingKey'), (119520, 'ratingKey'), (106964, 'ratingKey'), (110850, 'ratingKey'), (106703, 'ratingKey'), (119184, 'ratingKey'), (108245, 'ratingKey'), (120274, 'ratingKey'), (119230, 'ratingKey'), (107726, 'ratingKey'), (119300, 'ratingKey'), (107692, 'ratingKey'), (106843, 'ratingKey')] |
+[2022-11-23 02:32:07,053] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,053] [builder.py:1283]           [DEBUG]    | 19 IDs Found: [(109512, 'ratingKey'), (111599, 'ratingKey'), (107106, 'ratingKey'), (120228, 'ratingKey'), (106461, 'ratingKey'), (106574, 'ratingKey'), (109107, 'ratingKey'), (119520, 'ratingKey'), (106964, 'ratingKey'), (110850, 'ratingKey'), (106703, 'ratingKey'), (119184, 'ratingKey'), (108245, 'ratingKey'), (120274, 'ratingKey'), (119230, 'ratingKey'), (107726, 'ratingKey'), (119300, 'ratingKey'), (107692, 'ratingKey'), (106843, 'ratingKey')] |
+[2022-11-23 02:32:07,054] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 02:32:07,411] [builder.py:2015]           [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,411] [util.py:216]               [INFO]     |============================== Items Found for 4K Overlay Collection ===============================|
+[2022-11-23 02:32:07,411] [builder.py:2017]           [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,412] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2022-11-23 02:32:07,412] [util.py:216]               [INFO]     |====================== Updating Details of the Items in 4K Overlay Collection ======================|
+[2022-11-23 02:32:07,412] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2022-11-23 02:32:08,469] [builder.py:2067]           [ERROR]    | Overlay Error: Poster already has an existing Overlay: 4K-HDR Overlay                              |
+[2022-11-23 02:32:09,501] [builder.py:2067]           [ERROR]    | Overlay Error: Poster already has an existing Overlay: 4K-HDR Overlay                              |
+[2022-11-23 02:32:09,581] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 02:32:09,582] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 02:32:09,582] [util.py:216]               [INFO]     |                                   Finished 4K Overlay Collection                                   |
+[2022-11-23 02:32:09,582] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
+[2022-11-23 02:32:09,583] [util.py:220]               [INFO]     |====================================================================================================|

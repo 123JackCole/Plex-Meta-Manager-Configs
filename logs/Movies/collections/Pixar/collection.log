@@ -1,82 +1,83 @@
-[2022-11-07 00:11:42,573] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:42,573] [util.py:216]               [INFO]     |                                     Pixar Collection in Movies                                     |
-[2022-11-07 00:11:42,574] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:42,574] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:42,574] [util.py:216]               [INFO]     |=================================== Validating Pixar Attributes ====================================|
-[2022-11-07 00:11:42,575] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,575] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-07 00:11:42,575] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Pixar'), ('poster', 'https://theposterdb.com/api/assets/18894')]) |
-[2022-11-07 00:11:42,576] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,576] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-07 00:11:42,576] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-07 00:11:42,576] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,577] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-07 00:11:42,577] [builder.py:474]            [DEBUG]    | Value: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot. |
-[2022-11-07 00:11:42,577] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,577] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-07 00:11:42,577] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-07 00:11:42,578] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,578] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-07 00:11:42,578] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Pixar'}                                                                         |
-[2022-11-07 00:11:42,579] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,579] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-07 00:11:42,579] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/18894                                                    |
-[2022-11-07 00:11:42,579] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,580] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-07 00:11:42,580] [builder.py:474]            [DEBUG]    | Value: 00000e_Pixar                                                                                |
-[2022-11-07 00:11:42,757] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-07 00:11:42,758] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-07 00:11:42,758] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:42,759] [util.py:216]               [INFO]     |===================================== Running Pixar Collection =====================================|
-[2022-11-07 00:11:42,759] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:42,759] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-07 00:11:42,759] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,760] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Pixar', '?type=1&sort=titleSort&push=1&studio=Pixar&pop=1') |
-[2022-11-07 00:11:42,760] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:42,760] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-07 00:11:42,761] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-07 00:11:42,761] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-07 00:11:42,761] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-07 00:11:42,761] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-07 00:11:42,762] [util.py:161]               [INFO]     |       Studio contains Pixar                                                                        |
-[2022-11-07 00:11:42,819] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,819] [plex.py:749]               [DEBUG]    | 18 Keys Found: [(116150, 'ratingKey'), (117210, 'ratingKey'), (113403, 'ratingKey'), (116845, 'ratingKey'), (113271, 'ratingKey'), (114733, 'ratingKey'), (116579, 'ratingKey'), (115740, 'ratingKey'), (66203, 'ratingKey'), (37752, 'ratingKey'), (71159, 'ratingKey'), (115967, 'ratingKey'), (115830, 'ratingKey'), (116048, 'ratingKey'), (113946, 'ratingKey'), (112699, 'ratingKey'), (113765, 'ratingKey'), (113683, 'ratingKey')] |
-[2022-11-07 00:11:42,819] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:42,820] [builder.py:1283]           [DEBUG]    | 18 IDs Found: [(116150, 'ratingKey'), (117210, 'ratingKey'), (113403, 'ratingKey'), (116845, 'ratingKey'), (113271, 'ratingKey'), (114733, 'ratingKey'), (116579, 'ratingKey'), (115740, 'ratingKey'), (66203, 'ratingKey'), (37752, 'ratingKey'), (71159, 'ratingKey'), (115967, 'ratingKey'), (115830, 'ratingKey'), (116048, 'ratingKey'), (113946, 'ratingKey'), (112699, 'ratingKey'), (113765, 'ratingKey'), (113683, 'ratingKey')] |
-[2022-11-07 00:11:42,820] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:43,202] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,202] [util.py:216]               [INFO]     |==================================== Adding to Pixar Collection ====================================|
-[2022-11-07 00:11:43,203] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,203] [builder.py:1709]           [INFO]     |  1/18 | Pixar Collection | = | Brave (2012)                                                        |
-[2022-11-07 00:11:43,203] [builder.py:1709]           [INFO]     |  2/18 | Pixar Collection | = | A Bug's Life (1998)                                                 |
-[2022-11-07 00:11:43,204] [builder.py:1709]           [INFO]     |  3/18 | Pixar Collection | = | Coco (2017)                                                         |
-[2022-11-07 00:11:43,204] [builder.py:1709]           [INFO]     |  4/18 | Pixar Collection | = | Finding Nemo (2003)                                                 |
-[2022-11-07 00:11:43,204] [builder.py:1709]           [INFO]     |  5/18 | Pixar Collection | = | Inside Out (2015)                                                   |
-[2022-11-07 00:11:43,205] [builder.py:1709]           [INFO]     |  6/18 | Pixar Collection | = | Luca (2021)                                                         |
-[2022-11-07 00:11:43,205] [builder.py:1709]           [INFO]     |  7/18 | Pixar Collection | = | Monsters University (2013)                                          |
-[2022-11-07 00:11:43,205] [builder.py:1709]           [INFO]     |  8/18 | Pixar Collection | = | Monsters, Inc. (2001)                                               |
-[2022-11-07 00:11:43,206] [builder.py:1709]           [INFO]     |  9/18 | Pixar Collection | = | Onward (2020)                                                       |
-[2022-11-07 00:11:43,206] [builder.py:1709]           [INFO]     | 10/18 | Pixar Collection | = | Ratatouille (2007)                                                  |
-[2022-11-07 00:11:43,206] [builder.py:1709]           [INFO]     | 11/18 | Pixar Collection | = | Soul (2020)                                                         |
-[2022-11-07 00:11:43,207] [builder.py:1709]           [INFO]     | 12/18 | Pixar Collection | = | Toy Story (1995)                                                    |
-[2022-11-07 00:11:43,207] [builder.py:1709]           [INFO]     | 13/18 | Pixar Collection | = | Toy Story 2 (1999)                                                  |
-[2022-11-07 00:11:43,207] [builder.py:1709]           [INFO]     | 14/18 | Pixar Collection | = | Toy Story 3 (2010)                                                  |
-[2022-11-07 00:11:43,208] [builder.py:1709]           [INFO]     | 15/18 | Pixar Collection | = | Toy Story 4 (2019)                                                  |
-[2022-11-07 00:11:43,208] [builder.py:1709]           [INFO]     | 16/18 | Pixar Collection | = | Turning Red (2022)                                                  |
-[2022-11-07 00:11:43,208] [builder.py:1709]           [INFO]     | 17/18 | Pixar Collection | = | Up (2009)                                                           |
-[2022-11-07 00:11:43,209] [builder.py:1709]           [INFO]     | 18/18 | Pixar Collection | = | WALL·E (2008)                                                       |
-[2022-11-07 00:11:43,209] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,209] [builder.py:1735]           [INFO]     | 18 Movies Processed                                                                                |
-[2022-11-07 00:11:43,213] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,213] [util.py:216]               [INFO]     |=============================== Updating Details of Pixar Collection ===============================|
-[2022-11-07 00:11:43,214] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,214] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-07 00:11:43,215] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-07 00:11:43,215] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/18894                                |
-[2022-11-07 00:11:43,215] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-07 00:11:43,216] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-07 00:11:43,391] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:43,392] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:43,392] [util.py:216]               [INFO]     |                                     Finished Pixar Collection                                      |
-[2022-11-07 00:11:43,393] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-07 00:11:43,393] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:20,670] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:20,671] [util.py:216]               [INFO]     |                                     Pixar Collection in Movies                                     |
+[2022-11-23 01:14:20,671] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:20,671] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:20,672] [util.py:216]               [INFO]     |=================================== Validating Pixar Attributes ====================================|
+[2022-11-23 01:14:20,672] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,672] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 01:14:20,672] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Pixar'), ('poster', 'https://theposterdb.com/api/assets/18894')]) |
+[2022-11-23 01:14:20,673] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,673] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 01:14:20,673] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 01:14:20,673] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,673] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 01:14:20,673] [builder.py:474]            [DEBUG]    | Value: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot. |
+[2022-11-23 01:14:20,674] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,674] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-23 01:14:20,674] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 01:14:20,674] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,674] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-23 01:14:20,675] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Pixar'}                                                                         |
+[2022-11-23 01:14:20,675] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,675] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 01:14:20,675] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/18894                                                    |
+[2022-11-23 01:14:20,675] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,676] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 01:14:20,676] [builder.py:474]            [DEBUG]    | Value: 00000e_Pixar                                                                                |
+[2022-11-23 01:14:20,859] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 01:14:20,860] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 01:14:20,860] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:20,860] [util.py:216]               [INFO]     |===================================== Running Pixar Collection =====================================|
+[2022-11-23 01:14:20,860] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:20,861] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 01:14:20,861] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,861] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Pixar', '?type=1&sort=titleSort&push=1&studio=Pixar&pop=1') |
+[2022-11-23 01:14:20,861] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:20,861] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-11-23 01:14:20,862] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-11-23 01:14:20,862] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-11-23 01:14:20,862] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2022-11-23 01:14:20,863] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
+[2022-11-23 01:14:20,863] [util.py:161]               [INFO]     |       Studio contains Pixar                                                                        |
+[2022-11-23 01:14:20,916] [plex.py:748]               [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,916] [plex.py:749]               [DEBUG]    | 19 Keys Found: [(116150, 'ratingKey'), (117210, 'ratingKey'), (113403, 'ratingKey'), (116845, 'ratingKey'), (113271, 'ratingKey'), (120259, 'ratingKey'), (114733, 'ratingKey'), (116579, 'ratingKey'), (115740, 'ratingKey'), (66203, 'ratingKey'), (37752, 'ratingKey'), (71159, 'ratingKey'), (115967, 'ratingKey'), (115830, 'ratingKey'), (116048, 'ratingKey'), (113946, 'ratingKey'), (112699, 'ratingKey'), (113765, 'ratingKey'), (113683, 'ratingKey')] |
+[2022-11-23 01:14:20,916] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:20,916] [builder.py:1283]           [DEBUG]    | 19 IDs Found: [(116150, 'ratingKey'), (117210, 'ratingKey'), (113403, 'ratingKey'), (116845, 'ratingKey'), (113271, 'ratingKey'), (120259, 'ratingKey'), (114733, 'ratingKey'), (116579, 'ratingKey'), (115740, 'ratingKey'), (66203, 'ratingKey'), (37752, 'ratingKey'), (71159, 'ratingKey'), (115967, 'ratingKey'), (115830, 'ratingKey'), (116048, 'ratingKey'), (113946, 'ratingKey'), (112699, 'ratingKey'), (113765, 'ratingKey'), (113683, 'ratingKey')] |
+[2022-11-23 01:14:20,917] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:21,330] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,330] [util.py:216]               [INFO]     |==================================== Adding to Pixar Collection ====================================|
+[2022-11-23 01:14:21,331] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,331] [builder.py:1709]           [INFO]     |  1/19 | Pixar Collection | = | Brave (2012)                                                        |
+[2022-11-23 01:14:21,331] [builder.py:1709]           [INFO]     |  2/19 | Pixar Collection | = | A Bug's Life (1998)                                                 |
+[2022-11-23 01:14:21,331] [builder.py:1709]           [INFO]     |  3/19 | Pixar Collection | = | Coco (2017)                                                         |
+[2022-11-23 01:14:21,332] [builder.py:1709]           [INFO]     |  4/19 | Pixar Collection | = | Finding Nemo (2003)                                                 |
+[2022-11-23 01:14:21,332] [builder.py:1709]           [INFO]     |  5/19 | Pixar Collection | = | Inside Out (2015)                                                   |
+[2022-11-23 01:14:21,333] [builder.py:1709]           [INFO]     |  6/19 | Pixar Collection | = | Lightyear (2022)                                                    |
+[2022-11-23 01:14:21,333] [builder.py:1709]           [INFO]     |  7/19 | Pixar Collection | = | Luca (2021)                                                         |
+[2022-11-23 01:14:21,334] [builder.py:1709]           [INFO]     |  8/19 | Pixar Collection | = | Monsters University (2013)                                          |
+[2022-11-23 01:14:21,334] [builder.py:1709]           [INFO]     |  9/19 | Pixar Collection | = | Monsters, Inc. (2001)                                               |
+[2022-11-23 01:14:21,334] [builder.py:1709]           [INFO]     | 10/19 | Pixar Collection | = | Onward (2020)                                                       |
+[2022-11-23 01:14:21,335] [builder.py:1709]           [INFO]     | 11/19 | Pixar Collection | = | Ratatouille (2007)                                                  |
+[2022-11-23 01:14:21,335] [builder.py:1709]           [INFO]     | 12/19 | Pixar Collection | = | Soul (2020)                                                         |
+[2022-11-23 01:14:21,335] [builder.py:1709]           [INFO]     | 13/19 | Pixar Collection | = | Toy Story (1995)                                                    |
+[2022-11-23 01:14:21,336] [builder.py:1709]           [INFO]     | 14/19 | Pixar Collection | = | Toy Story 2 (1999)                                                  |
+[2022-11-23 01:14:21,336] [builder.py:1709]           [INFO]     | 15/19 | Pixar Collection | = | Toy Story 3 (2010)                                                  |
+[2022-11-23 01:14:21,336] [builder.py:1709]           [INFO]     | 16/19 | Pixar Collection | = | Toy Story 4 (2019)                                                  |
+[2022-11-23 01:14:21,337] [builder.py:1709]           [INFO]     | 17/19 | Pixar Collection | = | Turning Red (2022)                                                  |
+[2022-11-23 01:14:21,337] [builder.py:1709]           [INFO]     | 18/19 | Pixar Collection | = | Up (2009)                                                           |
+[2022-11-23 01:14:21,337] [builder.py:1709]           [INFO]     | 19/19 | Pixar Collection | = | WALL·E (2008)                                                       |
+[2022-11-23 01:14:21,338] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,338] [builder.py:1735]           [INFO]     | 19 Movies Processed                                                                                |
+[2022-11-23 01:14:21,342] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,342] [util.py:216]               [INFO]     |=============================== Updating Details of Pixar Collection ===============================|
+[2022-11-23 01:14:21,342] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,343] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 01:14:21,343] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 01:14:21,344] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/18894                                |
+[2022-11-23 01:14:21,344] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 01:14:21,345] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-23 01:14:21,532] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:21,532] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:21,533] [util.py:216]               [INFO]     |                                     Finished Pixar Collection                                      |
+[2022-11-23 01:14:21,533] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-23 01:14:21,533] [util.py:220]               [INFO]     |====================================================================================================|

@@ -1,70 +1,70 @@
-[2022-11-07 00:11:36,342] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:36,343] [util.py:216]               [INFO]     |                                    Aardman Collection in Movies                                    |
-[2022-11-07 00:11:36,343] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:36,343] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,344] [util.py:216]               [INFO]     |================================== Validating Aardman Attributes ===================================|
-[2022-11-07 00:11:36,344] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,344] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-07 00:11:36,344] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Aardman'), ('poster', 'https://theposterdb.com/api/assets/26074')]) |
-[2022-11-07 00:11:36,345] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,345] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-07 00:11:36,345] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-07 00:11:36,345] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,346] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-07 00:11:36,346] [builder.py:474]            [DEBUG]    | Value: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit. |
-[2022-11-07 00:11:36,346] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,346] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-07 00:11:36,346] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-07 00:11:36,347] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,347] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-07 00:11:36,347] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Aardman'}                                                                       |
-[2022-11-07 00:11:36,347] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,348] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-07 00:11:36,348] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/26074                                                    |
-[2022-11-07 00:11:36,348] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,348] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-07 00:11:36,349] [builder.py:474]            [DEBUG]    | Value: 00000e_Aardman                                                                              |
-[2022-11-07 00:11:36,491] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,492] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-07 00:11:36,492] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,493] [util.py:216]               [INFO]     |==================================== Running Aardman Collection ====================================|
-[2022-11-07 00:11:36,493] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,493] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-07 00:11:36,493] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,494] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Aardman', '?type=1&sort=titleSort&push=1&studio=Aardman&pop=1') |
-[2022-11-07 00:11:36,494] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,494] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-07 00:11:36,495] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-07 00:11:36,495] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-07 00:11:36,495] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-07 00:11:36,496] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-07 00:11:36,496] [util.py:161]               [INFO]     |       Studio contains Aardman                                                                      |
-[2022-11-07 00:11:36,516] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,516] [plex.py:749]               [DEBUG]    | 6 Keys Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
-[2022-11-07 00:11:36,517] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,517] [builder.py:1283]           [DEBUG]    | 6 IDs Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
-[2022-11-07 00:11:36,517] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-07 00:11:36,601] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,602] [util.py:216]               [INFO]     |=================================== Adding to Aardman Collection ===================================|
-[2022-11-07 00:11:36,602] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,603] [builder.py:1709]           [INFO]     | 1/6 | Aardman Collection | = | A Close Shave (1995)                                                |
-[2022-11-07 00:11:36,603] [builder.py:1709]           [INFO]     | 2/6 | Aardman Collection | = | A Grand Day Out (1990)                                              |
-[2022-11-07 00:11:36,604] [builder.py:1709]           [INFO]     | 3/6 | Aardman Collection | = | A Matter of Loaf and Death (2008)                                   |
-[2022-11-07 00:11:36,604] [builder.py:1709]           [INFO]     | 4/6 | Aardman Collection | = | Robin Robin (2021)                                                  |
-[2022-11-07 00:11:36,604] [builder.py:1709]           [INFO]     | 5/6 | Aardman Collection | = | Wallace & Gromit: The Curse of the Were-Rabbit (2005)               |
-[2022-11-07 00:11:36,605] [builder.py:1709]           [INFO]     | 6/6 | Aardman Collection | = | The Wrong Trousers (1993)                                           |
-[2022-11-07 00:11:36,605] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,605] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
-[2022-11-07 00:11:36,610] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,610] [util.py:216]               [INFO]     |============================== Updating Details of Aardman Collection ==============================|
-[2022-11-07 00:11:36,610] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,611] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-07 00:11:36,612] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-07 00:11:36,612] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/26074                                |
-[2022-11-07 00:11:36,612] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-07 00:11:36,613] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-07 00:11:36,742] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-07 00:11:36,743] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-07 00:11:36,743] [util.py:216]               [INFO]     |                                    Finished Aardman Collection                                     |
-[2022-11-07 00:11:36,743] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-07 00:11:36,744] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:17,698] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:17,699] [util.py:216]               [INFO]     |                                    Aardman Collection in Movies                                    |
+[2022-11-23 01:14:17,699] [util.py:220]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:17,699] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,700] [util.py:216]               [INFO]     |================================== Validating Aardman Attributes ===================================|
+[2022-11-23 01:14:17,700] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,700] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2022-11-23 01:14:17,700] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Aardman'), ('poster', 'https://theposterdb.com/api/assets/26074')]) |
+[2022-11-23 01:14:17,701] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,701] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2022-11-23 01:14:17,701] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2022-11-23 01:14:17,701] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,701] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2022-11-23 01:14:17,702] [builder.py:474]            [DEBUG]    | Value: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit. |
+[2022-11-23 01:14:17,702] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,702] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2022-11-23 01:14:17,702] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2022-11-23 01:14:17,702] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,703] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2022-11-23 01:14:17,703] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Aardman'}                                                                       |
+[2022-11-23 01:14:17,703] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,703] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2022-11-23 01:14:17,704] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/26074                                                    |
+[2022-11-23 01:14:17,704] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,704] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2022-11-23 01:14:17,704] [builder.py:474]            [DEBUG]    | Value: 00000e_Aardman                                                                              |
+[2022-11-23 01:14:17,844] [builder.py:619]            [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,845] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2022-11-23 01:14:17,845] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,845] [util.py:216]               [INFO]     |==================================== Running Aardman Collection ====================================|
+[2022-11-23 01:14:17,845] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,846] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2022-11-23 01:14:17,846] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,846] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Aardman', '?type=1&sort=titleSort&push=1&studio=Aardman&pop=1') |
+[2022-11-23 01:14:17,847] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,847] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2022-11-23 01:14:17,847] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2022-11-23 01:14:17,847] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2022-11-23 01:14:17,848] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2022-11-23 01:14:17,848] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
+[2022-11-23 01:14:17,848] [util.py:161]               [INFO]     |       Studio contains Aardman                                                                      |
+[2022-11-23 01:14:17,866] [plex.py:748]               [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,866] [plex.py:749]               [DEBUG]    | 6 Keys Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
+[2022-11-23 01:14:17,867] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,867] [builder.py:1283]           [DEBUG]    | 6 IDs Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
+[2022-11-23 01:14:17,867] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2022-11-23 01:14:17,949] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,949] [util.py:216]               [INFO]     |=================================== Adding to Aardman Collection ===================================|
+[2022-11-23 01:14:17,949] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,950] [builder.py:1709]           [INFO]     | 1/6 | Aardman Collection | = | A Close Shave (1995)                                                |
+[2022-11-23 01:14:17,950] [builder.py:1709]           [INFO]     | 2/6 | Aardman Collection | = | A Grand Day Out (1990)                                              |
+[2022-11-23 01:14:17,951] [builder.py:1709]           [INFO]     | 3/6 | Aardman Collection | = | A Matter of Loaf and Death (2008)                                   |
+[2022-11-23 01:14:17,951] [builder.py:1709]           [INFO]     | 4/6 | Aardman Collection | = | Robin Robin (2021)                                                  |
+[2022-11-23 01:14:17,951] [builder.py:1709]           [INFO]     | 5/6 | Aardman Collection | = | Wallace & Gromit: The Curse of the Were-Rabbit (2005)               |
+[2022-11-23 01:14:17,952] [builder.py:1709]           [INFO]     | 6/6 | Aardman Collection | = | The Wrong Trousers (1993)                                           |
+[2022-11-23 01:14:17,952] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,952] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
+[2022-11-23 01:14:17,956] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,956] [util.py:216]               [INFO]     |============================== Updating Details of Aardman Collection ==============================|
+[2022-11-23 01:14:17,956] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2022-11-23 01:14:17,956] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2022-11-23 01:14:17,957] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2022-11-23 01:14:17,957] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/26074                                |
+[2022-11-23 01:14:17,957] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2022-11-23 01:14:17,958] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2022-11-23 01:14:18,088] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2022-11-23 01:14:18,088] [util.py:209]               [INFO]     |====================================================================================================|
+[2022-11-23 01:14:18,089] [util.py:216]               [INFO]     |                                    Finished Aardman Collection                                     |
+[2022-11-23 01:14:18,089] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2022-11-23 01:14:18,089] [util.py:220]               [INFO]     |====================================================================================================|
