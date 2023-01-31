@@ -18,12 +18,13 @@ templates:
   Anime:
     optional:
       - poster
-    mal_genre:
-      genre_id: <<mal_id>>
-      limit: 999
+    mal_search:
+      genre: <<mal_id>>
+      limit: 0
     url_poster: <<poster>>
     sort_title: +++_<<collection_name>>
     collection_order: alpha
+    collection_mode: hide
     sync_mode: sync
     sonarr_add_existing: true
      
@@ -42,6 +43,7 @@ collections:
       limit: 40
     collection_order: custom
     visible_home: true
+    visible_library: true
     sync_mode: sync
     sonarr_add_existing: true
     sonarr_add_missing: true
@@ -55,6 +57,7 @@ collections:
       limit: 1000
     collection_order: custom
     visible_home: true
+    visible_library: true
     sync_mode: sync
     sonarr_add_existing: true
     sonarr_add_missing: true
@@ -94,6 +97,8 @@ collections:
       status: airing
       limit: 15
     collection_order: custom
+    visible_home: true
+    visible_library: true
     sort_title: +++++++++_Top_Airing
     sync_mode: sync 
     sonarr_add_existing: true
@@ -101,6 +106,8 @@ collections:
   Most Popular Anime:
     mal_popular: 50
     collection_order: custom
+    visible_home: true
+    visible_library: true
     sort_title: ++++++++_Most_Popular
     sync_mode: sync    
     sonarr_add_existing: true
@@ -108,57 +115,72 @@ collections:
   Most Favorited Anime:
     mal_favorite: 50
     collection_order: custom
+    visible_home: true
+    visible_library: true
     sort_title: ++++++++_Most_Favorited
     sync_mode: sync    
     sonarr_add_existing: true
     sonarr_add_missing: true
-  # Seasonal Winter:
-  #   mal_season:
-  #     season: winter
-  #     limit: 20
-  #   collection_order: custom
-  #   sort_title: +++++++_Winter
-  #   sync_mode: sync
-  #   sonarr_add_existing: true
-  #   sonarr_add_missing: true
-  # Seasonal Spring:
-  #   mal_season:
-  #     season: spring
-  #     limit: 20
-  #   collection_order: custom
-  #   sort_title: +++++++_Spring
-  #   sync_mode: sync
-  #   sonarr_add_existing: true
-  #   sonarr_add_missing: true
-  # Seasonal Summer:
-  #   mal_season:
-  #     season: summer
-  #     limit: 20
-  #   collection_order: custom
-  #   sort_title: +++++++_Summer
-  #   sync_mode: sync
-  #   sonarr_add_existing: true
-  #   sonarr_add_missing: true
-  # Seasonal Fall:
-  #   mal_season:
-  #     season: fall
-  #     limit: 20
-  #   collection_order: custom
-  #   sort_title: +++++++_Fall
-  #   sync_mode: sync
-  #   sonarr_add_existing: true
-  #   sonarr_add_missing: true
+###########################
+#   Seasons Collections   #
+###########################
+  Seasonal Winter:
+    mal_season:
+      season: winter
+      limit: 20
+      sort_by: members
+    collection_order: custom
+    sort_title: +++++++_Winter
+    sync_mode: sync
+    schedule: range(01/01-04/01)
+    delete_not_scheduled: true
+    sonarr_add_existing: true
+    sonarr_add_missing: true
+  Seasonal Spring:
+    mal_season:
+      season: spring
+      limit: 20
+      sort_by: members
+    collection_order: custom
+    sort_title: +++++++_Spring
+    sync_mode: sync
+    schedule: range(04/01-07/01)
+    delete_not_scheduled: true
+    sonarr_add_existing: true
+    sonarr_add_missing: true
+  Seasonal Summer:
+    mal_season:
+      season: summer
+      limit: 20
+      sort_by: members
+    collection_order: custom
+    sort_title: +++++++_Summer
+    sync_mode: sync
+    schedule: range(07/01-10/01)
+    delete_not_scheduled: true
+    sonarr_add_existing: true
+    sonarr_add_missing: true
+  Seasonal Fall:
+    mal_season:
+      season: fall
+      limit: 20
+      sort_by: members
+    collection_order: custom
+    sort_title: +++++++_Fall
+    schedule: range(10/01-01/01)
+    delete_not_scheduled: true
+    sync_mode: sync
+    sonarr_add_existing: true
+    sonarr_add_missing: true
 # ###########################
 # #    Genre Collections    #
 # ###########################
   Action:
-    template: { name: Anime, mal_id: 1, poster: https://theposterdb.com/api/assets/213642}
+    template: { name: Anime, mal_id: Action, poster: https://theposterdb.com/api/assets/213642}
   Adventure:
-    template: { name: Anime, mal_id: 2, poster: https://theposterdb.com/api/assets/213632} 
+    template: { name: Anime, mal_id: Adventure, poster: https://theposterdb.com/api/assets/213632} 
   Avant Garde:
     template: { name: Anime, mal_id: 5, poster: https://theposterdb.com/api/assets/240144} 
-  # Award Winning:
-  #   template: { name: Anime, mal_id: 46, poster: } 
   Boys Love:
     template: { name: Anime, mal_id: 28, poster: https://theposterdb.com/api/assets/240145} 
   Comedy:
@@ -189,10 +211,6 @@ collections:
     template: { name: Anime, mal_id: 41, poster: https://theposterdb.com/api/assets/240217} 
   Ecchi:
     template: { name: Anime, mal_id: 9, poster: https://theposterdb.com/api/assets/240150} 
-  # Erotica:
-  #   template: { name: Anime, mal_id: 49, poster: } 
-  # Hentai:
-  #   template: { name: Anime, mal_id: 12, poster: } 
   Adult Cast:
     template: { name: Anime, mal_id: 50, poster: https://theposterdb.com/api/assets/240849} 
   Anthropomorphic:
@@ -263,36 +281,16 @@ collections:
     template: { name: Anime, mal_id: 3, poster: https://theposterdb.com/api/assets/240213} 
   Reincarnation:
     template: { name: Anime, mal_id: 72, poster: https://theposterdb.com/api/assets/240867} 
-  # Reverse Harem:
-  #   template: { name: Anime, mal_id: 73, poster:} 
-  # Romantic Subtext:
-  #   template: { name: Anime, mal_id: 74, poster:} 
   Samurai:
     template: { name: Anime, mal_id: 21, poster: https://theposterdb.com/api/assets/213669} 
-  # School:
-  #   template: { name: Anime, mal_id: 23, poster: } 
-  # Showbiz:
-  #   template: { name: Anime, mal_id: 75, poster: } 
   Space:
     template: { name: Anime, mal_id: 29, poster: https://theposterdb.com/api/assets/213661} 
-  # Strategy Game:
-  #   template: { name: Anime, mal_id: 11, poster: } 
   Super Power:
     template: { name: Anime, mal_id: 31, poster: https://theposterdb.com/api/assets/213659} 
-  # Survival:
-  #   template: { name: Anime, mal_id: 76, poster: } 
-  # Team Sports:
-  #   template: { name: Anime, mal_id: 77, poster: } 
-  # Time Travel:
-  #   template: { name: Anime, mal_id: 78, poster: } 
   Vampire:
     template: { name: Anime, mal_id: 32, poster: https://theposterdb.com/api/assets/213671} 
   Video Game:
     template: { name: Anime, mal_id: 79, poster: https://theposterdb.com/api/assets/213657} 
-  # Visual Arts:
-  #   template: { name: Anime, mal_id: 80, poster: } 
-  # Workplace:
-  #   template: { name: Anime, mal_id: 48, poster: } 
   Josei:
     template: { name: Anime, mal_id: 43, poster: https://theposterdb.com/api/assets/240858} 
   Kids:

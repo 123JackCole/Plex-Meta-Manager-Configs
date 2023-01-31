@@ -1,13 +1,14 @@
 libraries:                                      # Library mappings must have a colon (:) placed after them
-  Movies:
-    metadata_path:
-      - file: config/Movie.yml
-      - file: config/Metadata.yml
-      - file: config/Holiday.yml
-      - file: config/Special_Genre.yml
-      - file: config/Studio.yml
-      - file: config/Genre.yml
-      - file: config/Overlays.yml
+  # Movies:
+  #   metadata_path:
+  #     - file: config/Movie.yml
+  #     - file: config/Metadata.yml
+  #     - file: config/Holiday.yml
+  #     - file: config/Special_Genre.yml
+  #     - file: config/Director.yml
+  #     - file: config/Studio.yml
+  #     - file: config/Genre.yml
+  #     - file: config/Overlays.yml
   Anime:
     sonarr:
       url: http://localhost:7875/
@@ -92,7 +93,7 @@ radarr:                                         # Can be individually specified 
   add_missing: false
   add_existing: false
   root_folder_path: F:\Movies (4k)
-  monitor: false
+  monitor: true
   availability: announced
   quality_profile: Ultra-HD
   tag:
@@ -105,7 +106,7 @@ sonarr:                                         # Can be individually specified 
   add_missing: false
   add_existing: false
   root_folder_path: E:\Shows (4k)
-  monitor: false
+  monitor: true
   quality_profile: Ultra-HD
   language_profile: English
   series_type: standard
@@ -129,7 +130,7 @@ mal:
   client_id: SECRET
   client_secret: SECRET
   authorization:
-    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIn0.eyJhdWQiOiJkNGQ3MTdlNzUyYTk2MDBmMjA0YjRjNTI0ODk1YjFmMiIsImp0aSI6IjU1NjY4NjFmMThjYWYyYzdhN2UyODQ2NDYwMGNlODgyNGNjYWQ4MWJjNDBjNzAzYjllOGEzNWIyZTJjNTk2NjhlODEwNzU0NzM4NTg3YzcxIiwiaWF0IjoxNjY3NzAxMjY3LCJuYmYiOjE2Njc3MDEyNjcsImV4cCI6MTY3MDI5Njg2Nywic3ViIjoiNDc1MjI4NiIsInNjb3BlcyI6W119.bba_P6pZlefALUF0WqUu_JypGw4GXql9KbCYaMUB37uqQIm4jpHZJlzCl0uk9KhR_iH5co9OjFT4NfmhbQOQs73JwuAkqlLuF64rOnoqzpFBEjV5YHe8IJqH25aqVJoFOTiV2LoiUQnXbNAOqfkNna5WqNYabZUKlKdekul6Ja96r1byFHjXO3JwAc8w6HRGDEKTKX04wrNL5bDrwPWqf6enh49ekx4RMWxXAaby_s2FfC2uAvMZovnW185qPbxTSa2AHFfcfZ2rK-BlCF87jIFoVZJaswifiGa8qEc6KOBHRTUSDHgE9U1-t7m3sU86iMsvVGX82rmKOSac6SfO4Q
+    access_token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjhjMDA3ZTljZTg3M2E0MjFiNjBiYWMxZjQ5YWQ2N2RmMDJiNTFlZjc3ZjVhNzJmYmZmYjM3MjBkMWU2N2ZkMGQ1N2QzODE2M2ZhNTcyZWNlIn0.eyJhdWQiOiJkNGQ3MTdlNzUyYTk2MDBmMjA0YjRjNTI0ODk1YjFmMiIsImp0aSI6IjhjMDA3ZTljZTg3M2E0MjFiNjBiYWMxZjQ5YWQ2N2RmMDJiNTFlZjc3ZjVhNzJmYmZmYjM3MjBkMWU2N2ZkMGQ1N2QzODE2M2ZhNTcyZWNlIiwiaWF0IjoxNjcyOTk1NjA0LCJuYmYiOjE2NzI5OTU2MDQsImV4cCI6MTY3NTY3NDAwNCwic3ViIjoiNDc1MjI4NiIsInNjb3BlcyI6W119.IkDzmvSc0YRUH03f3wsTSfHtqAVLoR8qEoNYbUubagxK_-cKaN52H2857cshO9-X4_HnfFPvQZOIqGmfinF092zW9YkxddHuEcivUndjHkEmIdupC4JSaEBFjNcT4YCTx7Bw3jnw4lhYMRPVI-0f12NqagHBrXaJN6UF09vfj33cill0nxBUJDE4imBiuGP5PBLhMY1Q8CEAUWrchYC8tt8RU3_QPWRGmkMUKYJeLm_1L8hulWAvNsG0xL2a00OekyBFFvPxP2KxN-KMhqjdp6dZdge8RhBI-So7OuZg8jrbaqYy2G38EhgPWER19xeskPAjKpKDsY0sVXt1cM-bhg
     token_type: Bearer
-    expires_in: 2595600
-    refresh_token: def502003fe1754e9dfaeeafbacf6c4df71dcdd67b890e055b2d7181c8c4d4cc76fb0b0c3043677b52afd6c1e4a9cfa7319154e9667249960f719551853f97d441e3b67d2f38b639306623488522f8084c071ae1e022a2b2e0a53b1939e8fc7c5bb89405fd53d4bd50b2879ccbc30ad55d8aff060ac4f3f85b46eb71b91d95d9485ea63398a2b92018e2e55baa279bc939ebbf8cb9c6527a8bcc74679e2f0d208569ae016c9ccebbd616ebc5e1e7e41e3165d1aa4461721ecd810d1d1e8af09db99439b02cfcb6279372962cac0689d707901d0ccfd4a63733b8c3a5936b1a67320eda6a6851fb8ef5443f20294d4b158687102d322d2f11b6286b98ffb678abea0d6e53af062f9468adaa222afbe7346fce4abb84bbcdbdfa3a59b2007f560264c2101354eba0440b40ff1903fc6d110c69d83aad0cbd5c375e80f844513c44d36279b3e022da0f979370d8e71701e9a931d76b883319e20d4fd102d745be6054fe5de0b4a585c7e99980887952292b0493e91cdaceb65179a14e2dad9ca2ba82e64c2e584c37bd
+    expires_in: 2678400
+    refresh_token: def5020052afbedaeeeeed5becc1655c47777e38efd458f54250ee14698925fc7e6e95ff20d591e8c32b8022172a6f50bee9a5ce8d8faa482530a3b7a65c32f4ff7aadf531452c887f6f22f4597c6ab51eeade49091173bc07600f60272937f8611027845cc41f7b29cc20d138b3be4c0a118711f7cffcb6a85e1dc9c8aaf852422b1e9e29ec0419ed3ffd9d23f6a8e3ea11c659c954efdaed95b06728b2d30870a2b36ec8b57a8a118e8751bbecd013ea28753504df261c4180a879b853f5cc376e9a07bd2a5c054e79aa079037980be360d31894dec07c51485ebc48790399223f9f9ad7d998cbb5d1798e188275afc04c3e64d5c32b3cb3c66e16950c483648232eca289d4db0e52eee85a4e2370183d2d7efd43cd4f14aae5bb79bb370068eafc9b3517aa6bcf2a823ad95b770ebc2d144669afa38729a2465bc3a1dfd435ce59fb0abea375b331d67541a3ee05ef7a943d5ec83833629109212f93059e5fb1a0ecd534485b8d5c5a4cef1cdb767b93d13bc2e2be72ade66770f763b48123f2c1aaaf1c6da91

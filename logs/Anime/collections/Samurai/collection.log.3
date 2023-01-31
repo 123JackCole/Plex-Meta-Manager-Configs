@@ -1,55 +1,204 @@
-[2022-11-19 13:07:22,246] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:22,247] [util.py:216]               [INFO]     |                                    Samurai Collection in Anime                                     |
-[2022-11-19 13:07:22,247] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:22,247] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:22,255] [util.py:216]               [INFO]     |================================== Validating Samurai Attributes ===================================|
-[2022-11-19 13:07:22,255] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,255] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-19 13:07:22,256] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 21), ('poster', 'https://theposterdb.com/api/assets/213669')]) |
-[2022-11-19 13:07:22,256] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,256] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-19 13:07:22,256] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-19 13:07:22,257] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,257] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-19 13:07:22,257] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-19 13:07:22,257] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,258] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-19 13:07:22,258] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 21, 'limit': 999}                                                              |
-[2022-11-19 13:07:22,258] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,258] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-19 13:07:22,259] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213669                                                   |
-[2022-11-19 13:07:22,259] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,259] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-19 13:07:22,259] [builder.py:474]            [DEBUG]    | Value: +++_Samurai                                                                                 |
-[2022-11-19 13:07:22,259] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,260] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-19 13:07:22,260] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-19 13:07:22,310] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-19 13:07:22,310] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-19 13:07:22,311] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:22,311] [util.py:216]               [INFO]     |==================================== Running Samurai Collection ====================================|
-[2022-11-19 13:07:22,312] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:22,312] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-19 13:07:22,312] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:22,312] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 21, 'limit': 999}                                                 |
-[2022-11-19 13:07:22,313] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-19 13:07:22,313] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 21                                                                |
-[2022-11-19 13:07:24,487] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-19 13:07:24,487] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-19 13:07:24,487] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-19 13:07:24,488] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-19 13:07:24,488] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-19 13:07:24,488] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-19 13:07:24,488] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-19 13:07:24,488] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-19 13:07:24,489] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-19 13:07:24,489] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-19 13:07:24,489] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-19 13:07:24,489] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 21                        |
-[2022-11-19 13:07:24,490] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:24,490] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 21                                             |
-[2022-11-19 13:07:24,490] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:24,491] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:24,491] [util.py:216]               [INFO]     |                                    Finished Samurai Collection                                     |
-[2022-11-19 13:07:24,491] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-19 13:07:24,491] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 02:04:10,330] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 02:04:10,330] [util.py:216]               [INFO]     |                                    Samurai Collection in Anime                                     |
+[2023-01-31 02:04:10,330] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 02:04:10,331] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 02:04:10,331] [util.py:216]               [INFO]     |================================== Validating Samurai Attributes ===================================|
+[2023-01-31 02:04:10,331] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,332] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-31 02:04:10,332] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 21), ('poster', 'https://theposterdb.com/api/assets/213669')]) |
+[2023-01-31 02:04:10,332] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,332] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 02:04:10,333] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 02:04:10,333] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,333] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 02:04:10,333] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-01-31 02:04:10,333] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,334] [builder.py:473]            [DEBUG]    | Validating Method: anidb_tag                                                                       |
+[2023-01-31 02:04:10,334] [builder.py:474]            [DEBUG]    | Value: {'tag': 1700, 'limit': 500}                                                                 |
+[2023-01-31 02:04:10,334] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,334] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-31 02:04:10,335] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213669                                                   |
+[2023-01-31 02:04:10,335] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,335] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 02:04:10,335] [builder.py:474]            [DEBUG]    | Value: +++_Samurai                                                                                 |
+[2023-01-31 02:04:10,336] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,336] [builder.py:473]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-01-31 02:04:10,336] [builder.py:474]            [DEBUG]    | Value: hide                                                                                        |
+[2023-01-31 02:04:10,337] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,337] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2023-01-31 02:04:10,337] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 02:04:10,408] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 02:04:10,408] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 02:04:10,409] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 02:04:10,410] [util.py:216]               [INFO]     |==================================== Running Samurai Collection ====================================|
+[2023-01-31 02:04:10,410] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 02:04:10,410] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-01-31 02:04:10,410] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:10,411] [builder.py:1276]           [DEBUG]    | Builder: anidb_tag: {'tag': 1700, 'limit': 500}                                                    |
+[2023-01-31 02:04:10,411] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:10,411] [anidb.py:89]               [INFO]     | Processing AniDB Tag: 500 Anime from the Tag ID: 1700                                              |
+[2023-01-31 02:04:23,656] [anidb.py:99]               [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:23,656] [anidb.py:100]              [DEBUG]    | 152 AniDB IDs Found: [7685, 9348, 10725, 13255, 15135, 15036, 12414, 3395, 6645, 4597, 2369, 8571, 8467, 7989, 8974, 1754, 6494, 5894, 6392, 4327, 2214, 16435, 15597, 79, 2183, 15461, 1471, 117, 10365, 9966, 7177, 13108, 14318, 4199, 8203, 2331, 484, 485, 4315, 2033, 3468, 10993, 12419, 13263, 13917, 8126, 13745, 1209, 10531, 661, 15971, 2991, 12318, 4489, 6613, 1641, 915, 8494, 9719, 11372, 12048, 2826, 306, 1001, 5580, 11447, 274, 1534, 8318, 1607, 17342, 4937, 4055, 7443, 9293, 69, 411, 8010, 11529, 16983, 6537, 7538, 8940, 6199, 1254, 5691, 4097, 1253, 4851, 893, 2036, 2644, 2736, 3154, 8913, 2294, 683, 8528, 11257, 8737, 90, 10005, 1543, 765, 15849, 171, 223, 984, 6284, 7490, 10406, 337, 10373, 8834, 11041, 1859, 1384, 1091, 9687, 533, 2410, 1705, 9556, 10549, 1100, 2038, 409, 759, 358, 359, 376, 375, 205, 2509, 2510, 15007, 11715, 2508, 331, 10784, 14737, 725, 11920, 6402, 177, 463, 462, 178, 9513, 13945, 728, 726] |
+[2023-01-31 02:04:23,657] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1754                                      |
+[2023-01-31 02:04:23,659] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16435                                     |
+[2023-01-31 02:04:23,662] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15971                                     |
+[2023-01-31 02:04:23,663] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11447                                     |
+[2023-01-31 02:04:23,664] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17342                                     |
+[2023-01-31 02:04:23,670] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3154                                      |
+[2023-01-31 02:04:23,670] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10005                                     |
+[2023-01-31 02:04:23,673] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1705                                      |
+[2023-01-31 02:04:23,673] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2038                                      |
+[2023-01-31 02:04:23,675] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14737                                     |
+[2023-01-31 02:04:23,676] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:23,676] [builder.py:1283]           [DEBUG]    | 142 IDs Found: [(78232, 'tvdb'), (263310, 'tvdb'), (283942, 'tvdb'), (348706, 'tvdb'), (357019, 'tvdb'), (313676, 'tvdb'), (307111, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (74796, 'tvdb'), (254665, 'tvdb'), (259863, 'tvdb'), (245821, 'tvdb'), (245821, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (79652, 'tvdb'), (34834, 'tmdb'), (388645, 'tvdb'), (72447, 'tvdb'), (79526, 'tvdb'), (829920, 'tmdb'), (206331, 'tvdb'), (78878, 'tvdb'), (278197, 'tvdb'), (272134, 'tvdb'), (71172, 'tmdb'), (283929, 'tvdb'), (568012, 'tmdb'), (76703, 'tvdb'), (81531, 'tmdb'), (162971, 'tvdb'), (100171, 'tvdb'), (15227, 'tmdb'), (100171, 'tvdb'), (57123, 'tmdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (355970, 'tvdb'), (80043, 'tvdb'), (283929, 'tvdb'), (79888, 'tvdb'), (83212, 'tmdb'), (324711, 'tvdb'), (79382, 'tvdb'), (132941, 'tvdb'), (80978, 'tvdb'), (80398, 'tvdb'), (252621, 'tvdb'), (252621, 'tvdb'), (299497, 'tvdb'), (299497, 'tvdb'), (79360, 'tvdb'), (11621, 'tmdb'), (74957, 'tvdb'), (81908, 'tvdb'), (72448, 'tvdb'), (83403, 'tvdb'), (126710, 'tmdb'), (78885, 'tvdb'), (39206, 'tmdb'), (77604, 'tmdb'), (254663, 'tvdb'), (254663, 'tvdb'), (81797, 'tvdb'), (19576, 'tmdb'), (79082, 'tmdb'), (374205, 'tmdb'), (900667, 'tmdb'), (41498, 'tmdb'), (81797, 'tvdb'), (176983, 'tmdb'), (81797, 'tvdb'), (44727, 'tmdb'), (44731, 'tmdb'), (44730, 'tmdb'), (44725, 'tmdb'), (25278, 'tmdb'), (23446, 'tmdb'), (44728, 'tmdb'), (44729, 'tmdb'), (116315, 'tmdb'), (257320, 'tvdb'), (106121, 'tvdb'), (180581, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (70863, 'tvdb'), (104699, 'ratingKey'), (59717, 'tmdb'), (400705, 'tvdb'), (75911, 'tvdb'), (82443, 'tvdb'), (79156, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (80583, 'tvdb'), (284133, 'tvdb'), (257517, 'tvdb'), (344967, 'tmdb'), (76722, 'tmdb'), (81850, 'tmdb'), (82971, 'tvdb'), (192577, 'tmdb'), (81506, 'tvdb'), (83403, 'tvdb'), (267432, 'tvdb'), (267432, 'tvdb'), (120151, 'tvdb'), (79620, 'tvdb'), (80009, 'tvdb'), (79064, 'tvdb'), (34935, 'tmdb'), (14829, 'tmdb'), (34194, 'tmdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (10515, 'tmdb'), (284585, 'tvdb'), (100151, 'tvdb'), (307323, 'tvdb'), (102041, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (87491, 'tvdb'), (105563, 'ratingKey'), (42137, 'tmdb'), (79765, 'tvdb')] |
+[2023-01-31 02:04:23,676] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:23,701] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,702] [util.py:216]               [INFO]     |=================================== Adding to Samurai Collection ===================================|
+[2023-01-31 02:04:23,702] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,702] [builder.py:1709]           [INFO]     | 1/2 | Samurai Collection | = | Samurai Champloo                                                    |
+[2023-01-31 02:04:23,702] [builder.py:1709]           [INFO]     | 2/2 | Samurai Collection | + | Vinland Saga                                                        |
+[2023-01-31 02:04:23,815] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,815] [builder.py:1735]           [INFO]     | 2 Shows Processed                                                                                  |
+[2023-01-31 02:04:23,816] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,816] [util.py:216]               [INFO]     |=============================== Missing Movies from Library: Samurai ===============================|
+[2023-01-31 02:04:23,816] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,817] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Animal Treasure Island (1971) (TMDb: 34834)                               |
+[2023-01-31 02:04:23,818] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon (2021) (TMDb: 829920) |
+[2023-01-31 02:04:23,819] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Gintama: The Movie (2010) (TMDb: 71172)                                   |
+[2023-01-31 02:04:23,820] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Stampede (2019) (TMDb: 568012)                                 |
+[2023-01-31 02:04:23,821] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Sengoku Basara: The Last Party (2011) (TMDb: 81531)                       |
+[2023-01-31 02:04:23,821] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Galaxy Express 999: The Movie (1979) (TMDb: 15227)                        |
+[2023-01-31 02:04:23,822] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Galaxy Express 999: Eternal Fantasy (1998) (TMDb: 57123)                  |
+[2023-01-31 02:04:23,823] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Million-Year Trip: Bander Book (1978) (TMDb: 83212)                   |
+[2023-01-31 02:04:23,824] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Porco Rosso (1992) (TMDb: 11621)                                          |
+[2023-01-31 02:04:23,825] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Magic Tree House (2012) (TMDb: 126710)                                    |
+[2023-01-31 02:04:23,826] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Detective Conan: Jolly Roger in the Deep Azure (2007) (TMDb: 39206)       |
+[2023-01-31 02:04:23,826] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Momotaro's Divine Sea Warriors (1945) (TMDb: 77604)                       |
+[2023-01-31 02:04:23,827] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: The Movie (2000) (TMDb: 19576)                                 |
+[2023-01-31 02:04:23,827] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece 3D: Straw Hat Chase (2011) (TMDb: 79082)                        |
+[2023-01-31 02:04:23,828] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece Film: GOLD (2016) (TMDb: 374205)                                |
+[2023-01-31 02:04:23,830] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                                  |
+[2023-01-31 02:04:23,831] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Strong World (2009) (TMDb: 41498)                              |
+[2023-01-31 02:04:23,833] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece Film: Z (2012) (TMDb: 176983)                                   |
+[2023-01-31 02:04:23,833] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Dead End Adventure (2003) (TMDb: 44727)                        |
+[2023-01-31 02:04:23,834] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom (2008) (TMDb: 44731) |
+[2023-01-31 02:04:23,835] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Giant Mecha Soldier of Karakuri Castle (2006) (TMDb: 44730)    |
+[2023-01-31 02:04:23,836] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Chopper's Kingdom on the Island of Strange Animals (2002) (TMDb: 44725) |
+[2023-01-31 02:04:23,836] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: The Desert Princess and the Pirates: Adventure in Alabasta (2007) (TMDb: 25278) |
+[2023-01-31 02:04:23,837] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Clockwork Island Adventure (2001) (TMDb: 23446)                |
+[2023-01-31 02:04:23,838] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Curse of the Sacred Sword (2004) (TMDb: 44728)                 |
+[2023-01-31 02:04:23,839] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Baron Omatsuri and the Secret Island (2005) (TMDb: 44729)      |
+[2023-01-31 02:04:23,840] [builder.py:1943]           [INFO]     | Samurai Collection | ? | One Piece: Defeat the Pirate Ganzak! (1998) (TMDb: 116315)                |
+[2023-01-31 02:04:23,840] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Adieu Galaxy Express 999 (1981) (TMDb: 59717)                             |
+[2023-01-31 02:04:23,841] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Sinbad - The Flying Princess and the Secret Island (2015) (TMDb: 344967)  |
+[2023-01-31 02:04:23,841] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Flying Phantom Ship (1969) (TMDb: 76722)                                  |
+[2023-01-31 02:04:23,842] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Space Adventure Cobra: The Movie (1982) (TMDb: 81850)                     |
+[2023-01-31 02:04:23,843] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Space Pirate Captain Harlock (2013) (TMDb: 192577)                        |
+[2023-01-31 02:04:23,844] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Tenchi Muyo! In Love (1996) (TMDb: 34935)                                 |
+[2023-01-31 02:04:23,844] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Tenchi Forever! (1999) (TMDb: 14829)                                      |
+[2023-01-31 02:04:23,845] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Tenchi the Movie 2: The Daughter of Darkness (1997) (TMDb: 34194)         |
+[2023-01-31 02:04:23,847] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Castle in the Sky (1986) (TMDb: 10515)                                    |
+[2023-01-31 02:04:23,848] [builder.py:1943]           [INFO]     | Samurai Collection | ? | Space Pirate Captain Harlock: Arcadia of My Youth (1982) (TMDb: 42137)    |
+[2023-01-31 02:04:23,848] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:23,848] [builder.py:1948]           [INFO]     | 37 Movies Missing                                                                                  |
+[2023-01-31 02:04:24,212] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:24,213] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Samurai ================================|
+[2023-01-31 02:04:24,213] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:24,483] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Project A-ko (TVDB: 78232)                                                |
+[2023-01-31 02:04:24,982] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Aikatsu! (TVDB: 263310)                                                   |
+[2023-01-31 02:04:25,275] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Yona of the Dawn (TVDB: 283942)                                           |
+[2023-01-31 02:04:25,527] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Angolmois: Record of Mongol Invasion (TVDB: 348706)                       |
+[2023-01-31 02:04:25,916] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Arifureta: From Commonplace to World's Strongest (TVDB: 357019)           |
+[2023-01-31 02:04:26,193] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Bananya (TVDB: 313676)                                                    |
+[2023-01-31 02:04:26,500] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Berserk (2016) (TVDB: 307111)                                             |
+[2023-01-31 02:04:26,902] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Black Lagoon (TVDB: 79604)                                                |
+[2023-01-31 02:04:28,202] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Bleach (TVDB: 74796)                                                      |
+[2023-01-31 02:04:28,444] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Brave 10 (TVDB: 254665)                                                   |
+[2023-01-31 02:04:28,890] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Anime Mirai (TVDB: 259863)                                                |
+[2023-01-31 02:04:29,669] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Cardfight!! Vanguard (TVDB: 245821)                                       |
+[2023-01-31 02:04:29,980] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Cobra the Animation (TVDB: 137151)                                        |
+[2023-01-31 02:04:30,223] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Coyote Ragtime Show (TVDB: 79652)                                         |
+[2023-01-31 02:04:30,761] [builder.py:1982]           [INFO]     | Samurai Collection | ? | EDENS ZERO (TVDB: 388645)                                                 |
+[2023-01-31 02:04:31,046] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Those Who Hunt Elves (TVDB: 72447)                                        |
+[2023-01-31 02:04:31,285] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Elemental Gelade (TVDB: 79526)                                            |
+[2023-01-31 02:04:31,547] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Fire Emblem (TVDB: 206331)                                                |
+[2023-01-31 02:04:32,077] [builder.py:1982]           [INFO]     | Samurai Collection | ? | FLCL (TVDB: 78878)                                                        |
+[2023-01-31 02:04:32,374] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Dai-Shogun – Great Revolution (TVDB: 278197)                              |
+[2023-01-31 02:04:32,611] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Galilei Donna (TVDB: 272134)                                              |
+[2023-01-31 02:04:32,889] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Gundam Reconguista in G (TVDB: 283929)                                    |
+[2023-01-31 02:04:35,102] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Pokémon (TVDB: 76703)                                                     |
+[2023-01-31 02:04:35,463] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Ellcia (TVDB: 162971)                                                     |
+[2023-01-31 02:04:35,747] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Galaxy Express 999 (TVDB: 100171)                                         |
+[2023-01-31 02:04:36,519] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Gintama (TVDB: 79895)                                                     |
+[2023-01-31 02:04:36,749] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Grimms Notes The Animation (TVDB: 355970)                                 |
+[2023-01-31 02:04:36,994] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Gun Frontier (TVDB: 80043)                                                |
+[2023-01-31 02:04:37,172] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Harlock Saga (TVDB: 79888)                                                |
+[2023-01-31 02:04:37,466] [builder.py:1982]           [INFO]     | Samurai Collection | ? | ID-0 (TVDB: 324711)                                                       |
+[2023-01-31 02:04:37,712] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Innocent Venus (TVDB: 79382)                                              |
+[2023-01-31 02:04:38,063] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Katanagatari (TVDB: 132941)                                               |
+[2023-01-31 02:04:38,326] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Mars Daybreak (TVDB: 80978)                                               |
+[2023-01-31 02:04:38,604] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Mobile Fighter G Gundam (TVDB: 80398)                                     |
+[2023-01-31 02:04:38,855] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Mobile Suit Gundam AGE (TVDB: 252621)                                     |
+[2023-01-31 02:04:39,219] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Mobile Suit Gundam: Iron-Blooded Orphans (TVDB: 299497)                   |
+[2023-01-31 02:04:39,694] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Eureka Seven (TVDB: 79360)                                                |
+[2023-01-31 02:04:39,909] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Requiem from the Darkness (TVDB: 74957)                                   |
+[2023-01-31 02:04:40,144] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Family Frenzy Diary (TVDB: 81908)                                         |
+[2023-01-31 02:04:40,409] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Legend of Basara (TVDB: 72448)                                            |
+[2023-01-31 02:04:40,619] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Space Symphony Maetel (TVDB: 83403)                                       |
+[2023-01-31 02:04:40,836] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Tweeny Witches (TVDB: 78885)                                              |
+[2023-01-31 02:04:41,101] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Bodacious Space Pirates (TVDB: 254663)                                    |
+[2023-01-31 02:04:43,090] [builder.py:1982]           [INFO]     | Samurai Collection | ? | One Piece (TVDB: 81797)                                                   |
+[2023-01-31 02:04:43,303] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Ozma (TVDB: 257320)                                                       |
+[2023-01-31 02:04:43,559] [builder.py:1982]           [INFO]     | Samurai Collection | ? | The Adventures of Peter Pan (TVDB: 106121)                                |
+[2023-01-31 02:04:43,737] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Queen Emeraldas (TVDB: 180581)                                            |
+[2023-01-31 02:04:44,285] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Queen's Blade (TVDB: 87491)                                               |
+[2023-01-31 02:04:44,753] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Rurouni Kenshin (TVDB: 70863)                                             |
+[2023-01-31 02:04:44,973] [builder.py:1982]           [INFO]     | Samurai Collection | ? | SD Gundam World Heroes (TVDB: 400705)                                     |
+[2023-01-31 02:04:45,278] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Outlaw Star (TVDB: 75911)                                                 |
+[2023-01-31 02:04:45,551] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Angel Links (TVDB: 82443)                                                 |
+[2023-01-31 02:04:46,070] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Fist of the North Star (TVDB: 79156)                                      |
+[2023-01-31 02:04:46,322] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Sengoku Basara (TVDB: 87881)                                              |
+[2023-01-31 02:04:46,575] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Tenchi in Tokyo (TVDB: 80583)                                             |
+[2023-01-31 02:04:46,917] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Rage of Bahamut (TVDB: 284133)                                            |
+[2023-01-31 02:04:47,142] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Shining Hearts (TVDB: 257517)                                             |
+[2023-01-31 02:04:47,402] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Space Adventure Cobra (TVDB: 82971)                                       |
+[2023-01-31 02:04:47,602] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Space Pirate Captain Herlock - The Endless Odyssey (TVDB: 81506)          |
+[2023-01-31 02:04:47,937] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Gargantia on the Verdurous Planet (TVDB: 267432)                          |
+[2023-01-31 02:04:48,169] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Mermaid Forest (TVDB: 120151)                                             |
+[2023-01-31 02:04:48,439] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Tenchi Muyo! Tenchi Universe (TVDB: 79620)                                |
+[2023-01-31 02:04:48,829] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Tenchi Muyo! Ryo-Ohki (TVDB: 80009)                                       |
+[2023-01-31 02:04:49,101] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Tenchi Muyo! GXP (TVDB: 79064)                                            |
+[2023-01-31 02:04:49,412] [builder.py:1982]           [INFO]     | Samurai Collection | ? | The Rolling Girls (TVDB: 284585)                                          |
+[2023-01-31 02:04:49,470] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 100151                              |
+[2023-01-31 02:04:49,712] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Space Patrol Luluco (TVDB: 307323)                                        |
+[2023-01-31 02:04:49,975] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Sea Story (TVDB: 102041)                                                  |
+[2023-01-31 02:04:50,300] [builder.py:1982]           [INFO]     | Samurai Collection | ? | VanDread (TVDB: 71744)                                                    |
+[2023-01-31 02:04:50,528] [builder.py:1982]           [INFO]     | Samurai Collection | ? | Arcadia of My Youth: Endless Orbit SSX (TVDB: 79765)                      |
+[2023-01-31 02:04:50,529] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:50,529] [builder.py:1987]           [INFO]     | 69 Shows Missing                                                                                   |
+[2023-01-31 02:04:50,889] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:50,889] [util.py:216]               [INFO]     |============================== Updating Details of Samurai Collection ==============================|
+[2023-01-31 02:04:50,889] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:51,066] [plex.py:499]               [INFO]     | Detail: collection_order updated Collection Order to hide                                          |
+[2023-01-31 02:04:51,067] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-31 02:04:51,067] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213669                               |
+[2023-01-31 02:04:51,067] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-31 02:04:51,937] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/213669               |
+[2023-01-31 02:04:52,015] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:52,016] [util.py:216]               [INFO]     |======================= Updating Details of the Items in Samurai Collection ========================|
+[2023-01-31 02:04:52,016] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2023-01-31 02:04:52,400] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-01-31 02:04:52,401] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2023-01-31 02:04:52,401] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-01-31 02:04:52,401] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2023-01-31 02:04:52,402] [sonarr.py:74]              [DEBUG]    | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                                         |
+[2023-01-31 02:04:52,402] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
+[2023-01-31 02:04:52,668] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-01-31 02:04:52,669] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                     |
+[2023-01-31 02:04:52,669] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
+[2023-01-31 02:04:52,669] [sonarr.py:174]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
+[2023-01-31 02:04:52,671] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 02:04:52,671] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 02:04:52,671] [util.py:216]               [INFO]     |                                    Finished Samurai Collection                                     |
+[2023-01-31 02:04:52,672] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:42                                    |
+[2023-01-31 02:04:52,672] [util.py:220]               [INFO]     |====================================================================================================|

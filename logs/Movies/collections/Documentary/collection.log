@@ -1,106 +1,114 @@
-[2022-11-23 01:15:28,362] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:15:28,362] [util.py:216]               [INFO]     |                                  Documentary Collection in Movies                                  |
-[2022-11-23 01:15:28,363] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:15:28,363] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:15:28,363] [util.py:216]               [INFO]     |================================ Validating Documentary Attributes =================================|
-[2022-11-23 01:15:28,364] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,364] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 01:15:28,364] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Genre'), ('genre', 'Documentary'), ('poster', 'https://theposterdb.com/api/assets/51430')]) |
-[2022-11-23 01:15:28,364] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,365] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 01:15:28,365] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-23 01:15:28,365] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,365] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:15:28,365] [builder.py:474]            [DEBUG]    | Value: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record. |
-[2022-11-23 01:15:28,366] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,366] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-23 01:15:28,366] [builder.py:474]            [DEBUG]    | Value: {'genre': 'Documentary'}                                                                    |
-[2022-11-23 01:15:28,399] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,399] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:15:28,400] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/51430                                                    |
-[2022-11-23 01:15:28,400] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,400] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:15:28,400] [builder.py:474]            [DEBUG]    | Value: 00000d_Documentary                                                                          |
-[2022-11-23 01:15:28,609] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:15:28,609] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:15:28,620] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:15:28,621] [util.py:216]               [INFO]     |================================== Running Documentary Collection ==================================|
-[2022-11-23 01:15:28,622] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:15:28,622] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-23 01:15:28,622] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,623] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Documentary', '?type=1&sort=titleSort&push=1&genre=1444&pop=1') |
-[2022-11-23 01:15:28,623] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:28,623] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-23 01:15:28,623] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-23 01:15:28,624] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-23 01:15:28,624] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-23 01:15:28,624] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-23 01:15:28,624] [util.py:161]               [INFO]     |       Genre is Documentary                                                                         |
-[2022-11-23 01:15:28,708] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,708] [plex.py:749]               [DEBUG]    | 45 Keys Found: [(121325, 'ratingKey'), (121327, 'ratingKey'), (99239, 'ratingKey'), (104931, 'ratingKey'), (99249, 'ratingKey'), (99269, 'ratingKey'), (99283, 'ratingKey'), (99287, 'ratingKey'), (99288, 'ratingKey'), (100099, 'ratingKey'), (104207, 'ratingKey'), (104212, 'ratingKey'), (104304, 'ratingKey'), (112697, 'ratingKey'), (104482, 'ratingKey'), (104306, 'ratingKey'), (104317, 'ratingKey'), (99808, 'ratingKey'), (104328, 'ratingKey'), (104336, 'ratingKey'), (119630, 'ratingKey'), (99910, 'ratingKey'), (112601, 'ratingKey'), (102132, 'ratingKey'), (104525, 'ratingKey'), (100363, 'ratingKey'), (116516, 'ratingKey'), (104383, 'ratingKey'), (102204, 'ratingKey'), (101138, 'ratingKey'), (104410, 'ratingKey'), (115352, 'ratingKey'), (100231, 'ratingKey'), (104437, 'ratingKey'), (104429, 'ratingKey'), (101493, 'ratingKey'), (101549, 'ratingKey'), (104463, 'ratingKey'), (96916, 'ratingKey'), (116076, 'ratingKey'), (116087, 'ratingKey'), (105236, 'ratingKey'), (105930, 'ratingKey'), (105103, 'ratingKey'), (105209, 'ratingKey')] |
-[2022-11-23 01:15:28,708] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:28,709] [builder.py:1283]           [DEBUG]    | 45 IDs Found: [(121325, 'ratingKey'), (121327, 'ratingKey'), (99239, 'ratingKey'), (104931, 'ratingKey'), (99249, 'ratingKey'), (99269, 'ratingKey'), (99283, 'ratingKey'), (99287, 'ratingKey'), (99288, 'ratingKey'), (100099, 'ratingKey'), (104207, 'ratingKey'), (104212, 'ratingKey'), (104304, 'ratingKey'), (112697, 'ratingKey'), (104482, 'ratingKey'), (104306, 'ratingKey'), (104317, 'ratingKey'), (99808, 'ratingKey'), (104328, 'ratingKey'), (104336, 'ratingKey'), (119630, 'ratingKey'), (99910, 'ratingKey'), (112601, 'ratingKey'), (102132, 'ratingKey'), (104525, 'ratingKey'), (100363, 'ratingKey'), (116516, 'ratingKey'), (104383, 'ratingKey'), (102204, 'ratingKey'), (101138, 'ratingKey'), (104410, 'ratingKey'), (115352, 'ratingKey'), (100231, 'ratingKey'), (104437, 'ratingKey'), (104429, 'ratingKey'), (101493, 'ratingKey'), (101549, 'ratingKey'), (104463, 'ratingKey'), (96916, 'ratingKey'), (116076, 'ratingKey'), (116087, 'ratingKey'), (105236, 'ratingKey'), (105930, 'ratingKey'), (105103, 'ratingKey'), (105209, 'ratingKey')] |
-[2022-11-23 01:15:28,709] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:15:29,340] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:29,340] [util.py:216]               [INFO]     |================================= Adding to Documentary Collection =================================|
-[2022-11-23 01:15:29,341] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:29,341] [builder.py:1709]           [INFO]     |  1/45 | Documentary Collection | + | 2000 Mules (2022)                                             |
-[2022-11-23 01:15:29,468] [builder.py:1709]           [INFO]     |  2/45 | Documentary Collection | + | AlphaGo (2017)                                                |
-[2022-11-23 01:15:29,607] [builder.py:1709]           [INFO]     |  3/45 | Documentary Collection | = | Amazing Grace (2019)                                          |
-[2022-11-23 01:15:29,607] [builder.py:1709]           [INFO]     |  4/45 | Documentary Collection | = | Ambra Blu-Ray Experience (2008)                               |
-[2022-11-23 01:15:29,608] [builder.py:1709]           [INFO]     |  5/45 | Documentary Collection | = | Amy (2015)                                                    |
-[2022-11-23 01:15:29,608] [builder.py:1709]           [INFO]     |  6/45 | Documentary Collection | = | Ascension (2021)                                              |
-[2022-11-23 01:15:29,608] [builder.py:1709]           [INFO]     |  7/45 | Documentary Collection | = | Athlete A (2020)                                              |
-[2022-11-23 01:15:29,608] [builder.py:1709]           [INFO]     |  8/45 | Documentary Collection | = | Attica (2022)                                                 |
-[2022-11-23 01:15:29,609] [builder.py:1709]           [INFO]     |  9/45 | Documentary Collection | = | Audible (2021)                                                |
-[2022-11-23 01:15:29,609] [builder.py:1709]           [INFO]     | 10/45 | Documentary Collection | = | Bill Burr: Live at Red Rocks (2022)                           |
-[2022-11-23 01:15:29,609] [builder.py:1709]           [INFO]     | 11/45 | Documentary Collection | = | Bright Lights: Starring Carrie Fisher and Debbie Reynolds (2017) |
-[2022-11-23 01:15:29,609] [builder.py:1709]           [INFO]     | 12/45 | Documentary Collection | = | Cobain: Montage of Heck (2015)                                |
-[2022-11-23 01:15:29,610] [builder.py:1709]           [INFO]     | 13/45 | Documentary Collection | = | Crip Camp (2020)                                              |
-[2022-11-23 01:15:29,610] [builder.py:1709]           [INFO]     | 14/45 | Documentary Collection | = | David Attenborough: A Life on Our Planet (2020)               |
-[2022-11-23 01:15:29,610] [builder.py:1709]           [INFO]     | 15/45 | Documentary Collection | = | David Byrne's American Utopia (2020)                          |
-[2022-11-23 01:15:29,611] [builder.py:1709]           [INFO]     | 16/45 | Documentary Collection | = | The Dawn Wall (2018)                                          |
-[2022-11-23 01:15:29,611] [builder.py:1709]           [INFO]     | 17/45 | Documentary Collection | = | Disclosure (2020)                                             |
-[2022-11-23 01:15:29,612] [builder.py:1709]           [INFO]     | 18/45 | Documentary Collection | = | Eddie Murphy: Raw (1987)                                      |
-[2022-11-23 01:15:29,612] [builder.py:1709]           [INFO]     | 19/45 | Documentary Collection | = | Faces Places (2017)                                           |
-[2022-11-23 01:15:29,612] [builder.py:1709]           [INFO]     | 20/45 | Documentary Collection | = | The Farthest (2017)                                           |
-[2022-11-23 01:15:29,613] [builder.py:1709]           [INFO]     | 21/45 | Documentary Collection | = | Faya Dayi (2021)                                              |
-[2022-11-23 01:15:29,613] [builder.py:1709]           [INFO]     | 22/45 | Documentary Collection | = | Flee (2021)                                                   |
-[2022-11-23 01:15:29,613] [builder.py:1709]           [INFO]     | 23/45 | Documentary Collection | = | Free Solo (2018)                                              |
-[2022-11-23 01:15:29,614] [builder.py:1709]           [INFO]     | 24/45 | Documentary Collection | = | Girl in the Picture (2022)                                    |
-[2022-11-23 01:15:29,614] [builder.py:1709]           [INFO]     | 25/45 | Documentary Collection | = | Gleason (2016)                                                |
-[2022-11-23 01:15:29,614] [builder.py:1709]           [INFO]     | 26/45 | Documentary Collection | = | Halftime (2022)                                               |
-[2022-11-23 01:15:29,615] [builder.py:1709]           [INFO]     | 27/45 | Documentary Collection | = | Harry Potter 20th Anniversary: Return to Hogwarts (2022)      |
-[2022-11-23 01:15:29,615] [builder.py:1709]           [INFO]     | 28/45 | Documentary Collection | = | Homecoming: A Film by Beyoncé (2019)                          |
-[2022-11-23 01:15:29,615] [builder.py:1709]           [INFO]     | 29/45 | Documentary Collection | = | Honeyland (2019)                                              |
-[2022-11-23 01:15:29,616] [builder.py:1709]           [INFO]     | 30/45 | Documentary Collection | = | I Am Not Your Negro (2017)                                    |
-[2022-11-23 01:15:29,616] [builder.py:1709]           [INFO]     | 31/45 | Documentary Collection | = | Jackass 4.5 (2022)                                            |
-[2022-11-23 01:15:29,616] [builder.py:1709]           [INFO]     | 32/45 | Documentary Collection | = | Jackass Forever (2022)                                        |
-[2022-11-23 01:15:29,617] [builder.py:1709]           [INFO]     | 33/45 | Documentary Collection | = | Kedi (2017)                                                   |
-[2022-11-23 01:15:29,617] [builder.py:1709]           [INFO]     | 34/45 | Documentary Collection | = | Maiden (2019)                                                 |
-[2022-11-23 01:15:29,618] [builder.py:1709]           [INFO]     | 35/45 | Documentary Collection | = | The Meaning of Monty Python (2013)                            |
-[2022-11-23 01:15:29,618] [builder.py:1709]           [INFO]     | 36/45 | Documentary Collection | = | Minding the Gap (2018)                                        |
-[2022-11-23 01:15:29,618] [builder.py:1709]           [INFO]     | 37/45 | Documentary Collection | = | The Night (2022)                                              |
-[2022-11-23 01:15:29,619] [builder.py:1709]           [INFO]     | 38/45 | Documentary Collection | = | Norm Macdonald: Nothing Special (2022)                        |
-[2022-11-23 01:15:29,619] [builder.py:1709]           [INFO]     | 39/45 | Documentary Collection | = | The Sparks Brothers (2021)                                    |
-[2022-11-23 01:15:29,620] [builder.py:1709]           [INFO]     | 40/45 | Documentary Collection | = | Summer of Soul (...Or, When the Revolution Could Not Be Televised) (2021) |
-[2022-11-23 01:15:29,620] [builder.py:1709]           [INFO]     | 41/45 | Documentary Collection | = | Taylor Swift: Reputation Stadium Tour (2018)                  |
-[2022-11-23 01:15:29,620] [builder.py:1709]           [INFO]     | 42/45 | Documentary Collection | = | They Shall Not Grow Old (2018)                                |
-[2022-11-23 01:15:29,621] [builder.py:1709]           [INFO]     | 43/45 | Documentary Collection | = | Tina (2021)                                                   |
-[2022-11-23 01:15:29,621] [builder.py:1709]           [INFO]     | 44/45 | Documentary Collection | = | Tower (2017)                                                  |
-[2022-11-23 01:15:29,622] [builder.py:1709]           [INFO]     | 45/45 | Documentary Collection | = | Won't You Be My Neighbor? (2018)                              |
-[2022-11-23 01:15:29,622] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:29,622] [builder.py:1735]           [INFO]     | 45 Movies Processed                                                                                |
-[2022-11-23 01:15:29,626] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:29,627] [util.py:216]               [INFO]     |============================ Updating Details of Documentary Collection ============================|
-[2022-11-23 01:15:29,627] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 01:15:29,627] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-23 01:15:29,628] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 01:15:29,628] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/51430                                |
-[2022-11-23 01:15:29,628] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-23 01:15:30,610] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/51430                |
-[2022-11-23 01:15:30,837] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:15:30,837] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:15:30,838] [util.py:216]               [INFO]     |                                  Finished Documentary Collection                                   |
-[2022-11-23 01:15:30,838] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-23 01:15:30,838] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 01:13:32,566] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 01:13:32,566] [util.py:216]               [INFO]     |                                  Documentary Collection in Movies                                  |
+[2023-01-31 01:13:32,566] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 01:13:32,567] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 01:13:32,567] [util.py:216]               [INFO]     |================================ Validating Documentary Attributes =================================|
+[2023-01-31 01:13:32,567] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,568] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-31 01:13:32,568] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Genre'), ('genre', 'Documentary'), ('poster', 'https://theposterdb.com/api/assets/51430')]) |
+[2023-01-31 01:13:32,568] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,568] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 01:13:32,569] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-01-31 01:13:32,569] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,569] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-01-31 01:13:32,569] [builder.py:474]            [DEBUG]    | Value: Documentary film is a non-fiction genre intended to document reality primarily for the purposes of instruction, education, or maintaining a historical record. |
+[2023-01-31 01:13:32,570] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,570] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
+[2023-01-31 01:13:32,570] [builder.py:474]            [DEBUG]    | Value: {'genre': 'Documentary'}                                                                    |
+[2023-01-31 01:13:32,626] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,626] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-31 01:13:32,626] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/51430                                                    |
+[2023-01-31 01:13:32,627] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,627] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 01:13:32,627] [builder.py:474]            [DEBUG]    | Value: 00000d_Documentary                                                                          |
+[2023-01-31 01:13:32,908] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 01:13:32,908] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 01:13:32,908] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 01:13:32,909] [util.py:216]               [INFO]     |================================== Running Documentary Collection ==================================|
+[2023-01-31 01:13:32,909] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 01:13:32,909] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-01-31 01:13:32,910] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:32,910] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Genre is Documentary', '?type=1&sort=titleSort&push=1&genre=1444&pop=1') |
+[2023-01-31 01:13:32,910] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:32,910] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
+[2023-01-31 01:13:32,911] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
+[2023-01-31 01:13:32,911] [util.py:161]               [INFO]     | Filter:                                                                                            |
+[2023-01-31 01:13:32,911] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
+[2023-01-31 01:13:32,911] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
+[2023-01-31 01:13:32,911] [util.py:161]               [INFO]     |       Genre is Documentary                                                                         |
+[2023-01-31 01:13:33,011] [plex.py:748]               [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:33,012] [plex.py:749]               [DEBUG]    | 53 Keys Found: [(121327, 'ratingKey'), (99239, 'ratingKey'), (125888, 'ratingKey'), (99249, 'ratingKey'), (122305, 'ratingKey'), (126286, 'ratingKey'), (99283, 'ratingKey'), (99287, 'ratingKey'), (99288, 'ratingKey'), (121668, 'ratingKey'), (100099, 'ratingKey'), (104207, 'ratingKey'), (104212, 'ratingKey'), (104304, 'ratingKey'), (112697, 'ratingKey'), (104482, 'ratingKey'), (104306, 'ratingKey'), (104317, 'ratingKey'), (99808, 'ratingKey'), (121827, 'ratingKey'), (104336, 'ratingKey'), (99910, 'ratingKey'), (128994, 'ratingKey'), (102132, 'ratingKey'), (104525, 'ratingKey'), (122300, 'ratingKey'), (116516, 'ratingKey'), (102204, 'ratingKey'), (101138, 'ratingKey'), (128977, 'ratingKey'), (128962, 'ratingKey'), (104410, 'ratingKey'), (115352, 'ratingKey'), (128980, 'ratingKey'), (128960, 'ratingKey'), (100231, 'ratingKey'), (121718, 'ratingKey'), (104437, 'ratingKey'), (104429, 'ratingKey'), (101493, 'ratingKey'), (123056, 'ratingKey'), (101549, 'ratingKey'), (104463, 'ratingKey'), (128006, 'ratingKey'), (129000, 'ratingKey'), (96916, 'ratingKey'), (127297, 'ratingKey'), (105236, 'ratingKey'), (105930, 'ratingKey'), (105103, 'ratingKey'), (122225, 'ratingKey'), (122351, 'ratingKey'), (105209, 'ratingKey')] |
+[2023-01-31 01:13:33,012] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:33,013] [builder.py:1283]           [DEBUG]    | 53 IDs Found: [(121327, 'ratingKey'), (99239, 'ratingKey'), (125888, 'ratingKey'), (99249, 'ratingKey'), (122305, 'ratingKey'), (126286, 'ratingKey'), (99283, 'ratingKey'), (99287, 'ratingKey'), (99288, 'ratingKey'), (121668, 'ratingKey'), (100099, 'ratingKey'), (104207, 'ratingKey'), (104212, 'ratingKey'), (104304, 'ratingKey'), (112697, 'ratingKey'), (104482, 'ratingKey'), (104306, 'ratingKey'), (104317, 'ratingKey'), (99808, 'ratingKey'), (121827, 'ratingKey'), (104336, 'ratingKey'), (99910, 'ratingKey'), (128994, 'ratingKey'), (102132, 'ratingKey'), (104525, 'ratingKey'), (122300, 'ratingKey'), (116516, 'ratingKey'), (102204, 'ratingKey'), (101138, 'ratingKey'), (128977, 'ratingKey'), (128962, 'ratingKey'), (104410, 'ratingKey'), (115352, 'ratingKey'), (128980, 'ratingKey'), (128960, 'ratingKey'), (100231, 'ratingKey'), (121718, 'ratingKey'), (104437, 'ratingKey'), (104429, 'ratingKey'), (101493, 'ratingKey'), (123056, 'ratingKey'), (101549, 'ratingKey'), (104463, 'ratingKey'), (128006, 'ratingKey'), (129000, 'ratingKey'), (96916, 'ratingKey'), (127297, 'ratingKey'), (105236, 'ratingKey'), (105930, 'ratingKey'), (105103, 'ratingKey'), (122225, 'ratingKey'), (122351, 'ratingKey'), (105209, 'ratingKey')] |
+[2023-01-31 01:13:33,013] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:13:33,776] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:33,776] [util.py:216]               [INFO]     |================================= Adding to Documentary Collection =================================|
+[2023-01-31 01:13:33,776] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:33,776] [builder.py:1709]           [INFO]     |  1/53 | Documentary Collection | = | AlphaGo (2017)                                                |
+[2023-01-31 01:13:33,777] [builder.py:1709]           [INFO]     |  2/53 | Documentary Collection | = | Amazing Grace (2019)                                          |
+[2023-01-31 01:13:33,777] [builder.py:1709]           [INFO]     |  3/53 | Documentary Collection | = | American Boy: A Profile of - Steven Prince (1978)             |
+[2023-01-31 01:13:33,777] [builder.py:1709]           [INFO]     |  4/53 | Documentary Collection | = | Amy (2015)                                                    |
+[2023-01-31 01:13:33,778] [builder.py:1709]           [INFO]     |  5/53 | Documentary Collection | = | Apollo 11 (2019)                                              |
+[2023-01-31 01:13:33,778] [builder.py:1709]           [INFO]     |  6/53 | Documentary Collection | = | Ascension (2021)                                              |
+[2023-01-31 01:13:33,778] [builder.py:1709]           [INFO]     |  7/53 | Documentary Collection | = | Athlete A (2020)                                              |
+[2023-01-31 01:13:33,779] [builder.py:1709]           [INFO]     |  8/53 | Documentary Collection | = | Attica (2022)                                                 |
+[2023-01-31 01:13:33,779] [builder.py:1709]           [INFO]     |  9/53 | Documentary Collection | = | Audible (2021)                                                |
+[2023-01-31 01:13:33,779] [builder.py:1709]           [INFO]     | 10/53 | Documentary Collection | = | Beyond Infinity: Buzz and the Journey to Lightyear (2022)     |
+[2023-01-31 01:13:33,780] [builder.py:1709]           [INFO]     | 11/53 | Documentary Collection | = | Bill Burr: Live at Red Rocks (2022)                           |
+[2023-01-31 01:13:33,780] [builder.py:1709]           [INFO]     | 12/53 | Documentary Collection | = | Bright Lights: Starring Carrie Fisher and Debbie Reynolds (2017) |
+[2023-01-31 01:13:33,780] [builder.py:1709]           [INFO]     | 13/53 | Documentary Collection | = | Cobain: Montage of Heck (2015)                                |
+[2023-01-31 01:13:33,781] [builder.py:1709]           [INFO]     | 14/53 | Documentary Collection | = | Crip Camp (2020)                                              |
+[2023-01-31 01:13:33,781] [builder.py:1709]           [INFO]     | 15/53 | Documentary Collection | = | David Attenborough: A Life on Our Planet (2020)               |
+[2023-01-31 01:13:33,781] [builder.py:1709]           [INFO]     | 16/53 | Documentary Collection | = | David Byrne's American Utopia (2020)                          |
+[2023-01-31 01:13:33,782] [builder.py:1709]           [INFO]     | 17/53 | Documentary Collection | = | The Dawn Wall (2018)                                          |
+[2023-01-31 01:13:33,782] [builder.py:1709]           [INFO]     | 18/53 | Documentary Collection | = | Disclosure (2020)                                             |
+[2023-01-31 01:13:33,782] [builder.py:1709]           [INFO]     | 19/53 | Documentary Collection | = | Eddie Murphy: Raw (1987)                                      |
+[2023-01-31 01:13:33,783] [builder.py:1709]           [INFO]     | 20/53 | Documentary Collection | = | Embrace the Panda: Making Turning Red (2022)                  |
+[2023-01-31 01:13:33,783] [builder.py:1709]           [INFO]     | 21/53 | Documentary Collection | = | The Farthest (2017)                                           |
+[2023-01-31 01:13:33,783] [builder.py:1709]           [INFO]     | 22/53 | Documentary Collection | = | Flee (2021)                                                   |
+[2023-01-31 01:13:33,784] [builder.py:1709]           [INFO]     | 23/53 | Documentary Collection | = | Free Solo (2018)                                              |
+[2023-01-31 01:13:33,784] [builder.py:1709]           [INFO]     | 24/53 | Documentary Collection | = | Girl in the Picture (2022)                                    |
+[2023-01-31 01:13:33,784] [builder.py:1709]           [INFO]     | 25/53 | Documentary Collection | = | Gleason (2016)                                                |
+[2023-01-31 01:13:33,786] [builder.py:1709]           [INFO]     | 26/53 | Documentary Collection | = | Good Night Oppy (2022)                                        |
+[2023-01-31 01:13:33,786] [builder.py:1709]           [INFO]     | 27/53 | Documentary Collection | = | Harry Potter 20th Anniversary: Return to Hogwarts (2022)      |
+[2023-01-31 01:13:33,786] [builder.py:1709]           [INFO]     | 28/53 | Documentary Collection | = | Honeyland (2019)                                              |
+[2023-01-31 01:13:33,787] [builder.py:1709]           [INFO]     | 29/53 | Documentary Collection | = | I Am Not Your Negro (2017)                                    |
+[2023-01-31 01:13:33,787] [builder.py:1709]           [INFO]     | 30/53 | Documentary Collection | = | Jackass 3.5 (2011)                                            |
+[2023-01-31 01:13:33,787] [builder.py:1709]           [INFO]     | 31/53 | Documentary Collection | = | Jackass 3D (2010)                                             |
+[2023-01-31 01:13:33,787] [builder.py:1709]           [INFO]     | 32/53 | Documentary Collection | = | Jackass 4.5 (2022)                                            |
+[2023-01-31 01:13:33,788] [builder.py:1709]           [INFO]     | 33/53 | Documentary Collection | = | Jackass Forever (2022)                                        |
+[2023-01-31 01:13:33,788] [builder.py:1709]           [INFO]     | 34/53 | Documentary Collection | = | Jackass Number Two (2006)                                     |
+[2023-01-31 01:13:33,789] [builder.py:1709]           [INFO]     | 35/53 | Documentary Collection | = | Jackass: The Movie (2002)                                     |
+[2023-01-31 01:13:33,789] [builder.py:1709]           [INFO]     | 36/53 | Documentary Collection | = | Kedi (2017)                                                   |
+[2023-01-31 01:13:33,789] [builder.py:1709]           [INFO]     | 37/53 | Documentary Collection | = | The Kingdom of Dreams and Madness (2013)                      |
+[2023-01-31 01:13:33,790] [builder.py:1709]           [INFO]     | 38/53 | Documentary Collection | = | Maiden (2019)                                                 |
+[2023-01-31 01:13:33,790] [builder.py:1709]           [INFO]     | 39/53 | Documentary Collection | = | The Meaning of Monty Python (2013)                            |
+[2023-01-31 01:13:33,790] [builder.py:1709]           [INFO]     | 40/53 | Documentary Collection | = | Minding the Gap (2018)                                        |
+[2023-01-31 01:13:33,791] [builder.py:1709]           [INFO]     | 41/53 | Documentary Collection | = | Never-Ending Man: Hayao Miyazaki (2016)                       |
+[2023-01-31 01:13:33,791] [builder.py:1709]           [INFO]     | 42/53 | Documentary Collection | = | The Night (2022)                                              |
+[2023-01-31 01:13:33,791] [builder.py:1709]           [INFO]     | 43/53 | Documentary Collection | = | Norm Macdonald: Nothing Special (2022)                        |
+[2023-01-31 01:13:33,792] [builder.py:1709]           [INFO]     | 44/53 | Documentary Collection | = | The Redeem Team (2022)                                        |
+[2023-01-31 01:13:33,792] [builder.py:1709]           [INFO]     | 45/53 | Documentary Collection | = | A Spark Story (2021)                                          |
+[2023-01-31 01:13:33,792] [builder.py:1709]           [INFO]     | 46/53 | Documentary Collection | = | The Sparks Brothers (2021)                                    |
+[2023-01-31 01:13:33,793] [builder.py:1709]           [INFO]     | 47/53 | Documentary Collection | = | Summer of Soul (...Or, When the Revolution Could Not Be Televised) (2021) |
+[2023-01-31 01:13:33,793] [builder.py:1709]           [INFO]     | 48/53 | Documentary Collection | = | They Shall Not Grow Old (2018)                                |
+[2023-01-31 01:13:33,793] [builder.py:1709]           [INFO]     | 49/53 | Documentary Collection | = | Tina (2021)                                                   |
+[2023-01-31 01:13:33,794] [builder.py:1709]           [INFO]     | 50/53 | Documentary Collection | = | Tower (2017)                                                  |
+[2023-01-31 01:13:33,794] [builder.py:1709]           [INFO]     | 51/53 | Documentary Collection | = | Weird: The Al Yankovic Story (2022)                           |
+[2023-01-31 01:13:33,795] [builder.py:1709]           [INFO]     | 52/53 | Documentary Collection | = | What Is a Woman? (2022)                                       |
+[2023-01-31 01:13:33,795] [builder.py:1709]           [INFO]     | 53/53 | Documentary Collection | = | Won't You Be My Neighbor? (2018)                              |
+[2023-01-31 01:13:33,796] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:33,796] [builder.py:1735]           [INFO]     | 53 Movies Processed                                                                                |
+[2023-01-31 01:13:33,800] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:33,801] [util.py:216]               [INFO]     |============================ Updating Details of Documentary Collection ============================|
+[2023-01-31 01:13:33,801] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-31 01:13:33,802] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-01-31 01:13:33,802] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-31 01:13:33,803] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/51430                                |
+[2023-01-31 01:13:33,803] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-31 01:13:33,803] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-01-31 01:13:34,092] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 01:13:34,093] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 01:13:34,093] [util.py:216]               [INFO]     |                                  Finished Documentary Collection                                   |
+[2023-01-31 01:13:34,094] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
+[2023-01-31 01:13:34,094] [util.py:220]               [INFO]     |====================================================================================================|

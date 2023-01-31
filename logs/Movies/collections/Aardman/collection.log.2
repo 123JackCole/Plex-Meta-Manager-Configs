@@ -1,70 +1,207 @@
-[2022-11-22 01:10:32,007] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:32,007] [util.py:216]               [INFO]     |                                    Aardman Collection in Movies                                    |
-[2022-11-22 01:10:32,008] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:32,008] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,008] [util.py:216]               [INFO]     |================================== Validating Aardman Attributes ===================================|
-[2022-11-22 01:10:32,009] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,009] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-22 01:10:32,009] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Aardman'), ('poster', 'https://theposterdb.com/api/assets/26074')]) |
-[2022-11-22 01:10:32,009] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,010] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-22 01:10:32,010] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-22 01:10:32,010] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,010] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-22 01:10:32,010] [builder.py:474]            [DEBUG]    | Value: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit. |
-[2022-11-22 01:10:32,010] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,011] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-22 01:10:32,011] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-22 01:10:32,011] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,011] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-22 01:10:32,011] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Aardman'}                                                                       |
-[2022-11-22 01:10:32,012] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,012] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-22 01:10:32,012] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/26074                                                    |
-[2022-11-22 01:10:32,012] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,013] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-22 01:10:32,013] [builder.py:474]            [DEBUG]    | Value: 00000e_Aardman                                                                              |
-[2022-11-22 01:10:32,141] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,141] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-22 01:10:32,142] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,142] [util.py:216]               [INFO]     |==================================== Running Aardman Collection ====================================|
-[2022-11-22 01:10:32,142] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,143] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-22 01:10:32,143] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,143] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Aardman', '?type=1&sort=titleSort&push=1&studio=Aardman&pop=1') |
-[2022-11-22 01:10:32,143] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,143] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-22 01:10:32,144] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-22 01:10:32,144] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-22 01:10:32,144] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-22 01:10:32,144] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-22 01:10:32,144] [util.py:161]               [INFO]     |       Studio contains Aardman                                                                      |
-[2022-11-22 01:10:32,163] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,163] [plex.py:749]               [DEBUG]    | 6 Keys Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
-[2022-11-22 01:10:32,163] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,163] [builder.py:1283]           [DEBUG]    | 6 IDs Found: [(99636, 'ratingKey'), (100216, 'ratingKey'), (100576, 'ratingKey'), (100422, 'ratingKey'), (102080, 'ratingKey'), (100929, 'ratingKey')] |
-[2022-11-22 01:10:32,163] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,239] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,239] [util.py:216]               [INFO]     |=================================== Adding to Aardman Collection ===================================|
-[2022-11-22 01:10:32,239] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,240] [builder.py:1709]           [INFO]     | 1/6 | Aardman Collection | = | A Close Shave (1995)                                                |
-[2022-11-22 01:10:32,240] [builder.py:1709]           [INFO]     | 2/6 | Aardman Collection | = | A Grand Day Out (1990)                                              |
-[2022-11-22 01:10:32,240] [builder.py:1709]           [INFO]     | 3/6 | Aardman Collection | = | A Matter of Loaf and Death (2008)                                   |
-[2022-11-22 01:10:32,240] [builder.py:1709]           [INFO]     | 4/6 | Aardman Collection | = | Robin Robin (2021)                                                  |
-[2022-11-22 01:10:32,241] [builder.py:1709]           [INFO]     | 5/6 | Aardman Collection | = | Wallace & Gromit: The Curse of the Were-Rabbit (2005)               |
-[2022-11-22 01:10:32,241] [builder.py:1709]           [INFO]     | 6/6 | Aardman Collection | = | The Wrong Trousers (1993)                                           |
-[2022-11-22 01:10:32,241] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,241] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
-[2022-11-22 01:10:32,245] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,245] [util.py:216]               [INFO]     |============================== Updating Details of Aardman Collection ==============================|
-[2022-11-22 01:10:32,246] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,246] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-22 01:10:32,247] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-22 01:10:32,247] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/26074                                |
-[2022-11-22 01:10:32,247] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-22 01:10:32,248] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-22 01:10:32,375] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,375] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:32,376] [util.py:216]               [INFO]     |                                    Finished Aardman Collection                                     |
-[2022-11-22 01:10:32,376] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-22 01:10:32,376] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-25 15:08:46,793] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-25 15:08:46,793] [util.py:216]               [INFO]     |                                    Aardman Collection in Movies                                    |
+[2023-01-25 15:08:46,793] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-25 15:08:46,794] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-25 15:08:46,795] [util.py:216]               [INFO]     |================================== Validating Aardman Attributes ===================================|
+[2023-01-25 15:08:46,795] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,795] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-25 15:08:46,796] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 297), ('poster', 'https://theposterdb.com/api/assets/26074')]) |
+[2023-01-25 15:08:46,796] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,796] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-25 15:08:46,797] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-01-25 15:08:46,797] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,797] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-01-25 15:08:46,797] [builder.py:474]            [DEBUG]    | Value: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit. |
+[2023-01-25 15:08:46,798] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,798] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2023-01-25 15:08:46,798] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-25 15:08:46,799] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,799] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2023-01-25 15:08:46,799] [builder.py:474]            [DEBUG]    | Value: 297                                                                                         |
+[2023-01-25 15:08:46,901] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,901] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-25 15:08:46,901] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/26074                                                    |
+[2023-01-25 15:08:46,902] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:46,902] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-25 15:08:46,902] [builder.py:474]            [DEBUG]    | Value: 00000e_Aardman                                                                              |
+[2023-01-25 15:08:47,030] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,030] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-25 15:08:47,031] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,031] [util.py:216]               [INFO]     |==================================== Running Aardman Collection ====================================|
+[2023-01-25 15:08:47,032] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,032] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-01-25 15:08:47,032] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:47,033] [builder.py:1276]           [DEBUG]    | Builder: tmdb_company: 297                                                                         |
+[2023-01-25 15:08:47,033] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,584] [tmdb.py:282]               [INFO]     | Processing TMDb Company: (297) Aardman Animations (77 Movies)                                      |
+[2023-01-25 15:08:47,584] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:47,585] [builder.py:1283]           [DEBUG]    | 77 IDs Found: [(7443, 'tmdb'), (11619, 'tmdb'), (533, 'tmdb'), (51052, 'tmdb'), (785545, 'tmdb'), (422803, 'tmdb'), (263109, 'tmdb'), (387592, 'tmdb'), (649928, 'tmdb'), (531, 'tmdb'), (72197, 'tmdb'), (14447, 'tmdb'), (530, 'tmdb'), (532, 'tmdb'), (374252, 'tmdb'), (520758, 'tmdb'), (54825, 'tmdb'), (130966, 'tmdb'), (929204, 'tmdb'), (241111, 'tmdb'), (645818, 'tmdb'), (54821, 'tmdb'), (992074, 'tmdb'), (270304, 'tmdb'), (54827, 'tmdb'), (48589, 'tmdb'), (904410, 'tmdb'), (207618, 'tmdb'), (666217, 'tmdb'), (209969, 'tmdb'), (167662, 'tmdb'), (1028529, 'tmdb'), (1003010, 'tmdb'), (992161, 'tmdb'), (992067, 'tmdb'), (901033, 'tmdb'), (896538, 'tmdb'), (859588, 'tmdb'), (846353, 'tmdb'), (825918, 'tmdb'), (774559, 'tmdb'), (774553, 'tmdb'), (763845, 'tmdb'), (682190, 'tmdb'), (651797, 'tmdb'), (645801, 'tmdb'), (542359, 'tmdb'), (427753, 'tmdb'), (417784, 'tmdb'), (395986, 'tmdb'), (380931, 'tmdb'), (360579, 'tmdb'), (336826, 'tmdb'), (334086, 'tmdb'), (305439, 'tmdb'), (264120, 'tmdb'), (264119, 'tmdb'), (264105, 'tmdb'), (211412, 'tmdb'), (211343, 'tmdb'), (211199, 'tmdb'), (211181, 'tmdb'), (210962, 'tmdb'), (210496, 'tmdb'), (209841, 'tmdb'), (209835, 'tmdb'), (209833, 'tmdb'), (208289, 'tmdb'), (207496, 'tmdb'), (207350, 'tmdb'), (122837, 'tmdb'), (77134, 'tmdb'), (54826, 'tmdb'), (54824, 'tmdb'), (54819, 'tmdb'), (54818, 'tmdb'), (54736, 'tmdb')] |
+[2023-01-25 15:08:47,585] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:47,785] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,786] [util.py:216]               [INFO]     |=================================== Adding to Aardman Collection ===================================|
+[2023-01-25 15:08:47,786] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,787] [builder.py:1709]           [INFO]     |  1/15 | Aardman Collection | = | Chicken Run (2000)                                                |
+[2023-01-25 15:08:47,787] [builder.py:1709]           [INFO]     |  2/15 | Aardman Collection | = | Flushed Away (2006)                                               |
+[2023-01-25 15:08:47,787] [builder.py:1709]           [INFO]     |  3/15 | Aardman Collection | = | The Curse of the Were-Rabbit (2005)                               |
+[2023-01-25 15:08:47,788] [builder.py:1709]           [INFO]     |  4/15 | Aardman Collection | = | Arthur Christmas (2011)                                           |
+[2023-01-25 15:08:47,788] [builder.py:1709]           [INFO]     |  5/15 | Aardman Collection | = | Shaun the Sheep: The Flight Before Christmas (2021)               |
+[2023-01-25 15:08:47,788] [builder.py:1709]           [INFO]     |  6/15 | Aardman Collection | = | A Shaun the Sheep Movie: Farmageddon (2019)                       |
+[2023-01-25 15:08:47,789] [builder.py:1709]           [INFO]     |  7/15 | Aardman Collection | = | Shaun the Sheep Movie (2015)                                      |
+[2023-01-25 15:08:47,789] [builder.py:1709]           [INFO]     |  8/15 | Aardman Collection | = | Early Man (2018)                                                  |
+[2023-01-25 15:08:47,789] [builder.py:1709]           [INFO]     |  9/15 | Aardman Collection | = | Robin Robin (2021)                                                |
+[2023-01-25 15:08:47,790] [builder.py:1709]           [INFO]     | 10/15 | Aardman Collection | = | The Wrong Trousers (1993)                                         |
+[2023-01-25 15:08:47,790] [builder.py:1709]           [INFO]     | 11/15 | Aardman Collection | = | The Pirates! Band of Misfits (2012)                               |
+[2023-01-25 15:08:47,791] [builder.py:1709]           [INFO]     | 12/15 | Aardman Collection | = | A Matter of Loaf and Death (2008)                                 |
+[2023-01-25 15:08:47,792] [builder.py:1709]           [INFO]     | 13/15 | Aardman Collection | = | A Grand Day Out (1990)                                            |
+[2023-01-25 15:08:47,792] [builder.py:1709]           [INFO]     | 14/15 | Aardman Collection | = | A Close Shave (1995)                                              |
+[2023-01-25 15:08:47,792] [builder.py:1709]           [INFO]     | 15/15 | Aardman Collection | = | Shaun the Sheep: The Farmer's Llamas (2015)                       |
+[2023-01-25 15:08:47,793] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,793] [builder.py:1735]           [INFO]     | 15 Movies Processed                                                                                |
+[2023-01-25 15:08:47,793] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,794] [util.py:216]               [INFO]     |=============================== Missing Movies from Library: Aardman ===============================|
+[2023-01-25 15:08:47,794] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:47,924] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Chicken Run: Dawn of the Nugget (TMDb: 520758)                            |
+[2023-01-25 15:08:48,026] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Creature Comforts (1989) (TMDb: 54825)                                    |
+[2023-01-25 15:08:48,170] [builder.py:1943]           [INFO]     | Aardman Collection | ? | So You Want To Be A Pirate! (2012) (TMDb: 130966)                         |
+[2023-01-25 15:08:48,287] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Untitled Wallace & Gromit Film (TMDb: 929204)                             |
+[2023-01-25 15:08:48,423] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Itch of the Golden Nit (2011) (TMDb: 241111)                          |
+[2023-01-25 15:08:48,597] [builder.py:1943]           [INFO]     | Aardman Collection | ? | A Matter of Loaf and Death: How They Donut (2008) (TMDb: 645818)          |
+[2023-01-25 15:08:48,718] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Adam (1992) (TMDb: 54821)                                                 |
+[2023-01-25 15:08:48,842] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Shaun das Schaf - Abspecken mit Shaun (2007) (TMDb: 992074)               |
+[2023-01-25 15:08:48,952] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Babylon (1986) (TMDb: 270304)                                             |
+[2023-01-25 15:08:49,075] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Not Without My Handbag (1993) (TMDb: 54827)                               |
+[2023-01-25 15:08:49,189] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Wat's Pig (1996) (TMDb: 48589)                                            |
+[2023-01-25 15:08:49,304] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Rex the Runt: North by North Pole (1996) (TMDb: 904410)                   |
+[2023-01-25 15:08:49,415] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Early Bird (1983) (TMDb: 207618)                                          |
+[2023-01-25 15:08:49,525] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Turtle Journey: The Crisis in Our Oceans (2020) (TMDb: 666217)            |
+[2023-01-25 15:08:49,632] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Humdrum (1999) (TMDb: 209969)                                             |
+[2023-01-25 15:08:49,746] [builder.py:1943]           [INFO]     | Aardman Collection | ? | War Story (1989) (TMDb: 167662)                                           |
+[2023-01-25 15:08:49,862] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Bear And The Squirrel (2019) (TMDb: 1028529)                          |
+[2023-01-25 15:08:50,005] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Making of 'Gulp' (2011) (TMDb: 1003010)                               |
+[2023-01-25 15:08:50,119] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Shaun das Schaf - Abrakadabra (2008) (TMDb: 992161)                       |
+[2023-01-25 15:08:50,231] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Shaun das Schaf - Disco in der Scheune (2008) (TMDb: 992067)              |
+[2023-01-25 15:08:50,345] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Aardman (1972) (TMDb: 901033)                                             |
+[2023-01-25 15:08:50,488] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Off Beat (2006) (TMDb: 896538)                                            |
+[2023-01-25 15:08:50,594] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Untitled Aardman Animated Musical (TMDb: 859588)                          |
+[2023-01-25 15:08:50,703] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Missy’s Tale (2021) (TMDb: 846353)                                        |
+[2023-01-25 15:08:50,806] [builder.py:1943]           [INFO]     | Aardman Collection | ? | A Pig's Tail (2012) (TMDb: 825918)                                        |
+[2023-01-25 15:08:50,912] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Rex the Runt: Dreams (1991) (TMDb: 774559)                                |
+[2023-01-25 15:08:51,021] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Rex the Runt: How Dinosaurs Became Extinct (1991) (TMDb: 774553)          |
+[2023-01-25 15:08:51,153] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Creature Discomforts: Life in Lockdown (2020) (TMDb: 763845)              |
+[2023-01-25 15:08:51,268] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Timmy's Cinema Adventure (2020) (TMDb: 682190)                            |
+[2023-01-25 15:08:51,390] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Len's Lens (2002) (TMDb: 651797)                                          |
+[2023-01-25 15:08:51,498] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Inside The Wrong Trousers (1993) (TMDb: 645801)                           |
+[2023-01-25 15:08:51,612] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Pythagasaurus (2011) (TMDb: 542359)                                       |
+[2023-01-25 15:08:51,723] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Santa Forgot (2016) (TMDb: 427753)                                        |
+[2023-01-25 15:08:51,847] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Circus Drawings (2010) (TMDb: 417784)                                     |
+[2023-01-25 15:08:51,966] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Operator (2009) (TMDb: 395986)                                            |
+[2023-01-25 15:08:52,138] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Special Delivery (2015) (TMDb: 380931)                                    |
+[2023-01-25 15:08:52,255] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Ray's Big Idea (2014) (TMDb: 360579)                                      |
+[2023-01-25 15:08:52,389] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Fly (2010) (TMDb: 336826)                                                 |
+[2023-01-25 15:08:52,497] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Gulp (2011) (TMDb: 334086)                                                |
+[2023-01-25 15:08:52,610] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Lonely Dodo (2013) (TMDb: 305439)                                     |
+[2023-01-25 15:08:52,767] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Chunga Chui Leopard Beware (2001) (TMDb: 264120)                          |
+[2023-01-25 15:08:52,881] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Ernest (2001) (TMDb: 264119)                                              |
+[2023-01-25 15:08:53,022] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Comfy (2000) (TMDb: 264105)                                               |
+[2023-01-25 15:08:53,148] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Sales Pitch (1983) (TMDb: 211412)                                         |
+[2023-01-25 15:08:53,269] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Pop (1996) (TMDb: 211343)                                                 |
+[2023-01-25 15:08:53,379] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Owzat (1997) (TMDb: 211199)                                               |
+[2023-01-25 15:08:53,489] [builder.py:1943]           [INFO]     | Aardman Collection | ? | On Probation (1983) (TMDb: 211181)                                        |
+[2023-01-25 15:08:53,598] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Minotaur and Little Nerkin (1999) (TMDb: 210962)                          |
+[2023-01-25 15:08:53,710] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Late Edition (1983) (TMDb: 210496)                                        |
+[2023-01-25 15:08:53,850] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Barefootin' (1987) (TMDb: 209841)                                         |
+[2023-01-25 15:08:53,953] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Next (1990) (TMDb: 209835)                                                |
+[2023-01-25 15:08:54,060] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Ident (1990) (TMDb: 209833)                                               |
+[2023-01-25 15:08:54,180] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Going Equipped (1990) (TMDb: 208289)                                      |
+[2023-01-25 15:08:54,285] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Down and Out (1979) (TMDb: 207496)                                        |
+[2023-01-25 15:08:54,390] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Confessions of a Foyer Girl (1978) (TMDb: 207350)                         |
+[2023-01-25 15:08:54,510] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Deadline (2002) (TMDb: 122837)                                        |
+[2023-01-25 15:08:54,612] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Al_Dente (1998) (TMDb: 77134)                                             |
+[2023-01-25 15:08:54,740] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Loves Me... Loves Me Not (1993) (TMDb: 54826)                             |
+[2023-01-25 15:08:54,859] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Boxed In (2002) (TMDb: 54824)                                             |
+[2023-01-25 15:08:54,974] [builder.py:1943]           [INFO]     | Aardman Collection | ? | The Pearce Sisters (2007) (TMDb: 54819)                                   |
+[2023-01-25 15:08:55,097] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Stage Fright (1997) (TMDb: 54818)                                         |
+[2023-01-25 15:08:55,206] [builder.py:1943]           [INFO]     | Aardman Collection | ? | Pib and Pog (1995) (TMDb: 54736)                                          |
+[2023-01-25 15:08:55,206] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:55,207] [builder.py:1948]           [INFO]     | 62 Movies Missing                                                                                  |
+[2023-01-25 15:08:55,433] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2023-01-25 15:08:55,434] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2023-01-25 15:08:55,434] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2023-01-25 15:08:55,434] [radarr.py:49]              [DEBUG]    | Radarr Adds: [520758, 54825, 130966, 929204, 241111, 645818, 54821, 992074, 270304, 54827, 48589, 904410, 207618, 666217, 209969, 167662, 1028529, 1003010, 992161, 992067, 901033, 896538, 859588, 846353, 825918, 774559, 774553, 763845, 682190, 651797, 645801, 542359, 427753, 417784, 395986, 380931, 360579, 336826, 334086, 305439, 264120, 264119, 264105, 211412, 211343, 211199, 211181, 210962, 210496, 209841, 209835, 209833, 208289, 207496, 207350, 122837, 77134, 54826, 54824, 54819, 54818, 54736] |
+[2023-01-25 15:08:56,705] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2023-01-25 15:08:56,706] [radarr.py:146]             [INFO]     | Skipped: In Cache | 520758                                                                         |
+[2023-01-25 15:08:56,706] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54825                                                                          |
+[2023-01-25 15:08:56,706] [radarr.py:146]             [INFO]     | Skipped: In Cache | 130966                                                                         |
+[2023-01-25 15:08:56,706] [radarr.py:146]             [INFO]     | Skipped: In Cache | 929204                                                                         |
+[2023-01-25 15:08:56,707] [radarr.py:146]             [INFO]     | Skipped: In Cache | 241111                                                                         |
+[2023-01-25 15:08:56,707] [radarr.py:146]             [INFO]     | Skipped: In Cache | 645818                                                                         |
+[2023-01-25 15:08:56,707] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54821                                                                          |
+[2023-01-25 15:08:56,708] [radarr.py:146]             [INFO]     | Skipped: In Cache | 992074                                                                         |
+[2023-01-25 15:08:56,708] [radarr.py:146]             [INFO]     | Skipped: In Cache | 270304                                                                         |
+[2023-01-25 15:08:56,709] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54827                                                                          |
+[2023-01-25 15:08:56,709] [radarr.py:146]             [INFO]     | Skipped: In Cache | 48589                                                                          |
+[2023-01-25 15:08:56,710] [radarr.py:146]             [INFO]     | Skipped: In Cache | 904410                                                                         |
+[2023-01-25 15:08:56,710] [radarr.py:146]             [INFO]     | Skipped: In Cache | 207618                                                                         |
+[2023-01-25 15:08:56,710] [radarr.py:146]             [INFO]     | Skipped: In Cache | 666217                                                                         |
+[2023-01-25 15:08:56,711] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209969                                                                         |
+[2023-01-25 15:08:56,711] [radarr.py:146]             [INFO]     | Skipped: In Cache | 167662                                                                         |
+[2023-01-25 15:08:56,711] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1028529                                                                        |
+[2023-01-25 15:08:56,712] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1003010                                                                        |
+[2023-01-25 15:08:56,712] [radarr.py:146]             [INFO]     | Skipped: In Cache | 992161                                                                         |
+[2023-01-25 15:08:56,712] [radarr.py:146]             [INFO]     | Skipped: In Cache | 992067                                                                         |
+[2023-01-25 15:08:56,713] [radarr.py:146]             [INFO]     | Skipped: In Cache | 901033                                                                         |
+[2023-01-25 15:08:56,713] [radarr.py:146]             [INFO]     | Skipped: In Cache | 896538                                                                         |
+[2023-01-25 15:08:56,713] [radarr.py:146]             [INFO]     | Skipped: In Cache | 859588                                                                         |
+[2023-01-25 15:08:56,714] [radarr.py:146]             [INFO]     | Skipped: In Cache | 846353                                                                         |
+[2023-01-25 15:08:56,714] [radarr.py:146]             [INFO]     | Skipped: In Cache | 825918                                                                         |
+[2023-01-25 15:08:56,714] [radarr.py:146]             [INFO]     | Skipped: In Cache | 774559                                                                         |
+[2023-01-25 15:08:56,715] [radarr.py:146]             [INFO]     | Skipped: In Cache | 774553                                                                         |
+[2023-01-25 15:08:56,715] [radarr.py:146]             [INFO]     | Skipped: In Cache | 763845                                                                         |
+[2023-01-25 15:08:56,715] [radarr.py:146]             [INFO]     | Skipped: In Cache | 682190                                                                         |
+[2023-01-25 15:08:56,716] [radarr.py:146]             [INFO]     | Skipped: In Cache | 651797                                                                         |
+[2023-01-25 15:08:56,716] [radarr.py:146]             [INFO]     | Skipped: In Cache | 645801                                                                         |
+[2023-01-25 15:08:56,716] [radarr.py:146]             [INFO]     | Skipped: In Cache | 542359                                                                         |
+[2023-01-25 15:08:56,717] [radarr.py:146]             [INFO]     | Skipped: In Cache | 427753                                                                         |
+[2023-01-25 15:08:56,717] [radarr.py:146]             [INFO]     | Skipped: In Cache | 417784                                                                         |
+[2023-01-25 15:08:56,717] [radarr.py:146]             [INFO]     | Skipped: In Cache | 395986                                                                         |
+[2023-01-25 15:08:56,718] [radarr.py:146]             [INFO]     | Skipped: In Cache | 380931                                                                         |
+[2023-01-25 15:08:56,718] [radarr.py:146]             [INFO]     | Skipped: In Cache | 360579                                                                         |
+[2023-01-25 15:08:56,718] [radarr.py:146]             [INFO]     | Skipped: In Cache | 336826                                                                         |
+[2023-01-25 15:08:56,719] [radarr.py:146]             [INFO]     | Skipped: In Cache | 334086                                                                         |
+[2023-01-25 15:08:56,719] [radarr.py:146]             [INFO]     | Skipped: In Cache | 305439                                                                         |
+[2023-01-25 15:08:56,719] [radarr.py:146]             [INFO]     | Skipped: In Cache | 264120                                                                         |
+[2023-01-25 15:08:56,720] [radarr.py:146]             [INFO]     | Skipped: In Cache | 264119                                                                         |
+[2023-01-25 15:08:56,720] [radarr.py:146]             [INFO]     | Skipped: In Cache | 264105                                                                         |
+[2023-01-25 15:08:56,720] [radarr.py:146]             [INFO]     | Skipped: In Cache | 211412                                                                         |
+[2023-01-25 15:08:56,721] [radarr.py:146]             [INFO]     | Skipped: In Cache | 211343                                                                         |
+[2023-01-25 15:08:56,721] [radarr.py:146]             [INFO]     | Skipped: In Cache | 211199                                                                         |
+[2023-01-25 15:08:56,721] [radarr.py:146]             [INFO]     | Skipped: In Cache | 211181                                                                         |
+[2023-01-25 15:08:56,722] [radarr.py:146]             [INFO]     | Skipped: In Cache | 210962                                                                         |
+[2023-01-25 15:08:56,722] [radarr.py:146]             [INFO]     | Skipped: In Cache | 210496                                                                         |
+[2023-01-25 15:08:56,722] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209841                                                                         |
+[2023-01-25 15:08:56,722] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209835                                                                         |
+[2023-01-25 15:08:56,723] [radarr.py:146]             [INFO]     | Skipped: In Cache | 209833                                                                         |
+[2023-01-25 15:08:56,723] [radarr.py:146]             [INFO]     | Skipped: In Cache | 208289                                                                         |
+[2023-01-25 15:08:56,724] [radarr.py:146]             [INFO]     | Skipped: In Cache | 207496                                                                         |
+[2023-01-25 15:08:56,725] [radarr.py:146]             [INFO]     | Skipped: In Cache | 207350                                                                         |
+[2023-01-25 15:08:56,726] [radarr.py:146]             [INFO]     | Skipped: In Cache | 122837                                                                         |
+[2023-01-25 15:08:56,726] [radarr.py:146]             [INFO]     | Skipped: In Cache | 77134                                                                          |
+[2023-01-25 15:08:56,726] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54826                                                                          |
+[2023-01-25 15:08:56,727] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54824                                                                          |
+[2023-01-25 15:08:56,727] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54819                                                                          |
+[2023-01-25 15:08:56,727] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54818                                                                          |
+[2023-01-25 15:08:56,728] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54736                                                                          |
+[2023-01-25 15:08:56,728] [radarr.py:147]             [INFO]     | 62 Movies already exist in Radarr                                                                  |
+[2023-01-25 15:08:56,749] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:56,749] [util.py:216]               [INFO]     |============================== Updating Details of Aardman Collection ==============================|
+[2023-01-25 15:08:56,749] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-25 15:08:56,750] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-01-25 15:08:56,750] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-25 15:08:56,751] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/26074                                |
+[2023-01-25 15:08:56,751] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-25 15:08:56,752] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-01-25 15:08:56,870] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-25 15:08:56,871] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-25 15:08:56,871] [util.py:216]               [INFO]     |                                    Finished Aardman Collection                                     |
+[2023-01-25 15:08:56,871] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2023-01-25 15:08:56,872] [util.py:220]               [INFO]     |====================================================================================================|

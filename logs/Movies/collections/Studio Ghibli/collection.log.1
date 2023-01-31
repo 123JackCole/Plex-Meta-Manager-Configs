@@ -1,87 +1,209 @@
-[2022-11-22 01:10:32,386] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:32,387] [util.py:216]               [INFO]     |                                 Studio Ghibli Collection in Movies                                 |
-[2022-11-22 01:10:32,387] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:32,388] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,388] [util.py:216]               [INFO]     |=============================== Validating Studio Ghibli Attributes ================================|
-[2022-11-22 01:10:32,388] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,389] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-22 01:10:32,389] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('studio', 'Studio Ghibli'), ('poster', 'https://theposterdb.com/api/assets/32223')]) |
-[2022-11-22 01:10:32,389] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,389] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-22 01:10:32,390] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-22 01:10:32,390] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,390] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-22 01:10:32,390] [builder.py:474]            [DEBUG]    | Value: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. |
-[2022-11-22 01:10:32,390] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,391] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-22 01:10:32,391] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-22 01:10:32,391] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,391] [builder.py:473]            [DEBUG]    | Validating Method: plex_search                                                                     |
-[2022-11-22 01:10:32,392] [builder.py:474]            [DEBUG]    | Value: {'studio': 'Studio Ghibli'}                                                                 |
-[2022-11-22 01:10:32,392] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,392] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-22 01:10:32,392] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/32223                                                    |
-[2022-11-22 01:10:32,393] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,393] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-22 01:10:32,393] [builder.py:474]            [DEBUG]    | Value: 00000e_Studio Ghibli                                                                        |
-[2022-11-22 01:10:32,562] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,562] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-22 01:10:32,563] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,563] [util.py:216]               [INFO]     |================================= Running Studio Ghibli Collection =================================|
-[2022-11-22 01:10:32,563] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,564] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
-[2022-11-22 01:10:32,564] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,564] [builder.py:1276]           [DEBUG]    | Builder: plex_search: (1, 'Plex Movie Search\nSort By: title.asc\nFilter:\n  Match all of the following:\n    Match any of the following:\n      Studio contains Studio Ghibli', '?type=1&sort=titleSort&push=1&studio=Studio%20Ghibli&pop=1') |
-[2022-11-22 01:10:32,564] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Plex Movie Search                                                                                  |
-[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Sort By: title.asc                                                                                 |
-[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     | Filter:                                                                                            |
-[2022-11-22 01:10:32,565] [util.py:161]               [INFO]     |   Match all of the following:                                                                      |
-[2022-11-22 01:10:32,566] [util.py:161]               [INFO]     |     Match any of the following:                                                                    |
-[2022-11-22 01:10:32,566] [util.py:161]               [INFO]     |       Studio contains Studio Ghibli                                                                |
-[2022-11-22 01:10:32,618] [plex.py:748]               [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,619] [plex.py:749]               [DEBUG]    | 23 Keys Found: [(99018, 'ratingKey'), (121295, 'ratingKey'), (121083, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (100355, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100356, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100339, 'ratingKey'), (100527, 'ratingKey'), (101717, 'ratingKey'), (105933, 'ratingKey'), (102159, 'ratingKey'), (101947, 'ratingKey'), (102330, 'ratingKey'), (100913, 'ratingKey'), (100915, 'ratingKey'), (102172, 'ratingKey')] |
-[2022-11-22 01:10:32,619] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,619] [builder.py:1283]           [DEBUG]    | 23 IDs Found: [(99018, 'ratingKey'), (121295, 'ratingKey'), (121083, 'ratingKey'), (102200, 'ratingKey'), (101181, 'ratingKey'), (102146, 'ratingKey'), (100355, 'ratingKey'), (102144, 'ratingKey'), (100603, 'ratingKey'), (100356, 'ratingKey'), (100510, 'ratingKey'), (100660, 'ratingKey'), (100439, 'ratingKey'), (100339, 'ratingKey'), (100527, 'ratingKey'), (101717, 'ratingKey'), (105933, 'ratingKey'), (102159, 'ratingKey'), (101947, 'ratingKey'), (102330, 'ratingKey'), (100913, 'ratingKey'), (100915, 'ratingKey'), (102172, 'ratingKey')] |
-[2022-11-22 01:10:32,619] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-22 01:10:32,935] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,935] [util.py:216]               [INFO]     |================================ Adding to Studio Ghibli Collection ================================|
-[2022-11-22 01:10:32,936] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:32,936] [builder.py:1709]           [INFO]     |  1/23 | Studio Ghibli Collection | = | Castle in the Sky (1986)                                    |
-[2022-11-22 01:10:32,936] [builder.py:1709]           [INFO]     |  2/23 | Studio Ghibli Collection | + | The Cat Returns (2002)                                      |
-[2022-11-22 01:10:33,091] [builder.py:1709]           [INFO]     |  3/23 | Studio Ghibli Collection | = | From Up on Poppy Hill (2011)                                |
-[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  4/23 | Studio Ghibli Collection | = | Grave of the Fireflies (1988)                               |
-[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  5/23 | Studio Ghibli Collection | = | Howl's Moving Castle (2004)                                 |
-[2022-11-22 01:10:33,092] [builder.py:1709]           [INFO]     |  6/23 | Studio Ghibli Collection | = | Kiki's Delivery Service (1989)                              |
-[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  7/23 | Studio Ghibli Collection | = | Lupin the Third: The Castle of Cagliostro (1979)            |
-[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  8/23 | Studio Ghibli Collection | = | My Neighbor Totoro (1988)                                   |
-[2022-11-22 01:10:33,093] [builder.py:1709]           [INFO]     |  9/23 | Studio Ghibli Collection | = | My Neighbors the Yamadas (1999)                             |
-[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 10/23 | Studio Ghibli Collection | = | Nausicaä of the Valley of the Wind (1984)                   |
-[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 11/23 | Studio Ghibli Collection | = | Ocean Waves (1993)                                          |
-[2022-11-22 01:10:33,094] [builder.py:1709]           [INFO]     | 12/23 | Studio Ghibli Collection | = | Only Yesterday (1991)                                       |
-[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 13/23 | Studio Ghibli Collection | = | Pom Poko (1994)                                             |
-[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 14/23 | Studio Ghibli Collection | = | Ponyo (2008)                                                |
-[2022-11-22 01:10:33,095] [builder.py:1709]           [INFO]     | 15/23 | Studio Ghibli Collection | = | Porco Rosso (1992)                                          |
-[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 16/23 | Studio Ghibli Collection | = | Princess Mononoke (1997)                                    |
-[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 17/23 | Studio Ghibli Collection | = | The Secret World of Arrietty (2010)                         |
-[2022-11-22 01:10:33,096] [builder.py:1709]           [INFO]     | 18/23 | Studio Ghibli Collection | = | Spirited Away (2001)                                        |
-[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 19/23 | Studio Ghibli Collection | = | The Tale of The Princess Kaguya (2013)                      |
-[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 20/23 | Studio Ghibli Collection | = | Tales from Earthsea (2006)                                  |
-[2022-11-22 01:10:33,097] [builder.py:1709]           [INFO]     | 21/23 | Studio Ghibli Collection | = | When Marnie Was There (2014)                                |
-[2022-11-22 01:10:33,098] [builder.py:1709]           [INFO]     | 22/23 | Studio Ghibli Collection | = | Whisper of the Heart (1995)                                 |
-[2022-11-22 01:10:33,098] [builder.py:1709]           [INFO]     | 23/23 | Studio Ghibli Collection | = | The Wind Rises (2013)                                       |
-[2022-11-22 01:10:33,098] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:33,098] [builder.py:1735]           [INFO]     | 23 Movies Processed                                                                                |
-[2022-11-22 01:10:33,103] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:33,103] [util.py:216]               [INFO]     |=========================== Updating Details of Studio Ghibli Collection ===========================|
-[2022-11-22 01:10:33,103] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-22 01:10:33,103] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-22 01:10:33,104] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-22 01:10:33,104] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/32223                                |
-[2022-11-22 01:10:33,104] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-22 01:10:33,937] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/32223                |
-[2022-11-22 01:10:34,117] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-22 01:10:34,118] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-22 01:10:34,118] [util.py:216]               [INFO]     |                                 Finished Studio Ghibli Collection                                  |
-[2022-11-22 01:10:34,118] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:01                                    |
-[2022-11-22 01:10:34,119] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-30 01:12:07,577] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-30 01:12:07,578] [util.py:216]               [INFO]     |                                 Studio Ghibli Collection in Movies                                 |
+[2023-01-30 01:12:07,578] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-30 01:12:07,579] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-30 01:12:07,579] [util.py:216]               [INFO]     |=============================== Validating Studio Ghibli Attributes ================================|
+[2023-01-30 01:12:07,579] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,580] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-30 01:12:07,580] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('company', 10342), ('poster', 'https://theposterdb.com/api/assets/32223')]) |
+[2023-01-30 01:12:07,581] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,581] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-30 01:12:07,581] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-01-30 01:12:07,581] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,582] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-01-30 01:12:07,582] [builder.py:474]            [DEBUG]    | Value: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro. |
+[2023-01-30 01:12:07,582] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,583] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2023-01-30 01:12:07,583] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-30 01:12:07,583] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,584] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_company                                                                    |
+[2023-01-30 01:12:07,584] [builder.py:474]            [DEBUG]    | Value: 10342                                                                                       |
+[2023-01-30 01:12:07,680] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,680] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-30 01:12:07,680] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/32223                                                    |
+[2023-01-30 01:12:07,681] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,681] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-30 01:12:07,681] [builder.py:474]            [DEBUG]    | Value: 00000e_Studio Ghibli                                                                        |
+[2023-01-30 01:12:07,844] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-30 01:12:07,844] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-30 01:12:07,845] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-30 01:12:07,845] [util.py:216]               [INFO]     |================================= Running Studio Ghibli Collection =================================|
+[2023-01-30 01:12:07,846] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-30 01:12:07,846] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: append                                                                                  |
+[2023-01-30 01:12:07,846] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:07,847] [builder.py:1276]           [DEBUG]    | Builder: tmdb_company: 10342                                                                       |
+[2023-01-30 01:12:07,847] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,477] [tmdb.py:282]               [INFO]     | Processing TMDb Company: (10342) Studio Ghibli (83 Movies)                                         |
+[2023-01-30 01:12:08,477] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:08,477] [builder.py:1283]           [DEBUG]    | 83 IDs Found: [(4935, 'tmdb'), (129, 'tmdb'), (12429, 'tmdb'), (8392, 'tmdb'), (128, 'tmdb'), (10515, 'tmdb'), (37797, 'tmdb'), (16859, 'tmdb'), (242828, 'tmdb'), (51739, 'tmdb'), (15370, 'tmdb'), (11621, 'tmdb'), (83389, 'tmdb'), (683127, 'tmdb'), (15283, 'tmdb'), (149870, 'tmdb'), (21057, 'tmdb'), (37933, 'tmdb'), (15080, 'tmdb'), (149871, 'tmdb'), (337703, 'tmdb'), (12140, 'tmdb'), (16198, 'tmdb'), (10840, 'tmdb'), (214676, 'tmdb'), (252511, 'tmdb'), (158483, 'tmdb'), (1044343, 'tmdb'), (21534, 'tmdb'), (222661, 'tmdb'), (508883, 'tmdb'), (508884, 'tmdb'), (459414, 'tmdb'), (125142, 'tmdb'), (701351, 'tmdb'), (222664, 'tmdb'), (222668, 'tmdb'), (188541, 'tmdb'), (991081, 'tmdb'), (40576, 'tmdb'), (222475, 'tmdb'), (54058, 'tmdb'), (222462, 'tmdb'), (141897, 'tmdb'), (40544, 'tmdb'), (93125, 'tmdb'), (222480, 'tmdb'), (709434, 'tmdb'), (222471, 'tmdb'), (729191, 'tmdb'), (40581, 'tmdb'), (605863, 'tmdb'), (87091, 'tmdb'), (54041, 'tmdb'), (222673, 'tmdb'), (426994, 'tmdb'), (708702, 'tmdb'), (535084, 'tmdb'), (709375, 'tmdb'), (709382, 'tmdb'), (429193, 'tmdb'), (535088, 'tmdb'), (709453, 'tmdb'), (709365, 'tmdb'), (535290, 'tmdb'), (582938, 'tmdb'), (89821, 'tmdb'), (535086, 'tmdb'), (779440, 'tmdb'), (708519, 'tmdb'), (1012823, 'tmdb'), (991317, 'tmdb'), (709447, 'tmdb'), (709345, 'tmdb'), (692280, 'tmdb'), (692279, 'tmdb'), (692278, 'tmdb'), (535075, 'tmdb'), (465586, 'tmdb'), (465582, 'tmdb'), (449360, 'tmdb'), (441687, 'tmdb'), (12477, 'tmdb')] |
+[2023-01-30 01:12:08,478] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:08,816] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,816] [util.py:216]               [INFO]     |================================ Adding to Studio Ghibli Collection ================================|
+[2023-01-30 01:12:08,817] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,817] [builder.py:1709]           [INFO]     |  1/25 | Studio Ghibli Collection | = | Howl's Moving Castle (2004)                                 |
+[2023-01-30 01:12:08,817] [builder.py:1709]           [INFO]     |  2/25 | Studio Ghibli Collection | = | Spirited Away (2001)                                        |
+[2023-01-30 01:12:08,817] [builder.py:1709]           [INFO]     |  3/25 | Studio Ghibli Collection | = | Ponyo (2008)                                                |
+[2023-01-30 01:12:08,818] [builder.py:1709]           [INFO]     |  4/25 | Studio Ghibli Collection | = | My Neighbor Totoro (1988)                                   |
+[2023-01-30 01:12:08,818] [builder.py:1709]           [INFO]     |  5/25 | Studio Ghibli Collection | = | Princess Mononoke (1997)                                    |
+[2023-01-30 01:12:08,818] [builder.py:1709]           [INFO]     |  6/25 | Studio Ghibli Collection | = | Castle in the Sky (1986)                                    |
+[2023-01-30 01:12:08,819] [builder.py:1709]           [INFO]     |  7/25 | Studio Ghibli Collection | = | Kiki's Delivery Service (1989)                              |
+[2023-01-30 01:12:08,819] [builder.py:1709]           [INFO]     |  8/25 | Studio Ghibli Collection | = | When Marnie Was There (2014)                                |
+[2023-01-30 01:12:08,819] [builder.py:1709]           [INFO]     |  9/25 | Studio Ghibli Collection | = | The Secret World of Arrietty (2010)                         |
+[2023-01-30 01:12:08,820] [builder.py:1709]           [INFO]     | 10/25 | Studio Ghibli Collection | = | The Cat Returns (2002)                                      |
+[2023-01-30 01:12:08,820] [builder.py:1709]           [INFO]     | 11/25 | Studio Ghibli Collection | = | Porco Rosso (1992)                                          |
+[2023-01-30 01:12:08,821] [builder.py:1709]           [INFO]     | 12/25 | Studio Ghibli Collection | = | From Up on Poppy Hill (2011)                                |
+[2023-01-30 01:12:08,821] [builder.py:1709]           [INFO]     | 13/25 | Studio Ghibli Collection | = | Pom Poko (1994)                                             |
+[2023-01-30 01:12:08,821] [builder.py:1709]           [INFO]     | 14/25 | Studio Ghibli Collection | = | The Wind Rises (2013)                                       |
+[2023-01-30 01:12:08,822] [builder.py:1709]           [INFO]     | 15/25 | Studio Ghibli Collection | = | Ocean Waves (1993)                                          |
+[2023-01-30 01:12:08,822] [builder.py:1709]           [INFO]     | 16/25 | Studio Ghibli Collection | = | Tales from Earthsea (2006)                                  |
+[2023-01-30 01:12:08,822] [builder.py:1709]           [INFO]     | 17/25 | Studio Ghibli Collection | = | Only Yesterday (1991)                                       |
+[2023-01-30 01:12:08,823] [builder.py:1709]           [INFO]     | 18/25 | Studio Ghibli Collection | = | The Tale of The Princess Kaguya (2013)                      |
+[2023-01-30 01:12:08,824] [builder.py:1709]           [INFO]     | 19/25 | Studio Ghibli Collection | = | The Red Turtle (2016)                                       |
+[2023-01-30 01:12:08,824] [builder.py:1709]           [INFO]     | 20/25 | Studio Ghibli Collection | = | Ghost in the Shell 2: Innocence (2004)                      |
+[2023-01-30 01:12:08,824] [builder.py:1709]           [INFO]     | 21/25 | Studio Ghibli Collection | = | My Neighbors the Yamadas (1999)                             |
+[2023-01-30 01:12:08,825] [builder.py:1709]           [INFO]     | 22/25 | Studio Ghibli Collection | = | The Kingdom of Dreams and Madness (2013)                    |
+[2023-01-30 01:12:08,825] [builder.py:1709]           [INFO]     | 23/25 | Studio Ghibli Collection | = | Zen - Grogu and Dust Bunnies (2022)                         |
+[2023-01-30 01:12:08,826] [builder.py:1709]           [INFO]     | 24/25 | Studio Ghibli Collection | = | Never-Ending Man: Hayao Miyazaki (2016)                     |
+[2023-01-30 01:12:08,826] [builder.py:1709]           [INFO]     | 25/25 | Studio Ghibli Collection | = | Grave of the Fireflies (1988)                               |
+[2023-01-30 01:12:08,826] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,827] [builder.py:1735]           [INFO]     | 25 Movies Processed                                                                                |
+[2023-01-30 01:12:08,827] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,827] [util.py:216]               [INFO]     |============================ Missing Movies from Library: Studio Ghibli ============================|
+[2023-01-30 01:12:08,828] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:08,949] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Whisper of the Heart (1995) (TMDb: 37797)                           |
+[2023-01-30 01:12:09,071] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Earwig and the Witch (2021) (TMDb: 683127)                          |
+[2023-01-30 01:12:09,175] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | On Your Mark (1995) (TMDb: 10840)                                   |
+[2023-01-30 01:12:09,282] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Mr. Dough and the Egg Princess (2010) (TMDb: 214676)                |
+[2023-01-30 01:12:09,387] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Mei and the Kittenbus (2002) (TMDb: 158483)                         |
+[2023-01-30 01:12:09,500] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Iblard Time (2007) (TMDb: 21534)                                    |
+[2023-01-30 01:12:09,622] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Day I Bought a Star (2006) (TMDb: 222661)                       |
+[2023-01-30 01:12:09,730] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | How Do You Live? (2023) (TMDb: 508883)                              |
+[2023-01-30 01:12:09,854] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Boro the Caterpillar (2018) (TMDb: 508884)                          |
+[2023-01-30 01:12:09,959] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | A Ghibli Artisan - Kazuo Oga Exhibition - The One Who Drew Totoro's Forest (2007) (TMDb: 125142) |
+[2023-01-30 01:12:10,064] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Invention of Imaginary Machines of Destruction (2002) (TMDb: 701351) |
+[2023-01-30 01:12:10,177] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Mon Mon the Water Spider (2006) (TMDb: 222664)                      |
+[2023-01-30 01:12:10,290] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | A Sumo Wrestler's Tail (2010) (TMDb: 222668)                        |
+[2023-01-30 01:12:10,397] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Giant God Warrior Appears in Tokyo (2012) (TMDb: 188541)            |
+[2023-01-30 01:12:10,511] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Warriors of the Wind (1985) (TMDb: 991081)                          |
+[2023-01-30 01:12:10,628] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Ghiblies: Episode 2 (2002) (TMDb: 40576)                            |
+[2023-01-30 01:12:10,752] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Koro's Big Day Out (2002) (TMDb: 222475)                            |
+[2023-01-30 01:12:10,884] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Night of Taneyamagahara (2006) (TMDb: 54058)                    |
+[2023-01-30 01:12:11,004] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Whale Hunt (2001) (TMDb: 222462)                                |
+[2023-01-30 01:12:11,121] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Story of Yanagawa's Canals (1987) (TMDb: 141897)                |
+[2023-01-30 01:12:11,244] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Ghibli and The Miyazaki Mystery (2005) (TMDb: 40544)                |
+[2023-01-30 01:12:11,360] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Lasseter-san, Thank You (2003) (TMDb: 93125)                        |
+[2023-01-30 01:12:11,469] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Imaginary Flying Machines (2002) (TMDb: 222480)                     |
+[2023-01-30 01:12:11,572] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Bobo-kun (2002) (TMDb: 709434)                                      |
+[2023-01-30 01:12:11,677] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Ghiblies (2000) (TMDb: 222471)                                      |
+[2023-01-30 01:12:11,780] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Cat Returns - Making of (2002) (TMDb: 729191)                   |
+[2023-01-30 01:12:11,893] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Hayao Miyazaki and the Ghibli Museum (2005) (TMDb: 40581)           |
+[2023-01-30 01:12:12,007] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Princess Mononoke in the U.S.A. (2001) (TMDb: 605863)               |
+[2023-01-30 01:12:12,128] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Yasuo Ōtsuka's Joy in Motion (2004) (TMDb: 87091)                   |
+[2023-01-30 01:12:12,227] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Sky-Colored Seed (1992) (TMDb: 54041)                           |
+[2023-01-30 01:12:12,358] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Treasure Hunting (2011) (TMDb: 222673)                              |
+[2023-01-30 01:12:12,481] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The World, The Journey Of My Heart - Traveler: Animation Film Director Hayao Miyazaki (1998) (TMDb: 426994) |
+[2023-01-30 01:12:12,599] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Making of Only Yesterday (1991) (TMDb: 708702)                  |
+[2023-01-30 01:12:12,706] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | How Princess Mononoke Was Born (1998) (TMDb: 535084)                |
+[2023-01-30 01:12:12,854] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Fish of the Fish (2001) (TMDb: 709375)                          |
+[2023-01-30 01:12:12,969] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Tacolator (2002) (TMDb: 709382)                                     |
+[2023-01-30 01:12:13,081] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The World, The Journey Of My Heart - Traveler: Animation Film Director Isao Takahata (1999) (TMDb: 429193) |
+[2023-01-30 01:12:13,192] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Birth of "Princess Mononoke" Part 3: The Day The Record Was Broken (1997) (TMDb: 535088) |
+[2023-01-30 01:12:13,331] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Theory of Evolution (2008) (TMDb: 709453)                       |
+[2023-01-30 01:12:13,437] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Rambutan adventures (2001) (TMDb: 709365)                           |
+[2023-01-30 01:12:13,537] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | How Ghibli Was Born (1998) (TMDb: 535290)                           |
+[2023-01-30 01:12:13,640] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Songs of Studio Ghibli (2019) (TMDb: 582938)                    |
+[2023-01-30 01:12:13,739] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | House Hunting (2006) (TMDb: 89821)                                  |
+[2023-01-30 01:12:13,848] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Birth of "Princess Mononoke" Part 2: Life Has Been Breathed Into It! (1997) (TMDb: 535086) |
+[2023-01-30 01:12:13,977] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Piyopiyo Baba (2002) (TMDb: 779440)                                 |
+[2023-01-30 01:12:14,081] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | "The Ornithopter Story: Fly, Hiyodori Tengu!" (2002) (TMDb: 708519) |
+[2023-01-30 01:12:14,192] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Birth of "Princess Mononoke" Part 1: A Drama on Paper (1997) (TMDb: 1012823) |
+[2023-01-30 01:12:14,299] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Nandarou (1992) (TMDb: 991317)                                      |
+[2023-01-30 01:12:14,425] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Madaran's World (2007) (TMDb: 709447)                               |
+[2023-01-30 01:12:14,570] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | A Splendid Dance (2001) (TMDb: 709345)                              |
+[2023-01-30 01:12:14,679] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Balance (2016) (TMDb: 692280)                                       |
+[2023-01-30 01:12:14,803] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Encounter (2016) (TMDb: 692279)                                     |
+[2023-01-30 01:12:14,904] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Journey Continues (2016) (TMDb: 692278)                         |
+[2023-01-30 01:12:15,007] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Nippon Television Special (2001) (TMDb: 535075)                 |
+[2023-01-30 01:12:15,122] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | A Flying City Plan (2005) (TMDb: 465586)                            |
+[2023-01-30 01:12:15,229] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Portable Airport (2004) (TMDb: 465582)                              |
+[2023-01-30 01:12:15,351] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | The Path of Wind (2004) (TMDb: 449360)                              |
+[2023-01-30 01:12:15,659] [builder.py:1943]           [INFO]     | Studio Ghibli Collection | ? | Space Station No.9 (2005) (TMDb: 441687)                            |
+[2023-01-30 01:12:15,660] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:15,660] [builder.py:1948]           [INFO]     | 58 Movies Missing                                                                                  |
+[2023-01-30 01:12:15,880] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2023-01-30 01:12:15,881] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2023-01-30 01:12:15,881] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2023-01-30 01:12:15,881] [radarr.py:49]              [DEBUG]    | Radarr Adds: [37797, 683127, 10840, 214676, 158483, 21534, 222661, 508883, 508884, 125142, 701351, 222664, 222668, 188541, 991081, 40576, 222475, 54058, 222462, 141897, 40544, 93125, 222480, 709434, 222471, 729191, 40581, 605863, 87091, 54041, 222673, 426994, 708702, 535084, 709375, 709382, 429193, 535088, 709453, 709365, 535290, 582938, 89821, 535086, 779440, 708519, 1012823, 991317, 709447, 709345, 692280, 692279, 692278, 535075, 465586, 465582, 449360, 441687] |
+[2023-01-30 01:12:17,135] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2023-01-30 01:12:17,135] [radarr.py:146]             [INFO]     | Skipped: In Cache | 37797                                                                          |
+[2023-01-30 01:12:17,135] [radarr.py:146]             [INFO]     | Skipped: In Cache | 683127                                                                         |
+[2023-01-30 01:12:17,136] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10840                                                                          |
+[2023-01-30 01:12:17,136] [radarr.py:146]             [INFO]     | Skipped: In Cache | 214676                                                                         |
+[2023-01-30 01:12:17,137] [radarr.py:146]             [INFO]     | Skipped: In Cache | 158483                                                                         |
+[2023-01-30 01:12:17,137] [radarr.py:146]             [INFO]     | Skipped: In Cache | 21534                                                                          |
+[2023-01-30 01:12:17,138] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222661                                                                         |
+[2023-01-30 01:12:17,138] [radarr.py:146]             [INFO]     | Skipped: In Cache | 508883                                                                         |
+[2023-01-30 01:12:17,138] [radarr.py:146]             [INFO]     | Skipped: In Cache | 508884                                                                         |
+[2023-01-30 01:12:17,138] [radarr.py:146]             [INFO]     | Skipped: In Cache | 125142                                                                         |
+[2023-01-30 01:12:17,139] [radarr.py:146]             [INFO]     | Skipped: In Cache | 701351                                                                         |
+[2023-01-30 01:12:17,139] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222664                                                                         |
+[2023-01-30 01:12:17,139] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222668                                                                         |
+[2023-01-30 01:12:17,140] [radarr.py:146]             [INFO]     | Skipped: In Cache | 188541                                                                         |
+[2023-01-30 01:12:17,140] [radarr.py:146]             [INFO]     | Skipped: In Cache | 991081                                                                         |
+[2023-01-30 01:12:17,140] [radarr.py:146]             [INFO]     | Skipped: In Cache | 40576                                                                          |
+[2023-01-30 01:12:17,141] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222475                                                                         |
+[2023-01-30 01:12:17,141] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54058                                                                          |
+[2023-01-30 01:12:17,141] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222462                                                                         |
+[2023-01-30 01:12:17,142] [radarr.py:146]             [INFO]     | Skipped: In Cache | 141897                                                                         |
+[2023-01-30 01:12:17,142] [radarr.py:146]             [INFO]     | Skipped: In Cache | 40544                                                                          |
+[2023-01-30 01:12:17,142] [radarr.py:146]             [INFO]     | Skipped: In Cache | 93125                                                                          |
+[2023-01-30 01:12:17,142] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222480                                                                         |
+[2023-01-30 01:12:17,143] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709434                                                                         |
+[2023-01-30 01:12:17,143] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222471                                                                         |
+[2023-01-30 01:12:17,143] [radarr.py:146]             [INFO]     | Skipped: In Cache | 729191                                                                         |
+[2023-01-30 01:12:17,144] [radarr.py:146]             [INFO]     | Skipped: In Cache | 40581                                                                          |
+[2023-01-30 01:12:17,144] [radarr.py:146]             [INFO]     | Skipped: In Cache | 605863                                                                         |
+[2023-01-30 01:12:17,144] [radarr.py:146]             [INFO]     | Skipped: In Cache | 87091                                                                          |
+[2023-01-30 01:12:17,144] [radarr.py:146]             [INFO]     | Skipped: In Cache | 54041                                                                          |
+[2023-01-30 01:12:17,145] [radarr.py:146]             [INFO]     | Skipped: In Cache | 222673                                                                         |
+[2023-01-30 01:12:17,145] [radarr.py:146]             [INFO]     | Skipped: In Cache | 426994                                                                         |
+[2023-01-30 01:12:17,145] [radarr.py:146]             [INFO]     | Skipped: In Cache | 708702                                                                         |
+[2023-01-30 01:12:17,146] [radarr.py:146]             [INFO]     | Skipped: In Cache | 535084                                                                         |
+[2023-01-30 01:12:17,146] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709375                                                                         |
+[2023-01-30 01:12:17,146] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709382                                                                         |
+[2023-01-30 01:12:17,146] [radarr.py:146]             [INFO]     | Skipped: In Cache | 429193                                                                         |
+[2023-01-30 01:12:17,147] [radarr.py:146]             [INFO]     | Skipped: In Cache | 535088                                                                         |
+[2023-01-30 01:12:17,147] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709453                                                                         |
+[2023-01-30 01:12:17,147] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709365                                                                         |
+[2023-01-30 01:12:17,148] [radarr.py:146]             [INFO]     | Skipped: In Cache | 535290                                                                         |
+[2023-01-30 01:12:17,148] [radarr.py:146]             [INFO]     | Skipped: In Cache | 582938                                                                         |
+[2023-01-30 01:12:17,148] [radarr.py:146]             [INFO]     | Skipped: In Cache | 89821                                                                          |
+[2023-01-30 01:12:17,148] [radarr.py:146]             [INFO]     | Skipped: In Cache | 535086                                                                         |
+[2023-01-30 01:12:17,149] [radarr.py:146]             [INFO]     | Skipped: In Cache | 779440                                                                         |
+[2023-01-30 01:12:17,149] [radarr.py:146]             [INFO]     | Skipped: In Cache | 708519                                                                         |
+[2023-01-30 01:12:17,149] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1012823                                                                        |
+[2023-01-30 01:12:17,150] [radarr.py:146]             [INFO]     | Skipped: In Cache | 991317                                                                         |
+[2023-01-30 01:12:17,150] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709447                                                                         |
+[2023-01-30 01:12:17,150] [radarr.py:146]             [INFO]     | Skipped: In Cache | 709345                                                                         |
+[2023-01-30 01:12:17,151] [radarr.py:146]             [INFO]     | Skipped: In Cache | 692280                                                                         |
+[2023-01-30 01:12:17,151] [radarr.py:146]             [INFO]     | Skipped: In Cache | 692279                                                                         |
+[2023-01-30 01:12:17,151] [radarr.py:146]             [INFO]     | Skipped: In Cache | 692278                                                                         |
+[2023-01-30 01:12:17,152] [radarr.py:146]             [INFO]     | Skipped: In Cache | 535075                                                                         |
+[2023-01-30 01:12:17,154] [radarr.py:146]             [INFO]     | Skipped: In Cache | 465586                                                                         |
+[2023-01-30 01:12:17,154] [radarr.py:146]             [INFO]     | Skipped: In Cache | 465582                                                                         |
+[2023-01-30 01:12:17,154] [radarr.py:146]             [INFO]     | Skipped: In Cache | 449360                                                                         |
+[2023-01-30 01:12:17,154] [radarr.py:146]             [INFO]     | Skipped: In Cache | 441687                                                                         |
+[2023-01-30 01:12:17,155] [radarr.py:147]             [INFO]     | 58 Movies already exist in Radarr                                                                  |
+[2023-01-30 01:12:17,175] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:17,176] [util.py:216]               [INFO]     |=========================== Updating Details of Studio Ghibli Collection ===========================|
+[2023-01-30 01:12:17,176] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-30 01:12:17,176] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-01-30 01:12:17,177] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-30 01:12:17,177] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/32223                                |
+[2023-01-30 01:12:17,178] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-30 01:12:17,178] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-01-30 01:12:17,322] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-30 01:12:17,323] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-30 01:12:17,323] [util.py:216]               [INFO]     |                                 Finished Studio Ghibli Collection                                  |
+[2023-01-30 01:12:17,324] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:09                                    |
+[2023-01-30 01:12:17,324] [util.py:220]               [INFO]     |====================================================================================================|

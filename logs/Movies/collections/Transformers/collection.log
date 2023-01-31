@@ -1,61 +1,65 @@
-[2022-11-23 17:32:11,013] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 17:32:11,014] [util.py:216]               [INFO]     |                                 Transformers Collection in Movies                                  |
-[2022-11-23 17:32:11,014] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 17:32:11,014] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,022] [util.py:216]               [INFO]     |================================ Validating Transformers Attributes ================================|
-[2022-11-23 17:32:11,022] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,023] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-23 17:32:11,023] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 8650), ('summary 8650', None), ('poster', 'https://theposterdb.com/api/assets/13251')]) |
-[2022-11-23 17:32:11,024] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,024] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-23 17:32:11,024] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-23 17:32:11,024] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,024] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-23 17:32:11,025] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2022-11-23 17:32:11,025] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,025] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 17:32:11,025] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/13251                                                    |
-[2022-11-23 17:32:11,026] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,026] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
-[2022-11-23 17:32:11,026] [builder.py:474]            [DEBUG]    | Value: 8650                                                                                        |
-[2022-11-23 17:32:11,075] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,075] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 17:32:11,076] [builder.py:474]            [DEBUG]    | Value: 00000f_Transformers                                                                         |
-[2022-11-23 17:32:11,076] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,076] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2022-11-23 17:32:11,076] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 17:32:11,220] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,221] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 17:32:11,223] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,223] [util.py:216]               [INFO]     |================================= Running Transformers Collection ==================================|
-[2022-11-23 17:32:11,223] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,224] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-23 17:32:11,224] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,224] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 8650                                                                     |
-[2022-11-23 17:32:11,225] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,225] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (8650) Transformers Collection (5 Items)                               |
-[2022-11-23 17:32:11,225] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,226] [builder.py:1283]           [DEBUG]    | 5 IDs Found: [(1858, 'tmdb'), (8373, 'tmdb'), (38356, 'tmdb'), (91314, 'tmdb'), (335988, 'tmdb')]  |
-[2022-11-23 17:32:11,226] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 17:32:11,353] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,353] [util.py:216]               [INFO]     |================================ Adding to Transformers Collection =================================|
-[2022-11-23 17:32:11,354] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,354] [builder.py:1709]           [INFO]     | 1/5 | Transformers Collection | = | Transformers (2007)                                            |
-[2022-11-23 17:32:11,355] [builder.py:1709]           [INFO]     | 2/5 | Transformers Collection | = | Transformers: Revenge of the Fallen (2009)                     |
-[2022-11-23 17:32:11,355] [builder.py:1709]           [INFO]     | 3/5 | Transformers Collection | = | Transformers: Dark of the Moon (2011)                          |
-[2022-11-23 17:32:11,355] [builder.py:1709]           [INFO]     | 4/5 | Transformers Collection | = | Transformers: Age of Extinction (2014)                         |
-[2022-11-23 17:32:11,356] [builder.py:1709]           [INFO]     | 5/5 | Transformers Collection | = | Transformers: The Last Knight (2017)                           |
-[2022-11-23 17:32:11,356] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,357] [builder.py:1735]           [INFO]     | 5 Movies Processed                                                                                 |
-[2022-11-23 17:32:11,361] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,361] [util.py:216]               [INFO]     |=========================== Updating Details of Transformers Collection ============================|
-[2022-11-23 17:32:11,361] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,362] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 17:32:11,363] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/13251                                |
-[2022-11-23 17:32:11,363] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-11-23 17:32:11,364] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-23 17:32:11,564] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 17:32:11,564] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 17:32:11,566] [util.py:216]               [INFO]     |                                  Finished Transformers Collection                                  |
-[2022-11-23 17:32:11,566] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2022-11-23 17:32:11,568] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 01:01:36,132] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 01:01:36,133] [util.py:216]               [INFO]     |                                 Transformers Collection in Movies                                  |
+[2023-01-31 01:01:36,133] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 01:01:36,134] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,134] [util.py:216]               [INFO]     |================================ Validating Transformers Attributes ================================|
+[2023-01-31 01:01:36,135] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,135] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-31 01:01:36,135] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 8650), ('summary', 8650), ('poster', 'https://theposterdb.com/api/assets/13251')]) |
+[2023-01-31 01:01:36,135] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,136] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 01:01:36,136] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 01:01:36,137] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,137] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 01:01:36,137] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2023-01-31 01:01:36,137] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,137] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-31 01:01:36,138] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/13251                                                    |
+[2023-01-31 01:01:36,138] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,138] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
+[2023-01-31 01:01:36,138] [builder.py:474]            [DEBUG]    | Value: 8650                                                                                        |
+[2023-01-31 01:01:36,234] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,235] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
+[2023-01-31 01:01:36,235] [builder.py:474]            [DEBUG]    | Value: 8650                                                                                        |
+[2023-01-31 01:01:36,235] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,236] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 01:01:36,236] [builder.py:474]            [DEBUG]    | Value: 00000f_Transformers                                                                         |
+[2023-01-31 01:01:36,236] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,236] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2023-01-31 01:01:36,237] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 01:01:36,421] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,422] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 01:01:36,424] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,424] [util.py:216]               [INFO]     |================================= Running Transformers Collection ==================================|
+[2023-01-31 01:01:36,424] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,425] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-01-31 01:01:36,425] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,425] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 8650                                                                     |
+[2023-01-31 01:01:36,425] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,426] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (8650) Transformers Collection (5 Items)                               |
+[2023-01-31 01:01:36,426] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,426] [builder.py:1283]           [DEBUG]    | 5 IDs Found: [(1858, 'tmdb'), (8373, 'tmdb'), (38356, 'tmdb'), (91314, 'tmdb'), (335988, 'tmdb')]  |
+[2023-01-31 01:01:36,427] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 01:01:36,552] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,552] [util.py:216]               [INFO]     |================================ Adding to Transformers Collection =================================|
+[2023-01-31 01:01:36,552] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,553] [builder.py:1709]           [INFO]     | 1/5 | Transformers Collection | = | Transformers (2007)                                            |
+[2023-01-31 01:01:36,553] [builder.py:1709]           [INFO]     | 2/5 | Transformers Collection | = | Transformers: Revenge of the Fallen (2009)                     |
+[2023-01-31 01:01:36,554] [builder.py:1709]           [INFO]     | 3/5 | Transformers Collection | = | Transformers: Dark of the Moon (2011)                          |
+[2023-01-31 01:01:36,554] [builder.py:1709]           [INFO]     | 4/5 | Transformers Collection | = | Transformers: Age of Extinction (2014)                         |
+[2023-01-31 01:01:36,554] [builder.py:1709]           [INFO]     | 5/5 | Transformers Collection | = | Transformers: The Last Knight (2017)                           |
+[2023-01-31 01:01:36,555] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,555] [builder.py:1735]           [INFO]     | 5 Movies Processed                                                                                 |
+[2023-01-31 01:01:36,559] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,559] [util.py:216]               [INFO]     |=========================== Updating Details of Transformers Collection ============================|
+[2023-01-31 01:01:36,559] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,560] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
+[2023-01-31 01:01:36,561] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-31 01:01:36,561] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/13251                                |
+[2023-01-31 01:01:36,561] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-31 01:01:36,562] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-01-31 01:01:36,744] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 01:01:36,745] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 01:01:36,745] [util.py:216]               [INFO]     |                                  Finished Transformers Collection                                  |
+[2023-01-31 01:01:36,746] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-01-31 01:01:36,746] [util.py:220]               [INFO]     |====================================================================================================|

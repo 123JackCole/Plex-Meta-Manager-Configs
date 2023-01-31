@@ -1,0 +1,41 @@
+templates:
+    Director:
+        url_poster: <<poster>>
+        tmdb_director: <<director>>
+        tmdb_director_details: <<director>>
+        # tmdb_summary: <<director>>
+        sort_title: 00000g_<<collection_name>>
+        sync_mode: sync
+        collection_order: release.desc
+        visible_library: false
+        visible_home: false
+        visible_shared: false
+        radarr_add_missing: true
+collections:
+
+###########################
+#   Director Collections  #
+###########################
+
+    Ari Aster: 
+        template: {name: Director, director: 1145520, poster: https://theposterdb.com/api/assets/213342}
+    Bong Joon-Ho: 
+        template: {name: Director, director: 21684, poster: https://theposterdb.com/api/assets/213346}
+    Christopher Nolan: 
+        template: {name: Director, director: 525, poster: https://theposterdb.com/api/assets/213359}
+    Denis Villeneuve:
+        template: {name: Director, director: 137427, poster: https://theposterdb.com/api/assets/213368}
+    Guillermo del Toro: 
+        template: {name: Director, director: 10828, poster: https://theposterdb.com/api/assets/213350}
+    Jordan Peele: 
+        template: {name: Director, director: 291263, poster: https://theposterdb.com/api/assets/213360}
+    Martin Scorsese: 
+        template: {name: Director, director: 1032, poster: https://theposterdb.com/api/assets/213361}
+    Robert Eggers: 
+        template: {name: Director, director: 138781, poster: https://theposterdb.com/api/assets/213352}
+    Stanley Kubrick:
+        template: {name: Director, director: 240, poster: https://theposterdb.com/api/assets/213356}
+    Steven Spielberg: 
+        template: {name: Director, director: 488, poster: https://theposterdb.com/api/assets/213365}
+    Wes Anderson: 
+        template: {name: Director, director: 5655, poster: https://theposterdb.com/api/assets/213340}

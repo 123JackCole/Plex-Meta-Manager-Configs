@@ -5,7 +5,7 @@ templates:
         tmdb_company: <<company>>
         url_poster: <<poster>>
         sort_title: 00000e_<<collection_name>>
-        collection_order: release
+        collection_order: release.desc
 collections:
 
 ###########################
@@ -20,7 +20,7 @@ collections:
     summary: Aardman Animations, Ltd. is a British animation studio based in Bristol, England. Aardman is known for films made using stop-motion clay animation techniques, particularly those featuring Plasticine characters Wallace and Gromit.
     radarr_add_missing: true
   Blue Sky Animation:
-    template: {name: Studio, company: 9383, poster: https://theposterdb.com/poster/33753}
+    template: {name: Studio, company: 9383, poster: https://theposterdb.com/api/assets/33753}
     summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
   DC Extended Universe:
     template: {name: Studio, poster: https://theposterdb.com/api/assets/92689}
@@ -48,6 +48,14 @@ collections:
     template: {name: Studio, company: 3, poster: https://theposterdb.com/api/assets/18894}
     summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
     radarr_add_missing: true
+  Pixar Shorts:
+    trakt_list: 
+      - https://trakt.tv/users/draackje/lists/pixar-shorts
+      - https://trakt.tv/users/pullsa/lists/pixar-animation-studios-shorts
+    collection_order: release
+    sort_title: 00000e_pixar
+    url_poster: https://theposterdb.com/api/assets/46102
+    summary: Pixar invite you to discover these masterpieces of storytelling from the creative minds that brought you Toy Story, Monsters, Inc., Finding Nemo and many more. With revolutionary animation, unforgettable music and characters you love, these dazzling short films have changed the face of animation and entertainment and are sure to delight people of all ages for years to come. Experience them now – for the first time together in an amazing collection including never-before-seen footage.
   Sony Pictures Animation:
     template: {name: Studio, company: 2251, poster: https://theposterdb.com/api/assets/131749}
     summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.

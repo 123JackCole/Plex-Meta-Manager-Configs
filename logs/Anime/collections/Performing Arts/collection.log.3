@@ -1,55 +1,210 @@
-[2022-11-19 13:07:11,084] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:11,085] [util.py:216]               [INFO]     |                                Performing Arts Collection in Anime                                 |
-[2022-11-19 13:07:11,085] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:11,086] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:11,086] [util.py:216]               [INFO]     |============================== Validating Performing Arts Attributes ===============================|
-[2022-11-19 13:07:11,086] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,087] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2022-11-19 13:07:11,087] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 70), ('poster', 'https://theposterdb.com/api/assets/240870')]) |
-[2022-11-19 13:07:11,087] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,088] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-19 13:07:11,088] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-19 13:07:11,088] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,088] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-11-19 13:07:11,088] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2022-11-19 13:07:11,089] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,089] [builder.py:473]            [DEBUG]    | Validating Method: mal_genre                                                                       |
-[2022-11-19 13:07:11,089] [builder.py:474]            [DEBUG]    | Value: {'genre_id': 70, 'limit': 999}                                                              |
-[2022-11-19 13:07:11,090] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,090] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-19 13:07:11,090] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240870                                                   |
-[2022-11-19 13:07:11,090] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,091] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-19 13:07:11,091] [builder.py:474]            [DEBUG]    | Value: +++_Performing Arts                                                                         |
-[2022-11-19 13:07:11,091] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,091] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-11-19 13:07:11,092] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-19 13:07:11,141] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-19 13:07:11,142] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-19 13:07:11,142] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:11,143] [util.py:216]               [INFO]     |================================ Running Performing Arts Collection ================================|
-[2022-11-19 13:07:11,143] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:11,143] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-19 13:07:11,143] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:11,144] [builder.py:1276]           [DEBUG]    | Builder: mal_genre: {'genre_id': 70, 'limit': 999}                                                 |
-[2022-11-19 13:07:11,144] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-19 13:07:11,144] [mal.py:225]                [INFO]     | Processing MyAnimeList Genre ID: 70                                                                |
-[2022-11-19 13:07:13,327] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2022-11-19 13:07:13,327] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 783, in run_collection         |
-[2022-11-19 13:07:13,328] [util.py:162]               [DEBUG]    |     builder.find_rating_keys()                                                                     |
-[2022-11-19 13:07:13,328] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1279, in find_rating_keys        |
-[2022-11-19 13:07:13,328] [util.py:162]               [DEBUG]    |     ids = self.gather_ids(method, value)                                                           |
-[2022-11-19 13:07:13,328] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1252, in gather_ids              |
-[2022-11-19 13:07:13,328] [util.py:162]               [DEBUG]    |     mal_ids = self.config.MyAnimeList.get_mal_ids(method, value)                                   |
-[2022-11-19 13:07:13,329] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 226, in get_mal_ids                  |
-[2022-11-19 13:07:13,329] [util.py:162]               [DEBUG]    |     mal_ids = self._genre(data["genre_id"], data["limit"])                                         |
-[2022-11-19 13:07:13,329] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\mal.py", line 173, in _genre                       |
-[2022-11-19 13:07:13,329] [util.py:162]               [DEBUG]    |     raise Failed(f"MyAnimeList Error: No MyAnimeList IDs for Genre ID: {genre_id}")                |
-[2022-11-19 13:07:13,330] [util.py:162]               [DEBUG]    | modules.util.Failed: MyAnimeList Error: No MyAnimeList IDs for Genre ID: 70                        |
-[2022-11-19 13:07:13,330] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2022-11-19 13:07:13,330] [util.py:159]               [ERROR]    | MyAnimeList Error: No MyAnimeList IDs for Genre ID: 70                                             |
-[2022-11-19 13:07:13,331] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-19 13:07:13,331] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-19 13:07:13,331] [util.py:216]               [INFO]     |                                Finished Performing Arts Collection                                 |
-[2022-11-19 13:07:13,331] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:02                                    |
-[2022-11-19 13:07:13,332] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 02:00:29,363] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 02:00:29,363] [util.py:216]               [INFO]     |                                Performing Arts Collection in Anime                                 |
+[2023-01-31 02:00:29,363] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 02:00:29,364] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 02:00:29,364] [util.py:216]               [INFO]     |============================== Validating Performing Arts Attributes ===============================|
+[2023-01-31 02:00:29,365] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,365] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-31 02:00:29,365] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 70), ('poster', 'https://theposterdb.com/api/assets/240870')]) |
+[2023-01-31 02:00:29,366] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,366] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 02:00:29,366] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 02:00:29,367] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,367] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 02:00:29,367] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-01-31 02:00:29,367] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,368] [builder.py:473]            [DEBUG]    | Validating Method: anidb_tag                                                                       |
+[2023-01-31 02:00:29,368] [builder.py:474]            [DEBUG]    | Value: {'tag': 1700, 'limit': 500}                                                                 |
+[2023-01-31 02:00:29,368] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,369] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-31 02:00:29,369] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/240870                                                   |
+[2023-01-31 02:00:29,369] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,369] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 02:00:29,370] [builder.py:474]            [DEBUG]    | Value: +++_Performing Arts                                                                         |
+[2023-01-31 02:00:29,370] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,370] [builder.py:473]            [DEBUG]    | Validating Method: collection_mode                                                                 |
+[2023-01-31 02:00:29,370] [builder.py:474]            [DEBUG]    | Value: hide                                                                                        |
+[2023-01-31 02:00:29,370] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,371] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2023-01-31 02:00:29,371] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 02:00:29,446] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 02:00:29,447] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 02:00:29,448] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 02:00:29,448] [util.py:216]               [INFO]     |================================ Running Performing Arts Collection ================================|
+[2023-01-31 02:00:29,448] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 02:00:29,449] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-01-31 02:00:29,449] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:29,449] [builder.py:1276]           [DEBUG]    | Builder: anidb_tag: {'tag': 1700, 'limit': 500}                                                    |
+[2023-01-31 02:00:29,449] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:29,450] [anidb.py:89]               [INFO]     | Processing AniDB Tag: 500 Anime from the Tag ID: 1700                                              |
+[2023-01-31 02:00:42,653] [anidb.py:99]               [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:42,654] [anidb.py:100]              [DEBUG]    | 152 AniDB IDs Found: [7685, 9348, 10725, 13255, 15135, 15036, 12414, 3395, 6645, 4597, 2369, 8571, 8467, 7989, 8974, 1754, 6494, 5894, 6392, 4327, 2214, 16435, 15597, 79, 2183, 15461, 1471, 117, 10365, 9966, 7177, 13108, 14318, 4199, 8203, 2331, 484, 485, 4315, 2033, 3468, 10993, 12419, 13263, 13917, 8126, 13745, 1209, 10531, 661, 15971, 2991, 12318, 4489, 6613, 1641, 915, 8494, 9719, 11372, 12048, 2826, 306, 1001, 5580, 11447, 274, 1534, 8318, 1607, 17342, 4937, 4055, 7443, 9293, 69, 411, 8010, 11529, 16983, 6537, 7538, 8940, 6199, 1254, 5691, 4097, 1253, 4851, 893, 2036, 2644, 2736, 3154, 8913, 2294, 683, 8528, 11257, 8737, 90, 10005, 1543, 765, 15849, 171, 223, 984, 6284, 7490, 10406, 337, 10373, 8834, 11041, 1859, 1384, 1091, 9687, 533, 2410, 1705, 9556, 10549, 1100, 2038, 409, 759, 358, 359, 376, 375, 205, 2509, 2510, 15007, 11715, 2508, 331, 10784, 14737, 725, 11920, 6402, 177, 463, 462, 178, 9513, 13945, 728, 726] |
+[2023-01-31 02:00:42,662] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1754                                      |
+[2023-01-31 02:00:42,663] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16435                                     |
+[2023-01-31 02:00:42,667] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15971                                     |
+[2023-01-31 02:00:42,668] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11447                                     |
+[2023-01-31 02:00:42,669] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17342                                     |
+[2023-01-31 02:00:42,675] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3154                                      |
+[2023-01-31 02:00:42,675] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10005                                     |
+[2023-01-31 02:00:42,678] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1705                                      |
+[2023-01-31 02:00:42,678] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2038                                      |
+[2023-01-31 02:00:42,680] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14737                                     |
+[2023-01-31 02:00:42,681] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:42,681] [builder.py:1283]           [DEBUG]    | 142 IDs Found: [(78232, 'tvdb'), (263310, 'tvdb'), (283942, 'tvdb'), (348706, 'tvdb'), (357019, 'tvdb'), (313676, 'tvdb'), (307111, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (74796, 'tvdb'), (254665, 'tvdb'), (259863, 'tvdb'), (245821, 'tvdb'), (245821, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (79652, 'tvdb'), (34834, 'tmdb'), (388645, 'tvdb'), (72447, 'tvdb'), (79526, 'tvdb'), (829920, 'tmdb'), (206331, 'tvdb'), (78878, 'tvdb'), (278197, 'tvdb'), (272134, 'tvdb'), (71172, 'tmdb'), (283929, 'tvdb'), (568012, 'tmdb'), (76703, 'tvdb'), (81531, 'tmdb'), (162971, 'tvdb'), (100171, 'tvdb'), (15227, 'tmdb'), (100171, 'tvdb'), (57123, 'tmdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (355970, 'tvdb'), (80043, 'tvdb'), (283929, 'tvdb'), (79888, 'tvdb'), (83212, 'tmdb'), (324711, 'tvdb'), (79382, 'tvdb'), (132941, 'tvdb'), (80978, 'tvdb'), (80398, 'tvdb'), (252621, 'tvdb'), (252621, 'tvdb'), (299497, 'tvdb'), (299497, 'tvdb'), (79360, 'tvdb'), (11621, 'tmdb'), (74957, 'tvdb'), (81908, 'tvdb'), (72448, 'tvdb'), (83403, 'tvdb'), (126710, 'tmdb'), (78885, 'tvdb'), (39206, 'tmdb'), (77604, 'tmdb'), (254663, 'tvdb'), (254663, 'tvdb'), (81797, 'tvdb'), (19576, 'tmdb'), (79082, 'tmdb'), (374205, 'tmdb'), (900667, 'tmdb'), (41498, 'tmdb'), (81797, 'tvdb'), (176983, 'tmdb'), (81797, 'tvdb'), (44727, 'tmdb'), (44731, 'tmdb'), (44730, 'tmdb'), (44725, 'tmdb'), (25278, 'tmdb'), (23446, 'tmdb'), (44728, 'tmdb'), (44729, 'tmdb'), (116315, 'tmdb'), (257320, 'tvdb'), (106121, 'tvdb'), (180581, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (70863, 'tvdb'), (104699, 'ratingKey'), (59717, 'tmdb'), (400705, 'tvdb'), (75911, 'tvdb'), (82443, 'tvdb'), (79156, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (80583, 'tvdb'), (284133, 'tvdb'), (257517, 'tvdb'), (344967, 'tmdb'), (76722, 'tmdb'), (81850, 'tmdb'), (82971, 'tvdb'), (192577, 'tmdb'), (81506, 'tvdb'), (83403, 'tvdb'), (267432, 'tvdb'), (267432, 'tvdb'), (120151, 'tvdb'), (79620, 'tvdb'), (80009, 'tvdb'), (79064, 'tvdb'), (34935, 'tmdb'), (14829, 'tmdb'), (34194, 'tmdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (10515, 'tmdb'), (284585, 'tvdb'), (100151, 'tvdb'), (307323, 'tvdb'), (102041, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (87491, 'tvdb'), (105563, 'ratingKey'), (42137, 'tmdb'), (79765, 'tvdb')] |
+[2023-01-31 02:00:42,682] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 02:00:42,706] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:42,706] [util.py:216]               [INFO]     |=============================== Adding to Performing Arts Collection ===============================|
+[2023-01-31 02:00:42,706] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:42,707] [builder.py:1709]           [INFO]     | 1/2 | Performing Arts Collection | + | Samurai Champloo                                            |
+[2023-01-31 02:00:42,812] [builder.py:1709]           [INFO]     | 2/2 | Performing Arts Collection | + | Vinland Saga                                                |
+[2023-01-31 02:00:42,922] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:42,922] [builder.py:1735]           [INFO]     | 2 Shows Processed                                                                                  |
+[2023-01-31 02:00:42,923] [builder.py:1743]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:42,923] [util.py:216]               [INFO]     |============================= Removed from Performing Arts Collection ==============================|
+[2023-01-31 02:00:42,923] [builder.py:1745]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:42,930] [builder.py:1751]           [INFO]     | 1/1 | Performing Arts Collection | - | Dance Dance Danseur                                         |
+[2023-01-31 02:00:43,021] [builder.py:1768]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,021] [builder.py:1769]           [INFO]     | 1 Shows Removed                                                                                    |
+[2023-01-31 02:00:43,022] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,022] [util.py:216]               [INFO]     |=========================== Missing Movies from Library: Performing Arts ===========================|
+[2023-01-31 02:00:43,022] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,023] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Animal Treasure Island (1971) (TMDb: 34834)                       |
+[2023-01-31 02:00:43,024] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon (2021) (TMDb: 829920) |
+[2023-01-31 02:00:43,025] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Gintama: The Movie (2010) (TMDb: 71172)                           |
+[2023-01-31 02:00:43,026] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Stampede (2019) (TMDb: 568012)                         |
+[2023-01-31 02:00:43,027] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Sengoku Basara: The Last Party (2011) (TMDb: 81531)               |
+[2023-01-31 02:00:43,028] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Galaxy Express 999: The Movie (1979) (TMDb: 15227)                |
+[2023-01-31 02:00:43,028] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Galaxy Express 999: Eternal Fantasy (1998) (TMDb: 57123)          |
+[2023-01-31 02:00:43,029] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Million-Year Trip: Bander Book (1978) (TMDb: 83212)           |
+[2023-01-31 02:00:43,030] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Porco Rosso (1992) (TMDb: 11621)                                  |
+[2023-01-31 02:00:43,031] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Magic Tree House (2012) (TMDb: 126710)                            |
+[2023-01-31 02:00:43,032] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Detective Conan: Jolly Roger in the Deep Azure (2007) (TMDb: 39206) |
+[2023-01-31 02:00:43,032] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Momotaro's Divine Sea Warriors (1945) (TMDb: 77604)               |
+[2023-01-31 02:00:43,033] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: The Movie (2000) (TMDb: 19576)                         |
+[2023-01-31 02:00:43,033] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece 3D: Straw Hat Chase (2011) (TMDb: 79082)                |
+[2023-01-31 02:00:43,035] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece Film: GOLD (2016) (TMDb: 374205)                        |
+[2023-01-31 02:00:43,037] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                          |
+[2023-01-31 02:00:43,038] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Strong World (2009) (TMDb: 41498)                      |
+[2023-01-31 02:00:43,039] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece Film: Z (2012) (TMDb: 176983)                           |
+[2023-01-31 02:00:43,040] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Dead End Adventure (2003) (TMDb: 44727)                |
+[2023-01-31 02:00:43,040] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom (2008) (TMDb: 44731) |
+[2023-01-31 02:00:43,041] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Giant Mecha Soldier of Karakuri Castle (2006) (TMDb: 44730) |
+[2023-01-31 02:00:43,042] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Chopper's Kingdom on the Island of Strange Animals (2002) (TMDb: 44725) |
+[2023-01-31 02:00:43,043] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: The Desert Princess and the Pirates: Adventure in Alabasta (2007) (TMDb: 25278) |
+[2023-01-31 02:00:43,043] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Clockwork Island Adventure (2001) (TMDb: 23446)        |
+[2023-01-31 02:00:43,044] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Curse of the Sacred Sword (2004) (TMDb: 44728)         |
+[2023-01-31 02:00:43,047] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Baron Omatsuri and the Secret Island (2005) (TMDb: 44729) |
+[2023-01-31 02:00:43,047] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | One Piece: Defeat the Pirate Ganzak! (1998) (TMDb: 116315)        |
+[2023-01-31 02:00:43,048] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Adieu Galaxy Express 999 (1981) (TMDb: 59717)                     |
+[2023-01-31 02:00:43,050] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Sinbad - The Flying Princess and the Secret Island (2015) (TMDb: 344967) |
+[2023-01-31 02:00:43,051] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Flying Phantom Ship (1969) (TMDb: 76722)                          |
+[2023-01-31 02:00:43,052] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Space Adventure Cobra: The Movie (1982) (TMDb: 81850)             |
+[2023-01-31 02:00:43,053] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Space Pirate Captain Harlock (2013) (TMDb: 192577)                |
+[2023-01-31 02:00:43,054] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Tenchi Muyo! In Love (1996) (TMDb: 34935)                         |
+[2023-01-31 02:00:43,055] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Tenchi Forever! (1999) (TMDb: 14829)                              |
+[2023-01-31 02:00:43,056] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Tenchi the Movie 2: The Daughter of Darkness (1997) (TMDb: 34194) |
+[2023-01-31 02:00:43,058] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Castle in the Sky (1986) (TMDb: 10515)                            |
+[2023-01-31 02:00:43,058] [builder.py:1943]           [INFO]     | Performing Arts Collection | ? | Space Pirate Captain Harlock: Arcadia of My Youth (1982) (TMDb: 42137) |
+[2023-01-31 02:00:43,059] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,059] [builder.py:1948]           [INFO]     | 37 Movies Missing                                                                                  |
+[2023-01-31 02:00:43,373] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,373] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Performing Arts ============================|
+[2023-01-31 02:00:43,374] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-01-31 02:00:43,655] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Project A-ko (TVDB: 78232)                                        |
+[2023-01-31 02:00:44,105] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Aikatsu! (TVDB: 263310)                                           |
+[2023-01-31 02:00:44,404] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Yona of the Dawn (TVDB: 283942)                                   |
+[2023-01-31 02:00:44,737] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Angolmois: Record of Mongol Invasion (TVDB: 348706)               |
+[2023-01-31 02:00:45,140] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Arifureta: From Commonplace to World's Strongest (TVDB: 357019)   |
+[2023-01-31 02:00:45,368] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Bananya (TVDB: 313676)                                            |
+[2023-01-31 02:00:45,686] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Berserk (2016) (TVDB: 307111)                                     |
+[2023-01-31 02:00:46,085] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Black Lagoon (TVDB: 79604)                                        |
+[2023-01-31 02:00:47,300] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Bleach (TVDB: 74796)                                              |
+[2023-01-31 02:00:47,541] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Brave 10 (TVDB: 254665)                                           |
+[2023-01-31 02:00:47,853] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Anime Mirai (TVDB: 259863)                                        |
+[2023-01-31 02:00:48,606] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Cardfight!! Vanguard (TVDB: 245821)                               |
+[2023-01-31 02:00:48,859] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Cobra the Animation (TVDB: 137151)                                |
+[2023-01-31 02:00:49,094] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Coyote Ragtime Show (TVDB: 79652)                                 |
+[2023-01-31 02:00:49,518] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | EDENS ZERO (TVDB: 388645)                                         |
+[2023-01-31 02:00:49,805] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Those Who Hunt Elves (TVDB: 72447)                                |
+[2023-01-31 02:00:50,103] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Elemental Gelade (TVDB: 79526)                                    |
+[2023-01-31 02:00:50,355] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Fire Emblem (TVDB: 206331)                                        |
+[2023-01-31 02:00:50,907] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | FLCL (TVDB: 78878)                                                |
+[2023-01-31 02:00:51,160] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Dai-Shogun – Great Revolution (TVDB: 278197)                      |
+[2023-01-31 02:00:51,421] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Galilei Donna (TVDB: 272134)                                      |
+[2023-01-31 02:00:51,706] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Gundam Reconguista in G (TVDB: 283929)                            |
+[2023-01-31 02:00:54,073] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Pokémon (TVDB: 76703)                                             |
+[2023-01-31 02:00:54,528] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Ellcia (TVDB: 162971)                                             |
+[2023-01-31 02:00:54,891] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Galaxy Express 999 (TVDB: 100171)                                 |
+[2023-01-31 02:00:55,688] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Gintama (TVDB: 79895)                                             |
+[2023-01-31 02:00:55,935] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Grimms Notes The Animation (TVDB: 355970)                         |
+[2023-01-31 02:00:56,247] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Gun Frontier (TVDB: 80043)                                        |
+[2023-01-31 02:00:56,466] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Harlock Saga (TVDB: 79888)                                        |
+[2023-01-31 02:00:56,721] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | ID-0 (TVDB: 324711)                                               |
+[2023-01-31 02:00:57,016] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Innocent Venus (TVDB: 79382)                                      |
+[2023-01-31 02:00:57,309] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Katanagatari (TVDB: 132941)                                       |
+[2023-01-31 02:00:57,582] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Mars Daybreak (TVDB: 80978)                                       |
+[2023-01-31 02:00:57,867] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Mobile Fighter G Gundam (TVDB: 80398)                             |
+[2023-01-31 02:00:58,095] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Mobile Suit Gundam AGE (TVDB: 252621)                             |
+[2023-01-31 02:00:58,422] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Mobile Suit Gundam: Iron-Blooded Orphans (TVDB: 299497)           |
+[2023-01-31 02:00:58,892] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Eureka Seven (TVDB: 79360)                                        |
+[2023-01-31 02:00:59,127] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Requiem from the Darkness (TVDB: 74957)                           |
+[2023-01-31 02:00:59,378] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Family Frenzy Diary (TVDB: 81908)                                 |
+[2023-01-31 02:00:59,648] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Legend of Basara (TVDB: 72448)                                    |
+[2023-01-31 02:00:59,916] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Space Symphony Maetel (TVDB: 83403)                               |
+[2023-01-31 02:01:00,177] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Tweeny Witches (TVDB: 78885)                                      |
+[2023-01-31 02:01:00,436] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Bodacious Space Pirates (TVDB: 254663)                            |
+[2023-01-31 02:01:02,454] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | One Piece (TVDB: 81797)                                           |
+[2023-01-31 02:01:02,682] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Ozma (TVDB: 257320)                                               |
+[2023-01-31 02:01:03,003] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | The Adventures of Peter Pan (TVDB: 106121)                        |
+[2023-01-31 02:01:03,223] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Queen Emeraldas (TVDB: 180581)                                    |
+[2023-01-31 02:01:03,746] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Queen's Blade (TVDB: 87491)                                       |
+[2023-01-31 02:01:04,251] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Rurouni Kenshin (TVDB: 70863)                                     |
+[2023-01-31 02:01:04,519] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | SD Gundam World Heroes (TVDB: 400705)                             |
+[2023-01-31 02:01:04,880] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Outlaw Star (TVDB: 75911)                                         |
+[2023-01-31 02:01:05,104] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Angel Links (TVDB: 82443)                                         |
+[2023-01-31 02:01:05,512] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Fist of the North Star (TVDB: 79156)                              |
+[2023-01-31 02:01:05,784] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Sengoku Basara (TVDB: 87881)                                      |
+[2023-01-31 02:01:06,014] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Tenchi in Tokyo (TVDB: 80583)                                     |
+[2023-01-31 02:01:06,324] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Rage of Bahamut (TVDB: 284133)                                    |
+[2023-01-31 02:01:06,543] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Shining Hearts (TVDB: 257517)                                     |
+[2023-01-31 02:01:06,811] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Space Adventure Cobra (TVDB: 82971)                               |
+[2023-01-31 02:01:07,004] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Space Pirate Captain Herlock - The Endless Odyssey (TVDB: 81506)  |
+[2023-01-31 02:01:07,340] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Gargantia on the Verdurous Planet (TVDB: 267432)                  |
+[2023-01-31 02:01:07,568] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Mermaid Forest (TVDB: 120151)                                     |
+[2023-01-31 02:01:07,845] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Tenchi Muyo! Tenchi Universe (TVDB: 79620)                        |
+[2023-01-31 02:01:08,178] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Tenchi Muyo! Ryo-Ohki (TVDB: 80009)                               |
+[2023-01-31 02:01:08,455] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Tenchi Muyo! GXP (TVDB: 79064)                                    |
+[2023-01-31 02:01:08,746] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | The Rolling Girls (TVDB: 284585)                                  |
+[2023-01-31 02:01:08,800] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 100151                              |
+[2023-01-31 02:01:09,018] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Space Patrol Luluco (TVDB: 307323)                                |
+[2023-01-31 02:01:09,219] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Sea Story (TVDB: 102041)                                          |
+[2023-01-31 02:01:09,528] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | VanDread (TVDB: 71744)                                            |
+[2023-01-31 02:01:09,793] [builder.py:1982]           [INFO]     | Performing Arts Collection | ? | Arcadia of My Youth: Endless Orbit SSX (TVDB: 79765)              |
+[2023-01-31 02:01:09,793] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-01-31 02:01:09,794] [builder.py:1987]           [INFO]     | 69 Shows Missing                                                                                   |
+[2023-01-31 02:01:10,128] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-31 02:01:10,128] [util.py:216]               [INFO]     |========================== Updating Details of Performing Arts Collection ==========================|
+[2023-01-31 02:01:10,129] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-31 02:01:10,310] [plex.py:499]               [INFO]     | Detail: collection_order updated Collection Order to hide                                          |
+[2023-01-31 02:01:10,311] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-01-31 02:01:10,311] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/240870                               |
+[2023-01-31 02:01:10,311] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-31 02:01:11,651] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/240870               |
+[2023-01-31 02:01:11,727] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2023-01-31 02:01:11,727] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Performing Arts Collection ====================|
+[2023-01-31 02:01:11,728] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2023-01-31 02:01:12,115] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-01-31 02:01:12,116] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2023-01-31 02:01:12,116] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-01-31 02:01:12,117] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2023-01-31 02:01:12,117] [sonarr.py:74]              [DEBUG]    | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                                         |
+[2023-01-31 02:01:12,117] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
+[2023-01-31 02:01:12,390] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-01-31 02:01:12,391] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                     |
+[2023-01-31 02:01:12,391] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
+[2023-01-31 02:01:12,391] [sonarr.py:174]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
+[2023-01-31 02:01:12,393] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 02:01:12,394] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 02:01:12,394] [util.py:216]               [INFO]     |                                Finished Performing Arts Collection                                 |
+[2023-01-31 02:01:12,394] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:43                                    |
+[2023-01-31 02:01:12,395] [util.py:220]               [INFO]     |====================================================================================================|

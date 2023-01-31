@@ -1,151 +1,84 @@
-[2022-11-23 01:28:50,656] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:28:50,656] [util.py:216]               [INFO]     |                                 Popular TV Collection in TV Shows                                  |
-[2022-11-23 01:28:50,657] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-11-23 01:28:50,657] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-11-23 01:28:50,657] [util.py:216]               [INFO]     |================================= Validating Popular TV Attributes =================================|
-[2022-11-23 01:28:50,658] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:50,658] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-11-23 01:28:50,658] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-11-23 01:28:50,658] [builder.py:389]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:50,658] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
-[2022-11-23 01:28:50,659] [builder.py:395]            [DEBUG]    | Value: originally_available.desc                                                                   |
-[2022-11-23 01:28:50,659] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:50,659] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-11-23 01:28:50,659] [builder.py:474]            [DEBUG]    | Value: +1b                                                                                         |
-[2022-11-23 01:28:50,659] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:50,660] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2022-11-23 01:28:50,660] [builder.py:474]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries'), ('limit', 40)]) |
-[2022-11-23 01:28:51,372] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,372] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2022-11-23 01:28:51,372] [builder.py:474]            [DEBUG]    | Value: Popular Shows across the internet                                                           |
-[2022-11-23 01:28:51,373] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,373] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2022-11-23 01:28:51,373] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/s90PSic.png                                                             |
-[2022-11-23 01:28:51,373] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,373] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
-[2022-11-23 01:28:51,374] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
-[2022-11-23 01:28:51,374] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,374] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2022-11-23 01:28:51,374] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:28:51,374] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,375] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2022-11-23 01:28:51,375] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:28:51,375] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,375] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2022-11-23 01:28:51,375] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:28:51,376] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,376] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-11-23 01:28:51,376] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-11-23 01:28:51,417] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-11-23 01:28:51,417] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-11-23 01:28:51,418] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-11-23 01:28:51,419] [util.py:216]               [INFO]     |================================== Running Popular TV Collection ===================================|
-[2022-11-23 01:28:51,419] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-11-23 01:28:51,419] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-11-23 01:28:51,420] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:51,420] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries', 'limit': 40} |
-[2022-11-23 01:28:51,420] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:51,420] [imdb.py:158]               [INFO]     | Processing IMDb List: 40 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries |
-[2022-11-23 01:28:54,387] [imdb.py:127]               [DEBUG]    | 40 IMDb IDs Found: ['tt4786824', 'tt9319668', 'tt4236770', 'tt13406094', 'tt9253284', 'tt1520211', 'tt8291284', 'tt11771270', 'tt16358384', 'tt8415836', 'tt11198330', 'tt9059350', 'tt0944947', 'tt18335752', 'tt8421350', 'tt8064302', 'tt5834204', 'tt17047510', 'tt1844624', 'tt10948716', 'tt7631058', 'tt10405370', 'tt0413573', 'tt0903747', 'tt4574334', 'tt14852808', 'tt13991232', 'tt14379784', 'tt3032476', 'tt9471404', 'tt0436992', 'tt11212276', 'tt1190634', 'tt0386676', 'tt5753856', 'tt13443470', 'tt0364845', 'tt1043813', 'tt0460681', 'tt2442560'] |
-[2022-11-23 01:28:54,387] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:54,387] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [('tt4786824', 'imdb'), ('tt9319668', 'imdb'), ('tt4236770', 'imdb'), ('tt13406094', 'imdb'), ('tt9253284', 'imdb'), ('tt1520211', 'imdb'), ('tt8291284', 'imdb'), ('tt11771270', 'imdb'), ('tt16358384', 'imdb'), ('tt8415836', 'imdb'), ('tt11198330', 'imdb'), ('tt9059350', 'imdb'), ('tt0944947', 'imdb'), ('tt18335752', 'imdb'), ('tt8421350', 'imdb'), ('tt8064302', 'imdb'), ('tt5834204', 'imdb'), ('tt17047510', 'imdb'), ('tt1844624', 'imdb'), ('tt10948716', 'imdb'), ('tt7631058', 'imdb'), ('tt10405370', 'imdb'), ('tt0413573', 'imdb'), ('tt0903747', 'imdb'), ('tt4574334', 'imdb'), ('tt14852808', 'imdb'), ('tt13991232', 'imdb'), ('tt14379784', 'imdb'), ('tt3032476', 'imdb'), ('tt9471404', 'imdb'), ('tt0436992', 'imdb'), ('tt11212276', 'imdb'), ('tt1190634', 'imdb'), ('tt0386676', 'imdb'), ('tt5753856', 'imdb'), ('tt13443470', 'imdb'), ('tt0364845', 'imdb'), ('tt1043813', 'imdb'), ('tt0460681', 'imdb'), ('tt2442560', 'imdb')] |
-[2022-11-23 01:28:54,388] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-11-23 01:28:54,985] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:54,985] [util.py:216]               [INFO]     |================================= Adding to Popular TV Collection ==================================|
-[2022-11-23 01:28:54,985] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:55,008] [builder.py:1709]           [INFO]     |  1/14 | Popular TV Collection | = | The Crown                                                      |
-[2022-11-23 01:28:55,008] [builder.py:1709]           [INFO]     |  2/14 | Popular TV Collection | = | 1899                                                           |
-[2022-11-23 01:28:55,009] [builder.py:1709]           [INFO]     |  3/14 | Popular TV Collection | = | Andor                                                          |
-[2022-11-23 01:28:55,009] [builder.py:1709]           [INFO]     |  4/14 | Popular TV Collection | = | House of the Dragon                                            |
-[2022-11-23 01:28:55,009] [builder.py:1709]           [INFO]     |  5/14 | Popular TV Collection | = | Game of Thrones                                                |
-[2022-11-23 01:28:55,010] [builder.py:1709]           [INFO]     |  6/14 | Popular TV Collection | = | American Horror Story                                          |
-[2022-11-23 01:28:55,010] [builder.py:1709]           [INFO]     |  7/14 | Popular TV Collection | = | The Lord of the Rings: The Rings of Power                      |
-[2022-11-23 01:28:55,010] [builder.py:1709]           [INFO]     |  8/14 | Popular TV Collection | = | Breaking Bad                                                   |
-[2022-11-23 01:28:55,010] [builder.py:1709]           [INFO]     |  9/14 | Popular TV Collection | = | Stranger Things                                                |
-[2022-11-23 01:28:55,011] [builder.py:1709]           [INFO]     | 10/14 | Popular TV Collection | = | Better Call Saul                                               |
-[2022-11-23 01:28:55,011] [builder.py:1709]           [INFO]     | 11/14 | Popular TV Collection | = | The Sex Lives of College Girls                                 |
-[2022-11-23 01:28:55,011] [builder.py:1709]           [INFO]     | 12/14 | Popular TV Collection | = | The Boys                                                       |
-[2022-11-23 01:28:55,011] [builder.py:1709]           [INFO]     | 13/14 | Popular TV Collection | = | Dark                                                           |
-[2022-11-23 01:28:55,012] [builder.py:1709]           [INFO]     | 14/14 | Popular TV Collection | = | Peaky Blinders                                                 |
-[2022-11-23 01:28:55,012] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:55,012] [builder.py:1735]           [INFO]     | 14 Shows Processed                                                                                 |
-[2022-11-23 01:28:55,012] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:55,013] [util.py:216]               [INFO]     |============================== Missing Shows from Library: Popular TV ==============================|
-[2022-11-23 01:28:55,013] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-11-23 01:28:55,464] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Yellowstone (2018) (TVDB: 341164)                                      |
-[2022-11-23 01:28:55,735] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The White Lotus (TVDB: 390430)                                         |
-[2022-11-23 01:28:56,682] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Walking Dead (TVDB: 153021)                                        |
-[2022-11-23 01:28:56,922] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Peripheral (TVDB: 349187)                                          |
-[2022-11-23 01:28:57,167] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The English (TVDB: 402602)                                             |
-[2022-11-23 01:28:57,405] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Tulsa King (TVDB: 413215)                                              |
-[2022-11-23 01:28:57,640] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Guillermo del Toro's Cabinet of Curiosities (TVDB: 409559)             |
-[2022-11-23 01:28:57,972] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Warrior Nun (TVDB: 382544)                                             |
-[2022-11-23 01:28:58,209] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | 1923 (TVDB: 416491)                                                    |
-[2022-11-23 01:28:58,605] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Manifest (TVDB: 349271)                                                |
-[2022-11-23 01:28:58,937] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Dead to Me (TVDB: 361857)                                              |
-[2022-11-23 01:28:59,408] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Handmaid's Tale (TVDB: 321239)                                     |
-[2022-11-23 01:28:59,674] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Santa Clauses (TVDB: 414682)                                       |
-[2022-11-23 01:28:59,850] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Inside Man (2022) (TVDB: 399877)                                       |
-[2022-11-23 01:29:00,081] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | SAS Rogue Heroes (TVDB: 368401)                                        |
-[2022-11-23 01:29:01,328] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Grey's Anatomy (TVDB: 73762)                                           |
-[2022-11-23 01:29:01,595] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Watcher (2022) (TVDB: 404833)                                      |
-[2022-11-23 01:29:01,841] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | 1883 (TVDB: 396390)                                                    |
-[2022-11-23 01:29:02,044] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Devil's Hour (TVDB: 397807)                                        |
-[2022-11-23 01:29:02,386] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Chosen (TVDB: 356992)                                              |
-[2022-11-23 01:29:03,335] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Doctor Who (2005) (TVDB: 78804)                                        |
-[2022-11-23 01:29:04,534] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Office (US) (TVDB: 73244)                                          |
-[2022-11-23 01:29:04,764] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Wednesday (TVDB: 397060)                                               |
-[2022-11-23 01:29:06,133] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | NCIS (TVDB: 72108)                                                     |
-[2022-11-23 01:29:06,542] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Titans (2018) (TVDB: 341663)                                           |
-[2022-11-23 01:29:07,726] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Supernatural (TVDB: 78901)                                             |
-[2022-11-23 01:29:07,726] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-11-23 01:29:07,726] [builder.py:1987]           [INFO]     | 26 Shows Missing                                                                                   |
-[2022-11-23 01:29:07,730] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2022-11-23 01:29:07,731] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2022-11-23 01:29:07,731] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2022-11-23 01:29:07,731] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [341164, 390430, 153021, 349187, 402602, 413215, 409559, 382544, 416491, 349271, 361857, 321239, 414682, 399877, 368401, 73762, 404833, 396390, 397807, 356992, 78804, 73244, 397060, 72108, 341663, 78901] |
-[2022-11-23 01:29:08,077] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2022-11-23 01:29:08,077] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 341164                                                                         |
-[2022-11-23 01:29:08,077] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 390430                                                                         |
-[2022-11-23 01:29:08,078] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 153021                                                                         |
-[2022-11-23 01:29:08,078] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 349187                                                                         |
-[2022-11-23 01:29:08,078] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 402602                                                                         |
-[2022-11-23 01:29:08,078] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 413215                                                                         |
-[2022-11-23 01:29:08,079] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 409559                                                                         |
-[2022-11-23 01:29:08,079] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 382544                                                                         |
-[2022-11-23 01:29:08,079] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 416491                                                                         |
-[2022-11-23 01:29:08,080] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 349271                                                                         |
-[2022-11-23 01:29:08,080] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 361857                                                                         |
-[2022-11-23 01:29:08,080] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 321239                                                                         |
-[2022-11-23 01:29:08,080] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 414682                                                                         |
-[2022-11-23 01:29:08,081] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 399877                                                                         |
-[2022-11-23 01:29:08,081] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 368401                                                                         |
-[2022-11-23 01:29:08,081] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73762                                                                          |
-[2022-11-23 01:29:08,083] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 404833                                                                         |
-[2022-11-23 01:29:08,083] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 396390                                                                         |
-[2022-11-23 01:29:08,083] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 397807                                                                         |
-[2022-11-23 01:29:08,083] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 356992                                                                         |
-[2022-11-23 01:29:08,083] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78804                                                                          |
-[2022-11-23 01:29:08,084] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73244                                                                          |
-[2022-11-23 01:29:08,084] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 397060                                                                         |
-[2022-11-23 01:29:08,084] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 341663                                                                         |
-[2022-11-23 01:29:08,084] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78901                                                                          |
-[2022-11-23 01:29:08,085] [sonarr.py:174]             [INFO]     | 25 Series already exist in Sonarr                                                                  |
-[2022-11-23 01:29:08,085] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2022-11-23 01:29:08,085] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [NCIS]                                                                           |
-[2022-11-23 01:29:08,085] [sonarr.py:194]             [INFO]     | 1 Series with Invalid IDs                                                                          |
-[2022-11-23 01:29:08,092] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-11-23 01:29:08,092] [util.py:216]               [INFO]     |============================ Updating Details of Popular TV Collection =============================|
-[2022-11-23 01:29:08,092] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-11-23 01:29:08,093] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2022-11-23 01:29:08,095] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2022-11-23 01:29:08,095] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/s90PSic.png                                         |
-[2022-11-23 01:29:08,095] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
-[2022-11-23 01:29:08,095] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaper.dog/large/20509069.jpg                        |
-[2022-11-23 01:29:08,096] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2022-11-23 01:29:08,097] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
-[2022-11-23 01:29:08,110] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-11-23 01:29:08,111] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-11-23 01:29:08,111] [util.py:216]               [INFO]     |                                   Finished Popular TV Collection                                   |
-[2022-11-23 01:29:08,111] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:17                                    |
-[2022-11-23 01:29:08,111] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:58:22,245] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:58:22,245] [util.py:216]               [INFO]     |                                 Popular TV Collection in TV Shows                                  |
+[2023-01-31 10:58:22,246] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:58:22,246] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 10:58:22,247] [util.py:216]               [INFO]     |================================= Validating Popular TV Attributes =================================|
+[2023-01-31 10:58:22,247] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,248] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 10:58:22,248] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 10:58:22,248] [builder.py:389]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,249] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-01-31 10:58:22,249] [builder.py:395]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2023-01-31 10:58:22,249] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,249] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 10:58:22,250] [builder.py:474]            [DEBUG]    | Value: +1b                                                                                         |
+[2023-01-31 10:58:22,250] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,250] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-01-31 10:58:22,251] [builder.py:474]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries'), ('limit', 40)]) |
+[2023-01-31 10:58:22,945] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,945] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-01-31 10:58:22,945] [builder.py:474]            [DEBUG]    | Value: Popular Shows across the internet                                                           |
+[2023-01-31 10:58:22,945] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,946] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-01-31 10:58:22,946] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/s90PSic.png                                                             |
+[2023-01-31 10:58:22,946] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,947] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2023-01-31 10:58:22,947] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
+[2023-01-31 10:58:22,947] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,948] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-01-31 10:58:22,948] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:58:22,948] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,949] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-01-31 10:58:22,949] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:58:22,949] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,950] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-01-31 10:58:22,950] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:58:22,950] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,950] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2023-01-31 10:58:22,951] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:58:22,994] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 10:58:22,995] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 10:58:22,996] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 10:58:22,997] [util.py:216]               [INFO]     |================================== Running Popular TV Collection ===================================|
+[2023-01-31 10:58:22,997] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 10:58:22,998] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-01-31 10:58:22,998] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:22,998] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries', 'limit': 40} |
+[2023-01-31 10:58:22,999] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:22,999] [imdb.py:158]               [INFO]     | Processing IMDb List: 40 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries |
+[2023-01-31 10:58:25,946] [imdb.py:127]               [DEBUG]    | 40 IMDb IDs Found: ['tt3581920', 'tt15591076', 'tt13406094', 'tt14153790', 'tt4236770', 'tt13443470', 'tt10813940', 'tt14269590', 'tt1520211', 'tt0165598', 'tt15677150', 'tt0944947', 'tt7949212', 'tt7456722', 'tt16358384', 'tt18335752', 'tt4565380', 'tt0903747', 'tt11311302', 'tt3428912', 'tt0452046', 'tt15438246', 'tt11712058', 'tt7440726', 'tt11247158', 'tt14579330', 'tt13991232', 'tt7221388', 'tt5057054', 'tt3032476', 'tt2861424', 'tt15487922', 'tt8111088', 'tt11198330', 'tt1190634', 'tt15428778', 'tt0386676', 'tt4574334', 'tt16913068', 'tt0086770'] |
+[2023-01-31 10:58:25,946] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:25,947] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [('tt3581920', 'imdb'), ('tt15591076', 'imdb'), ('tt13406094', 'imdb'), ('tt14153790', 'imdb'), ('tt4236770', 'imdb'), ('tt13443470', 'imdb'), ('tt10813940', 'imdb'), ('tt14269590', 'imdb'), ('tt1520211', 'imdb'), ('tt0165598', 'imdb'), ('tt15677150', 'imdb'), ('tt0944947', 'imdb'), ('tt7949212', 'imdb'), ('tt7456722', 'imdb'), ('tt16358384', 'imdb'), ('tt18335752', 'imdb'), ('tt4565380', 'imdb'), ('tt0903747', 'imdb'), ('tt11311302', 'imdb'), ('tt3428912', 'imdb'), ('tt0452046', 'imdb'), ('tt15438246', 'imdb'), ('tt11712058', 'imdb'), ('tt7440726', 'imdb'), ('tt11247158', 'imdb'), ('tt14579330', 'imdb'), ('tt13991232', 'imdb'), ('tt7221388', 'imdb'), ('tt5057054', 'imdb'), ('tt3032476', 'imdb'), ('tt2861424', 'imdb'), ('tt15487922', 'imdb'), ('tt8111088', 'imdb'), ('tt11198330', 'imdb'), ('tt1190634', 'imdb'), ('tt15428778', 'imdb'), ('tt0386676', 'imdb'), ('tt4574334', 'imdb'), ('tt16913068', 'imdb'), ('tt0086770', 'imdb')] |
+[2023-01-31 10:58:25,947] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:58:26,254] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:26,254] [util.py:216]               [INFO]     |================================= Adding to Popular TV Collection ==================================|
+[2023-01-31 10:58:26,255] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:26,277] [builder.py:1709]           [INFO]     |  1/12 | Popular TV Collection | = | The Last of Us                                                 |
+[2023-01-31 10:58:26,277] [builder.py:1709]           [INFO]     |  2/12 | Popular TV Collection | = | The White Lotus                                                |
+[2023-01-31 10:58:26,278] [builder.py:1709]           [INFO]     |  3/12 | Popular TV Collection | = | Wednesday                                                      |
+[2023-01-31 10:58:26,278] [builder.py:1709]           [INFO]     |  4/12 | Popular TV Collection | = | Game of Thrones                                                |
+[2023-01-31 10:58:26,279] [builder.py:1709]           [INFO]     |  5/12 | Popular TV Collection | = | Breaking Bad                                                   |
+[2023-01-31 10:58:26,279] [builder.py:1709]           [INFO]     |  6/12 | Popular TV Collection | = | Cobra Kai                                                      |
+[2023-01-31 10:58:26,280] [builder.py:1709]           [INFO]     |  7/12 | Popular TV Collection | = | Better Call Saul                                               |
+[2023-01-31 10:58:26,280] [builder.py:1709]           [INFO]     |  8/12 | Popular TV Collection | = | Rick and Morty                                                 |
+[2023-01-31 10:58:26,281] [builder.py:1709]           [INFO]     |  9/12 | Popular TV Collection | = | The Mandalorian                                                |
+[2023-01-31 10:58:26,281] [builder.py:1709]           [INFO]     | 10/12 | Popular TV Collection | = | House of the Dragon                                            |
+[2023-01-31 10:58:26,282] [builder.py:1709]           [INFO]     | 11/12 | Popular TV Collection | = | The Boys                                                       |
+[2023-01-31 10:58:26,282] [builder.py:1709]           [INFO]     | 12/12 | Popular TV Collection | = | Stranger Things                                                |
+[2023-01-31 10:58:26,283] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:26,283] [builder.py:1735]           [INFO]     | 12 Shows Processed                                                                                 |
+[2023-01-31 10:58:26,283] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:26,284] [util.py:216]               [INFO]     |============================== Missing Shows from Library: Popular TV ==============================|
+[2023-01-31 10:58:26,285] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-01-31 10:58:26,508] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | That '90s Show (TVDB: 411173)                                          |
+[2023-01-31 10:58:26,789] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Velma (TVDB: 396625)                                                   |
+[2023-01-31 10:58:27,369] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Yellowstone (2018) (TVDB: 341164)                                      |
+[2023-01-31 10:58:27,623] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Ginny & Georgia (TVDB: 393625)                                         |
+[2023-01-31 10:58:27,846] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Poker Face (2023) (TVDB: 398822)                                       |
+[2023-01-31 10:58:29,233] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | The Walking Dead (TVDB: 153021)                                        |
+[2023-01-31 10:58:29,994] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | That '70s Show (TVDB: 73787)                                           |
+[2023-01-31 10:58:30,212] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Shrinking (TVDB: 411364)                                               |
+[2023-01-31 10:58:30,410] [builder.py:1982]           [INFO]     | Popular TV Collection | ? | Accused (US) (TVDB: 402879)                                            |
+[2023-01-31 10:58:30,901] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:58:30,902] [util.py:216]               [INFO]     |                                     Exiting Plex Meta Manager                                      |
+[2023-01-31 10:58:30,903] [util.py:220]               [INFO]     |====================================================================================================|

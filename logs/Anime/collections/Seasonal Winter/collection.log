@@ -1,121 +1,133 @@
-[2022-08-19 01:22:39,206] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-08-19 01:22:39,206] [util.py:216]               [INFO]     |                                Seasonal Winter Collection in Anime                                 |
-[2022-08-19 01:22:39,206] [util.py:220]               [INFO]     |====================================================================================================|
-[2022-08-19 01:22:39,207] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,207] [util.py:216]               [INFO]     |============================== Validating Seasonal Winter Attributes ===============================|
-[2022-08-19 01:22:39,208] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,208] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2022-08-19 01:22:39,208] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2022-08-19 01:22:39,208] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,208] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2022-08-19 01:22:39,209] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2022-08-19 01:22:39,209] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,209] [builder.py:473]            [DEBUG]    | Validating Method: mal_season                                                                      |
-[2022-08-19 01:22:39,209] [builder.py:474]            [DEBUG]    | Value: ordereddict([('season', 'winter'), ('limit', 20)])                                          |
-[2022-08-19 01:22:39,210] [builder.py:689]            [WARNING]  | Collection Warning: mal_season sort_by attribute not found using members as default                |
-[2022-08-19 01:22:39,210] [builder.py:689]            [WARNING]  | Collection Warning: mal_season year attribute not found using 2022 as default                      |
-[2022-08-19 01:22:39,210] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,210] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2022-08-19 01:22:39,211] [builder.py:474]            [DEBUG]    | Value: +++++++_Winter                                                                              |
-[2022-08-19 01:22:39,211] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,211] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2022-08-19 01:22:39,211] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-08-19 01:22:39,211] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,212] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2022-08-19 01:22:39,212] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2022-08-19 01:22:39,230] [builder.py:619]            [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,230] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2022-08-19 01:22:39,231] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,231] [util.py:216]               [INFO]     |================================ Running Seasonal Winter Collection ================================|
-[2022-08-19 01:22:39,232] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,232] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2022-08-19 01:22:39,232] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,233] [builder.py:1276]           [DEBUG]    | Builder: mal_season: {'season': 'winter', 'sort_by': 'anime_num_list_users', 'year': 2022, 'limit': 20} |
-[2022-08-19 01:22:39,233] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,233] [mal.py:229]                [INFO]     | Processing MyAnimeList Season: 20 Anime from Winter 2022 sorted by Members                         |
-[2022-08-19 01:22:39,553] [mal.py:239]                [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,553] [mal.py:240]                [DEBUG]    | 20 MyAnimeList IDs Found: [21, 47778, 48583, 34566, 48736, 40834, 48569, 44961, 235, 40507, 42205, 47159, 48414, 49114, 49930, 47161, 49721, 48553, 44516, 48997] |
-[2022-08-19 01:22:39,553] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15917                                     |
-[2022-08-19 01:22:39,554] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,554] [builder.py:1283]           [DEBUG]    | 19 IDs Found: [(81797, 'tvdb'), (348545, 'tvdb'), (267440, 'tvdb'), (321285, 'tvdb'), (103949, 'ratingKey'), (104893, 'ratingKey'), (103265, 'ratingKey'), (393742, 'tvdb'), (72454, 'tvdb'), (357019, 'tvdb'), (383837, 'tvdb'), (400961, 'tvdb'), (103746, 'ratingKey'), (400133, 'tvdb'), (389422, 'tvdb'), (105506, 'ratingKey'), (337936, 'tvdb'), (400090, 'tvdb'), (405227, 'tvdb')] |
-[2022-08-19 01:22:39,554] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:39,611] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,611] [util.py:216]               [INFO]     |=============================== Adding to Seasonal Winter Collection ===============================|
-[2022-08-19 01:22:39,611] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,612] [builder.py:1709]           [INFO]     | 1/8 | Seasonal Winter Collection | = | Kimetsu no Yaiba                                            |
-[2022-08-19 01:22:39,612] [builder.py:1709]           [INFO]     | 2/8 | Seasonal Winter Collection | = | Shingeki no Kyojin                                          |
-[2022-08-19 01:22:39,612] [builder.py:1709]           [INFO]     | 3/8 | Seasonal Winter Collection | = | Sono Bisque Doll wa Koi o Suru                              |
-[2022-08-19 01:22:39,612] [builder.py:1709]           [INFO]     | 4/8 | Seasonal Winter Collection | = | Ousama Ranking                                              |
-[2022-08-19 01:22:39,613] [builder.py:1709]           [INFO]     | 5/8 | Seasonal Winter Collection | = | 86 (2021)                                                   |
-[2022-08-19 01:22:39,613] [builder.py:1709]           [INFO]     | 6/8 | Seasonal Winter Collection | = | Sabikui Bisco                                               |
-[2022-08-19 01:22:39,613] [builder.py:1709]           [INFO]     | 7/8 | Seasonal Winter Collection | = | Vanitas no Karte                                            |
-[2022-08-19 01:22:39,614] [builder.py:1709]           [INFO]     | 8/8 | Seasonal Winter Collection | = | Shikkaku Mon no Saikyou Kenja                               |
-[2022-08-19 01:22:39,614] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,614] [builder.py:1735]           [INFO]     | 8 Shows Processed                                                                                  |
-[2022-08-19 01:22:39,615] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:39,615] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Seasonal Winter ============================|
-[2022-08-19 01:22:39,616] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:40,987] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | One Piece (TVDB: 81797)                                           |
-[2022-08-19 01:22:41,526] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Boruto: Naruto Next Generations (TVDB: 321285)                    |
-[2022-08-19 01:22:41,588] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 393742                              |
-[2022-08-19 01:22:42,868] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Detective Conan (TVDB: 72454)                                     |
-[2022-08-19 01:22:43,187] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Arifureta: From Commonplace to World's Strongest (TVDB: 357019)   |
-[2022-08-19 01:22:43,493] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Shaman King (2021) (TVDB: 383837)                                 |
-[2022-08-19 01:22:43,739] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | The Genius Prince's Guide to Raising a Nation Out of Debt (TVDB: 400961) |
-[2022-08-19 01:22:43,964] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | How a Realist Hero Rebuilt the Kingdom (TVDB: 389422)             |
-[2022-08-19 01:22:44,357] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Teasing Master Takagi-san (TVDB: 337936)                          |
-[2022-08-19 01:22:44,606] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Akebi's Sailor Uniform (TVDB: 400090)                             |
-[2022-08-19 01:22:44,818] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Life With an Ordinary Guy Who Reincarnated Into a Total Fantasy Knockout (TVDB: 405227) |
-[2022-08-19 01:22:44,818] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:44,819] [builder.py:1987]           [INFO]     | 10 Shows Missing                                                                                   |
-[2022-08-19 01:22:44,832] [sonarr.py:66]              [INFO]     |                                                                                                    |
-[2022-08-19 01:22:44,833] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2022-08-19 01:22:44,833] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:44,833] [sonarr.py:69]              [DEBUG]    | Sonarr Adds: [81797, 321285, 72454, 357019, 383837, 400961, 389422, 337936, 400090, 405227]        |
-[2022-08-19 01:22:45,063] [sonarr.py:162]             [INFO]     |                                                                                                    |
-[2022-08-19 01:22:45,064] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 81797                                                                          |
-[2022-08-19 01:22:45,064] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 321285                                                                         |
-[2022-08-19 01:22:45,064] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 72454                                                                          |
-[2022-08-19 01:22:45,065] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 357019                                                                         |
-[2022-08-19 01:22:45,065] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 383837                                                                         |
-[2022-08-19 01:22:45,065] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 400961                                                                         |
-[2022-08-19 01:22:45,065] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 389422                                                                         |
-[2022-08-19 01:22:45,066] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 337936                                                                         |
-[2022-08-19 01:22:45,066] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 400090                                                                         |
-[2022-08-19 01:22:45,066] [sonarr.py:170]             [INFO]     | Skipped: In Cache | 405227                                                                         |
-[2022-08-19 01:22:45,067] [sonarr.py:171]             [INFO]     | 10 Series already exist in Sonarr                                                                  |
-[2022-08-19 01:22:45,071] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:45,071] [util.py:216]               [INFO]     |========================== Updating Details of Seasonal Winter Collection ==========================|
-[2022-08-19 01:22:45,072] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:45,072] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
-[2022-08-19 01:22:45,073] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2022-08-19 01:22:45,084] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:45,084] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Seasonal Winter Collection ====================|
-[2022-08-19 01:22:45,085] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2022-08-19 01:22:46,295] [sonarr.py:66]              [INFO]     |                                                                                                    |
-[2022-08-19 01:22:46,296] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2022-08-19 01:22:46,296] [sonarr.py:68]              [DEBUG]    |                                                                                                    |
-[2022-08-19 01:22:46,296] [sonarr.py:69]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')                        |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                                        |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                                    |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (391625, 'F:\\Anime\\Ranking of Kings (2021) [tvdb-391625]')                                       |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (378609, 'F:\\Anime\\86 - Eighty Six (2021) [tvdb-378609]')                                        |
-[2022-08-19 01:22:46,297] [sonarr.py:71]              [DEBUG]    | (398387, 'F:\\Anime\\Sabikui Bisco (2022) [tvdb-398387]')                                          |
-[2022-08-19 01:22:46,298] [sonarr.py:71]              [DEBUG]    | (400133, 'F:\\Anime\\Case Study of Vanitas, The (2021) [tvdb-400133]')                             |
-[2022-08-19 01:22:46,298] [sonarr.py:71]              [DEBUG]    | (402374, 'F:\\Anime\\Strongest Sage With the Weakest Crest, The (2022) [tvdb-402374]')             |
-[2022-08-19 01:22:46,674] [sonarr.py:162]             [INFO]     |                                                                                                    |
-[2022-08-19 01:22:46,674] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (348545, 'F:\\Anime\\Demon Slayer - Kimetsu no Yaiba (2019) [tvdb-348545]')    |
-[2022-08-19 01:22:46,675] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (267440, 'F:\\Anime\\Attack on Titan (2013) [tvdb-267440]')                    |
-[2022-08-19 01:22:46,675] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (401233, 'F:\\Anime\\My Dress-Up Darling (2022) [tvdb-401233]')                |
-[2022-08-19 01:22:46,675] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (391625, 'F:\\Anime\\Ranking of Kings (2021) [tvdb-391625]')                   |
-[2022-08-19 01:22:46,676] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (378609, 'F:\\Anime\\86 - Eighty Six (2021) [tvdb-378609]')                    |
-[2022-08-19 01:22:46,676] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (398387, 'F:\\Anime\\Sabikui Bisco (2022) [tvdb-398387]')                      |
-[2022-08-19 01:22:46,676] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (400133, 'F:\\Anime\\Case Study of Vanitas, The (2021) [tvdb-400133]')         |
-[2022-08-19 01:22:46,676] [sonarr.py:170]             [INFO]     | Skipped: In Cache | (402374, 'F:\\Anime\\Strongest Sage With the Weakest Crest, The (2022) [tvdb-402374]') |
-[2022-08-19 01:22:46,677] [sonarr.py:171]             [INFO]     | 8 Series already exist in Sonarr                                                                   |
-[2022-08-19 01:22:46,678] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2022-08-19 01:22:46,678] [util.py:209]               [INFO]     |====================================================================================================|
-[2022-08-19 01:22:46,678] [util.py:216]               [INFO]     |                                Finished Seasonal Winter Collection                                 |
-[2022-08-19 01:22:46,679] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:07                                    |
-[2022-08-19 01:22:46,679] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:57:52,854] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:57:52,855] [util.py:216]               [INFO]     |                                Seasonal Winter Collection in Anime                                 |
+[2023-01-31 10:57:52,855] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:57:52,856] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 10:57:52,856] [util.py:216]               [INFO]     |============================== Validating Seasonal Winter Attributes ===============================|
+[2023-01-31 10:57:52,857] [builder.py:273]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,857] [builder.py:274]            [DEBUG]    | Validating Method: delete_not_scheduled                                                            |
+[2023-01-31 10:57:52,857] [builder.py:275]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:57:52,858] [builder.py:279]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,858] [builder.py:280]            [DEBUG]    | Validating Method: schedule                                                                        |
+[2023-01-31 10:57:52,859] [builder.py:284]            [DEBUG]    | Value: range(01/01-04/01)                                                                          |
+[2023-01-31 10:57:52,860] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,860] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 10:57:52,860] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 10:57:52,860] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,861] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 10:57:52,861] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2023-01-31 10:57:52,861] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,862] [builder.py:473]            [DEBUG]    | Validating Method: mal_season                                                                      |
+[2023-01-31 10:57:52,862] [builder.py:474]            [DEBUG]    | Value: ordereddict([('season', 'winter'), ('limit', 20), ('sort_by', 'members')])                  |
+[2023-01-31 10:57:52,862] [builder.py:689]            [WARNING]  | Collection Warning: mal_season year attribute not found using 2023 as default                      |
+[2023-01-31 10:57:52,862] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,863] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-01-31 10:57:52,863] [builder.py:474]            [DEBUG]    | Value: +++++++_Winter                                                                              |
+[2023-01-31 10:57:52,863] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,864] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2023-01-31 10:57:52,864] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:57:52,864] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,864] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2023-01-31 10:57:52,865] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-01-31 10:57:52,886] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-01-31 10:57:52,887] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-01-31 10:57:52,887] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-01-31 10:57:52,888] [util.py:216]               [INFO]     |================================ Running Seasonal Winter Collection ================================|
+[2023-01-31 10:57:52,888] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-01-31 10:57:52,888] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-01-31 10:57:52,890] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:52,890] [builder.py:1276]           [DEBUG]    | Builder: mal_season: {'season': 'winter', 'sort_by': 'anime_num_list_users', 'year': 2023, 'limit': 20} |
+[2023-01-31 10:57:52,890] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:52,891] [mal.py:231]                [INFO]     | Processing MyAnimeList Season: 20 Anime from Winter 2023 sorted by Members                         |
+[2023-01-31 10:57:53,090] [mal.py:241]                [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:53,091] [mal.py:242]                [DEBUG]    | 20 MyAnimeList IDs Found: [21, 34566, 49918, 49596, 235, 48316, 49387, 49220, 48417, 49709, 50608, 50197, 51105, 50330, 52305, 41514, 50710, 49784, 50739, 48585] |
+[2023-01-31 10:57:53,091] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16176                                     |
+[2023-01-31 10:57:53,092] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:53,092] [builder.py:1283]           [DEBUG]    | 19 IDs Found: [(81797, 'tvdb'), (321285, 'tvdb'), (305074, 'tvdb'), (408629, 'tvdb'), (72454, 'tvdb'), (407520, 'tvdb'), (359274, 'tvdb'), (102426, 'ratingKey'), (375927, 'tvdb'), (375271, 'tvdb'), (393478, 'tvdb'), (385278, 'tvdb'), (127668, 'ratingKey'), (305075, 'tvdb'), (126833, 'ratingKey'), (373679, 'tvdb'), (414096, 'tvdb'), (369144, 'tvdb'), (414221, 'tvdb')] |
+[2023-01-31 10:57:53,092] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:53,214] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,214] [util.py:216]               [INFO]     |=============================== Adding to Seasonal Winter Collection ===============================|
+[2023-01-31 10:57:53,215] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,215] [builder.py:1709]           [INFO]     |  1/14 | Seasonal Winter Collection | = | Boku no Hero Academia                                     |
+[2023-01-31 10:57:53,216] [builder.py:1709]           [INFO]     |  2/14 | Seasonal Winter Collection | = | Blue Lock                                                 |
+[2023-01-31 10:57:53,216] [builder.py:1709]           [INFO]     |  3/14 | Seasonal Winter Collection | = | Kage no Jitsuryokusha ni Naritakute!                      |
+[2023-01-31 10:57:53,216] [builder.py:1709]           [INFO]     |  4/14 | Seasonal Winter Collection | = | Vinland Saga                                              |
+[2023-01-31 10:57:53,217] [builder.py:1709]           [INFO]     |  5/14 | Seasonal Winter Collection | = | Isekai Ojisan                                             |
+[2023-01-31 10:57:53,217] [builder.py:1709]           [INFO]     |  6/14 | Seasonal Winter Collection | = | Maou Gakuin no Futekigousha: Shijou Saikyou no Maou no Shiso, Tensei Shite Shison-tachi no Gakkou e Kayou |
+[2023-01-31 10:57:53,218] [builder.py:1709]           [INFO]     |  7/14 | Seasonal Winter Collection | = | Fumetsu no Anata e                                        |
+[2023-01-31 10:57:53,218] [builder.py:1709]           [INFO]     |  8/14 | Seasonal Winter Collection | = | Tokyo Revengers                                           |
+[2023-01-31 10:57:53,219] [builder.py:1709]           [INFO]     |  9/14 | Seasonal Winter Collection | = | Ijiranaide, Nagatoro-san                                  |
+[2023-01-31 10:57:53,219] [builder.py:1709]           [INFO]     | 10/14 | Seasonal Winter Collection | = | NieR:Automata Ver1.1a                                     |
+[2023-01-31 10:57:53,220] [builder.py:1709]           [INFO]     | 11/14 | Seasonal Winter Collection | = | Bungou Stray Dogs                                         |
+[2023-01-31 10:57:53,220] [builder.py:1709]           [INFO]     | 12/14 | Seasonal Winter Collection | = | Tomo-chan wa Onnanoko!                                    |
+[2023-01-31 10:57:53,221] [builder.py:1709]           [INFO]     | 13/14 | Seasonal Winter Collection | = | Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. |
+[2023-01-31 10:57:53,221] [builder.py:1709]           [INFO]     | 14/14 | Seasonal Winter Collection | = | Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken |
+[2023-01-31 10:57:53,222] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,222] [builder.py:1735]           [INFO]     | 14 Shows Processed                                                                                 |
+[2023-01-31 10:57:53,223] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,223] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Seasonal Winter ============================|
+[2023-01-31 10:57:53,223] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,252] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | One Piece (TVDB: 81797)                                           |
+[2023-01-31 10:57:53,270] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Boruto: Naruto Next Generations (TVDB: 321285)                    |
+[2023-01-31 10:57:53,293] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Detective Conan (TVDB: 72454)                                     |
+[2023-01-31 10:57:53,308] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Urusei Yatsura (2022) (TVDB: 414096)                              |
+[2023-01-31 10:57:53,330] [builder.py:1982]           [INFO]     | Seasonal Winter Collection | ? | Welcome to Demon School! Iruma-kun (TVDB: 369144)                 |
+[2023-01-31 10:57:53,331] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,331] [builder.py:1987]           [INFO]     | 5 Shows Missing                                                                                    |
+[2023-01-31 10:57:53,345] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,345] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2023-01-31 10:57:53,346] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:53,346] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [81797, 321285, 72454, 414096, 369144]                                                |
+[2023-01-31 10:57:53,645] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,645] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 81797                                                                          |
+[2023-01-31 10:57:53,646] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 321285                                                                         |
+[2023-01-31 10:57:53,646] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72454                                                                          |
+[2023-01-31 10:57:53,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 414096                                                                         |
+[2023-01-31 10:57:53,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 369144                                                                         |
+[2023-01-31 10:57:53,648] [sonarr.py:174]             [INFO]     | 5 Series already exist in Sonarr                                                                   |
+[2023-01-31 10:57:53,654] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,654] [util.py:216]               [INFO]     |========================== Updating Details of Seasonal Winter Collection ==========================|
+[2023-01-31 10:57:53,654] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,655] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2023-01-31 10:57:53,656] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-01-31 10:57:53,672] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:53,673] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Seasonal Winter Collection ====================|
+[2023-01-31 10:57:53,673] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2023-01-31 10:57:56,407] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-01-31 10:57:56,408] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2023-01-31 10:57:56,409] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-01-31 10:57:56,409] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2023-01-31 10:57:56,409] [sonarr.py:74]              [DEBUG]    | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                                       |
+[2023-01-31 10:57:56,409] [sonarr.py:74]              [DEBUG]    | (408629, 'F:\\Anime\\BLUELOCK (2022) [tvdb-408629]')                                               |
+[2023-01-31 10:57:56,410] [sonarr.py:74]              [DEBUG]    | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')                                |
+[2023-01-31 10:57:56,410] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
+[2023-01-31 10:57:56,410] [sonarr.py:74]              [DEBUG]    | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')                               |
+[2023-01-31 10:57:56,411] [sonarr.py:74]              [DEBUG]    | (375927, 'F:\\Anime\\Misfit of Demon King Academy, The (2020) [tvdb-375927]')                      |
+[2023-01-31 10:57:56,411] [sonarr.py:74]              [DEBUG]    | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                                       |
+[2023-01-31 10:57:56,411] [sonarr.py:74]              [DEBUG]    | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                                        |
+[2023-01-31 10:57:56,412] [sonarr.py:74]              [DEBUG]    | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")                       |
+[2023-01-31 10:57:56,412] [sonarr.py:74]              [DEBUG]    | (416998, 'F:\\Anime\\NieR-Automata Ver1.1a (2023) [tvdb-416998]')                                  |
+[2023-01-31 10:57:56,412] [sonarr.py:74]              [DEBUG]    | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                                       |
+[2023-01-31 10:57:56,413] [sonarr.py:74]              [DEBUG]    | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')                                   |
+[2023-01-31 10:57:56,413] [sonarr.py:74]              [DEBUG]    | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
+[2023-01-31 10:57:56,413] [sonarr.py:74]              [DEBUG]    | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]')                  |
+[2023-01-31 10:57:56,711] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-01-31 10:57:56,711] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305074, 'F:\\Anime\\My Hero Academia (2016) [tvdb-305074]')                   |
+[2023-01-31 10:57:56,711] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (408629, 'F:\\Anime\\BLUELOCK (2022) [tvdb-408629]')                           |
+[2023-01-31 10:57:56,712] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (407520, 'F:\\Anime\\Eminence in Shadow, The (2022) [tvdb-407520]')            |
+[2023-01-31 10:57:56,712] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
+[2023-01-31 10:57:56,713] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (405214, 'F:\\Anime\\Uncle From Another World (2022) [tvdb-405214]')           |
+[2023-01-31 10:57:56,713] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (375927, 'F:\\Anime\\Misfit of Demon King Academy, The (2020) [tvdb-375927]')  |
+[2023-01-31 10:57:56,713] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (375271, 'F:\\Anime\\To Your Eternity (2021) [tvdb-375271]')                   |
+[2023-01-31 10:57:56,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                    |
+[2023-01-31 10:57:56,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")   |
+[2023-01-31 10:57:56,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (416998, 'F:\\Anime\\NieR-Automata Ver1.1a (2023) [tvdb-416998]')              |
+[2023-01-31 10:57:56,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                   |
+[2023-01-31 10:57:56,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')               |
+[2023-01-31 10:57:56,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
+[2023-01-31 10:57:56,716] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]') |
+[2023-01-31 10:57:56,716] [sonarr.py:174]             [INFO]     | 14 Series already exist in Sonarr                                                                  |
+[2023-01-31 10:57:56,718] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 10:57:56,719] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:57:56,719] [util.py:216]               [INFO]     |                                Finished Seasonal Winter Collection                                 |
+[2023-01-31 10:57:56,720] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-01-31 10:57:56,721] [util.py:220]               [INFO]     |====================================================================================================|
