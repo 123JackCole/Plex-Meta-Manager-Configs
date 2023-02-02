@@ -1,214 +1,30 @@
-[2023-01-31 01:54:58,266] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:54:58,267] [util.py:216]               [INFO]     |                                     Mecha Collection in Anime                                      |
-[2023-01-31 01:54:58,267] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-01-31 01:54:58,267] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-01-31 01:54:58,268] [util.py:216]               [INFO]     |=================================== Validating Mecha Attributes ====================================|
-[2023-01-31 01:54:58,268] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,268] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-01-31 01:54:58,269] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 18), ('poster', 'https://theposterdb.com/api/assets/213668')]) |
-[2023-01-31 01:54:58,269] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,269] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-01-31 01:54:58,269] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-01-31 01:54:58,270] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,270] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-01-31 01:54:58,270] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2023-01-31 01:54:58,270] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,270] [builder.py:473]            [DEBUG]    | Validating Method: anidb_tag                                                                       |
-[2023-01-31 01:54:58,271] [builder.py:474]            [DEBUG]    | Value: {'tag': 1700, 'limit': 500}                                                                 |
-[2023-01-31 01:54:58,271] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,271] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-01-31 01:54:58,272] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213668                                                   |
-[2023-01-31 01:54:58,272] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,272] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-01-31 01:54:58,272] [builder.py:474]            [DEBUG]    | Value: +++_Mecha                                                                                   |
-[2023-01-31 01:54:58,273] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,273] [builder.py:473]            [DEBUG]    | Validating Method: collection_mode                                                                 |
-[2023-01-31 01:54:58,273] [builder.py:474]            [DEBUG]    | Value: hide                                                                                        |
-[2023-01-31 01:54:58,273] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,274] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2023-01-31 01:54:58,274] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-01-31 01:54:58,349] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-01-31 01:54:58,349] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-01-31 01:54:58,350] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-01-31 01:54:58,350] [util.py:216]               [INFO]     |===================================== Running Mecha Collection =====================================|
-[2023-01-31 01:54:58,351] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-01-31 01:54:58,351] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-01-31 01:54:58,351] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:54:58,351] [builder.py:1276]           [DEBUG]    | Builder: anidb_tag: {'tag': 1700, 'limit': 500}                                                    |
-[2023-01-31 01:54:58,352] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-31 01:54:58,352] [anidb.py:89]               [INFO]     | Processing AniDB Tag: 500 Anime from the Tag ID: 1700                                              |
-[2023-01-31 01:55:11,495] [anidb.py:99]               [DEBUG]    |                                                                                                    |
-[2023-01-31 01:55:11,495] [anidb.py:100]              [DEBUG]    | 152 AniDB IDs Found: [7685, 9348, 10725, 13255, 15135, 15036, 12414, 3395, 6645, 4597, 2369, 8571, 8467, 7989, 8974, 1754, 6494, 5894, 6392, 4327, 2214, 16435, 15597, 79, 2183, 15461, 1471, 117, 10365, 9966, 7177, 13108, 14318, 4199, 8203, 2331, 484, 485, 4315, 2033, 3468, 10993, 12419, 13263, 13917, 8126, 13745, 1209, 10531, 661, 15971, 2991, 12318, 4489, 6613, 1641, 915, 8494, 9719, 11372, 12048, 2826, 306, 1001, 5580, 11447, 274, 1534, 8318, 1607, 17342, 4937, 4055, 7443, 9293, 69, 411, 8010, 11529, 16983, 6537, 7538, 8940, 6199, 1254, 5691, 4097, 1253, 4851, 893, 2036, 2644, 2736, 3154, 8913, 2294, 683, 8528, 11257, 8737, 90, 10005, 1543, 765, 15849, 171, 223, 984, 6284, 7490, 10406, 337, 10373, 8834, 11041, 1859, 1384, 1091, 9687, 533, 2410, 1705, 9556, 10549, 1100, 2038, 409, 759, 358, 359, 376, 375, 205, 2509, 2510, 15007, 11715, 2508, 331, 10784, 14737, 725, 11920, 6402, 177, 463, 462, 178, 9513, 13945, 728, 726] |
-[2023-01-31 01:55:11,503] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1754                                      |
-[2023-01-31 01:55:11,504] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 16435                                     |
-[2023-01-31 01:55:11,509] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 15971                                     |
-[2023-01-31 01:55:11,510] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 11447                                     |
-[2023-01-31 01:55:11,511] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17342                                     |
-[2023-01-31 01:55:11,519] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 3154                                      |
-[2023-01-31 01:55:11,519] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 10005                                     |
-[2023-01-31 01:55:11,522] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 1705                                      |
-[2023-01-31 01:55:11,522] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 2038                                      |
-[2023-01-31 01:55:11,525] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 14737                                     |
-[2023-01-31 01:55:11,525] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:55:11,525] [builder.py:1283]           [DEBUG]    | 142 IDs Found: [(78232, 'tvdb'), (263310, 'tvdb'), (283942, 'tvdb'), (348706, 'tvdb'), (357019, 'tvdb'), (313676, 'tvdb'), (307111, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (79604, 'tvdb'), (74796, 'tvdb'), (254665, 'tvdb'), (259863, 'tvdb'), (245821, 'tvdb'), (245821, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (137151, 'tvdb'), (79652, 'tvdb'), (34834, 'tmdb'), (388645, 'tvdb'), (72447, 'tvdb'), (79526, 'tvdb'), (829920, 'tmdb'), (206331, 'tvdb'), (78878, 'tvdb'), (278197, 'tvdb'), (272134, 'tvdb'), (71172, 'tmdb'), (283929, 'tvdb'), (568012, 'tmdb'), (76703, 'tvdb'), (81531, 'tmdb'), (162971, 'tvdb'), (100171, 'tvdb'), (15227, 'tmdb'), (100171, 'tvdb'), (57123, 'tmdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (79895, 'tvdb'), (355970, 'tvdb'), (80043, 'tvdb'), (283929, 'tvdb'), (79888, 'tvdb'), (83212, 'tmdb'), (324711, 'tvdb'), (79382, 'tvdb'), (132941, 'tvdb'), (80978, 'tvdb'), (80398, 'tvdb'), (252621, 'tvdb'), (252621, 'tvdb'), (299497, 'tvdb'), (299497, 'tvdb'), (79360, 'tvdb'), (11621, 'tmdb'), (74957, 'tvdb'), (81908, 'tvdb'), (72448, 'tvdb'), (83403, 'tvdb'), (126710, 'tmdb'), (78885, 'tvdb'), (39206, 'tmdb'), (77604, 'tmdb'), (254663, 'tvdb'), (254663, 'tvdb'), (81797, 'tvdb'), (19576, 'tmdb'), (79082, 'tmdb'), (374205, 'tmdb'), (900667, 'tmdb'), (41498, 'tmdb'), (81797, 'tvdb'), (176983, 'tmdb'), (81797, 'tvdb'), (44727, 'tmdb'), (44731, 'tmdb'), (44730, 'tmdb'), (44725, 'tmdb'), (25278, 'tmdb'), (23446, 'tmdb'), (44728, 'tmdb'), (44729, 'tmdb'), (116315, 'tmdb'), (257320, 'tvdb'), (106121, 'tvdb'), (180581, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (87491, 'tvdb'), (70863, 'tvdb'), (104699, 'ratingKey'), (59717, 'tmdb'), (400705, 'tvdb'), (75911, 'tvdb'), (82443, 'tvdb'), (79156, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (87881, 'tvdb'), (80583, 'tvdb'), (284133, 'tvdb'), (257517, 'tvdb'), (344967, 'tmdb'), (76722, 'tmdb'), (81850, 'tmdb'), (82971, 'tvdb'), (192577, 'tmdb'), (81506, 'tvdb'), (83403, 'tvdb'), (267432, 'tvdb'), (267432, 'tvdb'), (120151, 'tvdb'), (79620, 'tvdb'), (80009, 'tvdb'), (79064, 'tvdb'), (34935, 'tmdb'), (14829, 'tmdb'), (34194, 'tmdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (80009, 'tvdb'), (10515, 'tmdb'), (284585, 'tvdb'), (100151, 'tvdb'), (307323, 'tvdb'), (102041, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (71744, 'tvdb'), (87491, 'tvdb'), (105563, 'ratingKey'), (42137, 'tmdb'), (79765, 'tvdb')] |
-[2023-01-31 01:55:11,526] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:55:11,549] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:11,549] [util.py:216]               [INFO]     |==================================== Adding to Mecha Collection ====================================|
-[2023-01-31 01:55:11,549] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:11,550] [builder.py:1709]           [INFO]     | 1/2 | Mecha Collection | + | Samurai Champloo                                                      |
-[2023-01-31 01:55:11,655] [builder.py:1709]           [INFO]     | 2/2 | Mecha Collection | + | Vinland Saga                                                          |
-[2023-01-31 01:55:11,759] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:11,759] [builder.py:1735]           [INFO]     | 2 Shows Processed                                                                                  |
-[2023-01-31 01:55:11,760] [builder.py:1743]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:11,760] [util.py:216]               [INFO]     |================================== Removed from Mecha Collection ===================================|
-[2023-01-31 01:55:11,760] [builder.py:1745]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:11,768] [builder.py:1751]           [INFO]     | 1/6 | Mecha Collection | - | 86 (2021)                                                             |
-[2023-01-31 01:55:11,870] [builder.py:1751]           [INFO]     | 2/6 | Mecha Collection | - | Code Geass: Hangyaku no Lelouch                                       |
-[2023-01-31 01:55:11,971] [builder.py:1751]           [INFO]     | 3/6 | Mecha Collection | - | Date a Live                                                           |
-[2023-01-31 01:55:12,070] [builder.py:1751]           [INFO]     | 4/6 | Mecha Collection | - | Otomege Sekai wa Mob ni Kibishii Sekai Desu                           |
-[2023-01-31 01:55:12,170] [builder.py:1751]           [INFO]     | 5/6 | Mecha Collection | - | Shinseiki Evangelion                                                  |
-[2023-01-31 01:55:12,273] [builder.py:1751]           [INFO]     | 6/6 | Mecha Collection | - | Tengen Toppa Gurren Lagann                                            |
-[2023-01-31 01:55:12,366] [builder.py:1768]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,366] [builder.py:1769]           [INFO]     | 6 Show Removed                                                                                     |
-[2023-01-31 01:55:12,367] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,367] [util.py:216]               [INFO]     |================================ Missing Movies from Library: Mecha ================================|
-[2023-01-31 01:55:12,367] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,368] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Animal Treasure Island (1971) (TMDb: 34834)                                 |
-[2023-01-31 01:55:12,369] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Fate/Grand Order Final Singularity – Grand Temple of Time: Solomon (2021) (TMDb: 829920) |
-[2023-01-31 01:55:12,370] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Gintama: The Movie (2010) (TMDb: 71172)                                     |
-[2023-01-31 01:55:12,371] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Stampede (2019) (TMDb: 568012)                                   |
-[2023-01-31 01:55:12,372] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Sengoku Basara: The Last Party (2011) (TMDb: 81531)                         |
-[2023-01-31 01:55:12,373] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Galaxy Express 999: The Movie (1979) (TMDb: 15227)                          |
-[2023-01-31 01:55:12,374] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Galaxy Express 999: Eternal Fantasy (1998) (TMDb: 57123)                    |
-[2023-01-31 01:55:12,374] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Million-Year Trip: Bander Book (1978) (TMDb: 83212)                     |
-[2023-01-31 01:55:12,375] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Porco Rosso (1992) (TMDb: 11621)                                            |
-[2023-01-31 01:55:12,376] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Magic Tree House (2012) (TMDb: 126710)                                      |
-[2023-01-31 01:55:12,377] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Detective Conan: Jolly Roger in the Deep Azure (2007) (TMDb: 39206)         |
-[2023-01-31 01:55:12,377] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Momotaro's Divine Sea Warriors (1945) (TMDb: 77604)                         |
-[2023-01-31 01:55:12,378] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: The Movie (2000) (TMDb: 19576)                                   |
-[2023-01-31 01:55:12,379] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece 3D: Straw Hat Chase (2011) (TMDb: 79082)                          |
-[2023-01-31 01:55:12,380] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece Film: GOLD (2016) (TMDb: 374205)                                  |
-[2023-01-31 01:55:12,381] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece Film Red (2022) (TMDb: 900667)                                    |
-[2023-01-31 01:55:12,383] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Strong World (2009) (TMDb: 41498)                                |
-[2023-01-31 01:55:12,385] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece Film: Z (2012) (TMDb: 176983)                                     |
-[2023-01-31 01:55:12,386] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Dead End Adventure (2003) (TMDb: 44727)                          |
-[2023-01-31 01:55:12,386] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Episode of Chopper Plus: Bloom in the Winter, Miracle Cherry Blossom (2008) (TMDb: 44731) |
-[2023-01-31 01:55:12,387] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Giant Mecha Soldier of Karakuri Castle (2006) (TMDb: 44730)      |
-[2023-01-31 01:55:12,388] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Chopper's Kingdom on the Island of Strange Animals (2002) (TMDb: 44725) |
-[2023-01-31 01:55:12,389] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: The Desert Princess and the Pirates: Adventure in Alabasta (2007) (TMDb: 25278) |
-[2023-01-31 01:55:12,389] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Clockwork Island Adventure (2001) (TMDb: 23446)                  |
-[2023-01-31 01:55:12,390] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Curse of the Sacred Sword (2004) (TMDb: 44728)                   |
-[2023-01-31 01:55:12,391] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Baron Omatsuri and the Secret Island (2005) (TMDb: 44729)        |
-[2023-01-31 01:55:12,392] [builder.py:1943]           [INFO]     | Mecha Collection | ? | One Piece: Defeat the Pirate Ganzak! (1998) (TMDb: 116315)                  |
-[2023-01-31 01:55:12,392] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Adieu Galaxy Express 999 (1981) (TMDb: 59717)                               |
-[2023-01-31 01:55:12,393] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Sinbad - The Flying Princess and the Secret Island (2015) (TMDb: 344967)    |
-[2023-01-31 01:55:12,394] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Flying Phantom Ship (1969) (TMDb: 76722)                                    |
-[2023-01-31 01:55:12,394] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Space Adventure Cobra: The Movie (1982) (TMDb: 81850)                       |
-[2023-01-31 01:55:12,395] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Space Pirate Captain Harlock (2013) (TMDb: 192577)                          |
-[2023-01-31 01:55:12,396] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Tenchi Muyo! In Love (1996) (TMDb: 34935)                                   |
-[2023-01-31 01:55:12,397] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Tenchi Forever! (1999) (TMDb: 14829)                                        |
-[2023-01-31 01:55:12,398] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Tenchi the Movie 2: The Daughter of Darkness (1997) (TMDb: 34194)           |
-[2023-01-31 01:55:12,399] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Castle in the Sky (1986) (TMDb: 10515)                                      |
-[2023-01-31 01:55:12,400] [builder.py:1943]           [INFO]     | Mecha Collection | ? | Space Pirate Captain Harlock: Arcadia of My Youth (1982) (TMDb: 42137)      |
-[2023-01-31 01:55:12,400] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,401] [builder.py:1948]           [INFO]     | 37 Movies Missing                                                                                  |
-[2023-01-31 01:55:12,661] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,662] [util.py:216]               [INFO]     |================================ Missing Shows from Library: Mecha =================================|
-[2023-01-31 01:55:12,662] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:12,913] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Project A-ko (TVDB: 78232)                                                  |
-[2023-01-31 01:55:13,371] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Aikatsu! (TVDB: 263310)                                                     |
-[2023-01-31 01:55:13,700] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Yona of the Dawn (TVDB: 283942)                                             |
-[2023-01-31 01:55:13,953] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Angolmois: Record of Mongol Invasion (TVDB: 348706)                         |
-[2023-01-31 01:55:14,442] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Arifureta: From Commonplace to World's Strongest (TVDB: 357019)             |
-[2023-01-31 01:55:14,658] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Bananya (TVDB: 313676)                                                      |
-[2023-01-31 01:55:14,944] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Berserk (2016) (TVDB: 307111)                                               |
-[2023-01-31 01:55:15,280] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Black Lagoon (TVDB: 79604)                                                  |
-[2023-01-31 01:55:16,451] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Bleach (TVDB: 74796)                                                        |
-[2023-01-31 01:55:16,672] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Brave 10 (TVDB: 254665)                                                     |
-[2023-01-31 01:55:17,003] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Anime Mirai (TVDB: 259863)                                                  |
-[2023-01-31 01:55:17,783] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Cardfight!! Vanguard (TVDB: 245821)                                         |
-[2023-01-31 01:55:18,008] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Cobra the Animation (TVDB: 137151)                                          |
-[2023-01-31 01:55:18,251] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Coyote Ragtime Show (TVDB: 79652)                                           |
-[2023-01-31 01:55:18,647] [builder.py:1982]           [INFO]     | Mecha Collection | ? | EDENS ZERO (TVDB: 388645)                                                   |
-[2023-01-31 01:55:18,898] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Those Who Hunt Elves (TVDB: 72447)                                          |
-[2023-01-31 01:55:19,160] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Elemental Gelade (TVDB: 79526)                                              |
-[2023-01-31 01:55:19,414] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Fire Emblem (TVDB: 206331)                                                  |
-[2023-01-31 01:55:19,921] [builder.py:1982]           [INFO]     | Mecha Collection | ? | FLCL (TVDB: 78878)                                                          |
-[2023-01-31 01:55:20,159] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Dai-Shogun – Great Revolution (TVDB: 278197)                                |
-[2023-01-31 01:55:20,396] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Galilei Donna (TVDB: 272134)                                                |
-[2023-01-31 01:55:20,658] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Gundam Reconguista in G (TVDB: 283929)                                      |
-[2023-01-31 01:55:22,654] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Pokémon (TVDB: 76703)                                                       |
-[2023-01-31 01:55:22,980] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Ellcia (TVDB: 162971)                                                       |
-[2023-01-31 01:55:23,290] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Galaxy Express 999 (TVDB: 100171)                                           |
-[2023-01-31 01:55:24,025] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Gintama (TVDB: 79895)                                                       |
-[2023-01-31 01:55:24,245] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Grimms Notes The Animation (TVDB: 355970)                                   |
-[2023-01-31 01:55:24,500] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Gun Frontier (TVDB: 80043)                                                  |
-[2023-01-31 01:55:24,677] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Harlock Saga (TVDB: 79888)                                                  |
-[2023-01-31 01:55:24,900] [builder.py:1982]           [INFO]     | Mecha Collection | ? | ID-0 (TVDB: 324711)                                                         |
-[2023-01-31 01:55:25,132] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Innocent Venus (TVDB: 79382)                                                |
-[2023-01-31 01:55:25,425] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Katanagatari (TVDB: 132941)                                                 |
-[2023-01-31 01:55:25,669] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Mars Daybreak (TVDB: 80978)                                                 |
-[2023-01-31 01:55:25,917] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Mobile Fighter G Gundam (TVDB: 80398)                                       |
-[2023-01-31 01:55:26,148] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Mobile Suit Gundam AGE (TVDB: 252621)                                       |
-[2023-01-31 01:55:26,471] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Mobile Suit Gundam: Iron-Blooded Orphans (TVDB: 299497)                     |
-[2023-01-31 01:55:26,945] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Eureka Seven (TVDB: 79360)                                                  |
-[2023-01-31 01:55:27,152] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Requiem from the Darkness (TVDB: 74957)                                     |
-[2023-01-31 01:55:27,382] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Family Frenzy Diary (TVDB: 81908)                                           |
-[2023-01-31 01:55:27,626] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Legend of Basara (TVDB: 72448)                                              |
-[2023-01-31 01:55:27,832] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Space Symphony Maetel (TVDB: 83403)                                         |
-[2023-01-31 01:55:28,038] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Tweeny Witches (TVDB: 78885)                                                |
-[2023-01-31 01:55:28,316] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Bodacious Space Pirates (TVDB: 254663)                                      |
-[2023-01-31 01:55:30,155] [builder.py:1982]           [INFO]     | Mecha Collection | ? | One Piece (TVDB: 81797)                                                     |
-[2023-01-31 01:55:30,365] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Ozma (TVDB: 257320)                                                         |
-[2023-01-31 01:55:30,667] [builder.py:1982]           [INFO]     | Mecha Collection | ? | The Adventures of Peter Pan (TVDB: 106121)                                  |
-[2023-01-31 01:55:30,864] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Queen Emeraldas (TVDB: 180581)                                              |
-[2023-01-31 01:55:31,401] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Queen's Blade (TVDB: 87491)                                                 |
-[2023-01-31 01:55:31,884] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Rurouni Kenshin (TVDB: 70863)                                               |
-[2023-01-31 01:55:32,149] [builder.py:1982]           [INFO]     | Mecha Collection | ? | SD Gundam World Heroes (TVDB: 400705)                                       |
-[2023-01-31 01:55:32,437] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Outlaw Star (TVDB: 75911)                                                   |
-[2023-01-31 01:55:32,668] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Angel Links (TVDB: 82443)                                                   |
-[2023-01-31 01:55:33,068] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Fist of the North Star (TVDB: 79156)                                        |
-[2023-01-31 01:55:33,319] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Sengoku Basara (TVDB: 87881)                                                |
-[2023-01-31 01:55:33,573] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Tenchi in Tokyo (TVDB: 80583)                                               |
-[2023-01-31 01:55:33,870] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Rage of Bahamut (TVDB: 284133)                                              |
-[2023-01-31 01:55:34,071] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Shining Hearts (TVDB: 257517)                                               |
-[2023-01-31 01:55:34,361] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Space Adventure Cobra (TVDB: 82971)                                         |
-[2023-01-31 01:55:34,546] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Space Pirate Captain Herlock - The Endless Odyssey (TVDB: 81506)            |
-[2023-01-31 01:55:34,876] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Gargantia on the Verdurous Planet (TVDB: 267432)                            |
-[2023-01-31 01:55:35,094] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Mermaid Forest (TVDB: 120151)                                               |
-[2023-01-31 01:55:35,360] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Tenchi Muyo! Tenchi Universe (TVDB: 79620)                                  |
-[2023-01-31 01:55:35,692] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Tenchi Muyo! Ryo-Ohki (TVDB: 80009)                                         |
-[2023-01-31 01:55:35,936] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Tenchi Muyo! GXP (TVDB: 79064)                                              |
-[2023-01-31 01:55:36,193] [builder.py:1982]           [INFO]     | Mecha Collection | ? | The Rolling Girls (TVDB: 284585)                                            |
-[2023-01-31 01:55:36,251] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 100151                              |
-[2023-01-31 01:55:36,470] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Space Patrol Luluco (TVDB: 307323)                                          |
-[2023-01-31 01:55:36,673] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Sea Story (TVDB: 102041)                                                    |
-[2023-01-31 01:55:36,923] [builder.py:1982]           [INFO]     | Mecha Collection | ? | VanDread (TVDB: 71744)                                                      |
-[2023-01-31 01:55:37,153] [builder.py:1982]           [INFO]     | Mecha Collection | ? | Arcadia of My Youth: Endless Orbit SSX (TVDB: 79765)                        |
-[2023-01-31 01:55:37,154] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:37,154] [builder.py:1987]           [INFO]     | 69 Shows Missing                                                                                   |
-[2023-01-31 01:55:37,419] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:37,420] [util.py:216]               [INFO]     |=============================== Updating Details of Mecha Collection ===============================|
-[2023-01-31 01:55:37,420] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:37,420] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-01-31 01:55:37,421] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213668                               |
-[2023-01-31 01:55:37,421] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-01-31 01:55:38,836] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/213668               |
-[2023-01-31 01:55:38,912] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:38,912] [util.py:216]               [INFO]     |======================== Updating Details of the Items in Mecha Collection =========================|
-[2023-01-31 01:55:38,913] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2023-01-31 01:55:39,303] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2023-01-31 01:55:39,304] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2023-01-31 01:55:39,304] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2023-01-31 01:55:39,305] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2023-01-31 01:55:39,305] [sonarr.py:74]              [DEBUG]    | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                                         |
-[2023-01-31 01:55:39,305] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
-[2023-01-31 01:55:39,570] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2023-01-31 01:55:39,570] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (79089, 'F:\\Anime\\Samurai Champloo (2004) [tvdb-79089]')                     |
-[2023-01-31 01:55:39,570] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
-[2023-01-31 01:55:39,571] [sonarr.py:174]             [INFO]     | 2 Series already exist in Sonarr                                                                   |
-[2023-01-31 01:55:39,572] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-01-31 01:55:39,572] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:55:39,572] [util.py:216]               [INFO]     |                                     Finished Mecha Collection                                      |
-[2023-01-31 01:55:39,572] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:41                                    |
-[2023-01-31 01:55:39,573] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:50:43,225] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:50:43,226] [util.py:216]               [INFO]     |                                     Mecha Collection in Anime                                      |
+[2023-01-31 10:50:43,226] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-01-31 10:50:43,227] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-01-31 10:50:43,227] [util.py:216]               [INFO]     |=================================== Validating Mecha Attributes ====================================|
+[2023-01-31 10:50:43,228] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:50:43,228] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-01-31 10:50:43,228] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Anime'), ('mal_id', 18), ('poster', 'https://theposterdb.com/api/assets/213668')]) |
+[2023-01-31 10:50:43,229] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:50:43,229] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-01-31 10:50:43,229] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-01-31 10:50:43,230] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:50:43,230] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-01-31 10:50:43,230] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-01-31 10:50:43,230] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-01-31 10:50:43,231] [builder.py:473]            [DEBUG]    | Validating Method: mal_search                                                                      |
+[2023-01-31 10:50:43,231] [builder.py:474]            [DEBUG]    | Value: {'genre': 18}                                                                               |
+[2023-01-31 10:50:43,231] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2023-01-31 10:50:43,232] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2023-01-31 10:50:43,232] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2023-01-31 10:50:43,232] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 557, in __init__                 |
+[2023-01-31 10:50:43,232] [util.py:162]               [DEBUG]    |     raise Failed(f"{self.Type} Error: {method_final} attribute not supported")                     |
+[2023-01-31 10:50:43,233] [util.py:162]               [DEBUG]    | modules.util.Failed: Collection Error: mal_search attribute not supported                          |
+[2023-01-31 10:50:43,233] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2023-01-31 10:50:43,234] [util.py:159]               [ERROR]    | Collection Error: mal_search attribute not supported                                               |
+[2023-01-31 10:50:43,235] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-01-31 10:50:43,235] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-01-31 10:50:43,235] [util.py:216]               [INFO]     |                                     Finished Mecha Collection                                      |
+[2023-01-31 10:50:43,236] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-01-31 10:50:43,236] [util.py:220]               [INFO]     |====================================================================================================|
