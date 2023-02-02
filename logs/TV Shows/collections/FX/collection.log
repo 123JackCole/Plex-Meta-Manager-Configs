@@ -1,147 +1,147 @@
-[2023-01-31 02:48:11,033] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 02:48:11,034] [util.py:216]               [INFO]     |                                     FX Collection in TV Shows                                      |
-[2023-01-31 02:48:11,034] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-01-31 02:48:11,034] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-01-31 02:48:11,035] [util.py:216]               [INFO]     |===================================== Validating FX Attributes =====================================|
-[2023-01-31 02:48:11,035] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,035] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-01-31 02:48:11,036] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 88), ('poster', 'https://theposterdb.com/api/assets/193493')]) |
-[2023-01-31 02:48:11,036] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,036] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-01-31 02:48:11,036] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-01-31 02:48:11,037] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,037] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-01-31 02:48:11,037] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2023-01-31 02:48:11,037] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,038] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2023-01-31 02:48:11,038] [builder.py:474]            [DEBUG]    | Value: 88                                                                                          |
-[2023-01-31 02:48:11,163] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,163] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-01-31 02:48:11,164] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/193493                                                   |
-[2023-01-31 02:48:11,164] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,164] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-01-31 02:48:11,164] [builder.py:474]            [DEBUG]    | Value: +4_FX                                                                                       |
-[2023-01-31 02:48:11,242] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-01-31 02:48:11,242] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-01-31 02:48:11,243] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-01-31 02:48:11,243] [util.py:216]               [INFO]     |====================================== Running FX Collection =======================================|
-[2023-01-31 02:48:11,243] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-01-31 02:48:11,244] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-01-31 02:48:11,244] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,244] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 88                                                                          |
-[2023-01-31 02:48:11,244] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:11,937] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (88) FX (89 Shows)                                                        |
-[2023-01-31 02:48:11,937] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:11,938] [builder.py:1283]           [DEBUG]    | 89 IDs Found: [(111800, 'tmdb_show'), (1413, 'tmdb_show'), (60622, 'tmdb_show'), (1409, 'tmdb_show'), (2710, 'tmdb_show'), (71694, 'tmdb_show'), (10283, 'tmdb_show'), (76231, 'tmdb_show'), (47640, 'tmdb_show'), (1436, 'tmdb_show'), (1414, 'tmdb_show'), (3750, 'tmdb_show'), (67195, 'tmdb_show'), (46533, 'tmdb_show'), (64513, 'tmdb_show'), (83631, 'tmdb_show'), (4920, 'tmdb_show'), (4344, 'tmdb_show'), (79084, 'tmdb_show'), (42878, 'tmdb_show'), (65708, 'tmdb_show'), (126929, 'tmdb_show'), (65495, 'tmdb_show'), (31497, 'tmdb_show'), (81358, 'tmdb_show'), (76177, 'tmdb_show'), (32962, 'tmdb_show'), (60972, 'tmdb_show'), (61118, 'tmdb_show'), (66859, 'tmdb_show'), (517, 'tmdb_show'), (69851, 'tmdb_show'), (47141, 'tmdb_show'), (39525, 'tmdb_show'), (61871, 'tmdb_show'), (4564, 'tmdb_show'), (64551, 'tmdb_show'), (284, 'tmdb_show'), (869, 'tmdb_show'), (46405, 'tmdb_show'), (110344, 'tmdb_show'), (93290, 'tmdb_show'), (2933, 'tmdb_show'), (63349, 'tmdb_show'), (81131, 'tmdb_show'), (105763, 'tmdb_show'), (33400, 'tmdb_show'), (44220, 'tmdb_show'), (100120, 'tmdb_show'), (60782, 'tmdb_show'), (3929, 'tmdb_show'), (6860, 'tmdb_show'), (1936, 'tmdb_show'), (35092, 'tmdb_show'), (79413, 'tmdb_show'), (62180, 'tmdb_show'), (62936, 'tmdb_show'), (14822, 'tmdb_show'), (107597, 'tmdb_show'), (1543, 'tmdb_show'), (61211, 'tmdb_show'), (42370, 'tmdb_show'), (127393, 'tmdb_show'), (206319, 'tmdb_show'), (201581, 'tmdb_show'), (60697, 'tmdb_show'), (122185, 'tmdb_show'), (44992, 'tmdb_show'), (134095, 'tmdb_show'), (201304, 'tmdb_show'), (10061, 'tmdb_show'), (196977, 'tmdb_show'), (219126, 'tmdb_show'), (117532, 'tmdb_show'), (36362, 'tmdb_show'), (29882, 'tmdb_show'), (157972, 'tmdb_show'), (131141, 'tmdb_show'), (29815, 'tmdb_show'), (23292, 'tmdb_show'), (35241, 'tmdb_show'), (93324, 'tmdb_show'), (194935, 'tmdb_show'), (10890, 'tmdb_show'), (131142, 'tmdb_show'), (30614, 'tmdb_show'), (47316, 'tmdb_show'), (34343, 'tmdb_show'), (16771, 'tmdb_show')] |
-[2023-01-31 02:48:11,938] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-31 02:48:12,154] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105763                                                |
-[2023-01-31 02:48:12,279] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 219126                                                |
-[2023-01-31 02:48:12,388] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29882                                                 |
-[2023-01-31 02:48:12,489] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23292                                                 |
-[2023-01-31 02:48:12,596] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93324                                                 |
-[2023-01-31 02:48:12,719] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 34343                                                 |
-[2023-01-31 02:48:12,813] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 16771                                                 |
-[2023-01-31 02:48:12,814] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:12,814] [util.py:216]               [INFO]     |===================================== Adding to FX Collection ======================================|
-[2023-01-31 02:48:12,814] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:12,815] [builder.py:1709]           [INFO]     | 1/4 | FX Collection | = | American Horror Story                                                    |
-[2023-01-31 02:48:12,815] [builder.py:1709]           [INFO]     | 2/4 | FX Collection | = | Fargo                                                                    |
-[2023-01-31 02:48:12,815] [builder.py:1709]           [INFO]     | 3/4 | FX Collection | = | Archer (2009)                                                            |
-[2023-01-31 02:48:12,815] [builder.py:1709]           [INFO]     | 4/4 | FX Collection | = | What We Do in the Shadows                                                |
-[2023-01-31 02:48:12,816] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:12,816] [builder.py:1735]           [INFO]     | 4 Shows Processed                                                                                  |
-[2023-01-31 02:48:12,816] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:12,817] [util.py:216]               [INFO]     |================================== Missing Shows from Library: FX ==================================|
-[2023-01-31 02:48:12,817] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:13,055] [builder.py:1982]           [INFO]     | FX Collection | ? | The Old Man (TVDB: 367392)                                                     |
-[2023-01-31 02:48:13,737] [builder.py:1982]           [INFO]     | FX Collection | ? | Sons of Anarchy (TVDB: 82696)                                                  |
-[2023-01-31 02:48:14,599] [builder.py:1982]           [INFO]     | FX Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                                |
-[2023-01-31 02:48:14,990] [builder.py:1982]           [INFO]     | FX Collection | ? | Snowfall (2017) (TVDB: 328092)                                                 |
-[2023-01-31 02:48:15,337] [builder.py:1982]           [INFO]     | FX Collection | ? | Mayans M.C. (TVDB: 349659)                                                     |
-[2023-01-31 02:48:15,748] [builder.py:1982]           [INFO]     | FX Collection | ? | The Strain (TVDB: 276564)                                                      |
-[2023-01-31 02:48:16,326] [builder.py:1982]           [INFO]     | FX Collection | ? | Justified (TVDB: 134241)                                                       |
-[2023-01-31 02:48:16,950] [builder.py:1982]           [INFO]     | FX Collection | ? | The Shield (TVDB: 78261)                                                       |
-[2023-01-31 02:48:17,520] [builder.py:1982]           [INFO]     | FX Collection | ? | Nip/Tuck (TVDB: 72201)                                                         |
-[2023-01-31 02:48:17,962] [builder.py:1982]           [INFO]     | FX Collection | ? | Legion (TVDB: 320724)                                                          |
-[2023-01-31 02:48:18,564] [builder.py:1982]           [INFO]     | FX Collection | ? | The Americans (TVDB: 261690)                                                   |
-[2023-01-31 02:48:19,015] [builder.py:1982]           [INFO]     | FX Collection | ? | American Crime Story (TVDB: 289108)                                            |
-[2023-01-31 02:48:19,490] [builder.py:1982]           [INFO]     | FX Collection | ? | Damages (TVDB: 80367)                                                          |
-[2023-01-31 02:48:19,988] [builder.py:1982]           [INFO]     | FX Collection | ? | Rescue Me (TVDB: 73741)                                                        |
-[2023-01-31 02:48:20,378] [builder.py:1982]           [INFO]     | FX Collection | ? | Pose (TVDB: 346026)                                                            |
-[2023-01-31 02:48:20,766] [builder.py:1982]           [INFO]     | FX Collection | ? | Anger Management (TVDB: 253350)                                                |
-[2023-01-31 02:48:21,073] [builder.py:1982]           [INFO]     | FX Collection | ? | Taboo (2017) (TVDB: 292157)                                                    |
-[2023-01-31 02:48:21,318] [builder.py:1982]           [INFO]     | FX Collection | ? | Welcome to Wrexham (TVDB: 403119)                                              |
-[2023-01-31 02:48:21,720] [builder.py:1982]           [INFO]     | FX Collection | ? | Atlanta (TVDB: 313999)                                                         |
-[2023-01-31 02:48:22,076] [builder.py:1982]           [INFO]     | FX Collection | ? | The League (TVDB: 114701)                                                      |
-[2023-01-31 02:48:22,399] [builder.py:1982]           [INFO]     | FX Collection | ? | Mr Inbetween (TVDB: 349743)                                                    |
-[2023-01-31 02:48:22,645] [builder.py:1982]           [INFO]     | FX Collection | ? | Trust (2018) (TVDB: 340523)                                                    |
-[2023-01-31 02:48:23,051] [builder.py:1982]           [INFO]     | FX Collection | ? | Louie (TVDB: 155201)                                                           |
-[2023-01-31 02:48:23,392] [builder.py:1982]           [INFO]     | FX Collection | ? | Tyrant (TVDB: 268094)                                                          |
-[2023-01-31 02:48:23,775] [builder.py:1982]           [INFO]     | FX Collection | ? | You're the Worst (TVDB: 281776)                                                |
-[2023-01-31 02:48:24,133] [builder.py:1982]           [INFO]     | FX Collection | ? | Better Things (TVDB: 313270)                                                   |
-[2023-01-31 02:48:24,872] [builder.py:1982]           [INFO]     | FX Collection | ? | The Ultimate Fighter (TVDB: 75382)                                             |
-[2023-01-31 02:48:25,148] [builder.py:1982]           [INFO]     | FX Collection | ? | Feud (TVDB: 322466)                                                            |
-[2023-01-31 02:48:25,412] [builder.py:1982]           [INFO]     | FX Collection | ? | The Bridge (2013) (TVDB: 264085)                                               |
-[2023-01-31 02:48:25,724] [builder.py:1982]           [INFO]     | FX Collection | ? | Wilfred (US) (TVDB: 239761)                                                    |
-[2023-01-31 02:48:26,015] [builder.py:1982]           [INFO]     | FX Collection | ? | Man Seeking Woman (TVDB: 283346)                                               |
-[2023-01-31 02:48:26,285] [builder.py:1982]           [INFO]     | FX Collection | ? | Over There (TVDB: 72045)                                                       |
-[2023-01-31 02:48:26,629] [builder.py:1982]           [INFO]     | FX Collection | ? | Baskets (TVDB: 303069)                                                         |
-[2023-01-31 02:48:26,847] [builder.py:1982]           [INFO]     | FX Collection | ? | Dirt (TVDB: 79679)                                                             |
-[2023-01-31 02:48:27,111] [builder.py:1982]           [INFO]     | FX Collection | ? | Son of the Beach (TVDB: 78853)                                                 |
-[2023-01-31 02:48:27,361] [builder.py:1982]           [INFO]     | FX Collection | ? | Legit (2013) (TVDB: 264450)                                                    |
-[2023-01-31 02:48:27,585] [builder.py:1982]           [INFO]     | FX Collection | ? | Black Narcissus (TVDB: 382164)                                                 |
-[2023-01-31 02:48:27,883] [builder.py:1982]           [INFO]     | FX Collection | ? | Breeders (TVDB: 363777)                                                        |
-[2023-01-31 02:48:28,143] [builder.py:1982]           [INFO]     | FX Collection | ? | The Riches (TVDB: 79876)                                                       |
-[2023-01-31 02:48:28,388] [builder.py:1982]           [INFO]     | FX Collection | ? | The Bastard Executioner (TVDB: 279227)                                         |
-[2023-01-31 02:48:28,659] [builder.py:1982]           [INFO]     | FX Collection | ? | Fosse/Verdon (TVDB: 357907)                                                    |
-[2023-01-31 02:48:28,922] [builder.py:1982]           [INFO]     | FX Collection | ? | Terriers (TVDB: 180791)                                                        |
-[2023-01-31 02:48:29,172] [builder.py:1982]           [INFO]     | FX Collection | ? | The Booth at the End (TVDB: 240971)                                            |
-[2023-01-31 02:48:29,345] [builder.py:1982]           [INFO]     | FX Collection | ? | The Most Dangerous Animal of All (TVDB: 375356)                                |
-[2023-01-31 02:48:29,580] [builder.py:1982]           [INFO]     | FX Collection | ? | Married (TVDB: 280756)                                                         |
-[2023-01-31 02:48:29,794] [builder.py:1982]           [INFO]     | FX Collection | ? | Thief (TVDB: 74334)                                                            |
-[2023-01-31 02:48:30,036] [builder.py:1982]           [INFO]     | FX Collection | ? | Pretty/Handsome (TVDB: 367958)                                                 |
-[2023-01-31 02:48:30,243] [builder.py:1982]           [INFO]     | FX Collection | ? | Harsh Realm (TVDB: 71768)                                                      |
-[2023-01-31 02:48:30,468] [builder.py:1982]           [INFO]     | FX Collection | ? | Lights Out (TVDB: 194051)                                                      |
-[2023-01-31 02:48:30,679] [builder.py:1982]           [INFO]     | FX Collection | ? | The New York Times Presents (TVDB: 362237)                                     |
-[2023-01-31 02:48:30,865] [builder.py:1982]           [INFO]     | FX Collection | ? | The Comedians (2015) (TVDB: 290176)                                            |
-[2023-01-31 02:48:31,100] [builder.py:1982]           [INFO]     | FX Collection | ? | Sex&Drugs&Rock&Roll (TVDB: 283345)                                             |
-[2023-01-31 02:48:31,297] [builder.py:1982]           [INFO]     | FX Collection | ? | Lucky (TVDB: 70876)                                                            |
-[2023-01-31 02:48:31,506] [builder.py:1982]           [INFO]     | FX Collection | ? | A Wilderness of Error (TVDB: 386156)                                           |
-[2023-01-31 02:48:31,758] [builder.py:1982]           [INFO]     | FX Collection | ? | 30 Days (TVDB: 78818)                                                          |
-[2023-01-31 02:48:31,999] [builder.py:1982]           [INFO]     | FX Collection | ? | Partners (2014) (TVDB: 281664)                                                 |
-[2023-01-31 02:48:32,211] [builder.py:1982]           [INFO]     | FX Collection | ? | Unsupervised (TVDB: 254561)                                                    |
-[2023-01-31 02:48:32,376] [builder.py:1982]           [INFO]     | FX Collection | ? | The Choe Show (TVDB: 404367)                                                   |
-[2023-01-31 02:48:32,545] [builder.py:1982]           [INFO]     | FX Collection | ? | Children of the Underground (TVDB: 420841)                                     |
-[2023-01-31 02:48:32,723] [builder.py:1982]           [INFO]     | FX Collection | ? | Dear Mama (TVDB: 419932)                                                       |
-[2023-01-31 02:48:32,926] [builder.py:1982]           [INFO]     | FX Collection | ? | Chozen (TVDB: 275126)                                                          |
-[2023-01-31 02:48:33,098] [builder.py:1982]           [INFO]     | FX Collection | ? | Pride (2021) (TVDB: 400252)                                                    |
-[2023-01-31 02:48:33,302] [builder.py:1982]           [INFO]     | FX Collection | ? | Brand X with Russell Brand (TVDB: 259286)                                      |
-[2023-01-31 02:48:33,350] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 410207                              |
-[2023-01-31 02:48:33,600] [builder.py:1982]           [INFO]     | FX Collection | ? | Justified: City Primeval (TVDB: 414677)                                        |
-[2023-01-31 02:48:33,787] [builder.py:1982]           [INFO]     | FX Collection | ? | Starved (TVDB: 78858)                                                          |
-[2023-01-31 02:48:34,008] [builder.py:1982]           [INFO]     | FX Collection | ? | The Sterling Affairs (TVDB: 418670)                                            |
-[2023-01-31 02:48:34,186] [builder.py:1982]           [INFO]     | FX Collection | ? | Hip Hop Uncovered (TVDB: 393673)                                               |
-[2023-01-31 02:48:34,833] [builder.py:1982]           [INFO]     | FX Collection | ? | UFC Primetime (TVDB: 247926)                                                   |
-[2023-01-31 02:48:35,001] [builder.py:1982]           [INFO]     | FX Collection | ? | Great Expectations (2022) (TVDB: 411028)                                       |
-[2023-01-31 02:48:35,163] [builder.py:1982]           [INFO]     | FX Collection | ? | American Sports Story (TVDB: 408693)                                           |
-[2023-01-31 02:48:35,361] [builder.py:1982]           [INFO]     | FX Collection | ? | Maggie... At Home With (TVDB: 71427)                                           |
-[2023-01-31 02:48:35,574] [builder.py:1982]           [INFO]     | FX Collection | ? | Penn & Teller's Sin City Spectacular (TVDB: 74698)                             |
-[2023-01-31 02:48:35,748] [builder.py:1982]           [INFO]     | FX Collection | ? | Swan Boy (TVDB: 410765)                                                        |
-[2023-01-31 02:48:35,941] [builder.py:1982]           [INFO]     | FX Collection | ? | Black. White. (TVDB: 79262)                                                    |
-[2023-01-31 02:48:36,105] [builder.py:1982]           [INFO]     | FX Collection | ? | American Love Story (TVDB: 408694)                                             |
-[2023-01-31 02:48:36,286] [builder.py:1982]           [INFO]     | FX Collection | ? | Todd TV (TVDB: 73678)                                                          |
-[2023-01-31 02:48:36,517] [builder.py:1982]           [INFO]     | FX Collection | ? | Saint George (TVDB: 277844)                                                    |
-[2023-01-31 02:48:36,518] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:36,518] [builder.py:1987]           [INFO]     | 77 Shows Missing                                                                                   |
-[2023-01-31 02:48:38,476] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:38,477] [util.py:216]               [INFO]     |================================ Updating Details of FX Collection =================================|
-[2023-01-31 02:48:38,477] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-01-31 02:48:38,478] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-01-31 02:48:38,478] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/193493                               |
-[2023-01-31 02:48:38,478] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-01-31 02:48:38,479] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-01-31 02:48:38,556] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-01-31 02:48:38,556] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 02:48:38,557] [util.py:216]               [INFO]     |                                       Finished FX Collection                                       |
-[2023-01-31 02:48:38,557] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:27                                    |
-[2023-01-31 02:48:38,557] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-02 01:41:24,845] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-02 01:41:24,846] [util.py:216]               [INFO]     |                                     FX Collection in TV Shows                                      |
+[2023-02-02 01:41:24,846] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-02 01:41:24,847] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-02 01:41:24,854] [util.py:216]               [INFO]     |===================================== Validating FX Attributes =====================================|
+[2023-02-02 01:41:24,854] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:24,855] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-02 01:41:24,855] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', 88), ('poster', 'https://theposterdb.com/api/assets/193493')]) |
+[2023-02-02 01:41:24,855] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:24,856] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-02 01:41:24,856] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-02 01:41:24,856] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:24,856] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-02 01:41:24,856] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-02-02 01:41:24,857] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:24,857] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2023-02-02 01:41:24,857] [builder.py:474]            [DEBUG]    | Value: 88                                                                                          |
+[2023-02-02 01:41:25,002] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:25,002] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-02 01:41:25,002] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/193493                                                   |
+[2023-02-02 01:41:25,003] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:25,003] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-02 01:41:25,003] [builder.py:474]            [DEBUG]    | Value: +4_FX                                                                                       |
+[2023-02-02 01:41:25,082] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-02 01:41:25,082] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-02 01:41:25,082] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-02 01:41:25,083] [util.py:216]               [INFO]     |====================================== Running FX Collection =======================================|
+[2023-02-02 01:41:25,083] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-02 01:41:25,083] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-02 01:41:25,084] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:25,084] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 88                                                                          |
+[2023-02-02 01:41:25,084] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:25,742] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (88) FX (89 Shows)                                                        |
+[2023-02-02 01:41:25,742] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:25,743] [builder.py:1283]           [DEBUG]    | 89 IDs Found: [(111800, 'tmdb_show'), (1413, 'tmdb_show'), (1409, 'tmdb_show'), (60622, 'tmdb_show'), (2710, 'tmdb_show'), (71694, 'tmdb_show'), (76231, 'tmdb_show'), (10283, 'tmdb_show'), (47640, 'tmdb_show'), (1436, 'tmdb_show'), (1414, 'tmdb_show'), (46533, 'tmdb_show'), (3750, 'tmdb_show'), (67195, 'tmdb_show'), (83631, 'tmdb_show'), (64513, 'tmdb_show'), (42878, 'tmdb_show'), (4920, 'tmdb_show'), (65708, 'tmdb_show'), (65495, 'tmdb_show'), (126929, 'tmdb_show'), (79084, 'tmdb_show'), (4344, 'tmdb_show'), (81358, 'tmdb_show'), (60972, 'tmdb_show'), (31497, 'tmdb_show'), (76177, 'tmdb_show'), (66859, 'tmdb_show'), (32962, 'tmdb_show'), (61118, 'tmdb_show'), (47141, 'tmdb_show'), (39525, 'tmdb_show'), (517, 'tmdb_show'), (69851, 'tmdb_show'), (4564, 'tmdb_show'), (61871, 'tmdb_show'), (110344, 'tmdb_show'), (64551, 'tmdb_show'), (869, 'tmdb_show'), (46405, 'tmdb_show'), (93290, 'tmdb_show'), (63349, 'tmdb_show'), (2933, 'tmdb_show'), (284, 'tmdb_show'), (105763, 'tmdb_show'), (60782, 'tmdb_show'), (33400, 'tmdb_show'), (44220, 'tmdb_show'), (62936, 'tmdb_show'), (81131, 'tmdb_show'), (60697, 'tmdb_show'), (6860, 'tmdb_show'), (61211, 'tmdb_show'), (100120, 'tmdb_show'), (79413, 'tmdb_show'), (35092, 'tmdb_show'), (196977, 'tmdb_show'), (134095, 'tmdb_show'), (1543, 'tmdb_show'), (107597, 'tmdb_show'), (3929, 'tmdb_show'), (62180, 'tmdb_show'), (42370, 'tmdb_show'), (127393, 'tmdb_show'), (206319, 'tmdb_show'), (122185, 'tmdb_show'), (201304, 'tmdb_show'), (201581, 'tmdb_show'), (1936, 'tmdb_show'), (14822, 'tmdb_show'), (10061, 'tmdb_show'), (117532, 'tmdb_show'), (29882, 'tmdb_show'), (131141, 'tmdb_show'), (29815, 'tmdb_show'), (36362, 'tmdb_show'), (131142, 'tmdb_show'), (23292, 'tmdb_show'), (157972, 'tmdb_show'), (93324, 'tmdb_show'), (35241, 'tmdb_show'), (219126, 'tmdb_show'), (44992, 'tmdb_show'), (10890, 'tmdb_show'), (194935, 'tmdb_show'), (47316, 'tmdb_show'), (34343, 'tmdb_show'), (30614, 'tmdb_show'), (16771, 'tmdb_show')] |
+[2023-02-02 01:41:25,743] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-02 01:41:26,068] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 105763                                                |
+[2023-02-02 01:41:26,188] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29882                                                 |
+[2023-02-02 01:41:26,302] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 23292                                                 |
+[2023-02-02 01:41:26,402] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93324                                                 |
+[2023-02-02 01:41:26,503] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 219126                                                |
+[2023-02-02 01:41:26,648] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 34343                                                 |
+[2023-02-02 01:41:26,750] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 16771                                                 |
+[2023-02-02 01:41:26,750] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:26,751] [util.py:216]               [INFO]     |===================================== Adding to FX Collection ======================================|
+[2023-02-02 01:41:26,751] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:26,752] [builder.py:1709]           [INFO]     | 1/4 | FX Collection | = | American Horror Story                                                    |
+[2023-02-02 01:41:26,752] [builder.py:1709]           [INFO]     | 2/4 | FX Collection | = | Fargo                                                                    |
+[2023-02-02 01:41:26,752] [builder.py:1709]           [INFO]     | 3/4 | FX Collection | = | Archer (2009)                                                            |
+[2023-02-02 01:41:26,753] [builder.py:1709]           [INFO]     | 4/4 | FX Collection | = | What We Do in the Shadows                                                |
+[2023-02-02 01:41:26,753] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:26,753] [builder.py:1735]           [INFO]     | 4 Shows Processed                                                                                  |
+[2023-02-02 01:41:26,754] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:26,754] [util.py:216]               [INFO]     |================================== Missing Shows from Library: FX ==================================|
+[2023-02-02 01:41:26,754] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:26,987] [builder.py:1982]           [INFO]     | FX Collection | ? | The Old Man (TVDB: 367392)                                                     |
+[2023-02-02 01:41:27,680] [builder.py:1982]           [INFO]     | FX Collection | ? | Sons of Anarchy (TVDB: 82696)                                                  |
+[2023-02-02 01:41:28,502] [builder.py:1982]           [INFO]     | FX Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                                |
+[2023-02-02 01:41:28,877] [builder.py:1982]           [INFO]     | FX Collection | ? | Snowfall (2017) (TVDB: 328092)                                                 |
+[2023-02-02 01:41:29,406] [builder.py:1982]           [INFO]     | FX Collection | ? | Mayans M.C. (TVDB: 349659)                                                     |
+[2023-02-02 01:41:29,866] [builder.py:1982]           [INFO]     | FX Collection | ? | The Strain (TVDB: 276564)                                                      |
+[2023-02-02 01:41:30,448] [builder.py:1982]           [INFO]     | FX Collection | ? | Justified (TVDB: 134241)                                                       |
+[2023-02-02 01:41:31,130] [builder.py:1982]           [INFO]     | FX Collection | ? | The Shield (TVDB: 78261)                                                       |
+[2023-02-02 01:41:31,729] [builder.py:1982]           [INFO]     | FX Collection | ? | The Americans (TVDB: 261690)                                                   |
+[2023-02-02 01:41:32,232] [builder.py:1982]           [INFO]     | FX Collection | ? | Nip/Tuck (TVDB: 72201)                                                         |
+[2023-02-02 01:41:32,640] [builder.py:1982]           [INFO]     | FX Collection | ? | Legion (TVDB: 320724)                                                          |
+[2023-02-02 01:41:33,109] [builder.py:1982]           [INFO]     | FX Collection | ? | American Crime Story (TVDB: 289108)                                            |
+[2023-02-02 01:41:33,496] [builder.py:1982]           [INFO]     | FX Collection | ? | Anger Management (TVDB: 253350)                                                |
+[2023-02-02 01:41:34,007] [builder.py:1982]           [INFO]     | FX Collection | ? | Damages (TVDB: 80367)                                                          |
+[2023-02-02 01:41:34,277] [builder.py:1982]           [INFO]     | FX Collection | ? | Taboo (2017) (TVDB: 292157)                                                    |
+[2023-02-02 01:41:34,722] [builder.py:1982]           [INFO]     | FX Collection | ? | Atlanta (TVDB: 313999)                                                         |
+[2023-02-02 01:41:34,948] [builder.py:1982]           [INFO]     | FX Collection | ? | Welcome to Wrexham (TVDB: 403119)                                              |
+[2023-02-02 01:41:35,330] [builder.py:1982]           [INFO]     | FX Collection | ? | Pose (TVDB: 346026)                                                            |
+[2023-02-02 01:41:35,851] [builder.py:1982]           [INFO]     | FX Collection | ? | Rescue Me (TVDB: 73741)                                                        |
+[2023-02-02 01:41:36,179] [builder.py:1982]           [INFO]     | FX Collection | ? | Mr Inbetween (TVDB: 349743)                                                    |
+[2023-02-02 01:41:36,535] [builder.py:1982]           [INFO]     | FX Collection | ? | Tyrant (TVDB: 268094)                                                          |
+[2023-02-02 01:41:36,903] [builder.py:1982]           [INFO]     | FX Collection | ? | The League (TVDB: 114701)                                                      |
+[2023-02-02 01:41:37,141] [builder.py:1982]           [INFO]     | FX Collection | ? | Trust (2018) (TVDB: 340523)                                                    |
+[2023-02-02 01:41:37,547] [builder.py:1982]           [INFO]     | FX Collection | ? | Better Things (TVDB: 313270)                                                   |
+[2023-02-02 01:41:37,958] [builder.py:1982]           [INFO]     | FX Collection | ? | Louie (TVDB: 155201)                                                           |
+[2023-02-02 01:41:38,408] [builder.py:1982]           [INFO]     | FX Collection | ? | You're the Worst (TVDB: 281776)                                                |
+[2023-02-02 01:41:38,699] [builder.py:1982]           [INFO]     | FX Collection | ? | The Bridge (2013) (TVDB: 264085)                                               |
+[2023-02-02 01:41:39,043] [builder.py:1982]           [INFO]     | FX Collection | ? | Wilfred (US) (TVDB: 239761)                                                    |
+[2023-02-02 01:41:39,758] [builder.py:1982]           [INFO]     | FX Collection | ? | The Ultimate Fighter (TVDB: 75382)                                             |
+[2023-02-02 01:41:40,076] [builder.py:1982]           [INFO]     | FX Collection | ? | Feud (TVDB: 322466)                                                            |
+[2023-02-02 01:41:40,346] [builder.py:1982]           [INFO]     | FX Collection | ? | Over There (TVDB: 72045)                                                       |
+[2023-02-02 01:41:40,875] [builder.py:1982]           [INFO]     | FX Collection | ? | Man Seeking Woman (TVDB: 283346)                                               |
+[2023-02-02 01:41:41,109] [builder.py:1982]           [INFO]     | FX Collection | ? | Black Narcissus (TVDB: 382164)                                                 |
+[2023-02-02 01:41:41,438] [builder.py:1982]           [INFO]     | FX Collection | ? | Baskets (TVDB: 303069)                                                         |
+[2023-02-02 01:41:41,717] [builder.py:1982]           [INFO]     | FX Collection | ? | Son of the Beach (TVDB: 78853)                                                 |
+[2023-02-02 01:41:41,988] [builder.py:1982]           [INFO]     | FX Collection | ? | Legit (2013) (TVDB: 264450)                                                    |
+[2023-02-02 01:41:42,254] [builder.py:1982]           [INFO]     | FX Collection | ? | Breeders (TVDB: 363777)                                                        |
+[2023-02-02 01:41:42,516] [builder.py:1982]           [INFO]     | FX Collection | ? | The Bastard Executioner (TVDB: 279227)                                         |
+[2023-02-02 01:41:42,803] [builder.py:1982]           [INFO]     | FX Collection | ? | The Riches (TVDB: 79876)                                                       |
+[2023-02-02 01:41:43,121] [builder.py:1982]           [INFO]     | FX Collection | ? | Dirt (TVDB: 79679)                                                             |
+[2023-02-02 01:41:43,359] [builder.py:1982]           [INFO]     | FX Collection | ? | Married (TVDB: 280756)                                                         |
+[2023-02-02 01:41:43,595] [builder.py:1982]           [INFO]     | FX Collection | ? | Terriers (TVDB: 180791)                                                        |
+[2023-02-02 01:41:43,856] [builder.py:1982]           [INFO]     | FX Collection | ? | The Booth at the End (TVDB: 240971)                                            |
+[2023-02-02 01:41:44,084] [builder.py:1982]           [INFO]     | FX Collection | ? | Sex&Drugs&Rock&Roll (TVDB: 283345)                                             |
+[2023-02-02 01:41:44,327] [builder.py:1982]           [INFO]     | FX Collection | ? | Fosse/Verdon (TVDB: 357907)                                                    |
+[2023-02-02 01:41:44,595] [builder.py:1982]           [INFO]     | FX Collection | ? | Chozen (TVDB: 275126)                                                          |
+[2023-02-02 01:41:44,860] [builder.py:1982]           [INFO]     | FX Collection | ? | Pretty/Handsome (TVDB: 367958)                                                 |
+[2023-02-02 01:41:45,106] [builder.py:1982]           [INFO]     | FX Collection | ? | Partners (2014) (TVDB: 281664)                                                 |
+[2023-02-02 01:41:45,338] [builder.py:1982]           [INFO]     | FX Collection | ? | The Most Dangerous Animal of All (TVDB: 375356)                                |
+[2023-02-02 01:41:45,614] [builder.py:1982]           [INFO]     | FX Collection | ? | The New York Times Presents (TVDB: 362237)                                     |
+[2023-02-02 01:41:45,837] [builder.py:1982]           [INFO]     | FX Collection | ? | Lights Out (TVDB: 194051)                                                      |
+[2023-02-02 01:41:46,030] [builder.py:1982]           [INFO]     | FX Collection | ? | The Sterling Affairs (TVDB: 418670)                                            |
+[2023-02-02 01:41:46,079] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 410207                              |
+[2023-02-02 01:41:46,486] [builder.py:1982]           [INFO]     | FX Collection | ? | 30 Days (TVDB: 78818)                                                          |
+[2023-02-02 01:41:46,685] [builder.py:1982]           [INFO]     | FX Collection | ? | A Wilderness of Error (TVDB: 386156)                                           |
+[2023-02-02 01:41:46,950] [builder.py:1982]           [INFO]     | FX Collection | ? | Thief (TVDB: 74334)                                                            |
+[2023-02-02 01:41:47,166] [builder.py:1982]           [INFO]     | FX Collection | ? | The Comedians (2015) (TVDB: 290176)                                            |
+[2023-02-02 01:41:47,367] [builder.py:1982]           [INFO]     | FX Collection | ? | Unsupervised (TVDB: 254561)                                                    |
+[2023-02-02 01:41:47,559] [builder.py:1982]           [INFO]     | FX Collection | ? | The Choe Show (TVDB: 404367)                                                   |
+[2023-02-02 01:41:47,765] [builder.py:1982]           [INFO]     | FX Collection | ? | Children of the Underground (TVDB: 420841)                                     |
+[2023-02-02 01:41:47,972] [builder.py:1982]           [INFO]     | FX Collection | ? | Pride (2021) (TVDB: 400252)                                                    |
+[2023-02-02 01:41:48,162] [builder.py:1982]           [INFO]     | FX Collection | ? | Justified: City Primeval (TVDB: 414677)                                        |
+[2023-02-02 01:41:48,358] [builder.py:1982]           [INFO]     | FX Collection | ? | Dear Mama (TVDB: 419932)                                                       |
+[2023-02-02 01:41:48,556] [builder.py:1982]           [INFO]     | FX Collection | ? | Harsh Realm (TVDB: 71768)                                                      |
+[2023-02-02 01:41:48,757] [builder.py:1982]           [INFO]     | FX Collection | ? | Lucky (TVDB: 70876)                                                            |
+[2023-02-02 01:41:48,939] [builder.py:1982]           [INFO]     | FX Collection | ? | Starved (TVDB: 78858)                                                          |
+[2023-02-02 01:41:49,114] [builder.py:1982]           [INFO]     | FX Collection | ? | Hip Hop Uncovered (TVDB: 393673)                                               |
+[2023-02-02 01:41:49,289] [builder.py:1982]           [INFO]     | FX Collection | ? | American Sports Story (TVDB: 408693)                                           |
+[2023-02-02 01:41:49,462] [builder.py:1982]           [INFO]     | FX Collection | ? | Maggie... At Home With (TVDB: 71427)                                           |
+[2023-02-02 01:41:50,096] [builder.py:1982]           [INFO]     | FX Collection | ? | UFC Primetime (TVDB: 247926)                                                   |
+[2023-02-02 01:41:50,261] [builder.py:1982]           [INFO]     | FX Collection | ? | American Love Story (TVDB: 408694)                                             |
+[2023-02-02 01:41:50,467] [builder.py:1982]           [INFO]     | FX Collection | ? | Great Expectations (2022) (TVDB: 411028)                                       |
+[2023-02-02 01:41:50,649] [builder.py:1982]           [INFO]     | FX Collection | ? | Penn & Teller's Sin City Spectacular (TVDB: 74698)                             |
+[2023-02-02 01:41:50,848] [builder.py:1982]           [INFO]     | FX Collection | ? | Brand X with Russell Brand (TVDB: 259286)                                      |
+[2023-02-02 01:41:51,037] [builder.py:1982]           [INFO]     | FX Collection | ? | Black. White. (TVDB: 79262)                                                    |
+[2023-02-02 01:41:51,211] [builder.py:1982]           [INFO]     | FX Collection | ? | Swan Boy (TVDB: 410765)                                                        |
+[2023-02-02 01:41:51,424] [builder.py:1982]           [INFO]     | FX Collection | ? | Saint George (TVDB: 277844)                                                    |
+[2023-02-02 01:41:51,602] [builder.py:1982]           [INFO]     | FX Collection | ? | Todd TV (TVDB: 73678)                                                          |
+[2023-02-02 01:41:51,602] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:51,603] [builder.py:1987]           [INFO]     | 77 Shows Missing                                                                                   |
+[2023-02-02 01:41:51,992] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:51,993] [util.py:216]               [INFO]     |================================ Updating Details of FX Collection =================================|
+[2023-02-02 01:41:51,993] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-02 01:41:51,994] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-02-02 01:41:51,994] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/193493                               |
+[2023-02-02 01:41:51,994] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-02-02 01:41:51,996] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-02 01:41:52,071] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-02 01:41:52,072] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-02 01:41:52,072] [util.py:216]               [INFO]     |                                       Finished FX Collection                                       |
+[2023-02-02 01:41:52,072] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:27                                    |
+[2023-02-02 01:41:52,072] [util.py:220]               [INFO]     |====================================================================================================|
