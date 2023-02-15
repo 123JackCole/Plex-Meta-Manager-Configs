@@ -1,310 +1,310 @@
-[2023-02-02 01:04:22,466] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-02 01:04:22,467] [util.py:216]               [INFO]     |                                     A&E Collection in TV Shows                                     |
-[2023-02-02 01:04:22,467] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-02 01:04:22,467] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-02 01:04:22,468] [util.py:216]               [INFO]     |==================================== Validating A&E Attributes =====================================|
-[2023-02-02 01:04:22,468] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,468] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-02-02 01:04:22,469] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '129, 2639, 3688'), ('poster', 'https://theposterdb.com/api/assets/160188')]) |
-[2023-02-02 01:04:22,469] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,469] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-02 01:04:22,469] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-02 01:04:22,470] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,470] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-02-02 01:04:22,470] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2023-02-02 01:04:22,470] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,471] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
-[2023-02-02 01:04:22,471] [builder.py:474]            [DEBUG]    | Value: 129, 2639, 3688                                                                             |
-[2023-02-02 01:04:22,846] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,847] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-02-02 01:04:22,847] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/160188                                                   |
-[2023-02-02 01:04:22,847] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,847] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-02 01:04:22,848] [builder.py:474]            [DEBUG]    | Value: +4_A&E                                                                                      |
-[2023-02-02 01:04:22,851] [plex.py:687]               [DEBUG]    | Looking for: A&E                                                                                   |
-[2023-02-02 01:04:22,852] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-02 01:04:22,852] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-02 01:04:22,853] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-02 01:04:22,853] [util.py:216]               [INFO]     |====================================== Running A&E Collection ======================================|
-[2023-02-02 01:04:22,853] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-02 01:04:22,854] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-02 01:04:22,854] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:22,854] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 129                                                                         |
-[2023-02-02 01:04:22,854] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-02 01:04:24,581] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (129) A&E (242 Shows)                                                     |
-[2023-02-02 01:04:24,581] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:24,582] [builder.py:1283]           [DEBUG]    | 242 IDs Found: [(46786, 'tmdb_show'), (39276, 'tmdb_show'), (43901, 'tmdb_show'), (33091, 'tmdb_show'), (39758, 'tmdb_show'), (34971, 'tmdb_show'), (102287, 'tmdb_show'), (68430, 'tmdb_show'), (154518, 'tmdb_show'), (64099, 'tmdb_show'), (5146, 'tmdb_show'), (62829, 'tmdb_show'), (4557, 'tmdb_show'), (19997, 'tmdb_show'), (32861, 'tmdb_show'), (30946, 'tmdb_show'), (42738, 'tmdb_show'), (32803, 'tmdb_show'), (68901, 'tmdb_show'), (62142, 'tmdb_show'), (1205, 'tmdb_show'), (65854, 'tmdb_show'), (11145, 'tmdb_show'), (19033, 'tmdb_show'), (13042, 'tmdb_show'), (137535, 'tmdb_show'), (155892, 'tmdb_show'), (1883, 'tmdb_show'), (119985, 'tmdb_show'), (3195, 'tmdb_show'), (3827, 'tmdb_show'), (65925, 'tmdb_show'), (96152, 'tmdb_show'), (38183, 'tmdb_show'), (90686, 'tmdb_show'), (12258, 'tmdb_show'), (60951, 'tmdb_show'), (10275, 'tmdb_show'), (63199, 'tmdb_show'), (204381, 'tmdb_show'), (16386, 'tmdb_show'), (37092, 'tmdb_show'), (38785, 'tmdb_show'), (31380, 'tmdb_show'), (97191, 'tmdb_show'), (16539, 'tmdb_show'), (112812, 'tmdb_show'), (42188, 'tmdb_show'), (122821, 'tmdb_show'), (214132, 'tmdb_show'), (12664, 'tmdb_show'), (73538, 'tmdb_show'), (14163, 'tmdb_show'), (133774, 'tmdb_show'), (7547, 'tmdb_show'), (106212, 'tmdb_show'), (31745, 'tmdb_show'), (64559, 'tmdb_show'), (68505, 'tmdb_show'), (114850, 'tmdb_show'), (79775, 'tmdb_show'), (14390, 'tmdb_show'), (40169, 'tmdb_show'), (14124, 'tmdb_show'), (12327, 'tmdb_show'), (50592, 'tmdb_show'), (71801, 'tmdb_show'), (11011, 'tmdb_show'), (8449, 'tmdb_show'), (84197, 'tmdb_show'), (114635, 'tmdb_show'), (116974, 'tmdb_show'), (62284, 'tmdb_show'), (131268, 'tmdb_show'), (96633, 'tmdb_show'), (122296, 'tmdb_show'), (16357, 'tmdb_show'), (155257, 'tmdb_show'), (203427, 'tmdb_show'), (117342, 'tmdb_show'), (39498, 'tmdb_show'), (19450, 'tmdb_show'), (63355, 'tmdb_show'), (72810, 'tmdb_show'), (73403, 'tmdb_show'), (106520, 'tmdb_show'), (46451, 'tmdb_show'), (92820, 'tmdb_show'), (156740, 'tmdb_show'), (62998, 'tmdb_show'), (203262, 'tmdb_show'), (13174, 'tmdb_show'), (119896, 'tmdb_show'), (83692, 'tmdb_show'), (203453, 'tmdb_show'), (37298, 'tmdb_show'), (105988, 'tmdb_show'), (69266, 'tmdb_show'), (77307, 'tmdb_show'), (117366, 'tmdb_show'), (64682, 'tmdb_show'), (178066, 'tmdb_show'), (36790, 'tmdb_show'), (34659, 'tmdb_show'), (204828, 'tmdb_show'), (123932, 'tmdb_show'), (113809, 'tmdb_show'), (86017, 'tmdb_show'), (78170, 'tmdb_show'), (77969, 'tmdb_show'), (23856, 'tmdb_show'), (61515, 'tmdb_show'), (88744, 'tmdb_show'), (86403, 'tmdb_show'), (57752, 'tmdb_show'), (30975, 'tmdb_show'), (21293, 'tmdb_show'), (72653, 'tmdb_show'), (128310, 'tmdb_show'), (75210, 'tmdb_show'), (7182, 'tmdb_show'), (27787, 'tmdb_show'), (95641, 'tmdb_show'), (74580, 'tmdb_show'), (42740, 'tmdb_show'), (47694, 'tmdb_show'), (205373, 'tmdb_show'), (75745, 'tmdb_show'), (203303, 'tmdb_show'), (37358, 'tmdb_show'), (42746, 'tmdb_show'), (65325, 'tmdb_show'), (36768, 'tmdb_show'), (100151, 'tmdb_show'), (93710, 'tmdb_show'), (37212, 'tmdb_show'), (24587, 'tmdb_show'), (19100, 'tmdb_show'), (16948, 'tmdb_show'), (10811, 'tmdb_show'), (4021, 'tmdb_show'), (37551, 'tmdb_show'), (80408, 'tmdb_show'), (91751, 'tmdb_show'), (129158, 'tmdb_show'), (128829, 'tmdb_show'), (154200, 'tmdb_show'), (8752, 'tmdb_show'), (76426, 'tmdb_show'), (91037, 'tmdb_show'), (133034, 'tmdb_show'), (10899, 'tmdb_show'), (216785, 'tmdb_show'), (124602, 'tmdb_show'), (42741, 'tmdb_show'), (80306, 'tmdb_show'), (98186, 'tmdb_show'), (121268, 'tmdb_show'), (103888, 'tmdb_show'), (204885, 'tmdb_show'), (63000, 'tmdb_show'), (42749, 'tmdb_show'), (80407, 'tmdb_show'), (207194, 'tmdb_show'), (113343, 'tmdb_show'), (65066, 'tmdb_show'), (59670, 'tmdb_show'), (117040, 'tmdb_show'), (35506, 'tmdb_show'), (203655, 'tmdb_show'), (197572, 'tmdb_show'), (117294, 'tmdb_show'), (77133, 'tmdb_show'), (76268, 'tmdb_show'), (42819, 'tmdb_show'), (42814, 'tmdb_show'), (42809, 'tmdb_show'), (96733, 'tmdb_show'), (204380, 'tmdb_show'), (62357, 'tmdb_show'), (29386, 'tmdb_show'), (38694, 'tmdb_show'), (18807, 'tmdb_show'), (116136, 'tmdb_show'), (118478, 'tmdb_show'), (69499, 'tmdb_show'), (83397, 'tmdb_show'), (3223, 'tmdb_show'), (19321, 'tmdb_show'), (77668, 'tmdb_show'), (614, 'tmdb_show'), (10638, 'tmdb_show'), (77306, 'tmdb_show'), (66735, 'tmdb_show'), (117041, 'tmdb_show'), (106954, 'tmdb_show'), (129388, 'tmdb_show'), (117269, 'tmdb_show'), (101609, 'tmdb_show'), (91076, 'tmdb_show'), (88414, 'tmdb_show'), (79446, 'tmdb_show'), (70403, 'tmdb_show'), (67323, 'tmdb_show'), (63003, 'tmdb_show'), (59088, 'tmdb_show'), (58436, 'tmdb_show'), (42818, 'tmdb_show'), (42817, 'tmdb_show'), (42816, 'tmdb_show'), (42815, 'tmdb_show'), (42813, 'tmdb_show'), (42811, 'tmdb_show'), (42810, 'tmdb_show'), (42808, 'tmdb_show'), (42806, 'tmdb_show'), (42750, 'tmdb_show'), (42748, 'tmdb_show'), (42747, 'tmdb_show'), (42745, 'tmdb_show'), (42744, 'tmdb_show'), (42742, 'tmdb_show'), (42185, 'tmdb_show'), (38414, 'tmdb_show'), (37887, 'tmdb_show'), (37327, 'tmdb_show'), (36022, 'tmdb_show'), (35951, 'tmdb_show'), (35380, 'tmdb_show'), (34256, 'tmdb_show'), (34133, 'tmdb_show'), (33695, 'tmdb_show'), (32532, 'tmdb_show'), (31603, 'tmdb_show'), (29055, 'tmdb_show'), (25675, 'tmdb_show'), (18342, 'tmdb_show'), (13059, 'tmdb_show'), (10754, 'tmdb_show'), (9456, 'tmdb_show'), (8006, 'tmdb_show'), (690, 'tmdb_show')] |
-[2023-02-02 01:04:24,582] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:24,708] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 90686                                                 |
-[2023-02-02 01:04:24,832] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96633                                                 |
-[2023-02-02 01:04:24,947] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92820                                                 |
-[2023-02-02 01:04:25,057] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13174                                                 |
-[2023-02-02 01:04:25,169] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 69266                                                 |
-[2023-02-02 01:04:25,272] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77307                                                 |
-[2023-02-02 01:04:25,512] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93710                                                 |
-[2023-02-02 01:04:25,626] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37212                                                 |
-[2023-02-02 01:04:25,754] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4021                                                  |
-[2023-02-02 01:04:25,865] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 91037                                                 |
-[2023-02-02 01:04:25,970] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 98186                                                 |
-[2023-02-02 01:04:26,080] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 80407                                                 |
-[2023-02-02 01:04:26,192] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117294                                                |
-[2023-02-02 01:04:26,301] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77133                                                 |
-[2023-02-02 01:04:26,403] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 76268                                                 |
-[2023-02-02 01:04:26,527] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42819                                                 |
-[2023-02-02 01:04:26,642] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42814                                                 |
-[2023-02-02 01:04:26,747] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42809                                                 |
-[2023-02-02 01:04:26,856] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29386                                                 |
-[2023-02-02 01:04:26,977] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 83397                                                 |
-[2023-02-02 01:04:27,078] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77306                                                 |
-[2023-02-02 01:04:27,201] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101609                                                |
-[2023-02-02 01:04:27,439] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 67323                                                 |
-[2023-02-02 01:04:27,549] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 63003                                                 |
-[2023-02-02 01:04:27,669] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 59088                                                 |
-[2023-02-02 01:04:27,776] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42818                                                 |
-[2023-02-02 01:04:27,878] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42817                                                 |
-[2023-02-02 01:04:27,984] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42816                                                 |
-[2023-02-02 01:04:28,092] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42815                                                 |
-[2023-02-02 01:04:28,201] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42813                                                 |
-[2023-02-02 01:04:28,312] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42811                                                 |
-[2023-02-02 01:04:28,430] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42810                                                 |
-[2023-02-02 01:04:28,537] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42808                                                 |
-[2023-02-02 01:04:28,651] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42806                                                 |
-[2023-02-02 01:04:28,759] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42750                                                 |
-[2023-02-02 01:04:28,867] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42748                                                 |
-[2023-02-02 01:04:28,977] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42744                                                 |
-[2023-02-02 01:04:29,090] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42185                                                 |
-[2023-02-02 01:04:29,197] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35951                                                 |
-[2023-02-02 01:04:29,305] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 32532                                                 |
-[2023-02-02 01:04:29,422] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 9456                                                  |
-[2023-02-02 01:04:29,529] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8006                                                  |
-[2023-02-02 01:04:29,530] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:29,531] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2639                                                                        |
-[2023-02-02 01:04:29,531] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-02 01:04:29,739] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2639) A&E (2 Shows)                                                      |
-[2023-02-02 01:04:29,740] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:29,740] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(81340, 'tmdb_show'), (138516, 'tmdb_show')]                                         |
-[2023-02-02 01:04:29,740] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:29,843] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 81340                                                 |
-[2023-02-02 01:04:29,966] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138516                                                |
-[2023-02-02 01:04:29,967] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:29,967] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 3688                                                                        |
-[2023-02-02 01:04:29,967] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-02 01:04:30,181] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (3688) A&E (3 Shows)                                                      |
-[2023-02-02 01:04:30,182] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:30,182] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(130235, 'tmdb_show'), (74868, 'tmdb_show'), (195955, 'tmdb_show')]                  |
-[2023-02-02 01:04:30,182] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:04:30,292] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 74868                                                 |
-[2023-02-02 01:04:30,406] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195955                                                |
-[2023-02-02 01:04:30,406] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
-[2023-02-02 01:04:30,407] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for A&E Collection                                                   |
-[2023-02-02 01:04:30,407] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-02-02 01:04:30,407] [util.py:216]               [INFO]     |================================= Missing Shows from Library: A&E ==================================|
-[2023-02-02 01:04:30,408] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-02-02 01:04:30,969] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bates Motel (TVDB: 262414)                                                    |
-[2023-02-02 01:04:31,292] [builder.py:1982]           [INFO]     | A&E Collection | ? | Unforgettable (TVDB: 248861)                                                  |
-[2023-02-02 01:04:31,720] [builder.py:1982]           [INFO]     | A&E Collection | ? | Longmire (TVDB: 253491)                                                       |
-[2023-02-02 01:04:32,050] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Glades (TVDB: 168941)                                                     |
-[2023-02-02 01:04:32,325] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bag of Bones (TVDB: 252870)                                                   |
-[2023-02-02 01:04:32,825] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars (TVDB: 207621)                                                   |
-[2023-02-02 01:04:33,111] [builder.py:1982]           [INFO]     | A&E Collection | ? | Accused: Guilty or Innocent? (TVDB: 379555)                                   |
-[2023-02-02 01:04:33,431] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD (TVDB: 318451)                                                        |
-[2023-02-02 01:04:33,643] [builder.py:1982]           [INFO]     | A&E Collection | ? | Taking the Stand (TVDB: 414696)                                               |
-[2023-02-02 01:04:33,972] [builder.py:1982]           [INFO]     | A&E Collection | ? | War & Peace (2016) (TVDB: 299408)                                             |
-[2023-02-02 01:04:34,624] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 (TVDB: 81275)                                                    |
-[2023-02-02 01:04:34,843] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bonnie & Clyde (TVDB: 270110)                                                 |
-[2023-02-02 01:04:35,168] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lovejoy (TVDB: 71764)                                                         |
-[2023-02-02 01:04:35,390] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Andromeda Strain (TVDB: 81843)                                            |
-[2023-02-02 01:04:35,690] [builder.py:1982]           [INFO]     | A&E Collection | ? | Breakout Kings (TVDB: 219341)                                                 |
-[2023-02-02 01:04:36,167] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hoarders (TVDB: 109621)                                                       |
-[2023-02-02 01:04:36,575] [builder.py:1982]           [INFO]     | A&E Collection | ? | Duck Dynasty (TVDB: 256825)                                                   |
-[2023-02-02 01:04:36,869] [builder.py:1982]           [INFO]     | A&E Collection | ? | Celebrity Ghost Stories (TVDB: 122701)                                        |
-[2023-02-02 01:04:37,128] [builder.py:1982]           [INFO]     | A&E Collection | ? | Leah Remini: Scientology and the Aftermath (TVDB: 319252)                     |
-[2023-02-02 01:04:37,407] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Returned (US) (TVDB: 283317)                                              |
-[2023-02-02 01:04:37,733] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nero Wolfe (2001) (TVDB: 78811)                                               |
-[2023-02-02 01:04:38,096] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In (TVDB: 308045)                                                     |
-[2023-02-02 01:04:38,679] [builder.py:1982]           [INFO]     | A&E Collection | ? | Intervention (TVDB: 75896)                                                    |
-[2023-02-02 01:04:38,941] [builder.py:1982]           [INFO]     | A&E Collection | ? | Damien (TVDB: 282165)                                                         |
-[2023-02-02 01:04:39,399] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Justice (TVDB: 216281)                                               |
-[2023-02-02 01:04:39,597] [builder.py:1982]           [INFO]     | A&E Collection | ? | Triple Digit Flip (TVDB: 411218)                                              |
-[2023-02-02 01:04:39,771] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of Playboy (TVDB: 413259)                                             |
-[2023-02-02 01:04:40,131] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dog the Bounty Hunter (TVDB: 75036)                                           |
-[2023-02-02 01:04:40,345] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: WWE Legends (TVDB: 397372)                                         |
-[2023-02-02 01:04:40,734] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gene Simmons Family Jewels (TVDB: 79406)                                      |
-[2023-02-02 01:04:40,975] [builder.py:1982]           [INFO]     | A&E Collection | ? | Airline (2004) (TVDB: 81059)                                                  |
-[2023-02-02 01:04:41,282] [builder.py:1982]           [INFO]     | A&E Collection | ? | Zombie House Flipping (TVDB: 306562)                                          |
-[2023-02-02 01:04:41,551] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Cam (TVDB: 371728)                                                      |
-[2023-02-02 01:04:41,634] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 205371                              |
-[2023-02-02 01:04:41,969] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cold Case Files (TVDB: 74814)                                                 |
-[2023-02-02 01:04:42,355] [builder.py:1982]           [INFO]     | A&E Collection | ? | Wahlburgers (TVDB: 276525)                                                    |
-[2023-02-02 01:04:42,626] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ancient Mysteries (TVDB: 226691)                                              |
-[2023-02-02 01:04:42,867] [builder.py:1982]           [INFO]     | A&E Collection | ? | Escaping Polygamy (TVDB: 297358)                                              |
-[2023-02-02 01:04:43,075] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Rivals (TVDB: 420793)                                                     |
-[2023-02-02 01:04:43,308] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Beast (TVDB: 83805)                                                       |
-[2023-02-02 01:04:43,521] [builder.py:1982]           [INFO]     | A&E Collection | ? | Coma (TVDB: 261272)                                                           |
-[2023-02-02 01:04:43,863] [builder.py:1982]           [INFO]     | A&E Collection | ? | Beyond Scared Straight (TVDB: 219331)                                         |
-[2023-02-02 01:04:44,102] [builder.py:1982]           [INFO]     | A&E Collection | ? | Steven Seagal: Lawman (TVDB: 126841)                                          |
-[2023-02-02 01:04:44,344] [builder.py:1982]           [INFO]     | A&E Collection | ? | America's Top Dog (TVDB: 372763)                                              |
-[2023-02-02 01:04:44,666] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Unexplained (TVDB: 256661)                                                |
-[2023-02-02 01:04:44,879] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 Presents Critical Minutes (TVDB: 391480)                         |
-[2023-02-02 01:04:45,318] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Texas (TVDB: 251596)                                            |
-[2023-02-02 01:04:45,524] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE's Most Wanted Treasures (TVDB: 397507)                                    |
-[2023-02-02 01:04:45,705] [builder.py:1982]           [INFO]     | A&E Collection | ? | Customer Wars (TVDB: 425256)                                                  |
-[2023-02-02 01:04:46,099] [builder.py:1982]           [INFO]     | A&E Collection | ? | Sell This House (TVDB: 73497)                                                 |
-[2023-02-02 01:04:46,291] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Murder of Laci Peterson (TVDB: 333271)                                    |
-[2023-02-02 01:04:46,600] [builder.py:1982]           [INFO]     | A&E Collection | ? | Parking Wars (TVDB: 81343)                                                    |
-[2023-02-02 01:04:46,835] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighborhood Wars (TVDB: 409286)                                              |
-[2023-02-02 01:04:47,113] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Cleaner (TVDB: 82492)                                                     |
-[2023-02-02 01:04:47,298] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Menendez Murders: Erik Tells All (TVDB: 338565)                           |
-[2023-02-02 01:04:47,569] [builder.py:1982]           [INFO]     | A&E Collection | ? | Billy the Exterminator (TVDB: 166101)                                         |
-[2023-02-02 01:04:47,863] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nightwatch (TVDB: 290557)                                                     |
-[2023-02-02 01:04:48,028] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killing Season (2016) (TVDB: 318973)                                      |
-[2023-02-02 01:04:48,208] [builder.py:1982]           [INFO]     | A&E Collection | ? | Pawn Stars Australia (TVDB: 298914)                                           |
-[2023-02-02 01:04:48,396] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cults and Extreme Belief (TVDB: 348158)                                       |
-[2023-02-02 01:04:48,620] [builder.py:1982]           [INFO]     | A&E Collection | ? | Street Justice (TVDB: 71052)                                                  |
-[2023-02-02 01:04:48,804] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kirstie Alley's Big Life (TVDB: 150411)                                       |
-[2023-02-02 01:04:49,097] [builder.py:1982]           [INFO]     | A&E Collection | ? | Paranormal State (TVDB: 81408)                                                |
-[2023-02-02 01:04:49,385] [builder.py:1982]           [INFO]     | A&E Collection | ? | 100 Centre Street (TVDB: 71327)                                               |
-[2023-02-02 01:04:49,752] [builder.py:1982]           [INFO]     | A&E Collection | ? | Shipping Wars (TVDB: 254669)                                                  |
-[2023-02-02 01:04:50,065] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD: Police Patrol (TVDB: 329175)                                         |
-[2023-02-02 01:04:50,266] [builder.py:1982]           [INFO]     | A&E Collection | ? | Inked (TVDB: 78805)                                                           |
-[2023-02-02 01:04:50,462] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hotel Malibu (TVDB: 71370)                                                    |
-[2023-02-02 01:04:50,696] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Clinton Affair (TVDB: 355453)                                             |
-[2023-02-02 01:04:50,910] [builder.py:1982]           [INFO]     | A&E Collection | ? | Killer Cases (TVDB: 392853)                                                   |
-[2023-02-02 01:04:51,121] [builder.py:1982]           [INFO]     | A&E Collection | ? | The American Revolution (TVDB: 87711)                                         |
-[2023-02-02 01:04:51,430] [builder.py:1982]           [INFO]     | A&E Collection | ? | Those Who Kill (US) (TVDB: 273351)                                            |
-[2023-02-02 01:04:51,602] [builder.py:1982]           [INFO]     | A&E Collection | ? | Invisible Monsters: Serial Killers in America (TVDB: 405960)                  |
-[2023-02-02 01:04:51,807] [builder.py:1982]           [INFO]     | A&E Collection | ? | Janet Jackson. (TVDB: 414707)                                                 |
-[2023-02-02 01:04:52,028] [builder.py:1982]           [INFO]     | A&E Collection | ? | Manhunters: Fugitive Task Force (TVDB: 84133)                                 |
-[2023-02-02 01:04:52,199] [builder.py:1982]           [INFO]     | A&E Collection | ? | BTK: Confession of a Serial Killer (TVDB: 414455)                             |
-[2023-02-02 01:04:52,426] [builder.py:1982]           [INFO]     | A&E Collection | ? | Digital Addiction (TVDB: 420414)                                              |
-[2023-02-02 01:04:52,632] [builder.py:1982]           [INFO]     | A&E Collection | ? | Weapons at War: Brute Force (TVDB: 267009)                                    |
-[2023-02-02 01:04:52,844] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Missing Persons (TVDB: 249241)                                  |
-[2023-02-02 01:04:53,051] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Two Coreys (TVDB: 80360)                                                  |
-[2023-02-02 01:04:53,282] [builder.py:1982]           [INFO]     | A&E Collection | ? | Behind Bars: Rookie Year (TVDB: 298997)                                       |
-[2023-02-02 01:04:53,464] [builder.py:1982]           [INFO]     | A&E Collection | ? | Akil the Fugitive Hunter (TVDB: 331425)                                       |
-[2023-02-02 01:04:53,653] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cursed: The Bell Witch (TVDB: 302303)                                         |
-[2023-02-02 01:04:53,855] [builder.py:1982]           [INFO]     | A&E Collection | ? | Garth Brooks: The Road I'm On (TVDB: 372636)                                  |
-[2023-02-02 01:04:54,063] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killer Speaks (TVDB: 268422)                                              |
-[2023-02-02 01:04:54,257] [builder.py:1982]           [INFO]     | A&E Collection | ? | Adults Adopting Adults (TVDB: 414882)                                         |
-[2023-02-02 01:04:54,532] [builder.py:1982]           [INFO]     | A&E Collection | ? | Donnie Loves Jenny (TVDB: 289205)                                             |
-[2023-02-02 01:04:54,733] [builder.py:1982]           [INFO]     | A&E Collection | ? | Origins of Hip Hop (TVDB: 420627)                                             |
-[2023-02-02 01:04:54,939] [builder.py:1982]           [INFO]     | A&E Collection | ? | I Survived a Crime (TVDB: 395266)                                             |
-[2023-02-02 01:04:55,220] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD Presents: PD Cam (TVDB: 350050)                                       |
-[2023-02-02 01:04:55,389] [builder.py:1982]           [INFO]     | A&E Collection | ? | Interrogation Raw (TVDB: 420401)                                              |
-[2023-02-02 01:04:55,577] [builder.py:1982]           [INFO]     | A&E Collection | ? | $100 Makeover (TVDB: 251171)                                                  |
-[2023-02-02 01:04:55,814] [builder.py:1982]           [INFO]     | A&E Collection | ? | Extreme Unboxing (TVDB: 385920)                                               |
-[2023-02-02 01:04:55,981] [builder.py:1982]           [INFO]     | A&E Collection | ? | Mafia: The History of the Mob in America (TVDB: 285084)                       |
-[2023-02-02 01:04:56,249] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born This Way (TVDB: 304021)                                                  |
-[2023-02-02 01:04:56,453] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of the Chippendales Murders (TVDB: 417812)                            |
-[2023-02-02 01:04:56,686] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fix This Yard (TVDB: 312250)                                                  |
-[2023-02-02 01:04:56,880] [builder.py:1982]           [INFO]     | A&E Collection | ? | Strange Days with Bob Saget (TVDB: 208081)                                    |
-[2023-02-02 01:04:57,059] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: Bobby Brown (TVDB: 420786)                                         |
-[2023-02-02 01:04:57,238] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hustle & Tow (TVDB: 399989)                                                   |
-[2023-02-02 01:04:57,428] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rescue Cam (TVDB: 391188)                                                     |
-[2023-02-02 01:04:57,611] [builder.py:1982]           [INFO]     | A&E Collection | ? | Many Sides of Jane (TVDB: 357651)                                             |
-[2023-02-02 01:04:57,851] [builder.py:1982]           [INFO]     | A&E Collection | ? | Marcia Clark Investigates The First 48 (TVDB: 341706)                         |
-[2023-02-02 01:04:58,035] [builder.py:1982]           [INFO]     | A&E Collection | ? | Waco: Madman or Messiah (TVDB: 341252)                                        |
-[2023-02-02 01:04:58,225] [builder.py:1982]           [INFO]     | A&E Collection | ? | Treasure! (TVDB: 236641)                                                      |
-[2023-02-02 01:04:58,437] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dead Again (TVDB: 286242)                                                     |
-[2023-02-02 01:04:58,692] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live Rescue (TVDB: 361071)                                                    |
-[2023-02-02 01:04:58,879] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 Presents: Homicide Squad Atlanta (TVDB: 356224)                  |
-[2023-02-02 01:04:59,085] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars New York (TVDB: 264535)                                          |
-[2023-02-02 01:04:59,273] [builder.py:1982]           [INFO]     | A&E Collection | ? | Tattoo Highway (TVDB: 96711)                                                  |
-[2023-02-02 01:04:59,466] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Greatest Pharaohs (TVDB: 92541)                                           |
-[2023-02-02 01:04:59,669] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Lowe Files (TVDB: 330816)                                                 |
-[2023-02-02 01:04:59,839] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: KISStory (TVDB: 405718)                                            |
-[2023-02-02 01:05:00,056] [builder.py:1982]           [INFO]     | A&E Collection | ? | Who Killed Tupac? (TVDB: 330903)                                              |
-[2023-02-02 01:05:00,243] [builder.py:1982]           [INFO]     | A&E Collection | ? | Crime 360 (TVDB: 81487)                                                       |
-[2023-02-02 01:05:00,492] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ghostly Encounters (TVDB: 217081)                                             |
-[2023-02-02 01:05:00,669] [builder.py:1982]           [INFO]     | A&E Collection | ? | Alaska PD (TVDB: 372733)                                                      |
-[2023-02-02 01:05:00,877] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Eleven (TVDB: 336193)                                                     |
-[2023-02-02 01:05:01,112] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Hoggers (TVDB: 252617)                                               |
-[2023-02-02 01:05:01,343] [builder.py:1982]           [INFO]     | A&E Collection | ? | Frankie's House (TVDB: 252307)                                                |
-[2023-02-02 01:05:01,549] [builder.py:1982]           [INFO]     | A&E Collection | ? | Road Wars (2022) (TVDB: 422035)                                               |
-[2023-02-02 01:05:01,780] [builder.py:1982]           [INFO]     | A&E Collection | ? | Undercover High (TVDB: 335442)                                                |
-[2023-02-02 01:05:01,989] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bobby Brown: Every Little Step (TVDB: 420389)                                 |
-[2023-02-02 01:05:02,174] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Squad: Prison Police (TVDB: 181641)                                       |
-[2023-02-02 01:05:02,421] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipping Boston (TVDB: 257065)                                                |
-[2023-02-02 01:05:02,692] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fit to Fat to Fit (TVDB: 306214)                                              |
-[2023-02-02 01:05:02,888] [builder.py:1982]           [INFO]     | A&E Collection | ? | TVography (TVDB: 70974)                                                       |
-[2023-02-02 01:05:03,063] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Haunting (TVDB: 271934)                                              |
-[2023-02-02 01:05:03,288] [builder.py:1982]           [INFO]     | A&E Collection | ? | Moonacre (TVDB: 77426)                                                        |
-[2023-02-02 01:05:03,474] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hammertime (TVDB: 99971)                                                      |
-[2023-02-02 01:05:03,682] [builder.py:1982]           [INFO]     | A&E Collection | ? | Confessions of a Matchmaker (TVDB: 271517)                                    |
-[2023-02-02 01:05:03,929] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flip This House (TVDB: 251597)                                                |
-[2023-02-02 01:05:04,225] [builder.py:1982]           [INFO]     | A&E Collection | ? | Investigative Reports (TVDB: 280099)                                          |
-[2023-02-02 01:05:04,439] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gotti: Godfather and Son (TVDB: 348769)                                       |
-[2023-02-02 01:05:04,632] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In: Narcoland (TVDB: 365846)                                          |
-[2023-02-02 01:05:04,958] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Untold Story (TVDB: 361381)                                               |
-[2023-02-02 01:05:05,151] [builder.py:1982]           [INFO]     | A&E Collection | ? | An Animal Saved My Life (TVDB: 405033)                                        |
-[2023-02-02 01:05:05,323] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born Behind Bars (TVDB: 349727)                                               |
-[2023-02-02 01:05:05,558] [builder.py:1982]           [INFO]     | A&E Collection | ? | Psychic Kids: Children of the Paranormal (TVDB: 82476)                        |
-[2023-02-02 01:05:05,729] [builder.py:1982]           [INFO]     | A&E Collection | ? | Minute by Minute (2001) (TVDB: 296296)                                        |
-[2023-02-02 01:05:05,898] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Takedown (TVDB: 297276)                                              |
-[2023-02-02 01:05:06,266] [builder.py:1982]           [INFO]     | A&E Collection | ? | City Confidential (TVDB: 271790)                                              |
-[2023-02-02 01:05:06,439] [builder.py:1982]           [INFO]     | A&E Collection | ? | Christmas Wars (TVDB: 428255)                                                 |
-[2023-02-02 01:05:06,637] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Cam Presents Under Oath (TVDB: 401832)                                  |
-[2023-02-02 01:05:06,839] [builder.py:1982]           [INFO]     | A&E Collection | ? | Barter Kings (TVDB: 259497)                                                   |
-[2023-02-02 01:05:07,013] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Untold Story of the 90s (TVDB: 349519)                                    |
-[2023-02-02 01:05:07,226] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Gestapo (TVDB: 84624)                                                     |
-[2023-02-02 01:05:07,428] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Killer Confessions (TVDB: 296989)                               |
-[2023-02-02 01:05:07,641] [builder.py:1982]           [INFO]     | A&E Collection | ? | First Blood (TVDB: 421747)                                                    |
-[2023-02-02 01:05:07,822] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lachey's Bar (TVDB: 297510)                                                   |
-[2023-02-02 01:05:08,019] [builder.py:1982]           [INFO]     | A&E Collection | ? | Last Chance Driving School (TVDB: 257985)                                     |
-[2023-02-02 01:05:08,229] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Night Live (TVDB: 422959)                                               |
-[2023-02-02 01:05:08,413] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Day I Picked My Parents (TVDB: 369332)                                    |
-[2023-02-02 01:05:08,602] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dogs of War (TVDB: 287726)                                                    |
-[2023-02-02 01:05:08,783] [builder.py:1982]           [INFO]     | A&E Collection | ? | Southie Rules (TVDB: 265990)                                                  |
-[2023-02-02 01:05:08,978] [builder.py:1982]           [INFO]     | A&E Collection | ? | Sea Tales (TVDB: 290634)                                                      |
-[2023-02-02 01:05:09,254] [builder.py:1982]           [INFO]     | A&E Collection | ? | Makeover Mamas (TVDB: 73276)                                                  |
-[2023-02-02 01:05:09,465] [builder.py:1982]           [INFO]     | A&E Collection | ? | Living Smaller (TVDB: 420855)                                                 |
-[2023-02-02 01:05:09,653] [builder.py:1982]           [INFO]     | A&E Collection | ? | 50/50 Flip (TVDB: 415446)                                                     |
-[2023-02-02 01:05:09,832] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kids Behind Bars (TVDB: 249498)                                               |
-[2023-02-02 01:05:10,018] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Smack Talk (TVDB: 420794)                                                 |
-[2023-02-02 01:05:10,212] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighbors With Benefits (TVDB: 293005)                                        |
-[2023-02-02 01:05:10,365] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Ghost Prophecies (TVDB: 212401)                                           |
-[2023-02-02 01:05:10,568] [builder.py:1982]           [INFO]     | A&E Collection | ? | Obsessed (TVDB: 96301)                                                        |
-[2023-02-02 01:05:10,756] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nature Gone Wild (TVDB: 394086)                                               |
-[2023-02-02 01:05:10,814] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 351233                              |
-[2023-02-02 01:05:10,983] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Miami (TVDB: 301610)                                            |
-[2023-02-02 01:05:11,218] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Gotti (TVDB: 74819)                                                |
-[2023-02-02 01:05:11,392] [builder.py:1982]           [INFO]     | A&E Collection | ? | Paranormal Cops (TVDB: 136651)                                                |
-[2023-02-02 01:05:11,555] [builder.py:1982]           [INFO]     | A&E Collection | ? | Divided States (TVDB: 343869)                                                 |
-[2023-02-02 01:05:11,805] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rollergirls (TVDB: 83819)                                                     |
-[2023-02-02 01:05:12,021] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dallas SWAT (TVDB: 80341)                                                     |
-[2023-02-02 01:05:12,203] [builder.py:1982]           [INFO]     | A&E Collection | ? | Streets of Compton (TVDB: 312835)                                             |
-[2023-02-02 01:05:12,378] [builder.py:1982]           [INFO]     | A&E Collection | ? | Foot Soldier (TVDB: 266587)                                                   |
-[2023-02-02 01:05:12,560] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Toe Bro (TVDB: 359717)                                                    |
-[2023-02-02 01:05:12,745] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fasten Your Seatbelt (TVDB: 406564)                                           |
-[2023-02-02 01:05:12,922] [builder.py:1982]           [INFO]     | A&E Collection | ? | What's It Worth? (TVDB: 386384)                                               |
-[2023-02-02 01:05:13,124] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hero Ink (TVDB: 364876)                                                       |
-[2023-02-02 01:05:13,387] [builder.py:1982]           [INFO]     | A&E Collection | ? | Elizabeth Smart: Autobiography (TVDB: 337860)                                 |
-[2023-02-02 01:05:13,586] [builder.py:1982]           [INFO]     | A&E Collection | ? | Epic Ink (TVDB: 283384)                                                       |
-[2023-02-02 01:05:13,770] [builder.py:1982]           [INFO]     | A&E Collection | ? | Jep & Jessica: Growing the Dynasty (TVDB: 306038)                             |
-[2023-02-02 01:05:13,940] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cajun Justice (TVDB: 259423)                                                  |
-[2023-02-02 01:05:14,184] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipping Vegas (TVDB: 255095)                                                 |
-[2023-02-02 01:05:14,377] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipped Off (TVDB: 257836)                                                    |
-[2023-02-02 01:05:14,574] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bordertown: Laredo (TVDB: 252574)                                             |
-[2023-02-02 01:05:14,753] [builder.py:1982]           [INFO]     | A&E Collection | ? | Relapse (TVDB: 220401)                                                        |
-[2023-02-02 01:05:14,962] [builder.py:1982]           [INFO]     | A&E Collection | ? | Runaway Squad (TVDB: 404005)                                                  |
-[2023-02-02 01:05:15,163] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fugitive Chronicles (TVDB: 155611)                                            |
-[2023-02-02 01:05:15,339] [builder.py:1982]           [INFO]     | A&E Collection | ? | Meet the Royals (TVDB: 75013)                                                 |
-[2023-02-02 01:05:15,507] [builder.py:1982]           [INFO]     | A&E Collection | ? | Heavy (TVDB: 213131)                                                          |
-[2023-02-02 01:05:15,672] [builder.py:1982]           [INFO]     | A&E Collection | ? | Teach: Tony Danza (TVDB: 193511)                                              |
-[2023-02-02 01:05:15,863] [builder.py:1982]           [INFO]     | A&E Collection | ? | Travel Sick (TVDB: 74761)                                                     |
-[2023-02-02 01:05:16,034] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Twisted (TVDB: 179381)                                             |
-[2023-02-02 01:05:16,228] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Jacksons: A Family Dynasty (TVDB: 139431)                                 |
-[2023-02-02 01:05:16,418] [builder.py:1982]           [INFO]     | A&E Collection | ? | The View from Daniel Pike (TVDB: 75012)                                       |
-[2023-02-02 01:05:16,606] [builder.py:1982]           [INFO]     | A&E Collection | ? | Female Forces (TVDB: 377302)                                                  |
-[2023-02-02 01:05:16,791] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rookies (2008) (TVDB: 93611)                                                  |
-[2023-02-02 01:05:16,982] [builder.py:1982]           [INFO]     | A&E Collection | ? | Driving Force (TVDB: 80036)                                                   |
-[2023-02-02 01:05:17,196] [builder.py:1982]           [INFO]     | A&E Collection | ? | Family Plots (TVDB: 74509)                                                    |
-[2023-02-02 01:05:17,361] [builder.py:1982]           [INFO]     | A&E Collection | ? | King of Cars (TVDB: 128061)                                                   |
-[2023-02-02 01:05:17,554] [builder.py:1982]           [INFO]     | A&E Collection | ? | Aussie Pickers (TVDB: 270032)                                                 |
-[2023-02-02 01:05:17,555] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-02-02 01:05:17,555] [builder.py:1987]           [INFO]     | 199 Shows Missing                                                                                  |
-[2023-02-02 01:05:17,584] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-02 01:05:17,584] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-02 01:05:17,584] [util.py:216]               [INFO]     |                                      Finished A&E Collection                                       |
-[2023-02-02 01:05:17,585] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:55                                    |
-[2023-02-02 01:05:17,585] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-14 01:36:39,761] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-14 01:36:39,761] [util.py:216]               [INFO]     |                                     A&E Collection in TV Shows                                     |
+[2023-02-14 01:36:39,762] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-14 01:36:39,762] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-14 01:36:39,762] [util.py:216]               [INFO]     |==================================== Validating A&E Attributes =====================================|
+[2023-02-14 01:36:39,763] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:39,763] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-14 01:36:39,763] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'network'), ('network', '129, 2639, 3688'), ('poster', 'https://theposterdb.com/api/assets/160188')]) |
+[2023-02-14 01:36:39,764] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:39,764] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-14 01:36:39,764] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-14 01:36:39,765] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:39,765] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-14 01:36:39,765] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-02-14 01:36:39,766] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:39,766] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_network                                                                    |
+[2023-02-14 01:36:39,766] [builder.py:474]            [DEBUG]    | Value: 129, 2639, 3688                                                                             |
+[2023-02-14 01:36:40,205] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:40,205] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-14 01:36:40,205] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/160188                                                   |
+[2023-02-14 01:36:40,205] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:40,205] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-14 01:36:40,206] [builder.py:474]            [DEBUG]    | Value: +4_A&E                                                                                      |
+[2023-02-14 01:36:40,209] [plex.py:687]               [DEBUG]    | Looking for: A&E                                                                                   |
+[2023-02-14 01:36:40,209] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-14 01:36:40,209] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-14 01:36:40,210] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-14 01:36:40,210] [util.py:216]               [INFO]     |====================================== Running A&E Collection ======================================|
+[2023-02-14 01:36:40,211] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-14 01:36:40,211] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-14 01:36:40,211] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:40,211] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 129                                                                         |
+[2023-02-14 01:36:40,212] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-14 01:36:41,706] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (129) A&E (242 Shows)                                                     |
+[2023-02-14 01:36:41,707] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:41,707] [builder.py:1283]           [DEBUG]    | 242 IDs Found: [(46786, 'tmdb_show'), (39758, 'tmdb_show'), (43901, 'tmdb_show'), (34971, 'tmdb_show'), (33091, 'tmdb_show'), (39276, 'tmdb_show'), (62829, 'tmdb_show'), (5146, 'tmdb_show'), (64099, 'tmdb_show'), (68430, 'tmdb_show'), (19997, 'tmdb_show'), (1883, 'tmdb_show'), (102287, 'tmdb_show'), (42738, 'tmdb_show'), (4557, 'tmdb_show'), (32861, 'tmdb_show'), (3195, 'tmdb_show'), (65854, 'tmdb_show'), (32803, 'tmdb_show'), (119985, 'tmdb_show'), (154518, 'tmdb_show'), (62142, 'tmdb_show'), (65925, 'tmdb_show'), (11145, 'tmdb_show'), (19033, 'tmdb_show'), (155892, 'tmdb_show'), (42188, 'tmdb_show'), (96152, 'tmdb_show'), (50592, 'tmdb_show'), (30946, 'tmdb_show'), (13042, 'tmdb_show'), (68901, 'tmdb_show'), (37092, 'tmdb_show'), (90686, 'tmdb_show'), (12258, 'tmdb_show'), (7547, 'tmdb_show'), (204381, 'tmdb_show'), (1205, 'tmdb_show'), (71801, 'tmdb_show'), (60951, 'tmdb_show'), (10275, 'tmdb_show'), (16386, 'tmdb_show'), (106212, 'tmdb_show'), (38785, 'tmdb_show'), (62284, 'tmdb_show'), (16539, 'tmdb_show'), (14124, 'tmdb_show'), (68505, 'tmdb_show'), (97191, 'tmdb_show'), (31745, 'tmdb_show'), (31380, 'tmdb_show'), (14163, 'tmdb_show'), (122296, 'tmdb_show'), (137535, 'tmdb_show'), (88744, 'tmdb_show'), (86403, 'tmdb_show'), (16357, 'tmdb_show'), (38183, 'tmdb_show'), (112812, 'tmdb_show'), (64559, 'tmdb_show'), (40169, 'tmdb_show'), (96633, 'tmdb_show'), (133774, 'tmdb_show'), (21293, 'tmdb_show'), (122821, 'tmdb_show'), (3827, 'tmdb_show'), (63355, 'tmdb_show'), (12327, 'tmdb_show'), (114850, 'tmdb_show'), (12664, 'tmdb_show'), (203427, 'tmdb_show'), (116974, 'tmdb_show'), (63199, 'tmdb_show'), (79775, 'tmdb_show'), (114635, 'tmdb_show'), (84197, 'tmdb_show'), (64682, 'tmdb_show'), (72653, 'tmdb_show'), (14390, 'tmdb_show'), (178066, 'tmdb_show'), (37298, 'tmdb_show'), (73403, 'tmdb_show'), (214132, 'tmdb_show'), (73538, 'tmdb_show'), (80408, 'tmdb_show'), (119896, 'tmdb_show'), (11011, 'tmdb_show'), (13174, 'tmdb_show'), (128310, 'tmdb_show'), (131268, 'tmdb_show'), (46451, 'tmdb_show'), (19450, 'tmdb_show'), (72810, 'tmdb_show'), (75745, 'tmdb_show'), (83692, 'tmdb_show'), (96733, 'tmdb_show'), (113809, 'tmdb_show'), (117342, 'tmdb_show'), (8449, 'tmdb_show'), (156740, 'tmdb_show'), (129158, 'tmdb_show'), (124602, 'tmdb_show'), (86017, 'tmdb_show'), (78170, 'tmdb_show'), (77969, 'tmdb_show'), (61515, 'tmdb_show'), (47694, 'tmdb_show'), (42740, 'tmdb_show'), (34256, 'tmdb_show'), (27787, 'tmdb_show'), (7182, 'tmdb_show'), (3223, 'tmdb_show'), (203453, 'tmdb_show'), (19100, 'tmdb_show'), (92820, 'tmdb_show'), (74580, 'tmdb_show'), (91751, 'tmdb_show'), (203303, 'tmdb_show'), (62357, 'tmdb_show'), (62998, 'tmdb_show'), (100151, 'tmdb_show'), (95641, 'tmdb_show'), (57752, 'tmdb_show'), (66735, 'tmdb_show'), (91037, 'tmdb_show'), (117294, 'tmdb_show'), (29386, 'tmdb_show'), (155257, 'tmdb_show'), (39498, 'tmdb_show'), (37358, 'tmdb_show'), (34133, 'tmdb_show'), (37212, 'tmdb_show'), (106520, 'tmdb_show'), (75210, 'tmdb_show'), (65325, 'tmdb_show'), (42746, 'tmdb_show'), (36790, 'tmdb_show'), (18807, 'tmdb_show'), (118478, 'tmdb_show'), (42741, 'tmdb_show'), (19321, 'tmdb_show'), (133034, 'tmdb_show'), (103888, 'tmdb_show'), (24587, 'tmdb_show'), (16948, 'tmdb_show'), (38694, 'tmdb_show'), (207194, 'tmdb_show'), (205373, 'tmdb_show'), (36022, 'tmdb_show'), (42745, 'tmdb_show'), (35506, 'tmdb_show'), (91076, 'tmdb_show'), (117366, 'tmdb_show'), (69266, 'tmdb_show'), (116136, 'tmdb_show'), (77307, 'tmdb_show'), (63003, 'tmdb_show'), (8752, 'tmdb_show'), (204380, 'tmdb_show'), (123932, 'tmdb_show'), (65066, 'tmdb_show'), (10638, 'tmdb_show'), (203655, 'tmdb_show'), (10899, 'tmdb_show'), (203262, 'tmdb_show'), (105988, 'tmdb_show'), (76426, 'tmdb_show'), (129388, 'tmdb_show'), (128829, 'tmdb_show'), (70403, 'tmdb_show'), (98186, 'tmdb_show'), (83397, 'tmdb_show'), (18342, 'tmdb_show'), (77668, 'tmdb_show'), (121268, 'tmdb_show'), (42749, 'tmdb_show'), (42747, 'tmdb_show'), (80306, 'tmdb_show'), (154200, 'tmdb_show'), (59670, 'tmdb_show'), (220050, 'tmdb_show'), (216785, 'tmdb_show'), (204885, 'tmdb_show'), (204828, 'tmdb_show'), (197572, 'tmdb_show'), (117269, 'tmdb_show'), (117041, 'tmdb_show'), (117040, 'tmdb_show'), (113343, 'tmdb_show'), (106954, 'tmdb_show'), (101609, 'tmdb_show'), (93710, 'tmdb_show'), (88414, 'tmdb_show'), (80407, 'tmdb_show'), (79446, 'tmdb_show'), (77306, 'tmdb_show'), (77133, 'tmdb_show'), (76268, 'tmdb_show'), (69499, 'tmdb_show'), (67323, 'tmdb_show'), (63000, 'tmdb_show'), (59088, 'tmdb_show'), (58436, 'tmdb_show'), (42819, 'tmdb_show'), (42818, 'tmdb_show'), (42817, 'tmdb_show'), (42816, 'tmdb_show'), (42815, 'tmdb_show'), (42814, 'tmdb_show'), (42813, 'tmdb_show'), (42811, 'tmdb_show'), (42810, 'tmdb_show'), (42809, 'tmdb_show'), (42808, 'tmdb_show'), (42806, 'tmdb_show'), (42750, 'tmdb_show'), (42748, 'tmdb_show'), (42744, 'tmdb_show'), (42742, 'tmdb_show'), (42185, 'tmdb_show'), (38414, 'tmdb_show'), (37887, 'tmdb_show'), (37551, 'tmdb_show'), (37327, 'tmdb_show'), (36768, 'tmdb_show'), (35951, 'tmdb_show'), (35380, 'tmdb_show'), (34659, 'tmdb_show'), (33695, 'tmdb_show'), (32532, 'tmdb_show'), (31603, 'tmdb_show'), (30975, 'tmdb_show'), (29055, 'tmdb_show'), (25675, 'tmdb_show'), (23856, 'tmdb_show'), (13059, 'tmdb_show'), (10754, 'tmdb_show'), (9456, 'tmdb_show'), (8006, 'tmdb_show'), (4021, 'tmdb_show'), (690, 'tmdb_show'), (614, 'tmdb_show')] |
+[2023-02-14 01:36:41,708] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:41,854] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 90686                                                 |
+[2023-02-14 01:36:41,972] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 96633                                                 |
+[2023-02-14 01:36:42,089] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 13174                                                 |
+[2023-02-14 01:36:42,198] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 92820                                                 |
+[2023-02-14 01:36:42,300] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 91037                                                 |
+[2023-02-14 01:36:42,404] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 117294                                                |
+[2023-02-14 01:36:42,500] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 29386                                                 |
+[2023-02-14 01:36:42,617] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 37212                                                 |
+[2023-02-14 01:36:42,767] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 133034                                                |
+[2023-02-14 01:36:42,876] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 69266                                                 |
+[2023-02-14 01:36:42,981] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77307                                                 |
+[2023-02-14 01:36:43,089] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 63003                                                 |
+[2023-02-14 01:36:43,325] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 98186                                                 |
+[2023-02-14 01:36:43,436] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 83397                                                 |
+[2023-02-14 01:36:43,669] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 101609                                                |
+[2023-02-14 01:36:43,780] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 93710                                                 |
+[2023-02-14 01:36:43,882] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 80407                                                 |
+[2023-02-14 01:36:43,985] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77306                                                 |
+[2023-02-14 01:36:44,095] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 77133                                                 |
+[2023-02-14 01:36:44,197] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 76268                                                 |
+[2023-02-14 01:36:44,308] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 67323                                                 |
+[2023-02-14 01:36:44,411] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 59088                                                 |
+[2023-02-14 01:36:44,520] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42819                                                 |
+[2023-02-14 01:36:44,627] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42818                                                 |
+[2023-02-14 01:36:44,753] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42817                                                 |
+[2023-02-14 01:36:44,855] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42816                                                 |
+[2023-02-14 01:36:44,982] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42815                                                 |
+[2023-02-14 01:36:45,091] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42814                                                 |
+[2023-02-14 01:36:45,196] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42813                                                 |
+[2023-02-14 01:36:45,297] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42811                                                 |
+[2023-02-14 01:36:45,396] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42810                                                 |
+[2023-02-14 01:36:45,500] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42809                                                 |
+[2023-02-14 01:36:45,628] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42808                                                 |
+[2023-02-14 01:36:45,729] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42806                                                 |
+[2023-02-14 01:36:45,863] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42750                                                 |
+[2023-02-14 01:36:45,962] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42748                                                 |
+[2023-02-14 01:36:46,070] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42744                                                 |
+[2023-02-14 01:36:46,173] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 42185                                                 |
+[2023-02-14 01:36:46,276] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 35951                                                 |
+[2023-02-14 01:36:46,381] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 32532                                                 |
+[2023-02-14 01:36:46,608] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 9456                                                  |
+[2023-02-14 01:36:46,716] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 8006                                                  |
+[2023-02-14 01:36:46,817] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 4021                                                  |
+[2023-02-14 01:36:46,818] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:46,819] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 2639                                                                        |
+[2023-02-14 01:36:46,819] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-14 01:36:47,016] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (2639) A&E (2 Shows)                                                      |
+[2023-02-14 01:36:47,016] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:47,017] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(81340, 'tmdb_show'), (138516, 'tmdb_show')]                                         |
+[2023-02-14 01:36:47,017] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:47,121] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 81340                                                 |
+[2023-02-14 01:36:47,228] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 138516                                                |
+[2023-02-14 01:36:47,228] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:47,228] [builder.py:1276]           [DEBUG]    | Builder: tmdb_network: 3688                                                                        |
+[2023-02-14 01:36:47,229] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-14 01:36:47,435] [tmdb.py:282]               [INFO]     | Processing TMDb Network: (3688) A&E (3 Shows)                                                      |
+[2023-02-14 01:36:47,435] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:47,435] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(74868, 'tmdb_show'), (195955, 'tmdb_show'), (130235, 'tmdb_show')]                  |
+[2023-02-14 01:36:47,436] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-14 01:36:47,541] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 74868                                                 |
+[2023-02-14 01:36:47,646] [builder.py:1361]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 195955                                                |
+[2023-02-14 01:36:47,647] [plex_meta_manager.py:797]  [INFO]     |                                                                                                    |
+[2023-02-14 01:36:47,648] [plex_meta_manager.py:798]  [INFO]     | Collection Minimum: 1 not met for A&E Collection                                                   |
+[2023-02-14 01:36:47,648] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-02-14 01:36:47,648] [util.py:216]               [INFO]     |================================= Missing Shows from Library: A&E ==================================|
+[2023-02-14 01:36:47,648] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-02-14 01:36:48,161] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bates Motel (TVDB: 262414)                                                    |
+[2023-02-14 01:36:48,412] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bag of Bones (TVDB: 252870)                                                   |
+[2023-02-14 01:36:48,849] [builder.py:1982]           [INFO]     | A&E Collection | ? | Longmire (TVDB: 253491)                                                       |
+[2023-02-14 01:36:49,467] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars (TVDB: 207621)                                                   |
+[2023-02-14 01:36:49,791] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Glades (TVDB: 168941)                                                     |
+[2023-02-14 01:36:50,203] [builder.py:1982]           [INFO]     | A&E Collection | ? | Unforgettable (TVDB: 248861)                                                  |
+[2023-02-14 01:36:50,478] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bonnie & Clyde (TVDB: 270110)                                                 |
+[2023-02-14 01:36:51,212] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 (TVDB: 81275)                                                    |
+[2023-02-14 01:36:51,544] [builder.py:1982]           [INFO]     | A&E Collection | ? | War & Peace (2016) (TVDB: 299408)                                             |
+[2023-02-14 01:36:51,873] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD (TVDB: 318451)                                                        |
+[2023-02-14 01:36:52,154] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Andromeda Strain (TVDB: 81843)                                            |
+[2023-02-14 01:36:52,584] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dog the Bounty Hunter (TVDB: 75036)                                           |
+[2023-02-14 01:36:52,848] [builder.py:1982]           [INFO]     | A&E Collection | ? | Accused: Guilty or Innocent? (TVDB: 379555)                                   |
+[2023-02-14 01:36:53,302] [builder.py:1982]           [INFO]     | A&E Collection | ? | Duck Dynasty (TVDB: 256825)                                                   |
+[2023-02-14 01:36:53,672] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lovejoy (TVDB: 71764)                                                         |
+[2023-02-14 01:36:54,002] [builder.py:1982]           [INFO]     | A&E Collection | ? | Breakout Kings (TVDB: 219341)                                                 |
+[2023-02-14 01:36:54,356] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gene Simmons Family Jewels (TVDB: 79406)                                      |
+[2023-02-14 01:36:54,746] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In (TVDB: 308045)                                                     |
+[2023-02-14 01:36:55,053] [builder.py:1982]           [INFO]     | A&E Collection | ? | Celebrity Ghost Stories (TVDB: 122701)                                        |
+[2023-02-14 01:36:55,271] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: WWE Legends (TVDB: 397372)                                         |
+[2023-02-14 01:36:55,477] [builder.py:1982]           [INFO]     | A&E Collection | ? | Taking the Stand (TVDB: 414696)                                               |
+[2023-02-14 01:36:55,753] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Returned (US) (TVDB: 283317)                                              |
+[2023-02-14 01:36:56,047] [builder.py:1982]           [INFO]     | A&E Collection | ? | Zombie House Flipping (TVDB: 306562)                                          |
+[2023-02-14 01:36:56,784] [builder.py:1982]           [INFO]     | A&E Collection | ? | Intervention (TVDB: 75896)                                                    |
+[2023-02-14 01:36:57,026] [builder.py:1982]           [INFO]     | A&E Collection | ? | Damien (TVDB: 282165)                                                         |
+[2023-02-14 01:36:57,223] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of Playboy (TVDB: 413259)                                             |
+[2023-02-14 01:36:57,472] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Texas (TVDB: 251596)                                            |
+[2023-02-14 01:36:57,787] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Cam (TVDB: 371728)                                                      |
+[2023-02-14 01:36:58,198] [builder.py:1982]           [INFO]     | A&E Collection | ? | Shipping Wars (TVDB: 254669)                                                  |
+[2023-02-14 01:36:58,652] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hoarders (TVDB: 109621)                                                       |
+[2023-02-14 01:36:59,203] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Justice (TVDB: 216281)                                               |
+[2023-02-14 01:36:59,472] [builder.py:1982]           [INFO]     | A&E Collection | ? | Leah Remini: Scientology and the Aftermath (TVDB: 319252)                     |
+[2023-02-14 01:36:59,728] [builder.py:1982]           [INFO]     | A&E Collection | ? | Coma (TVDB: 261272)                                                           |
+[2023-02-14 01:37:00,123] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cold Case Files (TVDB: 74814)                                                 |
+[2023-02-14 01:37:00,373] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Cleaner (TVDB: 82492)                                                     |
+[2023-02-14 01:37:00,583] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Rivals (TVDB: 420793)                                                     |
+[2023-02-14 01:37:00,850] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nero Wolfe (2001) (TVDB: 78811)                                               |
+[2023-02-14 01:37:01,185] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD: Police Patrol (TVDB: 329175)                                         |
+[2023-02-14 01:37:01,726] [builder.py:1982]           [INFO]     | A&E Collection | ? | Wahlburgers (TVDB: 276525)                                                    |
+[2023-02-14 01:37:01,989] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ancient Mysteries (TVDB: 226691)                                              |
+[2023-02-14 01:37:02,238] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Beast (TVDB: 83805)                                                       |
+[2023-02-14 01:37:02,444] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Menendez Murders: Erik Tells All (TVDB: 338565)                           |
+[2023-02-14 01:37:02,763] [builder.py:1982]           [INFO]     | A&E Collection | ? | Beyond Scared Straight (TVDB: 219331)                                         |
+[2023-02-14 01:37:03,030] [builder.py:1982]           [INFO]     | A&E Collection | ? | Those Who Kill (US) (TVDB: 273351)                                            |
+[2023-02-14 01:37:03,316] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Unexplained (TVDB: 256661)                                                |
+[2023-02-14 01:37:03,664] [builder.py:1982]           [INFO]     | A&E Collection | ? | Paranormal State (TVDB: 81408)                                                |
+[2023-02-14 01:37:03,886] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killing Season (2016) (TVDB: 318973)                                      |
+[2023-02-14 01:37:04,176] [builder.py:1982]           [INFO]     | A&E Collection | ? | America's Top Dog (TVDB: 372763)                                              |
+[2023-02-14 01:37:04,504] [builder.py:1982]           [INFO]     | A&E Collection | ? | Billy the Exterminator (TVDB: 166101)                                         |
+[2023-02-14 01:37:04,733] [builder.py:1982]           [INFO]     | A&E Collection | ? | Steven Seagal: Lawman (TVDB: 126841)                                          |
+[2023-02-14 01:37:05,105] [builder.py:1982]           [INFO]     | A&E Collection | ? | Parking Wars (TVDB: 81343)                                                    |
+[2023-02-14 01:37:05,335] [builder.py:1982]           [INFO]     | A&E Collection | ? | Janet Jackson. (TVDB: 414707)                                                 |
+[2023-02-14 01:37:05,570] [builder.py:1982]           [INFO]     | A&E Collection | ? | Triple Digit Flip (TVDB: 411218)                                              |
+[2023-02-14 01:37:05,932] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live Rescue (TVDB: 361071)                                                    |
+[2023-02-14 01:37:06,108] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 Presents: Homicide Squad Atlanta (TVDB: 356224)                  |
+[2023-02-14 01:37:06,314] [builder.py:1982]           [INFO]     | A&E Collection | ? | Manhunters: Fugitive Task Force (TVDB: 84133)                                 |
+[2023-02-14 01:37:06,368] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 205371                              |
+[2023-02-14 01:37:06,640] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48 Presents Critical Minutes (TVDB: 391480)                         |
+[2023-02-14 01:37:06,932] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nightwatch (TVDB: 290557)                                                     |
+[2023-02-14 01:37:07,111] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kirstie Alley's Big Life (TVDB: 150411)                                       |
+[2023-02-14 01:37:07,493] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighborhood Wars (TVDB: 409286)                                              |
+[2023-02-14 01:37:07,710] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Greatest Pharaohs (TVDB: 92541)                                           |
+[2023-02-14 01:37:07,936] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE's Most Wanted Treasures (TVDB: 397507)                                    |
+[2023-02-14 01:37:08,153] [builder.py:1982]           [INFO]     | A&E Collection | ? | Airline (2004) (TVDB: 81059)                                                  |
+[2023-02-14 01:37:08,407] [builder.py:1982]           [INFO]     | A&E Collection | ? | Behind Bars: Rookie Year (TVDB: 298997)                                       |
+[2023-02-14 01:37:08,681] [builder.py:1982]           [INFO]     | A&E Collection | ? | 100 Centre Street (TVDB: 71327)                                               |
+[2023-02-14 01:37:08,864] [builder.py:1982]           [INFO]     | A&E Collection | ? | Pawn Stars Australia (TVDB: 298914)                                           |
+[2023-02-14 01:37:09,251] [builder.py:1982]           [INFO]     | A&E Collection | ? | Sell This House (TVDB: 73497)                                                 |
+[2023-02-14 01:37:09,465] [builder.py:1982]           [INFO]     | A&E Collection | ? | Digital Addiction (TVDB: 420414)                                              |
+[2023-02-14 01:37:09,641] [builder.py:1982]           [INFO]     | A&E Collection | ? | The American Revolution (TVDB: 87711)                                         |
+[2023-02-14 01:37:09,927] [builder.py:1982]           [INFO]     | A&E Collection | ? | Escaping Polygamy (TVDB: 297358)                                              |
+[2023-02-14 01:37:10,125] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cults and Extreme Belief (TVDB: 348158)                                       |
+[2023-02-14 01:37:10,362] [builder.py:1982]           [INFO]     | A&E Collection | ? | Killer Cases (TVDB: 392853)                                                   |
+[2023-02-14 01:37:10,595] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Clinton Affair (TVDB: 355453)                                             |
+[2023-02-14 01:37:10,877] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born This Way (TVDB: 304021)                                                  |
+[2023-02-14 01:37:11,053] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Lowe Files (TVDB: 330816)                                                 |
+[2023-02-14 01:37:11,273] [builder.py:1982]           [INFO]     | A&E Collection | ? | Street Justice (TVDB: 71052)                                                  |
+[2023-02-14 01:37:11,472] [builder.py:1982]           [INFO]     | A&E Collection | ? | Secrets of the Chippendales Murders (TVDB: 417812)                            |
+[2023-02-14 01:37:11,646] [builder.py:1982]           [INFO]     | A&E Collection | ? | $100 Makeover (TVDB: 251171)                                                  |
+[2023-02-14 01:37:11,874] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cursed: The Bell Witch (TVDB: 302303)                                         |
+[2023-02-14 01:37:12,107] [builder.py:1982]           [INFO]     | A&E Collection | ? | Customer Wars (TVDB: 425256)                                                  |
+[2023-02-14 01:37:12,284] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Murder of Laci Peterson (TVDB: 333271)                                    |
+[2023-02-14 01:37:12,451] [builder.py:1982]           [INFO]     | A&E Collection | ? | Gotti: Godfather and Son (TVDB: 348769)                                       |
+[2023-02-14 01:37:12,647] [builder.py:1982]           [INFO]     | A&E Collection | ? | I Survived a Crime (TVDB: 395266)                                             |
+[2023-02-14 01:37:12,864] [builder.py:1982]           [INFO]     | A&E Collection | ? | Inked (TVDB: 78805)                                                           |
+[2023-02-14 01:37:13,074] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: KISStory (TVDB: 405718)                                            |
+[2023-02-14 01:37:13,237] [builder.py:1982]           [INFO]     | A&E Collection | ? | Invisible Monsters: Serial Killers in America (TVDB: 405960)                  |
+[2023-02-14 01:37:13,432] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Killer Speaks (TVDB: 268422)                                              |
+[2023-02-14 01:37:13,637] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Two Coreys (TVDB: 80360)                                                  |
+[2023-02-14 01:37:13,843] [builder.py:1982]           [INFO]     | A&E Collection | ? | Akil the Fugitive Hunter (TVDB: 331425)                                       |
+[2023-02-14 01:37:14,097] [builder.py:1982]           [INFO]     | A&E Collection | ? | Undercover High (TVDB: 335442)                                                |
+[2023-02-14 01:37:14,392] [builder.py:1982]           [INFO]     | A&E Collection | ? | Live PD Presents: PD Cam (TVDB: 350050)                                       |
+[2023-02-14 01:37:14,586] [builder.py:1982]           [INFO]     | A&E Collection | ? | Kids Behind Bars (TVDB: 249498)                                               |
+[2023-02-14 01:37:14,800] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rescue Cam (TVDB: 391188)                                                     |
+[2023-02-14 01:37:15,010] [builder.py:1982]           [INFO]     | A&E Collection | ? | Weapons at War: Brute Force (TVDB: 267009)                                    |
+[2023-02-14 01:37:15,205] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hotel Malibu (TVDB: 71370)                                                    |
+[2023-02-14 01:37:15,378] [builder.py:1982]           [INFO]     | A&E Collection | ? | Adults Adopting Adults (TVDB: 414882)                                         |
+[2023-02-14 01:37:15,584] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Untold Story (TVDB: 361381)                                               |
+[2023-02-14 01:37:15,812] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Cam Presents Under Oath (TVDB: 401832)                                  |
+[2023-02-14 01:37:16,029] [builder.py:1982]           [INFO]     | A&E Collection | ? | Many Sides of Jane (TVDB: 357651)                                             |
+[2023-02-14 01:37:16,233] [builder.py:1982]           [INFO]     | A&E Collection | ? | Marcia Clark Investigates The First 48 (TVDB: 341706)                         |
+[2023-02-14 01:37:16,409] [builder.py:1982]           [INFO]     | A&E Collection | ? | Waco: Madman or Messiah (TVDB: 341252)                                        |
+[2023-02-14 01:37:16,591] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dead Again (TVDB: 286242)                                                     |
+[2023-02-14 01:37:16,857] [builder.py:1982]           [INFO]     | A&E Collection | ? | Frankie's House (TVDB: 252307)                                                |
+[2023-02-14 01:37:17,119] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Hoggers (TVDB: 252617)                                               |
+[2023-02-14 01:37:17,287] [builder.py:1982]           [INFO]     | A&E Collection | ? | Teach: Tony Danza (TVDB: 193511)                                              |
+[2023-02-14 01:37:17,532] [builder.py:1982]           [INFO]     | A&E Collection | ? | Ghostly Encounters (TVDB: 217081)                                             |
+[2023-02-14 01:37:17,737] [builder.py:1982]           [INFO]     | A&E Collection | ? | Crime 360 (TVDB: 81487)                                                       |
+[2023-02-14 01:37:17,973] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Gotti (TVDB: 74819)                                                |
+[2023-02-14 01:37:18,162] [builder.py:1982]           [INFO]     | A&E Collection | ? | Interrogation Raw (TVDB: 420401)                                              |
+[2023-02-14 01:37:18,328] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hammertime (TVDB: 99971)                                                      |
+[2023-02-14 01:37:18,555] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Eleven (TVDB: 336193)                                                     |
+[2023-02-14 01:37:18,724] [builder.py:1982]           [INFO]     | A&E Collection | ? | 60 Days In: Narcoland (TVDB: 365846)                                          |
+[2023-02-14 01:37:18,952] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bobby Brown: Every Little Step (TVDB: 420389)                                 |
+[2023-02-14 01:37:19,146] [builder.py:1982]           [INFO]     | A&E Collection | ? | Neighbors With Benefits (TVDB: 293005)                                        |
+[2023-02-14 01:37:19,359] [builder.py:1982]           [INFO]     | A&E Collection | ? | Donnie Loves Jenny (TVDB: 289205)                                             |
+[2023-02-14 01:37:19,553] [builder.py:1982]           [INFO]     | A&E Collection | ? | American Haunting (TVDB: 271934)                                              |
+[2023-02-14 01:37:19,745] [builder.py:1982]           [INFO]     | A&E Collection | ? | Alaska PD (TVDB: 372733)                                                      |
+[2023-02-14 01:37:19,939] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars New York (TVDB: 264535)                                          |
+[2023-02-14 01:37:20,154] [builder.py:1982]           [INFO]     | A&E Collection | ? | Streets of Compton (TVDB: 312835)                                             |
+[2023-02-14 01:37:20,328] [builder.py:1982]           [INFO]     | A&E Collection | ? | BTK: Confession of a Serial Killer (TVDB: 414455)                             |
+[2023-02-14 01:37:20,557] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Missing Persons (TVDB: 249241)                                  |
+[2023-02-14 01:37:20,739] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Squad: Prison Police (TVDB: 181641)                                       |
+[2023-02-14 01:37:20,964] [builder.py:1982]           [INFO]     | A&E Collection | ? | Travel Sick (TVDB: 74761)                                                     |
+[2023-02-14 01:37:21,139] [builder.py:1982]           [INFO]     | A&E Collection | ? | Garth Brooks: The Road I'm On (TVDB: 372636)                                  |
+[2023-02-14 01:37:21,328] [builder.py:1982]           [INFO]     | A&E Collection | ? | Who Killed Tupac? (TVDB: 330903)                                              |
+[2023-02-14 01:37:21,533] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fit to Fat to Fit (TVDB: 306214)                                              |
+[2023-02-14 01:37:21,786] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipping Boston (TVDB: 257065)                                                |
+[2023-02-14 01:37:22,083] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fix This Yard (TVDB: 312250)                                                  |
+[2023-02-14 01:37:22,307] [builder.py:1982]           [INFO]     | A&E Collection | ? | Obsessed (TVDB: 96301)                                                        |
+[2023-02-14 01:37:22,358] [builder.py:1977]           [ERROR]    | TVDb Error: Could not find a TVDb Series using TVDb Series ID: 351233                              |
+[2023-02-14 01:37:22,598] [builder.py:1982]           [INFO]     | A&E Collection | ? | Barter Kings (TVDB: 259497)                                                   |
+[2023-02-14 01:37:22,792] [builder.py:1982]           [INFO]     | A&E Collection | ? | Paranormal Cops (TVDB: 136651)                                                |
+[2023-02-14 01:37:22,964] [builder.py:1982]           [INFO]     | A&E Collection | ? | The First 48: Killer Confessions (TVDB: 296989)                               |
+[2023-02-14 01:37:23,165] [builder.py:1982]           [INFO]     | A&E Collection | ? | Moonacre (TVDB: 77426)                                                        |
+[2023-02-14 01:37:23,362] [builder.py:1982]           [INFO]     | A&E Collection | ? | Confessions of a Matchmaker (TVDB: 271517)                                    |
+[2023-02-14 01:37:23,551] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Ghost Prophecies (TVDB: 212401)                                           |
+[2023-02-14 01:37:23,732] [builder.py:1982]           [INFO]     | A&E Collection | ? | Court Night Live (TVDB: 422959)                                               |
+[2023-02-14 01:37:23,947] [builder.py:1982]           [INFO]     | A&E Collection | ? | Road Wars (2022) (TVDB: 422035)                                               |
+[2023-02-14 01:37:24,121] [builder.py:1982]           [INFO]     | A&E Collection | ? | Meet the Royals (TVDB: 75013)                                                 |
+[2023-02-14 01:37:24,331] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipped Off (TVDB: 257836)                                                    |
+[2023-02-14 01:37:24,537] [builder.py:1982]           [INFO]     | A&E Collection | ? | Makeover Mamas (TVDB: 73276)                                                  |
+[2023-02-14 01:37:24,731] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hero Ink (TVDB: 364876)                                                       |
+[2023-02-14 01:37:24,924] [builder.py:1982]           [INFO]     | A&E Collection | ? | Mafia: The History of the Mob in America (TVDB: 285084)                       |
+[2023-02-14 01:37:25,132] [builder.py:1982]           [INFO]     | A&E Collection | ? | Nature Gone Wild (TVDB: 394086)                                               |
+[2023-02-14 01:37:25,365] [builder.py:1982]           [INFO]     | A&E Collection | ? | Psychic Kids: Children of the Paranormal (TVDB: 82476)                        |
+[2023-02-14 01:37:25,541] [builder.py:1982]           [INFO]     | A&E Collection | ? | WWE Smack Talk (TVDB: 420794)                                                 |
+[2023-02-14 01:37:25,730] [builder.py:1982]           [INFO]     | A&E Collection | ? | Hustle & Tow (TVDB: 399989)                                                   |
+[2023-02-14 01:37:25,915] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dogs of War (TVDB: 287726)                                                    |
+[2023-02-14 01:37:26,193] [builder.py:1982]           [INFO]     | A&E Collection | ? | Dallas SWAT (TVDB: 80341)                                                     |
+[2023-02-14 01:37:26,385] [builder.py:1982]           [INFO]     | A&E Collection | ? | Living Smaller (TVDB: 420855)                                                 |
+[2023-02-14 01:37:26,736] [builder.py:1982]           [INFO]     | A&E Collection | ? | City Confidential (TVDB: 271790)                                              |
+[2023-02-14 01:37:26,949] [builder.py:1982]           [INFO]     | A&E Collection | ? | Origins of Hip Hop (TVDB: 420627)                                             |
+[2023-02-14 01:37:27,126] [builder.py:1982]           [INFO]     | A&E Collection | ? | Extreme Unboxing (TVDB: 385920)                                               |
+[2023-02-14 01:37:27,338] [builder.py:1982]           [INFO]     | A&E Collection | ? | Minute by Minute (2001) (TVDB: 296296)                                        |
+[2023-02-14 01:37:27,558] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fasten Your Seatbelt (TVDB: 406564)                                           |
+[2023-02-14 01:37:27,770] [builder.py:1982]           [INFO]     | A&E Collection | ? | An Animal Saved My Life (TVDB: 405033)                                        |
+[2023-02-14 01:37:27,980] [builder.py:1982]           [INFO]     | A&E Collection | ? | Jep & Jessica: Growing the Dynasty (TVDB: 306038)                             |
+[2023-02-14 01:37:28,176] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rookies (2008) (TVDB: 93611)                                                  |
+[2023-02-14 01:37:28,380] [builder.py:1982]           [INFO]     | A&E Collection | ? | Divided States (TVDB: 343869)                                                 |
+[2023-02-14 01:37:28,626] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Gestapo (TVDB: 84624)                                                     |
+[2023-02-14 01:37:28,805] [builder.py:1982]           [INFO]     | A&E Collection | ? | Last Chance Driving School (TVDB: 257985)                                     |
+[2023-02-14 01:37:29,069] [builder.py:1982]           [INFO]     | A&E Collection | ? | Flipping Vegas (TVDB: 255095)                                                 |
+[2023-02-14 01:37:29,308] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Untold Story of the 90s (TVDB: 349519)                                    |
+[2023-02-14 01:37:29,486] [builder.py:1982]           [INFO]     | A&E Collection | ? | Born Behind Bars (TVDB: 349727)                                               |
+[2023-02-14 01:37:29,669] [builder.py:1982]           [INFO]     | A&E Collection | ? | Southie Rules (TVDB: 265990)                                                  |
+[2023-02-14 01:37:29,843] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Barry’s Best Buys (TVDB: 430450)                                |
+[2023-02-14 01:37:30,037] [builder.py:1982]           [INFO]     | A&E Collection | ? | Christmas Wars (TVDB: 428255)                                                 |
+[2023-02-14 01:37:30,217] [builder.py:1982]           [INFO]     | A&E Collection | ? | First Blood (TVDB: 421747)                                                    |
+[2023-02-14 01:37:30,442] [builder.py:1982]           [INFO]     | A&E Collection | ? | Biography: Bobby Brown (TVDB: 420786)                                         |
+[2023-02-14 01:37:30,614] [builder.py:1982]           [INFO]     | A&E Collection | ? | 50/50 Flip (TVDB: 415446)                                                     |
+[2023-02-14 01:37:30,805] [builder.py:1982]           [INFO]     | A&E Collection | ? | What's It Worth? (TVDB: 386384)                                               |
+[2023-02-14 01:37:31,032] [builder.py:1982]           [INFO]     | A&E Collection | ? | Foot Soldier (TVDB: 266587)                                                   |
+[2023-02-14 01:37:31,248] [builder.py:1982]           [INFO]     | A&E Collection | ? | Sea Tales (TVDB: 290634)                                                      |
+[2023-02-14 01:37:31,414] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Day I Picked My Parents (TVDB: 369332)                                    |
+[2023-02-14 01:37:31,604] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Toe Bro (TVDB: 359717)                                                    |
+[2023-02-14 01:37:31,839] [builder.py:1982]           [INFO]     | A&E Collection | ? | Elizabeth Smart: Autobiography (TVDB: 337860)                                 |
+[2023-02-14 01:37:32,050] [builder.py:1982]           [INFO]     | A&E Collection | ? | Epic Ink (TVDB: 283384)                                                       |
+[2023-02-14 01:37:32,228] [builder.py:1982]           [INFO]     | A&E Collection | ? | Storage Wars: Miami (TVDB: 301610)                                            |
+[2023-02-14 01:37:32,404] [builder.py:1982]           [INFO]     | A&E Collection | ? | Lachey's Bar (TVDB: 297510)                                                   |
+[2023-02-14 01:37:32,640] [builder.py:1982]           [INFO]     | A&E Collection | ? | Cajun Justice (TVDB: 259423)                                                  |
+[2023-02-14 01:37:32,835] [builder.py:1982]           [INFO]     | A&E Collection | ? | Bordertown: Laredo (TVDB: 252574)                                             |
+[2023-02-14 01:37:33,046] [builder.py:1982]           [INFO]     | A&E Collection | ? | Relapse (TVDB: 220401)                                                        |
+[2023-02-14 01:37:33,216] [builder.py:1982]           [INFO]     | A&E Collection | ? | Runaway Squad (TVDB: 404005)                                                  |
+[2023-02-14 01:37:33,493] [builder.py:1982]           [INFO]     | A&E Collection | ? | Investigative Reports (TVDB: 280099)                                          |
+[2023-02-14 01:37:33,670] [builder.py:1982]           [INFO]     | A&E Collection | ? | Fugitive Chronicles (TVDB: 155611)                                            |
+[2023-02-14 01:37:33,885] [builder.py:1982]           [INFO]     | A&E Collection | ? | TVography (TVDB: 70974)                                                       |
+[2023-02-14 01:37:34,076] [builder.py:1982]           [INFO]     | A&E Collection | ? | Heavy (TVDB: 213131)                                                          |
+[2023-02-14 01:37:34,255] [builder.py:1982]           [INFO]     | A&E Collection | ? | Strange Days with Bob Saget (TVDB: 208081)                                    |
+[2023-02-14 01:37:34,425] [builder.py:1982]           [INFO]     | A&E Collection | ? | Growing Up Twisted (TVDB: 179381)                                             |
+[2023-02-14 01:37:34,662] [builder.py:1982]           [INFO]     | A&E Collection | ? | The Jacksons: A Family Dynasty (TVDB: 139431)                                 |
+[2023-02-14 01:37:34,898] [builder.py:1982]           [INFO]     | A&E Collection | ? | Tattoo Highway (TVDB: 96711)                                                  |
+[2023-02-14 01:37:35,116] [builder.py:1982]           [INFO]     | A&E Collection | ? | The View from Daniel Pike (TVDB: 75012)                                       |
+[2023-02-14 01:37:35,301] [builder.py:1982]           [INFO]     | A&E Collection | ? | Female Forces (TVDB: 377302)                                                  |
+[2023-02-14 01:37:35,485] [builder.py:1982]           [INFO]     | A&E Collection | ? | Treasure! (TVDB: 236641)                                                      |
+[2023-02-14 01:37:35,706] [builder.py:1982]           [INFO]     | A&E Collection | ? | Driving Force (TVDB: 80036)                                                   |
+[2023-02-14 01:37:35,909] [builder.py:1982]           [INFO]     | A&E Collection | ? | Family Plots (TVDB: 74509)                                                    |
+[2023-02-14 01:37:36,082] [builder.py:1982]           [INFO]     | A&E Collection | ? | King of Cars (TVDB: 128061)                                                   |
+[2023-02-14 01:37:36,270] [builder.py:1982]           [INFO]     | A&E Collection | ? | Rollergirls (TVDB: 83819)                                                     |
+[2023-02-14 01:37:36,468] [builder.py:1982]           [INFO]     | A&E Collection | ? | Aussie Pickers (TVDB: 270032)                                                 |
+[2023-02-14 01:37:36,468] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-02-14 01:37:36,469] [builder.py:1987]           [INFO]     | 198 Shows Missing                                                                                  |
+[2023-02-14 01:37:36,490] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-14 01:37:36,490] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-14 01:37:36,491] [util.py:216]               [INFO]     |                                      Finished A&E Collection                                       |
+[2023-02-14 01:37:36,491] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:56                                    |
+[2023-02-14 01:37:36,491] [util.py:220]               [INFO]     |====================================================================================================|

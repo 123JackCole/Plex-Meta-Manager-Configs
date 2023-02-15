@@ -13,9 +13,8 @@
 ###########################
 ##    Anime Templates    ##
 ###########################
-
 templates:
-  Anime:
+  Genre:
     optional:
       - poster
     mal_search:
@@ -27,64 +26,61 @@ templates:
     collection_mode: hide
     sync_mode: sync
     sonarr_add_existing: true
-     
+    sonarr_add_missing: true
+  MAL:
+    optional:
+      - poster
+      - sort_title
+    sort_title: ++++++_<<sort_title>>
+    url_poster: <<poster>>
+    mal_userlist:
+      username: <<username>>
+      status: <<status>>
+      sort_by: <<sort>>
+      limit: <<limit>>
+    collection_order: custom
+    visible_home: true
+    visible_library: true
+    sync_mode: sync
+    sonarr_add_existing: true
+    sonarr_add_missing: true
+  Season:
+    optional:
+      - poster
+    mal_season:
+      season: current
+      limit: 20
+      sort_by: members
+    url_poster: <<poster>>
+    collection_order: custom
+    sort_title: +++++++_<<collection_name>>
+    sync_mode: sync
+    sonarr_add_existing: true
+    sonarr_add_missing: true
+  Studio:
+    anilist_studio: <<studio_id>>
+    sort_title: zzzzzzzzzzzzz<<collection_name>>
+    sync_mode: sync
+    collection_mode: hide
+    sonarr_add_existing: true
+    sonarr_add_missing: true
 
 collections:
 ###########################
 #     MAL Collections     #
 ###########################
   "Jack's Favorite Anime":
-    sort_title: ++++++_Completed
-    # url_poster: 
-    mal_userlist:
-      username: JCH0tsh0t
-      status: completed
-      sort_by: score
-      limit: 40
-    collection_order: custom
-    visible_home: true
-    visible_library: true
-    sync_mode: sync
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: MAL, sort_title: Completed, username: JCH0tsh0t, status: completed, sort: score, limit: 40 }
   "Jack's Currently Watching":
-    sort_title: ++++++_Currently_Watching
-    # url_poster: 
-    mal_userlist:
-      username: JCH0tsh0t
-      status: watching
-      sort_by: title
-      limit: 1000
-    collection_order: custom
-    visible_home: true
-    visible_library: true
-    sync_mode: sync
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: MAL, sort_title: Currently_Watching, username: JCH0tsh0t, status: watching, sort: title, limit: 1000 }
   "Jack's Plan to Watch":
-    sort_title: ++++++_Plan_to_Watch
-    # url_poster: 
-    mal_userlist:
-      username: JCH0tsh0t
-      status: plan_to_watch
-      sort_by: title
-      limit: 1000
-    collection_order: custom
-    sync_mode: sync
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: MAL, sort_title: Plan_to_Watch, username: JCH0tsh0t, status: plan_to_watch, sort: title, limit: 1000 }
   "Jack's Whole MAL List":
+    template: { name: MAL, username: JCH0tsh0t, status: all, sort: title, limit: 1000 }
     sort_title: +_zZzEverything
-    # url_poster: 
-    mal_userlist:
-      username: JCH0tsh0t
-      status: all
-      sort_by: title
-      limit: 1000
     collection_mode: hide
-    sync_mode: sync
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    visible_home: false
+    visible_library: false
 
 ###########################
 #    Custom Collection    #
@@ -121,188 +117,171 @@ collections:
     sync_mode: sync    
     sonarr_add_existing: true
     sonarr_add_missing: true
+
 ###########################
 #   Seasons Collections   #
 ###########################
   Seasonal Winter:
-    mal_season:
-      season: winter
-      limit: 20
-      sort_by: members
-    collection_order: custom
-    sort_title: +++++++_Winter
-    sync_mode: sync
-    schedule: range(01/01-04/01)
-    delete_not_scheduled: true
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: Season }
   Seasonal Spring:
-    mal_season:
-      season: spring
-      limit: 20
-      sort_by: members
-    collection_order: custom
-    sort_title: +++++++_Spring
-    sync_mode: sync
-    schedule: range(04/01-07/01)
-    delete_not_scheduled: true
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: Season }
   Seasonal Summer:
-    mal_season:
-      season: summer
-      limit: 20
-      sort_by: members
-    collection_order: custom
-    sort_title: +++++++_Summer
-    sync_mode: sync
-    schedule: range(07/01-10/01)
-    delete_not_scheduled: true
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+    template: { name: Season }
   Seasonal Fall:
-    mal_season:
-      season: fall
-      limit: 20
-      sort_by: members
-    collection_order: custom
-    sort_title: +++++++_Fall
-    schedule: range(10/01-01/01)
-    delete_not_scheduled: true
-    sync_mode: sync
-    sonarr_add_existing: true
-    sonarr_add_missing: true
-# ###########################
-# #    Genre Collections    #
-# ###########################
-  Action:
-    template: { name: Anime, mal_id: Action, poster: https://theposterdb.com/api/assets/213642}
-  Adventure:
-    template: { name: Anime, mal_id: Adventure, poster: https://theposterdb.com/api/assets/213632} 
-  Avant Garde:
-    template: { name: Anime, mal_id: 5, poster: https://theposterdb.com/api/assets/240144} 
-  Boys Love:
-    template: { name: Anime, mal_id: 28, poster: https://theposterdb.com/api/assets/240145} 
-  Comedy:
-    template: { name: Anime, mal_id: 4, poster: https://theposterdb.com/api/assets/213629} 
-  Drama:
-    template: { name: Anime, mal_id: 8, poster: https://theposterdb.com/api/assets/213630} 
-  Fantasy:
-    template: { name: Anime, mal_id: 10, poster: https://theposterdb.com/api/assets/213631} 
-  Girls Love:
-    template: { name: Anime, mal_id: 26, poster: https://theposterdb.com/api/assets/240152} 
-  Gourmet:
-    template: { name: Anime, mal_id: 47, poster: https://theposterdb.com/api/assets/240874} 
-  Horror:
-    template: { name: Anime, mal_id: 14, poster: https://theposterdb.com/api/assets/240855} 
-  Mystery:
-    template: { name: Anime, mal_id: 7, poster: https://theposterdb.com/api/assets/240863} 
-  Romance:
-    template: { name: Anime, mal_id: 22, poster: https://theposterdb.com/api/assets/213637} 
-  Sci-Fi:
-    template: { name: Anime, mal_id: 24, poster: https://theposterdb.com/api/assets/213635} 
-  Slice of Life:
-    template: { name: Anime, mal_id: 36, poster: https://theposterdb.com/api/assets/213663} 
-  Sports:
-    template: { name: Anime, mal_id: 30, poster: https://theposterdb.com/api/assets/213634} 
-  Supernatural:
-    template: { name: Anime, mal_id: 37, poster: https://theposterdb.com/api/assets/213670} 
-  Suspense:
-    template: { name: Anime, mal_id: 41, poster: https://theposterdb.com/api/assets/240217} 
-  Ecchi:
-    template: { name: Anime, mal_id: 9, poster: https://theposterdb.com/api/assets/240150} 
-  Adult Cast:
-    template: { name: Anime, mal_id: 50, poster: https://theposterdb.com/api/assets/240849} 
-  Anthropomorphic:
-    template: { name: Anime, mal_id: 51, poster: https://theposterdb.com/api/assets/240850} 
-  CGDCT:
-    template: { name: Anime, mal_id: 52, poster: https://theposterdb.com/api/assets/240146} 
-  Childcare:
-    template: { name: Anime, mal_id: 53, poster: https://theposterdb.com/api/assets/240871} 
-  Combat Sports:
-    template: { name: Anime, mal_id: 54, poster: https://theposterdb.com/api/assets/240851} 
-  Crossdressing:
-    template: { name: Anime, mal_id: 81, poster: https://theposterdb.com/api/assets/240852} 
-  Delinquents:
-    template: { name: Anime, mal_id: 55, poster: https://theposterdb.com/api/assets/240148} 
-  Detective:
-    template: { name: Anime, mal_id: 39, poster: https://theposterdb.com/api/assets/240149} 
-  Educational:
-    template: { name: Anime, mal_id: 56, poster: https://theposterdb.com/api/assets/240854} 
-  Gag Humor:
-    template: { name: Anime, mal_id: 57, poster: https://theposterdb.com/api/assets/240151} 
-  Gore:
-    template: { name: Anime, mal_id: 58, poster: https://theposterdb.com/api/assets/240153} 
-  Harem:
-    template: { name: Anime, mal_id: 35, poster: https://theposterdb.com/api/assets/240848} 
-  High Stakes Game:
-    template: { name: Anime, mal_id: 59, poster: https://theposterdb.com/api/assets/240155} 
-  Historical:
-    template: { name: Anime, mal_id: 13, poster: https://theposterdb.com/api/assets/213640} 
-  Idols Female:
-    template: { name: Anime, mal_id: 60, poster: https://theposterdb.com/api/assets/240856} 
-  Idols Male:
-    template: { name: Anime, mal_id: 61, poster: https://theposterdb.com/api/assets/240857} 
-  Isekai:
-    template: { name: Anime, mal_id: 62, poster: https://theposterdb.com/api/assets/240156} 
-  Iyashikei:
-    template: { name: Anime, mal_id: 63, poster: https://theposterdb.com/api/assets/240157} 
-  Love Polygon:
-    template: { name: Anime, mal_id: 64, poster: https://theposterdb.com/api/assets/240860} 
-  Magical Sex Shift:
-    template: { name: Anime, mal_id: 65, poster: https://theposterdb.com/api/assets/240861} 
-  Mahou Shoujo:
-    template: { name: Anime, mal_id: 66, poster: https://theposterdb.com/api/assets/240158} 
-  Martial Arts:
-    template: { name: Anime, mal_id: 17, poster: https://theposterdb.com/api/assets/213628} 
-  Mecha:
-    template: { name: Anime, mal_id: 18, poster: https://theposterdb.com/api/assets/213668} 
-  Medical:
-    template: { name: Anime, mal_id: 67, poster: https://theposterdb.com/api/assets/240159} 
-  Military:
-    template: { name: Anime, mal_id: 38, poster: https://theposterdb.com/api/assets/240160} 
-  Music:
-    template: { name: Anime, mal_id: 19, poster: https://theposterdb.com/api/assets/213639} 
-  Mythology:
-    template: { name: Anime, mal_id: 6, poster: https://theposterdb.com/api/assets/240161} 
-  Organized Crime:
-    template: { name: Anime, mal_id: 68, poster: https://theposterdb.com/api/assets/240865} 
-  Otaku Culture:
-    template: { name: Anime, mal_id: 69, poster: https://theposterdb.com/api/assets/240868} 
-  Parody:
-    template: { name: Anime, mal_id: 20, poster: https://theposterdb.com/api/assets/240193} 
-  Performing Arts:
-    template: { name: Anime, mal_id: 70, poster: https://theposterdb.com/api/assets/240870} 
-  Pets:
-    template: { name: Anime, mal_id: 71, poster: https://theposterdb.com/api/assets/240869} 
-  Psychological:
-    template: { name: Anime, mal_id: 40, poster: https://theposterdb.com/api/assets/240212} 
-  Racing:
-    template: { name: Anime, mal_id: 3, poster: https://theposterdb.com/api/assets/240213} 
-  Reincarnation:
-    template: { name: Anime, mal_id: 72, poster: https://theposterdb.com/api/assets/240867} 
-  Samurai:
-    template: { name: Anime, mal_id: 21, poster: https://theposterdb.com/api/assets/213669} 
-  Space:
-    template: { name: Anime, mal_id: 29, poster: https://theposterdb.com/api/assets/213661} 
-  Super Power:
-    template: { name: Anime, mal_id: 31, poster: https://theposterdb.com/api/assets/213659} 
-  Vampire:
-    template: { name: Anime, mal_id: 32, poster: https://theposterdb.com/api/assets/213671} 
-  Video Game:
-    template: { name: Anime, mal_id: 79, poster: https://theposterdb.com/api/assets/213657} 
-  Josei:
-    template: { name: Anime, mal_id: 43, poster: https://theposterdb.com/api/assets/240858} 
-  Kids:
-    template: { name: Anime, mal_id: 15, poster: https://theposterdb.com/api/assets/240859} 
-  Seinen:
-    template: { name: Anime, mal_id: 42, poster: https://theposterdb.com/api/assets/240866} 
-  Shoujo:
-    template: { name: Anime, mal_id: 25, poster: https://theposterdb.com/api/assets/240214} 
-  Shounen:
-    template: { name: Anime, mal_id: 27, poster: https://theposterdb.com/api/assets/240215} 
+    template: { name: Season }
 
-  # Collection1: # Replace Username1 with a valid MAL Username
-    # template: { name: User, username: Username1, poster:  }
-  # Collection2: # Replace Username2 with a valid MAL Username
-    # template: { name: User, username: Username2, poster:  }
+###########################
+#    Studio Collections   #
+###########################
+  A1-Pictures:
+    template: { name: Studio, studio_id: 561 }
+  Bones:
+    template: { name: Studio, studio_id: 4 }
+  Kyoto Animation:
+    template: { name: Studio, studio_id: 2 }
+  Madhouse:
+    template: { name: Studio, studio_id: 11 }
+  MAPPA:
+    template: { name: Studio, studio_id: 569 }
+  Orange:
+    template: { name: Studio, studio_id: 6077 }
+  "P.A. Works":
+    template: { name: Studio, studio_id: 132 }
+  Studio Bind:
+    template: { name: Studio, studio_id: 6309 }
+  Trigger:
+    template: { name: Studio, studio_id: 803 }
+  Ufotable:
+    template: { name: Studio, studio_id: 43 }
+  WIT: 
+    template: { name: Studio, studio_id: 858 }
+
+###########################
+#    Genre Collections    #
+###########################
+  Action:
+    template: { name: Genre, mal_id: Action, poster: https://theposterdb.com/api/assets/213642}
+  Adventure:
+    template: { name: Genre, mal_id: Adventure, poster: https://theposterdb.com/api/assets/213632} 
+  Avant Garde:
+    template: { name: Genre, mal_id: 5, poster: https://theposterdb.com/api/assets/240144} 
+  Boys Love:
+    template: { name: Genre, mal_id: 28, poster: https://theposterdb.com/api/assets/240145} 
+  Comedy:
+    template: { name: Genre, mal_id: 4, poster: https://theposterdb.com/api/assets/213629} 
+  Drama:
+    template: { name: Genre, mal_id: 8, poster: https://theposterdb.com/api/assets/213630} 
+  Fantasy:
+    template: { name: Genre, mal_id: 10, poster: https://theposterdb.com/api/assets/213631} 
+  Girls Love:
+    template: { name: Genre, mal_id: 26, poster: https://theposterdb.com/api/assets/240152} 
+  Gourmet:
+    template: { name: Genre, mal_id: 47, poster: https://theposterdb.com/api/assets/240874} 
+  Horror:
+    template: { name: Genre, mal_id: 14, poster: https://theposterdb.com/api/assets/240855} 
+  Mystery:
+    template: { name: Genre, mal_id: 7, poster: https://theposterdb.com/api/assets/240863} 
+  Romance:
+    template: { name: Genre, mal_id: 22, poster: https://theposterdb.com/api/assets/213637} 
+  Sci-Fi:
+    template: { name: Genre, mal_id: 24, poster: https://theposterdb.com/api/assets/213635} 
+  Slice of Life:
+    template: { name: Genre, mal_id: 36, poster: https://theposterdb.com/api/assets/213663} 
+  Sports:
+    template: { name: Genre, mal_id: 30, poster: https://theposterdb.com/api/assets/213634} 
+  Supernatural:
+    template: { name: Genre, mal_id: 37, poster: https://theposterdb.com/api/assets/213670} 
+  Suspense:
+    template: { name: Genre, mal_id: 41, poster: https://theposterdb.com/api/assets/240217} 
+  Ecchi:
+    template: { name: Genre, mal_id: 9, poster: https://theposterdb.com/api/assets/240150} 
+  Adult Cast:
+    template: { name: Genre, mal_id: 50, poster: https://theposterdb.com/api/assets/240849} 
+  Anthropomorphic:
+    template: { name: Genre, mal_id: 51, poster: https://theposterdb.com/api/assets/240850} 
+  CGDCT:
+    template: { name: Genre, mal_id: 52, poster: https://theposterdb.com/api/assets/240146} 
+  Childcare:
+    template: { name: Genre, mal_id: 53, poster: https://theposterdb.com/api/assets/240871} 
+  Combat Sports:
+    template: { name: Genre, mal_id: 54, poster: https://theposterdb.com/api/assets/240851} 
+  Crossdressing:
+    template: { name: Genre, mal_id: 81, poster: https://theposterdb.com/api/assets/240852} 
+  Delinquents:
+    template: { name: Genre, mal_id: 55, poster: https://theposterdb.com/api/assets/240148} 
+  Detective:
+    template: { name: Genre, mal_id: 39, poster: https://theposterdb.com/api/assets/240149} 
+  Educational:
+    template: { name: Genre, mal_id: 56, poster: https://theposterdb.com/api/assets/240854} 
+  Gag Humor:
+    template: { name: Genre, mal_id: 57, poster: https://theposterdb.com/api/assets/240151} 
+  Gore:
+    template: { name: Genre, mal_id: 58, poster: https://theposterdb.com/api/assets/240153} 
+  Harem:
+    template: { name: Genre, mal_id: 35, poster: https://theposterdb.com/api/assets/240848} 
+  High Stakes Game:
+    template: { name: Genre, mal_id: 59, poster: https://theposterdb.com/api/assets/240155} 
+  Historical:
+    template: { name: Genre, mal_id: 13, poster: https://theposterdb.com/api/assets/213640} 
+  Idols Female:
+    template: { name: Genre, mal_id: 60, poster: https://theposterdb.com/api/assets/240856} 
+  Idols Male:
+    template: { name: Genre, mal_id: 61, poster: https://theposterdb.com/api/assets/240857} 
+  Isekai:
+    template: { name: Genre, mal_id: 62, poster: https://theposterdb.com/api/assets/240156} 
+  Iyashikei:
+    template: { name: Genre, mal_id: 63, poster: https://theposterdb.com/api/assets/240157} 
+  Love Polygon:
+    template: { name: Genre, mal_id: 64, poster: https://theposterdb.com/api/assets/240860} 
+  Magical Sex Shift:
+    template: { name: Genre, mal_id: 65, poster: https://theposterdb.com/api/assets/240861} 
+  Mahou Shoujo:
+    template: { name: Genre, mal_id: 66, poster: https://theposterdb.com/api/assets/240158} 
+  Martial Arts:
+    template: { name: Genre, mal_id: 17, poster: https://theposterdb.com/api/assets/213628} 
+  Mecha:
+    template: { name: Genre, mal_id: 18, poster: https://theposterdb.com/api/assets/213668} 
+  Medical:
+    template: { name: Genre, mal_id: 67, poster: https://theposterdb.com/api/assets/240159} 
+  Military:
+    template: { name: Genre, mal_id: 38, poster: https://theposterdb.com/api/assets/240160} 
+  Music:
+    template: { name: Genre, mal_id: 19, poster: https://theposterdb.com/api/assets/213639} 
+  Mythology:
+    template: { name: Genre, mal_id: 6, poster: https://theposterdb.com/api/assets/240161} 
+  Organized Crime:
+    template: { name: Genre, mal_id: 68, poster: https://theposterdb.com/api/assets/240865} 
+  Otaku Culture:
+    template: { name: Genre, mal_id: 69, poster: https://theposterdb.com/api/assets/240868} 
+  Parody:
+    template: { name: Genre, mal_id: 20, poster: https://theposterdb.com/api/assets/240193} 
+  Performing Arts:
+    template: { name: Genre, mal_id: 70, poster: https://theposterdb.com/api/assets/240870} 
+  Pets:
+    template: { name: Genre, mal_id: 71, poster: https://theposterdb.com/api/assets/240869} 
+  Psychological:
+    template: { name: Genre, mal_id: 40, poster: https://theposterdb.com/api/assets/240212} 
+  Racing:
+    template: { name: Genre, mal_id: 3, poster: https://theposterdb.com/api/assets/240213} 
+  Reincarnation:
+    template: { name: Genre, mal_id: 72, poster: https://theposterdb.com/api/assets/240867} 
+  Samurai:
+    template: { name: Genre, mal_id: 21, poster: https://theposterdb.com/api/assets/213669} 
+  Space:
+    template: { name: Genre, mal_id: 29, poster: https://theposterdb.com/api/assets/213661} 
+  Super Power:
+    template: { name: Genre, mal_id: 31, poster: https://theposterdb.com/api/assets/213659} 
+  Vampire:
+    template: { name: Genre, mal_id: 32, poster: https://theposterdb.com/api/assets/213671} 
+  Video Game:
+    template: { name: Genre, mal_id: 79, poster: https://theposterdb.com/api/assets/213657} 
+  Josei:
+    template: { name: Genre, mal_id: 43, poster: https://theposterdb.com/api/assets/240858} 
+  Kids:
+    template: { name: Genre, mal_id: 15, poster: https://theposterdb.com/api/assets/240859} 
+  Seinen:
+    template: { name: Genre, mal_id: 42, poster: https://theposterdb.com/api/assets/240866} 
+  Shoujo:
+    template: { name: Genre, mal_id: 25, poster: https://theposterdb.com/api/assets/240214} 
+  Shounen:
+    template: { name: Genre, mal_id: 27, poster: https://theposterdb.com/api/assets/240215} 
