@@ -1,35 +1,36 @@
 templates:
     Movie:
-        optional:
-          - collection
-          - summary
-        url_poster: <<poster>>
-        tmdb_collection: <<collection>>
-        tmdb_summary: <<summary>>
-        sort_title: 00000f_<<collection_name>>
-        sync_mode: sync
-        collection_order: release
-        radarr_add_missing: true
+      optional:
+        - collection
+        - summary
+      url_poster: <<poster>>
+      tmdb_collection: <<collection>>
+      tmdb_summary: <<summary>>
+      sort_title: 00000f_<<collection_name>>
+      sync_mode: sync
+      collection_order: release
+      radarr_add_missing: true
+    Collection:
+      optional:
+        - collection
+        - movie
+      tmdb_collection_details: <<collection>>
+      tmdb_movie: <<movie>>
+      url_poster: <<poster>>
+      sync_mode: sync
+      collection_order: release
+    Trakt:
+      trakt_list_details: <<list>>
+      url_poster: <<poster>>
+      sync_mode: sync
+      collection_order: custom
 collections:
 
 ######################################################
 #            SiskoUrso Movie Collections             #
 ######################################################
 templates:
-  Collection:
-    optional:
-      - collection
-      - movie
-    tmdb_collection_details: <<collection>>
-    tmdb_movie: <<movie>>
-    url_poster: <<poster>>
-    sync_mode: sync
-    collection_order: release
-  Trakt:
-    trakt_list_details: <<list>>
-    url_poster: <<poster>>
-    sync_mode: sync
-    collection_order: custom
+  
 collections:
   101 Dalmatians:
     template: {name: Collection, collection: 100693, poster: https://theposterdb.com/api/assets/44903}

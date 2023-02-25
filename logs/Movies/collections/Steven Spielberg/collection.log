@@ -1,159 +1,157 @@
-[2023-02-14 01:10:30,024] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-14 01:10:30,025] [util.py:216]               [INFO]     |                               Steven Spielberg Collection in Movies                                |
-[2023-02-14 01:10:30,025] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-14 01:10:30,025] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,026] [util.py:216]               [INFO]     |============================== Validating Steven Spielberg Attributes ==============================|
-[2023-02-14 01:10:30,026] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,026] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-02-14 01:10:30,027] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Director'), ('director', 488), ('poster', 'https://theposterdb.com/api/assets/213365')]) |
-[2023-02-14 01:10:30,027] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,027] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-14 01:10:30,028] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-14 01:10:30,028] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,028] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-02-14 01:10:30,028] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
-[2023-02-14 01:10:30,029] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,029] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-02-14 01:10:30,029] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213365                                                   |
-[2023-02-14 01:10:30,029] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,029] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_director                                                                   |
-[2023-02-14 01:10:30,030] [builder.py:474]            [DEBUG]    | Value: 488                                                                                         |
-[2023-02-14 01:10:30,128] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,128] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_director_details                                                           |
-[2023-02-14 01:10:30,128] [builder.py:474]            [DEBUG]    | Value: 488                                                                                         |
-[2023-02-14 01:10:30,129] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,129] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-14 01:10:30,129] [builder.py:474]            [DEBUG]    | Value: 00000g_Steven Spielberg                                                                     |
-[2023-02-14 01:10:30,130] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,130] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2023-02-14 01:10:30,130] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
-[2023-02-14 01:10:30,130] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,131] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-02-14 01:10:30,131] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
-[2023-02-14 01:10:30,131] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,131] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-02-14 01:10:30,132] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
-[2023-02-14 01:10:30,132] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,132] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2023-02-14 01:10:30,132] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-14 01:10:30,284] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,285] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-14 01:10:30,285] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,286] [util.py:216]               [INFO]     |=============================== Running Steven Spielberg Collection ================================|
-[2023-02-14 01:10:30,286] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,286] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-14 01:10:30,286] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,287] [builder.py:1276]           [DEBUG]    | Builder: tmdb_director: 488                                                                        |
-[2023-02-14 01:10:30,287] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,408] [tmdb.py:323]               [INFO]     | Processing TMDb Director: (488) Steven Spielberg (51 Items)                                        |
-[2023-02-14 01:10:30,408] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,408] [builder.py:1283]           [DEBUG]    | 51 IDs Found: [(74, 'tmdb'), (85, 'tmdb'), (87, 'tmdb'), (89, 'tmdb'), (217, 'tmdb'), (180, 'tmdb'), (329, 'tmdb'), (330, 'tmdb'), (424, 'tmdb'), (578, 'tmdb'), (601, 'tmdb'), (594, 'tmdb'), (612, 'tmdb'), (644, 'tmdb'), (640, 'tmdb'), (873, 'tmdb'), (879, 'tmdb'), (857, 'tmdb'), (840, 'tmdb'), (839, 'tmdb'), (10110, 'tmdb'), (5121, 'tmdb'), (11352, 'tmdb'), (11519, 'tmdb'), (11831, 'tmdb'), (15301, 'tmdb'), (17578, 'tmdb'), (72976, 'tmdb'), (57212, 'tmdb'), (85483, 'tmdb'), (97105, 'tmdb'), (110747, 'tmdb'), (267935, 'tmdb'), (296098, 'tmdb'), (333339, 'tmdb'), (391069, 'tmdb'), (446354, 'tmdb'), (511809, 'tmdb'), (576510, 'tmdb'), (9340, 'tmdb'), (1895, 'tmdb'), (793912, 'tmdb'), (804095, 'tmdb'), (943683, 'tmdb'), (1071657, 'tmdb'), (1026, 'tmdb_show'), (10168, 'tmdb_show'), (11978, 'tmdb_show'), (873, 'tmdb_show'), (3213, 'tmdb_show'), (4318, 'tmdb_show')] |
-[2023-02-14 01:10:30,409] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,903] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,904] [builder.py:1276]           [DEBUG]    | Builder: tmdb_director: 488                                                                        |
-[2023-02-14 01:10:30,904] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:30,908] [tmdb.py:323]               [INFO]     | Processing TMDb Director: (488) Steven Spielberg (51 Items)                                        |
-[2023-02-14 01:10:30,909] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:30,909] [builder.py:1283]           [DEBUG]    | 51 IDs Found: [(74, 'tmdb'), (85, 'tmdb'), (87, 'tmdb'), (89, 'tmdb'), (217, 'tmdb'), (180, 'tmdb'), (329, 'tmdb'), (330, 'tmdb'), (424, 'tmdb'), (578, 'tmdb'), (601, 'tmdb'), (594, 'tmdb'), (612, 'tmdb'), (644, 'tmdb'), (640, 'tmdb'), (873, 'tmdb'), (879, 'tmdb'), (857, 'tmdb'), (840, 'tmdb'), (839, 'tmdb'), (10110, 'tmdb'), (5121, 'tmdb'), (11352, 'tmdb'), (11519, 'tmdb'), (11831, 'tmdb'), (15301, 'tmdb'), (17578, 'tmdb'), (72976, 'tmdb'), (57212, 'tmdb'), (85483, 'tmdb'), (97105, 'tmdb'), (110747, 'tmdb'), (267935, 'tmdb'), (296098, 'tmdb'), (333339, 'tmdb'), (391069, 'tmdb'), (446354, 'tmdb'), (511809, 'tmdb'), (576510, 'tmdb'), (9340, 'tmdb'), (1895, 'tmdb'), (793912, 'tmdb'), (804095, 'tmdb'), (943683, 'tmdb'), (1071657, 'tmdb'), (1026, 'tmdb_show'), (10168, 'tmdb_show'), (11978, 'tmdb_show'), (873, 'tmdb_show'), (3213, 'tmdb_show'), (4318, 'tmdb_show')] |
-[2023-02-14 01:10:30,909] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:31,391] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:31,392] [util.py:216]               [INFO]     |============================== Adding to Steven Spielberg Collection ===============================|
-[2023-02-14 01:10:31,392] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:31,392] [builder.py:1709]           [INFO]     |  1/19 | Steven Spielberg Collection | = | War of the Worlds (2005)                                 |
-[2023-02-14 01:10:31,392] [builder.py:1709]           [INFO]     |  2/19 | Steven Spielberg Collection | = | Indiana Jones and the Raiders of the Lost Ark (1981)     |
-[2023-02-14 01:10:31,393] [builder.py:1709]           [INFO]     |  3/19 | Steven Spielberg Collection | = | Indiana Jones and the Temple of Doom (1984)              |
-[2023-02-14 01:10:31,393] [builder.py:1709]           [INFO]     |  4/19 | Steven Spielberg Collection | = | Indiana Jones and the Last Crusade (1989)                |
-[2023-02-14 01:10:31,393] [builder.py:1709]           [INFO]     |  5/19 | Steven Spielberg Collection | = | Indiana Jones and the Kingdom of the Crystal Skull (2008) |
-[2023-02-14 01:10:31,394] [builder.py:1709]           [INFO]     |  6/19 | Steven Spielberg Collection | = | Jurassic Park (1993)                                     |
-[2023-02-14 01:10:31,394] [builder.py:1709]           [INFO]     |  7/19 | Steven Spielberg Collection | = | The Lost World: Jurassic Park (1997)                     |
-[2023-02-14 01:10:31,394] [builder.py:1709]           [INFO]     |  8/19 | Steven Spielberg Collection | = | Schindler's List (1993)                                  |
-[2023-02-14 01:10:31,394] [builder.py:1709]           [INFO]     |  9/19 | Steven Spielberg Collection | = | Jaws (1975)                                              |
-[2023-02-14 01:10:31,395] [builder.py:1709]           [INFO]     | 10/19 | Steven Spielberg Collection | = | E.T. the Extra-Terrestrial (1982)                        |
-[2023-02-14 01:10:31,395] [builder.py:1709]           [INFO]     | 11/19 | Steven Spielberg Collection | = | Catch Me If You Can (2002)                               |
-[2023-02-14 01:10:31,395] [builder.py:1709]           [INFO]     | 12/19 | Steven Spielberg Collection | = | Hook (1991)                                              |
-[2023-02-14 01:10:31,395] [builder.py:1709]           [INFO]     | 13/19 | Steven Spielberg Collection | = | Saving Private Ryan (1998)                               |
-[2023-02-14 01:10:31,396] [builder.py:1709]           [INFO]     | 14/19 | Steven Spielberg Collection | = | Close Encounters of the Third Kind (1977)                |
-[2023-02-14 01:10:31,396] [builder.py:1709]           [INFO]     | 15/19 | Steven Spielberg Collection | = | Ready Player One (2018)                                  |
-[2023-02-14 01:10:31,396] [builder.py:1709]           [INFO]     | 16/19 | Steven Spielberg Collection | = | West Side Story (2021)                                   |
-[2023-02-14 01:10:31,397] [builder.py:1709]           [INFO]     | 17/19 | Steven Spielberg Collection | = | The Goonies (1985)                                       |
-[2023-02-14 01:10:31,397] [builder.py:1709]           [INFO]     | 18/19 | Steven Spielberg Collection | = | Star Wars: Episode III - Revenge of the Sith (2005)      |
-[2023-02-14 01:10:31,397] [builder.py:1709]           [INFO]     | 19/19 | Steven Spielberg Collection | = | The Fabelmans (2022)                                     |
-[2023-02-14 01:10:31,399] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:31,399] [builder.py:1735]           [INFO]     | 19 Movies Processed                                                                                |
-[2023-02-14 01:10:31,399] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:31,400] [util.py:216]               [INFO]     |========================== Missing Movies from Library: Steven Spielberg ===========================|
-[2023-02-14 01:10:31,400] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:31,527] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Minority Report (2002) (TMDb: 180)                               |
-[2023-02-14 01:10:31,529] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Terminal (2004) (TMDb: 594)                                  |
-[2023-02-14 01:10:31,531] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Munich (2005) (TMDb: 612)                                        |
-[2023-02-14 01:10:31,642] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | A.I. Artificial Intelligence (2001) (TMDb: 644)                  |
-[2023-02-14 01:10:31,644] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Color Purple (1985) (TMDb: 873)                              |
-[2023-02-14 01:10:31,749] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Duel (1971) (TMDb: 839)                                          |
-[2023-02-14 01:10:31,865] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Empire of the Sun (1987) (TMDb: 10110)                           |
-[2023-02-14 01:10:31,969] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Sugarland Express (1974) (TMDb: 5121)                        |
-[2023-02-14 01:10:32,072] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Always (1989) (TMDb: 11352)                                      |
-[2023-02-14 01:10:32,183] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | 1941 (1979) (TMDb: 11519)                                        |
-[2023-02-14 01:10:32,185] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amistad (1997) (TMDb: 11831)                                     |
-[2023-02-14 01:10:32,314] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Twilight Zone: The Movie (1983) (TMDb: 15301)                    |
-[2023-02-14 01:10:32,422] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Adventures of Tintin (2011) (TMDb: 17578)                    |
-[2023-02-14 01:10:32,423] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Lincoln (2012) (TMDb: 72976)                                     |
-[2023-02-14 01:10:32,425] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | War Horse (2011) (TMDb: 57212)                                   |
-[2023-02-14 01:10:32,545] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Something Evil (1972) (TMDb: 85483)                              |
-[2023-02-14 01:10:32,654] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amblin' (1968) (TMDb: 97105)                                     |
-[2023-02-14 01:10:32,757] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Savage (1973) (TMDb: 110747)                                     |
-[2023-02-14 01:10:32,877] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The BFG (2016) (TMDb: 267935)                                    |
-[2023-02-14 01:10:32,880] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Bridge of Spies (2015) (TMDb: 296098)                            |
-[2023-02-14 01:10:33,009] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Night Gallery (1969) (TMDb: 391069)                              |
-[2023-02-14 01:10:33,012] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Post (2017) (TMDb: 446354)                                   |
-[2023-02-14 01:10:33,125] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amazing Stories (1986) (TMDb: 576510)                            |
-[2023-02-14 01:10:33,227] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Unfinished Journey (1999) (TMDb: 793912)                     |
-[2023-02-14 01:10:33,346] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Bullitt (TMDb: 943683)                                           |
-[2023-02-14 01:10:33,458] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | A Timeless Call (2008) (TMDb: 1071657)                           |
-[2023-02-14 01:10:33,459] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:33,459] [builder.py:1948]           [INFO]     | 26 Movies Missing                                                                                  |
-[2023-02-14 01:10:33,676] [radarr.py:46]              [INFO]     |                                                                                                    |
-[2023-02-14 01:10:33,677] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
-[2023-02-14 01:10:33,677] [radarr.py:48]              [DEBUG]    |                                                                                                    |
-[2023-02-14 01:10:33,677] [radarr.py:49]              [DEBUG]    | Radarr Adds: [180, 594, 612, 644, 873, 839, 10110, 5121, 11352, 11519, 11831, 15301, 17578, 72976, 57212, 85483, 97105, 110747, 267935, 296098, 391069, 446354, 576510, 793912, 943683, 1071657] |
-[2023-02-14 01:10:35,252] [radarr.py:138]             [INFO]     |                                                                                                    |
-[2023-02-14 01:10:35,253] [radarr.py:146]             [INFO]     | Skipped: In Cache | 180                                                                            |
-[2023-02-14 01:10:35,253] [radarr.py:146]             [INFO]     | Skipped: In Cache | 594                                                                            |
-[2023-02-14 01:10:35,253] [radarr.py:146]             [INFO]     | Skipped: In Cache | 612                                                                            |
-[2023-02-14 01:10:35,254] [radarr.py:146]             [INFO]     | Skipped: In Cache | 644                                                                            |
-[2023-02-14 01:10:35,254] [radarr.py:146]             [INFO]     | Skipped: In Cache | 873                                                                            |
-[2023-02-14 01:10:35,254] [radarr.py:146]             [INFO]     | Skipped: In Cache | 839                                                                            |
-[2023-02-14 01:10:35,254] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10110                                                                          |
-[2023-02-14 01:10:35,255] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5121                                                                           |
-[2023-02-14 01:10:35,255] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11352                                                                          |
-[2023-02-14 01:10:35,255] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11519                                                                          |
-[2023-02-14 01:10:35,255] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11831                                                                          |
-[2023-02-14 01:10:35,256] [radarr.py:146]             [INFO]     | Skipped: In Cache | 15301                                                                          |
-[2023-02-14 01:10:35,256] [radarr.py:146]             [INFO]     | Skipped: In Cache | 17578                                                                          |
-[2023-02-14 01:10:35,256] [radarr.py:146]             [INFO]     | Skipped: In Cache | 72976                                                                          |
-[2023-02-14 01:10:35,256] [radarr.py:146]             [INFO]     | Skipped: In Cache | 57212                                                                          |
-[2023-02-14 01:10:35,257] [radarr.py:146]             [INFO]     | Skipped: In Cache | 85483                                                                          |
-[2023-02-14 01:10:35,257] [radarr.py:146]             [INFO]     | Skipped: In Cache | 97105                                                                          |
-[2023-02-14 01:10:35,257] [radarr.py:146]             [INFO]     | Skipped: In Cache | 110747                                                                         |
-[2023-02-14 01:10:35,258] [radarr.py:146]             [INFO]     | Skipped: In Cache | 267935                                                                         |
-[2023-02-14 01:10:35,259] [radarr.py:146]             [INFO]     | Skipped: In Cache | 296098                                                                         |
-[2023-02-14 01:10:35,259] [radarr.py:146]             [INFO]     | Skipped: In Cache | 391069                                                                         |
-[2023-02-14 01:10:35,259] [radarr.py:146]             [INFO]     | Skipped: In Cache | 446354                                                                         |
-[2023-02-14 01:10:35,259] [radarr.py:146]             [INFO]     | Skipped: In Cache | 576510                                                                         |
-[2023-02-14 01:10:35,260] [radarr.py:146]             [INFO]     | Skipped: In Cache | 793912                                                                         |
-[2023-02-14 01:10:35,260] [radarr.py:146]             [INFO]     | Skipped: In Cache | 943683                                                                         |
-[2023-02-14 01:10:35,260] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1071657                                                                        |
-[2023-02-14 01:10:35,260] [radarr.py:147]             [INFO]     | 26 Movies already exist in Radarr                                                                  |
-[2023-02-14 01:10:35,283] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:35,283] [util.py:216]               [INFO]     |========================= Updating Details of Steven Spielberg Collection ==========================|
-[2023-02-14 01:10:35,284] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-02-14 01:10:35,284] [builder.py:2156]           [INFO]     | Detail: tmdb_director_details updated Collection Summary                                           |
-[2023-02-14 01:10:35,286] [builder.py:2258]           [DEBUG]    | 2 posters found:                                                                                   |
-[2023-02-14 01:10:35,286] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213365                               |
-[2023-02-14 01:10:35,286] [builder.py:2260]           [DEBUG]    | Method: tmdb_director_details Poster: https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg |
-[2023-02-14 01:10:35,287] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-02-14 01:10:35,288] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-02-14 01:10:35,436] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-14 01:10:35,437] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-14 01:10:35,437] [util.py:216]               [INFO]     |                                Finished Steven Spielberg Collection                                |
-[2023-02-14 01:10:35,437] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:05                                    |
-[2023-02-14 01:10:35,438] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-24 01:20:20,986] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-24 01:20:20,987] [util.py:216]               [INFO]     |                               Steven Spielberg Collection in Movies                                |
+[2023-02-24 01:20:20,987] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-24 01:20:20,987] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-24 01:20:20,988] [util.py:216]               [INFO]     |============================== Validating Steven Spielberg Attributes ==============================|
+[2023-02-24 01:20:20,988] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:20,988] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-24 01:20:20,988] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Director'), ('director', 488), ('poster', 'https://theposterdb.com/api/assets/213365')]) |
+[2023-02-24 01:20:20,989] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:20,989] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-24 01:20:20,989] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-24 01:20:20,989] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:20,989] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-24 01:20:20,990] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-02-24 01:20:20,990] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:20,990] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-24 01:20:20,990] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/213365                                                   |
+[2023-02-24 01:20:20,990] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:20,990] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_director                                                                   |
+[2023-02-24 01:20:20,991] [builder.py:474]            [DEBUG]    | Value: 488                                                                                         |
+[2023-02-24 01:20:21,379] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,380] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_director_details                                                           |
+[2023-02-24 01:20:21,380] [builder.py:474]            [DEBUG]    | Value: 488                                                                                         |
+[2023-02-24 01:20:21,381] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,381] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-24 01:20:21,381] [builder.py:474]            [DEBUG]    | Value: 00000g_Steven Spielberg                                                                     |
+[2023-02-24 01:20:21,381] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,382] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-02-24 01:20:21,382] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
+[2023-02-24 01:20:21,382] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,382] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-02-24 01:20:21,382] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
+[2023-02-24 01:20:21,383] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,383] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-02-24 01:20:21,383] [builder.py:474]            [DEBUG]    | Value: False                                                                                       |
+[2023-02-24 01:20:21,383] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,384] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
+[2023-02-24 01:20:21,384] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-24 01:20:21,539] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-24 01:20:21,540] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-24 01:20:21,540] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-24 01:20:21,540] [util.py:216]               [INFO]     |=============================== Running Steven Spielberg Collection ================================|
+[2023-02-24 01:20:21,540] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-24 01:20:21,541] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-24 01:20:21,541] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,541] [builder.py:1276]           [DEBUG]    | Builder: tmdb_director: 488                                                                        |
+[2023-02-24 01:20:21,541] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:21,949] [tmdb.py:323]               [INFO]     | Processing TMDb Director: (488) Steven Spielberg (49 Items)                                        |
+[2023-02-24 01:20:21,950] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:21,950] [builder.py:1283]           [DEBUG]    | 49 IDs Found: [(74, 'tmdb'), (85, 'tmdb'), (87, 'tmdb'), (89, 'tmdb'), (217, 'tmdb'), (180, 'tmdb'), (329, 'tmdb'), (330, 'tmdb'), (424, 'tmdb'), (578, 'tmdb'), (601, 'tmdb'), (594, 'tmdb'), (612, 'tmdb'), (644, 'tmdb'), (640, 'tmdb'), (873, 'tmdb'), (879, 'tmdb'), (857, 'tmdb'), (840, 'tmdb'), (839, 'tmdb'), (10110, 'tmdb'), (5121, 'tmdb'), (11352, 'tmdb'), (11519, 'tmdb'), (11831, 'tmdb'), (15301, 'tmdb'), (17578, 'tmdb'), (72976, 'tmdb'), (57212, 'tmdb'), (85483, 'tmdb'), (97105, 'tmdb'), (110747, 'tmdb'), (267935, 'tmdb'), (296098, 'tmdb'), (333339, 'tmdb'), (391069, 'tmdb'), (446354, 'tmdb'), (511809, 'tmdb'), (576510, 'tmdb'), (793912, 'tmdb'), (804095, 'tmdb'), (943683, 'tmdb'), (1071657, 'tmdb'), (1026, 'tmdb_show'), (10168, 'tmdb_show'), (11978, 'tmdb_show'), (873, 'tmdb_show'), (3213, 'tmdb_show'), (4318, 'tmdb_show')] |
+[2023-02-24 01:20:21,950] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:22,493] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:22,493] [builder.py:1276]           [DEBUG]    | Builder: tmdb_director: 488                                                                        |
+[2023-02-24 01:20:22,494] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:22,498] [tmdb.py:323]               [INFO]     | Processing TMDb Director: (488) Steven Spielberg (49 Items)                                        |
+[2023-02-24 01:20:22,498] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:22,498] [builder.py:1283]           [DEBUG]    | 49 IDs Found: [(74, 'tmdb'), (85, 'tmdb'), (87, 'tmdb'), (89, 'tmdb'), (217, 'tmdb'), (180, 'tmdb'), (329, 'tmdb'), (330, 'tmdb'), (424, 'tmdb'), (578, 'tmdb'), (601, 'tmdb'), (594, 'tmdb'), (612, 'tmdb'), (644, 'tmdb'), (640, 'tmdb'), (873, 'tmdb'), (879, 'tmdb'), (857, 'tmdb'), (840, 'tmdb'), (839, 'tmdb'), (10110, 'tmdb'), (5121, 'tmdb'), (11352, 'tmdb'), (11519, 'tmdb'), (11831, 'tmdb'), (15301, 'tmdb'), (17578, 'tmdb'), (72976, 'tmdb'), (57212, 'tmdb'), (85483, 'tmdb'), (97105, 'tmdb'), (110747, 'tmdb'), (267935, 'tmdb'), (296098, 'tmdb'), (333339, 'tmdb'), (391069, 'tmdb'), (446354, 'tmdb'), (511809, 'tmdb'), (576510, 'tmdb'), (793912, 'tmdb'), (804095, 'tmdb'), (943683, 'tmdb'), (1071657, 'tmdb'), (1026, 'tmdb_show'), (10168, 'tmdb_show'), (11978, 'tmdb_show'), (873, 'tmdb_show'), (3213, 'tmdb_show'), (4318, 'tmdb_show')] |
+[2023-02-24 01:20:22,498] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:22,933] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:22,933] [util.py:216]               [INFO]     |============================== Adding to Steven Spielberg Collection ===============================|
+[2023-02-24 01:20:22,933] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:22,934] [builder.py:1709]           [INFO]     |  1/17 | Steven Spielberg Collection | = | War of the Worlds (2005)                                 |
+[2023-02-24 01:20:22,934] [builder.py:1709]           [INFO]     |  2/17 | Steven Spielberg Collection | = | Indiana Jones and the Raiders of the Lost Ark (1981)     |
+[2023-02-24 01:20:22,935] [builder.py:1709]           [INFO]     |  3/17 | Steven Spielberg Collection | = | Indiana Jones and the Temple of Doom (1984)              |
+[2023-02-24 01:20:22,935] [builder.py:1709]           [INFO]     |  4/17 | Steven Spielberg Collection | = | Indiana Jones and the Last Crusade (1989)                |
+[2023-02-24 01:20:22,935] [builder.py:1709]           [INFO]     |  5/17 | Steven Spielberg Collection | = | Indiana Jones and the Kingdom of the Crystal Skull (2008) |
+[2023-02-24 01:20:22,936] [builder.py:1709]           [INFO]     |  6/17 | Steven Spielberg Collection | = | Jurassic Park (1993)                                     |
+[2023-02-24 01:20:22,936] [builder.py:1709]           [INFO]     |  7/17 | Steven Spielberg Collection | = | The Lost World: Jurassic Park (1997)                     |
+[2023-02-24 01:20:22,936] [builder.py:1709]           [INFO]     |  8/17 | Steven Spielberg Collection | = | Schindler's List (1993)                                  |
+[2023-02-24 01:20:22,936] [builder.py:1709]           [INFO]     |  9/17 | Steven Spielberg Collection | = | Jaws (1975)                                              |
+[2023-02-24 01:20:22,937] [builder.py:1709]           [INFO]     | 10/17 | Steven Spielberg Collection | = | E.T. the Extra-Terrestrial (1982)                        |
+[2023-02-24 01:20:22,938] [builder.py:1709]           [INFO]     | 11/17 | Steven Spielberg Collection | = | Catch Me If You Can (2002)                               |
+[2023-02-24 01:20:22,938] [builder.py:1709]           [INFO]     | 12/17 | Steven Spielberg Collection | = | Hook (1991)                                              |
+[2023-02-24 01:20:22,938] [builder.py:1709]           [INFO]     | 13/17 | Steven Spielberg Collection | = | Saving Private Ryan (1998)                               |
+[2023-02-24 01:20:22,939] [builder.py:1709]           [INFO]     | 14/17 | Steven Spielberg Collection | = | Close Encounters of the Third Kind (1977)                |
+[2023-02-24 01:20:22,939] [builder.py:1709]           [INFO]     | 15/17 | Steven Spielberg Collection | = | Ready Player One (2018)                                  |
+[2023-02-24 01:20:22,939] [builder.py:1709]           [INFO]     | 16/17 | Steven Spielberg Collection | = | West Side Story (2021)                                   |
+[2023-02-24 01:20:22,939] [builder.py:1709]           [INFO]     | 17/17 | Steven Spielberg Collection | = | The Fabelmans (2022)                                     |
+[2023-02-24 01:20:22,940] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:22,940] [builder.py:1735]           [INFO]     | 17 Movies Processed                                                                                |
+[2023-02-24 01:20:22,940] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:22,941] [util.py:216]               [INFO]     |========================== Missing Movies from Library: Steven Spielberg ===========================|
+[2023-02-24 01:20:22,941] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:23,109] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Minority Report (2002) (TMDb: 180)                               |
+[2023-02-24 01:20:24,339] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Terminal (2004) (TMDb: 594)                                  |
+[2023-02-24 01:20:24,342] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Munich (2005) (TMDb: 612)                                        |
+[2023-02-24 01:20:24,539] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | A.I. Artificial Intelligence (2001) (TMDb: 644)                  |
+[2023-02-24 01:20:24,541] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Color Purple (1985) (TMDb: 873)                              |
+[2023-02-24 01:20:24,721] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Duel (1971) (TMDb: 839)                                          |
+[2023-02-24 01:20:26,877] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Empire of the Sun (1987) (TMDb: 10110)                           |
+[2023-02-24 01:20:26,981] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Sugarland Express (1974) (TMDb: 5121)                        |
+[2023-02-24 01:20:27,082] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Always (1989) (TMDb: 11352)                                      |
+[2023-02-24 01:20:27,635] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | 1941 (1979) (TMDb: 11519)                                        |
+[2023-02-24 01:20:27,637] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amistad (1997) (TMDb: 11831)                                     |
+[2023-02-24 01:20:27,782] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Twilight Zone: The Movie (1983) (TMDb: 15301)                    |
+[2023-02-24 01:20:27,899] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Adventures of Tintin (2011) (TMDb: 17578)                    |
+[2023-02-24 01:20:27,902] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Lincoln (2012) (TMDb: 72976)                                     |
+[2023-02-24 01:20:27,904] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | War Horse (2011) (TMDb: 57212)                                   |
+[2023-02-24 01:20:28,063] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Something Evil (1972) (TMDb: 85483)                              |
+[2023-02-24 01:20:28,181] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amblin' (1968) (TMDb: 97105)                                     |
+[2023-02-24 01:20:28,298] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Savage (1973) (TMDb: 110747)                                     |
+[2023-02-24 01:20:28,707] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The BFG (2016) (TMDb: 267935)                                    |
+[2023-02-24 01:20:28,711] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Bridge of Spies (2015) (TMDb: 296098)                            |
+[2023-02-24 01:20:28,813] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Night Gallery (1969) (TMDb: 391069)                              |
+[2023-02-24 01:20:28,816] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Post (2017) (TMDb: 446354)                                   |
+[2023-02-24 01:20:28,948] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Amazing Stories (1986) (TMDb: 576510)                            |
+[2023-02-24 01:20:29,074] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | The Unfinished Journey (1999) (TMDb: 793912)                     |
+[2023-02-24 01:20:29,201] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | Bullitt (TMDb: 943683)                                           |
+[2023-02-24 01:20:29,320] [builder.py:1943]           [INFO]     | Steven Spielberg Collection | ? | A Timeless Call (2008) (TMDb: 1071657)                           |
+[2023-02-24 01:20:29,320] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:29,320] [builder.py:1948]           [INFO]     | 26 Movies Missing                                                                                  |
+[2023-02-24 01:20:29,552] [radarr.py:46]              [INFO]     |                                                                                                    |
+[2023-02-24 01:20:29,553] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
+[2023-02-24 01:20:29,553] [radarr.py:48]              [DEBUG]    |                                                                                                    |
+[2023-02-24 01:20:29,554] [radarr.py:49]              [DEBUG]    | Radarr Adds: [180, 594, 612, 644, 873, 839, 10110, 5121, 11352, 11519, 11831, 15301, 17578, 72976, 57212, 85483, 97105, 110747, 267935, 296098, 391069, 446354, 576510, 793912, 943683, 1071657] |
+[2023-02-24 01:20:31,242] [radarr.py:138]             [INFO]     |                                                                                                    |
+[2023-02-24 01:20:31,242] [radarr.py:146]             [INFO]     | Skipped: In Cache | 180                                                                            |
+[2023-02-24 01:20:31,243] [radarr.py:146]             [INFO]     | Skipped: In Cache | 594                                                                            |
+[2023-02-24 01:20:31,243] [radarr.py:146]             [INFO]     | Skipped: In Cache | 612                                                                            |
+[2023-02-24 01:20:31,243] [radarr.py:146]             [INFO]     | Skipped: In Cache | 644                                                                            |
+[2023-02-24 01:20:31,244] [radarr.py:146]             [INFO]     | Skipped: In Cache | 873                                                                            |
+[2023-02-24 01:20:31,244] [radarr.py:146]             [INFO]     | Skipped: In Cache | 839                                                                            |
+[2023-02-24 01:20:31,244] [radarr.py:146]             [INFO]     | Skipped: In Cache | 10110                                                                          |
+[2023-02-24 01:20:31,244] [radarr.py:146]             [INFO]     | Skipped: In Cache | 5121                                                                           |
+[2023-02-24 01:20:31,245] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11352                                                                          |
+[2023-02-24 01:20:31,245] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11519                                                                          |
+[2023-02-24 01:20:31,245] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11831                                                                          |
+[2023-02-24 01:20:31,245] [radarr.py:146]             [INFO]     | Skipped: In Cache | 15301                                                                          |
+[2023-02-24 01:20:31,246] [radarr.py:146]             [INFO]     | Skipped: In Cache | 17578                                                                          |
+[2023-02-24 01:20:31,246] [radarr.py:146]             [INFO]     | Skipped: In Cache | 72976                                                                          |
+[2023-02-24 01:20:31,246] [radarr.py:146]             [INFO]     | Skipped: In Cache | 57212                                                                          |
+[2023-02-24 01:20:31,246] [radarr.py:146]             [INFO]     | Skipped: In Cache | 85483                                                                          |
+[2023-02-24 01:20:31,247] [radarr.py:146]             [INFO]     | Skipped: In Cache | 97105                                                                          |
+[2023-02-24 01:20:31,247] [radarr.py:146]             [INFO]     | Skipped: In Cache | 110747                                                                         |
+[2023-02-24 01:20:31,247] [radarr.py:146]             [INFO]     | Skipped: In Cache | 267935                                                                         |
+[2023-02-24 01:20:31,248] [radarr.py:146]             [INFO]     | Skipped: In Cache | 296098                                                                         |
+[2023-02-24 01:20:31,248] [radarr.py:146]             [INFO]     | Skipped: In Cache | 391069                                                                         |
+[2023-02-24 01:20:31,248] [radarr.py:146]             [INFO]     | Skipped: In Cache | 446354                                                                         |
+[2023-02-24 01:20:31,248] [radarr.py:146]             [INFO]     | Skipped: In Cache | 576510                                                                         |
+[2023-02-24 01:20:31,249] [radarr.py:146]             [INFO]     | Skipped: In Cache | 793912                                                                         |
+[2023-02-24 01:20:31,249] [radarr.py:146]             [INFO]     | Skipped: In Cache | 943683                                                                         |
+[2023-02-24 01:20:31,249] [radarr.py:146]             [INFO]     | Skipped: In Cache | 1071657                                                                        |
+[2023-02-24 01:20:31,250] [radarr.py:147]             [INFO]     | 26 Movies already exist in Radarr                                                                  |
+[2023-02-24 01:20:31,275] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:31,276] [util.py:216]               [INFO]     |========================= Updating Details of Steven Spielberg Collection ==========================|
+[2023-02-24 01:20:31,276] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-24 01:20:31,276] [builder.py:2156]           [INFO]     | Detail: tmdb_director_details updated Collection Summary                                           |
+[2023-02-24 01:20:31,279] [builder.py:2258]           [DEBUG]    | 2 posters found:                                                                                   |
+[2023-02-24 01:20:31,279] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/213365                               |
+[2023-02-24 01:20:31,279] [builder.py:2260]           [DEBUG]    | Method: tmdb_director_details Poster: https://image.tmdb.org/t/p/original/tZxcg19YQ3e8fJ0pOs7hjlnmmr6.jpg |
+[2023-02-24 01:20:31,279] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-02-24 01:20:31,280] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-24 01:20:31,430] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-24 01:20:31,430] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-24 01:20:31,430] [util.py:216]               [INFO]     |                                Finished Steven Spielberg Collection                                |
+[2023-02-24 01:20:31,431] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:10                                    |
+[2023-02-24 01:20:31,431] [util.py:220]               [INFO]     |====================================================================================================|
