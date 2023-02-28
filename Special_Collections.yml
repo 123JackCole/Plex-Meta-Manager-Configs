@@ -1,5 +1,5 @@
 templates:
-  Special Genre:
+  Special Collection:
     url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
     sort_title: 00000b__<<collection_name>>
     collection_order: release.desc
@@ -10,7 +10,7 @@ templates:
 collections:
 
 #####################################
-#      Special Genre Collections    #
+#        Special Collections        #
 #####################################
 
   Trending Movies:
@@ -20,7 +20,7 @@ collections:
     summary: A collection of movies trending across the internet
     url_poster: https://i.imgur.com/LFJnVzC.jpg
   Latest releases:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     collection_order: "release.desc"
     sort_title: 00000b_3
     trakt_list: 
@@ -34,7 +34,7 @@ collections:
     summary: A collection of the most watched movies over the past week.
     url_poster: https://i.imgur.com/WhHiFPX.jpg
   Best Picture Winners:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     imdb_list: https://www.imdb.com/list/ls062667125/
     summary: A collection of all Oscar winners.
     sort_title: 00000b_5
@@ -42,7 +42,7 @@ collections:
     radarr_add_existing: true
     radarr_add_missing: true
   Best Picture Nominees:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     imdb_list: https://www.imdb.com/list/ls009487211/
     summary: A collection of all Oscar nominees.
     sort_title: 00000b_6
@@ -50,13 +50,13 @@ collections:
     radarr_add_existing: true
     radarr_add_missing: true
   Jack's 2022 Favorites:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     trakt_list:
       - https://trakt.tv/users/h0tsh0t/lists/jack-s-favorites-of-2022
     summary: Jack's favorite movies of 2022. Ordered by release date. Will update as I go through my watch list.
     sort_title: 00000b_7 
   Jack Recommends:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     collection_order: random
     trakt_list:
       - https://trakt.tv/users/h0tsh0t/lists/jack-recommends
@@ -64,7 +64,7 @@ collections:
     sort_title: 00000b_8
     url_poster: https://theposterdb.com/api/assets/19138
   Stephanie's Asian Flix:
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     visible_library: false
     visible_home: false
     visible_shared: false
@@ -78,7 +78,7 @@ collections:
     sort_title: 00000b_91
     url_poster: https://theposterdb.com/api/assets/103786
   Movies For Paprika (Movies With Dogs):
-    template: {name: Special Genre}
+    template: {name: Special Collection}
     visible_library: false
     visible_home: false
     visible_shared: false

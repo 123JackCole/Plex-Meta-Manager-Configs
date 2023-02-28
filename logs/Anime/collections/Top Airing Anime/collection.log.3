@@ -1,129 +1,129 @@
-[2023-02-21 01:26:11,280] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-21 01:26:11,281] [util.py:216]               [INFO]     |                                Top Airing Anime Collection in Anime                                |
-[2023-02-21 01:26:11,281] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-21 01:26:11,282] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-21 01:26:11,282] [util.py:216]               [INFO]     |============================== Validating Top Airing Anime Attributes ==============================|
-[2023-02-21 01:26:11,282] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:11,283] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-21 01:26:11,283] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-21 01:26:11,283] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:11,284] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-02-21 01:26:11,284] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
-[2023-02-21 01:26:11,284] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:11,284] [builder.py:473]            [DEBUG]    | Validating Method: anilist_search                                                                  |
-[2023-02-21 01:26:11,284] [builder.py:474]            [DEBUG]    | Value: ordereddict([('year', None), ('format', 'tv'), ('status', 'airing'), ('limit', 15)])        |
-[2023-02-21 01:26:11,285] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2023 as default                   |
-[2023-02-21 01:26:12,951] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search sort_by attribute not found using score as default              |
-[2023-02-21 01:26:12,952] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,952] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-02-21 01:26:12,952] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-21 01:26:12,953] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,953] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2023-02-21 01:26:12,953] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-21 01:26:12,953] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,954] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-21 01:26:12,954] [builder.py:474]            [DEBUG]    | Value: +++++++++_Top_Airing                                                                        |
-[2023-02-21 01:26:12,954] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,954] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
-[2023-02-21 01:26:12,955] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-21 01:26:12,955] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,955] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2023-02-21 01:26:12,955] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-21 01:26:12,975] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-21 01:26:12,975] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-21 01:26:12,975] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-21 01:26:12,975] [util.py:216]               [INFO]     |=============================== Running Top Airing Anime Collection ================================|
-[2023-02-21 01:26:12,976] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-21 01:26:12,976] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-21 01:26:12,976] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:12,976] [builder.py:1276]           [DEBUG]    | Builder: anilist_search: {'year': 2023, 'format': ['tv'], 'status': ['airing'], 'sort_by': 'score', 'limit': 15} |
-[2023-02-21 01:26:12,977] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:12,977] [util.py:162]               [DEBUG]    | Processing AniList Search:                                                                         |
-[2023-02-21 01:26:12,977] [util.py:162]               [DEBUG]    | 	Sort By Average Score                                                                             |
-[2023-02-21 01:26:12,977] [util.py:162]               [DEBUG]    | 	Limit to 15 Anime                                                                                 |
-[2023-02-21 01:26:12,978] [util.py:162]               [DEBUG]    | 	Year is 2023                                                                                      |
-[2023-02-21 01:26:12,978] [util.py:162]               [DEBUG]    | 	Format is ['tv']                                                                                  |
-[2023-02-21 01:26:12,978] [util.py:162]               [DEBUG]    | 	Status is ['airing']                                                                              |
-[2023-02-21 01:26:12,978] [anilist.py:149]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: SCORE_DESC, type: ANIME, seasonYear: 2023, format_in: [TV], status_in: [RELEASING]){id}}} |
-[2023-02-21 01:26:13,773] [anilist.py:269]            [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:13,773] [anilist.py:270]            [DEBUG]    | 15 AniList IDs Found: [136430, 141249, 155211, 143338, 153629, 155907, 142853, 148969, 153841, 158870, 151806, 156067, 151040, 140596, 116867] |
-[2023-02-21 01:26:13,773] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17780                                     |
-[2023-02-21 01:26:13,774] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:13,774] [builder.py:1283]           [DEBUG]    | 14 IDs Found: [(359274, 'tvdb'), (305075, 'tvdb'), (289882, 'tvdb'), (414221, 'tvdb'), (423362, 'tvdb'), (127627, 'ratingKey'), (393478, 'tvdb'), (420084, 'tvdb'), (352796, 'tvdb'), (126833, 'ratingKey'), (127786, 'ratingKey'), (127756, 'ratingKey'), (385278, 'tvdb'), (373679, 'tvdb')] |
-[2023-02-21 01:26:13,774] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:13,857] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:13,858] [util.py:216]               [INFO]     |============================== Adding to Top Airing Anime Collection ===============================|
-[2023-02-21 01:26:13,858] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:13,858] [builder.py:1709]           [INFO]     |  1/13 | Top Airing Anime Collection | = | Vinland Saga                                             |
-[2023-02-21 01:26:13,859] [builder.py:1709]           [INFO]     |  2/13 | Top Airing Anime Collection | = | Bungou Stray Dogs                                        |
-[2023-02-21 01:26:13,859] [builder.py:1709]           [INFO]     |  3/13 | Top Airing Anime Collection | = | Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth |
-[2023-02-21 01:26:13,859] [builder.py:1709]           [INFO]     |  4/13 | Top Airing Anime Collection | = | Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken |
-[2023-02-21 01:26:13,859] [builder.py:1709]           [INFO]     |  5/13 | Top Airing Anime Collection | = | Buddy Daddies                                            |
-[2023-02-21 01:26:13,860] [builder.py:1709]           [INFO]     |  6/13 | Top Airing Anime Collection | = | Tokyo Revengers                                          |
-[2023-02-21 01:26:13,860] [builder.py:1709]           [INFO]     |  7/13 | Top Airing Anime Collection | = | Kubo-san wa Mob o Yurusanai                              |
-[2023-02-21 01:26:13,860] [builder.py:1709]           [INFO]     |  8/13 | Top Airing Anime Collection | = | Tsurune: Kazemai Koukou Kyuudou Bu                       |
-[2023-02-21 01:26:13,860] [builder.py:1709]           [INFO]     |  9/13 | Top Airing Anime Collection | = | Tomo-chan wa Onnanoko!                                   |
-[2023-02-21 01:26:13,861] [builder.py:1709]           [INFO]     | 10/13 | Top Airing Anime Collection | = | Tondemo Skill de Isekai Hourou Meshi                     |
-[2023-02-21 01:26:13,861] [builder.py:1709]           [INFO]     | 11/13 | Top Airing Anime Collection | = | Trigun Stampede                                          |
-[2023-02-21 01:26:13,861] [builder.py:1709]           [INFO]     | 12/13 | Top Airing Anime Collection | = | Ijiranaide, Nagatoro-san                                 |
-[2023-02-21 01:26:13,862] [builder.py:1709]           [INFO]     | 13/13 | Top Airing Anime Collection | = | Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. |
-[2023-02-21 01:26:13,862] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:13,862] [builder.py:1735]           [INFO]     | 13 Shows Processed                                                                                 |
-[2023-02-21 01:26:13,862] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:13,863] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Top Airing Anime ===========================|
-[2023-02-21 01:26:13,863] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,121] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | The Magical Revolution of the Reincarnated Princess and the Genius Young Lady (TVDB: 423362) |
-[2023-02-21 01:26:14,122] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,122] [builder.py:1987]           [INFO]     | 1 Show Missing                                                                                     |
-[2023-02-21 01:26:14,131] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,132] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2023-02-21 01:26:14,132] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:14,132] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [423362]                                                                              |
-[2023-02-21 01:26:14,669] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,669] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 423362                                                                         |
-[2023-02-21 01:26:14,669] [sonarr.py:174]             [INFO]     | 1 Series already exist in Sonarr                                                                   |
-[2023-02-21 01:26:14,675] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,675] [util.py:216]               [INFO]     |========================= Updating Details of Top Airing Anime Collection ==========================|
-[2023-02-21 01:26:14,676] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,678] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
-[2023-02-21 01:26:14,678] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-02-21 01:26:14,692] [builder.py:2023]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:14,692] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Top Airing Anime Collection ===================|
-[2023-02-21 01:26:14,693] [builder.py:2025]           [INFO]     |                                                                                                    |
-[2023-02-21 01:26:17,196] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2023-02-21 01:26:17,196] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
-[2023-02-21 01:26:17,197] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2023-02-21 01:26:17,197] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
-[2023-02-21 01:26:17,197] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
-[2023-02-21 01:26:17,197] [sonarr.py:74]              [DEBUG]    | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                                       |
-[2023-02-21 01:26:17,197] [sonarr.py:74]              [DEBUG]    | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]')      |
-[2023-02-21 01:26:17,198] [sonarr.py:74]              [DEBUG]    | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]')                  |
-[2023-02-21 01:26:17,198] [sonarr.py:74]              [DEBUG]    | (426294, 'F:\\Anime\\Buddy Daddies (2023) [tvdb-426294]')                                          |
-[2023-02-21 01:26:17,198] [sonarr.py:74]              [DEBUG]    | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                                        |
-[2023-02-21 01:26:17,198] [sonarr.py:74]              [DEBUG]    | (420084, "F:\\Anime\\Kubo Won't Let Me Be Invisible (2023) [tvdb-420084]")                         |
-[2023-02-21 01:26:17,199] [sonarr.py:74]              [DEBUG]    | (352796, 'F:\\Anime\\Tsurune (2018) [tvdb-352796]')                                                |
-[2023-02-21 01:26:17,199] [sonarr.py:74]              [DEBUG]    | (426572, 'F:\\Anime\\Campfire Cooking in Another World With My Absurd Skills (2023) [tvdb-426572]') |
-[2023-02-21 01:26:17,199] [sonarr.py:74]              [DEBUG]    | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')                                   |
-[2023-02-21 01:26:17,199] [sonarr.py:74]              [DEBUG]    | (421378, 'F:\\Anime\\Trigun Stampede (2023) [tvdb-421378]')                                        |
-[2023-02-21 01:26:17,199] [sonarr.py:74]              [DEBUG]    | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")                       |
-[2023-02-21 01:26:17,200] [sonarr.py:74]              [DEBUG]    | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
-[2023-02-21 01:26:17,713] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2023-02-21 01:26:17,713] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
-[2023-02-21 01:26:17,713] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                   |
-[2023-02-21 01:26:17,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]') |
-[2023-02-21 01:26:17,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]') |
-[2023-02-21 01:26:17,714] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (426294, 'F:\\Anime\\Buddy Daddies (2023) [tvdb-426294]')                      |
-[2023-02-21 01:26:17,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                    |
-[2023-02-21 01:26:17,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (420084, "F:\\Anime\\Kubo Won't Let Me Be Invisible (2023) [tvdb-420084]")     |
-[2023-02-21 01:26:17,715] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (352796, 'F:\\Anime\\Tsurune (2018) [tvdb-352796]')                            |
-[2023-02-21 01:26:17,716] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (426572, 'F:\\Anime\\Campfire Cooking in Another World With My Absurd Skills (2023) [tvdb-426572]') |
-[2023-02-21 01:26:17,716] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')               |
-[2023-02-21 01:26:17,716] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (421378, 'F:\\Anime\\Trigun Stampede (2023) [tvdb-421378]')                    |
-[2023-02-21 01:26:17,717] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")   |
-[2023-02-21 01:26:17,717] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
-[2023-02-21 01:26:17,717] [sonarr.py:174]             [INFO]     | 13 Series already exist in Sonarr                                                                  |
-[2023-02-21 01:26:17,720] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-21 01:26:17,720] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-21 01:26:17,720] [util.py:216]               [INFO]     |                                Finished Top Airing Anime Collection                                |
-[2023-02-21 01:26:17,720] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
-[2023-02-21 01:26:17,721] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-22 04:20:03,159] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-22 04:20:03,160] [util.py:216]               [INFO]     |                                Top Airing Anime Collection in Anime                                |
+[2023-02-22 04:20:03,160] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-22 04:20:03,160] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-22 04:20:03,161] [util.py:216]               [INFO]     |============================== Validating Top Airing Anime Attributes ==============================|
+[2023-02-22 04:20:03,161] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:03,161] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-22 04:20:03,162] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-22 04:20:03,162] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:03,162] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-22 04:20:03,162] [builder.py:455]            [DEBUG]    | Value: custom                                                                                      |
+[2023-02-22 04:20:03,163] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:03,163] [builder.py:473]            [DEBUG]    | Validating Method: anilist_search                                                                  |
+[2023-02-22 04:20:03,163] [builder.py:474]            [DEBUG]    | Value: ordereddict([('year', None), ('format', 'tv'), ('status', 'airing'), ('limit', 15)])        |
+[2023-02-22 04:20:03,163] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search year attribute is blank using 2023 as default                   |
+[2023-02-22 04:20:04,829] [builder.py:689]            [WARNING]  | Collection Warning: anilist_search sort_by attribute not found using score as default              |
+[2023-02-22 04:20:04,829] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,830] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-02-22 04:20:04,830] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-22 04:20:04,830] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,830] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-02-22 04:20:04,831] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-22 04:20:04,831] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,831] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-22 04:20:04,831] [builder.py:474]            [DEBUG]    | Value: +++++++++_Top_Airing                                                                        |
+[2023-02-22 04:20:04,832] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,832] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_existing                                                             |
+[2023-02-22 04:20:04,832] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-22 04:20:04,832] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,833] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2023-02-22 04:20:04,833] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-22 04:20:04,853] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-22 04:20:04,854] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-22 04:20:04,854] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-22 04:20:04,854] [util.py:216]               [INFO]     |=============================== Running Top Airing Anime Collection ================================|
+[2023-02-22 04:20:04,854] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-22 04:20:04,855] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-22 04:20:04,855] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:04,855] [builder.py:1276]           [DEBUG]    | Builder: anilist_search: {'year': 2023, 'format': ['tv'], 'status': ['airing'], 'sort_by': 'score', 'limit': 15} |
+[2023-02-22 04:20:04,855] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:04,856] [util.py:162]               [DEBUG]    | Processing AniList Search:                                                                         |
+[2023-02-22 04:20:04,856] [util.py:162]               [DEBUG]    | 	Sort By Average Score                                                                             |
+[2023-02-22 04:20:04,856] [util.py:162]               [DEBUG]    | 	Limit to 15 Anime                                                                                 |
+[2023-02-22 04:20:04,856] [util.py:162]               [DEBUG]    | 	Year is 2023                                                                                      |
+[2023-02-22 04:20:04,857] [util.py:162]               [DEBUG]    | 	Format is ['tv']                                                                                  |
+[2023-02-22 04:20:04,857] [util.py:162]               [DEBUG]    | 	Status is ['airing']                                                                              |
+[2023-02-22 04:20:04,857] [anilist.py:149]            [DEBUG]    | query ($page: Int) {Page(page: $page){pageInfo {hasNextPage}media(sort: SCORE_DESC, type: ANIME, seasonYear: 2023, format_in: [TV], status_in: [RELEASING]){id}}} |
+[2023-02-22 04:20:05,651] [anilist.py:269]            [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:05,651] [anilist.py:270]            [DEBUG]    | 15 AniList IDs Found: [136430, 141249, 155211, 143338, 153629, 155907, 142853, 148969, 153841, 158870, 151806, 156067, 151040, 116867, 140596] |
+[2023-02-22 04:20:05,652] [convert.py:78]             [ERROR]    | Convert Error: No TVDb ID or IMDb ID found for AniDB ID: 17780                                     |
+[2023-02-22 04:20:05,652] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:05,653] [builder.py:1283]           [DEBUG]    | 14 IDs Found: [(359274, 'tvdb'), (305075, 'tvdb'), (289882, 'tvdb'), (414221, 'tvdb'), (423362, 'tvdb'), (127627, 'ratingKey'), (393478, 'tvdb'), (420084, 'tvdb'), (352796, 'tvdb'), (126833, 'ratingKey'), (127786, 'ratingKey'), (127756, 'ratingKey'), (373679, 'tvdb'), (385278, 'tvdb')] |
+[2023-02-22 04:20:05,653] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:05,736] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:05,736] [util.py:216]               [INFO]     |============================== Adding to Top Airing Anime Collection ===============================|
+[2023-02-22 04:20:05,736] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:05,736] [builder.py:1709]           [INFO]     |  1/13 | Top Airing Anime Collection | = | Vinland Saga                                             |
+[2023-02-22 04:20:05,737] [builder.py:1709]           [INFO]     |  2/13 | Top Airing Anime Collection | = | Bungou Stray Dogs                                        |
+[2023-02-22 04:20:05,737] [builder.py:1709]           [INFO]     |  3/13 | Top Airing Anime Collection | = | Dungeon ni Deai o Motomeru no wa Machigatte Iru Darouka: Familia Myth |
+[2023-02-22 04:20:05,737] [builder.py:1709]           [INFO]     |  4/13 | Top Airing Anime Collection | = | Otonari no Tenshi-sama ni Itsunomanika Dame Ningen ni Sareteita Ken |
+[2023-02-22 04:20:05,737] [builder.py:1709]           [INFO]     |  5/13 | Top Airing Anime Collection | = | Buddy Daddies                                            |
+[2023-02-22 04:20:05,738] [builder.py:1709]           [INFO]     |  6/13 | Top Airing Anime Collection | = | Tokyo Revengers                                          |
+[2023-02-22 04:20:05,738] [builder.py:1709]           [INFO]     |  7/13 | Top Airing Anime Collection | = | Kubo-san wa Mob o Yurusanai                              |
+[2023-02-22 04:20:05,738] [builder.py:1709]           [INFO]     |  8/13 | Top Airing Anime Collection | = | Tsurune: Kazemai Koukou Kyuudou Bu                       |
+[2023-02-22 04:20:05,739] [builder.py:1709]           [INFO]     |  9/13 | Top Airing Anime Collection | = | Tomo-chan wa Onnanoko!                                   |
+[2023-02-22 04:20:05,739] [builder.py:1709]           [INFO]     | 10/13 | Top Airing Anime Collection | = | Tondemo Skill de Isekai Hourou Meshi                     |
+[2023-02-22 04:20:05,739] [builder.py:1709]           [INFO]     | 11/13 | Top Airing Anime Collection | = | Trigun Stampede                                          |
+[2023-02-22 04:20:05,739] [builder.py:1709]           [INFO]     | 12/13 | Top Airing Anime Collection | = | Itai no wa Iya nano de Bougyoryoku ni Kyokufuri Shitai to Omoimasu. |
+[2023-02-22 04:20:05,740] [builder.py:1709]           [INFO]     | 13/13 | Top Airing Anime Collection | = | Ijiranaide, Nagatoro-san                                 |
+[2023-02-22 04:20:05,740] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:05,740] [builder.py:1735]           [INFO]     | 13 Shows Processed                                                                                 |
+[2023-02-22 04:20:05,741] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:05,741] [util.py:216]               [INFO]     |=========================== Missing Shows from Library: Top Airing Anime ===========================|
+[2023-02-22 04:20:05,741] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,052] [builder.py:1982]           [INFO]     | Top Airing Anime Collection | ? | The Magical Revolution of the Reincarnated Princess and the Genius Young Lady (TVDB: 423362) |
+[2023-02-22 04:20:06,053] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,053] [builder.py:1987]           [INFO]     | 1 Show Missing                                                                                     |
+[2023-02-22 04:20:06,063] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,063] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2023-02-22 04:20:06,063] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:06,063] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [423362]                                                                              |
+[2023-02-22 04:20:06,577] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,577] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 423362                                                                         |
+[2023-02-22 04:20:06,578] [sonarr.py:174]             [INFO]     | 1 Series already exist in Sonarr                                                                   |
+[2023-02-22 04:20:06,582] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,583] [util.py:216]               [INFO]     |========================= Updating Details of Top Airing Anime Collection ==========================|
+[2023-02-22 04:20:06,583] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,585] [builder.py:2294]           [INFO]     | No poster collection detail or asset folder found                                                  |
+[2023-02-22 04:20:06,586] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-02-22 04:20:06,599] [builder.py:2023]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:06,600] [util.py:216]               [INFO]     |=================== Updating Details of the Items in Top Airing Anime Collection ===================|
+[2023-02-22 04:20:06,600] [builder.py:2025]           [INFO]     |                                                                                                    |
+[2023-02-22 04:20:09,111] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-02-22 04:20:09,111] [util.py:216]               [INFO]     |==================================== Adding Existing to Sonarr =====================================|
+[2023-02-22 04:20:09,111] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-02-22 04:20:09,112] [sonarr.py:72]              [DEBUG]    | Sonarr Adds:                                                                                       |
+[2023-02-22 04:20:09,112] [sonarr.py:74]              [DEBUG]    | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                                           |
+[2023-02-22 04:20:09,112] [sonarr.py:74]              [DEBUG]    | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                                       |
+[2023-02-22 04:20:09,112] [sonarr.py:74]              [DEBUG]    | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]')      |
+[2023-02-22 04:20:09,113] [sonarr.py:74]              [DEBUG]    | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]')                  |
+[2023-02-22 04:20:09,113] [sonarr.py:74]              [DEBUG]    | (426294, 'F:\\Anime\\Buddy Daddies (2023) [tvdb-426294]')                                          |
+[2023-02-22 04:20:09,113] [sonarr.py:74]              [DEBUG]    | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                                        |
+[2023-02-22 04:20:09,113] [sonarr.py:74]              [DEBUG]    | (420084, "F:\\Anime\\Kubo Won't Let Me Be Invisible (2023) [tvdb-420084]")                         |
+[2023-02-22 04:20:09,113] [sonarr.py:74]              [DEBUG]    | (352796, 'F:\\Anime\\Tsurune (2018) [tvdb-352796]')                                                |
+[2023-02-22 04:20:09,114] [sonarr.py:74]              [DEBUG]    | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')                                   |
+[2023-02-22 04:20:09,114] [sonarr.py:74]              [DEBUG]    | (426572, 'F:\\Anime\\Campfire Cooking in Another World With My Absurd Skills (2023) [tvdb-426572]') |
+[2023-02-22 04:20:09,114] [sonarr.py:74]              [DEBUG]    | (421378, 'F:\\Anime\\Trigun Stampede (2023) [tvdb-421378]')                                        |
+[2023-02-22 04:20:09,114] [sonarr.py:74]              [DEBUG]    | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")                       |
+[2023-02-22 04:20:09,115] [sonarr.py:74]              [DEBUG]    | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
+[2023-02-22 04:20:09,646] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-02-22 04:20:09,646] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (359274, 'F:\\Anime\\Vinland Saga (2019) [tvdb-359274]')                       |
+[2023-02-22 04:20:09,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (305075, 'F:\\Anime\\Bungo Stray Dogs (2016) [tvdb-305075]')                   |
+[2023-02-22 04:20:09,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (289882, 'F:\\Anime\\Is It Wrong to Try to Pick Up Girls in a Dungeon! (2015) [tvdb-289882]') |
+[2023-02-22 04:20:09,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (414221, 'F:\\Anime\\Angel Next Door Spoils Me Rotten, The (2023) [tvdb-414221]') |
+[2023-02-22 04:20:09,647] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (426294, 'F:\\Anime\\Buddy Daddies (2023) [tvdb-426294]')                      |
+[2023-02-22 04:20:09,648] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (393478, 'F:\\Anime\\Tokyo Revengers (2021) [tvdb-393478]')                    |
+[2023-02-22 04:20:09,648] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (420084, "F:\\Anime\\Kubo Won't Let Me Be Invisible (2023) [tvdb-420084]")     |
+[2023-02-22 04:20:09,648] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (352796, 'F:\\Anime\\Tsurune (2018) [tvdb-352796]')                            |
+[2023-02-22 04:20:09,649] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (421994, 'F:\\Anime\\Tomo-chan Is a Girl! (2023) [tvdb-421994]')               |
+[2023-02-22 04:20:09,649] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (426572, 'F:\\Anime\\Campfire Cooking in Another World With My Absurd Skills (2023) [tvdb-426572]') |
+[2023-02-22 04:20:09,649] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (421378, 'F:\\Anime\\Trigun Stampede (2023) [tvdb-421378]')                    |
+[2023-02-22 04:20:09,649] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (385278, "F:\\Anime\\Don't Toy With Me, Miss Nagatoro (2021) [tvdb-385278]")   |
+[2023-02-22 04:20:09,650] [sonarr.py:173]             [INFO]     | Skipped: In Cache | (373679, 'F:\\Anime\\BOFURI - I Don’t Want to Get Hurt, so I’ll Max Out My Defense. (2020) [tvdb-373679]') |
+[2023-02-22 04:20:09,650] [sonarr.py:174]             [INFO]     | 13 Series already exist in Sonarr                                                                  |
+[2023-02-22 04:20:09,652] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-22 04:20:09,652] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-22 04:20:09,653] [util.py:216]               [INFO]     |                                Finished Top Airing Anime Collection                                |
+[2023-02-22 04:20:09,653] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:06                                    |
+[2023-02-22 04:20:09,653] [util.py:220]               [INFO]     |====================================================================================================|

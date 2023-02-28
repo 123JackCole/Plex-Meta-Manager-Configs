@@ -1,37 +1,28 @@
 templates:
-    Movie:
-      optional:
-        - collection
-        - summary
-      url_poster: <<poster>>
-      tmdb_collection: <<collection>>
-      tmdb_summary: <<summary>>
-      sort_title: 00000f_<<collection_name>>
-      sync_mode: sync
-      collection_order: release
-      radarr_add_missing: true
     Collection:
       optional:
         - collection
         - movie
       tmdb_collection_details: <<collection>>
       tmdb_movie: <<movie>>
+      sort_title: 00000f_<<collection_name>>
       url_poster: <<poster>>
       sync_mode: sync
       collection_order: release
+      # radarr_add_missing: true
     Trakt:
       trakt_list_details: <<list>>
+      sort_title: 00000f_<<collection_name>>
       url_poster: <<poster>>
       sync_mode: sync
       collection_order: custom
+      radarr_add_missing: true
 collections:
 
 ######################################################
 #            SiskoUrso Movie Collections             #
 ######################################################
-templates:
-  
-collections:
+
   101 Dalmatians:
     template: {name: Collection, collection: 100693, poster: https://theposterdb.com/api/assets/44903}
   101 Dalmatians (Live-Action):
@@ -50,7 +41,7 @@ collections:
   30 Days of Night:
     template: {name: Collection, collection: 91660, poster: https://theposterdb.com/api/assets/79831}
   "300":
-    template: {name: Collection, collection: 125570, poster: https://theposterdb.com/api/assets/138689}
+    template: {name: Collection, collection: 125570, poster: https://theposterdb.com/api/assets/5575}
   47 Meters Down:
     template: {name: Collection, collection: 635922, poster: https://theposterdb.com/api/assets/21610}
   48 Hrs:
@@ -78,7 +69,7 @@ collections:
   Alice in Wonderland:
     template: {name: Collection, collection: 261307, poster: https://theposterdb.com/api/assets/72185}
   Alien:
-    template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/1205}
+    template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/43458}
   Alien Nation Collection:
     template: {name: Collection, collection: 174245, poster: https://www.themoviedb.org/t/p/original/sXdKjBbdBimtARvWdVFEsxc4kxu.jpg}
   All Dogs Go to Heaven:
@@ -335,7 +326,7 @@ collections:
   A Christmas Story:
     template: {name: Collection, collection: 201873, poster: https://theposterdb.com/api/assets/106204}
   The Chronicles of Narnia:
-    template: {name: Collection, collection: 420, poster: https://theposterdb.com/api/assets/86941}
+    template: {name: Collection, collection: 420, poster: https://theposterdb.com/api/assets/150}
   The Chronicles of Riddick:
     template: {name: Collection, collection: 2794, poster: https://theposterdb.com/api/assets/22252}
   Cinderella:
@@ -649,7 +640,7 @@ collections:
     template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926}
     sort_title: Godzilla 01 (Showa)
   Godzilla (Heisei):
-    template: {name: Collection, collection: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/128721}
+    template: {name: Collection, collection: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/311343}
     sort_title: Godzilla 02 (Heisei)
   Godzilla (Millennium):
     template: {name: Collection, collection: 374512, poster: https://theposterdb.com/api/assets/136302}
@@ -762,7 +753,7 @@ collections:
   How High:
     template: {name: Collection, collection: 745296, poster: https://theposterdb.com/api/assets/106506}
   How to Train Your Dragon:
-    template: {name: Collection, collection: 89137, poster: https://theposterdb.com/api/assets/57147}
+    template: {name: Collection, collection: 89137, poster: https://theposterdb.com/api/assets/28}
   The Human Centipede:
     template: {name: Collection, collection: 96671, poster: https://theposterdb.com/api/assets/153746}
   The Hunchback of Notre Dame:
@@ -795,7 +786,7 @@ collections:
   The Invisible Man:
     template: {name: Collection, collection: 259401, poster: https://theposterdb.com/api/assets/80772}
   Ip Man:
-    template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865", poster: https://theposterdb.com/api/assets/52647}
+    template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865", poster: https://theposterdb.com/api/assets/116682}
     collection_order: alpha
   Iron Man:
     template: {name: Collection, collection: 131292, poster: https://theposterdb.com/api/assets/4817}
@@ -900,7 +891,7 @@ collections:
   Lost Boys:
     template: {name: Collection, collection: 109076, poster: https://theposterdb.com/api/assets/20051}
   Mad Max:
-    template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/134425}
+    template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/14944}
   Madagascar:
     template: {name: Collection, collection: 14740, movie: "161143, 25472, 270946", poster: https://theposterdb.com/api/assets/931}
   Major League:
@@ -945,7 +936,7 @@ collections:
   The Mighty Ducks:
     template: {name: Collection, collection: 10709, poster: https://theposterdb.com/api/assets/107223}
   Middle Earth:
-    template: {name: Collection, collection: "121938, 119", poster: https://theposterdb.com/api/assets/12360}
+    template: {name: Collection, collection: "121938, 119", poster: https://theposterdb.com/api/assets/12363}
   Mimic:
     template: {name: Collection, collection: 10721, poster: https://theposterdb.com/api/assets/216976}
   Mirrors:
@@ -1043,7 +1034,7 @@ collections:
   Piranha:
     template: {name: Collection, collection: 212279, poster: https://theposterdb.com/api/assets/217839}
   Pirates of the Caribbean:
-    template: {name: Collection, collection: 295, poster: https://theposterdb.com/api/assets/49933}
+    template: {name: Collection, collection: 295, poster: https://theposterdb.com/api/assets/24255}
   Pitch Perfect:
     template: {name: Collection, collection: 306031, poster: https://theposterdb.com/api/assets/51631}
   Planes:
@@ -1459,137 +1450,3 @@ collections:
     template: {name: Collection, collection: 352789, poster: https://theposterdb.com/api/assets/51995}
   Zorro:
     template: {name: Collection, collection: 1657, poster: https://theposterdb.com/api/assets/27774}
-
-###########################
-#    Movie Collections    #
-###########################
-
-  "300":
-    template: {name: Movie, collection: 125570, summary: 125570, poster: https://theposterdb.com/api/assets/5575}
-  Alien:
-    template: {name: Movie, collection: "8091, 135416, 115762", summary: 8091, poster: https://theposterdb.com/api/assets/43458}
-  Austin Powers:
-    template: {name: Movie, collection: 1006, summary: 1006, poster: https://theposterdb.com/api/assets/35262}
-  Back to the Future:
-    template: {name: Movie, collection: 264, summary: 264, poster: https://theposterdb.com/api/assets/108170}
-  Batman:
-    template: {name: Movie, collection: 120794, 263, summary: 120794, poster: https://theposterdb.com/api/assets/27394}
-  Blade Runner:
-    template: {name: Movie, collection: 422837, summary: 422837, poster: https://theposterdb.com/api/assets/6081}
-  Bourne:
-    template: {name: Movie, collection: 31562, summary: 31562, poster: https://theposterdb.com/api/assets/19519}
-  Charlie Brown:
-    template: {name: Movie}
-    imdb_list: https://www.imdb.com/list/ls054850259/
-    url_poster: https://theposterdb.com/api/assets/188202
-    summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
-  The Chronicles of Narnia:
-    template: {name: Movie, collection: 420, summary: 420, poster: https://theposterdb.com/api/assets/150}
-  Chronicles of Riddick:
-    template: {name: Movie, collection: 2794, summary: 2794, poster: https://theposterdb.com/api/assets/22252}
-  Cloudy with a Chance of Meatballs:
-    template: {name: Movie, collection: 177467, summary: 177467, poster: https://theposterdb.com/api/assets/37354}
-  Cloverfield:
-    template: {name: Movie}
-    imdb_list: https://www.imdb.com/list/ls023762626/
-    url_poster: https://theposterdb.com/api/assets/80058
-    summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
-  The Conjuring:
-    template: {name: Movie, collection: 313086, summary: 313086, movie: 439079, poster: https://theposterdb.com/api/assets/156081}  
-  Dune:
-    template: {name: Movie, collection: 726871, summary: 726871, poster: https://theposterdb.com/api/assets/197348}  
-  Fantastic Beasts:
-    template: {name: Movie, collection: 435259, summary: 435259, poster: https://theposterdb.com/api/assets/27620}
-  The Godfather:
-    template: {name: Movie, collection: 230, summary: 230, poster: https://theposterdb.com/api/assets/4856}
-  Godzilla (Showa):
-    template: {name: Movie, collection: 374509, summary: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/809}
-    sort_title: 00000f_Godzilla 01 (Showa)
-  Godzilla (Heisei):
-    template: {name: Movie, collection: 374511, summary: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/311343}
-    sort_title: 00000f_Godzilla 02 (Heisei)
-  Godzilla (Millennium):
-    template: {name: Movie, collection: 374512, summary: 374512, poster: https://theposterdb.com/api/assets/136302}
-    sort_title: 00000f_Godzilla 04 (Millennium)
-  Godzilla (MonsterVerse):
-    template: {name: Movie, collection: 535313, summary: 535313, poster: https://theposterdb.com/api/assets/135068}
-    sort_title: 00000f_Godzilla 05 (MonsterVerse)
-  Gremlins:
-    template: {name: Movie, collection: 89151, summary: 89151, poster: https://theposterdb.com/api/assets/2441}
-  Harry Potter:
-    template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/737}
-  Hellboy:
-    template: {name: Movie, collection: 17235, summary: 17235, movie: 456740, poster: https://theposterdb.com/api/assets/11245}
-  High School Musical:
-    template: {name: Movie, collection: 87253, summary: 87253, poster: https://theposterdb.com/api/assets/82921}
-  Home Alone:
-    template: {name: Movie, collection: 9888, summary: 9888, poster: https://theposterdb.com/api/assets/23878}
-  How to Train Your Dragon:
-    template: {name: Movie, collection: 89137, summary: 89137, poster: https://theposterdb.com/api/assets/28}
-  The Hunger Games:
-    template: {name: Movie, collection: 131635, summary: 131635, poster: https://theposterdb.com/api/assets/18154}
-  Ip Man:
-    template: {name: Movie, collection: 70068, summary: 70068, poster: https://theposterdb.com/api/assets/116682}
-  It:
-    template: {name: Movie, collection: 477962, summary: 477962, poster: https://theposterdb.com/api/assets/19249}
-  Indiana Jones:
-    template: {name: Movie, collection: 84, summary: 84, poster: https://theposterdb.com/api/assets/12872}
-  James Bond:
-    template: {name: Movie, collection: 645, summary: 645, poster: https://theposterdb.com/api/assets/126240}
-  Jaws:
-    template: {name: Movie, collection: 2366, summary: 2366, poster: https://theposterdb.com/api/assets/8288}
-  John Wick:
-    template: {name: Movie, collection: 404609, summary: 404609, poster: https://theposterdb.com/api/assets/13285}
-  Jumanji:
-    template: {name: Movie, collection: 495527, summary: 495527, poster: https://theposterdb.com/api/assets/54112}
-  Jurassic Park:
-    template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/13234}
-  Kill Bill:
-    template: {name: Movie, collection: 2883, summary: 2883, poster: https://theposterdb.com/api/assets/40153}
-  Kung Fu Panda:
-    template: {name: Movie, collection: 77816, summary: 77816, poster: https://theposterdb.com/api/assets/112270}
-  The Lord of the Rings (Animated):
-    template: {name: Movie, collection: 141290, summary: 141290, poster: https://theposterdb.com/api/assets/201917}
-  Mad Max:
-    template: {name: Movie, collection: 8945, summary: 8945, poster: https://theposterdb.com/api/assets/14944}
-  The Matrix:
-    template: {name: Movie, collection: 2344, summary: 2344, poster: https://theposterdb.com/api/assets/65273}
-  The Maze Runner:
-    template: {name: Movie, collection: 295130, summary: 295130, poster: https://theposterdb.com/api/assets/174}
-  Men In Black:
-    template: {name: Movie, collection: 86055, summary: 86055, poster: https://theposterdb.com/api/assets/103970}
-  The Mummy:
-    template: {name: Movie, collection: 1733, summary: 1733, poster: https://theposterdb.com/api/assets/69966}
-  Middle Earth:
-    template: {name: Movie, collection: "119, 121938", summary: 119, poster: https://theposterdb.com/api/assets/12363}
-  Mission Impossible:
-    template: {name: Movie, collection: 87359, summary: 87359, poster: https://theposterdb.com/api/assets/2705}
-  Monty Python:
-    template: {name: Movie}
-    imdb_list: https://www.imdb.com/list/ls072012494/
-    url_poster: https://theposterdb.com/api/assets/148489
-    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
-  Ocean's:
-    template: {name: Movie, collection: 304, summary: 304, poster: https://theposterdb.com/api/assets/102581}
-  Pacific Rim:
-    template: {name: Movie, collection: 363369, summary: 363369, poster: https://theposterdb.com/api/assets/3397}
-  Percy Jackson:
-    template: {name: Movie, collection: 179919, summary: 179919, poster: https://theposterdb.com/api/assets/52875}
-  Pirates of the Caribbean:
-    template: {name: Movie, collection: 295, summary: 295, poster: https://theposterdb.com/api/assets/24255}
-  Predator:
-    template: {name: Movie, collection: 399, summary: 399, poster: https://theposterdb.com/api/assets/43442}
-  Shrek:
-    template: {name: Movie, collection: 2150, summary: 2150, poster: https://theposterdb.com/api/assets/6997}
-  "Star Trek: Complete Collection":
-    template: {name: Movie, collection: "115575, 115570, 151", summary: 115575, poster: https://theposterdb.com/api/assets/146184}
-  Star Wars:
-    template: {name: Movie, collection: 10, summary: 10, movie: "348350, 330459", poster: https://theposterdb.com/api/assets/4448}
-  Transformers:
-    template: {name: Movie, collection: 8650, summary: 8650, poster: https://theposterdb.com/api/assets/13251}
-  Wallace & Gromit:
-    template: {name: Movie, collection: 529, summary: 529, poster: https://theposterdb.com/api/assets/167813}
-  Wayne's World:
-    template: {name: Movie, collection: 8979, summary: 8979, poster: https://theposterdb.com/api/assets/68154}  
-  X-Men:
-    template: {name: Movie, collection: 748, summary: 748, poster: https://theposterdb.com/api/assets/214}

@@ -1,63 +1,60 @@
-[2023-01-31 01:01:29,267] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:29,267] [util.py:216]               [INFO]     |                                    Ocean's Collection in Movies                                    |
-[2023-01-31 01:01:29,268] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:29,268] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,269] [util.py:216]               [INFO]     |================================== Validating Ocean's Attributes ===================================|
-[2023-01-31 01:01:29,269] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,269] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-01-31 01:01:29,270] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie'), ('collection', 304), ('summary', 304), ('poster', 'https://theposterdb.com/api/assets/102581')]) |
-[2023-01-31 01:01:29,270] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,270] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-01-31 01:01:29,271] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-01-31 01:01:29,271] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,271] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-01-31 01:01:29,271] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2023-01-31 01:01:29,272] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,272] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-01-31 01:01:29,272] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/102581                                                   |
-[2023-01-31 01:01:29,272] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,272] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection                                                                 |
-[2023-01-31 01:01:29,273] [builder.py:474]            [DEBUG]    | Value: 304                                                                                         |
-[2023-01-31 01:01:29,378] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,379] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_summary                                                                    |
-[2023-01-31 01:01:29,379] [builder.py:474]            [DEBUG]    | Value: 304                                                                                         |
-[2023-01-31 01:01:29,380] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,380] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-01-31 01:01:29,380] [builder.py:474]            [DEBUG]    | Value: 00000f_Ocean's                                                                              |
-[2023-01-31 01:01:29,381] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,381] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2023-01-31 01:01:29,381] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-01-31 01:01:29,570] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,570] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-01-31 01:01:29,571] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,572] [util.py:216]               [INFO]     |==================================== Running Ocean's Collection ====================================|
-[2023-01-31 01:01:29,572] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,573] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-01-31 01:01:29,573] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,573] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 304                                                                      |
-[2023-01-31 01:01:29,573] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,574] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (304) Ocean's Collection (3 Items)                                     |
-[2023-01-31 01:01:29,574] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,574] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(161, 'tmdb'), (163, 'tmdb'), (298, 'tmdb')]                                         |
-[2023-01-31 01:01:29,575] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:29,647] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,648] [util.py:216]               [INFO]     |=================================== Adding to Ocean's Collection ===================================|
-[2023-01-31 01:01:29,648] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,649] [builder.py:1709]           [INFO]     | 1/3 | Ocean's Collection | = | Ocean's Eleven (2001)                                               |
-[2023-01-31 01:01:29,649] [builder.py:1709]           [INFO]     | 2/3 | Ocean's Collection | = | Ocean's Twelve (2004)                                               |
-[2023-01-31 01:01:29,649] [builder.py:1709]           [INFO]     | 3/3 | Ocean's Collection | = | Ocean's Thirteen (2007)                                             |
-[2023-01-31 01:01:29,650] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,650] [builder.py:1735]           [INFO]     | 3 Movies Processed                                                                                 |
-[2023-01-31 01:01:29,654] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,655] [util.py:216]               [INFO]     |============================== Updating Details of Ocean's Collection ==============================|
-[2023-01-31 01:01:29,655] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,655] [builder.py:2156]           [INFO]     | Detail: tmdb_summary updated Collection Summary                                                    |
-[2023-01-31 01:01:29,656] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-01-31 01:01:29,656] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/102581                               |
-[2023-01-31 01:01:29,657] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-01-31 01:01:29,658] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-01-31 01:01:29,839] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,840] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:29,840] [util.py:216]               [INFO]     |                                    Finished Ocean's Collection                                     |
-[2023-01-31 01:01:29,841] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-01-31 01:01:29,841] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 01:11:07,896] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 01:11:07,897] [util.py:216]               [INFO]     |                                    Ocean's Collection in Movies                                    |
+[2023-02-28 01:11:07,897] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 01:11:07,897] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-28 01:11:07,898] [util.py:216]               [INFO]     |================================== Validating Ocean's Attributes ===================================|
+[2023-02-28 01:11:07,898] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:07,898] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-28 01:11:07,899] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Collection'), ('collection', 304), ('poster', 'https://theposterdb.com/api/assets/102581')]) |
+[2023-02-28 01:11:07,899] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:07,899] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-28 01:11:07,899] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-28 01:11:07,900] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:07,900] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-28 01:11:07,900] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2023-02-28 01:11:07,900] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:07,901] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2023-02-28 01:11:07,901] [builder.py:474]            [DEBUG]    | Value: 304                                                                                         |
+[2023-02-28 01:11:08,001] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:08,001] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-28 01:11:08,001] [builder.py:474]            [DEBUG]    | Value: 00000f_Ocean's                                                                              |
+[2023-02-28 01:11:08,002] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:08,002] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-28 01:11:08,002] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/102581                                                   |
+[2023-02-28 01:11:08,189] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,189] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-28 01:11:08,189] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,190] [util.py:216]               [INFO]     |==================================== Running Ocean's Collection ====================================|
+[2023-02-28 01:11:08,190] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,190] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-28 01:11:08,191] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:08,191] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 304                                                                      |
+[2023-02-28 01:11:08,191] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,192] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (304) Ocean's Collection (3 Items)                                     |
+[2023-02-28 01:11:08,192] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:08,192] [builder.py:1283]           [DEBUG]    | 3 IDs Found: [(161, 'tmdb'), (163, 'tmdb'), (298, 'tmdb')]                                         |
+[2023-02-28 01:11:08,192] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:11:08,266] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,266] [util.py:216]               [INFO]     |=================================== Adding to Ocean's Collection ===================================|
+[2023-02-28 01:11:08,267] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,267] [builder.py:1709]           [INFO]     | 1/3 | Ocean's Collection | = | Ocean's Eleven (2001)                                               |
+[2023-02-28 01:11:08,267] [builder.py:1709]           [INFO]     | 2/3 | Ocean's Collection | = | Ocean's Twelve (2004)                                               |
+[2023-02-28 01:11:08,267] [builder.py:1709]           [INFO]     | 3/3 | Ocean's Collection | = | Ocean's Thirteen (2007)                                             |
+[2023-02-28 01:11:08,268] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,268] [builder.py:1735]           [INFO]     | 3 Movies Processed                                                                                 |
+[2023-02-28 01:11:08,272] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,273] [util.py:216]               [INFO]     |============================== Updating Details of Ocean's Collection ==============================|
+[2023-02-28 01:11:08,273] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,273] [builder.py:2156]           [INFO]     | Detail: tmdb_collection_details updated Collection Summary                                         |
+[2023-02-28 01:11:08,274] [builder.py:2258]           [DEBUG]    | 2 posters found:                                                                                   |
+[2023-02-28 01:11:08,274] [builder.py:2260]           [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/1c1r5LViqx9LtqQmNkbu5XdcVEP.jpg |
+[2023-02-28 01:11:08,274] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/102581                               |
+[2023-02-28 01:11:08,275] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
+[2023-02-28 01:11:08,275] [builder.py:2300]           [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/7WUSrq8DqSkVgv1vmhBvav5bPoB.jpg |
+[2023-02-28 01:11:08,276] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-28 01:11:08,278] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
+[2023-02-28 01:11:08,462] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-28 01:11:08,462] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 01:11:08,463] [util.py:216]               [INFO]     |                                    Finished Ocean's Collection                                     |
+[2023-02-28 01:11:08,463] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-02-28 01:11:08,463] [util.py:220]               [INFO]     |====================================================================================================|

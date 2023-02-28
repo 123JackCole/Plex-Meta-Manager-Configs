@@ -55,6 +55,8 @@ templates:
     collection_order: custom
     sort_title: +++++++_<<collection_name>>
     sync_mode: sync
+    schedule: range(<<start>>-<<end>>)
+    delete_not_scheduled: true
     sonarr_add_existing: true
     sonarr_add_missing: true
   Studio:
@@ -122,13 +124,13 @@ collections:
 #   Seasons Collections   #
 ###########################
   Seasonal Winter:
-    template: { name: Season }
+    template: { name: Season, start: 01/01, end: 04/01 }
   Seasonal Spring:
-    template: { name: Season }
+    template: { name: Season, start: 04/01, end: 07/01 }
   Seasonal Summer:
-    template: { name: Season }
+    template: { name: Season, start: 07/01, end: 10/01 }
   Seasonal Fall:
-    template: { name: Season }
+    template: { name: Season, start: 10/01, end: 01/01 }
 
 ###########################
 #    Studio Collections   #

@@ -1,129 +1,99 @@
-[2023-01-31 01:01:17,495] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:17,495] [util.py:216]               [INFO]     |                                 Monty Python Collection in Movies                                  |
-[2023-01-31 01:01:17,496] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:17,496] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:17,497] [util.py:216]               [INFO]     |================================ Validating Monty Python Attributes ================================|
-[2023-01-31 01:01:17,497] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:17,497] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-01-31 01:01:17,497] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Movie')])                                                            |
-[2023-01-31 01:01:17,498] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:17,498] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-01-31 01:01:17,498] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-01-31 01:01:17,499] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:17,499] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-01-31 01:01:17,499] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2023-01-31 01:01:17,499] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:17,500] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-01-31 01:01:17,500] [builder.py:474]            [DEBUG]    | Value: https://www.imdb.com/list/ls072012494/                                                      |
-[2023-01-31 01:01:19,099] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:19,100] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-01-31 01:01:19,100] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/148489                                                   |
-[2023-01-31 01:01:19,100] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:19,100] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-01-31 01:01:19,101] [builder.py:474]            [DEBUG]    | Value: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies |
-[2023-01-31 01:01:19,101] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:19,101] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-01-31 01:01:19,102] [builder.py:474]            [DEBUG]    | Value: 00000f_Monty Python                                                                         |
-[2023-01-31 01:01:19,102] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:19,102] [builder.py:473]            [DEBUG]    | Validating Method: radarr_add_missing                                                              |
-[2023-01-31 01:01:19,102] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-01-31 01:01:19,287] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-01-31 01:01:19,288] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-01-31 01:01:19,289] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:19,290] [util.py:216]               [INFO]     |================================= Running Monty Python Collection ==================================|
-[2023-01-31 01:01:19,290] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:19,290] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-01-31 01:01:19,291] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:19,291] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls072012494/', 'limit': 0}                  |
-[2023-01-31 01:01:19,291] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:19,292] [imdb.py:158]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls072012494/                                       |
-[2023-01-31 01:01:23,618] [imdb.py:127]               [DEBUG]    | 38 IMDb IDs Found: ['tt0063929', 'tt0063100', 'tt0202477', 'tt0066765', 'tt0372432', 'tt0071853', 'tt0076407', 'tt0079470', 'tt0084352', 'tt0472471', 'tt0085959', 'tt0213984', 'tt0329296', 'tt0287570', 'tt0220292', 'tt3989662', 'tt0353751', 'tt1619024', 'tt0389152', 'tt3575578', 'tt0382007', 'tt0544736', 'tt1280542', 'tt0795156', 'tt0890647', 'tt0934946', 'tt0939682', 'tt1357859', 'tt1534901', 'tt1422182', 'tt3982922', 'tt1616543', 'tt1979172', 'tt3260850', 'tt3834278', 'tt3872778', 'tt4256544', 'tt1727770'] |
-[2023-01-31 01:01:23,618] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:23,618] [builder.py:1283]           [DEBUG]    | 38 IDs Found: [('tt0063929', 'imdb'), ('tt0063100', 'imdb'), ('tt0202477', 'imdb'), ('tt0066765', 'imdb'), ('tt0372432', 'imdb'), ('tt0071853', 'imdb'), ('tt0076407', 'imdb'), ('tt0079470', 'imdb'), ('tt0084352', 'imdb'), ('tt0472471', 'imdb'), ('tt0085959', 'imdb'), ('tt0213984', 'imdb'), ('tt0329296', 'imdb'), ('tt0287570', 'imdb'), ('tt0220292', 'imdb'), ('tt3989662', 'imdb'), ('tt0353751', 'imdb'), ('tt1619024', 'imdb'), ('tt0389152', 'imdb'), ('tt3575578', 'imdb'), ('tt0382007', 'imdb'), ('tt0544736', 'imdb'), ('tt1280542', 'imdb'), ('tt0795156', 'imdb'), ('tt0890647', 'imdb'), ('tt0934946', 'imdb'), ('tt0939682', 'imdb'), ('tt1357859', 'imdb'), ('tt1534901', 'imdb'), ('tt1422182', 'imdb'), ('tt3982922', 'imdb'), ('tt1616543', 'imdb'), ('tt1979172', 'imdb'), ('tt3260850', 'imdb'), ('tt3834278', 'imdb'), ('tt3872778', 'imdb'), ('tt4256544', 'imdb'), ('tt1727770', 'imdb')] |
-[2023-01-31 01:01:23,619] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:23,734] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0372432                                             |
-[2023-01-31 01:01:23,884] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0472471                                             |
-[2023-01-31 01:01:24,006] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1619024                                             |
-[2023-01-31 01:01:24,109] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt3575578                                             |
-[2023-01-31 01:01:24,229] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0382007                                             |
-[2023-01-31 01:01:24,354] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0544736                                             |
-[2023-01-31 01:01:24,463] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0890647                                             |
-[2023-01-31 01:01:24,567] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1357859                                             |
-[2023-01-31 01:01:24,666] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1534901                                             |
-[2023-01-31 01:01:24,695] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:24,695] [util.py:216]               [INFO]     |================================ Adding to Monty Python Collection =================================|
-[2023-01-31 01:01:24,695] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:24,696] [builder.py:1709]           [INFO]     | 1/6 | Monty Python Collection | = | And Now for Something Completely Different (1971)              |
-[2023-01-31 01:01:24,696] [builder.py:1709]           [INFO]     | 2/6 | Monty Python Collection | = | Monty Python and the Holy Grail (1975)                         |
-[2023-01-31 01:01:24,697] [builder.py:1709]           [INFO]     | 3/6 | Monty Python Collection | = | Life of Brian (1979)                                           |
-[2023-01-31 01:01:24,697] [builder.py:1709]           [INFO]     | 4/6 | Monty Python Collection | = | The Meaning of Life (1983)                                     |
-[2023-01-31 01:01:24,697] [builder.py:1709]           [INFO]     | 5/6 | Monty Python Collection | = | Not the Messiah: He's a Very Naughty Boy (2010)                |
-[2023-01-31 01:01:24,698] [builder.py:1709]           [INFO]     | 6/6 | Monty Python Collection | = | The Meaning of Monty Python (2013)                             |
-[2023-01-31 01:01:24,698] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:24,699] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
-[2023-01-31 01:01:24,699] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:24,699] [util.py:216]               [INFO]     |============================ Missing Movies from Library: Monty Python =============================|
-[2023-01-31 01:01:24,700] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:24,821] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | How to Irritate People (1969) (TMDb: 18809)                          |
-[2023-01-31 01:01:25,025] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python's Fliegender Zirkus (1971) (TMDb: 46740)                |
-[2023-01-31 01:01:25,174] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Pleasure at Her Majesty's (1976) (TMDb: 59527)                       |
-[2023-01-31 01:01:25,330] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python Live at the Hollywood Bowl (1982) (TMDb: 11949)         |
-[2023-01-31 01:01:25,453] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Parrot Sketch Not Included: Twenty Years of Monty Python (1989) (TMDb: 107215) |
-[2023-01-31 01:01:25,564] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Life of Python (1990) (TMDb: 106983)                                 |
-[2023-01-31 01:01:25,716] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: Live at Aspen (1998) (TMDb: 84067)                     |
-[2023-01-31 01:01:25,846] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Python Night: 30 Years of Monty Python (1999) (TMDb: 811555)         |
-[2023-01-31 01:01:26,001] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | 30 Years of Monty Python, a Revelation (1999) (TMDb: 414931)         |
-[2023-01-31 01:01:26,123] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python & the Holy Grail in Lego (TMDb: 970731)                 |
-[2023-01-31 01:01:26,292] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Meaning of Making 'The Meaning of Life' (2003) (TMDb: 207235)    |
-[2023-01-31 01:01:26,396] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Roots of Monty Python (2005) (TMDb: 68914)                       |
-[2023-01-31 01:01:26,547] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python's Flying Circus - Terry Jones' Personal Best (2006) (TMDb: 48978) |
-[2023-01-31 01:01:26,739] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Secret Life of Brian (2007) (TMDb: 73779)                        |
-[2023-01-31 01:01:26,854] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | What the Pythons Did Next... (2007) (TMDb: 739700)                   |
-[2023-01-31 01:01:26,978] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python in Aberystwyth (TMDb: 564485)                           |
-[2023-01-31 01:01:27,113] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | A Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman (2012) (TMDb: 110392) |
-[2023-01-31 01:01:27,245] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: And Now for Something Rather Similar (2014) (TMDb: 574804) |
-[2023-01-31 01:01:27,357] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: Live (Mostly) (2014) (TMDb: 282268)                    |
-[2023-01-31 01:01:27,477] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: The Meaning of Live (2014) (TMDb: 328037)              |
-[2023-01-31 01:01:27,717] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Absolutely Anything (2015) (TMDb: 86828)                             |
-[2023-01-31 01:01:27,717] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:27,718] [builder.py:1948]           [INFO]     | 21 Movies Missing                                                                                  |
-[2023-01-31 01:01:27,726] [radarr.py:46]              [INFO]     |                                                                                                    |
-[2023-01-31 01:01:27,727] [util.py:216]               [INFO]     |===================================== Adding Missing to Radarr =====================================|
-[2023-01-31 01:01:27,727] [radarr.py:48]              [DEBUG]    |                                                                                                    |
-[2023-01-31 01:01:27,727] [radarr.py:49]              [DEBUG]    | Radarr Adds: [18809, 46740, 59527, 11949, 107215, 106983, 84067, 811555, 414931, 970731, 207235, 68914, 48978, 73779, 739700, 564485, 110392, 574804, 282268, 328037, 86828] |
-[2023-01-31 01:01:29,041] [radarr.py:138]             [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,042] [radarr.py:146]             [INFO]     | Skipped: In Cache | 18809                                                                          |
-[2023-01-31 01:01:29,042] [radarr.py:146]             [INFO]     | Skipped: In Cache | 46740                                                                          |
-[2023-01-31 01:01:29,042] [radarr.py:146]             [INFO]     | Skipped: In Cache | 59527                                                                          |
-[2023-01-31 01:01:29,043] [radarr.py:146]             [INFO]     | Skipped: In Cache | 11949                                                                          |
-[2023-01-31 01:01:29,043] [radarr.py:146]             [INFO]     | Skipped: In Cache | 107215                                                                         |
-[2023-01-31 01:01:29,043] [radarr.py:146]             [INFO]     | Skipped: In Cache | 106983                                                                         |
-[2023-01-31 01:01:29,044] [radarr.py:146]             [INFO]     | Skipped: In Cache | 84067                                                                          |
-[2023-01-31 01:01:29,044] [radarr.py:146]             [INFO]     | Skipped: In Cache | 811555                                                                         |
-[2023-01-31 01:01:29,044] [radarr.py:146]             [INFO]     | Skipped: In Cache | 414931                                                                         |
-[2023-01-31 01:01:29,045] [radarr.py:146]             [INFO]     | Skipped: In Cache | 970731                                                                         |
-[2023-01-31 01:01:29,045] [radarr.py:146]             [INFO]     | Skipped: In Cache | 207235                                                                         |
-[2023-01-31 01:01:29,045] [radarr.py:146]             [INFO]     | Skipped: In Cache | 68914                                                                          |
-[2023-01-31 01:01:29,046] [radarr.py:146]             [INFO]     | Skipped: In Cache | 48978                                                                          |
-[2023-01-31 01:01:29,046] [radarr.py:146]             [INFO]     | Skipped: In Cache | 73779                                                                          |
-[2023-01-31 01:01:29,046] [radarr.py:146]             [INFO]     | Skipped: In Cache | 739700                                                                         |
-[2023-01-31 01:01:29,046] [radarr.py:146]             [INFO]     | Skipped: In Cache | 564485                                                                         |
-[2023-01-31 01:01:29,047] [radarr.py:146]             [INFO]     | Skipped: In Cache | 110392                                                                         |
-[2023-01-31 01:01:29,047] [radarr.py:146]             [INFO]     | Skipped: In Cache | 574804                                                                         |
-[2023-01-31 01:01:29,047] [radarr.py:146]             [INFO]     | Skipped: In Cache | 282268                                                                         |
-[2023-01-31 01:01:29,048] [radarr.py:146]             [INFO]     | Skipped: In Cache | 328037                                                                         |
-[2023-01-31 01:01:29,049] [radarr.py:146]             [INFO]     | Skipped: In Cache | 86828                                                                          |
-[2023-01-31 01:01:29,050] [radarr.py:147]             [INFO]     | 21 Movies already exist in Radarr                                                                  |
-[2023-01-31 01:01:29,071] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,071] [util.py:216]               [INFO]     |=========================== Updating Details of Monty Python Collection ============================|
-[2023-01-31 01:01:29,071] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,072] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2023-01-31 01:01:29,073] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-01-31 01:01:29,073] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/148489                               |
-[2023-01-31 01:01:29,073] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-01-31 01:01:29,074] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-01-31 01:01:29,262] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-01-31 01:01:29,263] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-31 01:01:29,264] [util.py:216]               [INFO]     |                                  Finished Monty Python Collection                                  |
-[2023-01-31 01:01:29,264] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
-[2023-01-31 01:01:29,264] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 01:10:31,260] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 01:10:31,260] [util.py:216]               [INFO]     |                                 Monty Python Collection in Movies                                  |
+[2023-02-28 01:10:31,261] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 01:10:31,261] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-28 01:10:31,261] [util.py:216]               [INFO]     |================================ Validating Monty Python Attributes ================================|
+[2023-02-28 01:10:31,262] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:31,262] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-28 01:10:31,262] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Collection')])                                                       |
+[2023-02-28 01:10:31,263] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:31,263] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-28 01:10:31,263] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-28 01:10:31,263] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:31,264] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-28 01:10:31,264] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2023-02-28 01:10:31,264] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:31,264] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-02-28 01:10:31,265] [builder.py:474]            [DEBUG]    | Value: https://www.imdb.com/list/ls072012494/                                                      |
+[2023-02-28 01:10:32,411] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:32,411] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-28 01:10:32,411] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/148489                                                   |
+[2023-02-28 01:10:32,412] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:32,412] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-02-28 01:10:32,412] [builder.py:474]            [DEBUG]    | Value: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies |
+[2023-02-28 01:10:32,412] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:32,413] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-28 01:10:32,413] [builder.py:474]            [DEBUG]    | Value: 00000f_Monty Python                                                                         |
+[2023-02-28 01:10:32,608] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-28 01:10:32,609] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-28 01:10:32,609] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-28 01:10:32,610] [util.py:216]               [INFO]     |================================= Running Monty Python Collection ==================================|
+[2023-02-28 01:10:32,610] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-28 01:10:32,610] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-28 01:10:32,611] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:32,611] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/list/ls072012494/', 'limit': 0}                  |
+[2023-02-28 01:10:32,611] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:32,612] [imdb.py:158]               [INFO]     | Processing IMDb List: https://www.imdb.com/list/ls072012494/                                       |
+[2023-02-28 01:10:36,910] [imdb.py:127]               [DEBUG]    | 38 IMDb IDs Found: ['tt0063929', 'tt0063100', 'tt0202477', 'tt0066765', 'tt0372432', 'tt0071853', 'tt0076407', 'tt0079470', 'tt0084352', 'tt0472471', 'tt0085959', 'tt0213984', 'tt0329296', 'tt0287570', 'tt0220292', 'tt3989662', 'tt0353751', 'tt1619024', 'tt0389152', 'tt3575578', 'tt0382007', 'tt0544736', 'tt1280542', 'tt0795156', 'tt0890647', 'tt0934946', 'tt0939682', 'tt1357859', 'tt1534901', 'tt1422182', 'tt3982922', 'tt1616543', 'tt1979172', 'tt3260850', 'tt3834278', 'tt3872778', 'tt4256544', 'tt1727770'] |
+[2023-02-28 01:10:36,910] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:36,911] [builder.py:1283]           [DEBUG]    | 38 IDs Found: [('tt0063929', 'imdb'), ('tt0063100', 'imdb'), ('tt0202477', 'imdb'), ('tt0066765', 'imdb'), ('tt0372432', 'imdb'), ('tt0071853', 'imdb'), ('tt0076407', 'imdb'), ('tt0079470', 'imdb'), ('tt0084352', 'imdb'), ('tt0472471', 'imdb'), ('tt0085959', 'imdb'), ('tt0213984', 'imdb'), ('tt0329296', 'imdb'), ('tt0287570', 'imdb'), ('tt0220292', 'imdb'), ('tt3989662', 'imdb'), ('tt0353751', 'imdb'), ('tt1619024', 'imdb'), ('tt0389152', 'imdb'), ('tt3575578', 'imdb'), ('tt0382007', 'imdb'), ('tt0544736', 'imdb'), ('tt1280542', 'imdb'), ('tt0795156', 'imdb'), ('tt0890647', 'imdb'), ('tt0934946', 'imdb'), ('tt0939682', 'imdb'), ('tt1357859', 'imdb'), ('tt1534901', 'imdb'), ('tt1422182', 'imdb'), ('tt3982922', 'imdb'), ('tt1616543', 'imdb'), ('tt1979172', 'imdb'), ('tt3260850', 'imdb'), ('tt3834278', 'imdb'), ('tt3872778', 'imdb'), ('tt4256544', 'imdb'), ('tt1727770', 'imdb')] |
+[2023-02-28 01:10:36,911] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-28 01:10:37,084] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0472471                                             |
+[2023-02-28 01:10:37,209] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1619024                                             |
+[2023-02-28 01:10:37,305] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt3575578                                             |
+[2023-02-28 01:10:37,402] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0382007                                             |
+[2023-02-28 01:10:37,535] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0544736                                             |
+[2023-02-28 01:10:37,639] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0890647                                             |
+[2023-02-28 01:10:37,733] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1357859                                             |
+[2023-02-28 01:10:37,831] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt1534901                                             |
+[2023-02-28 01:10:37,860] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:37,860] [util.py:216]               [INFO]     |================================ Adding to Monty Python Collection =================================|
+[2023-02-28 01:10:37,860] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:37,861] [builder.py:1709]           [INFO]     | 1/6 | Monty Python Collection | = | And Now for Something Completely Different (1971)              |
+[2023-02-28 01:10:37,861] [builder.py:1709]           [INFO]     | 2/6 | Monty Python Collection | = | Monty Python and the Holy Grail (1975)                         |
+[2023-02-28 01:10:37,861] [builder.py:1709]           [INFO]     | 3/6 | Monty Python Collection | = | Life of Brian (1979)                                           |
+[2023-02-28 01:10:37,861] [builder.py:1709]           [INFO]     | 4/6 | Monty Python Collection | = | The Meaning of Life (1983)                                     |
+[2023-02-28 01:10:37,862] [builder.py:1709]           [INFO]     | 5/6 | Monty Python Collection | = | Not the Messiah: He's a Very Naughty Boy (2010)                |
+[2023-02-28 01:10:37,862] [builder.py:1709]           [INFO]     | 6/6 | Monty Python Collection | = | The Meaning of Monty Python (2013)                             |
+[2023-02-28 01:10:37,862] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:37,862] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
+[2023-02-28 01:10:37,863] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:37,863] [util.py:216]               [INFO]     |============================ Missing Movies from Library: Monty Python =============================|
+[2023-02-28 01:10:37,863] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:37,998] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | How to Irritate People (1969) (TMDb: 18809)                          |
+[2023-02-28 01:10:38,147] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python's Fliegender Zirkus (1971) (TMDb: 46740)                |
+[2023-02-28 01:10:40,205] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python & the Holy Grail Location Report (1974) (TMDb: 1081984) |
+[2023-02-28 01:10:40,357] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Pleasure at Her Majesty's (1976) (TMDb: 59527)                       |
+[2023-02-28 01:10:40,472] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python Live at the Hollywood Bowl (1982) (TMDb: 11949)         |
+[2023-02-28 01:10:40,593] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Parrot Sketch Not Included: Twenty Years of Monty Python (1989) (TMDb: 107215) |
+[2023-02-28 01:10:40,707] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Life of Python (1990) (TMDb: 106983)                                 |
+[2023-02-28 01:10:40,819] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: Live at Aspen (1998) (TMDb: 84067)                     |
+[2023-02-28 01:10:40,935] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Python Night: 30 Years of Monty Python (1999) (TMDb: 811555)         |
+[2023-02-28 01:10:41,070] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | 30 Years of Monty Python, a Revelation (1999) (TMDb: 414931)         |
+[2023-02-28 01:10:41,195] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python & the Holy Grail in Lego (TMDb: 970731)                 |
+[2023-02-28 01:10:41,367] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Meaning of Making 'The Meaning of Life' (2003) (TMDb: 207235)    |
+[2023-02-28 01:10:41,519] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Roots of Monty Python (2005) (TMDb: 68914)                       |
+[2023-02-28 01:10:41,669] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python's Flying Circus - Terry Jones' Personal Best (2006) (TMDb: 48978) |
+[2023-02-28 01:10:41,811] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | The Secret Life of Brian (2007) (TMDb: 73779)                        |
+[2023-02-28 01:10:41,932] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | What the Pythons Did Next... (2007) (TMDb: 739700)                   |
+[2023-02-28 01:10:42,066] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python in Aberystwyth (TMDb: 564485)                           |
+[2023-02-28 01:10:42,186] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | A Liar's Autobiography: The Untrue Story of Monty Python's Graham Chapman (2012) (TMDb: 110392) |
+[2023-02-28 01:10:42,307] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: And Now for Something Rather Similar (2014) (TMDb: 574804) |
+[2023-02-28 01:10:42,440] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: Live (Mostly) (2014) (TMDb: 282268)                    |
+[2023-02-28 01:10:42,565] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Monty Python: The Meaning of Live (2014) (TMDb: 328037)              |
+[2023-02-28 01:10:42,685] [builder.py:1943]           [INFO]     | Monty Python Collection | ? | Absolutely Anything (2015) (TMDb: 86828)                             |
+[2023-02-28 01:10:42,685] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:42,686] [builder.py:1948]           [INFO]     | 22 Movies Missing                                                                                  |
+[2023-02-28 01:10:42,820] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:42,821] [util.py:216]               [INFO]     |=========================== Updating Details of Monty Python Collection ============================|
+[2023-02-28 01:10:42,821] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-28 01:10:42,822] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-02-28 01:10:42,822] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-02-28 01:10:42,823] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/148489                               |
+[2023-02-28 01:10:42,823] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-02-28 01:10:42,832] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-28 01:10:43,023] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-28 01:10:43,024] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 01:10:43,024] [util.py:216]               [INFO]     |                                  Finished Monty Python Collection                                  |
+[2023-02-28 01:10:43,024] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
+[2023-02-28 01:10:43,024] [util.py:220]               [INFO]     |====================================================================================================|
