@@ -1,249 +1,248 @@
-[2023-02-02 01:03:17,711] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-02 01:03:17,711] [util.py:216]               [INFO]     |                                Top Rated TV Collection in TV Shows                                 |
-[2023-02-02 01:03:17,712] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-02 01:03:17,712] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-02 01:03:17,713] [util.py:216]               [INFO]     |================================ Validating Top Rated TV Attributes ================================|
-[2023-02-02 01:03:17,713] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:17,713] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-02 01:03:17,713] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-02 01:03:17,714] [builder.py:389]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:17,714] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
-[2023-02-02 01:03:17,714] [builder.py:395]            [DEBUG]    | Value: user_rating.desc                                                                            |
-[2023-02-02 01:03:17,715] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:17,715] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-02 01:03:17,715] [builder.py:474]            [DEBUG]    | Value: +1c                                                                                         |
-[2023-02-02 01:03:17,715] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:17,716] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-02-02 01:03:17,716] [builder.py:474]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc'), ('limit', 100), ('tmdb_top_rated', 100)]) |
-[2023-02-02 01:03:18,245] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:18,245] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-02-02 01:03:18,245] [builder.py:474]            [DEBUG]    | Value: Top Rated Shows across the internet                                                         |
-[2023-02-02 01:03:18,246] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:18,246] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-02-02 01:03:18,246] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/7h1vaxl.png                                                             |
-[2023-02-02 01:03:18,246] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:18,247] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
-[2023-02-02 01:03:18,247] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
-[2023-02-02 01:03:18,247] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:18,247] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2023-02-02 01:03:18,248] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-02 01:03:18,340] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-02 01:03:18,341] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-02 01:03:18,343] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-02 01:03:18,343] [util.py:216]               [INFO]     |================================= Running Top Rated TV Collection ==================================|
-[2023-02-02 01:03:18,344] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-02 01:03:18,344] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-02 01:03:18,344] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:18,344] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc', 'limit': 100} |
-[2023-02-02 01:03:18,345] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:18,345] [imdb.py:158]               [INFO]     | Processing IMDb List: 100 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc |
-[2023-02-02 01:03:21,440] [imdb.py:127]               [DEBUG]    | 100 IMDb IDs Found: ['tt0903747', 'tt5491994', 'tt7366338', 'tt0185906', 'tt0795176', 'tt3581920', 'tt0306414', 'tt9471404', 'tt0417299', 'tt2395695', 'tt12392504', 'tt9253866', 'tt6769208', 'tt0081846', 'tt0944947', 'tt0141842', 'tt0071075', 'tt14392248', 'tt4202274', 'tt2861424', 'tt1475582', 'tt0052520', 'tt1355642', 'tt4742876', 'tt8420184', 'tt9432978', 'tt1877514', 'tt1831164', 'tt1533395', 'tt21279678', 'tt0386676', 'tt2560140', 'tt11126994', 'tt0303461', 'tt2098220', 'tt0877057', 'tt0103359', 'tt0081912', 'tt10541088', 'tt7920978', 'tt9735318', 'tt0092337', 'tt2092588', 'tt0296310', 'tt1806234', 'tt8595766', 'tt0268093', 'tt3032476', 'tt0108778', 'tt2356777', 'tt0098904', 'tt2802850', 'tt0388629', 'tt0200276', 'tt1865718', 'tt0213338', 'tt7137906', 'tt2297757', 'tt3530232', 'tt1795096', 'tt12004706', 'tt14650074', 'tt0081834', 'tt7927936', 'tt1909015', 'tt13991232', 'tt7660850', 'tt2442560', 'tt10986410', 'tt0472954', 'tt2085059', 'tt2707408', 'tt10233448', 'tt3398228', 'tt0264235', 'tt0098936', 'tt0193676', 'tt0214341', 'tt0112130', 'tt3718778', 'tt1910272', 'tt0072500', 'tt0353049', 'tt0063929', 'tt0121220', 'tt0096548', 'tt4236770', 'tt8111088', 'tt1190634', 'tt4574334', 'tt11280740', 'tt0412142', 'tt0096697', 'tt0121955', 'tt5753856', 'tt0092455', 'tt5555260', 'tt13111040', 'tt6741278', 'tt0804503'] |
-[2023-02-02 01:03:21,441] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:21,441] [builder.py:1283]           [DEBUG]    | 100 IDs Found: [('tt0903747', 'imdb'), ('tt5491994', 'imdb'), ('tt7366338', 'imdb'), ('tt0185906', 'imdb'), ('tt0795176', 'imdb'), ('tt3581920', 'imdb'), ('tt0306414', 'imdb'), ('tt9471404', 'imdb'), ('tt0417299', 'imdb'), ('tt2395695', 'imdb'), ('tt12392504', 'imdb'), ('tt9253866', 'imdb'), ('tt6769208', 'imdb'), ('tt0081846', 'imdb'), ('tt0944947', 'imdb'), ('tt0141842', 'imdb'), ('tt0071075', 'imdb'), ('tt14392248', 'imdb'), ('tt4202274', 'imdb'), ('tt2861424', 'imdb'), ('tt1475582', 'imdb'), ('tt0052520', 'imdb'), ('tt1355642', 'imdb'), ('tt4742876', 'imdb'), ('tt8420184', 'imdb'), ('tt9432978', 'imdb'), ('tt1877514', 'imdb'), ('tt1831164', 'imdb'), ('tt1533395', 'imdb'), ('tt21279678', 'imdb'), ('tt0386676', 'imdb'), ('tt2560140', 'imdb'), ('tt11126994', 'imdb'), ('tt0303461', 'imdb'), ('tt2098220', 'imdb'), ('tt0877057', 'imdb'), ('tt0103359', 'imdb'), ('tt0081912', 'imdb'), ('tt10541088', 'imdb'), ('tt7920978', 'imdb'), ('tt9735318', 'imdb'), ('tt0092337', 'imdb'), ('tt2092588', 'imdb'), ('tt0296310', 'imdb'), ('tt1806234', 'imdb'), ('tt8595766', 'imdb'), ('tt0268093', 'imdb'), ('tt3032476', 'imdb'), ('tt0108778', 'imdb'), ('tt2356777', 'imdb'), ('tt0098904', 'imdb'), ('tt2802850', 'imdb'), ('tt0388629', 'imdb'), ('tt0200276', 'imdb'), ('tt1865718', 'imdb'), ('tt0213338', 'imdb'), ('tt7137906', 'imdb'), ('tt2297757', 'imdb'), ('tt3530232', 'imdb'), ('tt1795096', 'imdb'), ('tt12004706', 'imdb'), ('tt14650074', 'imdb'), ('tt0081834', 'imdb'), ('tt7927936', 'imdb'), ('tt1909015', 'imdb'), ('tt13991232', 'imdb'), ('tt7660850', 'imdb'), ('tt2442560', 'imdb'), ('tt10986410', 'imdb'), ('tt0472954', 'imdb'), ('tt2085059', 'imdb'), ('tt2707408', 'imdb'), ('tt10233448', 'imdb'), ('tt3398228', 'imdb'), ('tt0264235', 'imdb'), ('tt0098936', 'imdb'), ('tt0193676', 'imdb'), ('tt0214341', 'imdb'), ('tt0112130', 'imdb'), ('tt3718778', 'imdb'), ('tt1910272', 'imdb'), ('tt0072500', 'imdb'), ('tt0353049', 'imdb'), ('tt0063929', 'imdb'), ('tt0121220', 'imdb'), ('tt0096548', 'imdb'), ('tt4236770', 'imdb'), ('tt8111088', 'imdb'), ('tt1190634', 'imdb'), ('tt4574334', 'imdb'), ('tt11280740', 'imdb'), ('tt0412142', 'imdb'), ('tt0096697', 'imdb'), ('tt0121955', 'imdb'), ('tt5753856', 'imdb'), ('tt0092455', 'imdb'), ('tt5555260', 'imdb'), ('tt13111040', 'imdb'), ('tt6741278', 'imdb'), ('tt0804503', 'imdb')] |
-[2023-02-02 01:03:21,441] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:21,663] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt4202274                                             |
-[2023-02-02 01:03:21,855] [builder.py:1383]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206912                                                |
-[2023-02-02 01:03:22,267] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt14650074                                            |
-[2023-02-02 01:03:22,377] [builder.py:1383]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156249                                                |
-[2023-02-02 01:03:22,584] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0214341                                             |
-[2023-02-02 01:03:22,725] [builder.py:1383]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 218960                                                |
-[2023-02-02 01:03:22,966] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:22,966] [util.py:216]               [INFO]     |================================ Adding to Top Rated TV Collection =================================|
-[2023-02-02 01:03:22,966] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,013] [builder.py:1709]           [INFO]     |  1/33 | Top Rated TV Collection | = | Breaking Bad                                                 |
-[2023-02-02 01:03:23,014] [builder.py:1709]           [INFO]     |  2/33 | Top Rated TV Collection | = | Planet Earth II                                              |
-[2023-02-02 01:03:23,015] [builder.py:1709]           [INFO]     |  3/33 | Top Rated TV Collection | = | Chernobyl                                                    |
-[2023-02-02 01:03:23,015] [builder.py:1709]           [INFO]     |  4/33 | Top Rated TV Collection | = | Planet Earth                                                 |
-[2023-02-02 01:03:23,015] [builder.py:1709]           [INFO]     |  5/33 | Top Rated TV Collection | = | The Last of Us                                               |
-[2023-02-02 01:03:23,016] [builder.py:1709]           [INFO]     |  6/33 | Top Rated TV Collection | = | Avatar: The Last Airbender                                   |
-[2023-02-02 01:03:23,016] [builder.py:1709]           [INFO]     |  7/33 | Top Rated TV Collection | = | Blue Planet II                                               |
-[2023-02-02 01:03:23,016] [builder.py:1709]           [INFO]     |  8/33 | Top Rated TV Collection | = | Game of Thrones                                              |
-[2023-02-02 01:03:23,017] [builder.py:1709]           [INFO]     |  9/33 | Top Rated TV Collection | = | Rick and Morty                                               |
-[2023-02-02 01:03:23,017] [builder.py:1709]           [INFO]     | 10/33 | Top Rated TV Collection | = | Sherlock                                                     |
-[2023-02-02 01:03:23,018] [builder.py:1709]           [INFO]     | 11/33 | Top Rated TV Collection | = | The Last Dance                                               |
-[2023-02-02 01:03:23,018] [builder.py:1709]           [INFO]     | 12/33 | Top Rated TV Collection | = | Life                                                         |
-[2023-02-02 01:03:23,018] [builder.py:1709]           [INFO]     | 13/33 | Top Rated TV Collection | = | Arcane                                                       |
-[2023-02-02 01:03:23,019] [builder.py:1709]           [INFO]     | 14/33 | Top Rated TV Collection | = | Firefly                                                      |
-[2023-02-02 01:03:23,019] [builder.py:1709]           [INFO]     | 15/33 | Top Rated TV Collection | = | The Beatles: Get Back                                        |
-[2023-02-02 01:03:23,019] [builder.py:1709]           [INFO]     | 16/33 | Top Rated TV Collection | = | Frozen Planet                                                |
-[2023-02-02 01:03:23,020] [builder.py:1709]           [INFO]     | 17/33 | Top Rated TV Collection | = | The Blue Planet                                              |
-[2023-02-02 01:03:23,020] [builder.py:1709]           [INFO]     | 18/33 | Top Rated TV Collection | = | Better Call Saul                                             |
-[2023-02-02 01:03:23,020] [builder.py:1709]           [INFO]     | 19/33 | Top Rated TV Collection | = | True Detective                                               |
-[2023-02-02 01:03:23,021] [builder.py:1709]           [INFO]     | 20/33 | Top Rated TV Collection | = | Fargo                                                        |
-[2023-02-02 01:03:23,021] [builder.py:1709]           [INFO]     | 21/33 | Top Rated TV Collection | = | Gravity Falls                                                |
-[2023-02-02 01:03:23,021] [builder.py:1709]           [INFO]     | 22/33 | Top Rated TV Collection | = | Peaky Blinders                                               |
-[2023-02-02 01:03:23,022] [builder.py:1709]           [INFO]     | 23/33 | Top Rated TV Collection | = | Ted Lasso                                                    |
-[2023-02-02 01:03:23,022] [builder.py:1709]           [INFO]     | 24/33 | Top Rated TV Collection | = | Black Mirror                                                 |
-[2023-02-02 01:03:23,022] [builder.py:1709]           [INFO]     | 25/33 | Top Rated TV Collection | = | BoJack Horseman                                              |
-[2023-02-02 01:03:23,024] [builder.py:1709]           [INFO]     | 26/33 | Top Rated TV Collection | = | Over the Garden Wall                                         |
-[2023-02-02 01:03:23,024] [builder.py:1709]           [INFO]     | 27/33 | Top Rated TV Collection | = | The Mandalorian                                              |
-[2023-02-02 01:03:23,025] [builder.py:1709]           [INFO]     | 28/33 | Top Rated TV Collection | = | The Boys                                                     |
-[2023-02-02 01:03:23,025] [builder.py:1709]           [INFO]     | 29/33 | Top Rated TV Collection | = | Stranger Things                                              |
-[2023-02-02 01:03:23,025] [builder.py:1709]           [INFO]     | 30/33 | Top Rated TV Collection | = | Severance                                                    |
-[2023-02-02 01:03:23,026] [builder.py:1709]           [INFO]     | 31/33 | Top Rated TV Collection | = | South Park                                                   |
-[2023-02-02 01:03:23,026] [builder.py:1709]           [INFO]     | 32/33 | Top Rated TV Collection | = | Dark                                                         |
-[2023-02-02 01:03:23,026] [builder.py:1709]           [INFO]     | 33/33 | Top Rated TV Collection | = | Invincible (2021)                                            |
-[2023-02-02 01:03:23,027] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,027] [builder.py:1735]           [INFO]     | 33 Shows Processed                                                                                 |
-[2023-02-02 01:03:23,027] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,028] [util.py:216]               [INFO]     |============================ Missing Movies from Library: Top Rated TV =============================|
-[2023-02-02 01:03:23,028] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,126] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 37452: The resource you requested could not be found.       |
-[2023-02-02 01:03:23,127] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,128] [builder.py:1948]           [INFO]     | 0 Movie Missing                                                                                    |
-[2023-02-02 01:03:23,128] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,128] [util.py:216]               [INFO]     |============================= Missing Shows from Library: Top Rated TV =============================|
-[2023-02-02 01:03:23,129] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:23,667] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Band of Brothers (TVDB: 74205)                                       |
-[2023-02-02 01:03:24,292] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Wire (TVDB: 79126)                                               |
-[2023-02-02 01:03:24,690] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Chosen (TVDB: 356992)                                            |
-[2023-02-02 01:03:24,961] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cosmos (2014) (TVDB: 260586)                                         |
-[2023-02-02 01:03:25,224] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Scam 1992 - The Harshad Mehta Story (TVDB: 389680)                   |
-[2023-02-02 01:03:25,508] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Our Planet (TVDB: 355229)                                            |
-[2023-02-02 01:03:26,036] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cosmos (TVDB: 74995)                                                 |
-[2023-02-02 01:03:26,816] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Sopranos (TVDB: 75299)                                           |
-[2023-02-02 01:03:27,117] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The World at War (TVDB: 79309)                                       |
-[2023-02-02 01:03:27,356] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Aspirants (TVDB: 400694)                                             |
-[2023-02-02 01:03:27,950] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Twilight Zone (TVDB: 73587)                                      |
-[2023-02-02 01:03:28,567] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Fullmetal Alchemist: Brotherhood (TVDB: 85249)                       |
-[2023-02-02 01:03:28,851] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | TVF Pitchers (TVDB: 298868)                                          |
-[2023-02-02 01:03:29,110] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Kota Factory (TVDB: 362631)                                          |
-[2023-02-02 01:03:29,360] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Vietnam War (2017) (TVDB: 333595)                                |
-[2023-02-02 01:03:29,929] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Leyla and Mecnun (TVDB: 248440)                                      |
-[2023-02-02 01:03:31,175] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Office (US) (TVDB: 73244)                                        |
-[2023-02-02 01:03:31,855] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Attack on Titan (TVDB: 267440)                                       |
-[2023-02-02 01:03:32,681] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Hunter x Hunter (2011) (TVDB: 252322)                                |
-[2023-02-02 01:03:33,180] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Death Note (TVDB: 79481)                                             |
-[2023-02-02 01:03:33,822] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Batman: The Animated Series (TVDB: 76168)                            |
-[2023-02-02 01:03:34,373] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Only Fools and Horses (TVDB: 75628)                                  |
-[2023-02-02 01:03:34,629] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Clarkson's Farm (TVDB: 378165)                                       |
-[2023-02-02 01:03:34,894] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Persona (TVDB: 343271)                                               |
-[2023-02-02 01:03:35,129] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Human Planet (TVDB: 180831)                                          |
-[2023-02-02 01:03:35,335] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Yeh Meri Family (TVDB: 350193)                                       |
-[2023-02-02 01:03:35,571] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Ramayan (TVDB: 159831)                                               |
-[2023-02-02 01:03:36,594] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Friends (TVDB: 79168)                                                |
-[2023-02-02 01:03:37,357] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Seinfeld (TVDB: 79169)                                               |
-[2023-02-02 01:03:39,281] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | One Piece (TVDB: 81797)                                              |
-[2023-02-02 01:03:40,132] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The West Wing (TVDB: 72521)                                          |
-[2023-02-02 01:03:40,598] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cowboy Bebop (TVDB: 76885)                                           |
-[2023-02-02 01:03:40,878] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | When They See Us (TVDB: 360388)                                      |
-[2023-02-02 01:03:41,294] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Nathan for You (TVDB: 267002)                                        |
-[2023-02-02 01:03:41,762] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Last Week Tonight with John Oliver (TVDB: 278518)                    |
-[2023-02-02 01:03:42,127] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Behzat Ç.: The Story Of A Rebel Cop (TVDB: 235881)                   |
-[2023-02-02 01:03:42,359] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Panchayat (TVDB: 379446)                                             |
-[2023-02-02 01:03:42,612] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Flames (TVDB: 342635)                                                |
-[2023-02-02 01:03:42,929] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Undercover (2011) (TVDB: 248051)                                     |
-[2023-02-02 01:03:43,217] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | 1883 (TVDB: 396390)                                                  |
-[2023-02-02 01:03:43,737] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Succession (TVDB: 338186)                                            |
-[2023-02-02 01:03:44,680] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                      |
-[2023-02-02 01:03:45,095] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Narcos (TVDB: 282670)                                                |
-[2023-02-02 01:03:45,517] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Vinland Saga (TVDB: 359274)                                          |
-[2023-02-02 01:03:46,213] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Curb Your Enthusiasm (TVDB: 76203)                                   |
-[2023-02-02 01:03:46,803] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Twin Peaks (TVDB: 70533)                                             |
-[2023-02-02 01:03:47,199] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Freaks and Geeks (TVDB: 76321)                                       |
-[2023-02-02 01:03:47,527] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Pride and Prejudice (TVDB: 71691)                                    |
-[2023-02-02 01:03:47,850] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Steins;Gate (TVDB: 244061)                                           |
-[2023-02-02 01:03:48,210] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Fawlty Towers (TVDB: 75932)                                          |
-[2023-02-02 01:03:48,551] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Chappelle's Show (TVDB: 71862)                                       |
-[2023-02-02 01:03:49,045] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Monty Python's Flying Circus (TVDB: 75853)                           |
-[2023-02-02 01:03:50,104] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Dragon Ball Z (TVDB: 81472)                                          |
-[2023-02-02 01:03:50,708] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Yellowstone (2018) (TVDB: 341164)                                    |
-[2023-02-02 01:03:51,762] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | House (TVDB: 73255)                                                  |
-[2023-02-02 01:03:54,013] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Simpsons (TVDB: 71663)                                           |
-[2023-02-02 01:03:54,680] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Star Trek: The Next Generation (TVDB: 71470)                         |
-[2023-02-02 01:03:55,264] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | This Is Us (TVDB: 311714)                                            |
-[2023-02-02 01:03:55,478] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Offer (TVDB: 392770)                                             |
-[2023-02-02 01:03:56,124] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Mad Men (TVDB: 80337)                                                |
-[2023-02-02 01:03:56,124] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:56,125] [builder.py:1987]           [INFO]     | 60 Shows Missing                                                                                   |
-[2023-02-02 01:03:56,132] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2023-02-02 01:03:56,132] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2023-02-02 01:03:56,133] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2023-02-02 01:03:56,133] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [74205, 79126, 356992, 260586, 389680, 355229, 74995, 75299, 79309, 400694, 73587, 85249, 298868, 362631, 333595, 248440, 73244, 267440, 252322, 79481, 76168, 75628, 378165, 343271, 180831, 350193, 159831, 79168, 79169, 81797, 72521, 76885, 360388, 267002, 278518, 235881, 379446, 342635, 248051, 396390, 338186, 75805, 282670, 359274, 76203, 70533, 76321, 71691, 244061, 75932, 71862, 75853, 81472, 341164, 73255, 71663, 71470, 311714, 392770, 80337] |
-[2023-02-02 01:03:58,836] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,837] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74205                                                                          |
-[2023-02-02 01:03:58,837] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79126                                                                          |
-[2023-02-02 01:03:58,837] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 356992                                                                         |
-[2023-02-02 01:03:58,838] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 260586                                                                         |
-[2023-02-02 01:03:58,838] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 389680                                                                         |
-[2023-02-02 01:03:58,838] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 355229                                                                         |
-[2023-02-02 01:03:58,838] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74995                                                                          |
-[2023-02-02 01:03:58,839] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75299                                                                          |
-[2023-02-02 01:03:58,839] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79309                                                                          |
-[2023-02-02 01:03:58,839] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 400694                                                                         |
-[2023-02-02 01:03:58,840] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73587                                                                          |
-[2023-02-02 01:03:58,840] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 298868                                                                         |
-[2023-02-02 01:03:58,840] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 362631                                                                         |
-[2023-02-02 01:03:58,841] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 333595                                                                         |
-[2023-02-02 01:03:58,841] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248440                                                                         |
-[2023-02-02 01:03:58,841] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73244                                                                          |
-[2023-02-02 01:03:58,841] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76168                                                                          |
-[2023-02-02 01:03:58,842] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75628                                                                          |
-[2023-02-02 01:03:58,842] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 378165                                                                         |
-[2023-02-02 01:03:58,842] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 343271                                                                         |
-[2023-02-02 01:03:58,843] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 180831                                                                         |
-[2023-02-02 01:03:58,843] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 350193                                                                         |
-[2023-02-02 01:03:58,843] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 159831                                                                         |
-[2023-02-02 01:03:58,844] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79168                                                                          |
-[2023-02-02 01:03:58,844] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79169                                                                          |
-[2023-02-02 01:03:58,844] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72521                                                                          |
-[2023-02-02 01:03:58,845] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 360388                                                                         |
-[2023-02-02 01:03:58,845] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 267002                                                                         |
-[2023-02-02 01:03:58,845] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 278518                                                                         |
-[2023-02-02 01:03:58,845] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 235881                                                                         |
-[2023-02-02 01:03:58,846] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 379446                                                                         |
-[2023-02-02 01:03:58,846] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 342635                                                                         |
-[2023-02-02 01:03:58,846] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248051                                                                         |
-[2023-02-02 01:03:58,847] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 396390                                                                         |
-[2023-02-02 01:03:58,847] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 338186                                                                         |
-[2023-02-02 01:03:58,847] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75805                                                                          |
-[2023-02-02 01:03:58,847] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 282670                                                                         |
-[2023-02-02 01:03:58,848] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76203                                                                          |
-[2023-02-02 01:03:58,848] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 70533                                                                          |
-[2023-02-02 01:03:58,848] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76321                                                                          |
-[2023-02-02 01:03:58,849] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71691                                                                          |
-[2023-02-02 01:03:58,849] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75932                                                                          |
-[2023-02-02 01:03:58,849] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71862                                                                          |
-[2023-02-02 01:03:58,851] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75853                                                                          |
-[2023-02-02 01:03:58,852] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 341164                                                                         |
-[2023-02-02 01:03:58,852] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73255                                                                          |
-[2023-02-02 01:03:58,852] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71663                                                                          |
-[2023-02-02 01:03:58,853] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71470                                                                          |
-[2023-02-02 01:03:58,853] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 311714                                                                         |
-[2023-02-02 01:03:58,853] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 392770                                                                         |
-[2023-02-02 01:03:58,853] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 80337                                                                          |
-[2023-02-02 01:03:58,854] [sonarr.py:174]             [INFO]     | 51 Series already exist in Sonarr                                                                  |
-[2023-02-02 01:03:58,854] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,854] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Fullmetal Alchemist: Brotherhood]                                               |
-[2023-02-02 01:03:58,855] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,855] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Attack on Titan]                                                                |
-[2023-02-02 01:03:58,855] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,855] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Hunter x Hunter (2011)]                                                         |
-[2023-02-02 01:03:58,856] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,856] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Death Note]                                                                     |
-[2023-02-02 01:03:58,856] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,857] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [One Piece]                                                                      |
-[2023-02-02 01:03:58,857] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,857] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Cowboy Bebop]                                                                   |
-[2023-02-02 01:03:58,857] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,858] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Vinland Saga]                                                                   |
-[2023-02-02 01:03:58,858] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,858] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Steins;Gate]                                                                    |
-[2023-02-02 01:03:58,859] [sonarr.py:192]             [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,859] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Dragon Ball Z]                                                                  |
-[2023-02-02 01:03:58,859] [sonarr.py:194]             [INFO]     | 9 Series with Invalid IDs                                                                          |
-[2023-02-02 01:03:58,867] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,867] [util.py:216]               [INFO]     |=========================== Updating Details of Top Rated TV Collection ============================|
-[2023-02-02 01:03:58,867] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,868] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2023-02-02 01:03:58,868] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-02-02 01:03:58,869] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/7h1vaxl.png                                         |
-[2023-02-02 01:03:58,869] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
-[2023-02-02 01:03:58,869] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaper.dog/large/20509069.jpg                        |
-[2023-02-02 01:03:58,870] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-02-02 01:03:58,871] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
-[2023-02-02 01:03:58,898] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-02 01:03:58,898] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-02 01:03:58,899] [util.py:216]               [INFO]     |                                  Finished Top Rated TV Collection                                  |
-[2023-02-02 01:03:58,899] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:41                                    |
-[2023-02-02 01:03:58,900] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-25 02:09:10,448] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-25 02:09:10,449] [util.py:216]               [INFO]     |                                Top Rated TV Collection in TV Shows                                 |
+[2023-02-25 02:09:10,449] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-25 02:09:10,450] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-25 02:09:10,450] [util.py:216]               [INFO]     |================================ Validating Top Rated TV Attributes ================================|
+[2023-02-25 02:09:10,451] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,451] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-25 02:09:10,451] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-25 02:09:10,451] [builder.py:389]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,452] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-02-25 02:09:10,452] [builder.py:395]            [DEBUG]    | Value: user_rating.desc                                                                            |
+[2023-02-25 02:09:10,452] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,452] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-25 02:09:10,453] [builder.py:474]            [DEBUG]    | Value: +1c                                                                                         |
+[2023-02-25 02:09:10,453] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,453] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-02-25 02:09:10,453] [builder.py:474]            [DEBUG]    | Value: ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc'), ('limit', 100), ('tmdb_top_rated', 100)]) |
+[2023-02-25 02:09:10,990] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,990] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-02-25 02:09:10,991] [builder.py:474]            [DEBUG]    | Value: Top Rated Shows across the internet                                                         |
+[2023-02-25 02:09:10,991] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,991] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-25 02:09:10,991] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/7h1vaxl.png                                                             |
+[2023-02-25 02:09:10,991] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,992] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2023-02-25 02:09:10,992] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
+[2023-02-25 02:09:10,992] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:10,993] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2023-02-25 02:09:10,993] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-25 02:09:11,071] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-25 02:09:11,072] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-25 02:09:11,074] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-25 02:09:11,074] [util.py:216]               [INFO]     |================================= Running Top Rated TV Collection ==================================|
+[2023-02-25 02:09:11,074] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-25 02:09:11,074] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-25 02:09:11,075] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:11,075] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc', 'limit': 100} |
+[2023-02-25 02:09:11,075] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:11,076] [imdb.py:158]               [INFO]     | Processing IMDb List: 100 Items at https://www.imdb.com/search/title/?title_type=tv_series,tv_miniseries&num_votes=20000,&sort=user_rating,desc |
+[2023-02-25 02:09:14,278] [imdb.py:127]               [DEBUG]    | 100 IMDb IDs Found: ['tt0903747', 'tt5491994', 'tt7366338', 'tt0185906', 'tt0795176', 'tt9471404', 'tt0306414', 'tt0417299', 'tt2395695', 'tt12392504', 'tt9253866', 'tt6769208', 'tt0081846', 'tt3581920', 'tt0944947', 'tt0141842', 'tt0071075', 'tt14392248', 'tt4202274', 'tt2861424', 'tt1475582', 'tt0052520', 'tt1355642', 'tt8420184', 'tt4742876', 'tt1877514', 'tt1831164', 'tt1533395', 'tt21279678', 'tt0386676', 'tt10541088', 'tt2560140', 'tt11126994', 'tt0303461', 'tt2098220', 'tt0877057', 'tt0103359', 'tt0081912', 'tt7920978', 'tt9432978', 'tt0092337', 'tt9735318', 'tt2092588', 'tt0296310', 'tt1806234', 'tt0158417', 'tt0268093', 'tt8595766', 'tt3032476', 'tt2356777', 'tt0108778', 'tt0098904', 'tt0388629', 'tt2802850', 'tt0200276', 'tt1865718', 'tt7137906', 'tt3530232', 'tt0213338', 'tt2297757', 'tt12004706', 'tt1795096', 'tt0081834', 'tt14650074', 'tt7927936', 'tt1909015', 'tt10986410', 'tt13991232', 'tt7660850', 'tt2442560', 'tt0472954', 'tt2085059', 'tt2707408', 'tt10233448', 'tt0264235', 'tt3398228', 'tt0098936', 'tt0193676', 'tt0214341', 'tt0112130', 'tt0072500', 'tt1910272', 'tt3718778', 'tt0353049', 'tt0063929', 'tt0121220', 'tt0096548', 'tt4236770', 'tt1190634', 'tt8111088', 'tt0121955', 'tt4574334', 'tt11280740', 'tt0412142', 'tt0092455', 'tt0096697', 'tt0804503', 'tt0367279', 'tt5753856', 'tt0773262'] |
+[2023-02-25 02:09:14,278] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:14,278] [builder.py:1283]           [DEBUG]    | 100 IDs Found: [('tt0903747', 'imdb'), ('tt5491994', 'imdb'), ('tt7366338', 'imdb'), ('tt0185906', 'imdb'), ('tt0795176', 'imdb'), ('tt9471404', 'imdb'), ('tt0306414', 'imdb'), ('tt0417299', 'imdb'), ('tt2395695', 'imdb'), ('tt12392504', 'imdb'), ('tt9253866', 'imdb'), ('tt6769208', 'imdb'), ('tt0081846', 'imdb'), ('tt3581920', 'imdb'), ('tt0944947', 'imdb'), ('tt0141842', 'imdb'), ('tt0071075', 'imdb'), ('tt14392248', 'imdb'), ('tt4202274', 'imdb'), ('tt2861424', 'imdb'), ('tt1475582', 'imdb'), ('tt0052520', 'imdb'), ('tt1355642', 'imdb'), ('tt8420184', 'imdb'), ('tt4742876', 'imdb'), ('tt1877514', 'imdb'), ('tt1831164', 'imdb'), ('tt1533395', 'imdb'), ('tt21279678', 'imdb'), ('tt0386676', 'imdb'), ('tt10541088', 'imdb'), ('tt2560140', 'imdb'), ('tt11126994', 'imdb'), ('tt0303461', 'imdb'), ('tt2098220', 'imdb'), ('tt0877057', 'imdb'), ('tt0103359', 'imdb'), ('tt0081912', 'imdb'), ('tt7920978', 'imdb'), ('tt9432978', 'imdb'), ('tt0092337', 'imdb'), ('tt9735318', 'imdb'), ('tt2092588', 'imdb'), ('tt0296310', 'imdb'), ('tt1806234', 'imdb'), ('tt0158417', 'imdb'), ('tt0268093', 'imdb'), ('tt8595766', 'imdb'), ('tt3032476', 'imdb'), ('tt2356777', 'imdb'), ('tt0108778', 'imdb'), ('tt0098904', 'imdb'), ('tt0388629', 'imdb'), ('tt2802850', 'imdb'), ('tt0200276', 'imdb'), ('tt1865718', 'imdb'), ('tt7137906', 'imdb'), ('tt3530232', 'imdb'), ('tt0213338', 'imdb'), ('tt2297757', 'imdb'), ('tt12004706', 'imdb'), ('tt1795096', 'imdb'), ('tt0081834', 'imdb'), ('tt14650074', 'imdb'), ('tt7927936', 'imdb'), ('tt1909015', 'imdb'), ('tt10986410', 'imdb'), ('tt13991232', 'imdb'), ('tt7660850', 'imdb'), ('tt2442560', 'imdb'), ('tt0472954', 'imdb'), ('tt2085059', 'imdb'), ('tt2707408', 'imdb'), ('tt10233448', 'imdb'), ('tt0264235', 'imdb'), ('tt3398228', 'imdb'), ('tt0098936', 'imdb'), ('tt0193676', 'imdb'), ('tt0214341', 'imdb'), ('tt0112130', 'imdb'), ('tt0072500', 'imdb'), ('tt1910272', 'imdb'), ('tt3718778', 'imdb'), ('tt0353049', 'imdb'), ('tt0063929', 'imdb'), ('tt0121220', 'imdb'), ('tt0096548', 'imdb'), ('tt4236770', 'imdb'), ('tt1190634', 'imdb'), ('tt8111088', 'imdb'), ('tt0121955', 'imdb'), ('tt4574334', 'imdb'), ('tt11280740', 'imdb'), ('tt0412142', 'imdb'), ('tt0092455', 'imdb'), ('tt0096697', 'imdb'), ('tt0804503', 'imdb'), ('tt0367279', 'imdb'), ('tt5753856', 'imdb'), ('tt0773262', 'imdb')] |
+[2023-02-25 02:09:14,279] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:14,540] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt4202274                                             |
+[2023-02-25 02:09:14,745] [builder.py:1383]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 206912                                                |
+[2023-02-25 02:09:15,093] [builder.py:1383]           [ERROR]    | Convert Error: No TVDb ID Found for TMDb ID: 156249                                                |
+[2023-02-25 02:09:15,228] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt14650074                                            |
+[2023-02-25 02:09:15,440] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0214341                                             |
+[2023-02-25 02:09:15,678] [builder.py:1383]           [ERROR]    | Convert Error: No TMDb ID Found for IMDb ID: tt0096548                                             |
+[2023-02-25 02:09:15,981] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:15,981] [util.py:216]               [INFO]     |================================ Adding to Top Rated TV Collection =================================|
+[2023-02-25 02:09:15,982] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,029] [builder.py:1709]           [INFO]     |  1/34 | Top Rated TV Collection | = | Breaking Bad                                                 |
+[2023-02-25 02:09:16,030] [builder.py:1709]           [INFO]     |  2/34 | Top Rated TV Collection | = | Planet Earth II                                              |
+[2023-02-25 02:09:16,030] [builder.py:1709]           [INFO]     |  3/34 | Top Rated TV Collection | = | Chernobyl                                                    |
+[2023-02-25 02:09:16,030] [builder.py:1709]           [INFO]     |  4/34 | Top Rated TV Collection | = | Planet Earth                                                 |
+[2023-02-25 02:09:16,031] [builder.py:1709]           [INFO]     |  5/34 | Top Rated TV Collection | = | Avatar: The Last Airbender                                   |
+[2023-02-25 02:09:16,031] [builder.py:1709]           [INFO]     |  6/34 | Top Rated TV Collection | = | Blue Planet II                                               |
+[2023-02-25 02:09:16,031] [builder.py:1709]           [INFO]     |  7/34 | Top Rated TV Collection | = | The Last of Us                                               |
+[2023-02-25 02:09:16,032] [builder.py:1709]           [INFO]     |  8/34 | Top Rated TV Collection | = | Game of Thrones                                              |
+[2023-02-25 02:09:16,032] [builder.py:1709]           [INFO]     |  9/34 | Top Rated TV Collection | = | Rick and Morty                                               |
+[2023-02-25 02:09:16,032] [builder.py:1709]           [INFO]     | 10/34 | Top Rated TV Collection | = | Sherlock                                                     |
+[2023-02-25 02:09:16,033] [builder.py:1709]           [INFO]     | 11/34 | Top Rated TV Collection | = | The Last Dance                                               |
+[2023-02-25 02:09:16,033] [builder.py:1709]           [INFO]     | 12/34 | Top Rated TV Collection | = | Life                                                         |
+[2023-02-25 02:09:16,033] [builder.py:1709]           [INFO]     | 13/34 | Top Rated TV Collection | = | Arcane                                                       |
+[2023-02-25 02:09:16,033] [builder.py:1709]           [INFO]     | 14/34 | Top Rated TV Collection | = | Firefly                                                      |
+[2023-02-25 02:09:16,034] [builder.py:1709]           [INFO]     | 15/34 | Top Rated TV Collection | = | The Beatles: Get Back                                        |
+[2023-02-25 02:09:16,034] [builder.py:1709]           [INFO]     | 16/34 | Top Rated TV Collection | = | Frozen Planet                                                |
+[2023-02-25 02:09:16,034] [builder.py:1709]           [INFO]     | 17/34 | Top Rated TV Collection | = | The Blue Planet                                              |
+[2023-02-25 02:09:16,035] [builder.py:1709]           [INFO]     | 18/34 | Top Rated TV Collection | = | Better Call Saul                                             |
+[2023-02-25 02:09:16,035] [builder.py:1709]           [INFO]     | 19/34 | Top Rated TV Collection | = | True Detective                                               |
+[2023-02-25 02:09:16,035] [builder.py:1709]           [INFO]     | 20/34 | Top Rated TV Collection | = | Fargo                                                        |
+[2023-02-25 02:09:16,035] [builder.py:1709]           [INFO]     | 21/34 | Top Rated TV Collection | = | Gravity Falls                                                |
+[2023-02-25 02:09:16,036] [builder.py:1709]           [INFO]     | 22/34 | Top Rated TV Collection | = | Ted Lasso                                                    |
+[2023-02-25 02:09:16,036] [builder.py:1709]           [INFO]     | 23/34 | Top Rated TV Collection | = | Peaky Blinders                                               |
+[2023-02-25 02:09:16,037] [builder.py:1709]           [INFO]     | 24/34 | Top Rated TV Collection | = | Black Mirror                                                 |
+[2023-02-25 02:09:16,037] [builder.py:1709]           [INFO]     | 25/34 | Top Rated TV Collection | = | BoJack Horseman                                              |
+[2023-02-25 02:09:16,037] [builder.py:1709]           [INFO]     | 26/34 | Top Rated TV Collection | = | Over the Garden Wall                                         |
+[2023-02-25 02:09:16,038] [builder.py:1709]           [INFO]     | 27/34 | Top Rated TV Collection | = | Yellowstone (2018)                                           |
+[2023-02-25 02:09:16,038] [builder.py:1709]           [INFO]     | 28/34 | Top Rated TV Collection | = | The Boys                                                     |
+[2023-02-25 02:09:16,038] [builder.py:1709]           [INFO]     | 29/34 | Top Rated TV Collection | = | The Mandalorian                                              |
+[2023-02-25 02:09:16,039] [builder.py:1709]           [INFO]     | 30/34 | Top Rated TV Collection | = | South Park                                                   |
+[2023-02-25 02:09:16,039] [builder.py:1709]           [INFO]     | 31/34 | Top Rated TV Collection | = | Stranger Things                                              |
+[2023-02-25 02:09:16,039] [builder.py:1709]           [INFO]     | 32/34 | Top Rated TV Collection | = | Severance                                                    |
+[2023-02-25 02:09:16,040] [builder.py:1709]           [INFO]     | 33/34 | Top Rated TV Collection | + | The Simpsons                                                 |
+[2023-02-25 02:09:16,132] [builder.py:1709]           [INFO]     | 34/34 | Top Rated TV Collection | = | Dark                                                         |
+[2023-02-25 02:09:16,133] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,133] [builder.py:1735]           [INFO]     | 34 Shows Processed                                                                                 |
+[2023-02-25 02:09:16,134] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,134] [util.py:216]               [INFO]     |============================ Missing Movies from Library: Top Rated TV =============================|
+[2023-02-25 02:09:16,134] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,264] [builder.py:1937]           [ERROR]    | TMDb Error: No Movie found for TMDb ID 37452: The resource you requested could not be found.       |
+[2023-02-25 02:09:16,264] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,265] [builder.py:1948]           [INFO]     | 0 Movie Missing                                                                                    |
+[2023-02-25 02:09:16,265] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,266] [util.py:216]               [INFO]     |============================= Missing Shows from Library: Top Rated TV =============================|
+[2023-02-25 02:09:16,266] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:16,858] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Band of Brothers (TVDB: 74205)                                       |
+[2023-02-25 02:09:17,203] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Chosen (TVDB: 356992)                                            |
+[2023-02-25 02:09:17,872] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Wire (TVDB: 79126)                                               |
+[2023-02-25 02:09:18,125] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cosmos (2014) (TVDB: 260586)                                         |
+[2023-02-25 02:09:18,366] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Scam 1992 - The Harshad Mehta Story (TVDB: 389680)                   |
+[2023-02-25 02:09:18,647] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Our Planet (TVDB: 355229)                                            |
+[2023-02-25 02:09:18,946] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cosmos (TVDB: 74995)                                                 |
+[2023-02-25 02:09:19,798] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Sopranos (TVDB: 75299)                                           |
+[2023-02-25 02:09:20,095] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The World at War (TVDB: 79309)                                       |
+[2023-02-25 02:09:20,332] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Aspirants (TVDB: 400694)                                             |
+[2023-02-25 02:09:20,891] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Twilight Zone (TVDB: 73587)                                      |
+[2023-02-25 02:09:21,378] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Fullmetal Alchemist: Brotherhood (TVDB: 85249)                       |
+[2023-02-25 02:09:21,675] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | TVF Pitchers (TVDB: 298868)                                          |
+[2023-02-25 02:09:21,954] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Vietnam War (2017) (TVDB: 333595)                                |
+[2023-02-25 02:09:22,404] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Leyla and Mecnun (TVDB: 248440)                                      |
+[2023-02-25 02:09:23,988] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The Office (US) (TVDB: 73244)                                        |
+[2023-02-25 02:09:24,262] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Clarkson's Farm (TVDB: 378165)                                       |
+[2023-02-25 02:09:25,140] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Attack on Titan (TVDB: 267440)                                       |
+[2023-02-25 02:09:26,024] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Hunter x Hunter (2011) (TVDB: 252322)                                |
+[2023-02-25 02:09:26,646] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Death Note (TVDB: 79481)                                             |
+[2023-02-25 02:09:27,240] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Batman: The Animated Series (TVDB: 76168)                            |
+[2023-02-25 02:09:27,817] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Only Fools and Horses (TVDB: 75628)                                  |
+[2023-02-25 02:09:28,162] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Persona (TVDB: 343271)                                               |
+[2023-02-25 02:09:28,419] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Kota Factory (TVDB: 362631)                                          |
+[2023-02-25 02:09:28,674] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Human Planet (TVDB: 180831)                                          |
+[2023-02-25 02:09:28,965] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Mahabharat (TVDB: 84349)                                             |
+[2023-02-25 02:09:29,253] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Ramayan (TVDB: 159831)                                               |
+[2023-02-25 02:09:29,477] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Yeh Meri Family (TVDB: 350193)                                       |
+[2023-02-25 02:09:30,767] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Friends (TVDB: 79168)                                                |
+[2023-02-25 02:09:31,693] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Seinfeld (TVDB: 79169)                                               |
+[2023-02-25 02:09:33,687] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | One Piece (TVDB: 81797)                                              |
+[2023-02-25 02:09:34,392] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | The West Wing (TVDB: 72521)                                          |
+[2023-02-25 02:09:34,680] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | When They See Us (TVDB: 360388)                                      |
+[2023-02-25 02:09:35,242] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Last Week Tonight with John Oliver (TVDB: 278518)                    |
+[2023-02-25 02:09:35,695] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Cowboy Bebop (TVDB: 76885)                                           |
+[2023-02-25 02:09:36,049] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Nathan for You (TVDB: 267002)                                        |
+[2023-02-25 02:09:36,294] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Panchayat (TVDB: 379446)                                             |
+[2023-02-25 02:09:36,742] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Behzat Ç.: The Story Of A Rebel Cop (TVDB: 235881)                   |
+[2023-02-25 02:09:36,996] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Flames (TVDB: 342635)                                                |
+[2023-02-25 02:09:37,377] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Undercover (2011) (TVDB: 248051)                                     |
+[2023-02-25 02:09:37,674] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | 1883 (TVDB: 396390)                                                  |
+[2023-02-25 02:09:38,284] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Succession (TVDB: 338186)                                            |
+[2023-02-25 02:09:39,372] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | It's Always Sunny in Philadelphia (TVDB: 75805)                      |
+[2023-02-25 02:09:39,826] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Narcos (TVDB: 282670)                                                |
+[2023-02-25 02:09:40,225] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Vinland Saga (TVDB: 359274)                                          |
+[2023-02-25 02:09:40,931] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Curb Your Enthusiasm (TVDB: 76203)                                   |
+[2023-02-25 02:09:41,766] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Twin Peaks (TVDB: 70533)                                             |
+[2023-02-25 02:09:42,269] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Freaks and Geeks (TVDB: 76321)                                       |
+[2023-02-25 02:09:42,621] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Pride and Prejudice (TVDB: 71691)                                    |
+[2023-02-25 02:09:43,011] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Fawlty Towers (TVDB: 75932)                                          |
+[2023-02-25 02:09:43,401] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Steins;Gate (TVDB: 244061)                                           |
+[2023-02-25 02:09:43,768] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Chappelle's Show (TVDB: 71862)                                       |
+[2023-02-25 02:09:44,297] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Monty Python's Flying Circus (TVDB: 75853)                           |
+[2023-02-25 02:09:45,311] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Dragon Ball Z (TVDB: 81472)                                          |
+[2023-02-25 02:09:46,446] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | House (TVDB: 73255)                                                  |
+[2023-02-25 02:09:47,264] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Star Trek: The Next Generation (TVDB: 71470)                         |
+[2023-02-25 02:09:47,976] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Mad Men (TVDB: 80337)                                                |
+[2023-02-25 02:09:48,762] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Arrested Development (TVDB: 72173)                                   |
+[2023-02-25 02:09:49,724] [builder.py:1982]           [INFO]     | Top Rated TV Collection | ? | Dexter (TVDB: 79349)                                                 |
+[2023-02-25 02:09:49,725] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:49,725] [builder.py:1987]           [INFO]     | 59 Shows Missing                                                                                   |
+[2023-02-25 02:09:49,732] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-02-25 02:09:49,732] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2023-02-25 02:09:49,733] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-02-25 02:09:49,733] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [74205, 356992, 79126, 260586, 389680, 355229, 74995, 75299, 79309, 400694, 73587, 85249, 298868, 333595, 248440, 73244, 378165, 267440, 252322, 79481, 76168, 75628, 343271, 362631, 180831, 84349, 159831, 350193, 79168, 79169, 81797, 72521, 360388, 278518, 76885, 267002, 379446, 235881, 342635, 248051, 396390, 338186, 75805, 282670, 359274, 76203, 70533, 76321, 71691, 75932, 244061, 71862, 75853, 81472, 73255, 71470, 80337, 72173, 79349] |
+[2023-02-25 02:09:52,397] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,404] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74205                                                                          |
+[2023-02-25 02:09:52,405] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 356992                                                                         |
+[2023-02-25 02:09:52,405] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79126                                                                          |
+[2023-02-25 02:09:52,405] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 260586                                                                         |
+[2023-02-25 02:09:52,406] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 389680                                                                         |
+[2023-02-25 02:09:52,407] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 355229                                                                         |
+[2023-02-25 02:09:52,407] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 74995                                                                          |
+[2023-02-25 02:09:52,407] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75299                                                                          |
+[2023-02-25 02:09:52,408] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79309                                                                          |
+[2023-02-25 02:09:52,408] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 400694                                                                         |
+[2023-02-25 02:09:52,408] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73587                                                                          |
+[2023-02-25 02:09:52,408] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 298868                                                                         |
+[2023-02-25 02:09:52,409] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 333595                                                                         |
+[2023-02-25 02:09:52,409] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248440                                                                         |
+[2023-02-25 02:09:52,409] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73244                                                                          |
+[2023-02-25 02:09:52,410] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 378165                                                                         |
+[2023-02-25 02:09:52,410] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76168                                                                          |
+[2023-02-25 02:09:52,410] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75628                                                                          |
+[2023-02-25 02:09:52,410] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 343271                                                                         |
+[2023-02-25 02:09:52,411] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 362631                                                                         |
+[2023-02-25 02:09:52,411] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 180831                                                                         |
+[2023-02-25 02:09:52,411] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 84349                                                                          |
+[2023-02-25 02:09:52,412] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 159831                                                                         |
+[2023-02-25 02:09:52,412] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 350193                                                                         |
+[2023-02-25 02:09:52,412] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79168                                                                          |
+[2023-02-25 02:09:52,412] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79169                                                                          |
+[2023-02-25 02:09:52,413] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72521                                                                          |
+[2023-02-25 02:09:52,413] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 360388                                                                         |
+[2023-02-25 02:09:52,413] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 278518                                                                         |
+[2023-02-25 02:09:52,414] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 267002                                                                         |
+[2023-02-25 02:09:52,414] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 379446                                                                         |
+[2023-02-25 02:09:52,414] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 235881                                                                         |
+[2023-02-25 02:09:52,415] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 342635                                                                         |
+[2023-02-25 02:09:52,415] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 248051                                                                         |
+[2023-02-25 02:09:52,415] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 396390                                                                         |
+[2023-02-25 02:09:52,415] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 338186                                                                         |
+[2023-02-25 02:09:52,416] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75805                                                                          |
+[2023-02-25 02:09:52,416] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 282670                                                                         |
+[2023-02-25 02:09:52,416] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76203                                                                          |
+[2023-02-25 02:09:52,417] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 70533                                                                          |
+[2023-02-25 02:09:52,417] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 76321                                                                          |
+[2023-02-25 02:09:52,417] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71691                                                                          |
+[2023-02-25 02:09:52,418] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75932                                                                          |
+[2023-02-25 02:09:52,418] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71862                                                                          |
+[2023-02-25 02:09:52,418] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75853                                                                          |
+[2023-02-25 02:09:52,419] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73255                                                                          |
+[2023-02-25 02:09:52,419] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 71470                                                                          |
+[2023-02-25 02:09:52,419] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 80337                                                                          |
+[2023-02-25 02:09:52,420] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72173                                                                          |
+[2023-02-25 02:09:52,420] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79349                                                                          |
+[2023-02-25 02:09:52,420] [sonarr.py:174]             [INFO]     | 50 Series already exist in Sonarr                                                                  |
+[2023-02-25 02:09:52,420] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,421] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Fullmetal Alchemist: Brotherhood]                                               |
+[2023-02-25 02:09:52,421] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,423] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Attack on Titan]                                                                |
+[2023-02-25 02:09:52,423] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,424] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Hunter x Hunter (2011)]                                                         |
+[2023-02-25 02:09:52,424] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,424] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Death Note]                                                                     |
+[2023-02-25 02:09:52,425] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,425] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [One Piece]                                                                      |
+[2023-02-25 02:09:52,425] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,425] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Cowboy Bebop]                                                                   |
+[2023-02-25 02:09:52,426] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,426] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Vinland Saga]                                                                   |
+[2023-02-25 02:09:52,426] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,426] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Steins;Gate]                                                                    |
+[2023-02-25 02:09:52,427] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,427] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [Dragon Ball Z]                                                                  |
+[2023-02-25 02:09:52,427] [sonarr.py:194]             [INFO]     | 9 Series with Invalid IDs                                                                          |
+[2023-02-25 02:09:52,435] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,435] [util.py:216]               [INFO]     |=========================== Updating Details of Top Rated TV Collection ============================|
+[2023-02-25 02:09:52,436] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,436] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-02-25 02:09:52,437] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-02-25 02:09:52,437] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/7h1vaxl.png                                         |
+[2023-02-25 02:09:52,437] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
+[2023-02-25 02:09:52,438] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaper.dog/large/20509069.jpg                        |
+[2023-02-25 02:09:52,439] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-25 02:09:52,440] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
+[2023-02-25 02:09:52,472] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-25 02:09:52,472] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-25 02:09:52,472] [util.py:216]               [INFO]     |                                  Finished Top Rated TV Collection                                  |
+[2023-02-25 02:09:52,473] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:42                                    |
+[2023-02-25 02:09:52,473] [util.py:220]               [INFO]     |====================================================================================================|

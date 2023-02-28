@@ -1,119 +1,119 @@
-[2023-01-25 01:19:40,024] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-25 01:19:40,024] [util.py:216]               [INFO]     |                                     Music Collection in Movies                                     |
-[2023-01-25 01:19:40,025] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-01-25 01:19:40,025] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-01-25 01:19:40,046] [util.py:216]               [INFO]     |=================================== Validating Music Attributes ====================================|
-[2023-01-25 01:19:40,047] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:40,047] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-01-25 01:19:40,047] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Other Genre'), ('poster', 'https://theposterdb.com/api/assets/51398')]) |
-[2023-01-25 01:19:40,048] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:40,048] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-01-25 01:19:40,048] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-01-25 01:19:40,048] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:40,049] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-01-25 01:19:40,049] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
-[2023-01-25 01:19:40,049] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:40,049] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
-[2023-01-25 01:19:40,050] [builder.py:474]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc'), ('limit', 200)])] |
-[2023-01-25 01:19:41,246] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:41,247] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-01-25 01:19:41,247] [builder.py:474]            [DEBUG]    | Value: Music film is genre that revolves around music being an integral part of the characters lives. |
-[2023-01-25 01:19:41,247] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:41,247] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-01-25 01:19:41,248] [builder.py:474]            [DEBUG]    | Value: 00000d_Music                                                                                |
-[2023-01-25 01:19:41,248] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:41,248] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-01-25 01:19:41,249] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/51398                                                    |
-[2023-01-25 01:19:41,479] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-01-25 01:19:41,480] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-01-25 01:19:41,484] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-01-25 01:19:41,484] [util.py:216]               [INFO]     |===================================== Running Music Collection =====================================|
-[2023-01-25 01:19:41,485] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-01-25 01:19:41,485] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-01-25 01:19:41,486] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:41,486] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music', 'limit': 200} |
-[2023-01-25 01:19:41,486] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:41,487] [imdb.py:158]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music |
-[2023-01-25 01:19:44,528] [imdb.py:127]               [DEBUG]    | 48 IMDb IDs Found: ['tt3704428', 'tt2582802', 'tt6966692', 'tt3783958', 'tt1727824', 'tt10366460', 'tt3890160', 'tt0253474', 'tt0181875', 'tt1981677', 'tt2380307', 'tt1517451', 'tt0298203', 'tt0190590', 'tt0332379', 'tt5363618', 'tt8079248', 'tt0200550', 'tt2948372', 'tt4062536', 'tt0120888', 'tt0103855', 'tt1436562', 'tt0120855', 'tt0105793', 'tt0358273', 'tt1398426', 'tt0249462', 'tt0462590', 'tt2848292', 'tt0322330', 'tt0396555', 'tt0105417', 'tt2042568', 'tt0445922', 'tt1980929', 'tt0146882', 'tt0350258', 'tt0366548', 'tt0108394', 'tt1131729', 'tt0907657', 'tt0365830', 'tt0451079', 'tt1355630', 'tt0426931', 'tt1226229', 'tt0758766'] |
-[2023-01-25 01:19:44,529] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:44,529] [builder.py:1283]           [DEBUG]    | 48 IDs Found: [('tt3704428', 'imdb'), ('tt2582802', 'imdb'), ('tt6966692', 'imdb'), ('tt3783958', 'imdb'), ('tt1727824', 'imdb'), ('tt10366460', 'imdb'), ('tt3890160', 'imdb'), ('tt0253474', 'imdb'), ('tt0181875', 'imdb'), ('tt1981677', 'imdb'), ('tt2380307', 'imdb'), ('tt1517451', 'imdb'), ('tt0298203', 'imdb'), ('tt0190590', 'imdb'), ('tt0332379', 'imdb'), ('tt5363618', 'imdb'), ('tt8079248', 'imdb'), ('tt0200550', 'imdb'), ('tt2948372', 'imdb'), ('tt4062536', 'imdb'), ('tt0120888', 'imdb'), ('tt0103855', 'imdb'), ('tt1436562', 'imdb'), ('tt0120855', 'imdb'), ('tt0105793', 'imdb'), ('tt0358273', 'imdb'), ('tt1398426', 'imdb'), ('tt0249462', 'imdb'), ('tt0462590', 'imdb'), ('tt2848292', 'imdb'), ('tt0322330', 'imdb'), ('tt0396555', 'imdb'), ('tt0105417', 'imdb'), ('tt2042568', 'imdb'), ('tt0445922', 'imdb'), ('tt1980929', 'imdb'), ('tt0146882', 'imdb'), ('tt0350258', 'imdb'), ('tt0366548', 'imdb'), ('tt0108394', 'imdb'), ('tt1131729', 'imdb'), ('tt0907657', 'imdb'), ('tt0365830', 'imdb'), ('tt0451079', 'imdb'), ('tt1355630', 'imdb'), ('tt0426931', 'imdb'), ('tt1226229', 'imdb'), ('tt0758766', 'imdb')] |
-[2023-01-25 01:19:44,530] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:44,936] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:44,936] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc', 'limit': 200} |
-[2023-01-25 01:19:44,936] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:44,937] [imdb.py:158]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc |
-[2023-01-25 01:19:48,097] [imdb.py:127]               [DEBUG]    | 48 IMDb IDs Found: ['tt2582802', 'tt0253474', 'tt2380307', 'tt6966692', 'tt3783958', 'tt10366460', 'tt2948372', 'tt1727824', 'tt0181875', 'tt0108394', 'tt0358273', 'tt1398426', 'tt0907657', 'tt0190590', 'tt5363618', 'tt0249462', 'tt0350258', 'tt3890160', 'tt1517451', 'tt3704428', 'tt2042568', 'tt1980929', 'tt0146882', 'tt0426931', 'tt0120855', 'tt0445922', 'tt1131729', 'tt0298203', 'tt0332379', 'tt1981677', 'tt4062536', 'tt0105793', 'tt0120888', 'tt1436562', 'tt8079248', 'tt0396555', 'tt0365830', 'tt0451079', 'tt1355630', 'tt0462590', 'tt0105417', 'tt0758766', 'tt2848292', 'tt0366548', 'tt0103855', 'tt0322330', 'tt1226229', 'tt0200550'] |
-[2023-01-25 01:19:48,097] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:48,098] [builder.py:1283]           [DEBUG]    | 48 IDs Found: [('tt2582802', 'imdb'), ('tt0253474', 'imdb'), ('tt2380307', 'imdb'), ('tt6966692', 'imdb'), ('tt3783958', 'imdb'), ('tt10366460', 'imdb'), ('tt2948372', 'imdb'), ('tt1727824', 'imdb'), ('tt0181875', 'imdb'), ('tt0108394', 'imdb'), ('tt0358273', 'imdb'), ('tt1398426', 'imdb'), ('tt0907657', 'imdb'), ('tt0190590', 'imdb'), ('tt5363618', 'imdb'), ('tt0249462', 'imdb'), ('tt0350258', 'imdb'), ('tt3890160', 'imdb'), ('tt1517451', 'imdb'), ('tt3704428', 'imdb'), ('tt2042568', 'imdb'), ('tt1980929', 'imdb'), ('tt0146882', 'imdb'), ('tt0426931', 'imdb'), ('tt0120855', 'imdb'), ('tt0445922', 'imdb'), ('tt1131729', 'imdb'), ('tt0298203', 'imdb'), ('tt0332379', 'imdb'), ('tt1981677', 'imdb'), ('tt4062536', 'imdb'), ('tt0105793', 'imdb'), ('tt0120888', 'imdb'), ('tt1436562', 'imdb'), ('tt8079248', 'imdb'), ('tt0396555', 'imdb'), ('tt0365830', 'imdb'), ('tt0451079', 'imdb'), ('tt1355630', 'imdb'), ('tt0462590', 'imdb'), ('tt0105417', 'imdb'), ('tt0758766', 'imdb'), ('tt2848292', 'imdb'), ('tt0366548', 'imdb'), ('tt0103855', 'imdb'), ('tt0322330', 'imdb'), ('tt1226229', 'imdb'), ('tt0200550', 'imdb')] |
-[2023-01-25 01:19:48,098] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-01-25 01:19:48,493] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:48,493] [util.py:216]               [INFO]     |==================================== Adding to Music Collection ====================================|
-[2023-01-25 01:19:48,493] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:48,493] [builder.py:1709]           [INFO]     |  1/17 | Music Collection | = | Elvis (2022)                                                        |
-[2023-01-25 01:19:48,494] [builder.py:1709]           [INFO]     |  2/17 | Music Collection | = | Whiplash (2014)                                                     |
-[2023-01-25 01:19:48,494] [builder.py:1709]           [INFO]     |  3/17 | Music Collection | = | Green Book (2018)                                                   |
-[2023-01-25 01:19:48,495] [builder.py:1709]           [INFO]     |  4/17 | Music Collection | = | La La Land (2016)                                                   |
-[2023-01-25 01:19:48,495] [builder.py:1709]           [INFO]     |  5/17 | Music Collection | = | CODA (2021)                                                         |
-[2023-01-25 01:19:48,495] [builder.py:1709]           [INFO]     |  6/17 | Music Collection | = | Baby Driver (2017)                                                  |
-[2023-01-25 01:19:48,495] [builder.py:1709]           [INFO]     |  7/17 | Music Collection | = | The Pianist (2002)                                                  |
-[2023-01-25 01:19:48,496] [builder.py:1709]           [INFO]     |  8/17 | Music Collection | = | Almost Famous (2000)                                                |
-[2023-01-25 01:19:48,496] [builder.py:1709]           [INFO]     |  9/17 | Music Collection | = | Coco (2017)                                                         |
-[2023-01-25 01:19:48,496] [builder.py:1709]           [INFO]     | 10/17 | Music Collection | = | A Star Is Born (2018)                                               |
-[2023-01-25 01:19:48,497] [builder.py:1709]           [INFO]     | 11/17 | Music Collection | = | Sound of Metal (2020)                                               |
-[2023-01-25 01:19:48,497] [builder.py:1709]           [INFO]     | 12/17 | Music Collection | = | Soul (2020)                                                         |
-[2023-01-25 01:19:48,497] [builder.py:1709]           [INFO]     | 13/17 | Music Collection | = | Green Room (2016)                                                   |
-[2023-01-25 01:19:48,498] [builder.py:1709]           [INFO]     | 14/17 | Music Collection | = | Tarzan (1999)                                                       |
-[2023-01-25 01:19:48,498] [builder.py:1709]           [INFO]     | 15/17 | Music Collection | = | Wayne's World (1992)                                                |
-[2023-01-25 01:19:48,498] [builder.py:1709]           [INFO]     | 16/17 | Music Collection | = | Freaky Friday (2003)                                                |
-[2023-01-25 01:19:48,499] [builder.py:1709]           [INFO]     | 17/17 | Music Collection | = | Tenacious D in the Pick of Destiny (2006)                           |
-[2023-01-25 01:19:48,499] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:48,500] [builder.py:1735]           [INFO]     | 17 Movies Processed                                                                                |
-[2023-01-25 01:19:48,501] [builder.py:1929]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:48,501] [util.py:216]               [INFO]     |================================ Missing Movies from Library: Music ================================|
-[2023-01-25 01:19:48,501] [builder.py:1931]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:48,504] [builder.py:1943]           [INFO]     | Music Collection | ? | Bohemian Rhapsody (2018) (TMDb: 424694)                                     |
-[2023-01-25 01:19:48,610] [builder.py:1943]           [INFO]     | Music Collection | ? | Pitch Perfect (2012) (TMDb: 114150)                                         |
-[2023-01-25 01:19:48,719] [builder.py:1943]           [INFO]     | Music Collection | ? | 8 Mile (2002) (TMDb: 65)                                                    |
-[2023-01-25 01:19:48,831] [builder.py:1943]           [INFO]     | Music Collection | ? | O Brother, Where Art Thou? (2000) (TMDb: 134)                               |
-[2023-01-25 01:19:48,968] [builder.py:1943]           [INFO]     | Music Collection | ? | School of Rock (2003) (TMDb: 1584)                                          |
-[2023-01-25 01:19:49,075] [builder.py:1943]           [INFO]     | Music Collection | ? | Yesterday (2019) (TMDb: 515195)                                             |
-[2023-01-25 01:19:49,181] [builder.py:1943]           [INFO]     | Music Collection | ? | Coyote Ugly (2000) (TMDb: 6282)                                             |
-[2023-01-25 01:19:49,276] [builder.py:1943]           [INFO]     | Music Collection | ? | The Wedding Singer (1998) (TMDb: 11003)                                     |
-[2023-01-25 01:19:49,373] [builder.py:1943]           [INFO]     | Music Collection | ? | The Bodyguard (1992) (TMDb: 619)                                            |
-[2023-01-25 01:19:49,376] [builder.py:1943]           [INFO]     | Music Collection | ? | Rio (2011) (TMDb: 46195)                                                    |
-[2023-01-25 01:19:49,484] [builder.py:1943]           [INFO]     | Music Collection | ? | Walk the Line (2005) (TMDb: 69)                                             |
-[2023-01-25 01:19:49,605] [builder.py:1943]           [INFO]     | Music Collection | ? | Straight Outta Compton (2015) (TMDb: 277216)                                |
-[2023-01-25 01:19:49,703] [builder.py:1943]           [INFO]     | Music Collection | ? | Billy Elliot (2000) (TMDb: 71)                                              |
-[2023-01-25 01:19:49,796] [builder.py:1943]           [INFO]     | Music Collection | ? | Step Up (2006) (TMDb: 9762)                                                 |
-[2023-01-25 01:19:49,897] [builder.py:1943]           [INFO]     | Music Collection | ? | Pitch Perfect 2 (2015) (TMDb: 254470)                                       |
-[2023-01-25 01:19:49,898] [builder.py:1943]           [INFO]     | Music Collection | ? | Meet the Robinsons (2007) (TMDb: 1267)                                      |
-[2023-01-25 01:19:50,014] [builder.py:1943]           [INFO]     | Music Collection | ? | Sister Act (1992) (TMDb: 2005)                                              |
-[2023-01-25 01:19:50,126] [builder.py:1943]           [INFO]     | Music Collection | ? | Inside Llewyn Davis (2013) (TMDb: 86829)                                    |
-[2023-01-25 01:19:50,230] [builder.py:1943]           [INFO]     | Music Collection | ? | Across the Universe (2007) (TMDb: 4688)                                     |
-[2023-01-25 01:19:50,328] [builder.py:1943]           [INFO]     | Music Collection | ? | Begin Again (2013) (TMDb: 198277)                                           |
-[2023-01-25 01:19:50,424] [builder.py:1943]           [INFO]     | Music Collection | ? | High Fidelity (2000) (TMDb: 243)                                            |
-[2023-01-25 01:19:50,425] [builder.py:1943]           [INFO]     | Music Collection | ? | Ray (2004) (TMDb: 1677)                                                     |
-[2023-01-25 01:19:50,527] [builder.py:1943]           [INFO]     | Music Collection | ? | Happy Feet (2006) (TMDb: 9836)                                              |
-[2023-01-25 01:19:50,673] [builder.py:1943]           [INFO]     | Music Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                                       |
-[2023-01-25 01:19:50,768] [builder.py:1943]           [INFO]     | Music Collection | ? | The Boat That Rocked (2009) (TMDb: 18947)                                   |
-[2023-01-25 01:19:50,872] [builder.py:1943]           [INFO]     | Music Collection | ? | Once (2007) (TMDb: 5723)                                                    |
-[2023-01-25 01:19:50,874] [builder.py:1943]           [INFO]     | Music Collection | ? | Horton Hears a Who! (2008) (TMDb: 12222)                                    |
-[2023-01-25 01:19:50,977] [builder.py:1943]           [INFO]     | Music Collection | ? | If I Stay (2014) (TMDb: 249164)                                             |
-[2023-01-25 01:19:51,072] [builder.py:1943]           [INFO]     | Music Collection | ? | August Rush (2007) (TMDb: 5123)                                             |
-[2023-01-25 01:19:51,223] [builder.py:1943]           [INFO]     | Music Collection | ? | Get Him to the Greek (2010) (TMDb: 32823)                                   |
-[2023-01-25 01:19:51,334] [builder.py:1943]           [INFO]     | Music Collection | ? | Music and Lyrics (2007) (TMDb: 11172)                                       |
-[2023-01-25 01:19:51,335] [builder.py:1947]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:51,335] [builder.py:1948]           [INFO]     | 31 Movies Missing                                                                                  |
-[2023-01-25 01:19:51,644] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:51,644] [util.py:216]               [INFO]     |=============================== Updating Details of Music Collection ===============================|
-[2023-01-25 01:19:51,645] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-01-25 01:19:51,645] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2023-01-25 01:19:51,645] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-01-25 01:19:51,646] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/51398                                |
-[2023-01-25 01:19:51,646] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
-[2023-01-25 01:19:51,655] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-01-25 01:19:51,893] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-01-25 01:19:51,894] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-01-25 01:19:51,894] [util.py:216]               [INFO]     |                                     Finished Music Collection                                      |
-[2023-01-25 01:19:51,894] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:11                                    |
-[2023-01-25 01:19:51,895] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-22 03:55:22,232] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-22 03:55:22,233] [util.py:216]               [INFO]     |                                     Music Collection in Movies                                     |
+[2023-02-22 03:55:22,233] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-22 03:55:22,233] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-22 03:55:22,234] [util.py:216]               [INFO]     |=================================== Validating Music Attributes ====================================|
+[2023-02-22 03:55:22,234] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:22,235] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-22 03:55:22,235] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Other Genre'), ('poster', 'https://theposterdb.com/api/assets/51398')]) |
+[2023-02-22 03:55:22,236] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:22,236] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-22 03:55:22,236] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-22 03:55:22,236] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:22,237] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-22 03:55:22,237] [builder.py:455]            [DEBUG]    | Value: alpha                                                                                       |
+[2023-02-22 03:55:22,237] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:22,238] [builder.py:473]            [DEBUG]    | Validating Method: imdb_list                                                                       |
+[2023-02-22 03:55:22,238] [builder.py:474]            [DEBUG]    | Value: [ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music'), ('limit', 200)]), ordereddict([('url', 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc'), ('limit', 200)])] |
+[2023-02-22 03:55:23,630] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:23,630] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-02-22 03:55:23,631] [builder.py:474]            [DEBUG]    | Value: Music film is genre that revolves around music being an integral part of the characters lives. |
+[2023-02-22 03:55:23,631] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:23,631] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-22 03:55:23,631] [builder.py:474]            [DEBUG]    | Value: 00000d_Music                                                                                |
+[2023-02-22 03:55:23,632] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:23,632] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-22 03:55:23,632] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/51398                                                    |
+[2023-02-22 03:55:23,874] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-22 03:55:23,875] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-22 03:55:23,891] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-22 03:55:23,892] [util.py:216]               [INFO]     |===================================== Running Music Collection =====================================|
+[2023-02-22 03:55:23,892] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-22 03:55:23,892] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-22 03:55:23,900] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:23,900] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music', 'limit': 200} |
+[2023-02-22 03:55:23,901] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:23,901] [imdb.py:158]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music |
+[2023-02-22 03:55:27,088] [imdb.py:127]               [DEBUG]    | 48 IMDb IDs Found: ['tt3704428', 'tt2582802', 'tt3783958', 'tt10366460', 'tt6966692', 'tt1981677', 'tt1517451', 'tt0181875', 'tt3890160', 'tt0253474', 'tt0120888', 'tt0200550', 'tt2380307', 'tt1727824', 'tt0105793', 'tt0358273', 'tt0298203', 'tt2948372', 'tt0190590', 'tt0103855', 'tt2848292', 'tt0332379', 'tt5363618', 'tt0462590', 'tt1436562', 'tt4062536', 'tt8079248', 'tt0120855', 'tt1398426', 'tt1980929', 'tt0249462', 'tt0146882', 'tt0396555', 'tt0366548', 'tt0322330', 'tt0105417', 'tt0108394', 'tt2042568', 'tt0445922', 'tt1355630', 'tt0350258', 'tt0907657', 'tt0451079', 'tt0758766', 'tt1131729', 'tt1226229', 'tt0426931', 'tt0365830'] |
+[2023-02-22 03:55:27,088] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:27,089] [builder.py:1283]           [DEBUG]    | 48 IDs Found: [('tt3704428', 'imdb'), ('tt2582802', 'imdb'), ('tt3783958', 'imdb'), ('tt10366460', 'imdb'), ('tt6966692', 'imdb'), ('tt1981677', 'imdb'), ('tt1517451', 'imdb'), ('tt0181875', 'imdb'), ('tt3890160', 'imdb'), ('tt0253474', 'imdb'), ('tt0120888', 'imdb'), ('tt0200550', 'imdb'), ('tt2380307', 'imdb'), ('tt1727824', 'imdb'), ('tt0105793', 'imdb'), ('tt0358273', 'imdb'), ('tt0298203', 'imdb'), ('tt2948372', 'imdb'), ('tt0190590', 'imdb'), ('tt0103855', 'imdb'), ('tt2848292', 'imdb'), ('tt0332379', 'imdb'), ('tt5363618', 'imdb'), ('tt0462590', 'imdb'), ('tt1436562', 'imdb'), ('tt4062536', 'imdb'), ('tt8079248', 'imdb'), ('tt0120855', 'imdb'), ('tt1398426', 'imdb'), ('tt1980929', 'imdb'), ('tt0249462', 'imdb'), ('tt0146882', 'imdb'), ('tt0396555', 'imdb'), ('tt0366548', 'imdb'), ('tt0322330', 'imdb'), ('tt0105417', 'imdb'), ('tt0108394', 'imdb'), ('tt2042568', 'imdb'), ('tt0445922', 'imdb'), ('tt1355630', 'imdb'), ('tt0350258', 'imdb'), ('tt0907657', 'imdb'), ('tt0451079', 'imdb'), ('tt0758766', 'imdb'), ('tt1131729', 'imdb'), ('tt1226229', 'imdb'), ('tt0426931', 'imdb'), ('tt0365830', 'imdb')] |
+[2023-02-22 03:55:27,089] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:27,736] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:27,736] [builder.py:1276]           [DEBUG]    | Builder: imdb_list: {'url': 'https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc', 'limit': 200} |
+[2023-02-22 03:55:27,736] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:27,737] [imdb.py:158]               [INFO]     | Processing IMDb List: 200 Items at https://www.imdb.com/search/title/?title_type=feature&release_date=1990-01-01,&user_rating=5.0,10.0&num_votes=100000,&genres=music&sort=user_rating,desc |
+[2023-02-22 03:55:30,778] [imdb.py:127]               [DEBUG]    | 48 IMDb IDs Found: ['tt2582802', 'tt0253474', 'tt2380307', 'tt6966692', 'tt3783958', 'tt10366460', 'tt2948372', 'tt0181875', 'tt1727824', 'tt0108394', 'tt0358273', 'tt1398426', 'tt0907657', 'tt0190590', 'tt5363618', 'tt0249462', 'tt0350258', 'tt1517451', 'tt3890160', 'tt1980929', 'tt0146882', 'tt2042568', 'tt0426931', 'tt3704428', 'tt0120855', 'tt0445922', 'tt1131729', 'tt0298203', 'tt0332379', 'tt1981677', 'tt0105793', 'tt4062536', 'tt0120888', 'tt1436562', 'tt8079248', 'tt0396555', 'tt0451079', 'tt0365830', 'tt1355630', 'tt0462590', 'tt0105417', 'tt0758766', 'tt2848292', 'tt0366548', 'tt0103855', 'tt0322330', 'tt1226229', 'tt0200550'] |
+[2023-02-22 03:55:30,779] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:30,779] [builder.py:1283]           [DEBUG]    | 48 IDs Found: [('tt2582802', 'imdb'), ('tt0253474', 'imdb'), ('tt2380307', 'imdb'), ('tt6966692', 'imdb'), ('tt3783958', 'imdb'), ('tt10366460', 'imdb'), ('tt2948372', 'imdb'), ('tt0181875', 'imdb'), ('tt1727824', 'imdb'), ('tt0108394', 'imdb'), ('tt0358273', 'imdb'), ('tt1398426', 'imdb'), ('tt0907657', 'imdb'), ('tt0190590', 'imdb'), ('tt5363618', 'imdb'), ('tt0249462', 'imdb'), ('tt0350258', 'imdb'), ('tt1517451', 'imdb'), ('tt3890160', 'imdb'), ('tt1980929', 'imdb'), ('tt0146882', 'imdb'), ('tt2042568', 'imdb'), ('tt0426931', 'imdb'), ('tt3704428', 'imdb'), ('tt0120855', 'imdb'), ('tt0445922', 'imdb'), ('tt1131729', 'imdb'), ('tt0298203', 'imdb'), ('tt0332379', 'imdb'), ('tt1981677', 'imdb'), ('tt0105793', 'imdb'), ('tt4062536', 'imdb'), ('tt0120888', 'imdb'), ('tt1436562', 'imdb'), ('tt8079248', 'imdb'), ('tt0396555', 'imdb'), ('tt0451079', 'imdb'), ('tt0365830', 'imdb'), ('tt1355630', 'imdb'), ('tt0462590', 'imdb'), ('tt0105417', 'imdb'), ('tt0758766', 'imdb'), ('tt2848292', 'imdb'), ('tt0366548', 'imdb'), ('tt0103855', 'imdb'), ('tt0322330', 'imdb'), ('tt1226229', 'imdb'), ('tt0200550', 'imdb')] |
+[2023-02-22 03:55:30,779] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-22 03:55:31,192] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:31,192] [util.py:216]               [INFO]     |==================================== Adding to Music Collection ====================================|
+[2023-02-22 03:55:31,192] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:31,193] [builder.py:1709]           [INFO]     |  1/18 | Music Collection | = | Elvis (2022)                                                        |
+[2023-02-22 03:55:31,193] [builder.py:1709]           [INFO]     |  2/18 | Music Collection | = | Whiplash (2014)                                                     |
+[2023-02-22 03:55:31,193] [builder.py:1709]           [INFO]     |  3/18 | Music Collection | = | La La Land (2016)                                                   |
+[2023-02-22 03:55:31,194] [builder.py:1709]           [INFO]     |  4/18 | Music Collection | = | CODA (2021)                                                         |
+[2023-02-22 03:55:31,194] [builder.py:1709]           [INFO]     |  5/18 | Music Collection | = | Green Book (2018)                                                   |
+[2023-02-22 03:55:31,194] [builder.py:1709]           [INFO]     |  6/18 | Music Collection | = | A Star Is Born (2018)                                               |
+[2023-02-22 03:55:31,195] [builder.py:1709]           [INFO]     |  7/18 | Music Collection | = | Almost Famous (2000)                                                |
+[2023-02-22 03:55:31,195] [builder.py:1709]           [INFO]     |  8/18 | Music Collection | = | Baby Driver (2017)                                                  |
+[2023-02-22 03:55:31,195] [builder.py:1709]           [INFO]     |  9/18 | Music Collection | = | The Pianist (2002)                                                  |
+[2023-02-22 03:55:31,195] [builder.py:1709]           [INFO]     | 10/18 | Music Collection | = | Coco (2017)                                                         |
+[2023-02-22 03:55:31,196] [builder.py:1709]           [INFO]     | 11/18 | Music Collection | = | Bohemian Rhapsody (2018)                                            |
+[2023-02-22 03:55:31,196] [builder.py:1709]           [INFO]     | 12/18 | Music Collection | = | Wayne's World (1992)                                                |
+[2023-02-22 03:55:31,196] [builder.py:1709]           [INFO]     | 13/18 | Music Collection | = | Soul (2020)                                                         |
+[2023-02-22 03:55:31,196] [builder.py:1709]           [INFO]     | 14/18 | Music Collection | = | Sound of Metal (2020)                                               |
+[2023-02-22 03:55:31,197] [builder.py:1709]           [INFO]     | 15/18 | Music Collection | = | Green Room (2016)                                                   |
+[2023-02-22 03:55:31,197] [builder.py:1709]           [INFO]     | 16/18 | Music Collection | = | Tarzan (1999)                                                       |
+[2023-02-22 03:55:31,198] [builder.py:1709]           [INFO]     | 17/18 | Music Collection | = | Freaky Friday (2003)                                                |
+[2023-02-22 03:55:31,199] [builder.py:1709]           [INFO]     | 18/18 | Music Collection | = | Tenacious D in the Pick of Destiny (2006)                           |
+[2023-02-22 03:55:31,199] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:31,199] [builder.py:1735]           [INFO]     | 18 Movies Processed                                                                                |
+[2023-02-22 03:55:31,200] [builder.py:1929]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:31,200] [util.py:216]               [INFO]     |================================ Missing Movies from Library: Music ================================|
+[2023-02-22 03:55:31,200] [builder.py:1931]           [INFO]     |                                                                                                    |
+[2023-02-22 03:55:31,329] [builder.py:1943]           [INFO]     | Music Collection | ? | Pitch Perfect (2012) (TMDb: 114150)                                         |
+[2023-02-22 03:55:31,699] [builder.py:1943]           [INFO]     | Music Collection | ? | The Wedding Singer (1998) (TMDb: 11003)                                     |
+[2023-02-22 03:55:31,835] [builder.py:1943]           [INFO]     | Music Collection | ? | Coyote Ugly (2000) (TMDb: 6282)                                             |
+[2023-02-22 03:55:31,960] [builder.py:1943]           [INFO]     | Music Collection | ? | Walk the Line (2005) (TMDb: 69)                                             |
+[2023-02-22 03:55:32,070] [builder.py:1943]           [INFO]     | Music Collection | ? | 8 Mile (2002) (TMDb: 65)                                                    |
+[2023-02-22 03:55:32,183] [builder.py:1943]           [INFO]     | Music Collection | ? | O Brother, Where Art Thou? (2000) (TMDb: 134)                               |
+[2023-02-22 03:55:32,417] [builder.py:1943]           [INFO]     | Music Collection | ? | The Bodyguard (1992) (TMDb: 619)                                            |
+[2023-02-22 03:55:32,548] [builder.py:1943]           [INFO]     | Music Collection | ? | Pitch Perfect 2 (2015) (TMDb: 254470)                                       |
+[2023-02-22 03:55:32,717] [builder.py:1943]           [INFO]     | Music Collection | ? | School of Rock (2003) (TMDb: 1584)                                          |
+[2023-02-22 03:55:32,836] [builder.py:1943]           [INFO]     | Music Collection | ? | Step Up (2006) (TMDb: 9762)                                                 |
+[2023-02-22 03:55:32,839] [builder.py:1943]           [INFO]     | Music Collection | ? | Rio (2011) (TMDb: 46195)                                                    |
+[2023-02-22 03:55:32,972] [builder.py:1943]           [INFO]     | Music Collection | ? | Yesterday (2019) (TMDb: 515195)                                             |
+[2023-02-22 03:55:32,975] [builder.py:1943]           [INFO]     | Music Collection | ? | Straight Outta Compton (2015) (TMDb: 277216)                                |
+[2023-02-22 03:55:33,097] [builder.py:1943]           [INFO]     | Music Collection | ? | Begin Again (2013) (TMDb: 198277)                                           |
+[2023-02-22 03:55:52,275] [builder.py:1943]           [INFO]     | Music Collection | ? | Billy Elliot (2000) (TMDb: 71)                                              |
+[2023-02-22 03:55:52,393] [builder.py:1943]           [INFO]     | Music Collection | ? | High Fidelity (2000) (TMDb: 243)                                            |
+[2023-02-22 03:55:52,394] [builder.py:1943]           [INFO]     | Music Collection | ? | Meet the Robinsons (2007) (TMDb: 1267)                                      |
+[2023-02-22 03:55:52,575] [builder.py:1943]           [INFO]     | Music Collection | ? | Happy Feet (2006) (TMDb: 9836)                                              |
+[2023-02-22 03:55:52,584] [builder.py:1943]           [INFO]     | Music Collection | ? | Sister Act (1992) (TMDb: 2005)                                              |
+[2023-02-22 03:55:52,715] [builder.py:1943]           [INFO]     | Music Collection | ? | Three Colors: Blue (1993) (TMDb: 108)                                       |
+[2023-02-22 03:55:52,832] [builder.py:1943]           [INFO]     | Music Collection | ? | Inside Llewyn Davis (2013) (TMDb: 86829)                                    |
+[2023-02-22 03:56:13,264] [builder.py:1943]           [INFO]     | Music Collection | ? | Across the Universe (2007) (TMDb: 4688)                                     |
+[2023-02-22 03:56:13,375] [builder.py:1943]           [INFO]     | Music Collection | ? | If I Stay (2014) (TMDb: 249164)                                             |
+[2023-02-22 03:56:13,377] [builder.py:1943]           [INFO]     | Music Collection | ? | Ray (2004) (TMDb: 1677)                                                     |
+[2023-02-22 03:56:13,490] [builder.py:1943]           [INFO]     | Music Collection | ? | Once (2007) (TMDb: 5723)                                                    |
+[2023-02-22 03:56:13,493] [builder.py:1943]           [INFO]     | Music Collection | ? | Horton Hears a Who! (2008) (TMDb: 12222)                                    |
+[2023-02-22 03:56:13,622] [builder.py:1943]           [INFO]     | Music Collection | ? | Music and Lyrics (2007) (TMDb: 11172)                                       |
+[2023-02-22 03:56:34,141] [builder.py:1943]           [INFO]     | Music Collection | ? | The Boat That Rocked (2009) (TMDb: 18947)                                   |
+[2023-02-22 03:56:34,642] [builder.py:1943]           [INFO]     | Music Collection | ? | Get Him to the Greek (2010) (TMDb: 32823)                                   |
+[2023-02-22 03:56:34,778] [builder.py:1943]           [INFO]     | Music Collection | ? | August Rush (2007) (TMDb: 5123)                                             |
+[2023-02-22 03:56:34,778] [builder.py:1947]           [INFO]     |                                                                                                    |
+[2023-02-22 03:56:34,779] [builder.py:1948]           [INFO]     | 30 Movies Missing                                                                                  |
+[2023-02-22 03:56:35,083] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-22 03:56:35,083] [util.py:216]               [INFO]     |=============================== Updating Details of Music Collection ===============================|
+[2023-02-22 03:56:35,084] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-22 03:56:35,084] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-02-22 03:56:35,085] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-02-22 03:56:35,085] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/51398                                |
+[2023-02-22 03:56:35,085] [builder.py:2327]           [INFO]     | No background collection detail or asset folder found                                              |
+[2023-02-22 03:56:35,086] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
+[2023-02-22 03:56:35,335] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-22 03:56:35,336] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-22 03:56:35,336] [util.py:216]               [INFO]     |                                     Finished Music Collection                                      |
+[2023-02-22 03:56:35,336] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:01:13                                    |
+[2023-02-22 03:56:35,337] [util.py:220]               [INFO]     |====================================================================================================|
