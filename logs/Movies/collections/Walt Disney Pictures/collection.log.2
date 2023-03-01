@@ -1,32 +1,32 @@
-[2023-02-23 01:12:23,683] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-23 01:12:23,684] [util.py:216]               [INFO]     |                             Walt Disney Pictures Collection in Movies                              |
-[2023-02-23 01:12:23,684] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-23 01:12:23,684] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-23 01:12:23,685] [util.py:216]               [INFO]     |============================ Validating Walt Disney Pictures Attributes ============================|
-[2023-02-23 01:12:23,685] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-02-23 01:12:23,685] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-02-23 01:12:23,685] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('poster', 'https://theposterdb.com/api/assets/16549')])   |
-[2023-02-23 01:12:23,686] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-02-23 01:12:23,686] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-02-23 01:12:23,686] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
-[2023-02-23 01:12:23,686] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-23 01:12:23,686] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
-[2023-02-23 01:12:23,687] [builder.py:474]            [DEBUG]    | Value: https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2 |
-[2023-02-23 01:12:23,773] [trakt.py:216]              [ERROR]    | Trakt Error: List https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2 not found |
-[2023-02-23 01:12:23,789] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
-[2023-02-23 01:12:23,790] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
-[2023-02-23 01:12:23,790] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
-[2023-02-23 01:12:23,790] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 551, in __init__                 |
-[2023-02-23 01:12:23,790] [util.py:162]               [DEBUG]    |     self._trakt(method_name, method_data)                                                          |
-[2023-02-23 01:12:23,790] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1180, in _trakt                  |
-[2023-02-23 01:12:23,791] [util.py:162]               [DEBUG]    |     trakt_lists = self.config.Trakt.validate_trakt(method_data, self.library.is_movie)             |
-[2023-02-23 01:12:23,791] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\trakt.py", line 223, in validate_trakt             |
-[2023-02-23 01:12:23,791] [util.py:162]               [DEBUG]    |     raise Failed(f"Trakt Error: No valid Trakt Lists in {values}")                                 |
-[2023-02-23 01:12:23,791] [util.py:162]               [DEBUG]    | modules.util.Failed: Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2'] |
-[2023-02-23 01:12:23,791] [util.py:162]               [DEBUG]    |                                                                                                    |
-[2023-02-23 01:12:23,792] [util.py:159]               [ERROR]    | Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2'] |
-[2023-02-23 01:12:23,792] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-23 01:12:23,792] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-23 01:12:23,792] [util.py:216]               [INFO]     |                              Finished Walt Disney Pictures Collection                              |
-[2023-02-23 01:12:23,793] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-02-23 01:12:23,793] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-24 01:24:12,756] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-24 01:24:12,756] [util.py:216]               [INFO]     |                             Walt Disney Pictures Collection in Movies                              |
+[2023-02-24 01:24:12,756] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-24 01:24:12,757] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-24 01:24:12,757] [util.py:216]               [INFO]     |============================ Validating Walt Disney Pictures Attributes ============================|
+[2023-02-24 01:24:12,758] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:24:12,758] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-24 01:24:12,758] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Studio'), ('poster', 'https://theposterdb.com/api/assets/16549')])   |
+[2023-02-24 01:24:12,758] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:24:12,759] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-24 01:24:12,759] [builder.py:455]            [DEBUG]    | Value: release.desc                                                                                |
+[2023-02-24 01:24:12,759] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-24 01:24:12,759] [builder.py:473]            [DEBUG]    | Validating Method: trakt_list                                                                      |
+[2023-02-24 01:24:12,759] [builder.py:474]            [DEBUG]    | Value: https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2 |
+[2023-02-24 01:24:12,845] [trakt.py:216]              [ERROR]    | Trakt Error: List https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2 not found |
+[2023-02-24 01:24:12,864] [util.py:162]               [DEBUG]    | Traceback (most recent call last):                                                                 |
+[2023-02-24 01:24:12,864] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\plex_meta_manager.py", line 757, in run_collection         |
+[2023-02-24 01:24:12,864] [util.py:162]               [DEBUG]    |     builder = CollectionBuilder(config, library, metadata, mapping_name, no_missing, collection_attrs) |
+[2023-02-24 01:24:12,865] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 551, in __init__                 |
+[2023-02-24 01:24:12,865] [util.py:162]               [DEBUG]    |     self._trakt(method_name, method_data)                                                          |
+[2023-02-24 01:24:12,865] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\builder.py", line 1180, in _trakt                  |
+[2023-02-24 01:24:12,865] [util.py:162]               [DEBUG]    |     trakt_lists = self.config.Trakt.validate_trakt(method_data, self.library.is_movie)             |
+[2023-02-24 01:24:12,866] [util.py:162]               [DEBUG]    |   File "C:\Plex-Stack\Plex-Meta-Manager\modules\trakt.py", line 223, in validate_trakt             |
+[2023-02-24 01:24:12,866] [util.py:162]               [DEBUG]    |     raise Failed(f"Trakt Error: No valid Trakt Lists in {values}")                                 |
+[2023-02-24 01:24:12,866] [util.py:162]               [DEBUG]    | modules.util.Failed: Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2'] |
+[2023-02-24 01:24:12,866] [util.py:162]               [DEBUG]    |                                                                                                    |
+[2023-02-24 01:24:12,866] [util.py:159]               [ERROR]    | Trakt Error: No valid Trakt Lists in ['https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-1, https://trakt.tv/users/asterlea/lists/walt-disney-pictures-part-2'] |
+[2023-02-24 01:24:12,867] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-24 01:24:12,867] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-24 01:24:12,867] [util.py:216]               [INFO]     |                              Finished Walt Disney Pictures Collection                              |
+[2023-02-24 01:24:12,868] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
+[2023-02-24 01:24:12,868] [util.py:220]               [INFO]     |====================================================================================================|
