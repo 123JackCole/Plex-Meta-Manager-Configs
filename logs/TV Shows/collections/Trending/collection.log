@@ -1,162 +1,165 @@
-[2023-02-25 02:08:20,637] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-25 02:08:20,638] [util.py:216]               [INFO]     |                                  Trending Collection in TV Shows                                   |
-[2023-02-25 02:08:20,638] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-25 02:08:20,639] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-25 02:08:20,639] [util.py:216]               [INFO]     |================================== Validating Trending Attributes ==================================|
-[2023-02-25 02:08:20,639] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,640] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-25 02:08:20,640] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-25 02:08:20,640] [builder.py:389]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,640] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
-[2023-02-25 02:08:20,641] [builder.py:395]            [DEBUG]    | Value: originally_available.desc                                                                   |
-[2023-02-25 02:08:20,641] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,641] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-25 02:08:20,641] [builder.py:474]            [DEBUG]    | Value: +1a                                                                                         |
-[2023-02-25 02:08:20,642] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,642] [builder.py:473]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
-[2023-02-25 02:08:20,642] [builder.py:474]            [DEBUG]    | Value: 40                                                                                          |
-[2023-02-25 02:08:20,642] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,643] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
-[2023-02-25 02:08:20,643] [builder.py:474]            [DEBUG]    | Value: Shows Trending across the internet                                                          |
-[2023-02-25 02:08:20,643] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,643] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-02-25 02:08:20,644] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/AVCNmB0.png                                                             |
-[2023-02-25 02:08:20,644] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,644] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
-[2023-02-25 02:08:20,644] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
-[2023-02-25 02:08:20,644] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,645] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
-[2023-02-25 02:08:20,645] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-25 02:08:20,645] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,645] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
-[2023-02-25 02:08:20,646] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-25 02:08:20,646] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,646] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
-[2023-02-25 02:08:20,646] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-25 02:08:20,647] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,647] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
-[2023-02-25 02:08:20,647] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
-[2023-02-25 02:08:20,690] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-25 02:08:20,690] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-25 02:08:20,691] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-25 02:08:20,691] [util.py:216]               [INFO]     |=================================== Running Trending Collection ====================================|
-[2023-02-25 02:08:20,691] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-25 02:08:20,692] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-25 02:08:20,692] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:20,692] [builder.py:1276]           [DEBUG]    | Builder: trakt_trending: 40                                                                        |
-[2023-02-25 02:08:20,693] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:20,693] [trakt.py:236]              [INFO]     | Processing Trakt Trending: 40 Shows                                                                |
-[2023-02-25 02:08:21,029] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:21,029] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [(392256, 'tvdb'), (359913, 'tvdb'), (365026, 'tvdb'), (398822, 'tvdb'), (364093, 'tvdb'), (75897, 'tvdb'), (71663, 'tvdb'), (379169, 'tvdb'), (75978, 'tvdb'), (73762, 'tvdb'), (429566, 'tvdb'), (378165, 'tvdb'), (80379, 'tvdb'), (341164, 'tvdb'), (328687, 'tvdb'), (121361, 'tvdb'), (79168, 'tvdb'), (350665, 'tvdb'), (328092, 'tvdb'), (416491, 'tvdb'), (153021, 'tvdb'), (279121, 'tvdb'), (72368, 'tvdb'), (411364, 'tvdb'), (412634, 'tvdb'), (81189, 'tvdb'), (73871, 'tvdb'), (72449, 'tvdb'), (73141, 'tvdb'), (390430, 'tvdb'), (359579, 'tvdb'), (101501, 'tvdb'), (269586, 'tvdb'), (252800, 'tvdb'), (413074, 'tvdb'), (75760, 'tvdb'), (78901, 'tvdb'), (95011, 'tvdb'), (194031, 'tvdb'), (75692, 'tvdb')] |
-[2023-02-25 02:08:21,029] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:21,281] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,281] [util.py:216]               [INFO]     |================================== Adding to Trending Collection ===================================|
-[2023-02-25 02:08:21,281] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,299] [builder.py:1709]           [INFO]     | 1/9 | Trending Collection | = | The Last of Us                                                     |
-[2023-02-25 02:08:21,300] [builder.py:1709]           [INFO]     | 2/9 | Trending Collection | = | South Park                                                         |
-[2023-02-25 02:08:21,300] [builder.py:1709]           [INFO]     | 3/9 | Trending Collection | + | The Simpsons                                                       |
-[2023-02-25 02:08:21,538] [builder.py:1709]           [INFO]     | 4/9 | Trending Collection | = | Yellowstone (2018)                                                 |
-[2023-02-25 02:08:21,539] [builder.py:1709]           [INFO]     | 5/9 | Trending Collection | = | Game of Thrones                                                    |
-[2023-02-25 02:08:21,539] [builder.py:1709]           [INFO]     | 6/9 | Trending Collection | = | Breaking Bad                                                       |
-[2023-02-25 02:08:21,540] [builder.py:1709]           [INFO]     | 7/9 | Trending Collection | = | Futurama                                                           |
-[2023-02-25 02:08:21,540] [builder.py:1709]           [INFO]     | 8/9 | Trending Collection | = | The White Lotus                                                    |
-[2023-02-25 02:08:21,541] [builder.py:1709]           [INFO]     | 9/9 | Trending Collection | = | Bob's Burgers                                                      |
-[2023-02-25 02:08:21,541] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,541] [builder.py:1735]           [INFO]     | 9 Shows Processed                                                                                  |
-[2023-02-25 02:08:21,542] [builder.py:1743]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,542] [util.py:216]               [INFO]     |================================= Removed from Trending Collection =================================|
-[2023-02-25 02:08:21,542] [builder.py:1745]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,561] [builder.py:1751]           [INFO]     | 1/2 | Trending Collection | - | House of the Dragon                                                |
-[2023-02-25 02:08:21,675] [builder.py:1751]           [INFO]     | 2/2 | Trending Collection | - | Rick and Morty                                                     |
-[2023-02-25 02:08:21,773] [builder.py:1768]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,774] [builder.py:1769]           [INFO]     | 2 Show Removed                                                                                     |
-[2023-02-25 02:08:21,774] [builder.py:1969]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:21,774] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Trending ===============================|
-[2023-02-25 02:08:21,775] [builder.py:1971]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:22,180] [builder.py:1982]           [INFO]     | Trending Collection | ? | Formula 1: Drive to Survive (TVDB: 359913)                               |
-[2023-02-25 02:08:22,520] [builder.py:1982]           [INFO]     | Trending Collection | ? | Carnival Row (TVDB: 365026)                                              |
-[2023-02-25 02:08:22,792] [builder.py:1982]           [INFO]     | Trending Collection | ? | Poker Face (2023) (TVDB: 398822)                                         |
-[2023-02-25 02:08:23,394] [builder.py:1982]           [INFO]     | Trending Collection | ? | Star Trek: Picard (TVDB: 364093)                                         |
-[2023-02-25 02:08:23,774] [builder.py:1982]           [INFO]     | Trending Collection | ? | Outer Banks (TVDB: 379169)                                               |
-[2023-02-25 02:08:25,501] [builder.py:1982]           [INFO]     | Trending Collection | ? | Family Guy (TVDB: 75978)                                                 |
-[2023-02-25 02:08:26,916] [builder.py:1982]           [INFO]     | Trending Collection | ? | Grey's Anatomy (TVDB: 73762)                                             |
-[2023-02-25 02:08:27,195] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Knockout (TVDB: 429566)                                              |
-[2023-02-25 02:08:27,457] [builder.py:1982]           [INFO]     | Trending Collection | ? | Clarkson's Farm (TVDB: 378165)                                           |
-[2023-02-25 02:08:28,935] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Big Bang Theory (TVDB: 80379)                                        |
-[2023-02-25 02:08:29,509] [builder.py:1982]           [INFO]     | Trending Collection | ? | S.W.A.T. (2017) (TVDB: 328687)                                           |
-[2023-02-25 02:08:30,682] [builder.py:1982]           [INFO]     | Trending Collection | ? | Friends (TVDB: 79168)                                                    |
-[2023-02-25 02:08:31,277] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Rookie (TVDB: 350665)                                                |
-[2023-02-25 02:08:31,781] [builder.py:1982]           [INFO]     | Trending Collection | ? | Snowfall (TVDB: 328092)                                                  |
-[2023-02-25 02:08:32,170] [builder.py:1982]           [INFO]     | Trending Collection | ? | 1923 (TVDB: 416491)                                                      |
-[2023-02-25 02:08:33,536] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Walking Dead (TVDB: 153021)                                          |
-[2023-02-25 02:08:34,391] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Flash (2014) (TVDB: 279121)                                          |
-[2023-02-25 02:08:36,356] [builder.py:1982]           [INFO]     | Trending Collection | ? | Law & Order (TVDB: 72368)                                                |
-[2023-02-25 02:08:36,654] [builder.py:1982]           [INFO]     | Trending Collection | ? | Shrinking (TVDB: 411364)                                                 |
-[2023-02-25 02:08:36,929] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Consultant (2023) (TVDB: 412634)                                     |
-[2023-02-25 02:08:37,878] [builder.py:1982]           [INFO]     | Trending Collection | ? | Stargate SG-1 (TVDB: 72449)                                              |
-[2023-02-25 02:08:39,216] [builder.py:1982]           [INFO]     | Trending Collection | ? | American Dad! (TVDB: 73141)                                              |
-[2023-02-25 02:08:39,576] [builder.py:1982]           [INFO]     | Trending Collection | ? | Your Honor (US) (TVDB: 359579)                                           |
-[2023-02-25 02:08:40,448] [builder.py:1982]           [INFO]     | Trending Collection | ? | Ancient Aliens (TVDB: 101501)                                            |
-[2023-02-25 02:08:41,301] [builder.py:1982]           [INFO]     | Trending Collection | ? | Brooklyn Nine-Nine (TVDB: 269586)                                        |
-[2023-02-25 02:08:42,108] [builder.py:1982]           [INFO]     | Trending Collection | ? | Death in Paradise (TVDB: 252800)                                         |
-[2023-02-25 02:08:42,429] [builder.py:1982]           [INFO]     | Trending Collection | ? | Anne Rice's Mayfair Witches (TVDB: 413074)                               |
-[2023-02-25 02:08:43,555] [builder.py:1982]           [INFO]     | Trending Collection | ? | How I Met Your Mother (TVDB: 75760)                                      |
-[2023-02-25 02:08:45,050] [builder.py:1982]           [INFO]     | Trending Collection | ? | Supernatural (TVDB: 78901)                                               |
-[2023-02-25 02:08:46,248] [builder.py:1982]           [INFO]     | Trending Collection | ? | Modern Family (TVDB: 95011)                                              |
-[2023-02-25 02:08:48,416] [builder.py:1982]           [INFO]     | Trending Collection | ? | Law & Order: Special Victims Unit (TVDB: 75692)                          |
-[2023-02-25 02:08:48,416] [builder.py:1986]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:48,417] [builder.py:1987]           [INFO]     | 31 Shows Missing                                                                                   |
-[2023-02-25 02:08:48,419] [sonarr.py:69]              [INFO]     |                                                                                                    |
-[2023-02-25 02:08:48,420] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
-[2023-02-25 02:08:48,420] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
-[2023-02-25 02:08:48,420] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [359913, 365026, 398822, 364093, 379169, 75978, 73762, 429566, 378165, 80379, 328687, 79168, 350665, 328092, 416491, 153021, 279121, 72368, 411364, 412634, 72449, 73141, 359579, 101501, 269586, 252800, 413074, 75760, 78901, 95011, 75692] |
-[2023-02-25 02:08:49,686] [sonarr.py:157]             [INFO]     |                                                                                                    |
-[2023-02-25 02:08:49,686] [sonarr.py:159]             [INFO]     | Added to Sonarr | 412634  | The Consultant (2023)                                                  |
-[2023-02-25 02:08:49,690] [sonarr.py:162]             [INFO]     | 1 Series added to Sonarr                                                                           |
-[2023-02-25 02:08:49,690] [sonarr.py:165]             [INFO]     |                                                                                                    |
-[2023-02-25 02:08:49,691] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 359913                                                                         |
-[2023-02-25 02:08:49,691] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 365026                                                                         |
-[2023-02-25 02:08:49,692] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 398822                                                                         |
-[2023-02-25 02:08:49,692] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 364093                                                                         |
-[2023-02-25 02:08:49,692] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 379169                                                                         |
-[2023-02-25 02:08:49,692] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75978                                                                          |
-[2023-02-25 02:08:49,693] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73762                                                                          |
-[2023-02-25 02:08:49,693] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 429566                                                                         |
-[2023-02-25 02:08:49,693] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 378165                                                                         |
-[2023-02-25 02:08:49,693] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 80379                                                                          |
-[2023-02-25 02:08:49,694] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 328687                                                                         |
-[2023-02-25 02:08:49,694] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79168                                                                          |
-[2023-02-25 02:08:49,694] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 350665                                                                         |
-[2023-02-25 02:08:49,694] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 328092                                                                         |
-[2023-02-25 02:08:49,695] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 416491                                                                         |
-[2023-02-25 02:08:49,695] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 153021                                                                         |
-[2023-02-25 02:08:49,695] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 279121                                                                         |
-[2023-02-25 02:08:49,695] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72368                                                                          |
-[2023-02-25 02:08:49,696] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 411364                                                                         |
-[2023-02-25 02:08:49,696] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72449                                                                          |
-[2023-02-25 02:08:49,696] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73141                                                                          |
-[2023-02-25 02:08:49,696] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 359579                                                                         |
-[2023-02-25 02:08:49,697] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 101501                                                                         |
-[2023-02-25 02:08:49,697] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 269586                                                                         |
-[2023-02-25 02:08:49,697] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 252800                                                                         |
-[2023-02-25 02:08:49,697] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 413074                                                                         |
-[2023-02-25 02:08:49,698] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75760                                                                          |
-[2023-02-25 02:08:49,698] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78901                                                                          |
-[2023-02-25 02:08:49,698] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 95011                                                                          |
-[2023-02-25 02:08:49,699] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75692                                                                          |
-[2023-02-25 02:08:49,699] [sonarr.py:174]             [INFO]     | 30 Series already exist in Sonarr                                                                  |
-[2023-02-25 02:08:49,708] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:49,708] [util.py:216]               [INFO]     |============================= Updating Details of Trending Collection ==============================|
-[2023-02-25 02:08:49,708] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-02-25 02:08:49,709] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
-[2023-02-25 02:08:49,711] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
-[2023-02-25 02:08:49,712] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/AVCNmB0.png                                         |
-[2023-02-25 02:08:49,712] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
-[2023-02-25 02:08:49,712] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaper.dog/large/20509069.jpg                        |
-[2023-02-25 02:08:49,775] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/AVCNmB0.png                         |
-[2023-02-25 02:08:50,342] [library.py:195]            [INFO]     | Detail: url_background updated background to [URL] https://wallpaper.dog/large/20509069.jpg        |
-[2023-02-25 02:08:50,370] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-25 02:08:50,370] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-25 02:08:50,371] [util.py:216]               [INFO]     |                                    Finished Trending Collection                                    |
-[2023-02-25 02:08:50,371] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:29                                    |
-[2023-02-25 02:08:50,371] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 14:36:08,492] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 14:36:08,492] [util.py:216]               [INFO]     |                                  Trending Collection in TV Shows                                   |
+[2023-02-28 14:36:08,492] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 14:36:08,493] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,493] [util.py:216]               [INFO]     |================================== Validating Trending Attributes ==================================|
+[2023-02-28 14:36:08,494] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,494] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-28 14:36:08,494] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-28 14:36:08,494] [builder.py:389]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,494] [builder.py:390]            [DEBUG]    | Validating Method: smart_label                                                                     |
+[2023-02-28 14:36:08,495] [builder.py:395]            [DEBUG]    | Value: originally_available.desc                                                                   |
+[2023-02-28 14:36:08,495] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,495] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-28 14:36:08,495] [builder.py:474]            [DEBUG]    | Value: +1a                                                                                         |
+[2023-02-28 14:36:08,496] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,496] [builder.py:473]            [DEBUG]    | Validating Method: trakt_trending                                                                  |
+[2023-02-28 14:36:08,496] [builder.py:474]            [DEBUG]    | Value: 40                                                                                          |
+[2023-02-28 14:36:08,496] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,497] [builder.py:473]            [DEBUG]    | Validating Method: summary                                                                         |
+[2023-02-28 14:36:08,497] [builder.py:474]            [DEBUG]    | Value: Shows Trending across the internet                                                          |
+[2023-02-28 14:36:08,497] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,497] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-28 14:36:08,498] [builder.py:474]            [DEBUG]    | Value: https://i.imgur.com/AVCNmB0.png                                                             |
+[2023-02-28 14:36:08,498] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,498] [builder.py:473]            [DEBUG]    | Validating Method: url_background                                                                  |
+[2023-02-28 14:36:08,498] [builder.py:474]            [DEBUG]    | Value: https://wallpaper.dog/large/20509069.jpg                                                    |
+[2023-02-28 14:36:08,499] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,499] [builder.py:473]            [DEBUG]    | Validating Method: visible_home                                                                    |
+[2023-02-28 14:36:08,499] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-28 14:36:08,499] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,499] [builder.py:473]            [DEBUG]    | Validating Method: visible_shared                                                                  |
+[2023-02-28 14:36:08,500] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-28 14:36:08,500] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,500] [builder.py:473]            [DEBUG]    | Validating Method: visible_library                                                                 |
+[2023-02-28 14:36:08,500] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-28 14:36:08,500] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,501] [builder.py:473]            [DEBUG]    | Validating Method: sonarr_add_missing                                                              |
+[2023-02-28 14:36:08,501] [builder.py:474]            [DEBUG]    | Value: True                                                                                        |
+[2023-02-28 14:36:08,539] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,539] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-28 14:36:08,540] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,540] [util.py:216]               [INFO]     |=================================== Running Trending Collection ====================================|
+[2023-02-28 14:36:08,540] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,540] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-28 14:36:08,541] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,541] [builder.py:1276]           [DEBUG]    | Builder: trakt_trending: 40                                                                        |
+[2023-02-28 14:36:08,541] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,542] [trakt.py:236]              [INFO]     | Processing Trakt Trending: 40 Shows                                                                |
+[2023-02-28 14:36:08,661] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,661] [builder.py:1283]           [DEBUG]    | 40 IDs Found: [(392256, 'tvdb'), (416491, 'tvdb'), (341164, 'tvdb'), (328634, 'tvdb'), (359913, 'tvdb'), (398822, 'tvdb'), (72108, 'tvdb'), (359579, 'tvdb'), (420207, 'tvdb'), (364093, 'tvdb'), (121361, 'tvdb'), (75897, 'tvdb'), (75978, 'tvdb'), (379169, 'tvdb'), (266189, 'tvdb'), (365026, 'tvdb'), (350665, 'tvdb'), (419936, 'tvdb'), (386630, 'tvdb'), (153021, 'tvdb'), (412634, 'tvdb'), (72449, 'tvdb'), (401630, 'tvdb'), (80379, 'tvdb'), (390430, 'tvdb'), (301057, 'tvdb'), (270205, 'tvdb'), (295729, 'tvdb'), (71663, 'tvdb'), (273181, 'tvdb'), (75692, 'tvdb'), (413074, 'tvdb'), (73255, 'tvdb'), (75299, 'tvdb'), (95441, 'tvdb'), (378165, 'tvdb'), (81189, 'tvdb'), (79168, 'tvdb'), (78901, 'tvdb'), (279121, 'tvdb')] |
+[2023-02-28 14:36:08,662] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:08,872] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,872] [util.py:216]               [INFO]     |================================== Adding to Trending Collection ===================================|
+[2023-02-28 14:36:08,873] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,890] [builder.py:1709]           [INFO]     | 1/8 | Trending Collection | = | The Last of Us                                                     |
+[2023-02-28 14:36:08,890] [builder.py:1709]           [INFO]     | 2/8 | Trending Collection | = | Yellowstone (2018)                                                 |
+[2023-02-28 14:36:08,891] [builder.py:1709]           [INFO]     | 3/8 | Trending Collection | = | Game of Thrones                                                    |
+[2023-02-28 14:36:08,891] [builder.py:1709]           [INFO]     | 4/8 | Trending Collection | = | South Park                                                         |
+[2023-02-28 14:36:08,891] [builder.py:1709]           [INFO]     | 5/8 | Trending Collection | = | The White Lotus                                                    |
+[2023-02-28 14:36:08,892] [builder.py:1709]           [INFO]     | 6/8 | Trending Collection | = | The Simpsons                                                       |
+[2023-02-28 14:36:08,892] [builder.py:1709]           [INFO]     | 7/8 | Trending Collection | + | Better Call Saul                                                   |
+[2023-02-28 14:36:08,986] [builder.py:1709]           [INFO]     | 8/8 | Trending Collection | = | Breaking Bad                                                       |
+[2023-02-28 14:36:08,986] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,987] [builder.py:1735]           [INFO]     | 8 Shows Processed                                                                                  |
+[2023-02-28 14:36:08,987] [builder.py:1743]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:08,988] [util.py:216]               [INFO]     |================================= Removed from Trending Collection =================================|
+[2023-02-28 14:36:08,988] [builder.py:1745]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:09,019] [builder.py:1751]           [INFO]     | 1/2 | Trending Collection | - | Bob's Burgers                                                      |
+[2023-02-28 14:36:09,130] [builder.py:1751]           [INFO]     | 2/2 | Trending Collection | - | Futurama                                                           |
+[2023-02-28 14:36:09,225] [builder.py:1768]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:09,226] [builder.py:1769]           [INFO]     | 2 Show Removed                                                                                     |
+[2023-02-28 14:36:09,226] [builder.py:1969]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:09,226] [util.py:216]               [INFO]     |=============================== Missing Shows from Library: Trending ===============================|
+[2023-02-28 14:36:09,227] [builder.py:1971]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:09,583] [builder.py:1982]           [INFO]     | Trending Collection | ? | 1923 (TVDB: 416491)                                                      |
+[2023-02-28 14:36:10,134] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Good Doctor (TVDB: 328634)                                           |
+[2023-02-28 14:36:10,557] [builder.py:1982]           [INFO]     | Trending Collection | ? | Formula 1: Drive to Survive (TVDB: 359913)                               |
+[2023-02-28 14:36:10,783] [builder.py:1982]           [INFO]     | Trending Collection | ? | Poker Face (2023) (TVDB: 398822)                                         |
+[2023-02-28 14:36:12,198] [builder.py:1982]           [INFO]     | Trending Collection | ? | NCIS (TVDB: 72108)                                                       |
+[2023-02-28 14:36:12,538] [builder.py:1982]           [INFO]     | Trending Collection | ? | Your Honor (US) (TVDB: 359579)                                           |
+[2023-02-28 14:36:12,833] [builder.py:1982]           [INFO]     | Trending Collection | ? | Alert: Missing Persons Unit (TVDB: 420207)                               |
+[2023-02-28 14:36:13,349] [builder.py:1982]           [INFO]     | Trending Collection | ? | Star Trek: Picard (TVDB: 364093)                                         |
+[2023-02-28 14:36:14,672] [builder.py:1982]           [INFO]     | Trending Collection | ? | Family Guy (TVDB: 75978)                                                 |
+[2023-02-28 14:36:15,038] [builder.py:1982]           [INFO]     | Trending Collection | ? | Outer Banks (TVDB: 379169)                                               |
+[2023-02-28 14:36:15,847] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Blacklist (TVDB: 266189)                                             |
+[2023-02-28 14:36:16,278] [builder.py:1982]           [INFO]     | Trending Collection | ? | Carnival Row (TVDB: 365026)                                              |
+[2023-02-28 14:36:16,917] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Rookie (TVDB: 350665)                                                |
+[2023-02-28 14:36:17,206] [builder.py:1982]           [INFO]     | Trending Collection | ? | Quantum Leap (2022) (TVDB: 419936)                                       |
+[2023-02-28 14:36:17,488] [builder.py:1982]           [INFO]     | Trending Collection | ? | Mayor of Kingstown (TVDB: 386630)                                        |
+[2023-02-28 14:36:18,806] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Walking Dead (TVDB: 153021)                                          |
+[2023-02-28 14:36:19,029] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Consultant (2023) (TVDB: 412634)                                     |
+[2023-02-28 14:36:19,863] [builder.py:1982]           [INFO]     | Trending Collection | ? | Stargate SG-1 (TVDB: 72449)                                              |
+[2023-02-28 14:36:20,237] [builder.py:1982]           [INFO]     | Trending Collection | ? | NCIS: Hawai'i (TVDB: 401630)                                             |
+[2023-02-28 14:36:21,698] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Big Bang Theory (TVDB: 80379)                                        |
+[2023-02-28 14:36:22,160] [builder.py:1982]           [INFO]     | Trending Collection | ? | Unforgotten (TVDB: 301057)                                               |
+[2023-02-28 14:36:22,706] [builder.py:1982]           [INFO]     | Trending Collection | ? | Below Deck (TVDB: 270205)                                                |
+[2023-02-28 14:36:23,088] [builder.py:1982]           [INFO]     | Trending Collection | ? | Married at First Sight (AU) (TVDB: 295729)                               |
+[2023-02-28 14:36:25,288] [builder.py:1982]           [INFO]     | Trending Collection | ? | Law & Order: Special Victims Unit (TVDB: 75692)                          |
+[2023-02-28 14:36:25,661] [builder.py:1982]           [INFO]     | Trending Collection | ? | Anne Rice's Mayfair Witches (TVDB: 413074)                               |
+[2023-02-28 14:36:26,733] [builder.py:1982]           [INFO]     | Trending Collection | ? | House (TVDB: 73255)                                                      |
+[2023-02-28 14:36:27,517] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Sopranos (TVDB: 75299)                                               |
+[2023-02-28 14:36:28,443] [builder.py:1982]           [INFO]     | Trending Collection | ? | NCIS: Los Angeles (TVDB: 95441)                                          |
+[2023-02-28 14:36:28,693] [builder.py:1982]           [INFO]     | Trending Collection | ? | Clarkson's Farm (TVDB: 378165)                                           |
+[2023-02-28 14:36:29,735] [builder.py:1982]           [INFO]     | Trending Collection | ? | Friends (TVDB: 79168)                                                    |
+[2023-02-28 14:36:31,151] [builder.py:1982]           [INFO]     | Trending Collection | ? | Supernatural (TVDB: 78901)                                               |
+[2023-02-28 14:36:32,034] [builder.py:1982]           [INFO]     | Trending Collection | ? | The Flash (2014) (TVDB: 279121)                                          |
+[2023-02-28 14:36:32,034] [builder.py:1986]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:32,034] [builder.py:1987]           [INFO]     | 32 Shows Missing                                                                                   |
+[2023-02-28 14:36:32,037] [sonarr.py:69]              [INFO]     |                                                                                                    |
+[2023-02-28 14:36:32,038] [util.py:216]               [INFO]     |===================================== Adding Missing to Sonarr =====================================|
+[2023-02-28 14:36:32,038] [sonarr.py:71]              [DEBUG]    |                                                                                                    |
+[2023-02-28 14:36:32,038] [sonarr.py:72]              [DEBUG]    | Sonarr Adds: [416491, 328634, 359913, 398822, 72108, 359579, 420207, 364093, 75978, 379169, 266189, 365026, 350665, 419936, 386630, 153021, 412634, 72449, 401630, 80379, 301057, 270205, 295729, 75692, 413074, 73255, 75299, 95441, 378165, 79168, 78901, 279121] |
+[2023-02-28 14:36:33,429] [sonarr.py:157]             [INFO]     |                                                                                                    |
+[2023-02-28 14:36:33,429] [sonarr.py:159]             [INFO]     | Added to Sonarr | 301057  | Unforgotten                                                            |
+[2023-02-28 14:36:33,433] [sonarr.py:162]             [INFO]     | 1 Series added to Sonarr                                                                           |
+[2023-02-28 14:36:33,433] [sonarr.py:165]             [INFO]     |                                                                                                    |
+[2023-02-28 14:36:33,434] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 416491                                                                         |
+[2023-02-28 14:36:33,434] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 328634                                                                         |
+[2023-02-28 14:36:33,434] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 359913                                                                         |
+[2023-02-28 14:36:33,434] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 398822                                                                         |
+[2023-02-28 14:36:33,435] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 359579                                                                         |
+[2023-02-28 14:36:33,435] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 420207                                                                         |
+[2023-02-28 14:36:33,435] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 364093                                                                         |
+[2023-02-28 14:36:33,436] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75978                                                                          |
+[2023-02-28 14:36:33,436] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 379169                                                                         |
+[2023-02-28 14:36:33,436] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 266189                                                                         |
+[2023-02-28 14:36:33,437] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 365026                                                                         |
+[2023-02-28 14:36:33,437] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 350665                                                                         |
+[2023-02-28 14:36:33,437] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 419936                                                                         |
+[2023-02-28 14:36:33,437] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 386630                                                                         |
+[2023-02-28 14:36:33,438] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 153021                                                                         |
+[2023-02-28 14:36:33,438] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 412634                                                                         |
+[2023-02-28 14:36:33,438] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 72449                                                                          |
+[2023-02-28 14:36:33,439] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 401630                                                                         |
+[2023-02-28 14:36:33,439] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 80379                                                                          |
+[2023-02-28 14:36:33,439] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 270205                                                                         |
+[2023-02-28 14:36:33,439] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 295729                                                                         |
+[2023-02-28 14:36:33,440] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75692                                                                          |
+[2023-02-28 14:36:33,440] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 413074                                                                         |
+[2023-02-28 14:36:33,440] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 73255                                                                          |
+[2023-02-28 14:36:33,440] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 75299                                                                          |
+[2023-02-28 14:36:33,441] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 95441                                                                          |
+[2023-02-28 14:36:33,441] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 378165                                                                         |
+[2023-02-28 14:36:33,441] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 79168                                                                          |
+[2023-02-28 14:36:33,441] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 78901                                                                          |
+[2023-02-28 14:36:33,442] [sonarr.py:173]             [INFO]     | Skipped: In Cache | 279121                                                                         |
+[2023-02-28 14:36:33,442] [sonarr.py:174]             [INFO]     | 30 Series already exist in Sonarr                                                                  |
+[2023-02-28 14:36:33,442] [sonarr.py:192]             [INFO]     |                                                                                                    |
+[2023-02-28 14:36:33,443] [sonarr.py:193]             [INFO]     | Invalid TVDb ID | [NCIS]                                                                           |
+[2023-02-28 14:36:33,443] [sonarr.py:194]             [INFO]     | 1 Series with Invalid IDs                                                                          |
+[2023-02-28 14:36:33,450] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:33,451] [util.py:216]               [INFO]     |============================= Updating Details of Trending Collection ==============================|
+[2023-02-28 14:36:33,451] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-28 14:36:33,451] [builder.py:2156]           [INFO]     | Detail: summary updated Collection Summary                                                         |
+[2023-02-28 14:36:33,454] [builder.py:2258]           [DEBUG]    | 1 posters found:                                                                                   |
+[2023-02-28 14:36:33,454] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://i.imgur.com/AVCNmB0.png                                         |
+[2023-02-28 14:36:33,454] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
+[2023-02-28 14:36:33,455] [builder.py:2300]           [DEBUG]    | Method: url_background Background: https://wallpaper.dog/large/20509069.jpg                        |
+[2023-02-28 14:36:33,520] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://i.imgur.com/AVCNmB0.png                         |
+[2023-02-28 14:36:34,332] [library.py:195]            [INFO]     | Detail: url_background updated background to [URL] https://wallpaper.dog/large/20509069.jpg        |
+[2023-02-28 14:36:34,352] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-28 14:36:34,352] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 14:36:34,353] [util.py:216]               [INFO]     |                                    Finished Trending Collection                                    |
+[2023-02-28 14:36:34,353] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:25                                    |
+[2023-02-28 14:36:34,353] [util.py:220]               [INFO]     |====================================================================================================|

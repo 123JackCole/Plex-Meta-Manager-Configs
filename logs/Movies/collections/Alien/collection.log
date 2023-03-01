@@ -1,70 +1,71 @@
-[2023-02-28 01:00:36,274] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-28 01:00:36,275] [util.py:216]               [INFO]     |                                     Alien Collection in Movies                                     |
-[2023-02-28 01:00:36,275] [util.py:220]               [INFO]     |====================================================================================================|
-[2023-02-28 01:00:36,276] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,276] [util.py:216]               [INFO]     |=================================== Validating Alien Attributes ====================================|
-[2023-02-28 01:00:36,276] [builder.py:265]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,277] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
-[2023-02-28 01:00:36,277] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Collection'), ('collection', '8091, 135416'), ('poster', 'https://theposterdb.com/api/assets/43458')]) |
-[2023-02-28 01:00:36,277] [builder.py:330]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,277] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
-[2023-02-28 01:00:36,278] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
-[2023-02-28 01:00:36,278] [builder.py:453]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,278] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
-[2023-02-28 01:00:36,278] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
-[2023-02-28 01:00:36,279] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,279] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
-[2023-02-28 01:00:36,279] [builder.py:474]            [DEBUG]    | Value: 8091, 135416                                                                                |
-[2023-02-28 01:00:36,478] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,478] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
-[2023-02-28 01:00:36,478] [builder.py:474]            [DEBUG]    | Value: 00000f_Alien                                                                                |
-[2023-02-28 01:00:36,479] [builder.py:472]            [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,479] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
-[2023-02-28 01:00:36,479] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/43458                                                    |
-[2023-02-28 01:00:36,678] [builder.py:619]            [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,679] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
-[2023-02-28 01:00:36,680] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,680] [util.py:216]               [INFO]     |===================================== Running Alien Collection =====================================|
-[2023-02-28 01:00:36,680] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,681] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
-[2023-02-28 01:00:36,681] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,681] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 8091                                                                     |
-[2023-02-28 01:00:36,682] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,682] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (8091) Alien Collection (4 Items)                                      |
-[2023-02-28 01:00:36,682] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,683] [builder.py:1283]           [DEBUG]    | 4 IDs Found: [(348, 'tmdb'), (679, 'tmdb'), (8077, 'tmdb'), (8078, 'tmdb')]                        |
-[2023-02-28 01:00:36,683] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,768] [builder.py:1275]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,769] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 135416                                                                   |
-[2023-02-28 01:00:36,769] [builder.py:1277]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,769] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (135416) Prometheus Collection (2 Items)                               |
-[2023-02-28 01:00:36,770] [builder.py:1282]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,770] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(70981, 'tmdb'), (126889, 'tmdb')]                                                   |
-[2023-02-28 01:00:36,770] [builder.py:1284]           [DEBUG]    |                                                                                                    |
-[2023-02-28 01:00:36,807] [builder.py:1697]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,808] [util.py:216]               [INFO]     |==================================== Adding to Alien Collection ====================================|
-[2023-02-28 01:00:36,808] [builder.py:1699]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,809] [builder.py:1709]           [INFO]     | 1/6 | Alien Collection | = | Alien (1979)                                                          |
-[2023-02-28 01:00:36,809] [builder.py:1709]           [INFO]     | 2/6 | Alien Collection | = | Aliens (1986)                                                         |
-[2023-02-28 01:00:36,809] [builder.py:1709]           [INFO]     | 3/6 | Alien Collection | = | Alien³ (1992)                                                         |
-[2023-02-28 01:00:36,810] [builder.py:1709]           [INFO]     | 4/6 | Alien Collection | = | Alien: Resurrection (1997)                                            |
-[2023-02-28 01:00:36,811] [builder.py:1709]           [INFO]     | 5/6 | Alien Collection | = | Prometheus (2012)                                                     |
-[2023-02-28 01:00:36,811] [builder.py:1709]           [INFO]     | 6/6 | Alien Collection | = | Alien: Covenant (2017)                                                |
-[2023-02-28 01:00:36,811] [builder.py:1734]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,812] [builder.py:1735]           [INFO]     | 6 Movies Processed                                                                                 |
-[2023-02-28 01:00:36,816] [builder.py:2147]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,817] [util.py:216]               [INFO]     |=============================== Updating Details of Alien Collection ===============================|
-[2023-02-28 01:00:36,817] [builder.py:2149]           [INFO]     |                                                                                                    |
-[2023-02-28 01:00:36,818] [builder.py:2156]           [INFO]     | Detail: tmdb_collection_details updated Collection Summary                                         |
-[2023-02-28 01:00:36,818] [builder.py:2258]           [DEBUG]    | 2 posters found:                                                                                   |
-[2023-02-28 01:00:36,818] [builder.py:2260]           [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/iVzIeC3PbG9BtDAudpwSNdKAgh6.jpg |
-[2023-02-28 01:00:36,819] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/43458                                |
-[2023-02-28 01:00:36,819] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
-[2023-02-28 01:00:36,819] [builder.py:2300]           [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/kB0Y3uGe9ohJa59Lk8UO9cUOxGM.jpg |
-[2023-02-28 01:00:36,821] [library.py:147]            [INFO]     | Detail: poster update not needed                                                                   |
-[2023-02-28 01:00:36,821] [library.py:197]            [INFO]     | Detail: background update not needed                                                               |
-[2023-02-28 01:00:37,019] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
-[2023-02-28 01:00:37,020] [util.py:209]               [INFO]     |====================================================================================================|
-[2023-02-28 01:00:37,020] [util.py:216]               [INFO]     |                                     Finished Alien Collection                                      |
-[2023-02-28 01:00:37,020] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:00                                    |
-[2023-02-28 01:00:37,021] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 13:14:51,219] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 13:14:51,220] [util.py:216]               [INFO]     |                                     Alien Collection in Movies                                     |
+[2023-02-28 13:14:51,220] [util.py:220]               [INFO]     |====================================================================================================|
+[2023-02-28 13:14:51,220] [plex_meta_manager.py:750]  [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,221] [util.py:216]               [INFO]     |=================================== Validating Alien Attributes ====================================|
+[2023-02-28 13:14:51,222] [builder.py:265]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,222] [builder.py:266]            [DEBUG]    | Validating Method: template                                                                        |
+[2023-02-28 13:14:51,222] [meta.py:83]                [DEBUG]    | Value: ordereddict([('name', 'Collection'), ('collection', '8091, 135416'), ('poster', 'https://theposterdb.com/api/assets/43458')]) |
+[2023-02-28 13:14:51,223] [builder.py:330]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,223] [builder.py:331]            [DEBUG]    | Validating Method: sync_mode                                                                       |
+[2023-02-28 13:14:51,223] [builder.py:335]            [DEBUG]    | Value: sync                                                                                        |
+[2023-02-28 13:14:51,224] [builder.py:453]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,224] [builder.py:454]            [DEBUG]    | Validating Method: collection_order                                                                |
+[2023-02-28 13:14:51,224] [builder.py:455]            [DEBUG]    | Value: release                                                                                     |
+[2023-02-28 13:14:51,224] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,224] [builder.py:473]            [DEBUG]    | Validating Method: tmdb_collection_details                                                         |
+[2023-02-28 13:14:51,225] [builder.py:474]            [DEBUG]    | Value: 8091, 135416                                                                                |
+[2023-02-28 13:14:51,325] [tmdb.py:242]               [ERROR]    | TMDb Error: No Collection found for TMDb ID 8091: The resource you requested could not be found.   |
+[2023-02-28 13:14:51,723] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,724] [builder.py:473]            [DEBUG]    | Validating Method: sort_title                                                                      |
+[2023-02-28 13:14:51,724] [builder.py:474]            [DEBUG]    | Value: 00000f_Alien                                                                                |
+[2023-02-28 13:14:51,724] [builder.py:472]            [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,724] [builder.py:473]            [DEBUG]    | Validating Method: url_poster                                                                      |
+[2023-02-28 13:14:51,724] [builder.py:474]            [DEBUG]    | Value: https://theposterdb.com/api/assets/43458                                                    |
+[2023-02-28 13:14:51,925] [builder.py:619]            [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,925] [builder.py:620]            [INFO]     | Validation Successful                                                                              |
+[2023-02-28 13:14:51,926] [plex_meta_manager.py:758]  [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,926] [util.py:216]               [INFO]     |===================================== Running Alien Collection =====================================|
+[2023-02-28 13:14:51,926] [plex_meta_manager.py:773]  [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,927] [plex_meta_manager.py:774]  [INFO]     | Sync Mode: sync                                                                                    |
+[2023-02-28 13:14:51,927] [builder.py:1275]           [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,927] [builder.py:1276]           [DEBUG]    | Builder: tmdb_collection: 135416                                                                   |
+[2023-02-28 13:14:51,928] [builder.py:1277]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,928] [tmdb.py:323]               [INFO]     | Processing TMDb Collection: (135416) Prometheus Collection (2 Items)                               |
+[2023-02-28 13:14:51,928] [builder.py:1282]           [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,929] [builder.py:1283]           [DEBUG]    | 2 IDs Found: [(70981, 'tmdb'), (126889, 'tmdb')]                                                   |
+[2023-02-28 13:14:51,929] [builder.py:1284]           [DEBUG]    |                                                                                                    |
+[2023-02-28 13:14:51,967] [builder.py:1697]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,967] [util.py:216]               [INFO]     |==================================== Adding to Alien Collection ====================================|
+[2023-02-28 13:14:51,968] [builder.py:1699]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,968] [builder.py:1709]           [INFO]     | 1/2 | Alien Collection | = | Prometheus (2012)                                                     |
+[2023-02-28 13:14:51,968] [builder.py:1709]           [INFO]     | 2/2 | Alien Collection | = | Alien: Covenant (2017)                                                |
+[2023-02-28 13:14:51,969] [builder.py:1734]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,969] [builder.py:1735]           [INFO]     | 2 Movies Processed                                                                                 |
+[2023-02-28 13:14:51,969] [builder.py:1743]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,970] [util.py:216]               [INFO]     |================================== Removed from Alien Collection ===================================|
+[2023-02-28 13:14:51,970] [builder.py:1745]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:51,992] [builder.py:1751]           [INFO]     | 1/4 | Alien Collection | - | Alien (1979)                                                          |
+[2023-02-28 13:14:52,152] [builder.py:1751]           [INFO]     | 2/4 | Alien Collection | - | Aliens (1986)                                                         |
+[2023-02-28 13:14:52,305] [builder.py:1751]           [INFO]     | 3/4 | Alien Collection | - | Alien³ (1992)                                                         |
+[2023-02-28 13:14:52,799] [builder.py:1751]           [INFO]     | 4/4 | Alien Collection | - | Alien: Resurrection (1997)                                            |
+[2023-02-28 13:14:52,935] [builder.py:1768]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:52,935] [builder.py:1769]           [INFO]     | 4 Movie Removed                                                                                    |
+[2023-02-28 13:14:52,940] [builder.py:2147]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:52,940] [util.py:216]               [INFO]     |=============================== Updating Details of Alien Collection ===============================|
+[2023-02-28 13:14:52,941] [builder.py:2149]           [INFO]     |                                                                                                    |
+[2023-02-28 13:14:52,941] [builder.py:2156]           [INFO]     | Detail: tmdb_collection_details updated Collection Summary                                         |
+[2023-02-28 13:14:52,941] [builder.py:2235]           [DEBUG]    | {'summary.value': 'In 2012, the science-fiction/horror film Prometheus brought Ridley Scott back to the film franchise he launched in 1979 with Alien. Prometheus Collection movies offer a sort of back door into the original Alien film, answer questions about where the series’ terrifying monster came from. The collection is planned to consist of 4 films in total.', 'summary.locked': 1} |
+[2023-02-28 13:14:52,951] [builder.py:2237]           [INFO]     | Details: have been updated                                                                         |
+[2023-02-28 13:14:52,952] [builder.py:2258]           [DEBUG]    | 2 posters found:                                                                                   |
+[2023-02-28 13:14:52,952] [builder.py:2260]           [DEBUG]    | Method: tmdb_collection_details Poster: https://image.tmdb.org/t/p/original/1GHETrFfK6GM7wQJQA2nH7elYNP.jpg |
+[2023-02-28 13:14:52,952] [builder.py:2260]           [DEBUG]    | Method: url_poster Poster: https://theposterdb.com/api/assets/43458                                |
+[2023-02-28 13:14:52,952] [builder.py:2298]           [DEBUG]    | 1 backgrounds found:                                                                               |
+[2023-02-28 13:14:52,953] [builder.py:2300]           [DEBUG]    | Method: tmdb_collection_details Background: https://image.tmdb.org/t/p/original/cK83Pq8SJoeSTnLJucr8IWn35KF.jpg |
+[2023-02-28 13:14:54,271] [library.py:145]            [INFO]     | Detail: url_poster updated poster to [URL] https://theposterdb.com/api/assets/43458                |
+[2023-02-28 13:14:54,387] [library.py:195]            [INFO]     | Detail: tmdb_collection_details updated background to [URL] https://image.tmdb.org/t/p/original/cK83Pq8SJoeSTnLJucr8IWn35KF.jpg |
+[2023-02-28 13:14:54,586] [plex_meta_manager.py:880]  [INFO]     |                                                                                                    |
+[2023-02-28 13:14:54,586] [util.py:209]               [INFO]     |====================================================================================================|
+[2023-02-28 13:14:54,587] [util.py:216]               [INFO]     |                                     Finished Alien Collection                                      |
+[2023-02-28 13:14:54,587] [util.py:216]               [INFO]     |                                    Collection Run Time: 0:00:03                                    |
+[2023-02-28 13:14:54,587] [util.py:220]               [INFO]     |====================================================================================================|
