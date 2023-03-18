@@ -13,24 +13,24 @@
 #        Templates        #
 ###########################
 templates:
-  set:
-    optional:
-      - network
-      - list
-    tmdb_network: <<network>>
-    tmdb_list: <<list>>
-    sort_title: +3_<<collection_name>>
-    sync_mode: sync
-    url_poster: <<poster>>
-    url_background: <<background>>
-  network:
-    optional:
-      - network
-    tmdb_network: <<network>>
-    url_poster: <<poster>>
-    sort_title: +4_<<collection_name>>
-    collection_order: alpha
-    sync_mode: sync
+    set:
+        optional:
+          - network
+          - list
+        tmdb_network: <<network>>
+        tmdb_list: <<list>>
+        sort_title: +3_<<collection_name>>
+        sync_mode: sync
+        url_poster: <<poster>>
+        url_background: <<background>>
+    network:
+        optional:
+          - network
+        tmdb_network: <<network>>
+        url_poster: <<poster>>
+        sort_title: +4_<<collection_name>>
+        collection_order: alpha
+        sync_mode: sync
         
 collections:
 ####################################
