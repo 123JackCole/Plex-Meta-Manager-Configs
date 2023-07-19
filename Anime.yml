@@ -23,7 +23,6 @@ templates:
     url_poster: <<poster>>
     sort_title: +++_<<collection_name>>
     collection_order: alpha
-    collection_mode: hide
     sync_mode: sync
   MAL:
     optional:
@@ -43,18 +42,19 @@ templates:
     sonarr_add_existing: true
     sonarr_add_missing: true
   Season:
-    optional:
-      - poster
     mal_season:
       season: current
-      limit: 10
+      limit: 20
       sort_by: members
-    url_poster: <<poster>>
     collection_order: custom
-    sort_title: +++++++_<<collection_name>>
+    sort_title: +++++++++_Top_Airing
     sync_mode: sync
+    url_poster: https://i.imgur.com/AVCNmB0.png
+    url_background: https://wallpaper.dog/large/20509069.jpg
     schedule: range(<<start>>-<<end>>)
     delete_not_scheduled: true
+    visible_home: true
+    visible_library: true
     sonarr_add_existing: true
     sonarr_add_missing: true
   Studio:
@@ -85,22 +85,23 @@ collections:
 ###########################
 #    Custom Collection    #
 ###########################
-  Top Airing Anime:
-    anilist_search:
-      year:
-      # sort_by: popular # THIS IS CURRENTLY BUGGED
-      format: tv
-      status: airing
-      limit: 15
-    collection_order: custom
-    visible_home: true
-    visible_library: true
-    sort_title: +++++++++_Top_Airing
-    sync_mode: sync
-    url_poster: https://i.imgur.com/AVCNmB0.png
-    url_background: https://wallpaper.dog/large/20509069.jpg
-    sonarr_add_existing: true
-    sonarr_add_missing: true
+  # Replaced this with seasonal collections since they are pretty much the same
+  # Top Airing Anime:
+  #   anilist_search:
+  #     year:
+  #     # sort_by: popular # THIS IS CURRENTLY BUGGED
+  #     format: tv
+  #     status: airing
+  #     limit: 15
+  #   collection_order: custom
+  #   visible_home: true
+  #   visible_library: true
+  #   sort_title: +++++++++_Top_Airing
+  #   sync_mode: sync
+  #   url_poster: https://i.imgur.com/AVCNmB0.png
+  #   url_background: https://wallpaper.dog/large/20509069.jpg
+  #   sonarr_add_existing: true
+  #   sonarr_add_missing: true
   Most Popular Anime:
     mal_popular: 50
     collection_order: custom
@@ -127,13 +128,13 @@ collections:
 ###########################
 #   Seasons Collections   #
 ###########################
-  Seasonal Winter:
+  Top Airing Winter:
     template: { name: Season, start: 01/01, end: 04/01 }
-  Seasonal Spring:
+  Top Airing Spring:
     template: { name: Season, start: 04/01, end: 07/01 }
-  Seasonal Summer:
+  Top Airing Summer:
     template: { name: Season, start: 07/01, end: 10/01 }
-  Seasonal Fall:
+  Top Airing Fall:
     template: { name: Season, start: 10/01, end: 01/01 }
 
 ###########################
@@ -291,3 +292,12 @@ collections:
     template: { name: Genre, mal_id: 25, poster: https://theposterdb.com/api/assets/240214} 
   Shounen:
     template: { name: Genre, mal_id: 27, poster: https://theposterdb.com/api/assets/240215} 
+
+###########################
+#         Metadata        #
+###########################
+
+metadata: 
+
+  '"Oshi no Ko"':
+    sort_title: Oshi no Ko
