@@ -38,9 +38,11 @@ collections:
     template: {name: Genre, genre: Biography, poster: https://theposterdb.com/api/assets/60369}
     summary: A collection of Biography movies
   Comedy:
-    template: {name: Genre, genre: Comedy, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/51397}
+    template: {name: Other Genre, genre: Comedy, poster: https://theposterdb.com/api/assets/51397}
     summary: Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
-    filters:
+    plex_search:
+      genre: Comedy
+      genre.not: "Documentary, Short"
       collection.not: Stand Up Comedy
   Crime:
     template: {name: Genre, genre: Crime, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/53057}
