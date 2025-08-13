@@ -1,14 +1,10 @@
 templates:
     Director:
-        url_poster: <<poster>>
         tmdb_director: <<director>>
         tmdb_director_details: <<director>>
         sort_title: 00000f_<<collection_name>>
         sync_mode: sync
         collection_order: release.desc
-        # visible_library: false
-        # visible_home: false
-        # visible_shared: false
         radarr_add_missing: true
 collections:
 
@@ -16,25 +12,35 @@ collections:
 #   Director Collections  #
 ###########################
 
+    Akira Kurosawa:
+        template: {name: Director, director: 5026}
     Ari Aster: 
-        template: {name: Director, director: 1145520, poster: https://theposterdb.com/api/assets/213342}
+        template: {name: Director, director: 1145520}
     Bong Joon-Ho: 
-        template: {name: Director, director: 21684, poster: https://theposterdb.com/api/assets/213346}
+        template: {name: Director, director: 21684}
     Christopher Nolan: 
-        template: {name: Director, director: 525, poster: https://theposterdb.com/api/assets/213359}
+        template: {name: Director, director: 525}
     Denis Villeneuve:
-        template: {name: Director, director: 137427, poster: https://theposterdb.com/api/assets/213368}
+        template: {name: Director, director: 137427}
+    Edgar Wright:
+        template: {name: Director, director: 11090}
     Guillermo del Toro: 
-        template: {name: Director, director: 10828, poster: https://theposterdb.com/api/assets/213350}
+        template: {name: Director, director: 10828}
     Jordan Peele: 
-        template: {name: Director, director: 291263, poster: https://theposterdb.com/api/assets/213360}
+        template: {name: Director, director: 291263}
+    Juzo Itami:
+        template: {name: Director, director: 69167}
+    Lee Chang-Dong:
+        template: {name: Director, director: 96657}
     Martin Scorsese: 
-        template: {name: Director, director: 1032, poster: https://theposterdb.com/api/assets/213361}
+        template: {name: Director, director: 1032}
+    Park Chan-wook:
+        template: {name: Director, director: 10099}
     Robert Eggers: 
-        template: {name: Director, director: 138781, poster: https://theposterdb.com/api/assets/213352}
+        template: {name: Director, director: 138781}
     Stanley Kubrick:
-        template: {name: Director, director: 240, poster: https://theposterdb.com/api/assets/213356}
+        template: {name: Director, director: 240}
     Steven Spielberg: 
-        template: {name: Director, director: 488, poster: https://theposterdb.com/api/assets/213365}
+        template: {name: Director, director: 488}
     Wes Anderson: 
-        template: {name: Director, director: 5655, poster: https://theposterdb.com/api/assets/213340}
+        template: {name: Director, director: 5655}

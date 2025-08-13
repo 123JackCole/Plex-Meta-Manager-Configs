@@ -36,7 +36,7 @@ templates:
       sort_by: <<sort>>
       limit: <<limit>>
     collection_order: custom
-    visible_home: true
+    visible_home: false
     visible_library: true
     sync_mode: sync
     sonarr_add_existing: true
@@ -46,10 +46,11 @@ templates:
       season: current
       limit: 20
       sort_by: members
+      starting_only: false
     collection_order: custom
     sort_title: +++++++++_Top_Airing
     sync_mode: sync
-    url_poster: https://i.imgur.com/AVCNmB0.png
+    url_poster: https://theposterdb.com/api/assets/480805
     url_background: https://wallpaper.dog/large/20509069.jpg
     schedule: range(<<start>>-<<end>>)
     delete_not_scheduled: true
@@ -61,6 +62,7 @@ templates:
     anilist_studio: <<studio_id>>
     sort_title: zzzzzzzzzzzzz<<collection_name>>
     sync_mode: sync
+    collection_order: release.desc
     collection_mode: hide
     sonarr_add_existing: true
     sonarr_add_missing: true
@@ -73,6 +75,7 @@ collections:
     template: { name: MAL, sort_title: Completed, username: JCH0tsh0t, status: completed, sort: score, limit: 40 }
   "Jack's Currently Watching":
     template: { name: MAL, sort_title: Currently_Watching, username: JCH0tsh0t, status: watching, sort: title, limit: 1000 }
+    visible_home: true
   "Jack's Plan to Watch":
     template: { name: MAL, sort_title: Plan_to_Watch, username: JCH0tsh0t, status: plan_to_watch, sort: title, limit: 1000 }
   "Jack's Whole MAL List":
@@ -105,22 +108,22 @@ collections:
   Most Popular Anime:
     mal_popular: 50
     collection_order: custom
-    visible_home: true
+    visible_home: false
     visible_library: true
     sort_title: ++++++++_Most_Popular
     sync_mode: sync    
-    url_poster: https://i.imgur.com/s90PSic.png
+    url_poster: https://theposterdb.com/api/assets/481194
     url_background: https://wallpaper.dog/large/20509069.jpg
     sonarr_add_existing: true
     sonarr_add_missing: true
   Most Favorited Anime:
     mal_favorite: 50
     collection_order: custom
-    visible_home: true
+    visible_home: false
     visible_library: true
     sort_title: ++++++++_Most_Favorited
     sync_mode: sync
-    url_poster: https://i.imgur.com/7h1vaxl.png
+    url_poster: https://theposterdb.com/api/assets/481173
     url_background: https://wallpaper.dog/large/20509069.jpg
     sonarr_add_existing: true
     sonarr_add_missing: true
@@ -291,13 +294,4 @@ collections:
   Shoujo:
     template: { name: Genre, mal_id: 25, poster: https://theposterdb.com/api/assets/240214} 
   Shounen:
-    template: { name: Genre, mal_id: 27, poster: https://theposterdb.com/api/assets/240215} 
-
-###########################
-#         Metadata        #
-###########################
-
-metadata: 
-
-  '"Oshi no Ko"':
-    sort_title: Oshi no Ko
+    template: { name: Genre, mal_id: 27, poster: https://theposterdb.com/api/assets/240215}

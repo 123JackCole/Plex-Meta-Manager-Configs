@@ -16,6 +16,14 @@ templates:
     sort_title: 00000d_<<collection_name>>
     sync_mode: sync
     collection_order: alpha
+  Language:
+    url_poster: <<poster>>
+    sort_title: 00000d_<<collection_name>>
+    plex_all: true
+    filters:
+      original_language: <<language>> # Uses TMDb original language ISO 639-1 codes (https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) to match
+    sync_mode: sync
+    collection_order: alpha
 collections:
 
 ######################################################
@@ -33,12 +41,20 @@ collections:
     summary: Animated film is a collection of illustrations that are photographed frame-by-frame and then played in a quick succession. Since its inception, animation has had a creative and imaginative tendency. Being able to bring animals and objects to life, this genre has catered towards fairy tales and children’s stories. However, animation has long been a genre enjoyed by all ages. As of recent, there has even been an influx of animation geared towards adults. Animation is commonly thought of as a technique, thus it’s ability to span over many different genres.
   Anime:
     template: {name: Genre, genre: Anime, genre_not: "Short", poster: https://theposterdb.com/api/assets/126743}
-    summary: A collection of Anime movies
+    summary: A collection of Anime movies.
   Biography:
     template: {name: Genre, genre: Biography, poster: https://theposterdb.com/api/assets/60369}
-    summary: A collection of Biography movies
+    summary: A collection of Biography movies.
+  Cooking:
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/66141}
+    summary: A collection of Movies about food. The best of the best food porn. Often feel good esque.
+    imdb_list:
+      - https://www.imdb.com/list/ls591352743/ # mine
+      - https://www.imdb.com/list/ls057674149/
+      - https://www.imdb.com/list/ls006211669/
+    radarr_add_missing: true
   Comedy:
-    template: {name: Other Genre, genre: Comedy, poster: https://theposterdb.com/api/assets/51397}
+    template: {name: Other Genre, poster: https://theposterdb.com/api/assets/51397}
     summary: Comedy is a genre of film that uses humor as a driving force. The aim of a comedy film is to illicit laughter from the audience through entertaining stories and characters. Although the comedy film may take on some serious material, most have a happy ending. Comedy film has the tendency to become a hybrid sub-genre because humor can be incorporated into many other genres. Comedies are more likely than other films to fall back on the success and popularity of an individual star.
     plex_search:
       genre: Comedy
@@ -59,15 +75,26 @@ collections:
   Fantasy:
     template: {name: Genre, genre: Fantasy, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/51476}
     summary: Fantasy film is a genre that incorporates imaginative and fantastic themes. These themes usually involve magic, supernatural events, or fantasy worlds. Although it is its own distinct genre, these films can overlap into the horror and science fiction genres. Unlike science fiction, a fantasy film does not need to be rooted in fact. This element allows the audience to be transported into a new and unique world. Often, these films center on an ordinary hero in an extraordinary situation.
+  Feel Good Movies:
+    template: {name: Other Genre, poster: https://i.imgur.com/RHSV1jm.jpeg}
+    summary: A collection of movies that make you feel good.
+    trakt_list:
+      - https://trakt.tv/users/shana71/lists/feel-good-movies
+    imdb_list:
+      - https://www.imdb.com/list/ls021615613/
+      - https://www.imdb.com/list/ls066599507/
+      - https://www.imdb.com/list/ls052580452/
+      - https://www.imdb.com/list/ls025952122/
+      - https://www.imdb.com/list/ls050578618/
+      - https://www.imdb.com/list/ls058430399/
   Gangster:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/62561}
+    summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
     imdb_list:
       - https://www.imdb.com/list/ls026270180/
       - https://www.imdb.com/list/ls000093502/
     trakt_list: 
-      - https://trakt.tv/users/42069bbq/lists/ultimate-gangster-movie-list
       - https://trakt.tv/users/iktnikola/lists/101-gangster-movies-you-must-see-before-you-die
-    summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
   History:
     template: {name: Genre, genre: History, poster: https://theposterdb.com/api/assets/58022}
     summary: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
@@ -88,29 +115,33 @@ collections:
     summary: A Mystery film centers on a person of authority, usually a detective, that is trying to solve a mysterious crime. The main protagonist uses clues, investigation, and logical reasoning. The biggest element in these films is a sense of “whodunit” suspense, usually created through visual cues and unusual plot twists.
   Pandemic:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/55837}
+    summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
     imdb_list:
       - https://www.imdb.com/list/ls041901506/
       - https://www.imdb.com/list/ls092321048/
     trakt_list:
       - https://trakt.tv/users/turkkildare/lists/best-worldwide-apocalypse-pandemic-zombie-movies
-    summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
   Romance:
     template: {name: Genre, genre: Romance, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/53062}
     summary: "Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to: love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
   Rom-Coms:
-    template: {name: Genre, genre: "Romance, Comedy", poster: https://theposterdb.com/api/assets/234741}
+    template: {name: Genre, genre: "Romance, Comedy", poster: https://theposterdb.com/api/assets/52015}
     summary: "Romantic Comedy is a genre that attempts to catch the viewer’s heart with the combination of love and humor. This sub-genre is light-hearted and usually places the two protagonists in humorus situation. Romantic-Comedy film revolves around a romantic ideal, such as true love. In the end, the ideal triumphs over the situation or obstacle, thus creating a happy ending."
   Science Fiction:
     template: {name: Genre, genre: Science Fiction, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/51772}
     summary: Science Fiction (Sci-Fi) film is a genre that incorporates hypothetical, science-based themes into the plot of the film. Often, this genre incorporates futuristic elements and technologies to explore social, political, and philosophical issues. The film itself is usually set in the future, either on earth or in space. Traditionally, a Science Fiction film will incorporate heroes, villains, unexplored locations, fantastical quests, and advanced technology.
   Short:
     template: {name: Genre, genre: Short, genre_not: "Documentary", poster: https://theposterdb.com/api/assets/53063}
-    summary: A collection of Short movies
+    summary: A collection of Short movies.
+  Spanish:
+    template: {name: Language, language: es, poster: https://theposterdb.com/api/assets/385430}
+    summary: A collection of movies that are spoken in Spanish.
   Sports:
     template: {name: Genre, genre: Sport, poster: https://theposterdb.com/api/assets/60371}
     summary: A Sport Film revolves around a sport setting, event, or an athlete. Often, these films will center on a single sporting event that carries significant importance. Sports films traditionally have a simple plot that builds up to the significant sporting event. This genre is known for incorporating film techniques to build anticipation and intensity. Sport films have a large range of sub-genres, from comedies to dramas, and are more likely than other genres to be based true-life events.
   Stand Up Comedy:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/49137}
+    summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
     imdb_list:
       - https://www.imdb.com/list/ls070221411/
       - https://www.imdb.com/list/ls086584751/
@@ -121,11 +152,10 @@ collections:
       - https://trakt.tv/users/spigot666/lists/stand-up-comedy
       - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
       - https://trakt.tv/users/rcastalker/lists/best-standup
-    summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
   Sword & Sorcery:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/74604}
-    imdb_list: https://www.imdb.com/list/ls022909805
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
+    imdb_list: https://www.imdb.com/list/ls022909805
   Thriller:
     template: {name: Genre, genre: Thriller, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/52019}
     summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.

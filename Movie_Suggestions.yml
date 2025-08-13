@@ -1,0 +1,256 @@
+templates:
+  Special Collection:
+    optional:
+      - poster
+    url_background: https://wallpaperbat.com/img/23094-cinema-hd-wallpaper-top-free-cinema-hd-background.jpg
+    url_poster: <<poster>>
+    sort_title: 00000b__<<sort>>
+    collection_order: release.desc
+    visible_library: true
+    visible_home: false
+    visible_shared: false
+    sync_mode: sync
+  Tautulli:
+    url_poster: <<poster>>
+    sort_title: 00000b__<<sort>>
+    collection_order: custom
+    sync_mode: sync
+collections:
+
+#####################################
+#        Special Collections        #
+#####################################
+
+  Jack's Favorite Horror:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/67646, sort: 1+}
+    imdb_list:
+      - list_id: ls591359533
+        limit: 0
+        sort_by: title.asc
+    summary: Jack's favorite Horror movies for Halloween season.
+    collection_order: random
+    delete_not_scheduled: true
+    schedule: range(09/20-11/30)
+    radarr_add_missing: true
+
+  NYT The 100 Best Movies of the 21st Century:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2+++++}
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541415-nyt-industry-21st-century-top-100
+    summary: "Between streaming services and superhero blockbusters, the way we watch and think about movies has changed dramatically over the past 25 years. But through that period of upheaval, which films have truly stood the test of time?\nTo find out, we embarked on an ambitious new project, polling more than 500 filmmakers, stars and influential film fans to vote for the 10 best movies (however they chose to define that) released since Jan. 1, 2000. In collaboration with The Upshot, we compiled their responses to create a list of the 100 best movies of the 21st century.\nVoters included Oscar-winning directors like Pedro Almodóvar, Sofia Coppola, Barry Jenkins and Guillermo del Toro, as well as acclaimed actors like Chiwetel Ejiofor and Mikey Madison, John Turturro and Julianne Moore. Now you can finally see the full list. Enjoy!"
+    collection_order: custom
+    radarr_add_missing: true
+    visible_home: true
+    visible_shared: true
+
+  NYT Readers' 100 Top Movies of the 21st Century:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2++++++}
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541416-nyt-reader-21st-century-top-100
+    summary: When we talk about the movies we love, every voice deserves a spotlight. So after publishing our official list of the best movies of the 21st century, compiled from the votes of 500-plus filmmakers, actors and other movie-industry professionals, we turned to New York Times readers, who cast more than 200,000 ballots of their own.
+    collection_order: custom
+    radarr_add_missing: true
+    visible_home: true
+    visible_shared: true
+
+  r/Criterion’s 100 Best Films of the 21st Century:
+    template: {name: Special Collection, sort: 2+++++++}
+    file_poster: .\config\posters\Criterion_Collection.png
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541417-r-criterion-21st-century-top-100
+    summary: After the NYTimes published their own list, Zach Domes posted a poll to r/Criterion. With submissions from more than 350 people, here are the top 100 films.
+    collection_order: custom
+    radarr_add_missing: true
+    visible_home: true
+    visible_shared: true
+
+  Trending Movies:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/480805, sort: 2++}
+    trakt_chart:
+      chart: trending
+      limit: 75
+    summary: A collection of movies trending across the internet
+    collection_order: random
+    visible_home: true
+    visible_shared: true
+
+  Popular Movies:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/481194, sort: 2+++}
+    trakt_chart:
+      chart: popular
+      limit: 75
+    summary: A collection of the most watched movies over the past week.
+    collection_order: random
+    visible_home: true
+    visible_shared: true
+
+  Latest releases:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/481156, sort: 2+}
+    trakt_list: 
+      - https://trakt.tv/users/garycrawfordgc/lists/latest-releases
+      - https://trakt.tv/users/giladg/lists/latest-releases
+    summary: A collection of newly-released movies in cinema and on streaming services.
+    visible_home: true
+    visible_shared: true
+
+  What's Being Watched on Plex:
+    template: {name: Tautulli, poster: https://theposterdb.com/api/assets/481157, sort: 2++++}
+    tautulli_watched:
+      list_days: 30
+      list_size: 10
+      list_buffer: 20
+      list_minimum: 1
+    summary: A collection of the most watched movies on JCFlix.
+    visible_home: true
+    visible_shared: true
+
+  Best Picture Winners:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 3+}
+    trakt_list:
+      - https://trakt.tv/users/thefork/lists/academy-awards-best-picture-winners
+    summary: "The Academy Award for Best Picture is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
+    radarr_add_missing: true
+    visible_home: range(02/01-03/31)
+    visible_shared: range(02/01-03/31)
+
+  Best Picture Nominees:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 3++}
+    trakt_list:
+      - https://trakt.tv/users/maxwelldeux/lists/academy-award-best-picture-nominees
+      - https://trakt.tv/users/ethan-tocco/lists/2025-oscars-best-picture
+    summary: "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
+    radarr_add_missing: true
+    visible_home: range(02/01-03/31)
+    visible_shared: range(02/01-03/31)
+
+  Criterion Collection:
+    template: {name: Special Collection, sort: 4+}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8541665-criterion-collection
+    summary: "Since 1984, the Criterion Collection has been dedicated to publishing important classic and contemporary films from around the world in editions that offer the highest technical quality and award-winning, original supplements. No matter the medium—from laserdisc to DVD and Blu-ray to streaming—Criterion has maintained its pioneering commitment to presenting each film as its maker would want it seen, in state-of-the-art restorations with special features designed to encourage repeated watching and deepen the viewer’s appreciation of the art of film. Films listed by spine numbers. Release with multiple films not found on Trakt are listed as individual items in this list in case CC did not release them as individual titles as well under a spine number."
+    collection_order: custom
+    file_poster: .\config\posters\Criterion_Collection.png
+    radarr_add_missing: true
+    visible_library: false
+
+  Criterion Collection (4k Releases):
+    template: {name: Special Collection, sort: 4++}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8540913-criterion-collection-4k
+    summary: "All 4k UHD releases from Criterion, including upcoming releases, sorted by spine number."
+    collection_order: custom
+    file_poster: .\config\posters\Criterion_Collection.png
+    radarr_add_missing: true
+    visible_library: false
+
+  Vinegar Syndrome:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/135180, sort: 4+++}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8540914-vinegar-syndrome
+    collection_order: custom
+    radarr_add_missing: true
+    visible_library: false
+
+  Vinegar Syndrome (4k Releases):
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/135180, sort: 4++++}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8540915-vinegar-syndrome-4k
+    collection_order: custom
+    radarr_add_missing: true
+    visible_library: false
+
+  Masters of Cinema:
+    template: {name: Special Collection, sort: 4++++++}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8540916-the-masters-of-cinema
+    summary: "In 2004, Eureka! established The Masters of Cinema Series, a specially curated Blu-ray and DVD collection of classic and world cinema using the finest available materials for home viewing. Films are presented in their original aspect ratio, in meticulous transfers created from recent restorations and / or the most pristine film elements available. The feature presentations are frequently supplemented by short films, documentaries, commentary tracks, deleted scenes, trailers, plus new and vintage footage. Each release also includes an accompanying booklet featuring rare imagery, newly commissioned essays and / or classic writings that take the reader further into the process of the films and the personalities of the filmmakers."
+    collection_order: alpha
+    radarr_add_missing: true
+    visible_library: false
+
+  SIFF (Seattle International Film Festival):
+    template: {name: Special Collection, sort: 4+++++}
+    tmdb_list: 
+      - https://www.themoviedb.org/list/8540917-siff-2025-film-festival
+    file_poster: .\config\posters\SIFF.png
+    summary: "Escape to the Reel World at the 51st Seattle International Film Festival. Celebrate independent cinema as a destination with screenings in person May 15–25 at venues across Seattle, and extend your vacation with select encores streaming on the SIFF Channel May 26–June 1."
+    collection_order: alpha
+    radarr_add_missing: true
+
+  Jack's 2025 Favorites:
+    template: {name: Special Collection, sort: 5+}
+    imdb_list: 
+      - list_id: ls591352722
+        limit: 0
+        sort_by: release.asc
+    summary: "Jack's favorite movies of 2025. Ordered by release date."
+    collection_order: release
+    visible_home: true
+    visible_shared: true
+
+  Jack's 2024 Favorites:
+    template: {name: Special Collection, sort: 5++}
+    imdb_list: 
+      - list_id: ls591352727
+        limit: 0
+        sort_by: release.asc
+    summary: Jack's favorite movies of 2024. Ordered by release date.
+    collection_order: release
+    visible_home: true
+    visible_shared: true
+
+  Jack's 2023 Favorites:
+    template: {name: Special Collection, sort: 5+++}
+    imdb_list: 
+      - list_id: ls591352762
+        limit: 0
+        sort_by: release.asc
+    summary: Jack's favorite movies of 2023. Ordered by release date.
+    collection_order: release
+    visible_home: true
+    visible_shared: true
+
+  Jack's 2022 Favorites:
+    template: {name: Special Collection, sort: 5++++}
+    imdb_list: 
+      - list_id: ls591352710
+        limit: 0
+        sort_by: release.asc
+    summary: Jack's favorite movies of 2022. Ordered by release date.
+    collection_order: release
+    visible_library: false
+
+  Jack Recommends:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/19138, sort: 6+}
+    collection_order: alpha
+    imdb_list: 
+      - list_id: ls591356184
+        limit: 0
+        sort_by: title.asc
+    summary: A collection of movies that are worth the watch.
+    visible_library: false
+
+  Asian Invasion:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/103786, sort: 6++}
+    trakt_list:
+      - https://trakt.tv/users/despoinap/lists/my-asian-movies-collection
+      - https://trakt.tv/users/hypo88/lists/asian-movies
+      - https://trakt.tv/users/matthewssa/lists/asian-movies
+      - https://trakt.tv/users/sgtcrapper/lists/asian-movies
+    summary: A collection of movies made in Asia or starring Asian Actors.
+    collection_order: random
+    visible_library: false
+
+  Movies For Paprika (Movies With Dogs):
+    template: {name: Special Collection, sort: 6+++}
+    trakt_list:
+      - https://trakt.tv/users/mraniki/lists/theme-dog
+      - https://trakt.tv/users/benfranklin/lists/dog-movies
+    imdb_list:
+      - list_id: ls063494147
+        limit: 0
+      - list_id: ls076837233
+        limit: 0
+    summary: A collection of movies that feature some cute pups.
+    file_poster: .\config\posters\Paprika_Poster.jpg
+    visible_library: false
