@@ -21,48 +21,50 @@ collections:
 #        Special Collections        #
 #####################################
 
+  Best Picture Nominees 2026:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 1+}
+    trakt_list:
+      - https://app.trakt.tv/users/ewascome/lists/oscar-best-picture-nominees-2026
+    summary: "The Academy Award for Best Picture is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
+    collection_order: random
+    radarr_add_missing: true
+    visible_home: range(01/01-03/31)
+    visible_shared: range(01/01-03/31)
+
+  Academy Awards 2026 Nominees:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 1++}
+    imdb_list:
+      - list_id: ls4102637648
+    summary: "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929.\n\nBest Picture\nBugonia\nF1\nFrankenstein\nHamnet\nMarty Supreme\nOne Battle After Another\nThe Secret Agent\nSentimental Value\nSinners\nTrain Dreams\n\nBest Director\nChloé Zhao, Hamnet\nJosh Safdie, Marty Supreme\nPaul Thomas Anderson, One Battle After Another\nJoachim Trier, Sentimental Value\nRyan Coogler, Sinners\n\nBest Actor\nTimothée Chalamet, Marty Supreme\nLeonardo DiCaprio, One Battle After Another\nEthan Hawke, Blue Moon\nMichael B. Jordan, Sinners\nWagner Moura, The Secret Agent\n\nBest Actress\nJessie Buckley, Hamnet\nRose Byrne, If I Had Legs I'd Kick You\nKate Hudson, Song Sung Blue\nRenate Reinsve, Sentimental Value\nEmma Stone, Bugonia\n\nBest Supporting Actor\nBenicio del Toro, One Battle After Another\nJacob Elordi, Frankenstein\nDelroy Lindo, Sinners\nSean Penn, One Battle After Another\nStellan Skarsgård, Sentimental Value\n\nBest Supporting Actress:\nElle Fanning, Sentimental Value\nInga Ibsdotter Lilleaas, Sentimental Value\nAmy Madigan, Weapons\nWunmi Mosaku, Sinners\nTeyana Taylor, One Battle After Another\n\nBest Original Screenplay\nBlue Moon\nSinners\nSentimental Value\nMarty Supreme\nIt Was Just An Accident\n\nBest Adapted Screenplay\nBugonia\nFrankenstein\nHamnet\nOne Battle After Another\nTrain Dreams\n\nBest Animated Film\nArco\nElio\nKPop Demon Hunters\nLittle Amélie or the Character of Rain\nZootopia 2\n\nBest International Feature Film\nThe Secret Agent, Brazil\nIt Was Just an Accident, France\nSentimental Value, Norway\nSirāt, Spain\nThe Voice of Hind Rajab, Tunisia\n\nBest Casting\nHamnet\nMarty Supreme\nOne Battle After Another\nThe Secret Agent\nSinners\n\nBest Cinematography\nFrankenstein\nMarty Supreme\nOne Battle After Another\nSinners\nTrain Dreams\n\nBest Visual Effects\nAvatar: Fire and Ash\nF1\nJurassic World Rebirth\nThe Lost Bus\nSinners\n\nBest Costume Design\nAvatar: Fire and Ash\nFrankenstein\nHamnet\nMarty Supreme\nSinners\n\nBest Sound\nF1\nFrankenstein\nOne Battle After Another\nSinners\nSirāt\n\nBest Editing\nF1\nMarty Supreme\nOne Battle After Another\nSentimental Value\nSinners\n\nBest Production Design\nFrankenstein\nHamnet\nMarty Supreme\nOne Battle After Another\nSinners\n\nBest Original Song\n\"Dear Me\", Diane Warren: Relentless\n\"Golden\", KPop Demon Hunters\n\"I Lied to You\", Sinners\n\"Sweet Dreams of Joy\", Viva Verdi!\n\"Train Dreams\", Train Dreams\n\nBest Documentary\nThe Alabama Solution\nCome See Me in the Good Light\nCutting Through Rocks\nMr. Nobody Against Putin\nThe Perfect Neighbor\n\nBest Makeup and Hairstyling\nFrankenstein\nKokuho\nThe Smashing Machine\nThe Ugly Stepsister\nSinners\n\nBest Original Score\nBugonia\nFrankenstein\nOne Battle After Another\nSinners\nHamnet\n\nBest Documentary Short\nAll the Empty Rooms\nArmed Only with a Camera\nChildren No More: Were and Are Gone\nThe Devil Is Busy\nPerfectly a Strangeness\n\nLive Action Short Film\nButcher's Stain\nThe Singers\nTwo People Exchanging Saliva\nA Friend of Dorothy\nJane Austen’s Period Drama\n\nAnimated Short Film\nThe Girl Who Cried Pearls\nThe Three Sisters\nButterfly\nForevergreen\nRetirement Plan"
+    radarr_add_missing: true
+    visible_home: range(01/01-03/31)
+    visible_shared: range(01/01-03/31)
+
   Jack's Favorite Horror:
     template: {name: Special Collection, poster: https://theposterdb.com/api/assets/67646, sort: 1+}
     imdb_list:
       - list_id: ls591359533
-        limit: 0
-        sort_by: title.asc
     summary: Jack's favorite Horror movies for Halloween season.
     collection_order: random
+    sync_mode: sync
     delete_not_scheduled: true
-    schedule: range(09/20-11/30)
-    radarr_add_missing: true
-
-  NYT The 100 Best Movies of the 21st Century:
-    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2+++++}
-    tmdb_list:
-      - https://www.themoviedb.org/list/8541415-nyt-industry-21st-century-top-100
-    summary: "Between streaming services and superhero blockbusters, the way we watch and think about movies has changed dramatically over the past 25 years. But through that period of upheaval, which films have truly stood the test of time?\nTo find out, we embarked on an ambitious new project, polling more than 500 filmmakers, stars and influential film fans to vote for the 10 best movies (however they chose to define that) released since Jan. 1, 2000. In collaboration with The Upshot, we compiled their responses to create a list of the 100 best movies of the 21st century.\nVoters included Oscar-winning directors like Pedro Almodóvar, Sofia Coppola, Barry Jenkins and Guillermo del Toro, as well as acclaimed actors like Chiwetel Ejiofor and Mikey Madison, John Turturro and Julianne Moore. Now you can finally see the full list. Enjoy!"
-    collection_order: custom
+    schedule: range(09/20-11/17)
     radarr_add_missing: true
     visible_home: true
     visible_shared: true
 
-  NYT Readers' 100 Top Movies of the 21st Century:
-    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2++++++}
-    tmdb_list:
-      - https://www.themoviedb.org/list/8541416-nyt-reader-21st-century-top-100
-    summary: When we talk about the movies we love, every voice deserves a spotlight. So after publishing our official list of the best movies of the 21st century, compiled from the votes of 500-plus filmmakers, actors and other movie-industry professionals, we turned to New York Times readers, who cast more than 200,000 ballots of their own.
-    collection_order: custom
+  Christmas in New York:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/111704, sort: 1++}
+    imdb_list:
+      - list_id: ls522095571
+    summary: A collection of Christmas movies set in New York City.
+    collection_order: random
+    sync_mode: sync
+    delete_not_scheduled: true
+    schedule: range(12/01-12/31)
     radarr_add_missing: true
-    visible_home: true
-    visible_shared: true
-
-  r/Criterion’s 100 Best Films of the 21st Century:
-    template: {name: Special Collection, sort: 2+++++++}
-    file_poster: .\config\posters\Criterion_Collection.png
-    tmdb_list:
-      - https://www.themoviedb.org/list/8541417-r-criterion-21st-century-top-100
-    summary: After the NYTimes published their own list, Zach Domes posted a poll to r/Criterion. With submissions from more than 350 people, here are the top 100 films.
-    collection_order: custom
-    radarr_add_missing: true
-    visible_home: true
-    visible_shared: true
+    visible_home: range(12/01-12/31)
+    visible_shared: range(12/01-12/31)
 
   Trending Movies:
     template: {name: Special Collection, poster: https://theposterdb.com/api/assets/480805, sort: 2++}
@@ -104,6 +106,31 @@ collections:
     visible_home: true
     visible_shared: true
 
+  NYT The 100 Best Movies of the 21st Century:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2+++++}
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541415-nyt-industry-21st-century-top-100
+    summary: "Between streaming services and superhero blockbusters, the way we watch and think about movies has changed dramatically over the past 25 years. But through that period of upheaval, which films have truly stood the test of time?\nTo find out, we embarked on an ambitious new project, polling more than 500 filmmakers, stars and influential film fans to vote for the 10 best movies (however they chose to define that) released since Jan. 1, 2000. In collaboration with The Upshot, we compiled their responses to create a list of the 100 best movies of the 21st century.\nVoters included Oscar-winning directors like Pedro Almodóvar, Sofia Coppola, Barry Jenkins and Guillermo del Toro, as well as acclaimed actors like Chiwetel Ejiofor and Mikey Madison, John Turturro and Julianne Moore. Now you can finally see the full list. Enjoy!"
+    collection_order: custom
+    radarr_add_missing: true
+
+  NYT Readers' 100 Top Movies of the 21st Century:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/618756, sort: 2++++++}
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541416-nyt-reader-21st-century-top-100
+    summary: When we talk about the movies we love, every voice deserves a spotlight. So after publishing our official list of the best movies of the 21st century, compiled from the votes of 500-plus filmmakers, actors and other movie-industry professionals, we turned to New York Times readers, who cast more than 200,000 ballots of their own.
+    collection_order: custom
+    radarr_add_missing: true
+
+  r/Criterion’s 100 Best Films of the 21st Century:
+    template: {name: Special Collection, sort: 2+++++++}
+    file_poster: .\config\posters\Criterion_Collection.png
+    tmdb_list:
+      - https://www.themoviedb.org/list/8541417-r-criterion-21st-century-top-100
+    summary: After the NYTimes published their own list, Zach Domes posted a poll to r/Criterion. With submissions from more than 350 people, here are the top 100 films.
+    collection_order: custom
+    radarr_add_missing: true
+
   Best Picture Winners:
     template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 3+}
     trakt_list:
@@ -117,7 +144,6 @@ collections:
     template: {name: Special Collection, poster: https://theposterdb.com/api/assets/40996, sort: 3++}
     trakt_list:
       - https://trakt.tv/users/maxwelldeux/lists/academy-award-best-picture-nominees
-      - https://trakt.tv/users/ethan-tocco/lists/2025-oscars-best-picture
     summary: "The Academy Awards are presented annually by the Academy of Motion Picture Arts and Sciences since the awards debuted in 1929."
     radarr_add_missing: true
     visible_home: range(02/01-03/31)
@@ -181,10 +207,10 @@ collections:
     template: {name: Special Collection, sort: 5+}
     imdb_list: 
       - list_id: ls591352722
-        limit: 0
         sort_by: release.asc
     summary: "Jack's favorite movies of 2025. Ordered by release date."
     collection_order: release
+    sync_mode: sync
     visible_home: true
     visible_shared: true
 
@@ -192,7 +218,6 @@ collections:
     template: {name: Special Collection, sort: 5++}
     imdb_list: 
       - list_id: ls591352727
-        limit: 0
         sort_by: release.asc
     summary: Jack's favorite movies of 2024. Ordered by release date.
     collection_order: release
@@ -203,10 +228,10 @@ collections:
     template: {name: Special Collection, sort: 5+++}
     imdb_list: 
       - list_id: ls591352762
-        limit: 0
         sort_by: release.asc
     summary: Jack's favorite movies of 2023. Ordered by release date.
     collection_order: release
+    sync_mode: sync
     visible_home: true
     visible_shared: true
 
@@ -214,24 +239,40 @@ collections:
     template: {name: Special Collection, sort: 5++++}
     imdb_list: 
       - list_id: ls591352710
-        limit: 0
         sort_by: release.asc
     summary: Jack's favorite movies of 2022. Ordered by release date.
     collection_order: release
+    sync_mode: sync
     visible_library: false
 
   Jack Recommends:
-    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/19138, sort: 6+}
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/19138, sort: 6++}
     collection_order: alpha
     imdb_list: 
       - list_id: ls591356184
-        limit: 0
         sort_by: title.asc
     summary: A collection of movies that are worth the watch.
+    sync_mode: sync
+    visible_library: false
+
+  New York in Film:
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/79262, sort: 6+}
+    imdb_list:
+      - list_id: ls076190022
+      - list_id: ls566237996
+      - list_id: ls064844403
+      - list_id: ls003603028
+      - list_id: ls4154921792
+    summary: A collection of movies set in New York City.
+    collection_order: random
+    sync_mode: sync
+    radarr_add_missing: true
+    visible_home: false
+    visible_shared: false
     visible_library: false
 
   Asian Invasion:
-    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/103786, sort: 6++}
+    template: {name: Special Collection, poster: https://theposterdb.com/api/assets/103786, sort: 6+++}
     trakt_list:
       - https://trakt.tv/users/despoinap/lists/my-asian-movies-collection
       - https://trakt.tv/users/hypo88/lists/asian-movies
@@ -241,16 +282,32 @@ collections:
     collection_order: random
     visible_library: false
 
+  Hong Kong Movies:
+    template: {name: Special Collection, sort: 6++++}
+    trakt_list:
+      - https://app.trakt.tv/users/pss-local/lists/hongkong?sort_how=asc
+      - https://app.trakt.tv/users/alizaza/lists/hong-kong-essentials?sort_how=desc
+      - https://app.trakt.tv/users/midnitekrawlr/lists/hong-kong-cinema
+    imdb_list:
+      - list_id: ls026677131
+      - list_id: ls076260378
+      - list_id: ls056259635
+      - list_id: ls069516892
+      - list_id: ls081633236
+      - list_id: ls002185749
+    summary: The influence of Hong Kong cinema can be seen far and wide. Bruce Lee remains a global icon, his martial arts movies classics. The groundbreaking action of The Matrix would never have come about if not for John Woo films and the action choreography of Yuen Woo-ping. Quentin Tarantino ripped off Ringo Lam’s City on Fire for his debut, 1992’s Reservoir Dogs. Moonlight owes much to the style of Wong Kar-wai films and the auteur was an influence acknowledged by Sofia Coppola when she collected the Oscar for Best Original Screenplay for Lost in Translation. While Oscar winning film, The Departed is a remake of Infernal Affairs.
+    collection_order: random
+    visible_library: false
+
   Movies For Paprika (Movies With Dogs):
-    template: {name: Special Collection, sort: 6+++}
+    template: {name: Special Collection, sort: 6+++++}
     trakt_list:
       - https://trakt.tv/users/mraniki/lists/theme-dog
       - https://trakt.tv/users/benfranklin/lists/dog-movies
     imdb_list:
       - list_id: ls063494147
-        limit: 0
       - list_id: ls076837233
-        limit: 0
     summary: A collection of movies that feature some cute pups.
+    sync_mode: sync
     file_poster: .\config\posters\Paprika_Poster.jpg
     visible_library: false

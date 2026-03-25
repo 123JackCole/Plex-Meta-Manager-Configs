@@ -2,12 +2,14 @@ templates:
   Genre:
     optional: 
       - genre_not
+      - exclusions
     smart_filter:
       sort_by: title.asc
       validate: true
       all:
         genre: <<genre>>
         genre.not: <<genre_not>>
+        collection.not: <<exclusions>>
     url_poster: <<poster>>
     sort_title: 00000d_<<collection_name>>
     sync_mode: sync
@@ -16,6 +18,8 @@ templates:
     sort_title: 00000d_<<collection_name>>
     sync_mode: sync
     collection_order: alpha
+    filters:
+      collection.not: <<exclusions>>
   Language:
     url_poster: <<poster>>
     sort_title: 00000d_<<collection_name>>
@@ -25,6 +29,10 @@ templates:
     sync_mode: sync
     collection_order: alpha
 collections:
+  template_variables:
+    exclusions:
+        - Christmas Master
+        - Christmas in New York Master
 
 ######################################################
 #                Genre Collections                   #
@@ -49,9 +57,9 @@ collections:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/66141}
     summary: A collection of Movies about food. The best of the best food porn. Often feel good esque.
     imdb_list:
-      - https://www.imdb.com/list/ls591352743/ # mine
-      - https://www.imdb.com/list/ls057674149/
-      - https://www.imdb.com/list/ls006211669/
+      - list_id: ls591352743 # mine
+      - list_id: ls057674149
+      - list_id: ls006211669
     radarr_add_missing: true
   Comedy:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/51397}
@@ -59,7 +67,10 @@ collections:
     plex_search:
       genre: Comedy
       genre.not: "Documentary, Short"
-      collection.not: Stand Up Comedy
+      collection.not: 
+        - Stand Up Comedy
+        - Christmas Master
+        - Christmas in New York Master
   Crime:
     template: {name: Genre, genre: Crime, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/53057}
     summary: Crime film is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
@@ -81,18 +92,18 @@ collections:
     trakt_list:
       - https://trakt.tv/users/shana71/lists/feel-good-movies
     imdb_list:
-      - https://www.imdb.com/list/ls021615613/
-      - https://www.imdb.com/list/ls066599507/
-      - https://www.imdb.com/list/ls052580452/
-      - https://www.imdb.com/list/ls025952122/
-      - https://www.imdb.com/list/ls050578618/
-      - https://www.imdb.com/list/ls058430399/
+      - list_id: ls021615613
+      - list_id: ls066599507
+      - list_id: ls052580452
+      - list_id: ls025952122
+      - list_id: ls050578618
+      - list_id: ls058430399
   Gangster:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/62561}
     summary: Gangster film is a sub-genre of crime films that center on organized crime or the mafia. Often the plot revolves around the rise and fall of an organized crime leader. Many Gangster films explore the destructive nature of organized crime, while others attempt to show the humanity of the individual characters.
     imdb_list:
-      - https://www.imdb.com/list/ls026270180/
-      - https://www.imdb.com/list/ls000093502/
+      - list_id: ls026270180
+      - list_id: ls000093502
     trakt_list: 
       - https://trakt.tv/users/iktnikola/lists/101-gangster-movies-you-must-see-before-you-die
   History:
@@ -117,8 +128,8 @@ collections:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/55837}
     summary: A Pandemic film resolves around widespread viruses, plagues, and diseases.
     imdb_list:
-      - https://www.imdb.com/list/ls041901506/
-      - https://www.imdb.com/list/ls092321048/
+      - list_id: ls041901506
+      - list_id: ls092321048
     trakt_list:
       - https://trakt.tv/users/turkkildare/lists/best-worldwide-apocalypse-pandemic-zombie-movies
   Romance:
@@ -143,10 +154,10 @@ collections:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/49137}
     summary: Stand-up comedy is a comedic style in which a comedian performs in front of a live audience, speaking directly to them through a microphone. Comedians give the illusion that they are dialoguing, but in actuality, they are monologuing a grouping of humorous stories, jokes and one-liners, typically called a shtick, routine, act, or set. Some stand-up comedians use props, music or magic tricks to enhance their acts. Stand-up comedians perform quasi-autobiographical and fictionalized extensions of their offstage selves.
     imdb_list:
-      - https://www.imdb.com/list/ls070221411/
-      - https://www.imdb.com/list/ls086584751/
-      - https://www.imdb.com/list/ls086022668/
-      - https://www.imdb.com/list/ls049792208/
+      - list_id: ls070221411
+      - list_id: ls086584751
+      - list_id: ls086022668
+      - list_id: ls049792208
     trakt_list:
       - https://trakt.tv/users/giladg/lists/stand-up-comedy
       - https://trakt.tv/users/spigot666/lists/stand-up-comedy
@@ -155,7 +166,8 @@ collections:
   Sword & Sorcery:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/74604}
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
-    imdb_list: https://www.imdb.com/list/ls022909805
+    imdb_list: 
+      - list_id: ls022909805
   Thriller:
     template: {name: Genre, genre: Thriller, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/52019}
     summary: Thriller Film is a genre that revolves around anticipation and suspense. The aim for Thrillers is to keep the audience alert and on the edge of their seats. The protagonist in these films is set against a problem – an escape, a mission, or a mystery. No matter what sub-genre a Thriller film falls into, it will emphasize the danger that the protagonist faces. The tension with the main problem is built on throughout the film and leads to a highly stressful climax.

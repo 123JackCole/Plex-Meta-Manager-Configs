@@ -1,0 +1,34 @@
+templates:
+  Hidden:
+    # This keeps the collection in the database but invisible to users
+    visible_library: false
+    visible_home: false
+    visible_shared: false
+    # Prevents items from being removed if you accidentally run with different settings
+    sync_mode: sync
+
+collections:
+  ######################################################
+  #             Background Filter Collections          #
+  ######################################################
+
+  Christmas Master:
+    template: {name: Hidden}
+    trakt_list:
+      - https://trakt.tv/users/movistapp/lists/christmas-movies
+      - https://trakt.tv/users/galacticboy/lists/xmas-sync
+      - https://trakt.tv/users/hdlists/lists/christmas-movies
+      - https://trakt.tv/users/benfranklin/lists/christmas-x-mas-holiday-movies
+      - https://trakt.tv/users/tass22/lists/christmas-movie-wonderland
+    imdb_list:
+      - list_id: ls025976544
+      - list_id: ls003863000
+      - list_id: ls027454200
+      - list_id: ls591359758 # my list
+    summary: Master background collection for Christmas filtering.
+
+  Christmas in New York Master:
+    template: {name: Hidden}
+    imdb_list:
+      - list_id: ls522095571
+    summary: Master background collection for NYC-specific Christmas filtering.

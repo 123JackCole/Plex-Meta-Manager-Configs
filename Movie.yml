@@ -3,6 +3,7 @@ templates:
       optional:
         - collection
         - movie
+        - poster
       tmdb_collection_details: <<collection>>
       tmdb_movie: <<movie>>
       sort_title: 00000g_<<collection_name>>
@@ -32,20 +33,12 @@ collections:
   28 Days/Weeks Later:
     template: {name: Collection, collection: 1565, poster: https://theposterdb.com/api/assets/4963}
     name_mapping: 28 Days-Weeks Later
-  3 Ninja:
-    template: {name: Collection, collection: 71458, poster: https://theposterdb.com/api/assets/18124}
-  30 Days of Night:
-    template: {name: Collection, collection: 91660, poster: https://theposterdb.com/api/assets/79831}
   "300":
     template: {name: Collection, collection: 125570, poster: https://theposterdb.com/api/assets/5575}
-  47 Meters Down:
-    template: {name: Collection, collection: 635922, poster: https://theposterdb.com/api/assets/21610}
   48 Hrs:
     template: {name: Collection, collection: 93295, poster: https://theposterdb.com/api/assets/20769}
   8MM:
     template: {name: Collection, collection: 387618, poster: https://theposterdb.com/api/assets/226994}
-  976-Evil:
-    template: {name: Collection, collection: 135501, poster: https://theposterdb.com/api/assets/48460}
   The ABCs of Death:
     template: {name: Collection, collection: 207632, poster: https://image.tmdb.org/t/p/original//fzrKAtcg75Je7N0NereOdKePHDM.jpg}
   Ace Ventura:
@@ -56,8 +49,6 @@ collections:
     template: {name: Collection, collection: 97445, poster: https://theposterdb.com/api/assets/96172}
   Airplane:
     template: {name: Collection, collection: 91663, poster: https://theposterdb.com/api/assets/36706}
-  Airport:
-    template: {name: Collection, collection: 33938, poster: https://theposterdb.com/api/assets/44504}
   Aladdin:
     template: {name: Collection, collection: 86027, poster: https://theposterdb.com/api/assets/89795}
   Alex Cross:
@@ -66,24 +57,18 @@ collections:
     template: {name: Collection, collection: 261307, poster: https://theposterdb.com/api/assets/72185}
   Alien:
     template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/43458}
-  Alien Nation Collection:
-    template: {name: Collection, collection: 174245, poster: https://www.themoviedb.org/t/p/original/sXdKjBbdBimtARvWdVFEsxc4kxu.jpg}
   All Dogs Go to Heaven:
     template: {name: Collection, collection: 140910, poster: https://theposterdb.com/api/assets/146348}
   Alligator:
     template: {name: Collection, collection: 124934, poster: https://www.themoviedb.org/t/p/original/5XOOxT9Lt8tIRahE5judKxjUjNE.jpg}
   Almighty:
     template: {name: Collection, collection: 124949, poster: https://theposterdb.com/api/assets/51450}
-  Alvin and the Chipmunks:
-    template: {name: Collection, collection: 167613, poster: https://theposterdb.com/api/assets/47178}
   The Amazing Spider-Man:
     template: {name: Collection, collection: 125574, poster: https://theposterdb.com/api/assets/107621}
   American Civil War:
     template: {name: Collection, collection: 725681, poster: https://theposterdb.com/api/assets/84535}
   American Graffiti:
     template: {name: Collection, collection: 124950, poster: https://theposterdb.com/api/assets/131492}
-  American Ninja:
-    template: {name: Collection, collection: 91945, poster: https://theposterdb.com/api/assets/205835}
   American Pie:
     template: {name: Collection, collection: 2806, poster: https://theposterdb.com/api/assets/951}
   American Pie (Spin-off):
@@ -131,8 +116,6 @@ collections:
     template: {name: Collection, collection: 100965, poster: https://theposterdb.com/api/assets/20692}
   Atlas Shrugged:
     template: {name: Collection, collection: 166381, poster: https://theposterdb.com/api/assets/83646}
-  Atomic Blonde:
-    template: {name: Collection, collection: 524837, poster: https://theposterdb.com/api/assets/106203}
   Attack on Titan:
     template: {name: Collection, collection: 370411, poster: https://theposterdb.com/api/assets/26008}
   Attraction:
@@ -147,8 +130,6 @@ collections:
     template: {name: Collection, collection: 115762, poster: https://theposterdb.com/api/assets/43455}
   Babe:
     template: {name: Collection, collection: 9435, poster: https://theposterdb.com/api/assets/17404}
-  Baby Driver:
-    template: {name: Collection, collection: 726865, poster: https://theposterdb.com/api/assets/158108}
   The Babysitter:
     template: {name: Collection, collection: 737382, poster: https://theposterdb.com/api/assets/113632}
   Bachelor Party:
@@ -164,7 +145,7 @@ collections:
   Bad Moms:
     template: {name: Collection, collection: 487376, poster: https://theposterdb.com/api/assets/2888}
   Bad Santa:
-    template: {name: Collection, collection: 423173, poster: https://theposterdb.com/api/assets/32569}
+    template: {name: Collection, collection: 423173, poster: https://theposterdb.com/api/assets/37643}
   Balto:
     template: {name: Collection, collection: 117693, poster: https://theposterdb.com/api/assets/16920}
   Bambi:
@@ -293,7 +274,8 @@ collections:
     template: {name: Collection, collection: 223564, poster: https://theposterdb.com/api/assets/17441}
   Charlie Brown:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/188202}
-    imdb_list: https://www.imdb.com/list/ls054850259/
+    imdb_list: 
+      - list_id: ls054850259
     summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Charlie's Angels:
     template: {name: Collection, collection: 86029, poster: https://theposterdb.com/api/assets/15409}
@@ -348,7 +330,8 @@ collections:
     template: {name: Collection, collection: 358930, poster: https://theposterdb.com/api/assets/267446}
   Cornetto Trilogy:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/234}
-    imdb_list: https://www.imdb.com/list/ls068623110/
+    imdb_list: 
+      - list_id: ls068623110
     summary: An anthology series of British comedic genre films directed by Edgar Wright, written by Wright and Simon Pegg, produced by Nira Park, and starring Pegg and Nick Frost. The trilogy consists of Shaun of the Dead (2004), Hot Fuzz (2007), and The World's End (2013).
   The Craft:
     template: {name: Collection, collection: 758369, poster: https://theposterdb.com/api/assets/109480}
@@ -540,7 +523,8 @@ collections:
     template: {name: Collection, collection: 8864, poster: https://theposterdb.com/api/assets/66195}
   Final Fantasy:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/7212}
-    imdb_list: https://www.imdb.com/list/ls022264056/
+    imdb_list: 
+      - list_id: ls022264056
     summary: A collection of films based off or closely associated with the Final Fantasy video games.
   Finding Nemo:
     template: {name: Collection, collection: 137697, poster: https://theposterdb.com/api/assets/22630}
@@ -560,8 +544,6 @@ collections:
     template: {name: Collection, collection: 100970, poster: https://theposterdb.com/api/assets/78286}
   Frankenstein (Universal):
     template: {name: Collection, collection: 218406, poster: https://theposterdb.com/api/assets/80755}
-  Free Guy:
-    template: {name: Collection, collection: 861415, poster: https://theposterdb.com/api/assets/210243}
   Free Willy:
     template: {name: Collection, collection: 9328, poster: https://theposterdb.com/api/assets/17567}
   Friday:
@@ -745,7 +727,7 @@ collections:
   I Spit on Your Grave:
     template: {name: Collection, collection: 219691, poster: https://theposterdb.com/api/assets/8280}
   Ice Age:
-    template: {name: Collection, collection: 8354, movie: "79218, 717095, 387893", poster: https://theposterdb.com/api/assets/19083}
+    template: {name: Collection, collection: 8354, movie: "79218, 387893", poster: https://theposterdb.com/api/assets/19083}
   The Incredibles:
     template: {name: Collection, collection: 468222, poster: https://theposterdb.com/api/assets/28557}
   In Search of Darkness:
@@ -854,7 +836,8 @@ collections:
   Living Dead:
     template: {name: Collection, collection: 261590, movie: "13025, 29426", poster: https://theposterdb.com/api/assets/60043}
   Long Arm of the Law:
-    template: {name: Collection, collection: 289763, poster: https://www.imdb.com/title/tt0088107/mediaviewer/rm2688841984}
+    template: {name: Collection, collection: 289763}
+    file_poster: C:\Plex-Stack\Kometa\config\posters\LongArmOfTheLaw.jpg
   Lone Wolf and Cub:
     template: {name: Collection, collection: 102128, poster: https://theposterdb.com/api/assets/96643}
   Look Who's Talking:
@@ -879,7 +862,8 @@ collections:
     template: {name: Collection, movie: "211387, 76122, 119569, 253980, 505945, 758025, 413279, 441829, 76535", poster: https://theposterdb.com/api/assets/153891}
   The Man with No Name:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/54596}
-    imdb_list: https://www.imdb.com/list/ls023916334/
+    imdb_list: 
+      - list_id: ls023916334
     summary: An Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). The series has become known for establishing the Spaghetti Western genre, and inspiring the creation of many more Spaghetti Western films. The three films are consistently listed among the best rated Western films in history.
   Marvel Rising:
     template: {name: Collection, collection: 627234, poster: https://theposterdb.com/api/assets/172296}
@@ -926,7 +910,8 @@ collections:
     template: {name: Collection, collection: 137696, poster: https://theposterdb.com/api/assets/161790}
   Monty Python:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/148489}
-    imdb_list: https://www.imdb.com/list/ls072012494/
+    imdb_list: 
+      - list_id: ls072012494
     summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
   Mortal Kombat:
     template: {name: Collection, collection: 9818, movie: "664767, 460465", poster: https://theposterdb.com/api/assets/6106}
@@ -980,8 +965,6 @@ collections:
     template: {name: Collection, collection: 66761, poster: https://theposterdb.com/api/assets/174215}
   Ouija:
     template: {name: Collection, collection: 426103, poster: https://theposterdb.com/api/assets/217698}
-  Oz:
-    template: {name: Collection, collection: 627517, movie: "13155, 68728", poster: https://theposterdb.com/api/assets/60207}
   Pacific Rim:
     template: {name: Collection, collection: 363369, poster: https://theposterdb.com/api/assets/3397}
   The Pact:
@@ -1051,7 +1034,7 @@ collections:
   Pumpkinhead:
     template: {name: Collection, collection: 123256, poster: https://theposterdb.com/api/assets/87687}
   The Punisher:
-    template: {name: Collection, collection: 635362, movie: "8867, 120605", poster: https://theposterdb.com/api/assets/61653}
+    template: {name: Collection, collection: 635362, movie: "8867", poster: https://theposterdb.com/api/assets/61653}
   The Purge:
     template: {name: Collection, collection: 256322, poster: https://theposterdb.com/api/assets/8515}
   Quarantine:
@@ -1288,7 +1271,7 @@ collections:
     template: {name: Collection, collection: 131296, poster: https://theposterdb.com/api/assets/4819}
   The Three Mothers:
     template: {name: Trakt, poster: https://www.themoviedb.org/t/p/original/8i0s5eiDdCWiAnMfiTchEmPATlc.jpg}
-    trakt_list: https://trakt.tv/lists/official/the-three-mothers-collection
+    trakt_list: https://trakt.tv/lists/trilogy-dario-argento-s-three-mothers
     summary: 'A supernatural horror film series by Italian film director Dario Argento. Each film deals with one of the titular "Mothers", a triumvirate of ancient and evil witches whose powerful magic allows them to manipulate world events on a global scale.'
   The Thing:
     template: {name: Collection, collection: 479888, poster: https://theposterdb.com/api/assets/95450}
@@ -1296,8 +1279,6 @@ collections:
     template: {name: Collection, collection: 170452, poster: https://theposterdb.com/api/assets/77222}
   Tomb Raider:
     template: {name: Collection, collection: 2467, poster: https://theposterdb.com/api/assets/73151}
-  The Tomorrow War:
-    template: {name: Collection, collection: 848922, poster: https://www.themoviedb.org/t/p/original/3YylRW8holkhX6IkOUxAy93DWWs.jpg}
   Top Gun:
     template: {name: Collection, collection: 531330, poster: https://theposterdb.com/api/assets/235879}
   The Toxic Avenger:
@@ -1324,7 +1305,8 @@ collections:
     template: {name: Collection, collection: 166379, poster: https://theposterdb.com/api/assets/167879}
   Unbreakable:
     template: {name: Collection, poster: https://theposterdb.com/api/assets/56425}
-    imdb_list: https://www.imdb.com/list/ls022101006/
+    imdb_list: 
+      - list_id: ls022101006
     summary: The Unbreakable trilogy, officially known as the Eastrail 177 Trilogy, is an American superhero thriller and psychological horror film series. The films were written, produced, and directed by M. Night Shyamalan. The trilogy consists of Unbreakable (2000), Split (2016), and Glass (2019).
   Under Siege:
     template: {name: Collection, collection: 112399, poster: https://theposterdb.com/api/assets/117282}
