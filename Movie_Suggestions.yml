@@ -203,6 +203,17 @@ collections:
     collection_order: alpha
     radarr_add_missing: true
 
+  Jack's 2026 Favorites:
+    template: {name: Special Collection, sort: 5+}
+    imdb_list: 
+      - list_id: ls4158453778
+        sort_by: release.asc
+    summary: "Jack's favorite movies of 2026. Ordered by release date."
+    collection_order: release
+    sync_mode: sync
+    visible_home: true
+    visible_shared: true
+
   Jack's 2025 Favorites:
     template: {name: Special Collection, sort: 5+}
     imdb_list: 

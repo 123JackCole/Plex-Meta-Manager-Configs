@@ -2,37 +2,40 @@ templates:
   Genre:
     optional: 
       - genre_not
-      - exclusions
     smart_filter:
       sort_by: title.asc
       validate: true
       all:
         genre: <<genre>>
         genre.not: <<genre_not>>
-        collection.not: <<exclusions>>
+        label.not: 
+        - ChristmasMasterFilter
+        - ChristmasInNewYorkMasterFilter
     url_poster: <<poster>>
     sort_title: 00000d_<<collection_name>>
     sync_mode: sync
   Other Genre:
     url_poster: <<poster>>
     sort_title: 00000d_<<collection_name>>
-    sync_mode: sync
     collection_order: alpha
     filters:
-      collection.not: <<exclusions>>
+      label.not: 
+        - ChristmasMasterFilter
+        - ChristmasInNewYorkMasterFilter
+    sync_mode: sync
   Language:
     url_poster: <<poster>>
     sort_title: 00000d_<<collection_name>>
-    plex_all: true
-    filters:
-      original_language: <<language>> # Uses TMDb original language ISO 639-1 codes (https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) to match
+    # plex_all: true
+    smart_filter:
+      sort_by: title.asc
+      validate: true
+      audio_language: <<language>> # Uses TMDb original language ISO 639-1 codes (https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) to match
+      label.not: 
+        - ChristmasMasterFilter
+        - ChristmasInNewYorkMasterFilter
     sync_mode: sync
-    collection_order: alpha
 collections:
-  template_variables:
-    exclusions:
-        - Christmas Master
-        - Christmas in New York Master
 
 ######################################################
 #                Genre Collections                   #
@@ -58,8 +61,11 @@ collections:
     summary: A collection of Movies about food. The best of the best food porn. Often feel good esque.
     imdb_list:
       - list_id: ls591352743 # mine
-      - list_id: ls057674149
       - list_id: ls006211669
+    trakt_list:
+      - https://app.trakt.tv/users/veli87/lists/food-movies
+      - https://app.trakt.tv/users/rizreflects/lists/foodie-movies
+      - https://app.trakt.tv/users/idelo/lists/food-movies
     radarr_add_missing: true
   Comedy:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/51397}
@@ -69,8 +75,9 @@ collections:
       genre.not: "Documentary, Short"
       collection.not: 
         - Stand Up Comedy
-        - Christmas Master
-        - Christmas in New York Master
+      label.not: 
+        - ChristmasMasterFilter
+        - ChristmasInNewYorkMasterFilter
   Crime:
     template: {name: Genre, genre: Crime, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/53057}
     summary: Crime film is a genre that revolves around the action of a criminal mastermind. A Crime film will often revolve around the criminal himself, chronicling his rise and fall. Some Crime films will have a storyline that follows the criminal's victim, yet others follow the person in pursuit of the criminal. This genre tends to be fast paced with an air of mystery – this mystery can come from the plot or from the characters themselves.
@@ -90,7 +97,7 @@ collections:
     template: {name: Other Genre, poster: https://i.imgur.com/RHSV1jm.jpeg}
     summary: A collection of movies that make you feel good.
     trakt_list:
-      - https://trakt.tv/users/shana71/lists/feel-good-movies
+      - https://app.trakt.tv/users/shana71/lists/feel-good-movies
     imdb_list:
       - list_id: ls021615613
       - list_id: ls066599507
@@ -105,7 +112,7 @@ collections:
       - list_id: ls026270180
       - list_id: ls000093502
     trakt_list: 
-      - https://trakt.tv/users/iktnikola/lists/101-gangster-movies-you-must-see-before-you-die
+      - https://app.trakt.tv/users/iktnikola/lists/101-gangster-movies-you-must-see-before-you-die
   History:
     template: {name: Genre, genre: History, poster: https://theposterdb.com/api/assets/58022}
     summary: History film is a genre that takes historical events and people and interprets them in a larger scale. Historical accuracy is not the main focus, but rather the telling of a grandiose story. The drama of an History film is often accentuated by a sweeping musical score, lavish costumes, and high production value.
@@ -131,7 +138,7 @@ collections:
       - list_id: ls041901506
       - list_id: ls092321048
     trakt_list:
-      - https://trakt.tv/users/turkkildare/lists/best-worldwide-apocalypse-pandemic-zombie-movies
+      - https://app.trakt.tv/users/turkkildare/lists/best-worldwide-apocalypse-pandemic-zombie-movies
   Romance:
     template: {name: Genre, genre: Romance, genre_not: "Documentary, Short", poster: https://theposterdb.com/api/assets/53062}
     summary: "Romance film can be defined as a genre wherein the plot revolves around the love between two protagonists. This genre usually has a theme that explores an issue within love, including but not limited to: love at first sight, forbidden love, love triangles, and sacrificial love. The tone of Romance film can vary greatly. Whether the end is happy or tragic, Romance film aims to evoke strong emotions in the audience."
@@ -159,10 +166,10 @@ collections:
       - list_id: ls086022668
       - list_id: ls049792208
     trakt_list:
-      - https://trakt.tv/users/giladg/lists/stand-up-comedy
-      - https://trakt.tv/users/spigot666/lists/stand-up-comedy
-      - https://trakt.tv/users/lish408/lists/stand-up-comedy-specials
-      - https://trakt.tv/users/rcastalker/lists/best-standup
+      - https://app.trakt.tv/users/spigot666/lists/stand-up-comedy
+      - https://app.trakt.tv/users/giladg/lists/stand-up-comedy
+      - https://app.trakt.tv/users/lish408/lists/stand-up-comedy-specials
+      - https://app.trakt.tv/users/rcastalker/lists/best-standup
   Sword & Sorcery:
     template: {name: Other Genre, poster: https://theposterdb.com/api/assets/74604}
     summary: Sword and Sorcery film is a sub-genre of Fantasy that tend to be more plot-driven. These films rely on heavy action and battle scenes. Common themes in Sword and Sorcery films include a rescue mission, saving a princess, and battling a fantastical monster. The worlds and characters in these films are often much less developed than in other fantasy sub-genres. Of all the Fantasy sub-genres, Sword and Sorcery is most likely to be geared towards a younger audience, as many of these films are animated.
